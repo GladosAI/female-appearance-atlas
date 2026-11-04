@@ -1,9 +1,9 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const {pathToFileURL}=require('node:url'),{promisify}=require('node:util'),{execFile}=require('node:child_process');
-const {playwright:{chromium},sharp,browserOptions}=require('./runtime.cjs');
+const {launchBrowser,sharp}=require('./runtime.cjs');
 const root=path.resolve(__dirname,'../..'),output=path.join(root,'.work/qa');fs.mkdirSync(output,{recursive:true});
 const base=process.env.ATLAS_TEST_URL||pathToFileURL(path.join(root,'index.html')).href;
-(async()=>{const browser=await chromium.launch({...browserOptions,headless:true});try{
+(async()=>{const browser=await launchBrowser();try{
  const page=await browser.newPage({acceptDownloads:true,viewport:{width:1280,height:900}}),errors=[],writes=[];
  page.on('pageerror',error=>errors.push(error.message));page.on('request',request=>{if(!['GET','HEAD'].includes(request.method()))writes.push(request.url())});
  await page.goto(new URL('contribute.html',base).href);await page.locator('#category option').first().waitFor({state:'attached'});
@@ -22,7 +22,7 @@ const base=process.env.ATLAS_TEST_URL||pathToFileURL(path.join(root,'index.html'
  await page.setViewportSize({width:390,height:844});assert(await page.locator('main').evaluate(e=>e.scrollWidth<=e.clientWidth+1));await page.screenshot({path:path.join(output,'contribution-mobile.png')});
  assert.deepEqual(writes,[],'The contribution form only reads local files and downloads drafts');
  const key='female-beauty-appearance-library-v2',card={id:'qa-backup-card',name:'备份检查',notes:'原备注',selected:['AH020','SO093'],createdAt:'2026-01-01T00:00:00Z',updatedAt:'2026-01-01T00:00:00Z'};
- await page.addInitScript(({key,card})=>{if(!localStorage.getItem(key))localStorage.setItem(key,JSON.stringify({schema:'female-appearance-library/v2',lastAddedCardId:card.id,cards:[card]}))},{key,card});
+ await page.goto(base);await page.evaluate(({key,card})=>localStorage.setItem(key,JSON.stringify({schema:'female-appearance-library/v2',lastAddedCardId:card.id,cards:[card]})),{key,card});
  await page.goto(base+'?view=card');assert((await page.locator('#card-backup-status').innerText()).includes('尚未导出'));
  const backupEvent=page.waitForEvent('download');await page.locator('[data-card-action="export-library"]').click();const backup=JSON.parse(fs.readFileSync(await(await backupEvent).path(),'utf8'));assert(backup.exported_at);assert.equal(backup.cards[0].id,card.id);
  await page.waitForFunction(()=>document.getElementById('card-backup-status').dataset.changed==='false');await page.reload();await page.waitForFunction(()=>document.getElementById('card-backup-status').dataset.changed==='false');
