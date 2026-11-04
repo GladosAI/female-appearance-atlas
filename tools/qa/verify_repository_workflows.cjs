@@ -10,6 +10,10 @@ const payload={schema:'female-appearance-library/v2',cards:[{id:'qa-reference-ca
  const page=await browser.newPage({viewport:{width:1365,height:950}}),errors=[];page.on('pageerror',error=>errors.push(error.message));
  await page.addInitScript(({key,payload})=>{if(!localStorage.getItem(key))localStorage.setItem(key,JSON.stringify(payload));Object.defineProperty(navigator,'clipboard',{value:{writeText:async value=>{window.lastCopiedPrompt=value}},configurable:true})},{key,payload});
  const base=process.env.ATLAS_TEST_URL||pathToFileURL(path.join(root,'index.html')).href;
+ const waitForSavedSelection=(selected,prompt)=>page.waitForFunction(({historyKey,selected,prompt})=>{
+  const latest=JSON.parse(localStorage.getItem(historyKey)||'[]').find(snapshot=>snapshot.cardKey==='qa-reference-card');
+  return latest&&latest.prompt===prompt&&JSON.stringify([...latest.selected].sort())===JSON.stringify([...selected].sort());
+ },{historyKey,selected,prompt},{timeout:10000});
  await page.goto(base+'?view=card&card=qa-reference-card');
  const galleryOrder=()=>page.locator('#selected-grid > .entry').evaluateAll(elements=>elements.map(element=>element.querySelector('[data-detail]').dataset.detail));
  const originalLibrary=await page.evaluate(key=>localStorage.getItem(key),key);
@@ -31,17 +35,18 @@ const payload={schema:'female-appearance-library/v2',cards:[{id:'qa-reference-ca
  await page.locator('#synthesis-prompt').fill(manual);
  await page.locator('#synthesis-entry-sort').click();assert.equal(await page.locator('#synthesis-prompt').inputValue(),manual);assert(!(await page.locator('[data-synthesis-entry="AH031"] input').isChecked()));
  await page.locator('#synthesis-entry-sort').click();assert.equal(await page.locator('#synthesis-prompt').inputValue(),manual);
+ await waitForSavedSelection(['AH020','SO093'],manual);
  await page.locator('#close-card-synthesis').click();
  assert.deepEqual(JSON.parse(await page.evaluate(key=>localStorage.getItem(key),key)).cards[0].selected,payload.cards[0].selected);
  await page.reload();await page.locator('#open-card-synthesis').click();
  assert.equal(await dialog.locator('input[type=checkbox]:checked').count(),2,'Opening restores saved selection automatically');
  assert.equal(await page.locator('#synthesis-prompt').inputValue(),manual);assert.equal(await dialog.locator('input[type=checkbox]:checked').count(),2);
  assert(!(await page.locator('[data-synthesis-entry="AH031"] input').isChecked()));
- await page.locator('#synthesis-select-none').click();await page.reload();await page.locator('#open-card-synthesis').click();
+ await page.locator('#synthesis-select-none').click();await waitForSavedSelection([],'');await page.reload();await page.locator('#open-card-synthesis').click();
  assert.equal(await dialog.locator('input[type=checkbox]:checked').count(),0);assert.equal(await page.locator('#synthesis-prompt').inputValue(),'');
  const manualSnapshot=await page.evaluate(key=>JSON.parse(localStorage.getItem(key)).find(snapshot=>snapshot.prompt.includes('Do not overwrite')),historyKey);
  await page.locator('#synthesis-history-count').click();await page.locator('#synthesis-history-list').selectOption(manualSnapshot.id);await page.locator('#synthesis-history-restore').click();
- await page.locator('#synthesis-prompt').fill('');await page.reload();await page.locator('#open-card-synthesis').click();
+ await page.locator('#synthesis-prompt').fill('');await waitForSavedSelection(['AH020','SO093'],'');await page.reload();await page.locator('#open-card-synthesis').click();
  assert.equal(await dialog.locator('input[type=checkbox]:checked').count(),2);assert.equal(await page.locator('#synthesis-prompt').inputValue(),'');assert(await page.locator('#synthesis-copy-prompt').isDisabled());
  await page.locator('#synthesis-prompt').fill(manual);await page.locator('#synthesis-copy-prompt').click();assert.equal(await page.evaluate(()=>window.lastCopiedPrompt),manual);
  await page.locator('[data-synthesis-entry="AH020"] .synthesis-reference-name').click();await page.locator('#detail-dialog').waitFor({state:'visible'});await page.locator('#close-dialog').click();
