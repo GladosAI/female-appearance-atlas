@@ -859,7 +859,7 @@
     {
       "id": "art_styles",
       "name": "画风与视觉表现",
-      "note": "按画风、媒介与视觉语言浏览；包括游戏角色原稿方法、漫画单格、影视分镜与关键帧、视角、景别、构图和镜头语言。",
+      "note": "按画风、媒介与视觉语言浏览；包括场景与人物活动、游戏角色原稿、漫画单格、影视分镜与关键帧，以及视角和镜头语言。",
       "categories": [
         "art_animation",
         "art_game",
@@ -868,6 +868,14 @@
         "game_aaa_design",
         "game_otome_design",
         "game_production_sheets",
+        "scene_home",
+        "scene_work_public",
+        "scene_commercial",
+        "scene_leisure_travel",
+        "scene_culture_sport",
+        "scene_history_film",
+        "scene_fantasy_game",
+        "scene_scifi_survival",
         "art_photography",
         "art_traditional",
         "art_drawing_media",
@@ -915,6 +923,23 @@
           "scope": "branch_game_character_design",
           "count": 32,
           "category_count": 4
+        },
+        {
+          "id": "scene_character_design",
+          "name": "场景与人物活动",
+          "categories": [
+            "scene_home",
+            "scene_work_public",
+            "scene_commercial",
+            "scene_leisure_travel",
+            "scene_culture_sport",
+            "scene_history_film",
+            "scene_fantasy_game",
+            "scene_scifi_survival"
+          ],
+          "scope": "branch_scene_character_design",
+          "count": 64,
+          "category_count": 8
         },
         {
           "id": "art_photo_media",
@@ -1002,8 +1027,8 @@
         }
       ],
       "scope": "topic_art_styles",
-      "count": 278,
-      "category_count": 28
+      "count": 342,
+      "category_count": 36
     }
   ],
   "category_labels": {
@@ -1298,6 +1323,10 @@
     {
       "name": "魔法少女与忍者装扮专题",
       "path": "docs/magical-ninja-atlas.md"
+    },
+    {
+      "name": "场景与人物活动",
+      "path": "docs/scenes-with-characters.md"
     }
   ],
   "layout_version": "32.0",
@@ -1535,11 +1564,20 @@
       "恋爱冒险",
       "otome",
       "视觉小说"
+    ],
+    "场景": [
+      "环境",
+      "人物场景",
+      "场景图例",
+      "背景",
+      "地点",
+      "environment",
+      "scene"
     ]
   },
-  "entry_count": 7145,
-  "category_count": 200,
-  "section_count": 55,
+  "entry_count": 7209,
+  "category_count": 208,
+  "section_count": 56,
   "category_paths": {
     "hair_cut": {
       "domain": "topic_hair_design",
@@ -2256,6 +2294,38 @@
     "game_production_sheets": {
       "domain": "topic_art_styles",
       "section": "branch_game_character_design"
+    },
+    "scene_home": {
+      "domain": "topic_art_styles",
+      "section": "branch_scene_character_design"
+    },
+    "scene_work_public": {
+      "domain": "topic_art_styles",
+      "section": "branch_scene_character_design"
+    },
+    "scene_commercial": {
+      "domain": "topic_art_styles",
+      "section": "branch_scene_character_design"
+    },
+    "scene_leisure_travel": {
+      "domain": "topic_art_styles",
+      "section": "branch_scene_character_design"
+    },
+    "scene_culture_sport": {
+      "domain": "topic_art_styles",
+      "section": "branch_scene_character_design"
+    },
+    "scene_history_film": {
+      "domain": "topic_art_styles",
+      "section": "branch_scene_character_design"
+    },
+    "scene_fantasy_game": {
+      "domain": "topic_art_styles",
+      "section": "branch_scene_character_design"
+    },
+    "scene_scifi_survival": {
+      "domain": "topic_art_styles",
+      "section": "branch_scene_character_design"
     },
     "art_photography": {
       "domain": "topic_art_styles",

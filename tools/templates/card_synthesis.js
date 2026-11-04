@@ -52,6 +52,7 @@ function setSynthesisCopyStatus(message='',success=false){
  if(success)synthesisCopyTimer=setTimeout(()=>setSynthesisCopyStatus(),2000);
 }
 function synthesisTraitGroup(e){
+ if(e.scene_reference)return '场景与人物活动';
  if(e.camera_reference||e.visual_language_reference||e.game_design_reference)return categoryName(e.category);
  if(['age','female_life_stages'].includes(e.category))return '年龄';
  if(e.category==='body')return '体型';
@@ -85,7 +86,7 @@ function refreshSynthesisPrompt(){
  $('synthesis-selection-count').textContent=`已选 ${selected.length} / ${synthesisEntryIds.length} 项`;
  const groups=new Map();
  for(const id of selected){const e=E.get(id),group=synthesisTraitGroup(e);if(!groups.has(group))groups.set(group,[]);groups.get(group).push(synthesisTraitText(e))}
- const order=['年龄','体型','幻想形态','身体特征','面部特征','发型','服装','服装细节','袜类','鞋履','配饰与道具','材质与配色','妆容','表情','气质','姿态','画风','光照','观察方向','机位高度与俯仰','景别与取景范围','画面构图','景深与对焦','镜头与透视'];
+ const order=['年龄','体型','幻想形态','身体特征','面部特征','发型','服装','服装细节','袜类','鞋履','配饰与道具','材质与配色','妆容','表情','气质','姿态','场景与人物活动','画风','光照','观察方向','机位高度与俯仰','景别与取景范围','画面构图','景深与对焦','镜头与透视'];
  const orderedGroups=[...order,...[...groups.keys()].filter(group=>!order.includes(group))];
  const lines=orderedGroups.filter(group=>groups.has(group)).map(group=>group+'：\n'+[...new Set(groups.get(group))].map(text=>text+'；').join('\n'));
  $('synthesis-prompt').value=selected.length?'请根据以下外观词条设计女性角色。同一类别有多个选项时，将它们作为备选分别搭配，生成一张或多张角色图像。\n\n'+lines.join('\n\n'):'';

@@ -20,7 +20,7 @@ headphone_view height_cm hip_cm history_comparison_kind history_line history_lin
 history_period history_region history_track hooded_cloak hosiery_reference length_cm life_stage_group
 life_stage_reference makeup_finish makeup_placement makeup_view paired_shape_label pose_actors
 pose_expansion_reference pose_phase pose_support pose_view presentation region season
-seasonal_reference sequence_labels sequence_reference shoulder_width_cm stature_kind study_reference
+scene_reference seasonal_reference sequence_labels sequence_reference shoulder_width_cm stature_kind study_reference
 styled_hair_reference underbust_cm view visual visual_language_reference waist_cm wearing_visual
 wedding_reference'''.split())
 VISUAL_FIELDS = ('visual', 'wearing_visual', 'fullbody_visual')

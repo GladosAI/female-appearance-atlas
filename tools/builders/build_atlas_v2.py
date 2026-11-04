@@ -87,6 +87,7 @@ from project_readme import write_usage_readme
 from camera_docs import write_camera_docs
 from visual_narrative_docs import write_visual_narrative_docs
 from game_design_docs import write_game_design_docs
+from scene_docs import write_scene_docs
 from rights_docs import write_rights_docs
 from system_examples import prepare_system_examples, example_coverage, write_example_docs
 from trend_model_docs import write_trend_model_docs
@@ -560,6 +561,7 @@ def build(partial=False, package=True, image_exports=True, check_assets=True):
     write_camera_docs(ROOT,data)
     write_visual_narrative_docs(ROOT,data)
     write_game_design_docs(ROOT,data)
+    write_scene_docs(ROOT,data)
     write_rights_docs(ROOT)
     write_example_docs(ROOT,data,navigation)
     write_navigation_docs(ROOT,data,navigation)

@@ -28580,6 +28580,262 @@
     {
       "id": "MX028",
       "source_key": "comic_panel_effects|无字图像心声气泡格|pictorial thought-balloon panel"
+    },
+    {
+      "id": "SNH001",
+      "source_key": "scene_home|厨房备餐场景|kitchen food-preparation scene"
+    },
+    {
+      "id": "SNH002",
+      "source_key": "scene_home|卧室整理床铺场景|bedroom bed-making scene"
+    },
+    {
+      "id": "SNH003",
+      "source_key": "scene_home|客厅读书场景|living-room reading scene"
+    },
+    {
+      "id": "SNH004",
+      "source_key": "scene_home|浴室洗漱场景|bathroom morning-routine scene"
+    },
+    {
+      "id": "SNH005",
+      "source_key": "scene_home|书房写作场景|home-study writing scene"
+    },
+    {
+      "id": "SNH006",
+      "source_key": "scene_home|阳台养花场景|balcony plant-care scene"
+    },
+    {
+      "id": "SNH007",
+      "source_key": "scene_home|洗衣间整理衣物场景|laundry-room sorting scene"
+    },
+    {
+      "id": "SNH008",
+      "source_key": "scene_home|玄关出门准备场景|entryway departure-preparation scene"
+    },
+    {
+      "id": "SNW001",
+      "source_key": "scene_work_public|办公室协作场景|office collaboration scene"
+    },
+    {
+      "id": "SNW002",
+      "source_key": "scene_work_public|会议室汇报场景|meeting-room presentation scene"
+    },
+    {
+      "id": "SNW003",
+      "source_key": "scene_work_public|医院门诊交流场景|hospital consultation scene"
+    },
+    {
+      "id": "SNW004",
+      "source_key": "scene_work_public|实验室观察场景|laboratory observation scene"
+    },
+    {
+      "id": "SNW005",
+      "source_key": "scene_work_public|大学教室授课场景|university classroom teaching scene"
+    },
+    {
+      "id": "SNW006",
+      "source_key": "scene_work_public|图书馆阅览场景|library reading scene"
+    },
+    {
+      "id": "SNW007",
+      "source_key": "scene_work_public|地铁站通勤场景|metro-station commuting scene"
+    },
+    {
+      "id": "SNW008",
+      "source_key": "scene_work_public|消防站备勤场景|fire-station readiness scene"
+    },
+    {
+      "id": "SNC001",
+      "source_key": "scene_commercial|酒店大堂接待场景|hotel-lobby reception scene"
+    },
+    {
+      "id": "SNC002",
+      "source_key": "scene_commercial|酒店客房入住场景|hotel-room arrival scene"
+    },
+    {
+      "id": "SNC003",
+      "source_key": "scene_commercial|餐厅桌边服务场景|restaurant table-service scene"
+    },
+    {
+      "id": "SNC004",
+      "source_key": "scene_commercial|咖啡馆吧台场景|cafe barista-at-counter scene"
+    },
+    {
+      "id": "SNC005",
+      "source_key": "scene_commercial|面包店出炉陈列场景|bakery bread-display scene"
+    },
+    {
+      "id": "SNC006",
+      "source_key": "scene_commercial|超市选购场景|supermarket grocery-shopping scene"
+    },
+    {
+      "id": "SNC007",
+      "source_key": "scene_commercial|服装店陈列服务场景|clothing-boutique display scene"
+    },
+    {
+      "id": "SNC008",
+      "source_key": "scene_commercial|美发沙龙造型场景|hair-salon styling scene"
+    },
+    {
+      "id": "SNR001",
+      "source_key": "scene_leisure_travel|沙滩漫步场景|beach-walking scene"
+    },
+    {
+      "id": "SNR002",
+      "source_key": "scene_leisure_travel|游乐园游玩场景|amusement-park outing scene"
+    },
+    {
+      "id": "SNR003",
+      "source_key": "scene_leisure_travel|露营地整理装备场景|campsite gear-preparation scene"
+    },
+    {
+      "id": "SNR004",
+      "source_key": "scene_leisure_travel|城市公园慢跑场景|urban-park jogging scene"
+    },
+    {
+      "id": "SNR005",
+      "source_key": "scene_leisure_travel|温泉旅馆回廊场景|hot-spring-inn corridor scene"
+    },
+    {
+      "id": "SNR006",
+      "source_key": "scene_leisure_travel|山间步道徒步场景|mountain-trail hiking scene"
+    },
+    {
+      "id": "SNR007",
+      "source_key": "scene_leisure_travel|滑雪场整装场景|ski-resort preparation scene"
+    },
+    {
+      "id": "SNR008",
+      "source_key": "scene_leisure_travel|机场候机场景|airport departure-lounge scene"
+    },
+    {
+      "id": "SNE001",
+      "source_key": "scene_culture_sport|健身房训练场景|gym workout scene"
+    },
+    {
+      "id": "SNE002",
+      "source_key": "scene_culture_sport|游泳馆池畔场景|indoor-pool poolside scene"
+    },
+    {
+      "id": "SNE003",
+      "source_key": "scene_culture_sport|舞蹈排练室练习场景|dance-studio rehearsal scene"
+    },
+    {
+      "id": "SNE004",
+      "source_key": "scene_culture_sport|演唱会后台候场场景|concert-backstage preparation scene"
+    },
+    {
+      "id": "SNE005",
+      "source_key": "scene_culture_sport|剧院舞台表演场景|theatre-stage performance scene"
+    },
+    {
+      "id": "SNE006",
+      "source_key": "scene_culture_sport|体育场赛前准备场景|athletics-stadium preparation scene"
+    },
+    {
+      "id": "SNE007",
+      "source_key": "scene_culture_sport|夜市摊位经营场景|night-market stall scene"
+    },
+    {
+      "id": "SNE008",
+      "source_key": "scene_culture_sport|婚礼会场迎宾场景|wedding-venue greeting scene"
+    },
+    {
+      "id": "SNF001",
+      "source_key": "scene_history_film|古风庭院游赏场景|Chinese-inspired courtyard scene"
+    },
+    {
+      "id": "SNF002",
+      "source_key": "scene_history_film|宫殿殿堂议事场景|palace-hall audience scene"
+    },
+    {
+      "id": "SNF003",
+      "source_key": "scene_history_film|戏曲后台整装场景|Chinese-opera backstage scene"
+    },
+    {
+      "id": "SNF004",
+      "source_key": "scene_history_film|民国街巷行走场景|Republican-era-inspired street scene"
+    },
+    {
+      "id": "SNF005",
+      "source_key": "scene_history_film|蒸汽列车车厢旅途场景|steam-train carriage travel scene"
+    },
+    {
+      "id": "SNF006",
+      "source_key": "scene_history_film|黑色电影雨巷场景|film-noir rainy-alley scene"
+    },
+    {
+      "id": "SNF007",
+      "source_key": "scene_history_film|西部小镇酒馆场景|western-town saloon scene"
+    },
+    {
+      "id": "SNF008",
+      "source_key": "scene_history_film|侦探事务所调查场景|detective-office investigation scene"
+    },
+    {
+      "id": "SNG001",
+      "source_key": "scene_fantasy_game|魔法学院课堂场景|magic-academy classroom scene"
+    },
+    {
+      "id": "SNG002",
+      "source_key": "scene_fantasy_game|冒险者公会接取任务场景|adventurers-guild quest scene"
+    },
+    {
+      "id": "SNG003",
+      "source_key": "scene_fantasy_game|城堡大厅接见场景|fantasy-castle audience-hall scene"
+    },
+    {
+      "id": "SNG004",
+      "source_key": "scene_fantasy_game|炼金工坊研究场景|alchemy-workshop research scene"
+    },
+    {
+      "id": "SNG005",
+      "source_key": "scene_fantasy_game|精灵森林巡护场景|elven-forest patrol scene"
+    },
+    {
+      "id": "SNG006",
+      "source_key": "scene_fantasy_game|龙眠遗迹探索场景|dragon-ruins exploration scene"
+    },
+    {
+      "id": "SNG007",
+      "source_key": "scene_fantasy_game|海底人鱼城漫游场景|underwater-mermaid-city scene"
+    },
+    {
+      "id": "SNG008",
+      "source_key": "scene_fantasy_game|水晶神殿仪式场景|crystal-temple ceremony scene"
+    },
+    {
+      "id": "SNS001",
+      "source_key": "scene_scifi_survival|太空站维护场景|space-station maintenance scene"
+    },
+    {
+      "id": "SNS002",
+      "source_key": "scene_scifi_survival|星舰驾驶舱值勤场景|starship-bridge duty scene"
+    },
+    {
+      "id": "SNS003",
+      "source_key": "scene_scifi_survival|赛博都市街头递送场景|cyberpunk-city courier scene"
+    },
+    {
+      "id": "SNS004",
+      "source_key": "scene_scifi_survival|机甲机库检修场景|mecha-hangar servicing scene"
+    },
+    {
+      "id": "SNS005",
+      "source_key": "scene_scifi_survival|深海研究站观察场景|underwater-research-station scene"
+    },
+    {
+      "id": "SNS006",
+      "source_key": "scene_scifi_survival|废土补给站交易场景|wasteland-supply-outpost scene"
+    },
+    {
+      "id": "SNS007",
+      "source_key": "scene_scifi_survival|避难所物资管理场景|shelter-supply-management scene"
+    },
+    {
+      "id": "SNS008",
+      "source_key": "scene_scifi_survival|异星殖民地温室场景|alien-colony greenhouse scene"
     }
   ]
 }
