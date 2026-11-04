@@ -7,7 +7,7 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'tools'))
 from web_delivery import browsing_index, write_runtime
-from build_provenance import application_info
+from build_provenance import application_info, resource_inventory_digest
 
 
 class WebDeliveryTests(unittest.TestCase):
@@ -74,6 +74,46 @@ class WebDeliveryTests(unittest.TestCase):
             (root / 'source/content-release.json').write_text(json.dumps({'version': '70.0'}))
             (root / 'package.json').write_text(json.dumps({'version': '0.9.0'}))
             with self.assertRaisesRegex(ValueError, 'Application version differs'):
+                application_info(root)
+
+    def test_metadata_revision_reuses_resources_only_with_matching_inventory(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root/'source').mkdir()
+            (root/'data').mkdir()
+            def write(name, value):
+                (root/name).write_text(json.dumps(value), encoding='utf-8')
+            write('source/app-release.json', {'version':'1.0.0','image_release':'v70.0'})
+            write('source/content-release.json', {'version':'70.1'})
+            write('package.json', {'version':'1.0.0'})
+            data, _ = self.fixture()
+            write('data/catalog.json', data)
+            rights = {'assets':[{'path':'images/board.webp','sha256':'a'*64}]}
+            write('source/rights-review.json', rights)
+            exports = {'images/board.webp':{'file':'images/export-data/board.js','mime':'image/png','source_sha256':'a'*64}}
+            write('data/image-export-index.json', exports)
+            resources = {'content_version':'70.0','compatible_content_versions':['70.1'],
+                         'assets':[{'file':name,'bytes':10,'sha256':'b'*64,
+                                    'url':'https://github.com/GladosAI/female-appearance-atlas/releases/download/v70.0/'+name}
+                                   for name in ['female-appearance-atlas-images.zip','female-appearance-atlas-offline-copy.zip']]}
+            write('source/resource-packs.json', {'releases':{'v70.0':resources}})
+            with self.assertRaisesRegex(ValueError, 'not proven compatible'):
+                application_info(root)
+            resources['inventory_sha256'] = resource_inventory_digest(root)
+            write('source/resource-packs.json', {'releases':{'v70.0':resources}})
+            self.assertEqual(application_info(root)['content_version'], '70.1')
+            data['entries'][0]['visual']['crop']['y'] = 99
+            write('data/catalog.json', data)
+            self.assertEqual(application_info(root)['image_release'], 'v70.0')
+            rights['assets'][0]['sha256'] = 'c'*64
+            write('source/rights-review.json', rights)
+            with self.assertRaisesRegex(ValueError, 'not proven compatible'):
+                application_info(root)
+            rights['assets'][0]['sha256'] = 'a'*64
+            write('source/rights-review.json', rights)
+            exports['images/board.webp']['file'] = 'images/export-data/changed.js'
+            write('data/image-export-index.json', exports)
+            with self.assertRaisesRegex(ValueError, 'not proven compatible'):
                 application_info(root)
 
 

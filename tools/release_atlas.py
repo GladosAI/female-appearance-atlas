@@ -226,8 +226,7 @@ def build_application(output):
         raise ValueError('Application release requires a clean, committed source checkout')
     registry=json.loads((ROOT/'source/resource-packs.json').read_text(encoding='utf-8'))
     resources=registry['releases'][info['image_release']]
-    if resources['content_version']!=info['content_version']:
-        raise ValueError('Resource pack content version differs from the application content')
+    # application_info has already checked version compatibility and, for metadata revisions, inventory identity.
     archive=output/'female-appearance-atlas-source.zip'
     subprocess.run(['git','archive','--format=zip','--prefix=female-appearance-atlas/',
                     '--output='+str(archive),info['source_commit']],cwd=ROOT,check=True)
