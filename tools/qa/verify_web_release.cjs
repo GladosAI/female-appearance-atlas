@@ -1,12 +1,13 @@
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
 const {playwright:{chromium},sharp,browserOptions}=require('./runtime.cjs');
 const root=path.resolve(__dirname,'../..'),web=path.resolve(process.env.ATLAS_WEB_ROOT||path.join(root,'dist/web-preview'));
+const basePath=process.env.ATLAS_WEB_BASE_PATH||'/';assert(basePath.startsWith('/')&&basePath.endsWith('/'));
 const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp','.svg':'image/svg+xml','.ico':'image/x-icon'};
 (async()=>{
  const catalog=JSON.parse(fs.readFileSync(path.join(web,'data/catalog.json'),'utf8'));
  for(const e of catalog.entries)for(const field of ['visual','wearing_visual','fullbody_visual'])if(e[field])assert(fs.existsSync(path.join(web,e[field].image)),e[field].image);
- const server=http.createServer((request,response)=>{try{const parsed=new URL(request.url,'http://localhost'),relative=decodeURIComponent(parsed.pathname)==='/'?'index.html':decodeURIComponent(parsed.pathname).slice(1),file=path.resolve(web,relative);if(!file.startsWith(web+path.sep)||!fs.statSync(file).isFile())throw Error('Not found');response.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream'});fs.createReadStream(file).pipe(response)}catch{response.writeHead(404);response.end('Not found')}});
- await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));const base='http://127.0.0.1:'+server.address().port;
+ const server=http.createServer((request,response)=>{try{const parsed=new URL(request.url,'http://localhost'),pathname=decodeURIComponent(parsed.pathname);if(!pathname.startsWith(basePath))throw Error('Outside project path');const relative=pathname.slice(basePath.length)||'index.html',file=path.resolve(web,relative);if(!file.startsWith(web+path.sep)||!fs.statSync(file).isFile())throw Error('Not found');response.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream'});fs.createReadStream(file).pipe(response)}catch{response.writeHead(404);response.end('Not found')}});
+ await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));const base='http://127.0.0.1:'+server.address().port+basePath.slice(0,-1);
  const browser=await chromium.launch({...browserOptions,headless:true});
  try{
  const page=await browser.newPage({acceptDownloads:true,viewport:{width:1280,height:900}}),errors=[];page.on('pageerror',error=>errors.push(error.message));

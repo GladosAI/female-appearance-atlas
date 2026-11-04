@@ -127,8 +127,9 @@ def build_web(output, image_mode='original'):
     html = re.sub(r'(<script id="atlas-data" type="application/json">).*?(</script>)', r'\1\2', html, flags=re.S)
     html = re.sub(r'(<script id="atlas-navigation" type="application/json">).*?(</script>)', r'\1\2' + f'\n<script src="{relative}"></script>', html, flags=re.S)
     if image_mode == 'webp':
-        html = html.replace('<footer class="footer">', '<footer class="footer">在线预览使用有损 WebP 压缩图片；原始 PNG 请使用完整离线资源包。<br>')
+        html = html.replace('<footer class="footer">', '<footer class="footer">在线预览使用有损 WebP 压缩图片；<a href="https://github.com/GladosAI/female-appearance-atlas/releases/latest" target="_blank" rel="noopener">下载完整离线资源包与原图</a>。<br>')
     (output / 'index.html').write_text(html, encoding='utf-8')
+    (output / '.nojekyll').write_text('', encoding='utf-8')
     (output / 'data').mkdir(exist_ok=True)
     for path in (ROOT / 'data').glob('*'):
         if path.is_file() and path.name != 'image-export-index.json':

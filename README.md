@@ -6,9 +6,9 @@
 
 > **代码采用[MIT](LICENSE)；项目有权授权的图鉴文字、数据、提示词、AI配图与Logo采用[CC BY-NC 4.0](CONTENT-LICENSE)，仅非商业使用。** 六张Met馆藏照片等第三方例外保留原许可。范围见[LICENSE-SCOPE.md](LICENSE-SCOPE.md)，详见[素材说明](NOTICE.md)与[当前许可决策](docs/licensing-proposal.md)。当前未授予商用或广告盈利镜像例外。
 
-[源码仓库](https://github.com/GladosAI/female-appearance-atlas) · [版本与资源包](https://github.com/GladosAI/female-appearance-atlas/releases) · [问题反馈](https://github.com/GladosAI/female-appearance-atlas/issues)
+[在线阅览](https://gladosai.github.io/female-appearance-atlas/) · [源码仓库](https://github.com/GladosAI/female-appearance-atlas) · [版本与资源包](https://github.com/GladosAI/female-appearance-atlas/releases) · [问题反馈](https://github.com/GladosAI/female-appearance-atlas/issues)
 
-完整图鉴请从[Releases](https://github.com/GladosAI/female-appearance-atlas/releases/latest)获取以下资源包；网页在线阅览地址将在部署后公布。
+无需下载即可[在线浏览图鉴](https://gladosai.github.io/female-appearance-atlas/)；需要原图或离线使用时，从[Releases](https://github.com/GladosAI/female-appearance-atlas/releases/latest)获取以下资源包。
 
 | 下载 | 内容与用途 |
 | --- | --- |
@@ -69,7 +69,7 @@ python tools/release_atlas.py web --image-mode webp --output dist/web-preview
 python tools/release_atlas.py packages --output dist/release-review
 ```
 
-在线预览将数据独立缓存并压缩配图，明确标注预览质量；原图版和离线原图保留。三个离线ZIP分别为源码、图片和本地复制数据，解压到同一位置即可。完整说明见 [部署与成本](docs/deployment.md)。这些命令只产生本地待审文件，不会自动发布或购买服务；公开前执行 `python tools/validate_atlas.py --release`。
+在线站点使用免费 GitHub Pages，数据独立缓存，配图使用 WebP 预览版；原图保留在 Release。`.github/workflows/pages.yml` 在发布正式 Release 后校验图片包、构建和检查在线版，再部署；也可在 Actions 中手动运行。上述本地命令不执行部署或购买服务。三个离线ZIP解压到同一位置即可。完整说明见 [部署与成本](docs/deployment.md)，公开前执行 `python tools/validate_atlas.py --release`。
 
 ## 数据与文件
 

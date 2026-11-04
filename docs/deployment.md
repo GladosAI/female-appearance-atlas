@@ -1,6 +1,23 @@
 # 在线阅览与发布
 
-技术方案检查日期：2026-11-02；许可更新：2026-11-03。正式源码仓库为[GladosAI/female-appearance-atlas](https://github.com/GladosAI/female-appearance-atlas)，在线阅览尚未部署。下述命令只产生本地产物，不创建账号、远程仓库或付费服务。当前项目素材仅非商业使用，不预先授权商业性质的收费或广告盈利镜像。
+技术方案检查日期：2026-11-04；许可更新：2026-11-03。正式源码仓库为[GladosAI/female-appearance-atlas](https://github.com/GladosAI/female-appearance-atlas)，正式在线地址为[女性之美](https://gladosai.github.io/female-appearance-atlas/)。下述本地构建命令只产生本地产物；远程发布由 GitHub Actions 执行。当前项目素材仅非商业使用，不预先授权商业性质的收费或广告盈利镜像。
+
+## 正式站点：免费 GitHub Pages
+
+使用现有公开仓库的 GitHub Pages，免费 `github.io` 子域名和 HTTPS，不需要购买域名、服务器、数据库或 CDN。当前 WebP 在线包约178MiB，低于1GB的站点上限。GitHub Pages 有每月100GB带宽软限制，超限可能限流或要求调整部署；不把免费服务描述为无限带宽。本站不接入按量计费存储服务。
+
+在线版保持全部词条、分类、检索、外观卡、提示词导出和图片下载。WebP不缩小图片尺寸，但属于有损预览，不能称为原图；页面底部链接到Release原图包。用户外观卡保存在各自浏览器，在线站点与本地文件属于不同来源，首次切换时可通过外观卡导出/导入迁移，不会自动同步。
+
+发布流程维护在 `.github/workflows/pages.yml`：
+
+1. 发布正式 Release 后自动运行；也可打开仓库 Actions → **Publish online atlas** → **Run workflow**。手动运行默认读取最新正式 Release 的图片，也可填写资源版标签，例如 `v70.0`。
+2. 下载图片ZIP和 `CHECKSUMS.json`，使用 `tools/install_image_pack.py` 核对大小与SHA-256，仅安装图片，不用包内的旧文档覆盖当前源码与许可。
+3. 验证生成物一致性、素材权利及Python测试，构建WebP在线版，并在 `/female-appearance-atlas/` 项目路径下检查浏览、外观卡和图片下载。
+4. 通过官方 Pages Actions 上传并部署；临时构建包只保留1天。构建任务仅能读取仓库和Pages，部署任务才拥有Pages写入权限。
+
+首次需在 Settings → Pages 中将 Source 设置为 **GitHub Actions**。后续维护不需要提交图片到Git历史，也不需要上传离线图片读取数据。只有Release发布或手动运行会触发部署，普通代码提交与PR不会直接更新正式站点。新增图页先纳入对应图片Release；资源不匹配时应由检查阻止发布，不能静默沿用旧图片。
+
+在线阅览链接见README与仓库主页。若某次构建失败，查看Actions日志修复后重新运行；成功部署前不会替换现有站点。需要回退时，在确认当前源码与资源相匹配的提交上运行，或重新部署之前成功的Pages版本。
 
 ## 两种在线包
 
@@ -14,9 +31,9 @@ python tools/release_atlas.py web --image-mode webp --output dist/web-preview
 
 在线包将数据抽离为可独立缓存的带哈希 JS，删去运行时不用的生成 prompt，保留检索、外观卡、详情和图片下载。不携带约1.3GiB的本地图片读取 sidecar；HTTP 同源可直接读取图片。词条缩略图接近可见区域才加载，而不是为全部已排版卡片下载整张图页。
 
-## 优先考虑免费静态托管
+## 其他静态托管方案
 
-不需要数据库、登录服务器或生图 API。Cloudflare Pages / Workers Static Assets 是可选部署目标；发布包内有 `_headers` 与静态资产配置，上传整个目录即可。按官方当前说明，静态请求免费；Pages Free 单站20,000文件、单文件25MiB，构建500次/月。发布工具输出大小和数量预检，部署前仍应以账号当时规则为准。
+不需要数据库、登录服务器或生图 API。Cloudflare Pages / Workers Static Assets 是备用部署目标；发布包内有 `_headers` 与静态资产配置，上传整个目录即可。`_headers`是Cloudflare配置，GitHub Pages不消费它，实际缓存以托管服务响应为准。按官方当前说明，静态请求免费；Pages Free 单站20,000文件、单文件25MiB，构建500次/月。发布工具输出大小和数量预检，迁移部署前仍应以账号当时规则为准。
 
 GitHub Pages 发布站点上限1GB，是否能用取决于实际生成包大小，不能把下载 ZIP 的压缩后大小当作站点大小。GitHub 代码仓库和 Pages 是不同服务，仓库超过1GB不代表 Pages 也允许同样体积。
 

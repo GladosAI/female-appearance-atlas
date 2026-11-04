@@ -2,7 +2,7 @@
 
 女性之美以素材仓库为核心。社区可以贡献词条、配图、纠错、检索和工具，不需要遵循一套强制角色生成流程。
 
-正式源码仓库：[GladosAI/female-appearance-atlas](https://github.com/GladosAI/female-appearance-atlas)，由GladosAI维护。普通问题通过[Issues](https://github.com/GladosAI/female-appearance-atlas/issues)反馈；版本和资源包通过[Releases](https://github.com/GladosAI/female-appearance-atlas/releases)提供。
+正式源码仓库：[GladosAI/female-appearance-atlas](https://github.com/GladosAI/female-appearance-atlas)，由GladosAI维护。[官方在线阅览站](https://gladosai.github.io/female-appearance-atlas/)使用GitHub Pages免费托管，不含收费或广告。普通问题通过[Issues](https://github.com/GladosAI/female-appearance-atlas/issues)反馈；版本和资源包通过[Releases](https://github.com/GladosAI/female-appearance-atlas/releases)提供。
 
 主仓库维护者负责版本、编号、目录与合并审核。普通贡献通过 Issue/PR 接纳；不因为部署了镜像、贡献过素材或承担服务器费用就自动取得主仓库管理权。新增管理员、转移仓库或域名由项目所有者明确决定。
 

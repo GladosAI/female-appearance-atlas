@@ -1,0 +1,91 @@
+name: Publish online atlas
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      image_release:
+        description: 'Image resource Release tag (empty uses the latest stable Release)'
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Download released image resources
+        env:
+          GH_TOKEN: ${{ github.token }}
+          IMAGE_RELEASE: ${{ github.event.release.tag_name || inputs.image_release }}
+        shell: bash
+        run: |
+          mkdir -p .work/pages-resources
+          tag="$IMAGE_RELEASE"
+          if [ -z "$tag" ]; then
+            tag="$(gh api "repos/$GITHUB_REPOSITORY/releases/latest" --jq .tag_name)"
+          fi
+          gh release download "$tag" --repo "$GITHUB_REPOSITORY" \
+            --pattern female-appearance-atlas-images.zip --pattern CHECKSUMS.json \
+            --dir .work/pages-resources
+          python tools/install_image_pack.py \
+            --archive .work/pages-resources/female-appearance-atlas-images.zip \
+            --checksums .work/pages-resources/CHECKSUMS.json
+      - name: Validate source and resource rights
+        run: |
+          python tools/build_atlas.py --check-generated
+          python tools/validate_atlas.py --release
+          python -m unittest discover -s tests -v
+      - name: Build WebP online edition
+        run: python tools/release_atlas.py web --image-mode webp --output dist/site
+      - name: Check the project-path website
+        env:
+          ATLAS_WEB_ROOT: dist/site
+          ATLAS_WEB_BASE_PATH: /female-appearance-atlas/
+        run: |
+          npx playwright install --with-deps chromium
+          npm run test:web
+      - name: Configure Pages
+        uses: actions/configure-pages@v6.0.0
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          path: dist/site
+          retention-days: 1
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy online atlas
+        id: deployment
+        uses: actions/deploy-pages@v5.0.1
