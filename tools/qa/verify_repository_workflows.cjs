@@ -14,6 +14,11 @@ const payload={schema:'female-appearance-library/v2',cards:[{id:'qa-reference-ca
   const latest=JSON.parse(localStorage.getItem(historyKey)||'[]').find(snapshot=>snapshot.cardKey==='qa-reference-card');
   return latest&&latest.prompt===prompt&&JSON.stringify([...latest.selected].sort())===JSON.stringify([...selected].sort());
  },{historyKey,selected,prompt},{timeout:10000});
+ const waitForRenderedSelection=(selected,prompt)=>page.waitForFunction(({selected,prompt})=>{
+  const dialog=document.getElementById('card-synthesis-dialog');
+  const actual=[...dialog.querySelectorAll('input[type="checkbox"]:checked')].map(input=>input.value).sort();
+  return dialog.open&&document.getElementById('synthesis-prompt').value===prompt&&JSON.stringify(actual)===JSON.stringify([...selected].sort());
+ },{selected,prompt},{timeout:10000});
  await page.goto(base+'?view=card&card=qa-reference-card');
  const galleryOrder=()=>page.locator('#selected-grid > .entry').evaluateAll(elements=>elements.map(element=>element.querySelector('[data-detail]').dataset.detail));
  const originalLibrary=await page.evaluate(key=>localStorage.getItem(key),key);
@@ -39,10 +44,12 @@ const payload={schema:'female-appearance-library/v2',cards:[{id:'qa-reference-ca
  await page.locator('#close-card-synthesis').click();
  assert.deepEqual(JSON.parse(await page.evaluate(key=>localStorage.getItem(key),key)).cards[0].selected,payload.cards[0].selected);
  await page.reload();await page.locator('#open-card-synthesis').click();
+ await waitForRenderedSelection(['AH020','SO093'],manual);
  assert.equal(await dialog.locator('input[type=checkbox]:checked').count(),2,'Opening restores saved selection automatically');
  assert.equal(await page.locator('#synthesis-prompt').inputValue(),manual);assert.equal(await dialog.locator('input[type=checkbox]:checked').count(),2);
  assert(!(await page.locator('[data-synthesis-entry="AH031"] input').isChecked()));
  await page.locator('#synthesis-select-none').click();await waitForSavedSelection([],'');await page.reload();await page.locator('#open-card-synthesis').click();
+ await waitForRenderedSelection([],'');
  assert.equal(await dialog.locator('input[type=checkbox]:checked').count(),0);assert.equal(await page.locator('#synthesis-prompt').inputValue(),'');
  const manualSnapshot=await page.evaluate(key=>JSON.parse(localStorage.getItem(key)).find(snapshot=>snapshot.prompt.includes('Do not overwrite')),historyKey);
  await page.locator('#synthesis-history-count').click();await page.locator('#synthesis-history-list').selectOption(manualSnapshot.id);await page.locator('#synthesis-history-restore').click();
