@@ -8,7 +8,7 @@
 
 [在线阅览](https://gladosai.github.io/female-appearance-atlas/) · [源码仓库](https://github.com/GladosAI/female-appearance-atlas) · [版本与资源包](https://github.com/GladosAI/female-appearance-atlas/releases) · [问题反馈](https://github.com/GladosAI/female-appearance-atlas/issues)
 
-无需下载即可[在线浏览图鉴](https://gladosai.github.io/female-appearance-atlas/)；当前程序版 **0.2.0**，内容版 **70.0**。需要原图或离线使用时，从[Releases](https://github.com/GladosAI/female-appearance-atlas/releases/latest)获取以下资源包。程序更新复用明确标记版本的图片资源，不必重复下载未变化的图片。
+无需下载即可[在线浏览图鉴](https://gladosai.github.io/female-appearance-atlas/)；当前程序版 **0.3.0**，内容版 **70.0**。需要原图或离线使用时，从[Releases](https://github.com/GladosAI/female-appearance-atlas/releases/latest)获取以下资源包。程序更新复用明确标记版本的图片资源，不必重复下载未变化的图片。
 
 | 下载 | 内容与用途 |
 | --- | --- |
@@ -40,6 +40,8 @@
 | [画风与视觉表现](index.html?section=topic_art_styles) | 28 | 278 |
 
 ## 开发与贡献
+
+无需编程即可使用[在线贡献表单](https://gladosai.github.io/female-appearance-atlas/contribute.html)：查找近似词条、预览本机图片、填写来源后，导出贡献JSON与命名后的原图。建议编号不预留名额，素材和授权由维护者审核。也可离线打开[contribute.html](contribute.html)。
 
 Python 3.10+ 构建器只用标准库；Node 22+ / npm 用于浏览器检查和图片优化。源码包不携带大图片资源包，无图片时可先进行文字、数据和页面协作。
 

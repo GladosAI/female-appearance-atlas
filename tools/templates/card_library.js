@@ -43,7 +43,7 @@ function cleanAppearanceCard(value){
 }
 function saveAppearanceLibrary(){
  if(libraryWriteBlocked)return false;
- try{localStorage.setItem(cardLibraryKey,JSON.stringify({schema:'female-appearance-library/v2',activeId:lastAddedCardId,lastAddedCardId,cards:appearanceCards}));libraryStorageProblem='';return true}
+ try{localStorage.setItem(cardLibraryKey,JSON.stringify({schema:'female-appearance-library/v2',activeId:lastAddedCardId,lastAddedCardId,cards:appearanceCards}));libraryStorageProblem='';queueMicrotask(renderLibraryBackupStatus);return true}
  catch{libraryStorageProblem='浏览器暂时无法保存。请使用“备份全部”或导出单张外观卡，保留本次内容。';return false}
 }
 function persistOpenedAppearance(){
@@ -61,7 +61,7 @@ function initializeAppearanceLibrary(){
   try{const old=JSON.parse(localStorage.getItem(key)||'null');if(old){const card=cleanAppearanceCard(old);appearanceCards=[card];lastAddedCardId=card.id;saveAppearanceLibrary()}}catch{libraryStorageProblem='旧版外观卡暂时无法读取，原始记录已保留；可从导出的文件恢复。'}
  }
 }
-function renderCardStorageNotice(){const notice=$('card-storage-notice');notice.hidden=!libraryStorageProblem;notice.textContent=libraryStorageProblem}
+function renderCardStorageNotice(){const notice=$('card-storage-notice');notice.hidden=!libraryStorageProblem;notice.textContent=libraryStorageProblem;queueMicrotask(renderLibraryBackupStatus)}
 function appearanceMembership(id){return appearanceCards.filter(c=>c.selected.includes(id)).length}
 function saveEntryButton(id,className='small-btn'){const count=appearanceMembership(id);return `<button type="button" class="${className}" data-save="${esc(id)}" aria-haspopup="dialog" title="${count?'已加入 '+count+' 张外观卡，点击选择其他卡片':'选择要加入的外观卡'}">${count?'✓ 外观卡':'＋ 外观卡'}</button>`}
 function refreshSaveButtons(){document.querySelectorAll('[data-save]').forEach(b=>{const count=appearanceMembership(b.dataset.save);b.removeAttribute('aria-pressed');b.setAttribute('aria-haspopup','dialog');b.textContent=count?'✓ 外观卡':'＋ 外观卡';b.title=count?'已加入 '+count+' 张外观卡，点击选择其他卡片':'选择要加入的外观卡'})}
@@ -154,7 +154,7 @@ function undoAppearanceChange(){if(!lastCardChange)return;const change=lastCardC
 function requestCardAction(action){const card=appearanceCards.find(c=>c.id===openedCardId);if(!card)return;if(action==='clear'&&!card.selected.length)return;pendingCardAction={action,cardId:card.id};$('card-action-title').textContent=(action==='delete'?'删除':'清空')+'「'+(card.name||'未命名外观卡')+'」'+(action==='clear'?'的部件？':'？');$('card-action-message').textContent=action==='delete'?'这会删除整张外观卡及其中的部件记录。确认后仍可在页面中撤销。':'这会移出全部 '+card.selected.length+' 个部件，名称和角色设定保留。确认后仍可撤销。';$('card-action-confirm').textContent=action==='delete'?'确认删除外观卡':'确认清空部件';$('card-action-dialog').showModal()}
 function clearAppearanceParts(cardId){const card=appearanceCards.find(c=>c.id===cardId);if(!card)return;lastCardChange={kind:'clear',card:{id:card.id,name:card.name},selected:[...card.selected]};card.selected=[];card.updatedAt=new Date().toISOString();saveAppearanceLibrary();refreshSaveButtons();renderCard()}
 function removeOpenedAppearancePart(id){const card=appearanceCards.find(c=>c.id===openedCardId);if(!card)return;card.selected=card.selected.filter(value=>value!==id);card.updatedAt=new Date().toISOString();saveAppearanceLibrary();refreshSaveButtons();renderCard()}
-function exportAppearanceLibrary(){download(JSON.stringify({schema:'female-appearance-library/v2',catalog_version:D.meta.version,activeId:lastAddedCardId,lastAddedCardId,cards:appearanceCards,prompt_history:promptHistory.filter(snapshot=>appearanceCards.some(card=>card.id===snapshot.cardKey))},null,2),'女性之美-全部外观卡.json');toast('全部 '+appearanceCards.length+' 张外观卡及方案历史已备份。')}
+function exportAppearanceLibrary(){const payload=appearanceBackupPayload(),exportedAt=new Date().toISOString();download(JSON.stringify({...payload,exported_at:exportedAt},null,2),'女性之美-全部外观卡.json');recordLibraryExport(payload,exportedAt);toast('已开始导出全部 '+appearanceCards.length+' 张外观卡及方案历史，请确认文件已保存。')}
 function exportOpenedAppearance(){const card=appearanceCards.find(c=>c.id===openedCardId);if(!card)return;download(JSON.stringify({schema:'female-appearance-card/v1',catalog_version:D.meta.version,source_card_id:card.id,name:card.name,notes:card.notes,selected:card.selected,entries:card.selected.map(id=>E.get(id)),prompt_history:promptHistoryForCard(card.id)},null,2),(card.name||'角色外观卡').replace(/[\\/:*?"<>|]/g,'_')+'.json');toast('这张外观卡及方案历史已导出。')}
 function importAppearancePayload(payload){
  let source;if(payload?.schema==='female-appearance-card/v1')source=[payload];else if(payload?.schema==='female-appearance-library/v2'&&Array.isArray(payload.cards))source=payload.cards;else throw Error('外观卡格式不匹配');

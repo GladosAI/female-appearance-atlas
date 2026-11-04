@@ -25,6 +25,11 @@ if __name__ == "__main__":
         strip=lambda text:re.sub(r'(<script id="atlas-data" type="application/json">).*?(</script>)',r'\1\2',text,flags=re.S)
         if strip((root/'.work/previews/index-v2-preview.html').read_text(encoding='utf-8'))!=strip((root/'index.html').read_text(encoding='utf-8')):
             differing.append('index.html/template')
+        from contribution_tools import contribution_files
+        for relative,text in contribution_files(root,expected).items():
+            path=root/relative
+            if not path.exists() or path.read_text(encoding='utf-8')!=text:
+                differing.append(relative)
         if differing:raise SystemExit('Generated files are stale: '+', '.join(differing)+'; rebuild before committing')
         print('Source, catalog and page are consistent; image existence not checked.')
     else:
