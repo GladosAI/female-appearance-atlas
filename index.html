@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
-<script>(()=>{let theme='system';try{const saved=localStorage.getItem('female-beauty-theme-v2');if(["system","light","light-linen","dark","dark-forest"].includes(saved))theme=saved}catch{}document.documentElement.dataset.theme=theme})();</script>
+<script>(()=>{let theme='light-linen';try{const saved=localStorage.getItem('female-beauty-theme-v2');if(["system","light","light-linen","dark","dark-forest"].includes(saved))theme=saved}catch{}document.documentElement.dataset.theme=theme})();</script>
 <title>女性之美｜女性角色外观图鉴</title>
 <meta name="application-name" content="女性之美">
 <meta id="brand-theme-color" name="theme-color" content="#f7f5f2">
@@ -1271,13 +1271,13 @@ brandSystemScheme.addEventListener('change',()=>{
 
 const themeSelect=document.getElementById('theme-select');
 function setAppearance(theme,persistChoice=false){
-  if(![...themeSelect.options].some(option=>option.value===theme))theme='system';
+  if(![...themeSelect.options].some(option=>option.value===theme))theme='light-linen';
   document.documentElement.dataset.theme=theme;
   updateBrandAppearance(theme);
   themeSelect.value=theme;
   if(persistChoice){try{localStorage.setItem('female-beauty-theme-v2',theme)}catch{}}
 }
-setAppearance(document.documentElement.dataset.theme||'system');
+setAppearance(document.documentElement.dataset.theme||'light-linen');
 themeSelect.addEventListener('change',()=>setAppearance(themeSelect.value,true));
 
 restoreURL();window.addEventListener('popstate',restoreURL);updateBackToTop();
