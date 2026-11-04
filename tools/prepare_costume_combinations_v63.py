@@ -1,0 +1,53 @@
+"""Register original outfit sheets using measured panel boundaries."""
+import json, sys
+from pathlib import Path
+from collections import Counter
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+import _bootstrap
+import build_atlas_v2 as atlas
+import costume_combinations_v63 as content
+root=_bootstrap.ROOT
+common='Original fashion reference atlas, 2D anime-adjacent illustration with clean detailed garment seams and soft shading, pale ivory studio background. PORTRAIT 2:3 canvas exactly 2 columns by 2 rows, FOUR separately framed tall panels, thin dark straight dividers. In each panel exactly ONE clearly adult woman age 25+ wearing the complete outfit, front or very slight three-quarter view. Include whole person from crown through both complete shoes within own panel with space around them; no cropped heads or feet, no body crossing borders. Keep individual garments and shoes clearly distinguishable. No text, logos, inset images, watermark or copyrighted characters. Four different outfit recipes in reading order: '
+recipes={
+ 'spring1':'TOP LEFT: cream off-shoulder ruffle-edge knit blouse, soft blush denim A-line short skirt, open light beige long trench, white knee socks and white sneakers, woven straw hat. TOP RIGHT: white bow-trim peplum camisole under a cropped blue denim jacket, pale blue long pleated skirt, white ankle socks and sneakers. BOTTOM LEFT: ribbon-neck ivory blouse with fitted denim jacket, ivory tailored skort, beige tights and loafers. BOTTOM RIGHT: small floral midi dress, cropped knit cardigan, neutral tights and comfortable white sneakers.',
+ 'spring2':'TOP LEFT: lace-edge pale-blue camisole, long open oatmeal cardigan, straight ecru jeans and ballet flats. TOP RIGHT: pale sage belted shirt dress with a tie at the neck, sheer beige tights, sandals and a small crossbody. BOTTOM LEFT: floral camisole with short knit cardigan, pleated short skirt, cropped jacket and white ankle socks with shoes. BOTTOM RIGHT: light lace-trim short jacket over an opaque camisole, charcoal flowing long skirt and simple sandals.',
+ 'summer1':'TOP LEFT: striped blue rolled-sleeve shirt over white lace-trim camisole, knee-length light denim shorts, sheer black tights and black loafers. TOP RIGHT: black short-sleeve knit top, white lace overlay midi skirt, ankle boots and leather shoulder bag. BOTTOM LEFT: ribbed sleeveless tank, loose open white cotton shirt, denim shorts and flat sandals. BOTTOM RIGHT: pale ruffle-trim pleated summer dress, ankle socks, sandals and straw sun hat.',
+ 'summer2':'TOP LEFT: bow-front sleeveless camisole, straight blue jeans, lace-trim ankle socks and white sneakers. TOP RIGHT: lightweight grey zip hoodie, black lace-trim tailored shorts, black tights and ankle boots. BOTTOM LEFT: tiny floral midi dress, light cropped cardigan, white ankle socks and flat sandals. BOTTOM RIGHT: white button shirt with pleated dark tailored shorts, black tights, loafers and a small crossbody bag.',
+ 'autumn1':'TOP LEFT: terracotta cropped ribbed cardigan over opaque camisole, burgundy faux-leather short skirt, ribbed over-knee socks and brown knee-high boots. TOP RIGHT: ivory lace-trim blouse, dark leather A-line short skirt, open cardigan, dark tights and ankle boots. BOTTOM LEFT: knit cardigan over camisole, olive pleated skirt, open warm wool coat and loafers. BOTTOM RIGHT: bow-detail knit short dress, cropped leather jacket and suede ankle boots.',
+ 'autumn2':'TOP LEFT: turtleneck knit, dark faux-leather short skirt, long wool coat, black tights and low boots. TOP RIGHT: layered light shirt, fine knit sweater, open cardigan and blue straight jeans with ankle boots. BOTTOM LEFT: satin camisole, cropped jacket, dark jeans, ankle boots and a structured shoulder bag. BOTTOM RIGHT: fitted tie-neck blouse, suede A-line short skirt, opaque tights, brown knee-high boots and a small bow.',
+ 'winter1':'TOP LEFT: faux-fur collar puffer jacket over cream turtleneck, deep green corduroy long flared skirt, fluffy beret and lined winter boots. TOP RIGHT: cream turtleneck, flared wool short skirt, quilted short jacket, dark knitted tights and low boots. BOTTOM LEFT: warm knit pullover, red pleated short skirt, opaque black tights, cropped plush jacket and winter boots. BOTTOM RIGHT: lace-yoke knit sweater, tailored wool trousers, soft sherpa jacket and ankle boots.',
+ 'winter2':'TOP LEFT: velvet camisole layered with cardigan and jacket, charcoal faux-leather short skirt, dark tights and boots. TOP RIGHT: high-neck knit with a small ribbon, fuzzy A-line short skirt, cropped padded jacket, warm tights and suede boots. BOTTOM LEFT: knit midi dress under a long wool coat, scarf and faux-fur-lined winter boots. BOTTOM RIGHT: cable-knit pullover, corduroy skirt, plush short coat, warm tights and winter boots.',
+ 'resort':'TOP LEFT: opaque one-piece swimsuit with narrow metallic belt, wide sun hat, sunglasses and flat sandals. TOP RIGHT: opaque blue one-piece swimsuit, light floral wrap sarong tied at hip, straw sun hat, woven bag and sandals. BOTTOM LEFT: short-sleeve linen shirt tucked into a polka-dot ruffled midi skirt, sandals and small woven bag. BOTTOM RIGHT: cotton button shirt, ruffle-edged tailored shorts, flat sandals, wide-brimmed sun hat and woven tote.',
+ 'party':'TOP LEFT: lace-edge camisole tucked into satin midi skirt, small clutch and pumps. TOP RIGHT: dark velvet short dress with a bow at the neckline, opaque tights and pumps. BOTTOM LEFT: layered tulle short party dress, long satin gloves and low-heeled shoes. BOTTOM RIGHT: lace-overlay midi dress over opaque lining, sheer tights, low pumps and a delicate necklace.',
+ 'corset':'TOP LEFT: opaque fitted corset-style top over a blouse, pleated short skirt, tall socks and ankle boots. TOP RIGHT: high-neck fitted knit short dress, sheer hosiery and low heels. BOTTOM LEFT: opaque velvet short dress, long satin gloves, sheer tights and heels. BOTTOM RIGHT: opaque lace-up structured dress with a separate ruffled overskirt, gloves, ankle boots and a small decorative hat.'
+}
+sleep_prompt="Original illustrated clothing design reference sheet for a wardrobe catalogue, portrait 2:3 image divided into exactly four equal tall cells, 2 columns and 2 rows, with thin straight divider lines. ONE neutral faceless dressmaker's mannequin in each cell, complete mannequin standing from neck through both shoes fully visible. Focus on everyday sleepwear garment construction, not a model; nonsexual department-store catalog presentation. Light ivory background, clean anime-adjacent linework and soft shading, no people, no text, no logos or watermarks. TOP LEFT: loose light-pink opaque sleepwear vest with decorative lace edge, loose opaque ruffle-hem sleep shorts, soft open long-sleeved cardigan, soft slippers. TOP RIGHT: loose pajama camisole with broad straps, loose knee-length sleep shorts with contrast piping, long-sleeved lightweight open robe, ankle socks. BOTTOM LEFT: opaque loose sleeveless sleep top with simple lace trim, loose sleep shorts, long opaque knitted cardigan and knee-high socks. BOTTOM RIGHT: opaque short-sleeved top, loose sleep shorts and belted satin-look sleep robe, soft socks. All garments opaque and fully cover torso; show hems, sleeves and the whole mannequin including footwear. Four distinct designs, no bed or suggestive pose."
+boundaries={'spring1':739,'spring2':718,'summer1':732,'summer2':747,'autumn1':732,'autumn2':728,
+            'winter1':740,'winter2':730,'resort':755,'party':752,'sleep':752,'corset':737}
+categories={c['id']:i for i,c in enumerate(atlas.CATEGORIES)}
+counts=Counter();identified={}
+for e in atlas.CATALOG:
+    counts[e['category']]+=1
+    if e.get('outfit_combination_v63'):
+        identified[e['name']]=dict(e,id=atlas.PREFIX[categories[e['category']]]+f"{counts[e['category']]:03}")
+jobs=[];boards=[]
+for group,cid,dimension,records in content.GROUPS:
+    es=[identified[x[0]] for x in records];assert len(es)==4
+    title=dimension+' · '+('上篇' if group.endswith('1') else '下篇' if group.endswith('2') else '4套')
+    prompt=sleep_prompt if group=='sleep' else common+recipes[group]
+    job=dict(id='costume-v63-'+group,category=cid,dimension=dimension,title=title,
+             image=f'images/sheet-costume-v63-{group}.png',columns=2,rows=2,edition=63,
+             column_boundaries=[0,512,1024],row_boundaries=[0,boundaries[group],1536],
+             entries=[{k:e[k] for k in ['id','name','en']} for e in es],prompt=prompt)
+    board=dict(**{k:job[k] for k in ['id','category','dimension','title','image','columns','rows','edition','column_boundaries','row_boundaries','prompt']},
+               width=1024,height=1536,origin='Original AI-generated illustrations; no source images reused',qa_status='visually_reviewed',
+               items=[dict(label=e['id'],entry_id=e['id'],name=e['name']) for e in es])
+    jobs.append(job);boards.append(board)
+for file,records in [('image-jobs.json',jobs),('extra-illustrations.json',boards)]:
+    p=root/'source'/file;old=json.loads(p.read_text(encoding='utf-8'))
+    p.write_text(json.dumps([x for x in old if x.get('edition')!=63]+records,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+p=root/'source/navigation.json';nav=json.loads(p.read_text(encoding='utf-8'))
+doc={'name':'参考服装搭配对照与原创补充 · 48套','path':'docs/costume-comparison-v63.md'}
+nav['documents']=[doc]+[x for x in nav['documents'] if x['path']!=doc['path']]
+p.write_text(json.dumps(nav,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print('Registered',len(es)*len(content.GROUPS),'outfits in',len(boards),'original sheets')

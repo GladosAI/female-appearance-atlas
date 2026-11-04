@@ -1,0 +1,4753 @@
+[
+  {
+    "name": "档案馆魔女",
+    "description": "低盘髻、圆框眼镜、长袍、短披肩、法术书",
+    "palette": "深蓝与米白；胸针作为唯一亮点",
+    "entry_ids": [
+      "HT012",
+      "AC016",
+      "OP018",
+      "OW014",
+      "AC043",
+      "PO011"
+    ],
+    "archived": true
+  },
+  {
+    "name": "城市信使",
+    "description": "高马尾、飞行夹克、工装裤、功能腰带、运动鞋",
+    "palette": "灰绿与橙；腰包形成偏置轮廓",
+    "entry_ids": [
+      "HT001",
+      "OW005",
+      "BT018",
+      "AC035",
+      "FW001",
+      "PO021"
+    ],
+    "archived": true
+  },
+  {
+    "name": "温室药师",
+    "description": "松波浪、圆脸、围裙式上装、长及踝裙、叶片纹",
+    "palette": "浅绿与棕；围裙工具袋",
+    "entry_ids": [
+      "HS002",
+      "FA002",
+      "TO018",
+      "BT012",
+      "MT025",
+      "PO006"
+    ],
+    "archived": true
+  },
+  {
+    "name": "工坊锻造师",
+    "description": "单侧剃短、强壮体格、工作服上衣、直筒裤、护腕",
+    "palette": "红棕与煤灰；耐磨围裙",
+    "entry_ids": [
+      "HC022",
+      "BO005",
+      "TO025",
+      "BT013",
+      "FW032",
+      "BO026"
+    ],
+    "archived": true
+  },
+  {
+    "name": "观星学者",
+    "description": "及腰长发、中分、长椭圆脸、分层法袍、星月纹",
+    "palette": "银灰与靛蓝；星形吊坠",
+    "entry_ids": [
+      "HC013",
+      "HB013",
+      "FA008",
+      "OW020",
+      "MT026",
+      "PO010"
+    ],
+    "archived": true
+  },
+  {
+    "name": "潮汐领航员",
+    "description": "侧辫、方脸、风衣、中筒靴、小背包",
+    "palette": "海蓝与沙色；防潮图纸袋",
+    "entry_ids": [
+      "HT020",
+      "FA003",
+      "OW002",
+      "FW014",
+      "AC038",
+      "PO026"
+    ],
+    "archived": true
+  },
+  {
+    "name": "音乐厅演奏者",
+    "description": "高丸子、心形脸、合身连衣裙、垂坠耳饰、低跟鞋",
+    "palette": "黑与暖金；袖口克制装饰",
+    "entry_ids": [
+      "HT011",
+      "FA005",
+      "OP003",
+      "AC025",
+      "FW007",
+      "EX001"
+    ],
+    "archived": true
+  },
+  {
+    "name": "宫廷使节",
+    "description": "冠状辫、宽摆礼服、长手套、小冠饰、胸针",
+    "palette": "酒红与象牙；徽章标明阵营",
+    "entry_ids": [
+      "HT026",
+      "OP010",
+      "FW029",
+      "AC014",
+      "AC027",
+      "PO001"
+    ],
+    "archived": true
+  },
+  {
+    "name": "夜班医护",
+    "description": "短波波、自然淡妆、工作连体服、短袜、运动鞋",
+    "palette": "蓝灰与白；随身工具清楚分区",
+    "entry_ids": [
+      "HC005",
+      "EX017",
+      "OP015",
+      "FW021",
+      "FW001",
+      "EX011"
+    ],
+    "archived": true
+  },
+  {
+    "name": "年长抄写师",
+    "description": "灰发、低盘髻、细纹、开襟针织衫、长链项饰",
+    "palette": "暖棕与烟蓝；眼镜和笔是主道具",
+    "entry_ids": [
+      "HS019",
+      "HT012",
+      "SK021",
+      "TO009",
+      "AC023",
+      "PO014"
+    ],
+    "archived": true
+  },
+  {
+    "name": "山地游侠",
+    "description": "双辫、运动体格、短披肩、骑装裤、骑乘靴",
+    "palette": "暗绿与赭色；箭袋固定点明确",
+    "entry_ids": [
+      "HT021",
+      "BO004",
+      "OW014",
+      "BT026",
+      "FW018",
+      "PO037"
+    ],
+    "archived": true
+  },
+  {
+    "name": "水晶守卫",
+    "description": "精灵短发、明确下颌角、强壮体格、重甲战士、幻想护甲靴",
+    "palette": "石灰与蓝；硬甲和柔性关节分区",
+    "entry_ids": [
+      "HC002",
+      "FA018",
+      "BO005",
+      "ST024",
+      "FW020",
+      "PO029"
+    ],
+    "archived": true
+  },
+  {
+    "name": "糕点工坊主人",
+    "description": "内扣波波、饱满体格、衬衫式女上衣、背带裙、花卉纹",
+    "palette": "奶油与莓红；围裙与发夹呼应",
+    "entry_ids": [
+      "HC006",
+      "BO006",
+      "TO006",
+      "OP008",
+      "MT024",
+      "EX002"
+    ],
+    "archived": true
+  },
+  {
+    "name": "巡夜术士",
+    "description": "遮单眼前发、长大衣、贴颈项饰、系带战靴、魔法印记",
+    "palette": "炭灰与紫；印记只在施法时发光",
+    "entry_ids": [
+      "HB011",
+      "OW003",
+      "AC022",
+      "FW017",
+      "SK019",
+      "PO027"
+    ],
+    "archived": true
+  },
+  {
+    "name": "冬季旅人",
+    "description": "紧卷发、厚实躯干、派克外套、围巾、连指手套",
+    "palette": "暗红与灰绿；毛绒边缘控制密度",
+    "entry_ids": [
+      "HS003",
+      "BO012",
+      "OW011",
+      "AC031",
+      "FW031",
+      "PO021"
+    ],
+    "archived": true
+  },
+  {
+    "name": "花园外交官",
+    "description": "半扎发、柔和棱角脸、裹身连衣裙、花形发簪、阳伞",
+    "palette": "浅紫与暖白；花饰成为近景识别点",
+    "entry_ids": [
+      "HT008",
+      "FA009",
+      "OP004",
+      "AC005",
+      "AC041",
+      "PO030"
+    ],
+    "archived": true
+  },
+  {
+    "name": "现代研究员",
+    "description": "狼尾层次、平直眉、高领针织衫、阔腿裤、方框眼镜",
+    "palette": "石墨与雾蓝；配饰少而功能清楚",
+    "entry_ids": [
+      "HC019",
+      "FE018",
+      "TO007",
+      "BT015",
+      "AC017",
+      "PO008"
+    ],
+    "archived": true
+  },
+  {
+    "name": "星际维修员",
+    "description": "泡泡马尾、宽阔骨架、工作连体服、护目镜、机械义肢",
+    "palette": "蓝绿与橙；设备连接结构具体",
+    "entry_ids": [
+      "HT016",
+      "BO014",
+      "OP015",
+      "AC018",
+      "FX012",
+      "PO020"
+    ],
+    "archived": true
+  },
+  {
+    "name": "舞台歌手",
+    "description": "高双马尾、双区发色、舞台装饰上衣、百褶裙、舞台重妆",
+    "palette": "两种主色；舞台鞋需适应动作",
+    "entry_ids": [
+      "HT005",
+      "HS024",
+      "TO024",
+      "BT004",
+      "EX028",
+      "PO033"
+    ],
+    "archived": true
+  },
+  {
+    "name": "古城灯匠",
+    "description": "长发簪、低盘髻、交领上衣、长及踝裙、刺绣",
+    "palette": "墨绿与铜色；传统元素明确为改编",
+    "entry_ids": [
+      "AC006",
+      "HT012",
+      "TO022",
+      "BT012",
+      "MT029",
+      "PO028"
+    ],
+    "archived": true
+  },
+  {
+    "name": "海雾召唤师",
+    "description": "银白发、长侧帘发、宽直袖、透明叠层、吊坠项链",
+    "palette": "冷灰与海蓝；叠层边缘保持清楚",
+    "entry_ids": [
+      "HS018",
+      "HB012",
+      "CS019",
+      "MT037",
+      "AC021",
+      "PO039"
+    ],
+    "archived": true
+  },
+  {
+    "name": "森林精灵",
+    "description": "绳索辫、精灵尖耳、叶片纹、斗篷、踝靴",
+    "palette": "绿与棕；耳、辫与帽互相让位",
+    "entry_ids": [
+      "HT025",
+      "FX001",
+      "MT025",
+      "OW012",
+      "FW013",
+      "PO024"
+    ],
+    "archived": true
+  },
+  {
+    "name": "暮色翼人",
+    "description": "自然紧密卷、羽翼、轻甲战士、绑带、长手套",
+    "palette": "紫灰与暖金；背面预留翼根结构",
+    "entry_ids": [
+      "HS005",
+      "FX006",
+      "ST023",
+      "MT035",
+      "FW029",
+      "PO040"
+    ],
+    "archived": true
+  },
+  {
+    "name": "旧城侦探",
+    "description": "深侧分、断眉识别点、西装外套、锥形裤、乐福鞋",
+    "palette": "棕灰与暗红；断眉与胸针是固定点",
+    "entry_ids": [
+      "HB015",
+      "FE025",
+      "OW001",
+      "BT016",
+      "FW003",
+      "EX007"
+    ],
+    "archived": true
+  },
+  {
+    "name": "山路摄影师",
+    "description": "报童帽、短款礼服外套、工装裤、相机硬包、胸前相机架、自然行走",
+    "palette": "灰棕与雾蓝；携行固定点明确",
+    "entry_ids": [
+      "HA006",
+      "OW017",
+      "BT018",
+      "BA008",
+      "GE025",
+      "PO021"
+    ],
+    "archived": true
+  },
+  {
+    "name": "溪谷登山向导",
+    "description": "登山向导装、框架登山包、护耳冬帽、雪地保暖靴、扶杖站立",
+    "palette": "暗绿与橙；装备重量影响姿态",
+    "entry_ids": [
+      "UN026",
+      "BA012",
+      "HA015",
+      "FW044",
+      "PO043"
+    ],
+    "archived": true
+  },
+  {
+    "name": "星盘首饰匠",
+    "description": "辫尾盘髻、蝴蝶结领衬衫、阔腿裤、宽硬手镯、星盘仪器、手指托下巴",
+    "palette": "紫灰与铜金；首饰只保留局部重点",
+    "entry_ids": [
+      "HT037",
+      "TO028",
+      "BT015",
+      "JE021",
+      "GE009",
+      "PO008"
+    ],
+    "archived": true
+  },
+  {
+    "name": "书店讲师",
+    "description": "成熟成人柔和外观、露耳侧发、校园成人讲师装、托特手提袋、短珠链、直坐",
+    "palette": "海军蓝与米白；头部与书册为识别点",
+    "entry_ids": [
+      "AG003",
+      "HD011",
+      "UN020",
+      "BA001",
+      "JE011",
+      "PO014"
+    ],
+    "archived": true
+  },
+  {
+    "name": "海岸救援员",
+    "description": "救援行动装灵感、救生浮力背心装、医护工作帽、硬壳药箱、长袖防晒泳装、伸手指向",
+    "palette": "橙色与石墨；优先明确防护与工具",
+    "entry_ids": [
+      "UN007",
+      "SP022",
+      "HA019",
+      "BA018",
+      "SP018",
+      "PO026"
+    ],
+    "archived": true
+  },
+  {
+    "name": "弓术教练",
+    "description": "左右并行贴头辫、运动体格、骑术训练装、前臂护甲、肩背箭袋、拉弓",
+    "palette": "棕与森林绿；动作中保留握持与带具关系",
+    "entry_ids": [
+      "HT045",
+      "BO004",
+      "UN027",
+      "AR010",
+      "GE015",
+      "PO037"
+    ],
+    "archived": true
+  },
+  {
+    "name": "花园礼仪官",
+    "description": "花形盘辫、布花领饰、披风一体礼服、面纱礼帽、星月甲面、双手身前交叠",
+    "palette": "奶白与鼠尾草；远近景分别保留头饰和甲面细节",
+    "entry_ids": [
+      "HT044",
+      "JE016",
+      "OP029",
+      "HA021",
+      "NA017",
+      "PO006"
+    ],
+    "archived": true
+  },
+  {
+    "name": "黎明潜水员",
+    "description": "短法杖、全长潜水服、潜水袜靴、腕部显示装置、发尾散束、回头",
+    "palette": "雾蓝与青白银；湿发与装备分区清楚",
+    "entry_ids": [
+      "GE001",
+      "SP021",
+      "FW045",
+      "GE022",
+      "HD016",
+      "PO024"
+    ],
+    "archived": true
+  },
+  {
+    "name": "星盘巡游Cos方案",
+    "description": "星盘巡游者Cos套装、星点颊面角色妆、短波波基础假发套、几何尖冠Cos头饰、立体星领Cos饰件、星窗短杖Cos道具、单手持短杖展示姿",
+    "palette": "蓝白与金；胸前星形、短发和短杖协调",
+    "entry_ids": [
+      "CP001",
+      "CL012",
+      "WG001",
+      "CH001",
+      "CA001",
+      "CR001",
+      "CG006"
+    ],
+    "cosplay_combo": true,
+    "archived": true
+  },
+  {
+    "name": "冰原骑士Cos方案",
+    "description": "冰原披毛骑士Cos套装、露耳短层假发套、开面薄壳Cos头盔、对称腕甲Cos饰件、轻壳圆盾Cos道具、圆盾侧托展示姿",
+    "palette": "蓝灰与银；肩披与圆盾保持整体轮廓",
+    "entry_ids": [
+      "CP022",
+      "WG004",
+      "CH011",
+      "CA010",
+      "CR020",
+      "CG011"
+    ],
+    "cosplay_combo": true,
+    "archived": true
+  },
+  {
+    "name": "古堡人偶Cos方案",
+    "description": "哥特人偶长裙Cos套装、哑光深唇舞台妆、卷发基础假发套、双弧小冠Cos头饰、长裙外叠腰饰Cos件、圆框手镜Cos道具、手镜抬至肩侧姿",
+    "palette": "黑紫与米白；卷发、冠饰和层裙分配视觉重点",
+    "entry_ids": [
+      "CP013",
+      "CL010",
+      "WG003",
+      "CH002",
+      "CA009",
+      "CR007",
+      "CG008"
+    ],
+    "cosplay_combo": true,
+    "archived": true
+  },
+  {
+    "name": "蒸汽修械Cos方案",
+    "description": "蒸汽修械师Cos套装、露耳短层假发套、钟面小帽Cos头饰、齿轮胸盘Cos饰件、齿轮钥匙Cos道具、挂环道具携带座、正面角色识别站姿",
+    "palette": "铜棕与深蓝；帽、胸盘与手持物使用同一几何语言",
+    "entry_ids": [
+      "CP026",
+      "WG004",
+      "CH014",
+      "CA005",
+      "CR013",
+      "CB016",
+      "CG001"
+    ],
+    "cosplay_combo": true,
+    "archived": true
+  },
+  {
+    "name": "赛博夜巡Cos方案",
+    "description": "赛博夜巡者Cos套装、科技半脸妆面分区、双色拼接假发套、双侧机械耳盘Cos饰、指背连片Cos手饰、空白数据板Cos道具、侧身肩饰展示姿",
+    "palette": "黑绿与银；妆面、假发分区和腕部外装呼应",
+    "entry_ids": [
+      "CP039",
+      "CL016",
+      "WG016",
+      "CH010",
+      "CA012",
+      "CR026",
+      "CG002"
+    ],
+    "cosplay_combo": true,
+    "archived": true
+  },
+  {
+    "name": "机械女仆Cos方案",
+    "description": "机械维修女仆Cos套装、圆弧柔眉角色妆、短波波基础假发套、对称腕甲Cos饰件、齿轮钥匙Cos道具、夹口胸饰固定座、单手致意展示姿",
+    "palette": "黑白与铜金；围裙工具、短发与齿轮道具协调",
+    "entry_ids": [
+      "CP052",
+      "CL003",
+      "WG001",
+      "CA010",
+      "CR013",
+      "CB006",
+      "CG015"
+    ],
+    "cosplay_combo": true,
+    "archived": true
+  },
+  {
+    "name": "纸扇云游Cos方案",
+    "description": "纸扇云游者Cos套装、圆弧柔眉角色妆、盘髻包罩假发件、双弧小冠Cos头饰、肩腰连接飘带Cos件、折扇画面Cos道具、折扇半开呈现姿",
+    "palette": "蓝白与淡金；冠髻、衣襟与扇面可按同一主题调整",
+    "entry_ids": [
+      "CP031",
+      "CL003",
+      "WG014",
+      "CH002",
+      "CA016",
+      "CR010",
+      "CG010"
+    ],
+    "cosplay_combo": true,
+    "archived": true
+  },
+  {
+    "name": "朋克鼓手Cos方案",
+    "description": "朋克乐队鼓手Cos套装、宽尾刀形眉角色妆、扇状尖束造型假发、双侧机械耳盘Cos饰、齿轮胸盘Cos饰件、空白麦克风Cos道具、单手致意展示姿",
+    "palette": "黑红与金属色；格纹、尖束假发和舞台道具协调",
+    "entry_ids": [
+      "CP058",
+      "CL004",
+      "WG017",
+      "CH010",
+      "CA005",
+      "CR012",
+      "CG015"
+    ],
+    "cosplay_combo": true,
+    "archived": true
+  },
+  {
+    "name": "身份设定·反派千金",
+    "description": "两套身份造型与可选搭配部件；可比较衣物、标志饰物、表情与姿态。",
+    "palette": "绛紫、黑金与祖母绿",
+    "entry_ids": [
+      "IS001",
+      "IS002",
+      "HT008",
+      "NK006",
+      "GL010",
+      "BC002"
+    ],
+    "identity_example": true,
+    "identity_kind": "反派千金",
+    "added_in": "51.0",
+    "archived": true
+  },
+  {
+    "name": "身份设定·落魄千金",
+    "description": "两套身份造型与可选搭配部件；可比较衣物、标志饰物、表情与姿态。",
+    "palette": "褪蓝、原色与旧银",
+    "entry_ids": [
+      "IS003",
+      "IS004",
+      "HT019",
+      "PN007",
+      "BC006"
+    ],
+    "identity_example": true,
+    "identity_kind": "落魄千金",
+    "added_in": "51.0",
+    "archived": true
+  },
+  {
+    "name": "身份设定·女王",
+    "description": "两套身份造型与可选搭配部件；可比较衣物、标志饰物、表情与姿态。",
+    "palette": "深蓝、炭灰与金",
+    "entry_ids": [
+      "IS005",
+      "IS006",
+      "HT012",
+      "NK007",
+      "BC002"
+    ],
+    "identity_example": true,
+    "identity_kind": "女王",
+    "added_in": "51.0",
+    "archived": true
+  },
+  {
+    "name": "身份设定·亡国公主",
+    "description": "两套身份造型与可选搭配部件；可比较衣物、标志饰物、表情与姿态。",
+    "palette": "雾蓝、深灰与旧金",
+    "entry_ids": [
+      "IS007",
+      "IS008",
+      "HT019",
+      "PN007",
+      "BE001"
+    ],
+    "identity_example": true,
+    "identity_kind": "亡国公主",
+    "added_in": "51.0",
+    "archived": true
+  },
+  {
+    "name": "身份设定·圣女",
+    "description": "两套身份造型与可选搭配部件；可比较衣物、标志饰物、表情与姿态。",
+    "palette": "白金与浅蓝",
+    "entry_ids": [
+      "ID001",
+      "ID002",
+      "HT026",
+      "PN010",
+      "HG053"
+    ],
+    "identity_example": true,
+    "identity_kind": "圣女",
+    "added_in": "51.0",
+    "archived": true
+  },
+  {
+    "name": "身份设定·女管家",
+    "description": "两套身份造型与可选搭配部件；可比较衣物、标志饰物、表情与姿态。",
+    "palette": "黑、白与炭灰",
+    "entry_ids": [
+      "ID003",
+      "ID004",
+      "HT012",
+      "GL001",
+      "GE012"
+    ],
+    "identity_example": true,
+    "identity_kind": "女管家",
+    "added_in": "51.0",
+    "archived": true
+  },
+  {
+    "name": "身份设定·女总裁",
+    "description": "两套身份造型与可选搭配部件；可比较衣物、标志饰物、表情与姿态。",
+    "palette": "深蓝、浅灰与金",
+    "entry_ids": [
+      "ID005",
+      "ID006",
+      "HT015",
+      "WT003",
+      "EG008"
+    ],
+    "identity_example": true,
+    "identity_kind": "女总裁",
+    "added_in": "51.0",
+    "archived": true
+  },
+  {
+    "name": "身份设定·文学系",
+    "description": "两套身份造型与可选搭配部件；可比较衣物、标志饰物、表情与姿态。",
+    "palette": "燕麦、深棕与烟绿",
+    "entry_ids": [
+      "IC001",
+      "IC002",
+      "HT019",
+      "EG001",
+      "GE013"
+    ],
+    "identity_example": true,
+    "identity_kind": "文学系",
+    "added_in": "51.0",
+    "archived": true
+  },
+  {
+    "name": "身份设定·三无系",
+    "description": "两套身份造型与可选搭配部件；可比较衣物、标志饰物、表情与姿态。",
+    "palette": "灰白与深蓝",
+    "entry_ids": [
+      "IC003",
+      "IC004",
+      "HB001",
+      "WT001"
+    ],
+    "identity_example": true,
+    "identity_kind": "三无系",
+    "added_in": "51.0",
+    "archived": true
+  },
+  {
+    "name": "身份设定·双重身份",
+    "description": "两套身份造型与可选搭配部件；同一人物的公开与隐藏身份。",
+    "palette": "日间浅灰与夜间深墨",
+    "entry_ids": [
+      "IC005",
+      "IC006",
+      "HT002",
+      "EG001",
+      "GL003",
+      "GE021"
+    ],
+    "identity_example": true,
+    "identity_kind": "双重身份",
+    "added_in": "51.0",
+    "archived": true
+  },
+  {
+    "name": "身份设定·皇女",
+    "description": "两套身份造型与可选搭配部件，比较同一人物的面容、饰物、服装与处境。",
+    "palette": "以两套代表图的配色为基础，可更换局部饰物。",
+    "entry_ids": [
+      "IS009",
+      "IS010",
+      "HT008",
+      "PN009",
+      "GL008"
+    ],
+    "identity_example": true,
+    "identity_kind": "皇女",
+    "added_in": "52.0",
+    "archived": true
+  },
+  {
+    "name": "身份设定·女领主",
+    "description": "两套身份造型与可选搭配部件，比较同一人物的面容、饰物、服装与处境。",
+    "palette": "以两套代表图的配色为基础，可更换局部饰物。",
+    "entry_ids": [
+      "IS011",
+      "IS012",
+      "HT019",
+      "BC002",
+      "BE001"
+    ],
+    "identity_example": true,
+    "identity_kind": "女领主",
+    "added_in": "52.0",
+    "archived": true
+  },
+  {
+    "name": "身份设定·堕落圣女",
+    "description": "两套身份造型与可选搭配部件，比较同一人物的面容、饰物、服装与处境。",
+    "palette": "以两套代表图的配色为基础，可更换局部饰物。",
+    "entry_ids": [
+      "ID007",
+      "ID008",
+      "HT026",
+      "PN010",
+      "BC011"
+    ],
+    "identity_example": true,
+    "identity_kind": "堕落圣女",
+    "added_in": "52.0",
+    "archived": true
+  },
+  {
+    "name": "身份设定·复仇者",
+    "description": "两套身份造型与可选搭配部件，比较同一人物的面容、饰物、服装与处境。",
+    "palette": "以两套代表图的配色为基础，可更换局部饰物。",
+    "entry_ids": [
+      "IC007",
+      "IC008",
+      "HT002",
+      "BC006",
+      "GL003"
+    ],
+    "identity_example": true,
+    "identity_kind": "复仇者",
+    "added_in": "52.0",
+    "archived": true
+  },
+  {
+    "name": "身份设定·赏金猎人",
+    "description": "两套身份造型与可选搭配部件，比较同一人物的面容、饰物、服装与处境。",
+    "palette": "以两套代表图的配色为基础，可更换局部饰物。",
+    "entry_ids": [
+      "ID009",
+      "ID010",
+      "HT002",
+      "HA026",
+      "GE014"
+    ],
+    "identity_example": true,
+    "identity_kind": "赏金猎人",
+    "added_in": "52.0",
+    "archived": true
+  },
+  {
+    "name": "身份设定·情报贩子",
+    "description": "两套身份造型与可选搭配部件，比较同一人物的面容、饰物、服装与处境。",
+    "palette": "以两套代表图的配色为基础，可更换局部饰物。",
+    "entry_ids": [
+      "ID011",
+      "ID012",
+      "EG004",
+      "PN007",
+      "GL007"
+    ],
+    "identity_example": true,
+    "identity_kind": "情报贩子",
+    "added_in": "52.0",
+    "archived": true
+  },
+  {
+    "name": "身份设定·黑客",
+    "description": "两套身份造型与可选搭配部件，比较同一人物的面容、饰物、服装与处境。",
+    "palette": "以两套代表图的配色为基础，可更换局部饰物。",
+    "entry_ids": [
+      "ID013",
+      "ID014",
+      "HP001",
+      "EG002",
+      "WT014"
+    ],
+    "identity_example": true,
+    "identity_kind": "黑客",
+    "added_in": "52.0",
+    "archived": true
+  },
+  {
+    "name": "身份设定·守护者",
+    "description": "两套身份造型与可选搭配部件，比较同一人物的面容、饰物、服装与处境。",
+    "palette": "以两套代表图的配色为基础，可更换局部饰物。",
+    "entry_ids": [
+      "ID015",
+      "ID016",
+      "HT019",
+      "GE020",
+      "GL023"
+    ],
+    "identity_example": true,
+    "identity_kind": "守护者",
+    "added_in": "52.0",
+    "archived": true
+  },
+  {
+    "name": "角色装扮·功夫与武术",
+    "description": "四套主题造型及既有相关图鉴的参考集合，可另存后挑选需要的部件。",
+    "palette": "比较各套配色与轮廓，选择一套作为主方向。",
+    "entry_ids": [
+      "KU001",
+      "KU002",
+      "KU003",
+      "KU004",
+      "SP011",
+      "HT002"
+    ],
+    "role_example": true,
+    "added_in": "52.0",
+    "archived": true
+  },
+  {
+    "name": "角色装扮·小丑与丑角",
+    "description": "四套主题造型及既有相关图鉴的参考集合，可另存后挑选需要的部件。",
+    "palette": "比较各套配色与轮廓，选择一套作为主方向。",
+    "entry_ids": [
+      "CW001",
+      "CW002",
+      "CW003",
+      "CW004",
+      "TC059",
+      "HA010"
+    ],
+    "role_example": true,
+    "added_in": "52.0",
+    "archived": true
+  },
+  {
+    "name": "主题图集·学术、教研与博士学位",
+    "description": "四种代表外观供比较和选择；各套独立成立，可另存后继续收集部件。",
+    "palette": "以选中的代表外观为主，比较衣层、材质、标志物与神态。",
+    "entry_ids": [
+      "AD001",
+      "AD002",
+      "AD003",
+      "AD004"
+    ],
+    "theme_reference": true,
+    "added_in": "53.0",
+    "archived": true
+  },
+  {
+    "name": "主题图集·书呆子、理工宅与图书馆风",
+    "description": "四种代表外观供比较和选择；各套独立成立，可另存后继续收集部件。",
+    "palette": "以选中的代表外观为主，比较衣层、材质、标志物与神态。",
+    "entry_ids": [
+      "AD005",
+      "AD006",
+      "AD007",
+      "AD008"
+    ],
+    "theme_reference": true,
+    "added_in": "53.0",
+    "archived": true
+  },
+  {
+    "name": "主题图集·实验、计算与田野科研",
+    "description": "四种代表外观供比较和选择；各套独立成立，可另存后继续收集部件。",
+    "palette": "以选中的代表外观为主，比较衣层、材质、标志物与神态。",
+    "entry_ids": [
+      "AD009",
+      "AD010",
+      "AD011",
+      "AD012"
+    ],
+    "theme_reference": true,
+    "added_in": "53.0",
+    "archived": true
+  },
+  {
+    "name": "主题图集·丛林、雨林与湿热环境",
+    "description": "四种代表外观供比较和选择；各套独立成立，可另存后继续收集部件。",
+    "palette": "以选中的代表外观为主，比较衣层、材质、标志物与神态。",
+    "entry_ids": [
+      "BX001",
+      "BX002",
+      "BX003",
+      "BX004"
+    ],
+    "theme_reference": true,
+    "added_in": "53.0",
+    "archived": true
+  },
+  {
+    "name": "主题图集·沙漠、荒原与干热环境",
+    "description": "四种代表外观供比较和选择；各套独立成立，可另存后继续收集部件。",
+    "palette": "以选中的代表外观为主，比较衣层、材质、标志物与神态。",
+    "entry_ids": [
+      "BX005",
+      "BX006",
+      "BX007",
+      "BX008"
+    ],
+    "theme_reference": true,
+    "added_in": "53.0",
+    "archived": true
+  },
+  {
+    "name": "主题图集·史前幻想·采集、石器与织物",
+    "description": "四种代表外观供比较和选择；各套独立成立，可另存后继续收集部件。",
+    "palette": "以选中的代表外观为主，比较衣层、材质、标志物与神态。",
+    "entry_ids": [
+      "PV001",
+      "PV002",
+      "PV003",
+      "PV004"
+    ],
+    "theme_reference": true,
+    "added_in": "53.0",
+    "archived": true
+  },
+  {
+    "name": "主题图集·牧场、西部旅行与舞台牛仔",
+    "description": "四种代表外观供比较和选择；各套独立成立，可另存后继续收集部件。",
+    "palette": "以选中的代表外观为主，比较衣层、材质、标志物与神态。",
+    "entry_ids": [
+      "WX001",
+      "WX002",
+      "WX003",
+      "WX004"
+    ],
+    "theme_reference": true,
+    "added_in": "53.0",
+    "archived": true
+  },
+  {
+    "name": "主题图集·萨米、因纽特、马普切与毛利",
+    "description": "四种代表外观供比较和选择；各套独立成立，可另存后继续收集部件。",
+    "palette": "以选中的代表外观为主，比较衣层、材质、标志物与神态。",
+    "entry_ids": [
+      "RC001",
+      "RC002",
+      "RC003",
+      "RC004"
+    ],
+    "theme_reference": true,
+    "added_in": "53.0",
+    "archived": true
+  },
+  {
+    "name": "主题图集·北欧现代·简约与户外",
+    "description": "四种代表外观供比较和选择；各套独立成立，可另存后继续收集部件。",
+    "palette": "以选中的代表外观为主，比较衣层、材质、标志物与神态。",
+    "entry_ids": [
+      "NV001",
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "theme_reference": true,
+    "added_in": "53.0",
+    "archived": true
+  },
+  {
+    "name": "主题图集·北欧历史结构与幻想改编",
+    "description": "四种代表外观供比较和选择；各套独立成立，可另存后继续收集部件。",
+    "palette": "以选中的代表外观为主，比较衣层、材质、标志物与神态。",
+    "entry_ids": [
+      "NV005",
+      "NV006",
+      "NV007",
+      "NV008"
+    ],
+    "theme_reference": true,
+    "added_in": "53.0",
+    "archived": true
+  },
+  {
+    "name": "主题图集·古典神话·女神与戈耳工",
+    "description": "四种代表外观供比较和选择；各套独立成立，可另存后继续收集部件。",
+    "palette": "以选中的代表外观为主，比较衣层、材质、标志物与神态。",
+    "entry_ids": [
+      "MP001",
+      "MP002",
+      "MP003",
+      "MP004"
+    ],
+    "theme_reference": true,
+    "added_in": "53.0",
+    "archived": true
+  },
+  {
+    "name": "主题图集·北欧神话·女神与神祇娘化",
+    "description": "四种代表外观供比较和选择；各套独立成立，可另存后继续收集部件。",
+    "palette": "以选中的代表外观为主，比较衣层、材质、标志物与神态。",
+    "entry_ids": [
+      "MP005",
+      "MP006",
+      "MP007",
+      "MP008"
+    ],
+    "theme_reference": true,
+    "added_in": "53.0",
+    "archived": true
+  },
+  {
+    "name": "主题图集·日月、四季与元素拟人",
+    "description": "四种代表外观供比较和选择；各套独立成立，可另存后继续收集部件。",
+    "palette": "以选中的代表外观为主，比较衣层、材质、标志物与神态。",
+    "entry_ids": [
+      "MP009",
+      "MP010",
+      "MP011",
+      "MP012"
+    ],
+    "theme_reference": true,
+    "added_in": "53.0",
+    "archived": true
+  },
+  {
+    "name": "主题图集·神话生物与经典幻想娘化",
+    "description": "四种代表外观供比较和选择；各套独立成立，可另存后继续收集部件。",
+    "palette": "以选中的代表外观为主，比较衣层、材质、标志物与神态。",
+    "entry_ids": [
+      "MP013",
+      "MP014",
+      "MP015",
+      "MP016"
+    ],
+    "theme_reference": true,
+    "added_in": "53.0",
+    "archived": true
+  },
+  {
+    "name": "主题图集·水、凝胶、海沫与黏液人形",
+    "description": "四种代表外观供比较和选择；各套独立成立，可另存后继续收集部件。",
+    "palette": "以选中的代表外观为主，比较衣层、材质、标志物与神态。",
+    "entry_ids": [
+      "LH001",
+      "LH002",
+      "LH003",
+      "LH004"
+    ],
+    "theme_reference": true,
+    "added_in": "53.0",
+    "archived": true
+  },
+  {
+    "name": "主题图集·金属、墨、油膜与熔流人形",
+    "description": "四种代表外观供比较和选择；各套独立成立，可另存后继续收集部件。",
+    "palette": "以选中的代表外观为主，比较衣层、材质、标志物与神态。",
+    "entry_ids": [
+      "LH005",
+      "LH006",
+      "LH007",
+      "LH008"
+    ],
+    "theme_reference": true,
+    "added_in": "53.0",
+    "archived": true
+  },
+  {
+    "id": "example-ribbon-first",
+    "chapter": "everyday",
+    "name": "从五个词条开始",
+    "description": "先用发型、上装、下装、袜子和动作表达一个简洁方向。",
+    "practice": "把上装换成自己的选择，比较整体感觉的变化。",
+    "kind": "入门",
+    "palette": "",
+    "entry_ids": [
+      "AH020",
+      "TO086",
+      "BT004",
+      "SO093",
+      "PO007"
+    ],
+    "recommended": true,
+    "tutorial": true,
+    "chapter_name": "服装单件与日常穿搭",
+    "archived": true
+  },
+  {
+    "id": "example-pieces-first",
+    "chapter": "everyday",
+    "name": "从单件搭出通勤装",
+    "description": "观察上装、下装、外套、领型与鞋包怎样组合。",
+    "practice": "先另存为自己的卡，再只替换鞋或外套。",
+    "kind": "入门",
+    "palette": "",
+    "entry_ids": [
+      "TO006",
+      "BT015",
+      "OW001",
+      "CS008",
+      "FW003",
+      "BA001"
+    ],
+    "recommended": true,
+    "tutorial": true,
+    "chapter_name": "服装单件与日常穿搭",
+    "archived": true
+  },
+  {
+    "id": "example-same-look-two-media",
+    "chapter": "art_styles",
+    "name": "同一外观，换种画法",
+    "description": "保留相同外观，将两种画风当作备选，尝试输出不同版本。",
+    "practice": "导出时仅勾选一种画风，再换另一种比较。",
+    "kind": "入门",
+    "palette": "",
+    "entry_ids": [
+      "HN069",
+      "SV001",
+      "XA001",
+      "XD001",
+      "VS007"
+    ],
+    "recommended": true,
+    "tutorial": true,
+    "chapter_name": "画风与视觉表现",
+    "archived": true
+  },
+  {
+    "id": "example-cut-and-bangs",
+    "chapter": "hair_design",
+    "name": "剪裁、刘海与局部发束",
+    "description": "把整体剪裁、额前分缝与贴颊发束分开观察。",
+    "practice": "保留脸型，只替换刘海，观察额头与脸缘。",
+    "kind": "局部观察",
+    "palette": "",
+    "entry_ids": [
+      "HC005",
+      "HB013",
+      "HD025",
+      "FA001",
+      "VA001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "头发与发型",
+    "archived": true
+  },
+  {
+    "id": "example-texture-color",
+    "chapter": "hair_design",
+    "name": "同一剪裁的发质与发色",
+    "description": "直发、波浪和深浅发色是可分别取用的参考。",
+    "practice": "每次只勾选一种质感与一种发色。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "HC011",
+      "HS001",
+      "HS031",
+      "HS013",
+      "HS016"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "头发与发型",
+    "archived": true
+  },
+  {
+    "id": "example-hair-everyday-states",
+    "chapter": "hair_design",
+    "name": "头发的生活状态",
+    "description": "同一长度可呈现刚睡醒、湿透或随手整理后的状态。",
+    "practice": "选择一种状态，试着配合对应场景。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "HZ001",
+      "HZ017",
+      "HZ013",
+      "HN017",
+      "PJ001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "头发与发型",
+    "archived": true
+  },
+  {
+    "id": "example-ties-and-complete",
+    "chapter": "hair_design",
+    "name": "扎编与完整发型",
+    "description": "比较基础扎编、完整方案与饰物实际固定方式。",
+    "practice": "先看完整发型，再打开对应发饰的结构图。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "HT019",
+      "HT062",
+      "HN035",
+      "AH049",
+      "HR033"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "头发与发型",
+    "archived": true
+  },
+  {
+    "id": "example-elastic-wearing",
+    "chapter": "hair_design",
+    "name": "发绳怎样固定头发",
+    "description": "对照发绳物件与高、低束发的佩戴参考。",
+    "practice": "留下一个完整发型，把另外两个当作备选。",
+    "kind": "局部观察",
+    "palette": "",
+    "entry_ids": [
+      "HR049",
+      "AH017",
+      "AH020",
+      "AH031",
+      "RB009"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "头发与发型",
+    "archived": true
+  },
+  {
+    "id": "example-facial-structure",
+    "chapter": "face_design",
+    "name": "面部轮廓与五官",
+    "description": "从脸缘、眉形和鼻耳牙近景理解不同层级的特征。",
+    "practice": "只保留一个脸型，再选择需要强调的局部。",
+    "kind": "局部观察",
+    "palette": "",
+    "entry_ids": [
+      "FA001",
+      "FA016",
+      "FE018",
+      "NF001",
+      "NF009",
+      "NF017"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "脸部与表情",
+    "archived": true
+  },
+  {
+    "id": "example-lip-shape-color",
+    "chapter": "face_design",
+    "name": "唇形与唇妆各管什么",
+    "description": "唇部轮廓与涂色方式分开取用，近景观察边缘变化。",
+    "practice": "保留同一唇形，更换唇色或渐变画法。",
+    "kind": "局部观察",
+    "palette": "",
+    "entry_ids": [
+      "LP001",
+      "LP004",
+      "LM001",
+      "LM019",
+      "VS002"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "脸部与表情",
+    "archived": true
+  },
+  {
+    "id": "example-portrait-view-light",
+    "chapter": "face_design",
+    "name": "脸部转向与照明",
+    "description": "固定面容，分别看侧转、柔光和侧面硬光带来的变化。",
+    "practice": "每次各选一个头部方向和一种布光。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "VA001",
+      "VA004",
+      "IL001",
+      "IL003",
+      "FA001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "脸部与表情",
+    "archived": true
+  },
+  {
+    "id": "example-eyes-and-skin",
+    "chapter": "face_design",
+    "name": "虹膜、肤色与识别点",
+    "description": "用眼色、雀斑和细小标记建立面容识别点。",
+    "practice": "把两种眼色当作备选，保留共同识别点。",
+    "kind": "局部观察",
+    "palette": "",
+    "entry_ids": [
+      "EY001",
+      "EY007",
+      "SK009",
+      "SK006",
+      "FE025"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "脸部与表情",
+    "archived": true
+  },
+  {
+    "id": "example-natural-makeup",
+    "chapter": "face_design",
+    "name": "日常妆容的层次",
+    "description": "区分眼影、眼线、完整眼妆和全脸妆容参考。",
+    "practice": "先参考完整妆面，再用局部词条修改重点。",
+    "kind": "局部观察",
+    "palette": "",
+    "entry_ids": [
+      "ES001",
+      "EL001",
+      "EO001",
+      "LM001",
+      "EX017"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "脸部与表情",
+    "archived": true
+  },
+  {
+    "id": "example-stage-makeup",
+    "chapter": "face_design",
+    "name": "舞台与编辑妆",
+    "description": "把图形眼线、金属眼影、唇色和面部装饰放到同一主题中。",
+    "practice": "选择一个主视觉重点，取消其余装饰比较。",
+    "kind": "搭配",
+    "palette": "",
+    "entry_ids": [
+      "ES013",
+      "EL010",
+      "EO012",
+      "LM031",
+      "EX092",
+      "AT001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "脸部与表情",
+    "archived": true
+  },
+  {
+    "id": "example-emotional-alternatives",
+    "chapter": "face_design",
+    "name": "凝视、憋笑与困惑",
+    "description": "同一个角色的反应备选，不必给每种表情重新搭一套衣服。",
+    "practice": "一次勾选一种表情，保持发型不变。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "EX029",
+      "EX037",
+      "EM065",
+      "EM017",
+      "HN069"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "脸部与表情",
+    "archived": true
+  },
+  {
+    "id": "example-mouth-hands",
+    "chapter": "face_design",
+    "name": "捧杯、口型与手部接触",
+    "description": "把饮水口型、杯柄握持和捧杯姿态联系起来观察。",
+    "practice": "保留一套捧杯动作，再对照另一只手的自然位置。",
+    "kind": "局部观察",
+    "palette": "",
+    "entry_ids": [
+      "MA028",
+      "DH009",
+      "PO141",
+      "HG013",
+      "HW001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "脸部与表情",
+    "archived": true
+  },
+  {
+    "id": "example-wish-prayer",
+    "chapter": "face_design",
+    "name": "许愿、祈祷、乞求与行礼",
+    "description": "相近的合手动作，意图与头部姿态可以不同。",
+    "entry_ids": [
+      "HG049",
+      "HG053",
+      "HG057",
+      "HG061"
+    ],
+    "practice": "每次选择一个意图，对照眉眼、身体前倾与手势。",
+    "kind": "同类备选",
+    "palette": "",
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "脸部与表情",
+    "archived": true
+  },
+  {
+    "id": "example-tired-rainy",
+    "chapter": "face_design",
+    "name": "从困倦到安睡",
+    "description": "把睡前的头发、面部状态、睡衣和眼罩联系起来。",
+    "practice": "选择睡前或入睡一个阶段，保留对应状态。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "FD001",
+      "FD081",
+      "FL017",
+      "HZ001",
+      "PJ001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "脸部与表情",
+    "archived": true
+  },
+  {
+    "id": "example-crying-and-cover",
+    "chapter": "face_design",
+    "name": "泪痕与忍泪的剧情近景",
+    "description": "用眉眼反应、妆面泪痕、侧俯视与柔光表现失落情境。",
+    "practice": "比较忍泪与已经哭花妆面两种阶段。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "FL001",
+      "EM029",
+      "VA013",
+      "IL007"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "脸部与表情",
+    "archived": true
+  },
+  {
+    "id": "example-synthetic-face",
+    "chapter": "face_design",
+    "name": "机械面部与异色瞳",
+    "description": "用义眼、面部机械分区和眼镜比较科技感的来源。",
+    "practice": "先决定机械化范围，再删去多余的变化方案。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "CY001",
+      "CY017",
+      "CY025",
+      "EG005",
+      "XK003"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "脸部与表情",
+    "archived": true
+  },
+  {
+    "id": "example-adult-silhouettes",
+    "chapter": "body_design",
+    "name": "成年体型与侧面轮廓",
+    "description": "比较健身型、梨形与体态差异，观察正侧面表达。",
+    "practice": "每次选一个体型方向，正侧面可作为共同参考。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "BO027",
+      "BO043",
+      "BO028",
+      "BO044",
+      "BO037",
+      "BO055"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "身体与动作",
+    "archived": true
+  },
+  {
+    "id": "example-life-stages",
+    "chapter": "body_design",
+    "name": "不同年龄阶段的外观",
+    "description": "把年龄参考放在一起观察，以日常人物设定理解成长与衰老。",
+    "practice": "选择目标年龄阶段，再去对应服装目录挑选。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "LF020",
+      "LF039",
+      "LF077",
+      "AG001",
+      "AG005",
+      "AG007"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "身体与动作",
+    "archived": true
+  },
+  {
+    "id": "example-sitting-kneeling",
+    "chapter": "body_design",
+    "name": "坐、蹲、跪与起身",
+    "description": "比较重心和支撑位置，不只依靠手势区分动作。",
+    "practice": "只选一个主要动作，查看详情中的受力要点。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "PO093",
+      "PO103",
+      "PO221",
+      "PO232",
+      "PO107"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "身体与动作",
+    "archived": true
+  },
+  {
+    "id": "example-movement-stretch",
+    "chapter": "body_design",
+    "name": "日常动作到柔韧姿态",
+    "description": "对照行走、伸展与舞蹈平衡中的身体走向。",
+    "practice": "选择适合角色场景的一种姿态即可。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "PO021",
+      "PF001",
+      "PF005",
+      "PF017",
+      "SP001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "身体与动作",
+    "archived": true
+  },
+  {
+    "id": "example-photo-with-plush",
+    "chapter": "body_design",
+    "name": "抱玩偶的生活照",
+    "description": "让玩偶尺寸、抱持方式、表情与拍照姿态互相呼应。",
+    "practice": "换一个玩偶大小，再比较手臂与躯干关系。",
+    "kind": "搭配",
+    "palette": "",
+    "entry_ids": [
+      "PH001",
+      "PH016",
+      "VS007",
+      "EX045",
+      "HW001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "身体与动作",
+    "archived": true
+  },
+  {
+    "id": "example-hand-foot-detail",
+    "chapter": "body_design",
+    "name": "手足近景与表面细节",
+    "description": "掌形、握持、足形、甲面和皮肤纹理可各自研究。",
+    "practice": "一次挑一个部位，打开近景图查看细节。",
+    "kind": "局部观察",
+    "palette": "",
+    "entry_ids": [
+      "DH001",
+      "DH009",
+      "FT001",
+      "FT033",
+      "NA005",
+      "SD007"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "身体与动作",
+    "archived": true
+  },
+  {
+    "id": "example-skin-art",
+    "chapter": "body_design",
+    "name": "皮肤标记与装饰",
+    "description": "比较雀斑、胎记、彩绘、纹身贴与甲面装饰的作用。",
+    "practice": "保留一个固定识别点，再加一处临时装饰。",
+    "kind": "局部观察",
+    "palette": "",
+    "entry_ids": [
+      "SK009",
+      "SD013",
+      "AT001",
+      "AT025",
+      "NA017"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "身体与动作",
+    "archived": true
+  },
+  {
+    "id": "example-prosthetic-daily",
+    "chapter": "body_design",
+    "name": "机械义肢也能穿日常装",
+    "description": "把单侧义肢、自然持物和简洁衣物放到日常场景中。",
+    "practice": "在手臂或腿部义肢中选一个方案。",
+    "kind": "搭配",
+    "palette": "",
+    "entry_ids": [
+      "PX001",
+      "PX010",
+      "TO001",
+      "BT013",
+      "DH009",
+      "PA001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "身体与动作",
+    "archived": true
+  },
+  {
+    "id": "example-spring-walk",
+    "chapter": "everyday",
+    "name": "春日散步与轻层搭",
+    "description": "围绕薄外套、发饰、手提包和行走姿态组织参考。",
+    "practice": "改换外套或包袋，保留春日的轻便层次。",
+    "kind": "搭配",
+    "palette": "",
+    "entry_ids": [
+      "SV049",
+      "AH077",
+      "HA029",
+      "BA001",
+      "FW063",
+      "PO021"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "服装单件与日常穿搭",
+    "archived": true
+  },
+  {
+    "id": "example-summer-seaside",
+    "chapter": "everyday",
+    "name": "夏季海边与泳装",
+    "description": "把连体泳装和防晒度假装作为两种场景选择。",
+    "practice": "按下水或岸边活动选择服装方案。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "SM037",
+      "SW001",
+      "SW028",
+      "HA029",
+      "BA040",
+      "AK001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "服装单件与日常穿搭",
+    "archived": true
+  },
+  {
+    "id": "example-autumn-layers",
+    "chapter": "everyday",
+    "name": "秋季叠穿的软硬对比",
+    "description": "针织、牛仔和皮靴的材质关系比配件数量更重要。",
+    "practice": "试着保留主配色，只换一层材质。",
+    "kind": "搭配",
+    "palette": "",
+    "entry_ids": [
+      "AU049",
+      "LO001",
+      "MT003",
+      "KF001",
+      "FW033",
+      "BE001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "服装单件与日常穿搭",
+    "archived": true
+  },
+  {
+    "id": "example-winter-outdoors",
+    "chapter": "everyday",
+    "name": "冬季穿搭与保暖细节",
+    "description": "观察外套、帽、围巾、袜子和手套的覆盖关系。",
+    "practice": "去掉一件配饰，比较轮廓是否仍清楚。",
+    "kind": "搭配",
+    "palette": "",
+    "entry_ids": [
+      "WI001",
+      "HA015",
+      "KF013",
+      "GL017",
+      "SO033",
+      "FW044"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "服装单件与日常穿搭",
+    "archived": true
+  },
+  {
+    "id": "example-shirt-and-folds",
+    "chapter": "everyday",
+    "name": "版型到衣物褶皱",
+    "description": "把领袖结构、连身版型与动作中的布料变化分开看。",
+    "practice": "固定版型，只比较站立与坐下的褶皱。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "TO006",
+      "OP065",
+      "CS008",
+      "CS025",
+      "GD001",
+      "GD005"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "服装单件与日常穿搭",
+    "archived": true
+  },
+  {
+    "id": "example-home-day-night",
+    "chapter": "everyday",
+    "name": "居家的白天与夜晚",
+    "description": "日间家务、睡衣和内搭分属不同用途，可分别选用。",
+    "practice": "先选择白天或睡前场景，再保留对应服装。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "HW003",
+      "PJ001",
+      "UW025",
+      "PO281",
+      "HZ013"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "服装单件与日常穿搭",
+    "archived": true
+  },
+  {
+    "id": "example-school-and-youth",
+    "chapter": "everyday",
+    "name": "校园与青春日常",
+    "description": "以校服、日常活动服和背包形成适龄场景。",
+    "practice": "选校内或课外一个方向，保留自然姿态。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "SU001",
+      "YO049",
+      "BA039",
+      "FW079",
+      "HR017",
+      "PO141"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "服装单件与日常穿搭",
+    "archived": true
+  },
+  {
+    "id": "example-sports-basics",
+    "chapter": "everyday",
+    "name": "射箭训练的服装与姿态",
+    "description": "让训练服、前臂护具、箭袋与拉弓动作围绕同一活动安排。",
+    "practice": "先看拉弓姿态，再检查前臂和肩背装备的位置。",
+    "kind": "搭配",
+    "palette": "",
+    "entry_ids": [
+      "SP031",
+      "AR010",
+      "GE015",
+      "PO037",
+      "FW079",
+      "SO017"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "服装单件与日常穿搭",
+    "archived": true
+  },
+  {
+    "id": "example-gothic-lolita-punk",
+    "chapter": "everyday",
+    "name": "三种风格，各自成套",
+    "description": "哥特、洛丽塔与朋克以轮廓和装饰语汇区分。",
+    "practice": "导出时只留一种成套风格，再比较另一种。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "FS001",
+      "FS033",
+      "FS049",
+      "ST011",
+      "ST012",
+      "ST014"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "服装单件与日常穿搭",
+    "archived": true
+  },
+  {
+    "id": "example-street-and-editorial",
+    "chapter": "everyday",
+    "name": "街头、潮流到时尚型录",
+    "description": "同为现代服装，不同场景会改变松量与呈现方式。",
+    "practice": "从街头、通勤或型录中选一个展示方向。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "SF005",
+      "TF001",
+      "CF001",
+      "MO009",
+      "PP013"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "服装单件与日常穿搭",
+    "archived": true
+  },
+  {
+    "id": "example-presence-and-coverage",
+    "chapter": "everyday",
+    "name": "气质与覆盖程度",
+    "description": "分别观察角色表演气质和服装露肤方式，不把它们当作同一维度。",
+    "practice": "各选一种气质和一种覆盖方案进行比较。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "QL001",
+      "QL003",
+      "QL013",
+      "LC001",
+      "LC002"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "服装单件与日常穿搭",
+    "archived": true
+  },
+  {
+    "id": "example-hanfu-and-opera",
+    "chapter": "role_costumes",
+    "name": "国风与戏曲的区别",
+    "description": "对照日常历史灵感、国风改编与戏曲行头的轮廓。",
+    "practice": "选一个语境，再决定保留哪些结构与装饰。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "CN009",
+      "TR033",
+      "OC009",
+      "HR033",
+      "MT029"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-fashion-timeline",
+    "chapter": "role_costumes",
+    "name": "女装剪影的年代变化",
+    "description": "从历史裙型到20世纪初，再到日本近现代造型作年代比较。",
+    "practice": "每次保留一个时期，打开词条核对时代与改编说明。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "FH025",
+      "HI017",
+      "EC001",
+      "EC033",
+      "JR002"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-regional-references",
+    "chapter": "role_costumes",
+    "name": "北地的传统结构与现代防雨",
+    "description": "比较萨米服饰参考与北欧现代户外装的用途，保留各自语境。",
+    "practice": "选定具体文化或现代场景，不把两套直接混成一套。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "RC001",
+      "NV003",
+      "MT003",
+      "KF013"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-prehistoric-gatherer",
+    "chapter": "role_costumes",
+    "name": "史前幻想采集者",
+    "description": "植物纤维、编绳、石珠与携行袋共同表达采集生活灵感。",
+    "entry_ids": [
+      "PV001",
+      "CE004",
+      "BB009",
+      "BA039",
+      "PA001"
+    ],
+    "practice": "把材质换成另一种环境适用的材料，保留采集主题。",
+    "kind": "搭配",
+    "palette": "",
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-western-traveler",
+    "chapter": "role_costumes",
+    "name": "西部旅人的轮廓",
+    "description": "用工作丹宁、帽靴与腰带建立骑行旅行主题。",
+    "practice": "替换帽型，观察西部轮廓识别是否变化。",
+    "kind": "搭配",
+    "palette": "",
+    "entry_ids": [
+      "WX001",
+      "HA001",
+      "FW035",
+      "BE001",
+      "BA014"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-city-occupations",
+    "chapter": "role_costumes",
+    "name": "实验研究员的工作近景",
+    "description": "从护目镜、执笔动作、工牌与头发打理组织实验室外观。",
+    "practice": "保留工作身份，替换发型与眼镜。",
+    "kind": "搭配",
+    "palette": "",
+    "entry_ids": [
+      "AD009",
+      "EG001",
+      "BD013",
+      "DH010",
+      "AH017"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-pharmacist-work",
+    "chapter": "role_costumes",
+    "name": "药剂师的柜台工作装",
+    "description": "职业工作服、工牌、腕表与收拢的头发形成工作场景。",
+    "entry_ids": [
+      "UN031",
+      "AH049",
+      "BD013",
+      "WT001",
+      "PO001"
+    ],
+    "practice": "保留职业服，比较不同发型的整洁轮廓。",
+    "kind": "搭配",
+    "palette": "",
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-field-reporter",
+    "chapter": "role_costumes",
+    "name": "外景记者与携行装备",
+    "description": "围绕采访工作选择多袋夹克、包袋、相机架与步行姿态。",
+    "entry_ids": [
+      "CJ011",
+      "BA008",
+      "GE025",
+      "PO021",
+      "HA006"
+    ],
+    "practice": "尝试减少随身装备，只留下画面重点。",
+    "kind": "搭配",
+    "palette": "",
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-environment-workwear",
+    "chapter": "role_costumes",
+    "name": "雨林与沙漠的考察行装",
+    "description": "同为考察工作，遮阳、防雨和携行方式可以不同。",
+    "practice": "选择一种环境，删去不合该场景的装备。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "BX001",
+      "BX005",
+      "BA012",
+      "OW063",
+      "HA029"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-beekeeper",
+    "chapter": "role_costumes",
+    "name": "养蜂人的户外防护",
+    "description": "面纱工作服、长手套和防护用品围绕同一作业场景组织。",
+    "entry_ids": [
+      "OA007",
+      "GL026",
+      "BA018",
+      "PO001"
+    ],
+    "practice": "保持防护服为主体，比较不同手部装备。",
+    "kind": "搭配",
+    "palette": "",
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-tactical-and-armor",
+    "chapter": "role_costumes",
+    "name": "军旅、战术与护甲",
+    "description": "常服、行动装和硬质防护提供三种不同任务轮廓。",
+    "practice": "选一个任务方向，再研究护甲与关节如何配合。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "MU001",
+      "TS001",
+      "AR025",
+      "GL049",
+      "BD001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-orbital-repair",
+    "chapter": "role_costumes",
+    "name": "轨道维修与密封服",
+    "description": "用宇航服、腕部装置和工具形态探索工作场景。",
+    "practice": "保留工作服主体，选择需要强调的设备。",
+    "kind": "搭配",
+    "palette": "",
+    "entry_ids": [
+      "SS009",
+      "SS001",
+      "GE022",
+      "PX007",
+      "VX006"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-witch-and-priestess",
+    "chapter": "role_costumes",
+    "name": "档案馆魔女的轮廓",
+    "description": "长袍、折尖帽、法杖和盘发以少量标志表达魔女主题。",
+    "practice": "换掉帽或法杖，看看主体轮廓是否仍有辨识度。",
+    "kind": "搭配",
+    "palette": "",
+    "entry_ids": [
+      "WZ001",
+      "HA044",
+      "GE001",
+      "AH049",
+      "ST020"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-priestess-ritual",
+    "chapter": "role_costumes",
+    "name": "不同仪式语境的祭司服",
+    "description": "日本巫女装与国风巫祝服分别研究，头发与配色可随之调整。",
+    "entry_ids": [
+      "PR001",
+      "PR017",
+      "AH049",
+      "PA017"
+    ],
+    "practice": "选择一种明确语境，保留对应的服装方案。",
+    "kind": "同类备选",
+    "palette": "",
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-nun-library",
+    "chapter": "role_costumes",
+    "name": "书房里的修女",
+    "description": "以工作长衣、持书姿态、平静表情和窗边柔光组织场景。",
+    "entry_ids": [
+      "NU017",
+      "PO011",
+      "EX001",
+      "IL007"
+    ],
+    "practice": "保留工作场景，另选一种修女服轮廓比较。",
+    "kind": "搭配",
+    "palette": "",
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-chinese-spirits",
+    "chapter": "role_costumes",
+    "name": "仙女与精怪的两种气韵",
+    "description": "从中式服装、耳角饰和植物意象比较幻想语境。",
+    "practice": "选择仙或精怪的方向，再调整飘带与配色。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "XI005",
+      "YA013",
+      "HR033",
+      "RB005",
+      "PA009"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-fantasy-adventurers",
+    "chapter": "role_costumes",
+    "name": "幻想职业的装备语言",
+    "description": "游侠、吟游诗人与召唤师的区别可从服装和道具开始。",
+    "practice": "保留一个职业主体，另换道具研究身份变化。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "FO017",
+      "FR001",
+      "FR011",
+      "GE015",
+      "AR010"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-magic-and-hero",
+    "chapter": "role_costumes",
+    "name": "变身角色与超级英雄",
+    "description": "以主题服装、姿态和画风比较两种英雄呈现。",
+    "practice": "先选变身主题或飞行英雄，再选表现方式。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "MG017",
+      "SH017",
+      "PO293",
+      "XA001",
+      "PA017"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-stealth-and-reaper",
+    "chapter": "role_costumes",
+    "name": "忍者与刺客的潜行装束",
+    "description": "贴身行动装、护臂和暗色层次围绕潜行安排。",
+    "practice": "选择行动方式，再决定衣摆与手部是否适合。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "NJ001",
+      "AX003",
+      "AR010",
+      "PA001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-lantern-reaper",
+    "chapter": "role_costumes",
+    "name": "提灯巡夜的死神",
+    "description": "兜帽、长衣与低位持灯的轮廓表达巡夜氛围。",
+    "entry_ids": [
+      "RE013",
+      "OW082",
+      "CG009",
+      "XC007",
+      "DF006"
+    ],
+    "practice": "比较灯光与背光，让头部轮廓仍可辨认。",
+    "kind": "搭配",
+    "palette": "",
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-myth-and-symbols",
+    "chapter": "role_costumes",
+    "name": "神话形象怎样被识别",
+    "description": "把蛇发、冠光等形象视作各自独立的象征方案。",
+    "practice": "选一个原型，打开词条查看语境与视觉重点。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "MP001",
+      "MP009",
+      "MP013",
+      "JE015",
+      "XD005"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-idol-and-band",
+    "chapter": "role_costumes",
+    "name": "偶像与乐队舞台",
+    "description": "从整体演出服、麦克风动作和耳机选择舞台方向。",
+    "practice": "选择舞台角色，再换画风与灯光。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "IU001",
+      "BM001",
+      "PO269",
+      "HP013",
+      "PA017"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-concert-conductor",
+    "chapter": "role_costumes",
+    "name": "音乐厅的演奏与指挥",
+    "description": "燕尾裤装、爵士西装和礼装表情可作为音乐会角色方向。",
+    "entry_ids": [
+      "SC001",
+      "BM007",
+      "EX001",
+      "PA001"
+    ],
+    "practice": "先选演奏或指挥身份，再挑合适的手部呈现。",
+    "kind": "同类备选",
+    "palette": "",
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-dance-and-gymnastics",
+    "chapter": "role_costumes",
+    "name": "舞蹈、体操与啦啦队",
+    "description": "花滑、体操和啦啦队服分别对应不同活动与动作范围。",
+    "practice": "只选一项活动，并保留相应的动作参考。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "FP009",
+      "GY013",
+      "CQ001",
+      "PF017",
+      "FW079"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-martial-and-clown",
+    "chapter": "role_costumes",
+    "name": "武馆中的练功角色",
+    "description": "练功宽裤、训练服与弓步定格共同表达武术练习。",
+    "practice": "在两种练功服中选一种，保留相同动作比较。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "KU001",
+      "SP011",
+      "PO189",
+      "AH017"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-pierrot-stage",
+    "chapter": "role_costumes",
+    "name": "丑角舞台的小幅表演",
+    "description": "菱格舞台服、颊部彩绘与垂眼情绪形成表演造型。",
+    "entry_ids": [
+      "CW002",
+      "AT013",
+      "EM029",
+      "GL001"
+    ],
+    "practice": "换一个表情，比较舞台角色的情绪变化。",
+    "kind": "搭配",
+    "palette": "",
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-bridal-east-west",
+    "chapter": "role_costumes",
+    "name": "婚纱与婚服",
+    "description": "缎面婚纱与传统婚服可分别研究结构、饰物和摄影方式。",
+    "practice": "先选婚纱或婚服，再挑一处重点饰物。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "WD001",
+      "WM017",
+      "PN009",
+      "GL033",
+      "PP029"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-costume-and-mascot",
+    "chapter": "role_costumes",
+    "name": "人偶与完全包覆玩偶服",
+    "description": "比较人偶外观、封闭玩偶服与抱持玩偶时的尺寸关系。",
+    "practice": "每次选一种呈现方式，观察头部与手部如何处理。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "DM001",
+      "DM017",
+      "PH001",
+      "CG013"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-disguised-and-outlaw",
+    "chapter": "role_costumes",
+    "name": "绅士男装的女性扮相",
+    "description": "以三件套、礼帽和细节饰物组织男装扮相。",
+    "practice": "保留三件套，替换帽型与姿态。",
+    "kind": "搭配",
+    "palette": "",
+    "entry_ids": [
+      "DG001",
+      "HA001",
+      "WT017",
+      "PP013",
+      "PA001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-vampire-ball",
+    "chapter": "role_costumes",
+    "name": "古堡夜宴的吸血鬼",
+    "description": "高领披风、深唇妆和垂坠耳饰形成古堡夜宴轮廓。",
+    "entry_ids": [
+      "UV017",
+      "LM007",
+      "ER009",
+      "XC007"
+    ],
+    "practice": "调整光照与唇色，比较戏剧感。",
+    "kind": "搭配",
+    "palette": "",
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-prison-scene",
+    "chapter": "role_costumes",
+    "name": "囚服与剧情人物",
+    "description": "用明确的囚服、疲惫状态和克制姿态表达剧情处境。",
+    "entry_ids": [
+      "OT001",
+      "FD001",
+      "PO093",
+      "PA001"
+    ],
+    "practice": "保留身份服，试着更换表情而不叠加额外装备。",
+    "kind": "搭配",
+    "palette": "",
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-adult-stage-lingerie",
+    "chapter": "role_costumes",
+    "name": "成年主题服与秀场",
+    "description": "比较成衣主题与羽饰秀场服的用途和轮廓。",
+    "practice": "选择主题服或秀场方向，再控制装饰重点。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "IN049",
+      "VF013",
+      "AG003",
+      "LG001",
+      "NK001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-garment-story",
+    "chapter": "role_costumes",
+    "name": "一件衣服经历了什么",
+    "description": "用磨损、咖啡或油漆痕迹表现衣物经历。",
+    "practice": "只保留一种衣物状态，避免把所有痕迹堆在一起。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "DC001",
+      "LS017",
+      "LS009",
+      "WW013",
+      "HW003"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-wrapped-and-study",
+    "chapter": "role_costumes",
+    "name": "成年身体与裹巾研究",
+    "description": "用成年遮挡视图和浴巾研究体表朝向及布料包覆。",
+    "practice": "按造型研究需要选择一个朝向与覆盖方案。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "CV001",
+      "CV013",
+      "BW001",
+      "BW013",
+      "AG003"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-identity-alternatives",
+    "chapter": "role_costumes",
+    "name": "双重身份的白天与夜晚",
+    "description": "同一人物的公开职员装与夜间联络装作为两套备选。",
+    "practice": "分别勾选白天或夜晚，比较保留哪些共同识别点。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "IC005",
+      "IC006",
+      "WT001",
+      "EG004"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-household-status",
+    "chapter": "role_costumes",
+    "name": "同一府邸的不同身份",
+    "description": "千金与女管家分别用礼裙、执事服和手部饰物表达身份。",
+    "entry_ids": [
+      "IS001",
+      "ID003",
+      "GL001",
+      "PN009"
+    ],
+    "practice": "选定其中一位角色，另选适合她的姿态。",
+    "kind": "同类备选",
+    "palette": "",
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "职业、主题与历史服装",
+    "archived": true
+  },
+  {
+    "id": "example-headwear-study",
+    "chapter": "accessory_design",
+    "name": "头部佩戴的几个层次",
+    "description": "帽、发箍、眼镜和耳机可以分别观察接触与固定位置。",
+    "practice": "每次研究一种佩戴结构，再考虑与头发的关系。",
+    "kind": "局部观察",
+    "palette": "",
+    "entry_ids": [
+      "HA025",
+      "HR001",
+      "EG001",
+      "HP001",
+      "AH033"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "配饰与随身物品",
+    "archived": true
+  },
+  {
+    "id": "example-mask-and-props",
+    "chapter": "accessory_design",
+    "name": "舞会的手持与遮面",
+    "description": "面具、礼服、手提包与手套一起服务舞会场景。",
+    "practice": "保留一个主道具，比较近景与全身的识别效果。",
+    "kind": "搭配",
+    "palette": "",
+    "entry_ids": [
+      "MK005",
+      "OP049",
+      "BA027",
+      "DH013",
+      "GL033"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "配饰与随身物品",
+    "archived": true
+  },
+  {
+    "id": "example-ear-and-neck",
+    "chapter": "accessory_design",
+    "name": "耳饰与颈部首饰",
+    "description": "区分耳钉、垂耳链、吊坠和整体首饰构造。",
+    "practice": "挑一个耳饰和一个颈饰，先看佩戴结构。",
+    "kind": "局部观察",
+    "palette": "",
+    "entry_ids": [
+      "ER009",
+      "PI001",
+      "PN003",
+      "JE011",
+      "VS002"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "配饰与随身物品",
+    "archived": true
+  },
+  {
+    "id": "example-wrist-and-hand",
+    "chapter": "accessory_design",
+    "name": "腕表、指环与腕饰",
+    "description": "腕表、戒指、金属环链和珠串有各自的佩戴方式。",
+    "practice": "选择一两件作为重点，观察手部留白。",
+    "kind": "局部观察",
+    "palette": "",
+    "entry_ids": [
+      "WT017",
+      "RI017",
+      "BR017",
+      "BB009",
+      "DH001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "配饰与随身物品",
+    "archived": true
+  },
+  {
+    "id": "example-ankle-and-leg",
+    "chapter": "accessory_design",
+    "name": "足踝与腿带细节",
+    "description": "独立腿环、足链和袜类分别承担不同装饰作用。",
+    "practice": "在两种腿带中选择一种，查看与袜口的位置关系。",
+    "kind": "局部观察",
+    "palette": "",
+    "entry_ids": [
+      "AK013",
+      "LG001",
+      "LG013",
+      "SO093",
+      "FW055"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "配饰与随身物品",
+    "archived": true
+  },
+  {
+    "id": "example-belts-and-badges",
+    "chapter": "accessory_design",
+    "name": "腰带、章牌与身份饰物",
+    "description": "用腰带、胸针和章牌形成清楚的身份识别点。",
+    "practice": "选一处主要识别点，再减少其余金属件。",
+    "kind": "搭配",
+    "palette": "",
+    "entry_ids": [
+      "BE005",
+      "BC005",
+      "BD013",
+      "AC034",
+      "NK009"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "配饰与随身物品",
+    "archived": true
+  },
+  {
+    "id": "example-scarves-and-cords",
+    "chapter": "accessory_design",
+    "name": "围巾、缎带与自系绳饰",
+    "description": "对照巾带、衣物结带与独立自系装饰的用途。",
+    "practice": "选择一个佩戴部位，打开图例看绕法。",
+    "kind": "局部观察",
+    "palette": "",
+    "entry_ids": [
+      "KF009",
+      "RB009",
+      "CE001",
+      "CE004",
+      "CE007"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "配饰与随身物品",
+    "archived": true
+  },
+  {
+    "id": "example-anthro-levels",
+    "chapter": "fantasy_design",
+    "name": "兽化程度怎样比较",
+    "description": "同一猫型从人形兽耳到全身拟人兽型有连续差异。",
+    "practice": "每次保留一档，其他档作为对照。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "BL001",
+      "BL009",
+      "BL017",
+      "BL025"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "幻想形态与Cosplay",
+    "archived": true
+  },
+  {
+    "id": "example-anthro-structure",
+    "chapter": "fantasy_design",
+    "name": "兽脸、耳尾与物种原型",
+    "description": "把程度、物种和具体结构分别观察。",
+    "practice": "先确定物种，再决定需要哪些局部结构。",
+    "kind": "局部观察",
+    "palette": "",
+    "entry_ids": [
+      "BH001",
+      "BP001",
+      "BP017",
+      "BS001",
+      "BL017"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "幻想形态与Cosplay",
+    "archived": true
+  },
+  {
+    "id": "example-hybrid-bodies",
+    "chapter": "fantasy_design",
+    "name": "蛇女、美人鱼与半人马",
+    "description": "复合躯体的重心与连接位置是各自的研究主题。",
+    "practice": "只选择一种躯体方案，再研究其姿态。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "HY001",
+      "HY009",
+      "HY017",
+      "HY025"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "幻想形态与Cosplay",
+    "archived": true
+  },
+  {
+    "id": "example-quadruped-and-liquid",
+    "chapter": "fantasy_design",
+    "name": "四足形态怎样佩戴装饰",
+    "description": "动物体态的装饰围绕颈部、鬃毛和身体活动安排。",
+    "practice": "每次选一种动物形态，观察装饰是否让位于活动。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "QF003",
+      "QF004",
+      "QF001",
+      "QF002"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "幻想形态与Cosplay",
+    "archived": true
+  },
+  {
+    "id": "example-fluid-person",
+    "chapter": "fantasy_design",
+    "name": "液态身体与流动发梢",
+    "description": "以水流或金属流体为主体，研究发梢与边缘的表现。",
+    "entry_ids": [
+      "LH001",
+      "LH005",
+      "FX019",
+      "XK001",
+      "DF001"
+    ],
+    "practice": "每次选择一种流体材质，再选择画风。",
+    "kind": "同类备选",
+    "palette": "",
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "幻想形态与Cosplay",
+    "archived": true
+  },
+  {
+    "id": "example-cosplay-foundation",
+    "chapter": "fantasy_design",
+    "name": "Cosplay从服装到假发",
+    "description": "成套服装、角色妆和假发共同提供角色识别。",
+    "practice": "先看整套，再替换假发或妆面。",
+    "kind": "搭配",
+    "palette": "",
+    "entry_ids": [
+      "CP001",
+      "CL012",
+      "WG001",
+      "CH001",
+      "CG001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "幻想形态与Cosplay",
+    "archived": true
+  },
+  {
+    "id": "example-cosplay-assembly",
+    "chapter": "fantasy_design",
+    "name": "Cosplay外挂与固定结构",
+    "description": "把头饰、身体外挂、道具、连接座和展示姿势连起来看。",
+    "practice": "选择一处外挂，核对固定与动作关系。",
+    "kind": "局部观察",
+    "palette": "",
+    "entry_ids": [
+      "CH006",
+      "CA017",
+      "CR010",
+      "CB009",
+      "CG002"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "幻想形态与Cosplay",
+    "archived": true
+  },
+  {
+    "id": "example-fabric-and-pattern",
+    "chapter": "surface_design",
+    "name": "同一版型，换材质与印花",
+    "description": "服装材质、图案排列与印花笔触是不同维度。",
+    "practice": "固定版型，每次选择一组材质与图案。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "OP001",
+      "MT001",
+      "MT003",
+      "PT001",
+      "PT017",
+      "PS017"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "材质、纹样与配色",
+    "archived": true
+  },
+  {
+    "id": "example-color-language",
+    "chapter": "surface_design",
+    "name": "配色与气氛",
+    "description": "用相同服装比较黑白灰、冷紫银与互补色方向。",
+    "practice": "每次只留一套配色，观察视觉重心变化。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "OP001",
+      "PA001",
+      "PA009",
+      "PA025",
+      "PS001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "材质、纹样与配色",
+    "archived": true
+  },
+  {
+    "id": "example-anime-game-comics",
+    "chapter": "art_styles",
+    "name": "动漫、游戏与漫画",
+    "description": "用同一外观比较赛璐璐、2.5D立绘和漫画墨线。",
+    "practice": "每次选一个画风，不修改角色的外观词条。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "HN069",
+      "XA001",
+      "XB005",
+      "XG005",
+      "VS007"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "画风与视觉表现",
+    "archived": true
+  },
+  {
+    "id": "example-photo-paint-media",
+    "chapter": "art_styles",
+    "name": "写真与传统绘画媒介",
+    "description": "自然光写真、水彩与马克笔时装插画是不同呈现方案。",
+    "practice": "保留同一服装，比较媒介带来的边缘与质感变化。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "MO009",
+      "XC001",
+      "XD001",
+      "XH004",
+      "VS007"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "画风与视觉表现",
+    "archived": true
+  },
+  {
+    "id": "example-graphic-digital-craft",
+    "chapter": "art_styles",
+    "name": "平面、数字与手作表现",
+    "description": "比较矢量、漫画网点、数字厚涂和羊毛毡的视觉语言。",
+    "practice": "只保留一种表现方式，避免同时叠加全部材质。",
+    "kind": "同类备选",
+    "palette": "",
+    "entry_ids": [
+      "TC049",
+      "XE001",
+      "XF002",
+      "XK001",
+      "XJ003"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "画风与视觉表现",
+    "archived": true
+  },
+  {
+    "id": "example-pixel-sizes",
+    "chapter": "art_styles",
+    "name": "像素尺寸与角色信息量",
+    "description": "比较不同像素尺寸对轮廓和细节保留的影响。",
+    "practice": "逐一导出不同像素尺寸，保持角色外观相同。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "XB009",
+      "XB010",
+      "XB011",
+      "XB012",
+      "HN001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "画风与视觉表现",
+    "archived": true
+  },
+  {
+    "id": "example-camera-foundations",
+    "chapter": "art_styles",
+    "name": "方向、机位与景别",
+    "description": "正面、平视和全身分别描述不同的拍摄维度。",
+    "practice": "每个维度各选一个方案，再比较组合效果。",
+    "kind": "局部观察",
+    "palette": "",
+    "entry_ids": [
+      "VD001",
+      "VD005",
+      "VH001",
+      "VH005",
+      "VS003",
+      "VS007"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "画风与视觉表现",
+    "archived": true
+  },
+  {
+    "id": "example-frame-depth-lens",
+    "chapter": "art_styles",
+    "name": "构图、景深与透视",
+    "description": "框景、背景虚化和广角透视可共同服务画面表达。",
+    "practice": "先定构图，再尝试一种对焦或镜头透视。",
+    "kind": "搭配",
+    "palette": "",
+    "entry_ids": [
+      "VC005",
+      "DF001",
+      "VX001",
+      "PP025",
+      "XC001"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "画风与视觉表现",
+    "archived": true
+  },
+  {
+    "id": "example-motion-focus",
+    "chapter": "art_styles",
+    "name": "镜头移动与转焦",
+    "description": "用三格分镜区分推镜头、变焦、滑动变焦和转焦。",
+    "practice": "分别查看四项，不把机位移动与焦距变化当成一回事。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "MV002",
+      "ZT001",
+      "ZT003",
+      "ZT004"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "画风与视觉表现",
+    "archived": true
+  },
+  {
+    "id": "example-narrative-editing",
+    "chapter": "art_styles",
+    "name": "用镜头组织一次交流",
+    "description": "建立、反应、正反打和视线匹配可分别研究叙事关系。",
+    "practice": "从一个叙事功能开始，再看前后镜头怎样连接。",
+    "kind": "对照研究",
+    "palette": "",
+    "entry_ids": [
+      "NS003",
+      "NS004",
+      "SE001",
+      "SE002"
+    ],
+    "recommended": false,
+    "tutorial": true,
+    "chapter_name": "画风与视觉表现",
+    "archived": true
+  },
+  {
+    "id": "character-ribbon-weekend",
+    "chapter": "daily",
+    "name": "双马尾的周末女孩",
+    "description": "圆脸的20岁大学生，周末在街角等朋友。酒红缎带呼应长袜，双手藏在身后，忍着笑意。",
+    "palette": "奶油粉与酒红，少量黑色收边。",
+    "tags": [
+      "青春活力",
+      "含蓄",
+      "二次元"
+    ],
+    "entry_ids": [
+      "AH020",
+      "FA002",
+      "TO086",
+      "BT004",
+      "SO093",
+      "PO007",
+      "EX037",
+      "XA005"
+    ],
+    "featured": true,
+    "character_example": true,
+    "chapter_name": "都市与日常"
+  },
+  {
+    "id": "character-spring-florist",
+    "chapter": "daily",
+    "name": "春日花店的年轻店员",
+    "description": "喜欢在开店前整理花束，长围裙配半扎发，带雀斑的面容笑得轻松自然。",
+    "palette": "浅绿、米白与木棕，水彩般柔和。",
+    "tags": [
+      "温柔",
+      "春季",
+      "花店"
+    ],
+    "entry_ids": [
+      "UN037",
+      "AH077",
+      "EX045",
+      "PO001",
+      "FW004",
+      "XD001",
+      "SK009"
+    ],
+    "featured": true,
+    "character_example": true,
+    "chapter_name": "都市与日常"
+  },
+  {
+    "id": "character-summer-traveler",
+    "chapter": "daily",
+    "name": "海滨度假的短发旅人",
+    "description": "背着防水包漫步海岸，草帽遮阳，衬衣保留细条纹，身上有旅行留下的晒痕。",
+    "palette": "浅蓝、沙白与草帽原色。",
+    "tags": [
+      "清爽",
+      "夏季",
+      "旅行"
+    ],
+    "entry_ids": [
+      "SM037",
+      "HN001",
+      "HA003",
+      "BA040",
+      "PT001",
+      "SK016",
+      "PP025",
+      "XC004"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "都市与日常"
+  },
+  {
+    "id": "character-autumn-reader",
+    "chapter": "daily",
+    "name": "秋日旧书店的文科助教",
+    "description": "下课后常来旧书店，厚开衫与碎花长裙温暖朴素，银边圆镜后是安静专注的眼神。",
+    "palette": "燕麦、苔绿与褪色花纹。",
+    "tags": [
+      "知性",
+      "秋季",
+      "阅读"
+    ],
+    "entry_ids": [
+      "AU049",
+      "AH026",
+      "EG001",
+      "BA001",
+      "PO011",
+      "XH001"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "都市与日常"
+  },
+  {
+    "id": "character-winter-commuter",
+    "chapter": "daily",
+    "name": "冬夜等电车的上班族",
+    "description": "刚结束加班的年轻职员，长大衣裹着围巾，戴针织手套，眼里带一点困倦。",
+    "palette": "炭灰与暖米色，雨夜冷光。",
+    "tags": [
+      "疲惫",
+      "冬季",
+      "电影感"
+    ],
+    "entry_ids": [
+      "WI001",
+      "HN007",
+      "KF013",
+      "GL017",
+      "FD001",
+      "MT003",
+      "XC012",
+      "SO033"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "都市与日常"
+  },
+  {
+    "id": "character-plush-cartoonist",
+    "chapter": "daily",
+    "name": "抱着狗玩偶的漫画家",
+    "description": "25岁的自由漫画家在家休息，头发随手松扎，抱着中型狗玩偶，神情放松。",
+    "palette": "奶白、浅褐与暖橘。",
+    "tags": [
+      "居家",
+      "软萌",
+      "风格化"
+    ],
+    "entry_ids": [
+      "HW001",
+      "HZ013",
+      "PH016",
+      "EX045",
+      "AG001",
+      "XA013"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "都市与日常"
+  },
+  {
+    "id": "character-sleepy-columnist",
+    "chapter": "daily",
+    "name": "清晨伸懒腰的专栏作者",
+    "description": "昨夜赶稿后刚起床，棉睡衣还没换，头顶翘着几束头发，站在床边打着哈欠伸展。",
+    "palette": "浅蓝条纹、米白与柔暖晨光。",
+    "tags": [
+      "睡衣",
+      "慵懒",
+      "晨间"
+    ],
+    "entry_ids": [
+      "PJ001",
+      "HZ001",
+      "MA033",
+      "PO079",
+      "XH002"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "都市与日常"
+  },
+  {
+    "id": "character-midlife-maker",
+    "chapter": "daily",
+    "name": "窗边的中年手作师",
+    "description": "50岁的手作师穿着家务围裙，在窗边喝一杯热茶；木珠手串和朴素盘发伴着柔和面容。",
+    "palette": "原色棉麻、暖棕与浅绿。",
+    "tags": [
+      "中年",
+      "亲和",
+      "生活感"
+    ],
+    "entry_ids": [
+      "HW003",
+      "HT012",
+      "AG005",
+      "BB009",
+      "PO141",
+      "IL007"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "都市与日常"
+  },
+  {
+    "id": "character-rainy-novelist",
+    "chapter": "daily",
+    "name": "雨幕里的青年小说家",
+    "description": "穿旧灰大衣的青年作者抱着书等雨停，碎层中发略显凌乱，目光垂向书页。",
+    "palette": "雨灰、雾蓝与旧纸的米黄。",
+    "tags": [
+      "忧郁",
+      "文学",
+      "胶片"
+    ],
+    "entry_ids": [
+      "QL085",
+      "HN082",
+      "BA001",
+      "PO011",
+      "XC006"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "都市与日常"
+  },
+  {
+    "id": "character-reading-club",
+    "chapter": "campus_sport",
+    "name": "读书社的眼镜女生",
+    "description": "中学读书社成员穿整齐的及膝校服，低双辫别着朴素发卡，背包里总有一本未读完的书。",
+    "palette": "藏蓝、白与少量深红。",
+    "tags": [
+      "校园",
+      "安静",
+      "少女漫画"
+    ],
+    "entry_ids": [
+      "SU001",
+      "AH021",
+      "EG002",
+      "BA039",
+      "PO011",
+      "XA007"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "校园与运动"
+  },
+  {
+    "id": "character-campus-drummer",
+    "chapter": "campus_sport",
+    "name": "跑向排练室的大学鼓手",
+    "description": "20岁的大学生穿方便活动的工装裤演出装，马尾高扎，背着双肩包快步赶去乐队排练。",
+    "palette": "砖红、黑与丹宁蓝。",
+    "tags": [
+      "大学",
+      "外向",
+      "音乐"
+    ],
+    "entry_ids": [
+      "BM004",
+      "AH017",
+      "BA039",
+      "PO022",
+      "XA008"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "校园与运动"
+  },
+  {
+    "id": "character-archery-coach",
+    "chapter": "campus_sport",
+    "name": "箭场上的青年女教练",
+    "description": "她对训练一丝不苟，贴头辫收得利落，前臂护具与箭袋位置明确，拉弓时重心稳定。",
+    "palette": "森林绿、皮棕与灰白。",
+    "tags": [
+      "运动",
+      "专注",
+      "设定立绘"
+    ],
+    "entry_ids": [
+      "SP031",
+      "HT045",
+      "AR010",
+      "GE015",
+      "PO037",
+      "BO004",
+      "XB006"
+    ],
+    "featured": true,
+    "character_example": true,
+    "chapter_name": "校园与运动"
+  },
+  {
+    "id": "character-morning-runner",
+    "chapter": "campus_sport",
+    "name": "晨跑的丰润女孩",
+    "description": "体格饱满的成年女孩坚持晨跑，毛圈发绳束住马尾，步伐轻快，结束时露出放松的笑。",
+    "palette": "珊瑚红、炭灰与白。",
+    "tags": [
+      "运动",
+      "阳光",
+      "写真"
+    ],
+    "entry_ids": [
+      "SP001",
+      "AH023",
+      "BO006",
+      "FW079",
+      "PO021",
+      "EX045",
+      "XC001"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "校园与运动"
+  },
+  {
+    "id": "character-silver-ballet",
+    "chapter": "campus_sport",
+    "name": "舞蹈房的银发教师",
+    "description": "年长的芭蕾教师依旧挺拔优雅，盘发整齐，穿训练纱裙与足尖鞋，示范单足后举。",
+    "palette": "雾蓝、银灰与浅粉。",
+    "tags": [
+      "年长",
+      "典雅",
+      "舞蹈"
+    ],
+    "entry_ids": [
+      "SC017",
+      "HT011",
+      "AG007",
+      "FW087",
+      "PF017",
+      "XH005"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "校园与运动"
+  },
+  {
+    "id": "character-ice-skater",
+    "chapter": "campus_sport",
+    "name": "冰场上的短发选手",
+    "description": "年轻的成年花滑选手，短发清爽，长袖比赛服衬着冰鞋，追光下完成平衡定格。",
+    "palette": "冰蓝、银白与深蓝细线。",
+    "tags": [
+      "竞技",
+      "利落",
+      "追光"
+    ],
+    "entry_ids": [
+      "FP009",
+      "HN001",
+      "FW091",
+      "PF017",
+      "XC011"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "校园与运动"
+  },
+  {
+    "id": "character-cheer-captain",
+    "chapter": "campus_sport",
+    "name": "热场的大学啦啦队长",
+    "description": "21岁的啦啦队长总是最先笑起来；双马尾缎带、拼色队服和跳跃动作充满朝气。",
+    "palette": "亮红、白与海军蓝。",
+    "tags": [
+      "活泼",
+      "大学",
+      "赛璐璐"
+    ],
+    "entry_ids": [
+      "CQ005",
+      "AH020",
+      "FW079",
+      "PO023",
+      "EX002",
+      "XA001"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "校园与运动"
+  },
+  {
+    "id": "character-martial-teacher",
+    "chapter": "campus_sport",
+    "name": "黄昏练功的武馆教习",
+    "description": "青年女教习以低马尾和长衫示人，腕侧有一枚小纹样，弓步稳健，神情沉静。",
+    "palette": "墨黑、米白与淡赭。",
+    "tags": [
+      "功夫",
+      "沉稳",
+      "水墨"
+    ],
+    "entry_ids": [
+      "KU004",
+      "HT002",
+      "AT019",
+      "PO189",
+      "EX029",
+      "XD004"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "校园与运动"
+  },
+  {
+    "id": "character-kind-pharmacist",
+    "chapter": "work_travel",
+    "name": "药店柜台的温柔药师",
+    "description": "成熟的女药师穿整洁工作服，素簪盘发，细框眼镜和工牌克制实用，习惯耐心倾听。",
+    "palette": "浅绿、白与暖金属色。",
+    "tags": [
+      "职业",
+      "温柔",
+      "成熟"
+    ],
+    "entry_ids": [
+      "UN031",
+      "AH049",
+      "AG003",
+      "EG008",
+      "BD013",
+      "PO009",
+      "EX045"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "职业与旅途"
+  },
+  {
+    "id": "character-late-doctor",
+    "chapter": "work_travel",
+    "name": "凌晨还在演算的女博士",
+    "description": "计算研究员熬到深夜，狼尾层次中发有些散，方框镜后带着倦意，双手捧杯看着屏幕。",
+    "palette": "灰蓝、黑与屏幕冷光。",
+    "tags": [
+      "科研",
+      "书呆子",
+      "深夜"
+    ],
+    "entry_ids": [
+      "AD010",
+      "HN082",
+      "EG002",
+      "FD001",
+      "PO141",
+      "IL008"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "职业与旅途"
+  },
+  {
+    "id": "character-old-watchmaker",
+    "chapter": "work_travel",
+    "name": "修钟表的银发工匠",
+    "description": "70岁的女工匠戴单片放大镜，在工作台前记下尺寸；宽袖工作上衣、腕表与手背纹理记录着岁月。",
+    "palette": "烟棕、旧铜与石墨灰。",
+    "tags": [
+      "年长",
+      "工匠",
+      "细节"
+    ],
+    "entry_ids": [
+      "AG007",
+      "AH026",
+      "TO025",
+      "BT013",
+      "EG015",
+      "DH010",
+      "WT009",
+      "SD007"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "职业与旅途"
+  },
+  {
+    "id": "character-rainforest-botanist",
+    "chapter": "work_travel",
+    "name": "雨林中的植物学家",
+    "description": "植物学家长袖收口，单辫垂在肩侧，背着框架包俯身察看叶片，护目镜上凝着水雾。",
+    "palette": "橄榄绿、泥棕与潮湿的亮绿。",
+    "tags": [
+      "考察",
+      "谨慎",
+      "雨林"
+    ],
+    "entry_ids": [
+      "BX001",
+      "HT019",
+      "BA012",
+      "EG014",
+      "PO012",
+      "XD001"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "职业与旅途"
+  },
+  {
+    "id": "character-desert-guide",
+    "chapter": "work_travel",
+    "name": "沙漠测绘队的女领航员",
+    "description": "短发领航员戴草帽和领巾，防晒行装朴素，炎热中仍抬手为队伍指明方向。",
+    "palette": "沙白、卡其与青灰。",
+    "tags": [
+      "沙漠",
+      "干练",
+      "旅行"
+    ],
+    "entry_ids": [
+      "BX005",
+      "HN001",
+      "HA003",
+      "KF005",
+      "BA040",
+      "PO026",
+      "FD033"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "职业与旅途"
+  },
+  {
+    "id": "character-motor-courier",
+    "chapter": "work_travel",
+    "name": "追风的摩托邮差",
+    "description": "年轻女邮差穿骑手夹克，泡泡马尾从头盔取下后仍保持束形，皮手套与腰侧包便于工作。",
+    "palette": "橙红、黑与金属银。",
+    "tags": [
+      "飒爽",
+      "都市",
+      "机车"
+    ],
+    "entry_ids": [
+      "OA003",
+      "HT016",
+      "GL026",
+      "BA014",
+      "FW014",
+      "PO021"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "职业与旅途"
+  },
+  {
+    "id": "character-film-director",
+    "chapter": "work_travel",
+    "name": "片场沉稳的中年女导演",
+    "description": "45岁的导演穿多袋工作背心，短卷发蓬松，腕表常伴身侧，托着下巴观察布景。",
+    "palette": "烟灰、卡其与深绿。",
+    "tags": [
+      "中年",
+      "职业",
+      "电影"
+    ],
+    "entry_ids": [
+      "CJ013",
+      "AG005",
+      "HN003",
+      "WT003",
+      "PO008",
+      "VX001"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "职业与旅途"
+  },
+  {
+    "id": "character-lighthouse-keeper",
+    "chapter": "work_travel",
+    "name": "北地灯塔的守望人",
+    "description": "年长守望人深发夹着岁月痕迹，呢外套、冬手套与靴子抵御海风，耳麦保持与船只联络。",
+    "palette": "海军蓝、旧黄铜与暖灯橙。",
+    "tags": [
+      "北地",
+      "守望",
+      "年长"
+    ],
+    "entry_ids": [
+      "OA013",
+      "AG008",
+      "HN017",
+      "GL018",
+      "FW044",
+      "HP010",
+      "GE003",
+      "PO010"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "职业与旅途"
+  },
+  {
+    "id": "character-lantern-festival",
+    "chapter": "history_ceremony",
+    "name": "古城灯会的珠簪姑娘",
+    "description": "她穿明风方领长袄赴灯会，珠簪与刺绣成为近处识别点，双手提着灯笼，步子从容。",
+    "palette": "绛红、淡金与米白。",
+    "tags": [
+      "国风",
+      "灯会",
+      "工笔"
+    ],
+    "entry_ids": [
+      "CN009",
+      "AH058",
+      "MT029",
+      "GE002",
+      "PO001",
+      "XD005"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "年代与礼仪"
+  },
+  {
+    "id": "character-opera-actress",
+    "chapter": "history_ceremony",
+    "name": "戏台候场的年轻花旦",
+    "description": "候场花旦穿裙袄行头，花形盘辫收得整齐，双手交叠站在幕边，眉眼平静。",
+    "palette": "胭脂红、湖蓝与明黄。",
+    "tags": [
+      "戏曲",
+      "舞台",
+      "端丽"
+    ],
+    "entry_ids": [
+      "OC009",
+      "HT044",
+      "PO006",
+      "EX001",
+      "RB001",
+      "XD005"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "年代与礼仪"
+  },
+  {
+    "id": "character-edwardian-illustrator",
+    "chapter": "history_ceremony",
+    "name": "1900年代的植物插画师",
+    "description": "她穿立领日装，低髻不抢眼，拿笔记录标本；手提硬包里装着图纸和旧画册。",
+    "palette": "奶白、烟绿与柔褐。",
+    "tags": [
+      "年代",
+      "知性",
+      "粉彩"
+    ],
+    "entry_ids": [
+      "EC001",
+      "HT012",
+      "BA027",
+      "DH010",
+      "EX001",
+      "XF001"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "年代与礼仪"
+  },
+  {
+    "id": "character-deco-party-guest",
+    "chapter": "history_ceremony",
+    "name": "爵士年代的短发女客",
+    "description": "几何珠绣晚裙配指波短发，短珠链和礼仪手套收拢轮廓，她站在宴会入口等待同伴。",
+    "palette": "黑、香槟金与象牙白。",
+    "tags": [
+      "1920年代",
+      "典雅",
+      "装饰艺术"
+    ],
+    "entry_ids": [
+      "EC034",
+      "HN010",
+      "JE011",
+      "GL007",
+      "PO001",
+      "XE008"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "年代与礼仪"
+  },
+  {
+    "id": "character-showa-records",
+    "chapter": "history_ceremony",
+    "name": "昭和咖啡馆的唱片收藏者",
+    "description": "身着几何铭仙和装的成年女客留着清爽短发，硬挺手包放在身边，双手捧着热饮。",
+    "palette": "靛蓝、米色与朱红。",
+    "tags": [
+      "昭和",
+      "复古",
+      "浮世绘"
+    ],
+    "entry_ids": [
+      "JR002",
+      "HN001",
+      "BA027",
+      "WT017",
+      "PO141",
+      "XD006"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "年代与礼仪"
+  },
+  {
+    "id": "character-ranch-owner",
+    "chapter": "history_ceremony",
+    "name": "西部小镇的牧场女主人",
+    "description": "牧场主人扎着低双辫，丹宁工作装、牛仔靴和针扣腰带经久耐用，单手叉腰看向远处。",
+    "palette": "丹宁蓝、皮棕与土黄。",
+    "tags": [
+      "西部",
+      "爽朗",
+      "油画棒"
+    ],
+    "entry_ids": [
+      "WX001",
+      "AH021",
+      "FW035",
+      "BE001",
+      "PO003",
+      "XD009"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "年代与礼仪"
+  },
+  {
+    "id": "character-young-queen",
+    "chapter": "history_ceremony",
+    "name": "加冕礼上的年轻女王",
+    "description": "年轻成年女王以挺拔姿态接受觐见，王冠披肩与低盘髻形成稳重轮廓，珠链和长手套庄严克制。",
+    "palette": "深蓝、暖金与象牙白。",
+    "tags": [
+      "宫廷",
+      "威严",
+      "油画"
+    ],
+    "entry_ids": [
+      "IS005",
+      "HT012",
+      "AG002",
+      "JE011",
+      "FW029",
+      "PO001",
+      "XD002"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "年代与礼仪"
+  },
+  {
+    "id": "character-lace-bride",
+    "chapter": "history_ceremony",
+    "name": "展厅婚礼的蕾丝新娘",
+    "description": "28岁的新娘选择长袖蕾丝婚纱，珠夹固定长波浪，水滴项链落在领口中央，轻拎裙侧迎向光。",
+    "palette": "暖白、香槟与柔粉。",
+    "tags": [
+      "婚纱",
+      "浪漫",
+      "柔焦"
+    ],
+    "entry_ids": [
+      "WD025",
+      "AH009",
+      "PN009",
+      "GL033",
+      "PP029",
+      "AG003",
+      "XC009"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "年代与礼仪"
+  },
+  {
+    "id": "character-red-gold-bride",
+    "chapter": "history_ceremony",
+    "name": "茶楼迎亲的红金新娘",
+    "description": "新娘穿红金龙凤褂，珠顶簪束起头发，耳线垂饰随着转身轻晃，双手整齐交叠身前。",
+    "palette": "正红、淡金与墨黑。",
+    "tags": [
+      "婚服",
+      "国风",
+      "喜庆"
+    ],
+    "entry_ids": [
+      "WM017",
+      "AH058",
+      "ER009",
+      "PO006",
+      "XD005"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "年代与礼仪"
+  },
+  {
+    "id": "character-hopeful-idol",
+    "chapter": "stage_fashion",
+    "name": "候场的元气偶像",
+    "description": "20岁的新人偶像戴好入耳监听，双马尾缎带与队服呼应；握着麦克风，双眼满是登台前的期待。",
+    "palette": "珊瑚红、白与明黄。",
+    "tags": [
+      "偶像",
+      "期待",
+      "青春"
+    ],
+    "entry_ids": [
+      "IU001",
+      "AH020",
+      "HP013",
+      "PO269",
+      "EM033",
+      "XA001"
+    ],
+    "featured": true,
+    "character_example": true,
+    "chapter_name": "舞台与时尚"
+  },
+  {
+    "id": "character-punk-singer",
+    "chapter": "stage_fashion",
+    "name": "地下乐队的朋克主唱",
+    "description": "主唱穿磨亮的皮衣长裤，单侧短推发型和眉钉锋利醒目，猫眼线下是冷静的目光。",
+    "palette": "炭黑、暗红与旧银。",
+    "tags": [
+      "乐队",
+      "叛逆",
+      "黑白漫画"
+    ],
+    "entry_ids": [
+      "BM001",
+      "HN006",
+      "PI013",
+      "EL007",
+      "PO269",
+      "EX029",
+      "XG007"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "舞台与时尚"
+  },
+  {
+    "id": "character-jazz-vocalist",
+    "chapter": "stage_fashion",
+    "name": "爵士酒吧的成熟歌姬",
+    "description": "成熟歌姬留着短指波发，亮片中裙与深色唇妆安静华丽，短珠链映着舞台追光。",
+    "palette": "铜金、酒棕与墨蓝。",
+    "tags": [
+      "歌手",
+      "成熟",
+      "舞台"
+    ],
+    "entry_ids": [
+      "IU007",
+      "HN010",
+      "LM007",
+      "JE011",
+      "PO269",
+      "AG003",
+      "XC011"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "舞台与时尚"
+  },
+  {
+    "id": "character-circus-pierrot",
+    "chapter": "stage_fashion",
+    "name": "巡演马戏团的女丑角",
+    "description": "黑金菱格丑角服配三角短发，双颊点彩轻巧；她偏头眨眼，用小动作逗笑观众。",
+    "palette": "黑、暖金与一点朱红。",
+    "tags": [
+      "马戏",
+      "俏皮",
+      "卡通"
+    ],
+    "entry_ids": [
+      "CW002",
+      "HN004",
+      "AT013",
+      "EX016",
+      "PO009",
+      "XA008"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "舞台与时尚"
+  },
+  {
+    "id": "character-street-model",
+    "chapter": "stage_fashion",
+    "name": "伦敦街头的短发模特",
+    "description": "深肤高挑的成年模特穿背心西装裤，圆墨镜与印面戒指点到为止，走出秀场后随意停步拍照。",
+    "palette": "黑白灰与少量银色。",
+    "tags": [
+      "时装",
+      "高挑",
+      "街拍"
+    ],
+    "entry_ids": [
+      "MO025",
+      "HN001",
+      "EG010",
+      "RI017",
+      "BO002",
+      "SK003",
+      "PP013",
+      "XC008"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "舞台与时尚"
+  },
+  {
+    "id": "character-silver-runway",
+    "chapter": "stage_fashion",
+    "name": "银翼秀场的成年领秀",
+    "description": "30岁的模特穿银色星芒翼装，盘辫让肩颈线条清晰，亮片长手套与猫跟鞋服务于整套秀场造型。",
+    "palette": "银灰、冷白与淡蓝。",
+    "tags": [
+      "秀场",
+      "华丽",
+      "时装插画"
+    ],
+    "entry_ids": [
+      "VF005",
+      "HN035",
+      "AG003",
+      "GL053",
+      "FW055",
+      "PO002",
+      "XH004"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "舞台与时尚"
+  },
+  {
+    "id": "character-lolita-stylist",
+    "chapter": "stage_fashion",
+    "name": "学院茶会的洛丽塔造型师",
+    "description": "24岁的造型师喜欢甜系层裙，珍珠侧夹和波奈特帽安排得细致，坐下时双手整齐放在膝上。",
+    "palette": "奶白、浅粉与淡金。",
+    "tags": [
+      "洛丽塔",
+      "茶会",
+      "绘本"
+    ],
+    "entry_ids": [
+      "FS033",
+      "AH009",
+      "HA043",
+      "PP019",
+      "RI025",
+      "XE009"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "舞台与时尚"
+  },
+  {
+    "id": "character-jirai-streamer",
+    "chapter": "stage_fashion",
+    "name": "雨夜电台的地雷系主播",
+    "description": "成年主播穿系带连衣裙，卷尖双尾搭着包耳耳机，鼓着脸给镜子拍照，桌边亮着直播待机灯。",
+    "palette": "黑、莓粉与少量白色。",
+    "tags": [
+      "地雷系",
+      "主播",
+      "韩漫"
+    ],
+    "entry_ids": [
+      "FS139",
+      "HN022",
+      "HP001",
+      "LM013",
+      "EM049",
+      "PP005",
+      "XG003"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "舞台与时尚"
+  },
+  {
+    "id": "character-greenhouse-oracle",
+    "chapter": "fantasy_story",
+    "name": "温室里的长寿精灵占卜师",
+    "description": "长寿精灵以叶披长袍和绳索辫示人，尖耳露出发间，水晶球与施法手势映着温室绿光。",
+    "palette": "苔绿、月白与浅金。",
+    "tags": [
+      "精灵",
+      "神秘",
+      "2.5D"
+    ],
+    "entry_ids": [
+      "FR005",
+      "HT025",
+      "AG011",
+      "FX001",
+      "GE008",
+      "PO027",
+      "XB013"
+    ],
+    "featured": true,
+    "character_example": true,
+    "chapter_name": "奇幻与传说"
+  },
+  {
+    "id": "character-winter-witch",
+    "chapter": "fantasy_story",
+    "name": "雪境图书塔的女巫",
+    "description": "成熟魔女穿厚实冰霜袍，银白长直发垂在圆镜旁，双手持书研究窗外的极光。",
+    "palette": "冰蓝、银白与靛紫。",
+    "tags": [
+      "魔女",
+      "沉静",
+      "幻想立绘"
+    ],
+    "entry_ids": [
+      "WZ017",
+      "HN017",
+      "HS018",
+      "AG012",
+      "EG001",
+      "PO028",
+      "XB016"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "奇幻与传说"
+  },
+  {
+    "id": "character-bamboo-immortal",
+    "chapter": "fantasy_story",
+    "name": "竹庭抱琴的女仙",
+    "description": "木素簪压住低髻，抱琴女仙在竹影间驻足，淡紫银灰的衣带衬着温暖侧光。",
+    "palette": "雾紫、青白与银灰。",
+    "tags": [
+      "中式仙女",
+      "空灵",
+      "工笔"
+    ],
+    "entry_ids": [
+      "XI009",
+      "AH049",
+      "PA009",
+      "IL008",
+      "XD005"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "奇幻与传说"
+  },
+  {
+    "id": "character-moon-fox-spirit",
+    "chapter": "fantasy_story",
+    "name": "荷塘月下的狐妖旅人",
+    "description": "白狐妖女披着柔软领饰，细辫点缀长卷发，竖瞳在回眸时显出，身影落在水墨月色里。",
+    "palette": "白、淡青与少量绯红。",
+    "tags": [
+      "狐妖",
+      "狡黠",
+      "数字水墨"
+    ],
+    "entry_ids": [
+      "YA001",
+      "HN027",
+      "EY017",
+      "PO024",
+      "XK005"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "奇幻与传说"
+  },
+  {
+    "id": "character-altar-saint",
+    "chapter": "fantasy_story",
+    "name": "星辉祭坛的白金圣女",
+    "description": "圣女穿高领仪式长衣，珠簪与素胸针克制明净，低头合掌祈祷，光透过彩绘玻璃。",
+    "palette": "白金与浅蓝。",
+    "tags": [
+      "圣洁",
+      "仪式",
+      "彩绘玻璃"
+    ],
+    "entry_ids": [
+      "ID001",
+      "AH058",
+      "BC001",
+      "HG053",
+      "EX001",
+      "XE006"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "奇幻与传说"
+  },
+  {
+    "id": "character-fallen-duchess",
+    "chapter": "fantasy_story",
+    "name": "衰败王庭的吸血鬼公爵",
+    "description": "成熟的女公爵穿高领披风礼装，长波浪与垂耳链映着暗光，抱臂守在已经空荡的宴会厅。",
+    "palette": "绛紫、旧金与黑。",
+    "tags": [
+      "吸血鬼",
+      "高冷",
+      "哥特手绘"
+    ],
+    "entry_ids": [
+      "UV017",
+      "HN018",
+      "LM007",
+      "ER009",
+      "AG004",
+      "PO005",
+      "XK008"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "奇幻与传说"
+  },
+  {
+    "id": "character-rooftop-ninja",
+    "chapter": "fantasy_story",
+    "name": "雨城屋脊上的女忍者",
+    "description": "女忍者收紧贴头辫，雨披下戴着半指手套，单膝跪在檐角观察对街的灯。",
+    "palette": "藏蓝、黑与雨夜青光。",
+    "tags": [
+      "忍者",
+      "谨慎",
+      "雨夜"
+    ],
+    "entry_ids": [
+      "NJ017",
+      "HT045",
+      "GL003",
+      "PO221",
+      "XC012"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "奇幻与传说"
+  },
+  {
+    "id": "character-dune-hunter",
+    "chapter": "fantasy_story",
+    "name": "沙丘遗迹的女赏金猎人",
+    "description": "低尾束得紧，旧多袋长外套配机能腰带和腰侧包；她停步回头，确认队友是否跟上。",
+    "palette": "褪卡其、皮棕与暗绿。",
+    "tags": [
+      "冒险",
+      "坚毅",
+      "原画"
+    ],
+    "entry_ids": [
+      "ID009",
+      "AH024",
+      "BE005",
+      "BA014",
+      "PO024",
+      "XB003"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "奇幻与传说"
+  },
+  {
+    "id": "character-nun-scribe",
+    "chapter": "fantasy_story",
+    "name": "古堡书房的修女书记官",
+    "description": "成熟修女穿工作长衣，头发收拢，坐在窗边低头阅读；面容平静，书页映着大面积柔光。",
+    "palette": "黑、米白与暖木色。",
+    "tags": [
+      "修女",
+      "安静",
+      "书房"
+    ],
+    "entry_ids": [
+      "NU017",
+      "HT012",
+      "AG003",
+      "PO011",
+      "EX001",
+      "IL007"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "奇幻与传说"
+  },
+  {
+    "id": "character-city-assassin",
+    "chapter": "fantasy_story",
+    "name": "冷静的都市女杀手",
+    "description": "她穿极简深色西装，短发贴耳，墨镜和半指皮手套不抢轮廓，抱臂等在空旷电梯间。",
+    "palette": "黑、钢灰与极少的暗红。",
+    "tags": [
+      "杀手",
+      "冷酷",
+      "黑色电影"
+    ],
+    "entry_ids": [
+      "AX001",
+      "HN001",
+      "EG011",
+      "GL003",
+      "RI017",
+      "PO005",
+      "XC007"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "奇幻与传说"
+  },
+  {
+    "id": "character-orbital-mechanic",
+    "chapter": "future",
+    "name": "轨道站的义肢维修员",
+    "description": "女维修员穿舱内压力服，低马尾让颈圈保持清爽；左前臂义肢外壳有使用痕迹，右腕装置显示工单。",
+    "palette": "橙、石墨与白。",
+    "tags": [
+      "科幻",
+      "义肢",
+      "次世代"
+    ],
+    "entry_ids": [
+      "SS001",
+      "HT002",
+      "PX001",
+      "GE022",
+      "PO012",
+      "XJ005"
+    ],
+    "featured": true,
+    "character_example": true,
+    "chapter_name": "科幻与未来"
+  },
+  {
+    "id": "character-polar-commander",
+    "chapter": "future",
+    "name": "极夜前哨的女探索队长",
+    "description": "强壮的队长穿极地星球探索服，短发呈银白色，电子义眼微亮，她抬头确认天空中的信标。",
+    "palette": "冷白、深蓝与警示橙。",
+    "tags": [
+      "科幻",
+      "强壮",
+      "探索"
+    ],
+    "entry_ids": [
+      "SS013",
+      "HN001",
+      "HS018",
+      "CY017",
+      "BO005",
+      "PO010",
+      "XB003"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "科幻与未来"
+  },
+  {
+    "id": "character-neon-detective",
+    "chapter": "future",
+    "name": "霓虹街区的女数据侦探",
+    "description": "数据侦探留着断层感短发，几何镜框旁露出单侧义眼；她托着下巴，从散景灯牌中寻找线索。",
+    "palette": "黑绿、紫蓝与霓虹粉。",
+    "tags": [
+      "赛博",
+      "知性",
+      "夜景"
+    ],
+    "entry_ids": [
+      "ID013",
+      "HN009",
+      "EG005",
+      "CY017",
+      "PO008",
+      "XK003",
+      "DF006"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "科幻与未来"
+  },
+  {
+    "id": "character-bridge-officer",
+    "chapter": "future",
+    "name": "舰桥上沉静的机械航海官",
+    "description": "成熟航海官穿勤务工作服，右小腿使用机械义肢，腕部终端与交叠的手臂维持整齐利落的线条。",
+    "palette": "海军蓝、灰白与冷银。",
+    "tags": [
+      "军旅",
+      "机械",
+      "三维"
+    ],
+    "entry_ids": [
+      "MU025",
+      "HN001",
+      "PX010",
+      "GE022",
+      "AG004",
+      "PO005",
+      "VX006",
+      "XJ001"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "科幻与未来"
+  },
+  {
+    "id": "character-water-apprentice",
+    "chapter": "future",
+    "name": "温室里学做人的水元素",
+    "description": "年轻成年外形的水元素第一次看见叶片上的露珠，流体发梢轻晃，带着困惑俯身观察。",
+    "palette": "透明青蓝、浅绿与水白。",
+    "tags": [
+      "液态",
+      "天真",
+      "水彩"
+    ],
+    "entry_ids": [
+      "LH001",
+      "FX019",
+      "EM065",
+      "PO012",
+      "DF001",
+      "XD001"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "科幻与未来"
+  },
+  {
+    "id": "character-silver-gatekeeper",
+    "chapter": "future",
+    "name": "金属都市的液态守门者",
+    "description": "高挑的银色流体女性站在城门前，双眼有微亮高光，背光勾出安静而坚定的轮廓。",
+    "palette": "镜银、石墨与冰蓝反光。",
+    "tags": [
+      "液态金属",
+      "沉稳",
+      "写实三维"
+    ],
+    "entry_ids": [
+      "LH005",
+      "BO002",
+      "CY007",
+      "PO001",
+      "IL006",
+      "XJ001"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "科幻与未来"
+  },
+  {
+    "id": "character-cat-tavern",
+    "chapter": "nonhuman",
+    "name": "星港酒馆的灰猫店主",
+    "description": "成年全身拟人灰猫穿爵士西装，椭圆眼镜架在短吻上，五指肉垫手稳稳捧着一杯热饮。",
+    "palette": "烟灰、酒棕与暖黄。",
+    "tags": [
+      "福瑞",
+      "酒馆",
+      "32像素"
+    ],
+    "entry_ids": [
+      "BS001",
+      "BH001",
+      "BP017",
+      "BM007",
+      "EG003",
+      "PO141",
+      "XB010"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "兽人与异形"
+  },
+  {
+    "id": "character-fox-courier",
+    "chapter": "nonhuman",
+    "name": "林间邮路的橙狐信使",
+    "description": "成年拟人橙狐穿实用信使行装，腰侧包固定信件，迎着风快步穿过林间岔路。",
+    "palette": "橙棕、森林绿与米白。",
+    "tags": [
+      "福瑞",
+      "信使",
+      "64像素"
+    ],
+    "entry_ids": [
+      "BS002",
+      "HT019",
+      "UN026",
+      "BA014",
+      "PO021",
+      "XB011"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "兽人与异形"
+  },
+  {
+    "id": "character-mermaid-scholar",
+    "chapter": "nonhuman",
+    "name": "深海废墟的美人鱼学者",
+    "description": "成年美人鱼学者有双叶尾鳍，长直发随水流漂动，手持星盘观察上方遗迹，棱柱吊坠贴近胸前。",
+    "palette": "深海蓝、青绿与淡金。",
+    "tags": [
+      "美人鱼",
+      "学者",
+      "幻想厚涂"
+    ],
+    "entry_ids": [
+      "HY009",
+      "HN017",
+      "GE009",
+      "PN013",
+      "PO010",
+      "XK007"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "兽人与异形"
+  },
+  {
+    "id": "character-oasis-serpent",
+    "chapter": "nonhuman",
+    "name": "绿洲夜行的蛇女舞者",
+    "description": "成年蛇女将长尾盘在绿洲石阶边，长波浪发配几何颈饰，竖瞳宁静，单手轻扶腰侧。",
+    "palette": "祖母绿、暗金与墨黑。",
+    "tags": [
+      "蛇女",
+      "典雅",
+      "油画"
+    ],
+    "entry_ids": [
+      "HY001",
+      "HN018",
+      "EY017",
+      "JE015",
+      "PO003",
+      "XD002"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "兽人与异形"
+  },
+  {
+    "id": "character-centaur-guard",
+    "chapter": "nonhuman",
+    "name": "高原驿站的半人马护卫",
+    "description": "成年半人马护卫编着法式辫，上身肩甲和护臂留下清楚的活动区，抬手为旅人指向山口。",
+    "palette": "栗棕、旧铁与沙白。",
+    "tags": [
+      "半人马",
+      "护卫",
+      "2.5D"
+    ],
+    "entry_ids": [
+      "HY017",
+      "HT022",
+      "AR001",
+      "AR010",
+      "PO026",
+      "XB005"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "兽人与异形"
+  },
+  {
+    "id": "character-white-wolf-ranger",
+    "chapter": "nonhuman",
+    "name": "雪林巡路的灰狼游侠",
+    "description": "成年拟人灰狼披着保暖兜帽斗篷，箭袋贴在肩背，护臂磨旧，回头确认雪地里的足迹。",
+    "palette": "灰白、深绿与皮棕。",
+    "tags": [
+      "福瑞",
+      "游侠",
+      "厚涂"
+    ],
+    "entry_ids": [
+      "BS003",
+      "OW095",
+      "GE015",
+      "AR010",
+      "PO024",
+      "XK001"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "兽人与异形"
+  },
+  {
+    "id": "character-cat-magic-girl",
+    "chapter": "nonhuman",
+    "name": "繁星海岸的猫耳魔法使",
+    "description": "21岁的人形猫耳魔法使穿花瓣主题变身礼装，双尾缎带在风里飘动，双手托引一团星光。",
+    "palette": "樱粉、海蓝与星金。",
+    "tags": [
+      "兽耳",
+      "魔法少女",
+      "赛璐璐"
+    ],
+    "entry_ids": [
+      "BL001",
+      "MG017",
+      "AH020",
+      "EY017",
+      "PO293",
+      "XA001"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "兽人与异形"
+  },
+  {
+    "id": "character-butterfly-flower",
+    "chapter": "nonhuman",
+    "name": "森林剧场的蝶翼花灵",
+    "description": "成年花灵有透明昆虫翼和花瓣式层裙，瀑布辫垂在背后，轻抬双臂像准备飞离舞台。",
+    "palette": "嫩绿、花瓣粉与淡黄。",
+    "tags": [
+      "花妖",
+      "蝶翼",
+      "羊毛毡"
+    ],
+    "entry_ids": [
+      "FX008",
+      "MG017",
+      "HT027",
+      "PO079",
+      "XJ003"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "兽人与异形"
+  },
+  {
+    "id": "character-porcelain-keeper",
+    "chapter": "nonhuman",
+    "name": "古堡的瓷偶守夜人",
+    "description": "成年比例的瓷质关节人偶留着圆波波，戴着单片链镜，双手交叠守在长廊门边。",
+    "palette": "瓷白、灰蓝与暗金。",
+    "tags": [
+      "人偶",
+      "古堡",
+      "球体关节"
+    ],
+    "entry_ids": [
+      "DM001",
+      "HN002",
+      "EG015",
+      "PO006",
+      "XJ008"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "兽人与异形"
+  },
+  {
+    "id": "character-star-chart-coser",
+    "chapter": "cosplay",
+    "name": "漫展返场的星盘巡游者",
+    "description": "成年Coser完成舞台返场，短假发配几何尖冠，星点角色妆清楚，手中的星窗短杖与领部图形呼应。",
+    "palette": "蓝白与金，星形细节集中。",
+    "tags": [
+      "Cosplay",
+      "星盘",
+      "舞台"
+    ],
+    "entry_ids": [
+      "CP001",
+      "WG001",
+      "CL012",
+      "CH001",
+      "CR001",
+      "CG006"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "Cosplay角色"
+  },
+  {
+    "id": "character-steam-coser",
+    "chapter": "cosplay",
+    "name": "检查道具的蒸汽修械Coser",
+    "description": "成年Coser穿铜棕修械师套装，短层假发与钟面小帽利落，检查齿轮钥匙和腰侧道具座是否牢靠。",
+    "palette": "铜棕、深蓝与旧金。",
+    "tags": [
+      "Cosplay",
+      "蒸汽",
+      "道具"
+    ],
+    "entry_ids": [
+      "CP026",
+      "WG004",
+      "CH014",
+      "CA005",
+      "CR013",
+      "CB016"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "Cosplay角色"
+  },
+  {
+    "id": "character-leaf-coser",
+    "chapter": "cosplay",
+    "name": "森系舞台的精灵Coser",
+    "description": "成年Coser用盘辫假发和短尖耳壳建立精灵外观，分片蝶翼接在背后，手里的折扇只打开一半。",
+    "palette": "叶绿、米白与浅金。",
+    "tags": [
+      "Cosplay",
+      "精灵",
+      "翅膀"
+    ],
+    "entry_ids": [
+      "CP017",
+      "WG025",
+      "CL017",
+      "CA017",
+      "CR010",
+      "CG010"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "Cosplay角色"
+  },
+  {
+    "id": "character-punk-coser",
+    "chapter": "cosplay",
+    "name": "朋克舞台的返场Coser",
+    "description": "成年Coser穿乐队鼓手主题服，尖束假发和英气眉醒目，半指皮手套配一记轻松的单手致意。",
+    "palette": "黑红与旧银，局部亮面。",
+    "tags": [
+      "Cosplay",
+      "朋克",
+      "潮玩"
+    ],
+    "entry_ids": [
+      "CP058",
+      "WG017",
+      "CL004",
+      "GL003",
+      "CG015",
+      "XJ006"
+    ],
+    "featured": false,
+    "character_example": true,
+    "chapter_name": "Cosplay角色"
+  }
+]

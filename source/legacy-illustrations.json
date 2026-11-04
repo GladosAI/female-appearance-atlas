@@ -1,0 +1,518 @@
+[
+  {
+    "id": "hair",
+    "title": "发型示意",
+    "image": "images/hair.png",
+    "columns": 4,
+    "rows": 5,
+    "width": 1024,
+    "height": 1536,
+    "origin": "AI-generated concept illustration",
+    "items": [
+      {
+        "label": "H01",
+        "name": "下巴短波波",
+        "entry_id": "HC005"
+      },
+      {
+        "label": "H02",
+        "name": "精灵短发",
+        "entry_id": "HC002"
+      },
+      {
+        "label": "H03",
+        "name": "狼尾层次",
+        "entry_id": "HC019"
+      },
+      {
+        "label": "H04",
+        "name": "直发",
+        "entry_id": "HS001"
+      },
+      {
+        "label": "H05",
+        "name": "松波浪",
+        "entry_id": "HS002"
+      },
+      {
+        "label": "H06",
+        "name": "螺旋卷",
+        "entry_id": "HS004"
+      },
+      {
+        "label": "H07",
+        "name": "自然蓬松圆发",
+        "entry_id": "HS006"
+      },
+      {
+        "label": "H08",
+        "name": "公主切",
+        "entry_id": "HC020"
+      },
+      {
+        "label": "H09",
+        "name": "高马尾",
+        "entry_id": "HT001"
+      },
+      {
+        "label": "H10",
+        "name": "低马尾",
+        "entry_id": "HT002"
+      },
+      {
+        "label": "H11",
+        "name": "侧马尾",
+        "entry_id": "HT004"
+      },
+      {
+        "label": "H12",
+        "name": "高双马尾",
+        "entry_id": "HT005"
+      },
+      {
+        "label": "H13",
+        "name": "低双马尾",
+        "entry_id": "HT006"
+      },
+      {
+        "label": "H14",
+        "name": "侧辫",
+        "entry_id": "HT020"
+      },
+      {
+        "label": "H15",
+        "name": "双辫",
+        "entry_id": "HT021"
+      },
+      {
+        "label": "H16",
+        "name": "冠状辫",
+        "entry_id": "HT026"
+      },
+      {
+        "label": "H17",
+        "name": "低盘髻",
+        "entry_id": "HT012"
+      },
+      {
+        "label": "H18",
+        "name": "高丸子",
+        "entry_id": "HT011"
+      },
+      {
+        "label": "H19",
+        "name": "双丸子",
+        "entry_id": "HT013"
+      },
+      {
+        "label": "H20",
+        "name": "半扎发",
+        "entry_id": "HT008"
+      }
+    ]
+  },
+  {
+    "id": "face",
+    "title": "脸部轮廓示意",
+    "image": "images/face.png",
+    "columns": 4,
+    "rows": 3,
+    "width": 1448,
+    "height": 1086,
+    "origin": "AI-generated concept illustration",
+    "items": [
+      {
+        "label": "F01",
+        "name": "椭圆脸",
+        "entry_id": "FA001"
+      },
+      {
+        "label": "F02",
+        "name": "圆脸",
+        "entry_id": "FA002"
+      },
+      {
+        "label": "F03",
+        "name": "方脸",
+        "entry_id": "FA003"
+      },
+      {
+        "label": "F04",
+        "name": "长方脸",
+        "entry_id": "FA004"
+      },
+      {
+        "label": "F05",
+        "name": "心形脸",
+        "entry_id": "FA005"
+      },
+      {
+        "label": "F06",
+        "name": "菱形脸",
+        "entry_id": "FA006"
+      },
+      {
+        "label": "F07",
+        "name": "三角脸",
+        "entry_id": "FA007"
+      },
+      {
+        "label": "F08",
+        "name": "长椭圆脸",
+        "entry_id": "FA008"
+      },
+      {
+        "label": "F09",
+        "name": "柔和棱角脸",
+        "entry_id": "FA009"
+      },
+      {
+        "label": "F10",
+        "name": "饱满面颊",
+        "entry_id": "FA010"
+      },
+      {
+        "label": "F11",
+        "name": "宽下颌圆下巴",
+        "entry_id": "FA011"
+      },
+      {
+        "label": "F12",
+        "name": "短下脸",
+        "entry_id": "FA012"
+      }
+    ]
+  },
+  {
+    "id": "clothing",
+    "title": "服装组合示意",
+    "image": "images/clothing.png",
+    "columns": 4,
+    "rows": 5,
+    "width": 1024,
+    "height": 1536,
+    "origin": "AI-generated concept illustration",
+    "items": [
+      {
+        "label": "C01",
+        "name": "圆领T恤",
+        "entry_id": "TO001"
+      },
+      {
+        "label": "C02",
+        "name": "衬衫式女上衣",
+        "entry_id": "TO006"
+      },
+      {
+        "label": "C03",
+        "name": "西装外套",
+        "entry_id": "OW001"
+      },
+      {
+        "label": "C04",
+        "name": "开襟针织衫",
+        "entry_id": "TO009"
+      },
+      {
+        "label": "C05",
+        "name": "连帽卫衣",
+        "entry_id": "TO010"
+      },
+      {
+        "label": "C06",
+        "name": "风衣",
+        "entry_id": "OW002"
+      },
+      {
+        "label": "C07",
+        "name": "飞行夹克",
+        "entry_id": "OW005"
+      },
+      {
+        "label": "C08",
+        "name": "牛仔夹克",
+        "entry_id": "OW006"
+      },
+      {
+        "label": "C09",
+        "name": "A字连衣裙",
+        "entry_id": "OP001"
+      },
+      {
+        "label": "C10",
+        "name": "合身连衣裙",
+        "entry_id": "OP003"
+      },
+      {
+        "label": "C11",
+        "name": "裹身连衣裙",
+        "entry_id": "OP004"
+      },
+      {
+        "label": "C12",
+        "name": "高腰长裙",
+        "entry_id": "OP005"
+      },
+      {
+        "label": "C13",
+        "name": "宽摆礼服",
+        "entry_id": "OP010"
+      },
+      {
+        "label": "C14",
+        "name": "鱼尾礼服",
+        "entry_id": "OP011"
+      },
+      {
+        "label": "C15",
+        "name": "裙撑轮廓礼服",
+        "entry_id": "OP022"
+      },
+      {
+        "label": "C16",
+        "name": "交领襦裙灵感",
+        "entry_id": "OP020"
+      },
+      {
+        "label": "C17",
+        "name": "和服灵感袍",
+        "entry_id": "OP021"
+      },
+      {
+        "label": "C18",
+        "name": "魔女",
+        "entry_id": "ST020"
+      },
+      {
+        "label": "C19",
+        "name": "轻甲战士",
+        "entry_id": "ST023"
+      },
+      {
+        "label": "C20",
+        "name": "未来都市",
+        "entry_id": "ST016"
+      }
+    ]
+  },
+  {
+    "id": "accessories",
+    "title": "配饰示意",
+    "image": "images/accessories.png",
+    "columns": 5,
+    "rows": 4,
+    "width": 1536,
+    "height": 1024,
+    "origin": "AI-generated concept illustration",
+    "items": [
+      {
+        "label": "A01",
+        "name": "大蝴蝶结",
+        "entry_id": "AC003"
+      },
+      {
+        "label": "A02",
+        "name": "花形发簪",
+        "entry_id": "AC005"
+      },
+      {
+        "label": "A03",
+        "name": "长发簪",
+        "entry_id": "AC006"
+      },
+      {
+        "label": "A04",
+        "name": "发带",
+        "entry_id": "AC001"
+      },
+      {
+        "label": "A05",
+        "name": "贝雷帽",
+        "entry_id": "AC008"
+      },
+      {
+        "label": "A06",
+        "name": "尖顶魔女帽",
+        "entry_id": "AC013"
+      },
+      {
+        "label": "A07",
+        "name": "小冠饰",
+        "entry_id": "AC014"
+      },
+      {
+        "label": "A08",
+        "name": "圆框眼镜",
+        "entry_id": "AC016"
+      },
+      {
+        "label": "A09",
+        "name": "吊坠项链",
+        "entry_id": "AC021"
+      },
+      {
+        "label": "A10",
+        "name": "贴颈项饰",
+        "entry_id": "AC022"
+      },
+      {
+        "label": "A11",
+        "name": "垂坠耳饰",
+        "entry_id": "AC025"
+      },
+      {
+        "label": "A12",
+        "name": "胸针",
+        "entry_id": "AC027"
+      },
+      {
+        "label": "A13",
+        "name": "腰封",
+        "entry_id": "AC034"
+      },
+      {
+        "label": "A14",
+        "name": "功能腰带",
+        "entry_id": "AC035"
+      },
+      {
+        "label": "A15",
+        "name": "短手套",
+        "entry_id": "FW028"
+      },
+      {
+        "label": "A16",
+        "name": "及膝袜",
+        "entry_id": "FW023"
+      },
+      {
+        "label": "A17",
+        "name": "玛丽珍鞋",
+        "entry_id": "FW005"
+      },
+      {
+        "label": "A18",
+        "name": "系带战靴",
+        "entry_id": "FW017"
+      },
+      {
+        "label": "A19",
+        "name": "肩带斜包",
+        "entry_id": "AC036"
+      },
+      {
+        "label": "A20",
+        "name": "法术书",
+        "entry_id": "AC043"
+      }
+    ],
+    "column_boundaries": [
+      0,
+      316,
+      617,
+      923,
+      1222,
+      1536
+    ],
+    "row_boundaries": [
+      0,
+      246,
+      491,
+      720,
+      1024
+    ],
+    "crop_review": "v44: reviewed against actual source grid lines; uneven row heights preserved"
+  },
+  {
+    "id": "body-pose",
+    "title": "体型与姿态示意",
+    "image": "images/body-pose.png",
+    "columns": 4,
+    "rows": 4,
+    "width": 1464,
+    "height": 1075,
+    "origin": "AI-generated concept illustration",
+    "items": [
+      {
+        "label": "B01",
+        "name": "矮个纤细",
+        "entry_id": "BO001"
+      },
+      {
+        "label": "B02",
+        "name": "高个纤细",
+        "entry_id": "BO002"
+      },
+      {
+        "label": "B03",
+        "name": "中等体格",
+        "entry_id": "BO003"
+      },
+      {
+        "label": "B04",
+        "name": "运动体格",
+        "entry_id": "BO004"
+      },
+      {
+        "label": "B05",
+        "name": "强壮体格",
+        "entry_id": "BO005"
+      },
+      {
+        "label": "B06",
+        "name": "饱满体格",
+        "entry_id": "BO006"
+      },
+      {
+        "label": "B07",
+        "name": "胯部较宽",
+        "entry_id": "BO007"
+      },
+      {
+        "label": "B08",
+        "name": "肩部较宽",
+        "entry_id": "BO008"
+      },
+      {
+        "label": "P01",
+        "name": "双脚均衡站立",
+        "entry_id": "PO001"
+      },
+      {
+        "label": "P02",
+        "name": "单腿承重",
+        "entry_id": "PO002"
+      },
+      {
+        "label": "P03",
+        "name": "单手叉腰",
+        "entry_id": "PO003"
+      },
+      {
+        "label": "P04",
+        "name": "松弛抱臂",
+        "entry_id": "PO005"
+      },
+      {
+        "label": "P05",
+        "name": "自然行走",
+        "entry_id": "PO021"
+      },
+      {
+        "label": "P06",
+        "name": "快跑",
+        "entry_id": "PO022"
+      },
+      {
+        "label": "P07",
+        "name": "交腿坐",
+        "entry_id": "PO016"
+      },
+      {
+        "label": "P08",
+        "name": "抬手施法",
+        "entry_id": "PO027"
+      }
+    ]
+  }
+]

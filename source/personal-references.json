@@ -1,0 +1,35 @@
+[
+  {
+    "id": "R54",
+    "title": "Jewellery – Explore the Collections",
+    "publisher": "Victoria and Albert Museum",
+    "url": "https://www.vam.ac.uk/collections/jewellery",
+    "kind": "馆藏研究入口",
+    "topics": "Jewellery – Explore the Collections",
+    "summary": "耳饰、项饰、吊坠和发饰的馆藏研究入口，具体材料与历史背景以物件记录为准。",
+    "rights": "仅保存阅读链接，未复制原站图片",
+    "checked": "2026-10-14"
+  },
+  {
+    "id": "R55",
+    "title": "Hairpin 中国发簪馆藏",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/art/collection/search/60875",
+    "kind": "馆藏研究入口",
+    "topics": "Hairpin 中国发簪馆藏",
+    "summary": "中国发簪的具体馆藏记录，用于观察杆体、饰头及材料；新增发饰为独立原创，未复制馆藏形状。",
+    "rights": "仅保存阅读链接，未复制原站图片",
+    "checked": "2026-10-14"
+  },
+  {
+    "id": "R56",
+    "title": "Gloves 针织手套馆藏",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/art/collection/search/13698",
+    "kind": "馆藏研究入口",
+    "topics": "Gloves 针织手套馆藏",
+    "summary": "针织手套的具体馆藏入口，用于比较指型、袖口和材料；图鉴工具手套是原创外观参考。",
+    "rights": "仅保存阅读链接，未复制原站图片",
+    "checked": "2026-10-14"
+  }
+]

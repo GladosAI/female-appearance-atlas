@@ -1,0 +1,104 @@
+[
+  {
+    "id": "camera-directions-v66",
+    "category": "camera_directions",
+    "title": "观察方向",
+    "columns": 2,
+    "rows": 4,
+    "entry_ids": [
+      "VD001",
+      "VD002",
+      "VD003",
+      "VD004",
+      "VD005",
+      "VD006",
+      "VD007",
+      "VD008"
+    ],
+    "image": "images/sheet-camera-directions-v66.png"
+  },
+  {
+    "id": "camera-heights-v66",
+    "category": "camera_heights",
+    "title": "机位高度与俯仰",
+    "columns": 2,
+    "rows": 3,
+    "entry_ids": [
+      "VH001",
+      "VH002",
+      "VH003",
+      "VH004",
+      "VH005",
+      "VH006"
+    ],
+    "image": "images/sheet-camera-heights-v66.png"
+  },
+  {
+    "id": "shot-sizes-v66",
+    "category": "shot_sizes",
+    "title": "景别与取景范围",
+    "columns": 2,
+    "rows": 4,
+    "entry_ids": [
+      "VS001",
+      "VS002",
+      "VS003",
+      "VS004",
+      "VS005",
+      "VS006",
+      "VS007",
+      "VS008"
+    ],
+    "image": "images/sheet-shot-sizes-v66.png"
+  },
+  {
+    "id": "camera-composition-v66",
+    "category": "camera_composition",
+    "title": "画面构图",
+    "columns": 2,
+    "rows": 4,
+    "entry_ids": [
+      "VC001",
+      "VC002",
+      "VC003",
+      "VC004",
+      "VC005",
+      "VC006",
+      "VC007",
+      "VC008"
+    ],
+    "image": "images/sheet-camera-composition-v66.png"
+  },
+  {
+    "id": "depth-focus-v66",
+    "category": "depth_focus",
+    "title": "景深与对焦",
+    "columns": 2,
+    "rows": 3,
+    "entry_ids": [
+      "DF001",
+      "DF002",
+      "DF003",
+      "DF004",
+      "DF005",
+      "DF006"
+    ],
+    "image": "images/sheet-depth-focus-v66.png"
+  },
+  {
+    "id": "lens-perspective-v66",
+    "category": "lens_perspective",
+    "title": "镜头与透视",
+    "columns": 2,
+    "rows": 3,
+    "entry_ids": [
+      "VX001",
+      "VX002",
+      "VX003",
+      "VX004",
+      "VX005",
+      "VX006"
+    ],
+    "image": "images/sheet-lens-perspective-v66.png"
+  }
+]

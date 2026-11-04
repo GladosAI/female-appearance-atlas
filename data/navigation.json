@@ -1,0 +1,2557 @@
+{
+  "schema": "female-appearance-navigation/v2",
+  "date": "2026-10-20",
+  "groups": [
+    {
+      "id": "hair_design",
+      "name": "头发与发型",
+      "note": "从剪裁、刘海和扎编部件，到完整发型与日常头发状态。",
+      "categories": [
+        "hair_cut",
+        "hair_bangs",
+        "hair_details",
+        "hair_surface",
+        "hair_states",
+        "hair_tie",
+        "hair_combinations",
+        "hair_with_accessories"
+      ],
+      "sections": [
+        {
+          "id": "hair_shape",
+          "name": "剪裁与轮廓",
+          "categories": [
+            "hair_cut",
+            "hair_bangs",
+            "hair_details"
+          ],
+          "scope": "branch_hair_shape",
+          "count": 128,
+          "category_count": 3
+        },
+        {
+          "id": "hair_texture",
+          "name": "质感、颜色与状态",
+          "categories": [
+            "hair_surface",
+            "hair_states"
+          ],
+          "scope": "branch_hair_texture",
+          "count": 142,
+          "category_count": 2
+        },
+        {
+          "id": "hair_styling",
+          "name": "扎编与完整发型",
+          "categories": [
+            "hair_tie",
+            "hair_combinations",
+            "hair_with_accessories"
+          ],
+          "scope": "branch_hair_styling",
+          "count": 261,
+          "category_count": 3
+        }
+      ],
+      "scope": "topic_hair_design",
+      "count": 531,
+      "category_count": 8
+    },
+    {
+      "id": "face_design",
+      "name": "脸部与表情",
+      "note": "脸型五官与自然唇形、眼睛肤色、眼妆唇妆，以及情绪、口部动作和面部覆盖。",
+      "categories": [
+        "face",
+        "features",
+        "nose_ear_teeth",
+        "lips",
+        "face_views",
+        "portrait_lighting",
+        "eyes",
+        "skin",
+        "eyeshadow",
+        "eyeliner",
+        "eye_makeup",
+        "lip_makeup",
+        "expression",
+        "face_emotions",
+        "mouth_actions",
+        "face_hands",
+        "face_states",
+        "face_overlays",
+        "face_augments"
+      ],
+      "sections": [
+        {
+          "id": "facial_structure",
+          "name": "脸型、五官与视角",
+          "categories": [
+            "face",
+            "features",
+            "nose_ear_teeth",
+            "lips",
+            "face_views"
+          ],
+          "scope": "branch_facial_structure",
+          "count": 117,
+          "category_count": 5
+        },
+        {
+          "id": "portrait_light",
+          "name": "光照与明暗",
+          "categories": [
+            "portrait_lighting"
+          ],
+          "scope": "branch_portrait_light",
+          "count": 8,
+          "category_count": 1
+        },
+        {
+          "id": "eyes_skin",
+          "name": "眼睛与肤色",
+          "categories": [
+            "eyes",
+            "skin"
+          ],
+          "scope": "branch_eyes_skin",
+          "count": 57,
+          "category_count": 2
+        },
+        {
+          "id": "makeup_detail",
+          "name": "眼妆与唇妆",
+          "categories": [
+            "eyeshadow",
+            "eyeliner",
+            "eye_makeup",
+            "lip_makeup"
+          ],
+          "scope": "branch_makeup_detail",
+          "count": 80,
+          "category_count": 4
+        },
+        {
+          "id": "expressions",
+          "name": "情绪与妆容",
+          "categories": [
+            "expression",
+            "face_emotions"
+          ],
+          "scope": "branch_expressions",
+          "count": 220,
+          "category_count": 2
+        },
+        {
+          "id": "face_actions",
+          "name": "口部与手部互动",
+          "categories": [
+            "mouth_actions",
+            "face_hands"
+          ],
+          "scope": "branch_face_actions",
+          "count": 112,
+          "category_count": 2
+        },
+        {
+          "id": "face_conditions",
+          "name": "状态、痕迹与覆盖",
+          "categories": [
+            "face_states",
+            "face_overlays"
+          ],
+          "scope": "branch_face_conditions",
+          "count": 208,
+          "category_count": 2
+        },
+        {
+          "id": "face_technology",
+          "name": "光效与机械面部",
+          "categories": [
+            "face_augments"
+          ],
+          "scope": "branch_face_technology",
+          "count": 32,
+          "category_count": 1
+        }
+      ],
+      "scope": "topic_face_design",
+      "count": 834,
+      "category_count": 19
+    },
+    {
+      "id": "body_design",
+      "name": "身体与动作",
+      "note": "体型年龄对照、动作与持物、局部形态和机械义肢。",
+      "categories": [
+        "body",
+        "female_life_stages",
+        "age",
+        "pose",
+        "photo_poses",
+        "flexibility_poses",
+        "plush_holds",
+        "hands",
+        "feet",
+        "nails",
+        "skin_details",
+        "body_art",
+        "prosthetic_styling"
+      ],
+      "sections": [
+        {
+          "id": "body_age",
+          "name": "体型、比例与年龄",
+          "categories": [
+            "body",
+            "female_life_stages",
+            "age"
+          ],
+          "scope": "branch_body_age",
+          "count": 198,
+          "category_count": 3
+        },
+        {
+          "id": "body_movement",
+          "name": "动作与持物",
+          "categories": [
+            "pose",
+            "photo_poses",
+            "flexibility_poses",
+            "plush_holds"
+          ],
+          "scope": "branch_body_movement",
+          "count": 388,
+          "category_count": 4
+        },
+        {
+          "id": "body_details",
+          "name": "手足、甲面与皮肤细节",
+          "categories": [
+            "hands",
+            "feet",
+            "nails",
+            "skin_details",
+            "body_art"
+          ],
+          "scope": "branch_body_details",
+          "count": 132,
+          "category_count": 5
+        },
+        {
+          "id": "body_prosthetics",
+          "name": "机械义肢",
+          "categories": [
+            "prosthetic_styling"
+          ],
+          "scope": "branch_body_prosthetics",
+          "count": 16,
+          "category_count": 1
+        }
+      ],
+      "scope": "topic_body_design",
+      "count": 734,
+      "category_count": 13
+    },
+    {
+      "id": "everyday",
+      "name": "服装单件与日常穿搭",
+      "note": "按单件、季节、场景与造型查找；穿搭风格作为筛选条件。",
+      "categories": [
+        "tops",
+        "bottoms",
+        "onepiece",
+        "outerwear",
+        "construction",
+        "garment_dynamics",
+        "underwear",
+        "sleepwear",
+        "swimwear",
+        "day_home_outfits",
+        "footwear",
+        "hosiery",
+        "gloves",
+        "spring_outfits",
+        "summer_outfits",
+        "autumn_outfits",
+        "winter_outfits",
+        "schoolwear",
+        "youthwear",
+        "sports",
+        "layered_outfits",
+        "trend_outfits",
+        "chic_outfits",
+        "model_outfits",
+        "fashion_outfits",
+        "style",
+        "street_hiphop_outfits",
+        "persona_looks",
+        "coverage_looks"
+      ],
+      "sections": [
+        {
+          "id": "garment_pieces",
+          "name": "上装、下装与外套",
+          "categories": [
+            "tops",
+            "bottoms",
+            "onepiece",
+            "outerwear"
+          ],
+          "scope": "branch_garment_pieces",
+          "count": 427,
+          "category_count": 4
+        },
+        {
+          "id": "garment_details",
+          "name": "领袖、结构与衣物动态",
+          "categories": [
+            "construction",
+            "garment_dynamics"
+          ],
+          "scope": "branch_garment_details",
+          "count": 76,
+          "category_count": 2
+        },
+        {
+          "id": "intimate_home",
+          "name": "贴身、居家与泳装",
+          "categories": [
+            "underwear",
+            "sleepwear",
+            "swimwear",
+            "day_home_outfits"
+          ],
+          "scope": "branch_intimate_home",
+          "count": 115,
+          "category_count": 4
+        },
+        {
+          "id": "shoes_hosiery",
+          "name": "鞋履、袜类与手套",
+          "categories": [
+            "footwear",
+            "hosiery",
+            "gloves"
+          ],
+          "scope": "branch_shoes_hosiery",
+          "count": 270,
+          "category_count": 3
+        },
+        {
+          "id": "four_seasons",
+          "name": "春夏秋冬整套穿搭",
+          "categories": [
+            "spring_outfits",
+            "summer_outfits",
+            "autumn_outfits",
+            "winter_outfits"
+          ],
+          "scope": "branch_four_seasons",
+          "count": 297,
+          "category_count": 4
+        },
+        {
+          "id": "school_sport",
+          "name": "校园、青少年与运动",
+          "categories": [
+            "schoolwear",
+            "youthwear",
+            "sports"
+          ],
+          "scope": "branch_school_sport",
+          "count": 136,
+          "category_count": 3
+        },
+        {
+          "id": "fashion_ensembles",
+          "name": "日常搭配与造型方向",
+          "categories": [
+            "layered_outfits",
+            "trend_outfits",
+            "chic_outfits",
+            "model_outfits",
+            "fashion_outfits",
+            "style",
+            "street_hiphop_outfits"
+          ],
+          "scope": "branch_fashion_ensembles",
+          "count": 466,
+          "category_count": 7
+        },
+        {
+          "id": "character_presence",
+          "name": "气质与角色表现",
+          "categories": [
+            "persona_looks",
+            "coverage_looks"
+          ],
+          "scope": "branch_character_presence",
+          "count": 180,
+          "category_count": 2
+        }
+      ],
+      "scope": "topic_everyday",
+      "count": 1967,
+      "category_count": 29
+    },
+    {
+      "id": "role_costumes",
+      "name": "职业、主题与历史服装",
+      "note": "职业工作、历史文化、幻想身份、舞台礼服、经典人设与衣物特殊状态。",
+      "categories": [
+        "chinese_outfits",
+        "opera_outfits",
+        "traditional",
+        "historical_outfits",
+        "early20c_outfits",
+        "fashion_history",
+        "japanese_retro_outfits",
+        "prehistoric_fantasy",
+        "western_cowgirls",
+        "regional_cultures",
+        "nordic_looks",
+        "uniforms",
+        "urban_role_outfits",
+        "outdoor_role_outfits",
+        "academic_research",
+        "biome_expeditions",
+        "military_outfits",
+        "tactical_outfits",
+        "armor",
+        "space_suits",
+        "wizard_outfits",
+        "priestess_outfits",
+        "nun_costumes",
+        "chinese_fairy_outfits",
+        "chinese_demoness_outfits",
+        "fantasy_outfits",
+        "fantasy_role_outfits",
+        "magical_girl_outfits",
+        "superhero_outfits",
+        "ninja_outfits",
+        "reaper_costumes",
+        "mythic_personifications",
+        "stage_outfits",
+        "dance_variety_outfits",
+        "gymnastics_outfits",
+        "cheer_outfits",
+        "runway_lingerie",
+        "idol_outfits",
+        "band_outfits",
+        "kungfu_outfits",
+        "clown_outfits",
+        "bridal_gowns",
+        "wedding_attire",
+        "special_costumes",
+        "disguise_outfits",
+        "undead_costumes",
+        "outlaw_costumes",
+        "doll_mascot_costumes",
+        "intimate_costumes",
+        "assassin_outfits",
+        "towel_wraps",
+        "wet_outfits",
+        "distressed_outfits",
+        "liquid_stained_outfits",
+        "covered_body_views",
+        "identity_status",
+        "identity_duties",
+        "identity_classic"
+      ],
+      "sections": [
+        {
+          "id": "history_culture",
+          "name": "传统、国风与年代",
+          "categories": [
+            "chinese_outfits",
+            "opera_outfits",
+            "traditional",
+            "historical_outfits",
+            "early20c_outfits",
+            "fashion_history",
+            "japanese_retro_outfits",
+            "prehistoric_fantasy",
+            "western_cowgirls",
+            "regional_cultures",
+            "nordic_looks"
+          ],
+          "scope": "branch_history_culture",
+          "count": 340,
+          "category_count": 11
+        },
+        {
+          "id": "occupations",
+          "name": "职业与户外作业",
+          "categories": [
+            "uniforms",
+            "urban_role_outfits",
+            "outdoor_role_outfits",
+            "academic_research",
+            "biome_expeditions"
+          ],
+          "scope": "branch_occupations",
+          "count": 112,
+          "category_count": 5
+        },
+        {
+          "id": "military_space",
+          "name": "军旅、战术与宇航",
+          "categories": [
+            "military_outfits",
+            "tactical_outfits",
+            "armor",
+            "space_suits"
+          ],
+          "scope": "branch_military_space",
+          "count": 104,
+          "category_count": 4
+        },
+        {
+          "id": "magic_religion",
+          "name": "魔法、仪式与幻想身份",
+          "categories": [
+            "wizard_outfits",
+            "priestess_outfits",
+            "nun_costumes",
+            "chinese_fairy_outfits",
+            "chinese_demoness_outfits",
+            "fantasy_outfits",
+            "fantasy_role_outfits",
+            "magical_girl_outfits",
+            "superhero_outfits",
+            "ninja_outfits",
+            "reaper_costumes",
+            "mythic_personifications"
+          ],
+          "scope": "branch_magic_religion",
+          "count": 336,
+          "category_count": 12
+        },
+        {
+          "id": "performance",
+          "name": "舞台、竞技与秀场",
+          "categories": [
+            "stage_outfits",
+            "dance_variety_outfits",
+            "gymnastics_outfits",
+            "cheer_outfits",
+            "runway_lingerie",
+            "idol_outfits",
+            "band_outfits",
+            "kungfu_outfits",
+            "clown_outfits"
+          ],
+          "scope": "branch_performance",
+          "count": 124,
+          "category_count": 9
+        },
+        {
+          "id": "wedding",
+          "name": "婚纱与婚服",
+          "categories": [
+            "bridal_gowns",
+            "wedding_attire"
+          ],
+          "scope": "branch_wedding",
+          "count": 80,
+          "category_count": 2
+        },
+        {
+          "id": "theme_costumes",
+          "name": "主题装扮与人偶服",
+          "categories": [
+            "special_costumes",
+            "disguise_outfits",
+            "undead_costumes",
+            "outlaw_costumes",
+            "doll_mascot_costumes",
+            "intimate_costumes",
+            "assassin_outfits"
+          ],
+          "scope": "branch_theme_costumes",
+          "count": 280,
+          "category_count": 7
+        },
+        {
+          "id": "garment_states",
+          "name": "裹巾、破损与浸染状态",
+          "categories": [
+            "towel_wraps",
+            "wet_outfits",
+            "distressed_outfits",
+            "liquid_stained_outfits",
+            "covered_body_views"
+          ],
+          "scope": "branch_garment_states",
+          "count": 96,
+          "category_count": 5
+        },
+        {
+          "id": "identity_archetypes",
+          "name": "身份与经典设定",
+          "categories": [
+            "identity_status",
+            "identity_duties",
+            "identity_classic"
+          ],
+          "scope": "branch_identity_archetypes",
+          "count": 36,
+          "category_count": 3
+        }
+      ],
+      "scope": "topic_role_costumes",
+      "count": 1508,
+      "category_count": 58
+    },
+    {
+      "id": "accessory_design",
+      "name": "配饰与随身物品",
+      "note": "头部穿戴、包袋装备、首饰、腰腿颈饰和衣物附件。",
+      "categories": [
+        "hats",
+        "hair_accessories",
+        "eyewear",
+        "headphones",
+        "masks",
+        "bags",
+        "gear",
+        "jewelry",
+        "earrings",
+        "pendants",
+        "studs",
+        "watches",
+        "rings",
+        "bracelets",
+        "bead_bracelets",
+        "anklets",
+        "belts",
+        "leg_straps",
+        "neck_collars",
+        "brooches",
+        "insignia_badges",
+        "accessories",
+        "scarves_neckerchiefs",
+        "ribbons",
+        "cords_tassels"
+      ],
+      "sections": [
+        {
+          "id": "head_accessories",
+          "name": "帽子、发饰与头部佩戴",
+          "categories": [
+            "hats",
+            "hair_accessories",
+            "eyewear",
+            "headphones",
+            "masks"
+          ],
+          "scope": "branch_head_accessories",
+          "count": 184,
+          "category_count": 5
+        },
+        {
+          "id": "bags_equipment",
+          "name": "包袋与随身装备",
+          "categories": [
+            "bags",
+            "gear"
+          ],
+          "scope": "branch_bags_equipment",
+          "count": 84,
+          "category_count": 2
+        },
+        {
+          "id": "jewels_piercings",
+          "name": "首饰、吊坠与穿孔饰件",
+          "categories": [
+            "jewelry",
+            "earrings",
+            "pendants",
+            "studs"
+          ],
+          "scope": "branch_jewels_piercings",
+          "count": 78,
+          "category_count": 4
+        },
+        {
+          "id": "wrist_hand_ankle",
+          "name": "腕表、手饰与足饰",
+          "categories": [
+            "watches",
+            "rings",
+            "bracelets",
+            "bead_bracelets",
+            "anklets"
+          ],
+          "scope": "branch_wrist_hand_ankle",
+          "count": 128,
+          "category_count": 5
+        },
+        {
+          "id": "belts_collars",
+          "name": "腰带、腿带与颈饰",
+          "categories": [
+            "belts",
+            "leg_straps",
+            "neck_collars"
+          ],
+          "scope": "branch_belts_collars",
+          "count": 48,
+          "category_count": 3
+        },
+        {
+          "id": "fasteners_badges",
+          "name": "胸针、章牌与综合饰件",
+          "categories": [
+            "brooches",
+            "insignia_badges",
+            "accessories"
+          ],
+          "scope": "branch_fasteners_badges",
+          "count": 76,
+          "category_count": 3
+        },
+        {
+          "id": "scarves_cords",
+          "name": "巾带、缎带与绳饰",
+          "categories": [
+            "scarves_neckerchiefs",
+            "ribbons",
+            "cords_tassels"
+          ],
+          "scope": "branch_scarves_cords",
+          "count": 48,
+          "category_count": 3
+        }
+      ],
+      "scope": "topic_accessory_design",
+      "count": 646,
+      "category_count": 25
+    },
+    {
+      "id": "fantasy_design",
+      "name": "幻想形态与Cosplay",
+      "note": "区分角色自然兽化部件、幻想形态，以及可穿脱的角色扮演装备。",
+      "categories": [
+        "anthro_levels",
+        "anthro_heads",
+        "anthro_parts",
+        "anthro_species",
+        "quadruped_forms",
+        "hybrid_body_forms",
+        "fantasy",
+        "liquid_humanoids",
+        "cosplay_outfits",
+        "cosplay_looks",
+        "cosplay_wigs",
+        "cosplay_headgear",
+        "cosplay_accessories",
+        "cosplay_props",
+        "cosplay_build",
+        "cosplay_presentation"
+      ],
+      "sections": [
+        {
+          "id": "anthro_shapes",
+          "name": "兽娘、福瑞与幻想形态",
+          "categories": [
+            "anthro_levels",
+            "anthro_heads",
+            "anthro_parts",
+            "anthro_species",
+            "quadruped_forms",
+            "hybrid_body_forms",
+            "fantasy",
+            "liquid_humanoids"
+          ],
+          "scope": "branch_anthro_shapes",
+          "count": 208,
+          "category_count": 8
+        },
+        {
+          "id": "cosplay_appearance",
+          "name": "Cosplay服装、妆容与假发",
+          "categories": [
+            "cosplay_outfits",
+            "cosplay_looks",
+            "cosplay_wigs"
+          ],
+          "scope": "branch_cosplay_appearance",
+          "count": 128,
+          "category_count": 3
+        },
+        {
+          "id": "cosplay_parts",
+          "name": "Cosplay头饰、外挂与道具",
+          "categories": [
+            "cosplay_headgear",
+            "cosplay_accessories",
+            "cosplay_props"
+          ],
+          "scope": "branch_cosplay_parts",
+          "count": 80,
+          "category_count": 3
+        },
+        {
+          "id": "cosplay_assembly",
+          "name": "穿戴结构与展示",
+          "categories": [
+            "cosplay_build",
+            "cosplay_presentation"
+          ],
+          "scope": "branch_cosplay_assembly",
+          "count": 48,
+          "category_count": 2
+        }
+      ],
+      "scope": "topic_fantasy_design",
+      "count": 464,
+      "category_count": 16
+    },
+    {
+      "id": "surface_design",
+      "name": "材质、纹样与配色",
+      "note": "衣料质感、图案题材、印花表现与配色。",
+      "categories": [
+        "materials",
+        "clothing_prints",
+        "print_styles",
+        "palettes"
+      ],
+      "sections": [
+        {
+          "id": "textiles",
+          "name": "材质与工艺",
+          "categories": [
+            "materials"
+          ],
+          "scope": "branch_textiles",
+          "count": 39,
+          "category_count": 1
+        },
+        {
+          "id": "patterns",
+          "name": "图案与印花表现",
+          "categories": [
+            "clothing_prints",
+            "print_styles"
+          ],
+          "scope": "branch_patterns",
+          "count": 112,
+          "category_count": 2
+        },
+        {
+          "id": "colors",
+          "name": "整体配色",
+          "categories": [
+            "palettes"
+          ],
+          "scope": "branch_colors",
+          "count": 32,
+          "category_count": 1
+        }
+      ],
+      "scope": "topic_surface_design",
+      "count": 183,
+      "category_count": 4
+    },
+    {
+      "id": "art_styles",
+      "name": "画风与视觉表现",
+      "note": "按画风、媒介与视觉语言浏览；包括游戏角色原稿方法、漫画单格、影视分镜与关键帧、视角、景别、构图和镜头语言。",
+      "categories": [
+        "art_animation",
+        "art_game",
+        "art_comics",
+        "game_concept_exploration",
+        "game_aaa_design",
+        "game_otome_design",
+        "game_production_sheets",
+        "art_photography",
+        "art_traditional",
+        "art_drawing_media",
+        "art_graphic",
+        "art_mixed",
+        "art_digital_moods",
+        "art_craft_3d",
+        "comic_panel_art",
+        "comic_panel_effects",
+        "storyboard_drafts",
+        "film_keyframes",
+        "camera_directions",
+        "camera_heights",
+        "shot_sizes",
+        "camera_composition",
+        "depth_focus",
+        "lens_perspective",
+        "camera_movement",
+        "camera_optics_time",
+        "narrative_shots",
+        "editing_language"
+      ],
+      "sections": [
+        {
+          "id": "art_animation_game",
+          "name": "动漫与游戏",
+          "categories": [
+            "art_animation",
+            "art_game",
+            "art_comics"
+          ],
+          "scope": "branch_art_animation_game",
+          "count": 38,
+          "category_count": 3
+        },
+        {
+          "id": "game_character_design",
+          "name": "游戏角色原稿与设计方法",
+          "categories": [
+            "game_concept_exploration",
+            "game_aaa_design",
+            "game_otome_design",
+            "game_production_sheets"
+          ],
+          "scope": "branch_game_character_design",
+          "count": 32,
+          "category_count": 4
+        },
+        {
+          "id": "art_photo_media",
+          "name": "摄影与传统绘画",
+          "categories": [
+            "art_photography",
+            "art_traditional",
+            "art_drawing_media"
+          ],
+          "scope": "branch_art_photo_media",
+          "count": 27,
+          "category_count": 3
+        },
+        {
+          "id": "art_graphic_experiment",
+          "name": "平面印刷与实验表现",
+          "categories": [
+            "art_graphic",
+            "art_mixed",
+            "art_digital_moods",
+            "art_craft_3d"
+          ],
+          "scope": "branch_art_graphic_experiment",
+          "count": 31,
+          "category_count": 4
+        },
+        {
+          "id": "comic_panel_language",
+          "name": "漫画单格与格内表现",
+          "categories": [
+            "comic_panel_art",
+            "comic_panel_effects"
+          ],
+          "scope": "branch_comic_panel_language",
+          "count": 56,
+          "category_count": 2
+        },
+        {
+          "id": "film_visual_development",
+          "name": "影视分镜与关键帧设计",
+          "categories": [
+            "storyboard_drafts",
+            "film_keyframes"
+          ],
+          "scope": "branch_film_visual_development",
+          "count": 16,
+          "category_count": 2
+        },
+        {
+          "id": "camera_viewpoints",
+          "name": "视角、机位与景别",
+          "categories": [
+            "camera_directions",
+            "camera_heights",
+            "shot_sizes"
+          ],
+          "scope": "branch_camera_viewpoints",
+          "count": 22,
+          "category_count": 3
+        },
+        {
+          "id": "camera_framing_focus",
+          "name": "构图、景深与镜头",
+          "categories": [
+            "camera_composition",
+            "depth_focus",
+            "lens_perspective"
+          ],
+          "scope": "branch_camera_framing_focus",
+          "count": 20,
+          "category_count": 3
+        },
+        {
+          "id": "camera_language",
+          "name": "镜头语言与叙事",
+          "categories": [
+            "camera_movement",
+            "camera_optics_time",
+            "narrative_shots",
+            "editing_language"
+          ],
+          "scope": "branch_camera_language",
+          "count": 36,
+          "category_count": 4
+        }
+      ],
+      "scope": "topic_art_styles",
+      "count": 278,
+      "category_count": 28
+    }
+  ],
+  "category_labels": {
+    "fashion_outfits": "风格穿搭完整方案",
+    "style": "整体造型方向示例",
+    "print_styles": "印花表现方式",
+    "female_life_stages": "年龄阶段与正侧面对照",
+    "age": "成年年龄外观",
+    "footwear": "鞋履与靴型",
+    "accessories": "基础饰品与随身物"
+  },
+  "style_parent": "everyday",
+  "shortcuts": [
+    {
+      "id": "clothing",
+      "name": "服装总览"
+    },
+    {
+      "id": "wedding",
+      "name": "婚礼服装总览"
+    },
+    {
+      "id": "special",
+      "name": "特殊装扮总览"
+    },
+    {
+      "id": "life_stages",
+      "name": "女性年龄图鉴"
+    },
+    {
+      "id": "seasonal",
+      "name": "四季日常"
+    },
+    {
+      "id": "facial",
+      "name": "面部总览"
+    },
+    {
+      "id": "hair",
+      "name": "头发总览"
+    },
+    {
+      "id": "socks",
+      "name": "袜类专题"
+    },
+    {
+      "id": "hooded_cloaks",
+      "name": "兜帽斗篷"
+    },
+    {
+      "id": "cosplay",
+      "name": "Cosplay 交叉专题"
+    },
+    {
+      "id": "anthro",
+      "name": "兽娘与福瑞交叉专题"
+    },
+    {
+      "id": "clothing_new",
+      "name": "最近补充 · 四足完整动物体态4项"
+    }
+  ],
+  "documents": [
+    {
+      "name": "游戏角色原稿与设计方法",
+      "path": "docs/game-character-design.md"
+    },
+    {
+      "name": "漫画单格与影视关键帧",
+      "path": "docs/comic-film-visuals.md"
+    },
+    {
+      "name": "镜头语言 · 36项分镜示意",
+      "path": "docs/cinematic-language.md"
+    },
+    {
+      "name": "视角与拍摄图鉴 · 42项",
+      "path": "docs/camera-visuals.md"
+    },
+    {
+      "name": "人像发型词条对照 · 24项原创补充",
+      "path": "docs/hair-comparison-v65.md"
+    },
+    {
+      "name": "参考词条对照 · 14套原创搭配",
+      "path": "docs/costume-comparison-v64.md"
+    },
+    {
+      "name": "参考服装搭配对照与原创补充 · 48套",
+      "path": "docs/costume-comparison-v63.md"
+    },
+    {
+      "name": "完全动物体态与四足装饰 · 小马、狐狸与猫",
+      "path": "docs/quadruped-forms-v56.md"
+    },
+    {
+      "name": "摄影摆姿与合影 · 自拍、写真、街拍和多人48项",
+      "path": "docs/photo-poses-v55.md"
+    },
+    {
+      "name": "多样Pose · 镜头摆姿、坐卧、日常、表演与双人64项",
+      "path": "docs/varied-poses-v54.md"
+    },
+    {
+      "name": "学术、环境、地域文化与神话拟人 · 新增64项",
+      "path": "docs/scholar-environments-and-myth-v53.md"
+    },
+    {
+      "name": "身份、功夫、小丑与柔韧姿态 · 新增48项",
+      "path": "docs/identity-costumes-flexibility-v52.md"
+    },
+    {
+      "name": "身份与经典设定 · 18种身份、36套造型",
+      "path": "docs/identity-archetypes.md"
+    },
+    {
+      "name": "软萌、卡哇伊、大小姐、反差等 · 新增20套",
+      "path": "docs/presence-acting-v50.md"
+    },
+    {
+      "name": "圣洁、妖艳、清冷等气质与地雷系、艺妓 · 新增32套",
+      "path": "docs/presence-styles-v49.md"
+    },
+    {
+      "name": "新增16种气质与许愿、祈祷、乞求、行礼48幅",
+      "path": "docs/presence-gestures-v48.md"
+    },
+    {
+      "name": "偶像、乐队、杀手、年代、街头与居家 · 新增60套",
+      "path": "docs/roles-retro-street-home.md"
+    },
+    {
+      "name": "气质与角色表现 · 86种气质、172套造型",
+      "path": "docs/character-presence.md"
+    },
+    {
+      "name": "鞋履、袜类与手套 · 新增96项与裁切修正",
+      "path": "docs/shoes-hosiery-gloves.md"
+    },
+    {
+      "name": "基础局部、脸部光照与衣物动态80项",
+      "path": "docs/details-lighting-and-drapery.md"
+    },
+    {
+      "name": "半人形与复合躯体32项 · 蛇尾、鱼尾及异形下身",
+      "path": "docs/hybrid-body-forms.md"
+    },
+    {
+      "name": "中式仙女、妖女与精怪装束32项",
+      "path": "docs/chinese-immortals-and-spirits.md"
+    },
+    {
+      "name": "超级英雄与超级女杰 · 原创装束与主题参考",
+      "path": "docs/superhero-costumes.md"
+    },
+    {
+      "name": "女装历史与演变 · 年代与地域对照",
+      "path": "docs/womens-fashion-history.md"
+    },
+    {
+      "name": "情趣主题成衣与装扮扩充",
+      "path": "docs/intimate-theme-expansion.md"
+    },
+    {
+      "name": "嘴唇形态、唇妆与唇色专题",
+      "path": "docs/lips-and-lip-makeup.md"
+    },
+    {
+      "name": "发质发色、表情与妆容扩充",
+      "path": "docs/beauty-expansion-v34.md"
+    },
+    {
+      "name": "眼影、眼线与完整眼妆48项",
+      "path": "docs/eye-makeup-atlas.md"
+    },
+    {
+      "name": "目录与检索使用说明",
+      "path": "docs/find-and-browse.md"
+    },
+    {
+      "name": "耳机与耳麦佩戴32项",
+      "path": "docs/headphone-atlas.md"
+    },
+    {
+      "name": "发绳扩充与发饰眼镜佩戴专题",
+      "path": "docs/wearing-reference-atlas.md"
+    },
+    {
+      "name": "衣着配饰与发饰发型192项",
+      "path": "docs/accessory-hairstyles-atlas.md"
+    },
+    {
+      "name": "体态与动作 · 300项、视角与支撑索引",
+      "path": "docs/pose-atlas.md"
+    },
+    {
+      "name": "32种职业舞台与奇幻身份",
+      "path": "docs/diverse-roles-atlas.md"
+    },
+    {
+      "name": "成年尺寸与罩杯对照",
+      "path": "docs/body-dimensions-atlas.md"
+    },
+    {
+      "path": "docs/atlas.md",
+      "name": "完整图文详表"
+    },
+    {
+      "path": "docs/clothing-atlas.md",
+      "name": "服装专辑"
+    },
+    {
+      "path": "docs/seasonal-atlas.md",
+      "name": "四季日常穿搭"
+    },
+    {
+      "path": "docs/wedding-atlas.md",
+      "name": "婚纱与婚服专题"
+    },
+    {
+      "path": "docs/trend-fashion-model-atlas.md",
+      "name": "潮流、时尚与模特穿搭"
+    },
+    {
+      "path": "docs/hair-atlas.md",
+      "name": "头发专题"
+    },
+    {
+      "path": "docs/facial-atlas.md",
+      "name": "面部专题"
+    },
+    {
+      "path": "docs/socks-atlas.md",
+      "name": "袜类专题"
+    },
+    {
+      "path": "docs/cosplay-atlas.md",
+      "name": "Cosplay 专题"
+    },
+    {
+      "path": "docs/anthro-atlas.md",
+      "name": "兽娘与福瑞专题"
+    },
+    {
+      "path": "docs/combinations.md",
+      "name": "组合示例"
+    },
+    {
+      "path": "docs/character-template.md",
+      "name": "角色设定模板"
+    },
+    {
+      "path": "docs/sources.md",
+      "name": "来源与图片说明"
+    },
+    {
+      "path": "docs/special-costumes-atlas.md",
+      "name": "特殊装扮专题"
+    },
+    {
+      "path": "docs/hair-states-atlas.md",
+      "name": "头发形态与状态专题"
+    },
+    {
+      "path": "docs/special-variants-atlas.md",
+      "name": "特殊装扮与外观状态补充"
+    },
+    {
+      "path": "docs/female-ages-atlas.md",
+      "name": "女性各年龄段图鉴"
+    },
+    {
+      "path": "docs/nun-atlas.md",
+      "name": "修女装扮专题"
+    },
+    {
+      "path": "docs/sleep-coma-death-atlas.md",
+      "name": "睡眠昏迷与长眠剧情状态"
+    },
+    {
+      "path": "docs/age-size-atlas.md",
+      "name": "身高比例与成年三围设定"
+    },
+    {
+      "name": "女性身体年龄阶段并排对照",
+      "path": "docs/life-stage-comparison.md"
+    },
+    {
+      "name": "成年身型、舞台装扮与面部覆盖物",
+      "path": "docs/body-stage-cover-atlas.md"
+    },
+    {
+      "name": "魔法少女与忍者装扮专题",
+      "path": "docs/magical-ninja-atlas.md"
+    }
+  ],
+  "layout_version": "32.0",
+  "legacy_scopes": {
+    "topic_face_structure": {
+      "name": "面部结构与眼睛",
+      "categories": [
+        "face",
+        "features",
+        "eyes",
+        "skin",
+        "face_views"
+      ]
+    },
+    "topic_face_performance": {
+      "name": "表情、状态与面部互动",
+      "categories": [
+        "expression",
+        "face_emotions",
+        "face_states",
+        "mouth_actions",
+        "face_hands",
+        "face_overlays",
+        "face_augments"
+      ]
+    },
+    "topic_garments": {
+      "name": "服装单件与穿着结构",
+      "categories": [
+        "tops",
+        "bottoms",
+        "onepiece",
+        "outerwear",
+        "construction",
+        "underwear",
+        "swimwear",
+        "sleepwear",
+        "footwear",
+        "gloves",
+        "hosiery"
+      ]
+    },
+    "topic_historical": {
+      "name": "传统、历史与戏曲服饰",
+      "categories": [
+        "chinese_outfits",
+        "opera_outfits",
+        "traditional",
+        "historical_outfits",
+        "early20c_outfits",
+        "fashion_history"
+      ]
+    },
+    "topic_cosplay_design": {
+      "name": "Cosplay 与角色还原",
+      "categories": [
+        "cosplay_outfits",
+        "cosplay_looks",
+        "cosplay_wigs",
+        "cosplay_headgear",
+        "cosplay_accessories",
+        "cosplay_props",
+        "cosplay_build",
+        "cosplay_presentation"
+      ]
+    }
+  },
+  "featured_shortcuts": [
+    "seasonal",
+    "wedding",
+    "socks",
+    "anthro",
+    "hooded_cloaks"
+  ],
+  "search_aliases": {
+    "耳机": [
+      "耳麦",
+      "headphones",
+      "headset",
+      "earphones",
+      "earbuds"
+    ],
+    "发绳": [
+      "发圈",
+      "hair tie"
+    ],
+    "洛丽塔": [
+      "lolita"
+    ],
+    "地雷系": [
+      "jirai",
+      "地雷女"
+    ],
+    "量产型": [
+      "ryousangata"
+    ],
+    "哥特": [
+      "gothic"
+    ],
+    "英伦": [
+      "british"
+    ],
+    "朋克": [
+      "punk"
+    ],
+    "兽娘": [
+      "福瑞",
+      "furry",
+      "anthro"
+    ],
+    "巫女": [
+      "女祭司"
+    ],
+    "丝袜": [
+      "连裤袜",
+      "pantyhose",
+      "tights"
+    ],
+    "眼影": [
+      "eyeshadow",
+      "eye shadow"
+    ],
+    "眼线": [
+      "eyeliner",
+      "eye liner"
+    ],
+    "眼妆": [
+      "eye makeup"
+    ],
+    "憋笑": [
+      "忍笑",
+      "忍住笑",
+      "忍俊不禁"
+    ],
+    "凝视": [
+      "注视",
+      "盯着",
+      "目不转睛"
+    ],
+    "女装史": [
+      "女装历史",
+      "女装演变",
+      "服装演变",
+      "服饰史"
+    ],
+    "保持距离": [
+      "保持隔离",
+      "回避接触"
+    ],
+    "艺妓": [
+      "芸妓",
+      "艺伎",
+      "geisha",
+      "geiko"
+    ],
+    "卡哇伊": [
+      "kawaii",
+      "可爱系"
+    ],
+    "千金大小姐": [
+      "大小姐",
+      "千金",
+      "富家千金",
+      "heiress"
+    ],
+    "反派千金": [
+      "恶役千金",
+      "恶役大小姐",
+      "villainess"
+    ],
+    "女管家": [
+      "女执事",
+      "女性管家"
+    ],
+    "三无系": [
+      "三无少女",
+      "无口"
+    ],
+    "文学系": [
+      "文学少女",
+      "书卷系"
+    ],
+    "双重身份": [
+      "秘密身份",
+      "隐藏身份",
+      "double identity"
+    ],
+    "功夫": [
+      "武术",
+      "kung fu"
+    ],
+    "小丑": [
+      "丑角",
+      "clown"
+    ],
+    "柔韧姿态": [
+      "柔韧性",
+      "柔韧",
+      "伸展姿态"
+    ],
+    "堕落圣女": [
+      "暗色圣女",
+      "失落圣女"
+    ],
+    "情报贩子": [
+      "情报商",
+      "情报中间人"
+    ],
+    "女领主": [
+      "女城主",
+      "领地统治者"
+    ],
+    "关键脚本": [
+      "关键帧",
+      "影视关键帧",
+      "概念关键帧",
+      "Keyframe",
+      "分镜手稿"
+    ],
+    "漫画单格": [
+      "漫画画格",
+      "单格画法",
+      "格内表现",
+      "comic panel"
+    ],
+    "游戏原稿": [
+      "角色原画",
+      "角色概念设计",
+      "概念设计流程",
+      "concept art",
+      "角色设计方法"
+    ],
+    "乙游": [
+      "乙女游戏",
+      "恋爱冒险",
+      "otome",
+      "视觉小说"
+    ]
+  },
+  "entry_count": 7145,
+  "category_count": 200,
+  "section_count": 55,
+  "category_paths": {
+    "hair_cut": {
+      "domain": "topic_hair_design",
+      "section": "branch_hair_shape"
+    },
+    "hair_bangs": {
+      "domain": "topic_hair_design",
+      "section": "branch_hair_shape"
+    },
+    "hair_details": {
+      "domain": "topic_hair_design",
+      "section": "branch_hair_shape"
+    },
+    "hair_surface": {
+      "domain": "topic_hair_design",
+      "section": "branch_hair_texture"
+    },
+    "hair_states": {
+      "domain": "topic_hair_design",
+      "section": "branch_hair_texture"
+    },
+    "hair_tie": {
+      "domain": "topic_hair_design",
+      "section": "branch_hair_styling"
+    },
+    "hair_combinations": {
+      "domain": "topic_hair_design",
+      "section": "branch_hair_styling"
+    },
+    "hair_with_accessories": {
+      "domain": "topic_hair_design",
+      "section": "branch_hair_styling"
+    },
+    "face": {
+      "domain": "topic_face_design",
+      "section": "branch_facial_structure"
+    },
+    "features": {
+      "domain": "topic_face_design",
+      "section": "branch_facial_structure"
+    },
+    "nose_ear_teeth": {
+      "domain": "topic_face_design",
+      "section": "branch_facial_structure"
+    },
+    "lips": {
+      "domain": "topic_face_design",
+      "section": "branch_facial_structure"
+    },
+    "face_views": {
+      "domain": "topic_face_design",
+      "section": "branch_facial_structure"
+    },
+    "portrait_lighting": {
+      "domain": "topic_face_design",
+      "section": "branch_portrait_light"
+    },
+    "eyes": {
+      "domain": "topic_face_design",
+      "section": "branch_eyes_skin"
+    },
+    "skin": {
+      "domain": "topic_face_design",
+      "section": "branch_eyes_skin"
+    },
+    "eyeshadow": {
+      "domain": "topic_face_design",
+      "section": "branch_makeup_detail"
+    },
+    "eyeliner": {
+      "domain": "topic_face_design",
+      "section": "branch_makeup_detail"
+    },
+    "eye_makeup": {
+      "domain": "topic_face_design",
+      "section": "branch_makeup_detail"
+    },
+    "lip_makeup": {
+      "domain": "topic_face_design",
+      "section": "branch_makeup_detail"
+    },
+    "expression": {
+      "domain": "topic_face_design",
+      "section": "branch_expressions"
+    },
+    "face_emotions": {
+      "domain": "topic_face_design",
+      "section": "branch_expressions"
+    },
+    "mouth_actions": {
+      "domain": "topic_face_design",
+      "section": "branch_face_actions"
+    },
+    "face_hands": {
+      "domain": "topic_face_design",
+      "section": "branch_face_actions"
+    },
+    "face_states": {
+      "domain": "topic_face_design",
+      "section": "branch_face_conditions"
+    },
+    "face_overlays": {
+      "domain": "topic_face_design",
+      "section": "branch_face_conditions"
+    },
+    "face_augments": {
+      "domain": "topic_face_design",
+      "section": "branch_face_technology"
+    },
+    "body": {
+      "domain": "topic_body_design",
+      "section": "branch_body_age"
+    },
+    "female_life_stages": {
+      "domain": "topic_body_design",
+      "section": "branch_body_age"
+    },
+    "age": {
+      "domain": "topic_body_design",
+      "section": "branch_body_age"
+    },
+    "pose": {
+      "domain": "topic_body_design",
+      "section": "branch_body_movement"
+    },
+    "photo_poses": {
+      "domain": "topic_body_design",
+      "section": "branch_body_movement"
+    },
+    "flexibility_poses": {
+      "domain": "topic_body_design",
+      "section": "branch_body_movement"
+    },
+    "plush_holds": {
+      "domain": "topic_body_design",
+      "section": "branch_body_movement"
+    },
+    "hands": {
+      "domain": "topic_body_design",
+      "section": "branch_body_details"
+    },
+    "feet": {
+      "domain": "topic_body_design",
+      "section": "branch_body_details"
+    },
+    "nails": {
+      "domain": "topic_body_design",
+      "section": "branch_body_details"
+    },
+    "skin_details": {
+      "domain": "topic_body_design",
+      "section": "branch_body_details"
+    },
+    "body_art": {
+      "domain": "topic_body_design",
+      "section": "branch_body_details"
+    },
+    "prosthetic_styling": {
+      "domain": "topic_body_design",
+      "section": "branch_body_prosthetics"
+    },
+    "tops": {
+      "domain": "topic_everyday",
+      "section": "branch_garment_pieces"
+    },
+    "bottoms": {
+      "domain": "topic_everyday",
+      "section": "branch_garment_pieces"
+    },
+    "onepiece": {
+      "domain": "topic_everyday",
+      "section": "branch_garment_pieces"
+    },
+    "outerwear": {
+      "domain": "topic_everyday",
+      "section": "branch_garment_pieces"
+    },
+    "construction": {
+      "domain": "topic_everyday",
+      "section": "branch_garment_details"
+    },
+    "garment_dynamics": {
+      "domain": "topic_everyday",
+      "section": "branch_garment_details"
+    },
+    "underwear": {
+      "domain": "topic_everyday",
+      "section": "branch_intimate_home"
+    },
+    "sleepwear": {
+      "domain": "topic_everyday",
+      "section": "branch_intimate_home"
+    },
+    "swimwear": {
+      "domain": "topic_everyday",
+      "section": "branch_intimate_home"
+    },
+    "day_home_outfits": {
+      "domain": "topic_everyday",
+      "section": "branch_intimate_home"
+    },
+    "footwear": {
+      "domain": "topic_everyday",
+      "section": "branch_shoes_hosiery"
+    },
+    "hosiery": {
+      "domain": "topic_everyday",
+      "section": "branch_shoes_hosiery"
+    },
+    "gloves": {
+      "domain": "topic_everyday",
+      "section": "branch_shoes_hosiery"
+    },
+    "spring_outfits": {
+      "domain": "topic_everyday",
+      "section": "branch_four_seasons"
+    },
+    "summer_outfits": {
+      "domain": "topic_everyday",
+      "section": "branch_four_seasons"
+    },
+    "autumn_outfits": {
+      "domain": "topic_everyday",
+      "section": "branch_four_seasons"
+    },
+    "winter_outfits": {
+      "domain": "topic_everyday",
+      "section": "branch_four_seasons"
+    },
+    "schoolwear": {
+      "domain": "topic_everyday",
+      "section": "branch_school_sport"
+    },
+    "youthwear": {
+      "domain": "topic_everyday",
+      "section": "branch_school_sport"
+    },
+    "sports": {
+      "domain": "topic_everyday",
+      "section": "branch_school_sport"
+    },
+    "layered_outfits": {
+      "domain": "topic_everyday",
+      "section": "branch_fashion_ensembles"
+    },
+    "trend_outfits": {
+      "domain": "topic_everyday",
+      "section": "branch_fashion_ensembles"
+    },
+    "chic_outfits": {
+      "domain": "topic_everyday",
+      "section": "branch_fashion_ensembles"
+    },
+    "model_outfits": {
+      "domain": "topic_everyday",
+      "section": "branch_fashion_ensembles"
+    },
+    "fashion_outfits": {
+      "domain": "topic_everyday",
+      "section": "branch_fashion_ensembles"
+    },
+    "style": {
+      "domain": "topic_everyday",
+      "section": "branch_fashion_ensembles"
+    },
+    "street_hiphop_outfits": {
+      "domain": "topic_everyday",
+      "section": "branch_fashion_ensembles"
+    },
+    "persona_looks": {
+      "domain": "topic_everyday",
+      "section": "branch_character_presence"
+    },
+    "coverage_looks": {
+      "domain": "topic_everyday",
+      "section": "branch_character_presence"
+    },
+    "chinese_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_history_culture"
+    },
+    "opera_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_history_culture"
+    },
+    "traditional": {
+      "domain": "topic_role_costumes",
+      "section": "branch_history_culture"
+    },
+    "historical_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_history_culture"
+    },
+    "early20c_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_history_culture"
+    },
+    "fashion_history": {
+      "domain": "topic_role_costumes",
+      "section": "branch_history_culture"
+    },
+    "japanese_retro_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_history_culture"
+    },
+    "prehistoric_fantasy": {
+      "domain": "topic_role_costumes",
+      "section": "branch_history_culture"
+    },
+    "western_cowgirls": {
+      "domain": "topic_role_costumes",
+      "section": "branch_history_culture"
+    },
+    "regional_cultures": {
+      "domain": "topic_role_costumes",
+      "section": "branch_history_culture"
+    },
+    "nordic_looks": {
+      "domain": "topic_role_costumes",
+      "section": "branch_history_culture"
+    },
+    "uniforms": {
+      "domain": "topic_role_costumes",
+      "section": "branch_occupations"
+    },
+    "urban_role_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_occupations"
+    },
+    "outdoor_role_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_occupations"
+    },
+    "academic_research": {
+      "domain": "topic_role_costumes",
+      "section": "branch_occupations"
+    },
+    "biome_expeditions": {
+      "domain": "topic_role_costumes",
+      "section": "branch_occupations"
+    },
+    "military_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_military_space"
+    },
+    "tactical_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_military_space"
+    },
+    "armor": {
+      "domain": "topic_role_costumes",
+      "section": "branch_military_space"
+    },
+    "space_suits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_military_space"
+    },
+    "wizard_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_magic_religion"
+    },
+    "priestess_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_magic_religion"
+    },
+    "nun_costumes": {
+      "domain": "topic_role_costumes",
+      "section": "branch_magic_religion"
+    },
+    "chinese_fairy_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_magic_religion"
+    },
+    "chinese_demoness_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_magic_religion"
+    },
+    "fantasy_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_magic_religion"
+    },
+    "fantasy_role_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_magic_religion"
+    },
+    "magical_girl_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_magic_religion"
+    },
+    "superhero_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_magic_religion"
+    },
+    "ninja_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_magic_religion"
+    },
+    "reaper_costumes": {
+      "domain": "topic_role_costumes",
+      "section": "branch_magic_religion"
+    },
+    "mythic_personifications": {
+      "domain": "topic_role_costumes",
+      "section": "branch_magic_religion"
+    },
+    "stage_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_performance"
+    },
+    "dance_variety_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_performance"
+    },
+    "gymnastics_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_performance"
+    },
+    "cheer_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_performance"
+    },
+    "runway_lingerie": {
+      "domain": "topic_role_costumes",
+      "section": "branch_performance"
+    },
+    "idol_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_performance"
+    },
+    "band_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_performance"
+    },
+    "kungfu_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_performance"
+    },
+    "clown_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_performance"
+    },
+    "bridal_gowns": {
+      "domain": "topic_role_costumes",
+      "section": "branch_wedding"
+    },
+    "wedding_attire": {
+      "domain": "topic_role_costumes",
+      "section": "branch_wedding"
+    },
+    "special_costumes": {
+      "domain": "topic_role_costumes",
+      "section": "branch_theme_costumes"
+    },
+    "disguise_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_theme_costumes"
+    },
+    "undead_costumes": {
+      "domain": "topic_role_costumes",
+      "section": "branch_theme_costumes"
+    },
+    "outlaw_costumes": {
+      "domain": "topic_role_costumes",
+      "section": "branch_theme_costumes"
+    },
+    "doll_mascot_costumes": {
+      "domain": "topic_role_costumes",
+      "section": "branch_theme_costumes"
+    },
+    "intimate_costumes": {
+      "domain": "topic_role_costumes",
+      "section": "branch_theme_costumes"
+    },
+    "assassin_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_theme_costumes"
+    },
+    "towel_wraps": {
+      "domain": "topic_role_costumes",
+      "section": "branch_garment_states"
+    },
+    "wet_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_garment_states"
+    },
+    "distressed_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_garment_states"
+    },
+    "liquid_stained_outfits": {
+      "domain": "topic_role_costumes",
+      "section": "branch_garment_states"
+    },
+    "covered_body_views": {
+      "domain": "topic_role_costumes",
+      "section": "branch_garment_states"
+    },
+    "identity_status": {
+      "domain": "topic_role_costumes",
+      "section": "branch_identity_archetypes"
+    },
+    "identity_duties": {
+      "domain": "topic_role_costumes",
+      "section": "branch_identity_archetypes"
+    },
+    "identity_classic": {
+      "domain": "topic_role_costumes",
+      "section": "branch_identity_archetypes"
+    },
+    "hats": {
+      "domain": "topic_accessory_design",
+      "section": "branch_head_accessories"
+    },
+    "hair_accessories": {
+      "domain": "topic_accessory_design",
+      "section": "branch_head_accessories"
+    },
+    "eyewear": {
+      "domain": "topic_accessory_design",
+      "section": "branch_head_accessories"
+    },
+    "headphones": {
+      "domain": "topic_accessory_design",
+      "section": "branch_head_accessories"
+    },
+    "masks": {
+      "domain": "topic_accessory_design",
+      "section": "branch_head_accessories"
+    },
+    "bags": {
+      "domain": "topic_accessory_design",
+      "section": "branch_bags_equipment"
+    },
+    "gear": {
+      "domain": "topic_accessory_design",
+      "section": "branch_bags_equipment"
+    },
+    "jewelry": {
+      "domain": "topic_accessory_design",
+      "section": "branch_jewels_piercings"
+    },
+    "earrings": {
+      "domain": "topic_accessory_design",
+      "section": "branch_jewels_piercings"
+    },
+    "pendants": {
+      "domain": "topic_accessory_design",
+      "section": "branch_jewels_piercings"
+    },
+    "studs": {
+      "domain": "topic_accessory_design",
+      "section": "branch_jewels_piercings"
+    },
+    "watches": {
+      "domain": "topic_accessory_design",
+      "section": "branch_wrist_hand_ankle"
+    },
+    "rings": {
+      "domain": "topic_accessory_design",
+      "section": "branch_wrist_hand_ankle"
+    },
+    "bracelets": {
+      "domain": "topic_accessory_design",
+      "section": "branch_wrist_hand_ankle"
+    },
+    "bead_bracelets": {
+      "domain": "topic_accessory_design",
+      "section": "branch_wrist_hand_ankle"
+    },
+    "anklets": {
+      "domain": "topic_accessory_design",
+      "section": "branch_wrist_hand_ankle"
+    },
+    "belts": {
+      "domain": "topic_accessory_design",
+      "section": "branch_belts_collars"
+    },
+    "leg_straps": {
+      "domain": "topic_accessory_design",
+      "section": "branch_belts_collars"
+    },
+    "neck_collars": {
+      "domain": "topic_accessory_design",
+      "section": "branch_belts_collars"
+    },
+    "brooches": {
+      "domain": "topic_accessory_design",
+      "section": "branch_fasteners_badges"
+    },
+    "insignia_badges": {
+      "domain": "topic_accessory_design",
+      "section": "branch_fasteners_badges"
+    },
+    "accessories": {
+      "domain": "topic_accessory_design",
+      "section": "branch_fasteners_badges"
+    },
+    "scarves_neckerchiefs": {
+      "domain": "topic_accessory_design",
+      "section": "branch_scarves_cords"
+    },
+    "ribbons": {
+      "domain": "topic_accessory_design",
+      "section": "branch_scarves_cords"
+    },
+    "cords_tassels": {
+      "domain": "topic_accessory_design",
+      "section": "branch_scarves_cords"
+    },
+    "anthro_levels": {
+      "domain": "topic_fantasy_design",
+      "section": "branch_anthro_shapes"
+    },
+    "anthro_heads": {
+      "domain": "topic_fantasy_design",
+      "section": "branch_anthro_shapes"
+    },
+    "anthro_parts": {
+      "domain": "topic_fantasy_design",
+      "section": "branch_anthro_shapes"
+    },
+    "anthro_species": {
+      "domain": "topic_fantasy_design",
+      "section": "branch_anthro_shapes"
+    },
+    "quadruped_forms": {
+      "domain": "topic_fantasy_design",
+      "section": "branch_anthro_shapes"
+    },
+    "hybrid_body_forms": {
+      "domain": "topic_fantasy_design",
+      "section": "branch_anthro_shapes"
+    },
+    "fantasy": {
+      "domain": "topic_fantasy_design",
+      "section": "branch_anthro_shapes"
+    },
+    "liquid_humanoids": {
+      "domain": "topic_fantasy_design",
+      "section": "branch_anthro_shapes"
+    },
+    "cosplay_outfits": {
+      "domain": "topic_fantasy_design",
+      "section": "branch_cosplay_appearance"
+    },
+    "cosplay_looks": {
+      "domain": "topic_fantasy_design",
+      "section": "branch_cosplay_appearance"
+    },
+    "cosplay_wigs": {
+      "domain": "topic_fantasy_design",
+      "section": "branch_cosplay_appearance"
+    },
+    "cosplay_headgear": {
+      "domain": "topic_fantasy_design",
+      "section": "branch_cosplay_parts"
+    },
+    "cosplay_accessories": {
+      "domain": "topic_fantasy_design",
+      "section": "branch_cosplay_parts"
+    },
+    "cosplay_props": {
+      "domain": "topic_fantasy_design",
+      "section": "branch_cosplay_parts"
+    },
+    "cosplay_build": {
+      "domain": "topic_fantasy_design",
+      "section": "branch_cosplay_assembly"
+    },
+    "cosplay_presentation": {
+      "domain": "topic_fantasy_design",
+      "section": "branch_cosplay_assembly"
+    },
+    "materials": {
+      "domain": "topic_surface_design",
+      "section": "branch_textiles"
+    },
+    "clothing_prints": {
+      "domain": "topic_surface_design",
+      "section": "branch_patterns"
+    },
+    "print_styles": {
+      "domain": "topic_surface_design",
+      "section": "branch_patterns"
+    },
+    "palettes": {
+      "domain": "topic_surface_design",
+      "section": "branch_colors"
+    },
+    "art_animation": {
+      "domain": "topic_art_styles",
+      "section": "branch_art_animation_game"
+    },
+    "art_game": {
+      "domain": "topic_art_styles",
+      "section": "branch_art_animation_game"
+    },
+    "art_comics": {
+      "domain": "topic_art_styles",
+      "section": "branch_art_animation_game"
+    },
+    "game_concept_exploration": {
+      "domain": "topic_art_styles",
+      "section": "branch_game_character_design"
+    },
+    "game_aaa_design": {
+      "domain": "topic_art_styles",
+      "section": "branch_game_character_design"
+    },
+    "game_otome_design": {
+      "domain": "topic_art_styles",
+      "section": "branch_game_character_design"
+    },
+    "game_production_sheets": {
+      "domain": "topic_art_styles",
+      "section": "branch_game_character_design"
+    },
+    "art_photography": {
+      "domain": "topic_art_styles",
+      "section": "branch_art_photo_media"
+    },
+    "art_traditional": {
+      "domain": "topic_art_styles",
+      "section": "branch_art_photo_media"
+    },
+    "art_drawing_media": {
+      "domain": "topic_art_styles",
+      "section": "branch_art_photo_media"
+    },
+    "art_graphic": {
+      "domain": "topic_art_styles",
+      "section": "branch_art_graphic_experiment"
+    },
+    "art_mixed": {
+      "domain": "topic_art_styles",
+      "section": "branch_art_graphic_experiment"
+    },
+    "art_digital_moods": {
+      "domain": "topic_art_styles",
+      "section": "branch_art_graphic_experiment"
+    },
+    "art_craft_3d": {
+      "domain": "topic_art_styles",
+      "section": "branch_art_graphic_experiment"
+    },
+    "comic_panel_art": {
+      "domain": "topic_art_styles",
+      "section": "branch_comic_panel_language"
+    },
+    "comic_panel_effects": {
+      "domain": "topic_art_styles",
+      "section": "branch_comic_panel_language"
+    },
+    "storyboard_drafts": {
+      "domain": "topic_art_styles",
+      "section": "branch_film_visual_development"
+    },
+    "film_keyframes": {
+      "domain": "topic_art_styles",
+      "section": "branch_film_visual_development"
+    },
+    "camera_directions": {
+      "domain": "topic_art_styles",
+      "section": "branch_camera_viewpoints"
+    },
+    "camera_heights": {
+      "domain": "topic_art_styles",
+      "section": "branch_camera_viewpoints"
+    },
+    "shot_sizes": {
+      "domain": "topic_art_styles",
+      "section": "branch_camera_viewpoints"
+    },
+    "camera_composition": {
+      "domain": "topic_art_styles",
+      "section": "branch_camera_framing_focus"
+    },
+    "depth_focus": {
+      "domain": "topic_art_styles",
+      "section": "branch_camera_framing_focus"
+    },
+    "lens_perspective": {
+      "domain": "topic_art_styles",
+      "section": "branch_camera_framing_focus"
+    },
+    "camera_movement": {
+      "domain": "topic_art_styles",
+      "section": "branch_camera_language"
+    },
+    "camera_optics_time": {
+      "domain": "topic_art_styles",
+      "section": "branch_camera_language"
+    },
+    "narrative_shots": {
+      "domain": "topic_art_styles",
+      "section": "branch_camera_language"
+    },
+    "editing_language": {
+      "domain": "topic_art_styles",
+      "section": "branch_camera_language"
+    }
+  },
+  "style_categories": [
+    {
+      "id": "style_gothic",
+      "style_id": "gothic",
+      "name": "哥特",
+      "count": 45,
+      "guide": "高领、蕾丝、绒面、尖形饰件、剪裁与叠层可组合；传统、浪漫、工业与赛博方向分别观察。"
+    },
+    {
+      "id": "style_british",
+      "style_id": "british",
+      "name": "英伦",
+      "count": 43,
+      "guide": "宽泛审美标签；乡村粗花呢、学院针织、城市风衣与正式剪裁可分别组织。"
+    },
+    {
+      "id": "style_lolita",
+      "style_id": "lolita",
+      "name": "洛丽塔时尚",
+      "count": 19,
+      "guide": "以有支撑的蓬裙、布衫、蕾丝与头饰等形成整套协调；甜系、古典、哥特与混搭款分开观察。"
+    },
+    {
+      "id": "style_punk",
+      "style_id": "punk",
+      "name": "朋克",
+      "count": 24,
+      "guide": "DIY拼接、磨损、格纹、皮革、金属件与不对称剪裁按具体部件组织。"
+    },
+    {
+      "id": "style_preppy",
+      "style_id": "preppy",
+      "name": "学院",
+      "count": 47,
+      "guide": "衬衣、针织背心、滚边外套与裙裤搭配，成人日常学院造型。"
+    },
+    {
+      "id": "style_dark_academia",
+      "style_id": "dark_academia",
+      "name": "暗黑学院",
+      "count": 8,
+      "guide": "深棕、深灰、粗花呢、羊毛与复古衬衣组合，标签用于整理原创搭配。"
+    },
+    {
+      "id": "style_mori",
+      "style_id": "mori",
+      "name": "森系",
+      "count": 20,
+      "guide": "自然色、松量、针织与亚麻叠层，重点是软材质与长短层次。"
+    },
+    {
+      "id": "style_cottagecore",
+      "style_id": "cottagecore",
+      "name": "田园",
+      "count": 12,
+      "guide": "布裙、抽褶、围裙和植物印花用于田园场景，具体地域服饰另行核对。"
+    },
+    {
+      "id": "style_boho",
+      "style_id": "boho",
+      "name": "波西米亚",
+      "count": 15,
+      "guide": "刺绣、钩织、围裹、长裙、宽裤与编织配饰可组合；图例为原创搭配。"
+    },
+    {
+      "id": "style_minimal",
+      "style_id": "minimal",
+      "name": "极简",
+      "count": 139,
+      "guide": "以轮廓、面片与材质差异为重点，减少装饰密度。"
+    },
+    {
+      "id": "style_retro",
+      "style_id": "retro",
+      "name": "复古优雅",
+      "count": 152,
+      "guide": "按不同剪影与材质组织复古改编，具体时代以实物研究为准。"
+    },
+    {
+      "id": "style_streetwear",
+      "style_id": "streetwear",
+      "name": "街头",
+      "count": 72,
+      "guide": "宽松量、运动元素、叠层与工具袋按比例组织，不使用品牌标识。"
+    },
+    {
+      "id": "style_techwear",
+      "style_id": "techwear",
+      "name": "机能",
+      "count": 62,
+      "guide": "防雨层、可拆袋、扣带与关节拼片要有可说明的用途。"
+    },
+    {
+      "id": "style_cyberpunk",
+      "style_id": "cyberpunk",
+      "name": "赛博朋克",
+      "count": 8,
+      "guide": "原创未来都市穿搭；技术分区、设备固定点与局部光色形成识别。"
+    },
+    {
+      "id": "style_steampunk",
+      "style_id": "steampunk",
+      "name": "蒸汽朋克",
+      "count": 12,
+      "guide": "复古剪裁与原创机械设备结合，仪表和带具的位置要有构造理由。"
+    },
+    {
+      "id": "style_chinese",
+      "style_id": "chinese",
+      "name": "国风",
+      "count": 175,
+      "guide": "按具体形制、朝代改编、戏曲行头和架空国风分别组织；国风是创作检索标签。"
+    },
+    {
+      "id": "style_jirai",
+      "style_id": "jirai",
+      "name": "地雷系",
+      "count": 20,
+      "guide": "黑粉、黑白等配色配合大领结、荷叶边、蕾丝与厚底鞋；按实际衣裙结构识别。"
+    },
+    {
+      "id": "style_ryousangata",
+      "style_id": "ryousangata",
+      "name": "量产型",
+      "count": 16,
+      "guide": "浅色领结衬衫、收腰裙、软针织、饰扣与玛丽珍鞋等组合；与地雷系存在重叠。"
+    },
+    {
+      "id": "style_girly",
+      "style_id": "girly",
+      "name": "甜美少女系",
+      "count": 24,
+      "guide": "成年甜美穿搭标签；圆领、泡袖、小结饰、针织与柔软裙装按比例组合。"
+    },
+    {
+      "id": "style_french_girly",
+      "style_id": "french_girly",
+      "name": "法式少女系",
+      "count": 16,
+      "guide": "现代穿搭标签；黑白奶油色、滚边短外套、贝雷帽与细领结组合，并非法国历史服制。"
+    },
+    {
+      "id": "style_fairy_kei",
+      "style_id": "fairy_kei",
+      "name": "妖精系",
+      "count": 8,
+      "guide": "粉彩、复古玩具感原创图案、宽卫衣、软纱裙、条纹袜与轻量饰件；名称是服装风格。"
+    },
+    {
+      "id": "style_decora",
+      "style_id": "decora",
+      "name": "缀饰系",
+      "count": 8,
+      "guide": "彩色发夹、手链、项链与挂件密集叠加，DIY拼接与鲜色衣裙形成装饰分区。"
+    },
+    {
+      "id": "style_gyaru",
+      "style_id": "gyaru",
+      "name": "辣妹系",
+      "count": 8,
+      "guide": "子风格很多；观察蓬卷发、妆容、甲饰与牛仔、豹纹、平台鞋等组合，图例为原创改编。"
+    },
+    {
+      "id": "style_hime_gyaru",
+      "style_id": "hime_gyaru",
+      "name": "姬辣妹系",
+      "count": 8,
+      "guide": "姬辣妹原创方向：玫瑰、结饰、蕾丝、贴腰短裙与高体积卷发，按具体裙型区分洛丽塔搭配。"
+    },
+    {
+      "id": "style_visual_kei",
+      "style_id": "visual_kei",
+      "name": "视觉系",
+      "count": 8,
+      "guide": "音乐舞台与街头穿搭灵感：夸张发型、强妆、深色剪裁、不对称叠层和原创带扣。"
+    },
+    {
+      "id": "style_grunge",
+      "style_id": "grunge",
+      "name": "Grunge做旧风",
+      "count": 14,
+      "guide": "旧感格衬、宽针织、牛仔、补片与不匹配叠层，磨损指服装质感。"
+    },
+    {
+      "id": "style_yume_kawaii",
+      "style_id": "yume_kawaii",
+      "name": "梦かわ",
+      "count": 8,
+      "guide": "粉彩、云星、渐变与软毛绒等服装图案和材质的原创组合。"
+    },
+    {
+      "id": "style_yami_kawaii",
+      "style_id": "yami_kawaii",
+      "name": "病かわ",
+      "count": 8,
+      "guide": "粉黑对比、抽象裂心与缎带图案的原创穿搭，用衣物图案表达视觉主题。"
+    },
+    {
+      "id": "style_tenshi",
+      "style_id": "tenshi",
+      "name": "天使系",
+      "count": 8,
+      "guide": "白与水蓝的现代宽松运动、轻机能穿搭；名称用于服装检索，图例不需要翅膀。"
+    },
+    {
+      "id": "style_y2k",
+      "style_id": "y2k",
+      "name": "Y2K千禧风",
+      "count": 9,
+      "guide": "当代千禧灵感改编：短上衣、喇叭裤、金属色、运动套装与小肩包，避免概括所有年代服饰。"
+    }
+  ]
+}

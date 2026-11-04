@@ -1,0 +1,29 @@
+# Keep ordinary source files consistent across development platforms.
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+
+# These files have byte-level provenance or manifest checksums.
+# Preserve their committed bytes, including existing line endings.
+/data/** -text
+/assets/brand/** -text
+/CONTENT-LICENSE -text
+/LICENSE -text
+/images/** -text
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.zip binary

@@ -1,0 +1,22 @@
+name: 素材补充或修正
+description: 缺词条、名称翻译、图片不符或裁剪错误
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 问题类型
+      options: [新增词条, 名称或翻译, 图片不符, 裁剪错误, 分类或别名]
+    validations:
+      required: true
+  - type: input
+    id: entries
+    attributes:
+      label: 相关图鉴编号或近似词条
+      placeholder: AH020；新增素材请填写已检索的近似词条
+  - type: textarea
+    id: details
+    attributes:
+      label: 差异、期望与来源
+      description: 图片建议请说明来源和许可，不上传没有分享权利的素材。
+    validations:
+      required: true

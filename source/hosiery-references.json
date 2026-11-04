@@ -1,0 +1,35 @@
+[
+  {
+    "id": "R66",
+    "title": "Textile Yarns 纱线线密度单位",
+    "publisher": "CottonWorks / Cotton Incorporated",
+    "url": "https://www.cottonworks.com/wp-content/uploads/2017/11/Textile_Yarns.pdf",
+    "kind": "纺织技术资料",
+    "topics": "Denier 丹尼尔纱线线密度",
+    "summary": "D是纱线线密度单位，数值对应9000米纱线的克重；本图鉴的D数图为创作参考，不是厚度或透光率测量图。",
+    "rights": "仅保存阅读链接，未复制文档图像",
+    "checked": "2026-10-14"
+  },
+  {
+    "id": "R67",
+    "title": "What Is Denier? 袜料纤度与透感",
+    "publisher": "FOGAL",
+    "url": "https://fogal.com/blogs/product-pulse/what-is-denier-hosiery-guide",
+    "kind": "品牌官方袜类说明",
+    "topics": "丝袜D数、织法、颜色与透感",
+    "summary": "官方说明区分纱线D数与织法、纤维、颜色和拉伸影响，提供常见D数例；图鉴各档为独立示意，不作为统一透光率标准。",
+    "rights": "仅保存阅读链接，未复制产品照片",
+    "checked": "2026-10-14"
+  },
+  {
+    "id": "R68",
+    "title": "Hold-up Stockings 自持袜与长筒袜产品结构",
+    "publisher": "FALKE",
+    "url": "https://www.falke.com/sk_en/women/socks-hosiery/hold-up-stockings/",
+    "kind": "品牌官方产品分类",
+    "topics": "袜口、丝袜、自持长袜、吊带长袜",
+    "summary": "官方分类提供Stay-Ups与Stockings、袜口形态、透感和表面差异，作为独立袜类结构编排的对照入口。",
+    "rights": "仅保存阅读链接，未复制产品照片",
+    "checked": "2026-10-14"
+  }
+]

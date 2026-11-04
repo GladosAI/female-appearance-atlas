@@ -1,0 +1,22 @@
+[
+  {
+    "id": "art-v59-1-portrait",
+    "prompt": "Create an original female character visual-style atlas sheet, LANDSCAPE 3:2 image with 2 columns and 2 rows and four equal panels. Each panel is an individual adult woman bust portrait, fully clothed, simple neat hair, no words, no watermark. Distinguish styles: TOP LEFT Korean and Japanese fashion magazine beauty editorial, polished contemporary beauty styling and bright studio light; TOP RIGHT vintage COLOR 35mm film portrait, soft grain and faded warm tones; BOTTOM LEFT original 2.5D game character key art, anime-influenced forms with richly modeled semi-realistic 3D volume and painterly finish; BOTTOM RIGHT Japanese anime illustration, clean detailed anime lineart with bright cel-shaded and soft illustrative finish. Clearly differentiated aesthetic, no logos or IP characters.",
+    "image": "images/sheet-art-v59-1-portrait.png"
+  },
+  {
+    "id": "art-v59-2-portrait",
+    "prompt": "Create an original female character visual-style atlas sheet, LANDSCAPE 3:2 image with 2 columns and 2 rows, four equal panels. Every panel one clearly adult woman bust portrait, fully clothed. No text, logos, watermarks, copyrighted characters. TOP LEFT poetic Japanese animated film look, vivid blue sky, layered sunlit clouds, warm backlighting, fine animated-film linework and dramatic atmospheric light; TOP RIGHT next-generation 3D video-game character render, believable skin and cloth shaders, detailed realistic materials and cinematic light; BOTTOM LEFT collectible designer art toy figurine, stylized vinyl material, sculpted big head and clearly nonliving glossy surface; BOTTOM RIGHT original character design reference art, pure WHITE background, crisp neutral full-color lineart and clean flat coloring, no diagrams.",
+    "image": "images/sheet-art-v59-2-portrait.png"
+  },
+  {
+    "id": "art-v59-1-fullbody",
+    "prompt": "Create an original female character art-style atlas sheet, PORTRAIT 2:3 image, 2 columns by 2 rows, four separate panels each with one adult woman standing front view, full body including top of head and both whole shoes completely visible with ample space, opaque tasteful blouse and full length dark pants, no logos, no text, no watermark. TOP LEFT polished Korean/Japanese fashion magazine editorial full-body studio photograph simulation, stylish posture and soft studio lighting; TOP RIGHT vintage color 35mm film look with subtle grain and faded warm colors; BOTTOM LEFT 2.5D video game key art mixing expressive anime features with sophisticated semi-realistic painterly volume; BOTTOM RIGHT Japanese anime illustration with fine lines and clean cel-shaded colors. Each panel visibly different.",
+    "image": "images/sheet-art-v59-1-fullbody.png"
+  },
+  {
+    "id": "art-v59-2-fullbody",
+    "prompt": "Create an original female character art-style atlas sheet, PORTRAIT 2:3 image, 2 columns by 2 rows, four separated panels each with one adult woman standing front view, FULL BODY from top of head through both complete shoes fully visible with margins, opaque tasteful blouse and full length dark pants. No lettering, logo, watermark, copyrighted character. TOP LEFT poetic Japanese animation film style with vivid sky, clouds, warm sunset backlight and atmospheric detail; TOP RIGHT next-generation 3D game character render with realistic skin, clothing material and fine geometry; BOTTOM LEFT stylish designer vinyl toy figurine full body, unmistakable glossy sculpted plastic and articulated shapes; BOTTOM RIGHT character design concept standing full-body isolated on a pure white background, simple exact outline and flat color, no diagrams.",
+    "image": "images/sheet-art-v59-2-fullbody.png"
+  }
+]

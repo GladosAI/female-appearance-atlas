@@ -1,0 +1,1157 @@
+{
+  "schema": "female-appearance-contribution/v1",
+  "entries": [
+    {
+      "stable_id": "VD001",
+      "category": "camera_directions",
+      "dimension": "观察方向",
+      "name": "正面视角",
+      "en": "front view",
+      "description": "脸部与躯干正对镜头，左右轮廓基本对称。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "正面",
+        "正视图"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_directions",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VD002",
+      "category": "camera_directions",
+      "dimension": "观察方向",
+      "name": "斜前视角·面向左",
+      "en": "front three-quarter view facing left",
+      "description": "面部偏向画面左侧，同时看到胸前和一侧躯干。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "四分之三",
+        "左向斜前",
+        "三分之四"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_directions",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VD003",
+      "category": "camera_directions",
+      "dimension": "观察方向",
+      "name": "斜前视角·面向右",
+      "en": "front three-quarter view facing right",
+      "description": "面部偏向画面右侧，同时看到胸前和一侧躯干。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "四分之三",
+        "右向斜前"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_directions",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VD004",
+      "category": "camera_directions",
+      "dimension": "观察方向",
+      "name": "左向侧面视角",
+      "en": "left-facing profile view",
+      "description": "鼻尖指向画面左侧，躯干与双脚呈侧向轮廓。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "侧面",
+        "左侧面",
+        "侧视图"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_directions",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VD005",
+      "category": "camera_directions",
+      "dimension": "观察方向",
+      "name": "右向侧面视角",
+      "en": "right-facing profile view",
+      "description": "鼻尖指向画面右侧，躯干与双脚呈侧向轮廓。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "侧面",
+        "右侧面"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_directions",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VD006",
+      "category": "camera_directions",
+      "dimension": "观察方向",
+      "name": "后侧视角·面向左",
+      "en": "rear three-quarter view facing left",
+      "description": "以背部为主，面向画面左侧，露出少量侧面轮廓。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "后四分之三",
+        "背面斜视"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_directions",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VD007",
+      "category": "camera_directions",
+      "dimension": "观察方向",
+      "name": "后侧视角·面向右",
+      "en": "rear three-quarter view facing right",
+      "description": "以背部为主，面向画面右侧，露出少量侧面轮廓。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "后四分之三",
+        "背面斜视"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_directions",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VD008",
+      "category": "camera_directions",
+      "dimension": "观察方向",
+      "name": "背面视角",
+      "en": "back view",
+      "description": "后脑、背部、腿部后侧朝向镜头，脸部不可见。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "背面",
+        "后视图"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_directions",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VH001",
+      "category": "camera_heights",
+      "dimension": "机位高度与俯仰",
+      "name": "平视机位",
+      "en": "eye-level shot",
+      "description": "镜头高度接近人物眼部，以水平视线观察。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "平视",
+        "平拍"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_heights",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VH002",
+      "category": "camera_heights",
+      "dimension": "机位高度与俯仰",
+      "name": "轻俯拍机位",
+      "en": "moderate high-angle shot",
+      "description": "相机略高于人物，向下观察，头顶和地面更明显。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "俯视",
+        "俯拍",
+        "轻俯视"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_heights",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VH003",
+      "category": "camera_heights",
+      "dimension": "机位高度与俯仰",
+      "name": "高位俯拍",
+      "en": "steep high-angle shot",
+      "description": "从明显较高的位置向下拍，头肩相对突出，躯干与腿部缩短。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "高角度",
+        "高机位"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_heights",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VH004",
+      "category": "camera_heights",
+      "dimension": "机位高度与俯仰",
+      "name": "垂直顶视",
+      "en": "overhead bird’s-eye view",
+      "description": "镜头接近垂直向下，主要看到头顶、肩部和周围地面。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "顶视",
+        "鸟瞰",
+        "上帝视角"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_heights",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VH005",
+      "category": "camera_heights",
+      "dimension": "机位高度与俯仰",
+      "name": "轻仰拍机位",
+      "en": "moderate low-angle shot",
+      "description": "镜头略低于人物，向上观察，下颌下缘和后方建筑更明显。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "仰视",
+        "仰拍",
+        "低机位"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_heights",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VH006",
+      "category": "camera_heights",
+      "dimension": "机位高度与俯仰",
+      "name": "贴地仰拍",
+      "en": "ground-level worm’s-eye view",
+      "description": "镜头贴近地面向上，鞋与裤腿近大远小，建筑向上收拢。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "虫视",
+        "地面机位",
+        "极低机位"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_heights",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VS001",
+      "category": "shot_sizes",
+      "dimension": "景别与取景范围",
+      "name": "眼部大特写",
+      "en": "extreme close-up of eyes",
+      "description": "仅取双眼、眉毛和鼻梁附近，面部其他部分在画外。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "大特写",
+        "局部特写"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "shot_sizes",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VS002",
+      "category": "shot_sizes",
+      "dimension": "景别与取景范围",
+      "name": "面部特写",
+      "en": "face close-up",
+      "description": "以完整面部为主，肩部很少进入画面。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "特写",
+        "脸部特写"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "shot_sizes",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VS003",
+      "category": "shot_sizes",
+      "dimension": "景别与取景范围",
+      "name": "头肩近景",
+      "en": "head-and-shoulders close shot",
+      "description": "保留完整头部与双肩，画面下缘在肩部下方。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "近景",
+        "头肩像"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "shot_sizes",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VS004",
+      "category": "shot_sizes",
+      "dimension": "景别与取景范围",
+      "name": "胸像近景",
+      "en": "bust shot",
+      "description": "保留头部与胸部上半身，画面下缘接近胸部以下。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "胸像",
+        "上半身近景"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "shot_sizes",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VS005",
+      "category": "shot_sizes",
+      "dimension": "景别与取景范围",
+      "name": "腰上半身",
+      "en": "waist-up half-body shot",
+      "description": "从头部取到腰部，腿部不进入画面。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "半身",
+        "半身像",
+        "腰部以上"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "shot_sizes",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VS006",
+      "category": "shot_sizes",
+      "dimension": "景别与取景范围",
+      "name": "膝上中全景",
+      "en": "knee-up medium full shot",
+      "description": "从头部取到膝盖上方，能看到大部分身体与动作。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "中全景",
+        "七分身"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "shot_sizes",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VS007",
+      "category": "shot_sizes",
+      "dimension": "景别与取景范围",
+      "name": "完整全身景",
+      "en": "full-body shot",
+      "description": "从头顶到鞋底完整进入画面，并保留边缘空间。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "全身",
+        "全身像"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "shot_sizes",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VS008",
+      "category": "shot_sizes",
+      "dimension": "景别与取景范围",
+      "name": "环境远景",
+      "en": "environmental long shot",
+      "description": "人物全身只占画面较小部分，环境与空间关系更突出。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "远景",
+        "长景",
+        "人物小景"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "shot_sizes",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VC001",
+      "category": "camera_composition",
+      "dimension": "画面构图",
+      "name": "居中对称构图",
+      "en": "centered symmetrical composition",
+      "description": "人物位于中央轴线，背景两侧结构形成对称关系。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "居中",
+        "对称构图"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_composition",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VC002",
+      "category": "camera_composition",
+      "dimension": "画面构图",
+      "name": "三分法构图",
+      "en": "rule-of-thirds composition",
+      "description": "人物靠近画面的三分线，另一侧保留环境空间。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "三分构图",
+        "九宫格构图"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_composition",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VC003",
+      "category": "camera_composition",
+      "dimension": "画面构图",
+      "name": "大面积留白构图",
+      "en": "negative-space composition",
+      "description": "人物靠近画面边缘，大部分画面留给简洁背景。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "留白",
+        "负空间"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_composition",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VC004",
+      "category": "camera_composition",
+      "dimension": "画面构图",
+      "name": "倾斜镜头构图",
+      "en": "Dutch-angle composition",
+      "description": "画面整体倾斜，地平线与建筑也随之倾斜；区别于人物歪头。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "荷兰角",
+        "倾斜构图",
+        "斜镜头"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_composition",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VC005",
+      "category": "camera_composition",
+      "dimension": "画面构图",
+      "name": "框景构图",
+      "en": "frame-within-a-frame composition",
+      "description": "用门、窗或拱廊等结构形成画中框，把人物置于其中。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "门框构图",
+        "画中框"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_composition",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VC006",
+      "category": "camera_composition",
+      "dimension": "画面构图",
+      "name": "引导线构图",
+      "en": "leading-lines composition",
+      "description": "地砖、道路或栏杆的线条把视线引向人物。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "引导线",
+        "透视引导"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_composition",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VC007",
+      "category": "camera_composition",
+      "dimension": "画面构图",
+      "name": "前景遮挡构图",
+      "en": "foreground-framing composition",
+      "description": "近处叶片等在边缘形成遮挡，人物主体保持可辨。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "前景框景",
+        "遮挡构图"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_composition",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VC008",
+      "category": "camera_composition",
+      "dimension": "画面构图",
+      "name": "过肩镜头",
+      "en": "over-the-shoulder shot",
+      "description": "近处人物的后脑或肩膀进入前景，对面人物是主要观察对象。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "过肩视角",
+        "OTS"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "camera_composition",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "DF001",
+      "category": "depth_focus",
+      "dimension": "景深与对焦",
+      "name": "浅景深背景虚化",
+      "en": "shallow depth of field with blurred background",
+      "description": "主体清晰，远处建筑与树木明显柔化，突出人物。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "背景虚化",
+        "浅景深"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "depth_focus",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "DF002",
+      "category": "depth_focus",
+      "dimension": "景深与对焦",
+      "name": "深景深全景清晰",
+      "en": "deep depth of field",
+      "description": "人物、近处地面和远处环境都较清楚，强调空间信息。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "深景深",
+        "全景清晰"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "depth_focus",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "DF003",
+      "category": "depth_focus",
+      "dimension": "景深与对焦",
+      "name": "前景虚化",
+      "en": "blurred foreground",
+      "description": "靠近镜头的枝叶明显模糊，中景人物保持清晰。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "前景散焦",
+        "近处虚化"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "depth_focus",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "DF004",
+      "category": "depth_focus",
+      "dimension": "景深与对焦",
+      "name": "眼部对焦",
+      "en": "sharp eye focus",
+      "description": "眼睛与睫毛是最清晰的区域，耳朵和远侧头发逐渐变软。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "眼睛对焦",
+        "眼部清晰"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "depth_focus",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "DF005",
+      "category": "depth_focus",
+      "dimension": "景深与对焦",
+      "name": "前景对焦主体虚化",
+      "en": "foreground focus with defocused subject",
+      "description": "近处枝叶清晰，后方人物有意虚焦；不作为人物细节参考。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "主体虚焦",
+        "前景对焦"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "depth_focus",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "DF006",
+      "category": "depth_focus",
+      "dimension": "景深与对焦",
+      "name": "夜景散景光斑",
+      "en": "night bokeh portrait",
+      "description": "主体面部清晰，远处点光源形成明显圆形虚化光斑。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "散景",
+        "光斑",
+        "bokeh"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "depth_focus",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VX001",
+      "category": "lens_perspective",
+      "dimension": "镜头与透视",
+      "name": "广角环境透视",
+      "en": "wide-angle environmental perspective",
+      "description": "保留较多环境，近远距离差明显，地面与建筑向远处展开。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "广角",
+        "环境人像"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "lens_perspective",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VX002",
+      "category": "lens_perspective",
+      "dimension": "镜头与透视",
+      "name": "标准视角透视",
+      "en": "normal-lens perspective",
+      "description": "面部和身体比例自然，人物与环境大小关系较均衡。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "标准镜头",
+        "自然透视"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "lens_perspective",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VX003",
+      "category": "lens_perspective",
+      "dimension": "镜头与透视",
+      "name": "长焦空间压缩",
+      "en": "telephoto perspective compression",
+      "description": "远处背景看起来较大，前后空间层次显得更靠近。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "长焦",
+        "空间压缩",
+        "压缩感"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "lens_perspective",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VX004",
+      "category": "lens_perspective",
+      "dimension": "镜头与透视",
+      "name": "鱼眼畸变",
+      "en": "fisheye distortion",
+      "description": "画面边缘的建筑与地平线明显弯曲，中心人物仍可辨识。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "鱼眼",
+        "桶形畸变"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "lens_perspective",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VX005",
+      "category": "lens_perspective",
+      "dimension": "镜头与透视",
+      "name": "近大远小夸张透视",
+      "en": "exaggerated near-far perspective",
+      "description": "靠近镜头的手等明显放大，人物面部与躯干向远处缩小。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "夸张透视",
+        "强透视"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "lens_perspective",
+      "reference_mode": "generated visual demonstration"
+    },
+    {
+      "stable_id": "VX006",
+      "category": "lens_perspective",
+      "dimension": "镜头与透视",
+      "name": "正交与弱透视",
+      "en": "orthographic and weak perspective",
+      "description": "近远尺寸变化很小，平行线较少收拢，便于观察造型轮廓。",
+      "note": "配图为生成式摄影或绘画示意，不是精确镜头标定；观察方向、机位高度、景别、构图和景深是不同维度，可组合使用。左右方向按画面中的面向说明，不代替角色自身的左右。",
+      "aliases": [
+        "正交",
+        "弱透视",
+        "平行投影"
+      ],
+      "origin": "editorial",
+      "added_in": "66.0",
+      "camera_reference": true,
+      "camera_axis": "lens_perspective",
+      "reference_mode": "generated visual demonstration"
+    }
+  ],
+  "boards": [
+    {
+      "id": "camera-directions-v66",
+      "category": "camera_directions",
+      "title": "观察方向",
+      "columns": 2,
+      "rows": 4,
+      "image": "images/sheet-camera-directions-v66.png",
+      "width": 1024,
+      "height": 1536,
+      "column_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "row_boundaries": [
+        0,
+        384,
+        768,
+        1152,
+        1536
+      ],
+      "edition": 66,
+      "origin": "AI-generated visual reference; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-02",
+      "prompt": "Create an original educational visual reference contact sheet for a female character appearance atlas. Premium clean semi-realistic anime illustration, believable camera optics and coherent spatial geometry. One clearly adult woman aged around 28, shoulder-length chestnut bob hair, teal hip-length jacket over an opaque cream crew-neck shirt, straight charcoal trousers and white sneakers. Calm neutral expression, relaxed arms, no props unless required by composition. Modest ordinary clothing. Consistent identity and outfit throughout this sheet. No written text, codes, captions, logos or watermarks. Portrait canvas, exact uniform grid, straight thin dark dividing lines, no uneven gutters, no image spills across panel edges. Each panel must show the requested camera demonstration distinctly. Exactly TWO COLUMNS and FOUR ROWS, eight independent panels in row-major reading order. All panels are eye-level FULL BODY head-to-shoes, generous margin, woman standing upright in the same orientation relative to herself, neutral pale studio floor. Camera orbits her; she does NOT turn her face toward the camera except the frontal panel. 1 FRONT view, face and torso exactly straight toward camera. 2 LEFT FRONT three-quarter view, see front and left side. 3 RIGHT FRONT three-quarter view, mirrored direction of panel 2. 4 EXACT LEFT SIDE profile, face nose points LEFT on image, hips and feet side-on. 5 EXACT RIGHT SIDE profile, nose points RIGHT on image. 6 REAR LEFT three-quarter view, mostly back and left side, do not show full face. 7 REAR RIGHT three-quarter view, mostly back and right side. 8 EXACT REAR view, back of head, jacket and legs, no face. Every figure occupies roughly 80 percent of its own panel height. This is an atlas of WHOLE-BODY observation directions, not a fashion variation sheet.",
+      "items": [
+        {
+          "entry_id": "VD001",
+          "label": "VD001",
+          "name": "正面视角"
+        },
+        {
+          "entry_id": "VD002",
+          "label": "VD002",
+          "name": "斜前视角·面向左"
+        },
+        {
+          "entry_id": "VD003",
+          "label": "VD003",
+          "name": "斜前视角·面向右"
+        },
+        {
+          "entry_id": "VD004",
+          "label": "VD004",
+          "name": "左向侧面视角"
+        },
+        {
+          "entry_id": "VD005",
+          "label": "VD005",
+          "name": "右向侧面视角"
+        },
+        {
+          "entry_id": "VD006",
+          "label": "VD006",
+          "name": "后侧视角·面向左"
+        },
+        {
+          "entry_id": "VD007",
+          "label": "VD007",
+          "name": "后侧视角·面向右"
+        },
+        {
+          "entry_id": "VD008",
+          "label": "VD008",
+          "name": "背面视角"
+        }
+      ]
+    },
+    {
+      "id": "camera-heights-v66",
+      "category": "camera_heights",
+      "title": "机位高度与俯仰",
+      "columns": 2,
+      "rows": 3,
+      "image": "images/sheet-camera-heights-v66.png",
+      "width": 1024,
+      "height": 1536,
+      "column_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024,
+        1536
+      ],
+      "edition": 66,
+      "origin": "AI-generated visual reference; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-02",
+      "prompt": "Create an original educational visual reference contact sheet for a female character appearance atlas. Premium clean semi-realistic anime illustration, believable camera optics and coherent spatial geometry. One clearly adult woman aged around 28, shoulder-length chestnut bob hair, teal hip-length jacket over an opaque cream crew-neck shirt, straight charcoal trousers and white sneakers. Calm neutral expression, relaxed arms, no props unless required by composition. Modest ordinary clothing. Consistent identity and outfit throughout this sheet. No written text, codes, captions, logos or watermarks. Portrait canvas, exact uniform grid, straight thin dark dividing lines, no uneven gutters, no image spills across panel edges. Each panel must show the requested camera demonstration distinctly. Exactly TWO COLUMNS and THREE ROWS, six independent panels in row-major order. Same woman standing with head upright and looking horizontally forward, in a spacious tiled courtyard with subtle vertical architecture to make camera elevation readable. Frame the whole figure including shoes whenever physically visible; perspective foreshortening is the point. Do NOT simulate a high camera by merely making her bow her head. 1 EYE-LEVEL camera at her eye height, horizontal view, neutral perspective. 2 MODERATE HIGH CAMERA looking down at about 25 degrees, visible top of head and shoulders, receding floor. 3 STEEP HIGH CAMERA looking down about 60 degrees, crown prominent, torso and legs foreshortened. 4 TRUE VERTICAL OVERHEAD bird's-eye shot straight down, crown and shoulders seen from above, tiled floor fills frame. 5 MODERATE LOW CAMERA looking up about 20 degrees, visible underside of chin, architecture rises behind. 6 GROUND-LEVEL WORM'S-EYE upward shot from near her shoes, shoes and trouser legs nearer and larger, shoulders and head recede, visible sky and upward converging architecture. Trousers remain opaque and fully cover her legs in all views. These are distinct CAMERA HEIGHTS, not head gestures.",
+      "items": [
+        {
+          "entry_id": "VH001",
+          "label": "VH001",
+          "name": "平视机位"
+        },
+        {
+          "entry_id": "VH002",
+          "label": "VH002",
+          "name": "轻俯拍机位"
+        },
+        {
+          "entry_id": "VH003",
+          "label": "VH003",
+          "name": "高位俯拍"
+        },
+        {
+          "entry_id": "VH004",
+          "label": "VH004",
+          "name": "垂直顶视"
+        },
+        {
+          "entry_id": "VH005",
+          "label": "VH005",
+          "name": "轻仰拍机位"
+        },
+        {
+          "entry_id": "VH006",
+          "label": "VH006",
+          "name": "贴地仰拍"
+        }
+      ]
+    },
+    {
+      "id": "shot-sizes-v66",
+      "category": "shot_sizes",
+      "title": "景别与取景范围",
+      "columns": 2,
+      "rows": 4,
+      "image": "images/sheet-shot-sizes-v66.png",
+      "width": 1024,
+      "height": 1536,
+      "column_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "row_boundaries": [
+        0,
+        384,
+        768,
+        1152,
+        1536
+      ],
+      "edition": 66,
+      "origin": "AI-generated visual reference; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-02",
+      "prompt": "Original visual-reference contact sheet for a female character appearance atlas. Clean premium semi-realistic anime illustration, believable camera optics and coherent spatial geometry. Same clearly adult woman about 28 in every panel, chestnut bob hair, teal jacket, opaque cream crew-neck shirt, straight charcoal trousers, white sneakers. Pale stone courtyard with trees and simple architecture. Consistent subject identity, clothing and lighting unless a panel specifically demonstrates another lighting environment. No sexualization. NO text, codes, labels, logos or watermarks. Portrait canvas with exactly TWO COLUMNS and equal-height ROWS, straight thin dark dividing lines, no uneven gutters or image spill. Read panels in row-major order. FOUR ROWS, eight panels. Illustrate eight clearly different FRAMING SCALES; frontal camera and neutral face. Crop intentionally for each scale; don't repeat full figures. 1 EXTREME EYE CLOSE-UP: both eyes, eyebrows and nose bridge dominate, forehead and mouth outside frame. 2 FACE CLOSE-UP: complete face from forehead to chin, very little shoulder. 3 HEAD AND SHOULDERS CLOSE SHOT: complete head and both shoulders, crop below shoulders. 4 BUST SHOT: complete head and chest, bottom crop around lower chest. 5 WAIST-UP HALF BODY: head through waist and elbows visible, legs outside frame. 6 KNEE-UP MEDIUM FULL SHOT: head to just above knees, trousers visible. 7 FULL BODY: entire crown to soles visible with modest margins, woman fills most panel height. 8 ENVIRONMENTAL LONG SHOT: whole figure small, about 20 percent of frame height, courtyard and architecture dominate, large breathing room around her. Camera distance and framing must be immediately distinguishable even at thumbnail size.",
+      "items": [
+        {
+          "entry_id": "VS001",
+          "label": "VS001",
+          "name": "眼部大特写"
+        },
+        {
+          "entry_id": "VS002",
+          "label": "VS002",
+          "name": "面部特写"
+        },
+        {
+          "entry_id": "VS003",
+          "label": "VS003",
+          "name": "头肩近景"
+        },
+        {
+          "entry_id": "VS004",
+          "label": "VS004",
+          "name": "胸像近景"
+        },
+        {
+          "entry_id": "VS005",
+          "label": "VS005",
+          "name": "腰上半身"
+        },
+        {
+          "entry_id": "VS006",
+          "label": "VS006",
+          "name": "膝上中全景"
+        },
+        {
+          "entry_id": "VS007",
+          "label": "VS007",
+          "name": "完整全身景"
+        },
+        {
+          "entry_id": "VS008",
+          "label": "VS008",
+          "name": "环境远景"
+        }
+      ]
+    },
+    {
+      "id": "camera-composition-v66",
+      "category": "camera_composition",
+      "title": "画面构图",
+      "columns": 2,
+      "rows": 4,
+      "image": "images/sheet-camera-composition-v66.png",
+      "width": 1086,
+      "height": 1448,
+      "column_boundaries": [
+        0,
+        543,
+        1086
+      ],
+      "row_boundaries": [
+        0,
+        362,
+        724,
+        1086,
+        1448
+      ],
+      "edition": 66,
+      "origin": "AI-generated visual reference; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-02",
+      "prompt": "Original visual-reference contact sheet for a female character appearance atlas. Clean premium semi-realistic anime illustration, believable camera optics and coherent spatial geometry. Same clearly adult woman about 28 in every panel, chestnut bob hair, teal jacket, opaque cream crew-neck shirt, straight charcoal trousers, white sneakers. Pale stone courtyard with trees and simple architecture. Consistent subject identity, clothing and lighting unless a panel specifically demonstrates another lighting environment. No sexualization. NO text, codes, labels, logos or watermarks. Portrait canvas with exactly TWO COLUMNS and equal-height ROWS, straight thin dark dividing lines, no uneven gutters or image spill. Read panels in row-major order. FOUR ROWS, eight panels demonstrating deliberate composition. 1 CENTERED SYMMETRY: woman full body centered on vertical axis, symmetrical arcade behind. 2 RULE OF THIRDS: woman on right third of frame, open courtyard on left. 3 NEGATIVE SPACE: small woman on far left, mostly uncluttered pale wall and sky on right. 4 DUTCH ANGLE: entire courtyard horizon and vertical lines conspicuously tilted clockwise; woman upright relative to the world, not just leaning her body. 5 FRAME WITHIN FRAME: woman clearly framed inside an architectural arch, arch visible around her. 6 LEADING LINES: paving and railings converge toward woman in background, strong directional lines. 7 FOREGROUND FRAMING: out-of-focus leaves at both near edges frame unobstructed woman at mid-distance. 8 OVER-THE-SHOULDER: blurred back of head and shoulder of a second adult at left foreground, main adult woman facing this observer in sharp mid-distance focus. This last panel deliberately includes two adults; all others show one adult. The main woman remains recognizable in every panel.",
+      "items": [
+        {
+          "entry_id": "VC001",
+          "label": "VC001",
+          "name": "居中对称构图"
+        },
+        {
+          "entry_id": "VC002",
+          "label": "VC002",
+          "name": "三分法构图"
+        },
+        {
+          "entry_id": "VC003",
+          "label": "VC003",
+          "name": "大面积留白构图"
+        },
+        {
+          "entry_id": "VC004",
+          "label": "VC004",
+          "name": "倾斜镜头构图"
+        },
+        {
+          "entry_id": "VC005",
+          "label": "VC005",
+          "name": "框景构图"
+        },
+        {
+          "entry_id": "VC006",
+          "label": "VC006",
+          "name": "引导线构图"
+        },
+        {
+          "entry_id": "VC007",
+          "label": "VC007",
+          "name": "前景遮挡构图"
+        },
+        {
+          "entry_id": "VC008",
+          "label": "VC008",
+          "name": "过肩镜头"
+        }
+      ]
+    },
+    {
+      "id": "depth-focus-v66",
+      "category": "depth_focus",
+      "title": "景深与对焦",
+      "columns": 2,
+      "rows": 3,
+      "image": "images/sheet-depth-focus-v66.png",
+      "width": 1024,
+      "height": 1536,
+      "column_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024,
+        1536
+      ],
+      "edition": 66,
+      "origin": "AI-generated visual reference; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-02",
+      "prompt": "Original visual-reference contact sheet for a female character appearance atlas. Clean premium semi-realistic anime illustration, believable camera optics and coherent spatial geometry. Same clearly adult woman about 28 in every panel, chestnut bob hair, teal jacket, opaque cream crew-neck shirt, straight charcoal trousers, white sneakers. Pale stone courtyard with trees and simple architecture. Consistent subject identity, clothing and lighting unless a panel specifically demonstrates another lighting environment. No sexualization. NO text, codes, labels, logos or watermarks. Portrait canvas with exactly TWO COLUMNS and equal-height ROWS, straight thin dark dividing lines, no uneven gutters or image spill. Read panels in row-major order. THREE ROWS, six panels about DEPTH OF FIELD AND FOCUS. Courtyard cafe, leafy foreground and string lights in the distance. These are optics demonstrations, so focus differences must be strong and obvious, not merely painted background detail. 1 SHALLOW DEPTH OF FIELD: woman's face and hair tack sharp, distant trees and buildings smoothly blurred beyond recognition. 2 DEEP DEPTH OF FIELD: woman, nearest paving and distant cafe facade all crisp and clearly detailed. 3 BLURRED FOREGROUND: very near leaves are conspicuously soft blurred silhouettes, middle-distance woman sharp, background moderately sharp. 4 EYE FOCUS PORTRAIT: tightly framed woman's eyes perfectly sharp with iris and lashes clearly defined; near nose, ears and far hair gradually softer, natural focus falloff. 5 FOCUS ON FOREGROUND: near leaf or small branch razor sharp at frame side, woman behind visibly out of focus and recognizable only as a soft silhouette. Do NOT sharpen her face in this panel. 6 NIGHT BOKEH: woman's face sharply lit and sharp, dark background with large luminous circular golden bokeh discs; evening setting, no text. Keep all six panels within a precise 2x3 grid.",
+      "items": [
+        {
+          "entry_id": "DF001",
+          "label": "DF001",
+          "name": "浅景深背景虚化"
+        },
+        {
+          "entry_id": "DF002",
+          "label": "DF002",
+          "name": "深景深全景清晰"
+        },
+        {
+          "entry_id": "DF003",
+          "label": "DF003",
+          "name": "前景虚化"
+        },
+        {
+          "entry_id": "DF004",
+          "label": "DF004",
+          "name": "眼部对焦"
+        },
+        {
+          "entry_id": "DF005",
+          "label": "DF005",
+          "name": "前景对焦主体虚化"
+        },
+        {
+          "entry_id": "DF006",
+          "label": "DF006",
+          "name": "夜景散景光斑"
+        }
+      ]
+    },
+    {
+      "id": "lens-perspective-v66",
+      "category": "lens_perspective",
+      "title": "镜头与透视",
+      "columns": 2,
+      "rows": 3,
+      "image": "images/sheet-lens-perspective-v66.png",
+      "width": 1024,
+      "height": 1536,
+      "column_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024,
+        1536
+      ],
+      "edition": 66,
+      "origin": "AI-generated visual reference; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-02",
+      "prompt": "Original visual-reference contact sheet for a female character appearance atlas. Clean premium semi-realistic anime illustration, believable camera optics and coherent spatial geometry. Same clearly adult woman about 28 in every panel, chestnut bob hair, teal jacket, opaque cream crew-neck shirt, straight charcoal trousers, white sneakers. Pale stone courtyard with trees and simple architecture. Consistent subject identity, clothing and lighting unless a panel specifically demonstrates another lighting environment. No sexualization. NO text, codes, labels, logos or watermarks. Portrait canvas with exactly TWO COLUMNS and equal-height ROWS, straight thin dark dividing lines, no uneven gutters or image spill. Read panels in row-major order. THREE ROWS, six panels demonstrating LENS/PERSPECTIVE visual relationships. These are illustrative approximations, not calibrated focal-length measurements. 1 WIDE-ANGLE ENVIRONMENTAL PORTRAIT: woman and generous courtyard visible; strongly receding paving and nearby walls, expanded near/far separation. 2 NORMAL PERSPECTIVE PORTRAIT: natural-looking facial and body proportions, balanced background scale, waist-up framing. 3 TELEPHOTO COMPRESSION: waist-up woman, distant building facade appears surprisingly large and close behind her, compressed spatial layers, flat feeling with soft background. 4 FISHEYE: unmistakably curved building edges and bowed horizon near picture borders, woman near center remains recognizable, circular bulging perspective without a black circular vignette. 5 EXTREME NEAR-FAR PERSPECTIVE: woman extends an OPEN HAND toward camera; hand much larger due to proximity, face and body recede dramatically, architecture recedes; anatomically valid five fingers, nonviolent open-palm pose. 6 ORTHOGRAPHIC/WEAK PERSPECTIVE CHARACTER VIEW: full body adult woman in a clean softly shaded 3D-illustration view, parallel architectural vertical and horizontal lines, almost no foreshortening, distant and near features have little size change. Grid is exactly two columns and three rows.",
+      "items": [
+        {
+          "entry_id": "VX001",
+          "label": "VX001",
+          "name": "广角环境透视"
+        },
+        {
+          "entry_id": "VX002",
+          "label": "VX002",
+          "name": "标准视角透视"
+        },
+        {
+          "entry_id": "VX003",
+          "label": "VX003",
+          "name": "长焦空间压缩"
+        },
+        {
+          "entry_id": "VX004",
+          "label": "VX004",
+          "name": "鱼眼畸变"
+        },
+        {
+          "entry_id": "VX005",
+          "label": "VX005",
+          "name": "近大远小夸张透视"
+        },
+        {
+          "entry_id": "VX006",
+          "label": "VX006",
+          "name": "正交与弱透视"
+        }
+      ]
+    }
+  ],
+  "references": []
+}

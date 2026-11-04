@@ -1,0 +1,20 @@
+{
+  "id": "beauty-profile",
+  "name": "头肩侧影",
+  "selected_concept": "beauty_profile",
+  "source": "assets/brand/beauty-profile/source.png",
+  "source_sha256": "f85b2a3b3b72b6d801eb3870b6f19f91ec9437879d5b9ad148af7a1282625f67",
+  "svg_format": "SVG display file embeds the selected PNG alpha silhouette; it is not a traced path vector.",
+  "themes": [
+    "light",
+    "light-linen",
+    "dark",
+    "dark-forest"
+  ],
+  "ico_sizes": [
+    16,
+    32,
+    48,
+    256
+  ]
+}

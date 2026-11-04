@@ -1,0 +1,1461 @@
+{
+  "schema": "female-appearance-contribution/v1",
+  "entries": [
+    {
+      "stable_id": "MC001",
+      "category": "comic_panel_art",
+      "dimension": "格框与画中画",
+      "name": "工整外框叙事格",
+      "en": "clean bordered narrative panel",
+      "description": "用完整清楚的格框容纳人物与环境，阅读重点集中在一个叙事瞬间。",
+      "note": "格框与人物保持清楚边界；示例是普通叙事格，不依靠夸张特效。",
+      "aliases": [
+        "标准漫画格",
+        "外框漫画",
+        "单格漫画"
+      ],
+      "reference_ids": [
+        "R194"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MC002",
+      "category": "comic_panel_art",
+      "dimension": "格框与画中画",
+      "name": "开放无边框画格",
+      "en": "borderless open comic panel",
+      "description": "取消闭合格框，让人物与局部背景自然过渡到留白。",
+      "note": "无边框指示例内部不画封闭矩形；图页外侧的排列分隔线不属于漫画格框。",
+      "aliases": [
+        "无框漫画格",
+        "开放画格"
+      ],
+      "reference_ids": [
+        "R194"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MC003",
+      "category": "comic_panel_art",
+      "dimension": "格框与画中画",
+      "name": "人物出框破格",
+      "en": "character breaking the panel border",
+      "description": "让人物局部跨过原有格框，强化靠近、伸展或突破画面的感觉。",
+      "note": "人物只跨出自己所在示例里的内框，不能跨到其他词条的图格。",
+      "aliases": [
+        "出框",
+        "破格",
+        "突破边框"
+      ],
+      "reference_ids": [
+        "R194"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MC004",
+      "category": "comic_panel_art",
+      "dimension": "格框与画中画",
+      "name": "画中画细节插格",
+      "en": "detail inset within a comic panel",
+      "description": "在主画面里加入一个小插格，放大手部、饰物或线索等细节。",
+      "note": "小插格指向主画面中的同一物件；避免把它理解为另一套人物备选。",
+      "aliases": [
+        "插格",
+        "局部放大漫画格",
+        "画中画"
+      ],
+      "reference_ids": [
+        "R194"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MC005",
+      "category": "comic_panel_art",
+      "dimension": "用墨与灰阶",
+      "name": "网点灰阶单格",
+      "en": "screentone-shaded comic panel",
+      "description": "以可辨的点阵疏密组织人物、衣物与环境的灰度层次。",
+      "note": "与整个作品采用哪国漫画风格分开理解；本项着重网点在一格中的明暗分配。",
+      "aliases": [
+        "网点单格",
+        "灰网漫画"
+      ],
+      "reference_ids": [
+        "R195"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MC006",
+      "category": "comic_panel_art",
+      "dimension": "用墨与灰阶",
+      "name": "排线塑形单格",
+      "en": "hatched ink comic panel",
+      "description": "通过平行排线与交叉排线塑造体积、投影和材质。",
+      "note": "线条随体面转折；不要把排线画成覆盖全画面的速度线。",
+      "aliases": [
+        "排线漫画",
+        "交叉排线"
+      ],
+      "reference_ids": [
+        "R195"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MC007",
+      "category": "comic_panel_art",
+      "dimension": "用墨与灰阶",
+      "name": "实黑剪影单格",
+      "en": "solid-black silhouette comic panel",
+      "description": "用大块实黑概括人物，依靠外轮廓与少量负形传达动作。",
+      "note": "重心在轮廓识别，不要求保留五官细节。",
+      "aliases": [
+        "剪影漫画格",
+        "实黑人物格"
+      ],
+      "reference_ids": [
+        "R195"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MC008",
+      "category": "comic_panel_art",
+      "dimension": "用墨与灰阶",
+      "name": "强反差灯影单格",
+      "en": "high-contrast chiaroscuro comic panel",
+      "description": "以实黑阴影与亮面切分脸部和环境，形成强烈的光影关系。",
+      "note": "脸部仍有可读的局部结构；与整个人物完全实黑的剪影区分。",
+      "aliases": [
+        "高反差漫画",
+        "明暗切分漫画"
+      ],
+      "reference_ids": [
+        "R195"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MC009",
+      "category": "comic_panel_art",
+      "dimension": "气氛背景与旁白",
+      "name": "花卉抒情背景格",
+      "en": "floral lyrical comic background",
+      "description": "用花卉、花瓣与轻柔装饰背景替代写实环境，强调人物的抒情气氛。",
+      "note": "花卉是格内表现符号，不等于角色服装必须带花纹。",
+      "aliases": [
+        "少女漫画花背景",
+        "花卉气氛格"
+      ],
+      "reference_ids": [
+        "R195"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MC010",
+      "category": "comic_panel_art",
+      "dimension": "气氛背景与旁白",
+      "name": "闪亮高光气氛格",
+      "en": "sparkle-highlight comic background",
+      "description": "用星芒、亮点和高光符号强化人物登场或欣赏目光。",
+      "note": "亮点围绕人物组织，不能遮住五官；它是漫画强调方式而非真实摄影曝光。",
+      "aliases": [
+        "闪亮漫画格",
+        "星芒背景格"
+      ],
+      "reference_ids": [
+        "R195"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MC011",
+      "category": "comic_panel_art",
+      "dimension": "气氛背景与旁白",
+      "name": "留白沉默停顿格",
+      "en": "silent negative-space comic panel",
+      "description": "减少环境与对白，用留白和人物停顿表现沉默、距离或迟疑。",
+      "note": "留白本身承担节奏与气氛；不额外补满对白或速度线。",
+      "aliases": [
+        "沉默格",
+        "无对白停顿",
+        "留白漫画"
+      ],
+      "reference_ids": [
+        "R194"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MC012",
+      "category": "comic_panel_art",
+      "dimension": "气氛背景与旁白",
+      "name": "矩形旁白框叙事格",
+      "en": "rectangular narration-caption panel",
+      "description": "以与人物对白不同的矩形文字框补充时间、地点或叙述声音。",
+      "note": "图中文字仅作排版示例，不会作为词条名称自动导出。",
+      "aliases": [
+        "旁白框",
+        "说明框",
+        "漫画叙述框"
+      ],
+      "reference_ids": [
+        "R196"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MX001",
+      "category": "comic_panel_effects",
+      "dimension": "动势与情绪线",
+      "name": "集中线强调格",
+      "en": "radial focus-line emphasis panel",
+      "description": "让放射状线条朝一个重点汇聚，突出人物、物件或强烈反应。",
+      "note": "集中线强调焦点，不直接等同于人物移动的方向。",
+      "aliases": [
+        "放射集中线",
+        "聚焦线",
+        "集中线漫画"
+      ],
+      "reference_ids": [
+        "R195"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MX002",
+      "category": "comic_panel_effects",
+      "dimension": "动势与情绪线",
+      "name": "速度线运动格",
+      "en": "parallel speed-line action panel",
+      "description": "用大致平行的线群指示运动趋势，让主体动作更容易被感知。",
+      "note": "保留主体轮廓与运动方向，避免把速度线误做成排线阴影。",
+      "aliases": [
+        "流线",
+        "运动线漫画",
+        "速度线格"
+      ],
+      "reference_ids": [
+        "R195"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MX003",
+      "category": "comic_panel_effects",
+      "dimension": "动势与情绪线",
+      "name": "竖线压脸情绪格",
+      "en": "vertical gloom-line reaction panel",
+      "description": "以额头阴影和下垂竖线强化尴尬、失落或受压的情绪。",
+      "note": "这是漫画符号化处理，不是皮肤真实纹理或临床状态。",
+      "aliases": [
+        "竖线阴影",
+        "阴沉压脸",
+        "黑线表情"
+      ],
+      "reference_ids": [
+        "R195"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MX004",
+      "category": "comic_panel_effects",
+      "dimension": "动势与情绪线",
+      "name": "冲击爆点定格",
+      "en": "impact-burst freeze panel",
+      "description": "在动作接触点附近组织爆点、放射短线和形变，强调动作落点。",
+      "note": "图例以手掌拍桌示意；爆点集中在接触处，不是整个人物后方的普通集中线。",
+      "aliases": [
+        "冲击格",
+        "爆点漫画",
+        "动作落点格"
+      ],
+      "reference_ids": [
+        "R195"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MX005",
+      "category": "comic_panel_effects",
+      "dimension": "变形与符号化",
+      "name": "残影连动单格",
+      "en": "afterimage continuous-action panel",
+      "description": "在同一格中叠置同一人物的动作阶段，以残影表现动作延续。",
+      "note": "多个轮廓属于同一角色的时间叠影，不是多人同框或连续三格。",
+      "aliases": [
+        "动作残影",
+        "连动漫画格",
+        "单格连续动作"
+      ],
+      "reference_ids": [
+        "R195"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MX006",
+      "category": "comic_panel_effects",
+      "dimension": "变形与符号化",
+      "name": "成人Q版反应格",
+      "en": "adult chibi reaction panel",
+      "description": "把成年角色简化为小身体、大头与简洁表情，突出轻快的反应节奏。",
+      "note": "这是画面比例与符号化处理，示例仍表示成年角色。",
+      "aliases": [
+        "Q版反应小人",
+        "迷你反应格"
+      ],
+      "reference_ids": [
+        "R195"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MX007",
+      "category": "comic_panel_effects",
+      "dimension": "变形与符号化",
+      "name": "夸张变形反应格",
+      "en": "exaggerated squash-and-stretch reaction panel",
+      "description": "将面部与姿态有意夸张变形，用不写实的轮廓强化瞬间反应。",
+      "note": "变形服务于表演，保留角色发型与服装等识别点。",
+      "aliases": [
+        "颜艺",
+        "漫画变形反应",
+        "夸张崩溃格"
+      ],
+      "reference_ids": [
+        "R195"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MX008",
+      "category": "comic_panel_effects",
+      "dimension": "变形与符号化",
+      "name": "浮空符号反应格",
+      "en": "floating-icon reaction panel",
+      "description": "借助问号、感叹号、汗滴等悬浮符号补充人物反应。",
+      "note": "符号属于画面表达，不是身体器官或真实佩戴物。",
+      "aliases": [
+        "问号表情格",
+        "汗滴符号",
+        "感叹符号"
+      ],
+      "reference_ids": [
+        "R195"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MX009",
+      "category": "comic_panel_effects",
+      "dimension": "气泡与拟声",
+      "name": "椭圆对白气泡格",
+      "en": "oval speech-balloon panel",
+      "description": "以椭圆气泡和指向说话者的尾线安排普通对白。",
+      "note": "尾线指向当前说话者，气泡留白不能压住关键表情。",
+      "aliases": [
+        "对白框",
+        "说话气泡",
+        "普通对白格"
+      ],
+      "reference_ids": [
+        "R196"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MX010",
+      "category": "comic_panel_effects",
+      "dimension": "气泡与拟声",
+      "name": "锯齿喊话气泡格",
+      "en": "jagged shout-balloon panel",
+      "description": "用尖锐锯齿的气泡边缘强化喊叫、提醒或高强度对白。",
+      "note": "气泡外形表达声音力度；示例短句只用于显示排版。",
+      "aliases": [
+        "喊话框",
+        "爆炸气泡",
+        "锯齿气泡"
+      ],
+      "reference_ids": [
+        "R196"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MX011",
+      "category": "comic_panel_effects",
+      "dimension": "气泡与拟声",
+      "name": "云朵心声气泡格",
+      "en": "cloud thought-balloon panel",
+      "description": "以云朵状轮廓和小圆泡连接人物，区分心中想法与说出口的对白。",
+      "note": "小圆泡指向思考者，外形不同于普通对白的尖尾。",
+      "aliases": [
+        "内心气泡",
+        "思想泡",
+        "心声格"
+      ],
+      "reference_ids": [
+        "R196"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "MX012",
+      "category": "comic_panel_effects",
+      "dimension": "气泡与拟声",
+      "name": "拟声字融入画面",
+      "en": "integrated sound-effect lettering panel",
+      "description": "把拟声字作为有形状、大小和方向的画面元素，与动作接触点呼应。",
+      "note": "拟声字不放进对白气泡，字形与动作关系是观察重点。",
+      "aliases": [
+        "拟声词",
+        "音效字",
+        "漫画音效",
+        "SFX"
+      ],
+      "reference_ids": [
+        "R196"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "comic_panel_reference": true
+    },
+    {
+      "stable_id": "SB001",
+      "category": "storyboard_drafts",
+      "dimension": "草稿到明暗分镜",
+      "name": "分镜缩略草图",
+      "en": "thumbnail storyboard sketch",
+      "description": "以少量线条快速确定镜头里的主体位置、景别和空间关系。",
+      "note": "低完成度是有意保留，观察构图而非服装细节。",
+      "aliases": [
+        "故事板缩略稿",
+        "导演草图",
+        "分镜草稿",
+        "关键脚本"
+      ],
+      "reference_ids": [
+        "R199"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "film_design_reference": true
+    },
+    {
+      "stable_id": "SB002",
+      "category": "storyboard_drafts",
+      "dimension": "草稿到明暗分镜",
+      "name": "清线叙事分镜稿",
+      "en": "clean-line storyboard drawing",
+      "description": "用清楚线稿交代角色姿态、道具、环境与主要叙事信息。",
+      "note": "与最终插画相比，重点是镜头信息的清晰可读。",
+      "aliases": [
+        "清稿分镜",
+        "线稿故事板"
+      ],
+      "reference_ids": [
+        "R199"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "film_design_reference": true
+    },
+    {
+      "stable_id": "SB003",
+      "category": "storyboard_drafts",
+      "dimension": "草稿到明暗分镜",
+      "name": "灰阶明暗分镜稿",
+      "en": "tonal storyboard frame",
+      "description": "用有限灰阶组织主次明暗，预先确认人物和场景的视觉重心。",
+      "note": "灰阶块面服务于阅读重点，不必追求最终材质。",
+      "aliases": [
+        "灰调分镜",
+        "明暗故事板"
+      ],
+      "reference_ids": [
+        "R199"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "film_design_reference": true
+    },
+    {
+      "stable_id": "SB004",
+      "category": "storyboard_drafts",
+      "dimension": "草稿到明暗分镜",
+      "name": "彩色叙事分镜稿",
+      "en": "color storyboard frame",
+      "description": "在线稿与基本明暗上加入简洁色彩，说明单个镜头的光色关系。",
+      "note": "保留分镜的简练信息，不要求每一处达到成片效果。",
+      "aliases": [
+        "彩稿分镜",
+        "彩色故事板"
+      ],
+      "reference_ids": [
+        "R199"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "film_design_reference": true
+    },
+    {
+      "stable_id": "SB005",
+      "category": "storyboard_drafts",
+      "dimension": "布局与表演预演",
+      "name": "透视与布局分镜稿",
+      "en": "perspective layout storyboard",
+      "description": "以透视辅助线和前中后景安排确认人物在空间中的位置。",
+      "note": "辅助线是设计过程的一部分；图例不是精确建筑施工图。",
+      "aliases": [
+        "布局稿",
+        "Layout分镜",
+        "透视构图稿"
+      ],
+      "reference_ids": [
+        "R199"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "film_design_reference": true
+    },
+    {
+      "stable_id": "SB006",
+      "category": "storyboard_drafts",
+      "dimension": "布局与表演预演",
+      "name": "动作关键姿势稿",
+      "en": "action key-pose drawing",
+      "description": "挑出一个清楚的动作节点，以重心、轮廓和动作线说明运动意图。",
+      "note": "这里只展示一个关键姿势，不自动表示完整动作或补间。",
+      "aliases": [
+        "关键Pose",
+        "关键姿态",
+        "动作关键稿"
+      ],
+      "reference_ids": [
+        "R199"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "film_design_reference": true
+    },
+    {
+      "stable_id": "SB007",
+      "category": "storyboard_drafts",
+      "dimension": "布局与表演预演",
+      "name": "双人表演调度稿",
+      "en": "two-character acting and staging board",
+      "description": "用人物间距、朝向、视线和肢体动作说明一段交流的表演关系。",
+      "note": "画面只有当前这一刻的调度，不是正反打的镜头序列。",
+      "aliases": [
+        "表演分镜",
+        "人物调度稿",
+        "Blocking分镜"
+      ],
+      "reference_ids": [
+        "R199"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "film_design_reference": true
+    },
+    {
+      "stable_id": "SB008",
+      "category": "storyboard_drafts",
+      "dimension": "布局与表演预演",
+      "name": "三维灰模预演帧",
+      "en": "clay-render previsualization frame",
+      "description": "以简单三维模型预看镜头、景别、空间层次和人物位置。",
+      "note": "简化灰模是预演表达方式，人物与建筑不必具有最终材质。",
+      "aliases": [
+        "Previs",
+        "预视觉",
+        "灰模分镜",
+        "三维预演"
+      ],
+      "reference_ids": [
+        "R198"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "film_design_reference": true
+    },
+    {
+      "stable_id": "FK001",
+      "category": "film_keyframes",
+      "dimension": "空间与人物叙事",
+      "name": "环境建立概念关键帧",
+      "en": "environment establishing concept keyframe",
+      "description": "用一个有明确主体的场景瞬间建立故事空间、尺度与行进方向。",
+      "note": "主角可以很小，但仍与环境形成可读的叙事关系。",
+      "aliases": [
+        "环境关键帧",
+        "场景关键帧",
+        "关键脚本",
+        "Keyframe concept art"
+      ],
+      "reference_ids": [
+        "R197",
+        "R198"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "film_design_reference": true
+    },
+    {
+      "stable_id": "FK002",
+      "category": "film_keyframes",
+      "dimension": "空间与人物叙事",
+      "name": "角色登场概念关键帧",
+      "en": "character-entrance concept keyframe",
+      "description": "围绕人物登场的时刻安排入口、剪影、姿态与照明。",
+      "note": "重点是这个叙事时刻的呈现，不是角色正侧背设定表。",
+      "aliases": [
+        "登场关键帧",
+        "人物入场关键画面"
+      ],
+      "reference_ids": [
+        "R197",
+        "R198"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "film_design_reference": true
+    },
+    {
+      "stable_id": "FK003",
+      "category": "film_keyframes",
+      "dimension": "空间与人物叙事",
+      "name": "动作高潮概念关键帧",
+      "en": "peak-action concept keyframe",
+      "description": "选取动作最有辨识力的瞬间，让动势、构图与环境共同表达事件。",
+      "note": "与动作分解图不同，本项只呈现一个凝练的叙事瞬间。",
+      "aliases": [
+        "动作关键帧",
+        "高潮关键画面"
+      ],
+      "reference_ids": [
+        "R197",
+        "R198"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "film_design_reference": true
+    },
+    {
+      "stable_id": "FK004",
+      "category": "film_keyframes",
+      "dimension": "空间与人物叙事",
+      "name": "情绪转折概念关键帧",
+      "en": "emotional-turn concept keyframe",
+      "description": "以表情、手部、物件和光线凝聚人物情绪发生变化的关键时刻。",
+      "note": "画面中的物件是情境线索，不是必须附加给所有角色的道具。",
+      "aliases": [
+        "情绪关键帧",
+        "故事转折画面"
+      ],
+      "reference_ids": [
+        "R197",
+        "R198"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "film_design_reference": true
+    },
+    {
+      "stable_id": "FK005",
+      "category": "film_keyframes",
+      "dimension": "光色与视觉设计",
+      "name": "灯光气氛设计关键帧",
+      "en": "lighting-and-mood concept keyframe",
+      "description": "围绕主光、环境色和明暗层次设计一个镜头的气氛。",
+      "note": "光色为设计示意，可与通用机位、景别和画风参考分别选择。",
+      "aliases": [
+        "灯光Keyframe",
+        "气氛关键帧",
+        "光影设计稿"
+      ],
+      "reference_ids": [
+        "R197",
+        "R198"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "film_design_reference": true
+    },
+    {
+      "stable_id": "FK006",
+      "category": "film_keyframes",
+      "dimension": "光色与视觉设计",
+      "name": "色彩脚本中的单帧",
+      "en": "single-frame color-script study",
+      "description": "从色彩脚本的一个故事节点提取主色、冷暖、明度和情绪安排。",
+      "note": "色彩脚本通常由多个画面组成；本项只展示其中一个单帧色彩设计。",
+      "aliases": [
+        "Color script",
+        "色彩脚本",
+        "色键",
+        "Color key"
+      ],
+      "reference_ids": [
+        "R197"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "film_design_reference": true
+    },
+    {
+      "stable_id": "FK007",
+      "category": "film_keyframes",
+      "dimension": "光色与视觉设计",
+      "name": "特效概念设计关键帧",
+      "en": "visual-effects concept keyframe",
+      "description": "用人物、环境与效果之间的尺度和照明关系预设特效画面。",
+      "note": "是原创特效概念示意，不是某部影视作品的截图。",
+      "aliases": [
+        "VFX关键帧",
+        "特效视觉开发",
+        "特效概念稿"
+      ],
+      "reference_ids": [
+        "R198"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "film_design_reference": true
+    },
+    {
+      "stable_id": "FK008",
+      "category": "film_keyframes",
+      "dimension": "光色与视觉设计",
+      "name": "场景覆绘设计关键帧",
+      "en": "environment paintover concept keyframe",
+      "description": "在拟实场景基础上覆绘结构、灯具或装置，探索镜头里的设计改动。",
+      "note": "图例以AI原创画面模拟覆绘过程，没有使用真实剧组实拍底图。",
+      "aliases": [
+        "Paintover",
+        "场景覆绘",
+        "实拍覆绘设计示意"
+      ],
+      "reference_ids": [
+        "R198"
+      ],
+      "origin": "editorial",
+      "added_in": "68.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration",
+      "film_design_reference": true
+    }
+  ],
+  "boards": [
+    {
+      "id": "visual-mc-1-v68",
+      "category": "comic_panel_art",
+      "title": "漫画格框、用墨与气氛 · 格框与画中画",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-visual-mc-1-v68.png",
+      "prompt": "Use case: scientific-educational visual-reference atlas. Original artwork, no copied film, comic franchise or artist identity. LANDSCAPE canvas, exactly TWO COLUMNS and TWO ROWS of equal cells, row-major order, FOUR independent reference illustrations. A thin straight dark vertical separator at exactly half width and horizontal separator at exactly half height, small consistent pale paper margins. No title, labels, IDs, watermarks, UI or logos. Each cell is an INDEPENDENT SINGLE FRAME, not a comic page or three-frame storyboard strip. Keep every example inside its own cell. All people are clearly adults. Recurring main character: adult woman about 28, dark chestnut bob, opaque teal everyday jacket over cream crew-neck top, charcoal trousers and shoes. Respect the technique specified in each cell. Any deliberate inset or internal border belongs only to that cell. Do not let one technique leak to neighboring examples. Apart from explicitly requested dialogue or sound-effect characters, NO TEXT. Manga/comic ink illustration; the requested expression, panel structure, tone or lettering is the focus, not the costume. \n\nCELL 1 (TOP LEFT): Clean ordinary rectangular comic panel drawn INSIDE the cell, with a generous white paper margin. Adult woman walking through a stone courtyard, full body and environment, crisp black ink with modest grey tones. All illustration stays INSIDE the inner rectangular frame. No balloons or text.\n\nCELL 2 (TOP RIGHT): A borderless open comic illustration of the adult woman, waist-up, lightly turning. NO inner rectangular border. Her hair, jacket and a few lightly drawn leaves fade naturally into broad white paper. Delicate black ink, limited screentone. The contact-sheet center separators remain intact.\n\nCELL 3 (BOTTOM LEFT): Draw a clear small inner rectangular comic frame within this cell. The adult woman leans forward and reaches a hand toward the viewer; her hand and some hair extend OUTSIDE this INNER frame into its surrounding white margin. Her torso stays partly behind the frame. Do NOT cross the cell boundary or contact-sheet dividers. Black and white ink.\n\nCELL 4 (BOTTOM RIGHT): One large main comic panel: woman stands at a doorway holding a small brass key at chest height. ONE small inset rectangle at bottom-right zooms in on the SAME hand and key, physically consistent. The main scene remains dominant. Black ink and screentones, no other insets or words.\n\nFinal layout priority: exactly 2 x 2 equally sized contact-sheet cells, one complete example per cell. Generous boundary clearance, no unintended cropping or content shared across cells.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 68,
+      "origin": "AI-generated single-panel visual demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "MC001",
+          "label": "MC001",
+          "name": "工整外框叙事格"
+        },
+        {
+          "entry_id": "MC002",
+          "label": "MC002",
+          "name": "开放无边框画格"
+        },
+        {
+          "entry_id": "MC003",
+          "label": "MC003",
+          "name": "人物出框破格"
+        },
+        {
+          "entry_id": "MC004",
+          "label": "MC004",
+          "name": "画中画细节插格"
+        }
+      ]
+    },
+    {
+      "id": "visual-mc-2-v68",
+      "category": "comic_panel_art",
+      "title": "漫画格框、用墨与气氛 · 用墨与灰阶",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-visual-mc-2-v68.png",
+      "prompt": "Use case: scientific-educational visual-reference atlas. Original artwork, no copied film, comic franchise or artist identity. LANDSCAPE canvas, exactly TWO COLUMNS and TWO ROWS of equal cells, row-major order, FOUR independent reference illustrations. A thin straight dark vertical separator at exactly half width and horizontal separator at exactly half height, small consistent pale paper margins. No title, labels, IDs, watermarks, UI or logos. Each cell is an INDEPENDENT SINGLE FRAME, not a comic page or three-frame storyboard strip. Keep every example inside its own cell. All people are clearly adults. Recurring main character: adult woman about 28, dark chestnut bob, opaque teal everyday jacket over cream crew-neck top, charcoal trousers and shoes. Respect the technique specified in each cell. Any deliberate inset or internal border belongs only to that cell. Do not let one technique leak to neighboring examples. Apart from explicitly requested dialogue or sound-effect characters, NO TEXT. Manga/comic ink illustration; the requested expression, panel structure, tone or lettering is the focus, not the costume. \n\nCELL 1 (TOP LEFT): Close medium-shot comic panel of adult woman holding a book, black line art and visibly regular halftone dot screentones of different densities on jacket, skin shadows and courtyard background. NO smooth airbrush gradients. Dots must be clearly visible while face and hands remain readable.\n\nCELL 2 (TOP RIGHT): Adult woman seated by a window, upper body and book visible. Render all volume and shadow through deliberate parallel hatching and crosshatching following form. Hand-inked black strokes on white paper, no halftone dots, no grey wash, no movement lines. Clear different hatch densities on face, clothing and wall.\n\nCELL 3 (BOTTOM LEFT): Strong graphic comic panel: the adult woman in side profile, full body, carrying a small lantern at her side. Her body, bob hair and jacket form a SOLID BLACK silhouette against a mostly white courtyard doorway. A few white negative-shape openings distinguish arm from torso. No facial features, no grey rendering.\n\nCELL 4 (BOTTOM RIGHT): Noir comic close medium shot of the same adult woman under one side lamp. One half of her face and jacket is bright white, the other broken into carefully shaped deep black shadow. Both some facial line detail and a clear eye remain visible. Angular doorway shadows, bold ink masses. NO overall silhouette and no halftone dots.\n\nFinal layout priority: exactly 2 x 2 equally sized contact-sheet cells, one complete example per cell. Generous boundary clearance, no unintended cropping or content shared across cells.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 68,
+      "origin": "AI-generated single-panel visual demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "MC005",
+          "label": "MC005",
+          "name": "网点灰阶单格"
+        },
+        {
+          "entry_id": "MC006",
+          "label": "MC006",
+          "name": "排线塑形单格"
+        },
+        {
+          "entry_id": "MC007",
+          "label": "MC007",
+          "name": "实黑剪影单格"
+        },
+        {
+          "entry_id": "MC008",
+          "label": "MC008",
+          "name": "强反差灯影单格"
+        }
+      ]
+    },
+    {
+      "id": "visual-mc-3-v68",
+      "category": "comic_panel_art",
+      "title": "漫画格框、用墨与气氛 · 气氛背景与旁白",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-visual-mc-3-v68.png",
+      "prompt": "Use case: scientific-educational visual-reference atlas. Original artwork, no copied film, comic franchise or artist identity. LANDSCAPE canvas, exactly TWO COLUMNS and TWO ROWS of equal cells, row-major order, FOUR independent reference illustrations. A thin straight dark vertical separator at exactly half width and horizontal separator at exactly half height, small consistent pale paper margins. No title, labels, IDs, watermarks, UI or logos. Each cell is an INDEPENDENT SINGLE FRAME, not a comic page or three-frame storyboard strip. Keep every example inside its own cell. All people are clearly adults. Recurring main character: adult woman about 28, dark chestnut bob, opaque teal everyday jacket over cream crew-neck top, charcoal trousers and shoes. Respect the technique specified in each cell. Any deliberate inset or internal border belongs only to that cell. Do not let one technique leak to neighboring examples. Apart from explicitly requested dialogue or sound-effect characters, NO TEXT. Manga/comic ink illustration; the requested expression, panel structure, tone or lettering is the focus, not the costume. \n\nCELL 1 (TOP LEFT): Lyrical shojo-style single comic panel. Adult woman smiles gently in an ordinary opaque jacket and crew-neck shirt. Surround her bust portrait with drawn flowers and drifting petals replacing the physical location. Fine black ink, light screentones, a few very pale rose accents. Flowers are background decoration, NOT clothing print.\n\nCELL 2 (TOP RIGHT): Single glamor-reaction comic panel of adult woman turning with a confident small smile. Dense but elegantly spaced star glints, four-point sparkles and white highlight bursts behind her head and shoulders; no flowers. Black and white ink with pale warm screen tones. Eyes remain unobscured; her opaque everyday clothing remains unchanged.\n\nCELL 3 (BOTTOM LEFT): A quiet bordered comic panel with the adult woman small at the lower-left, standing still with hands near jacket pockets and head slightly lowered. Most of the frame is clean EMPTY WHITE PAPER. Only one minimal floor line and a distant door edge suggest space. NO dialogue, no ellipsis, no symbols, no decorative background.\n\nCELL 4 (BOTTOM RIGHT): One comic panel of adult woman arriving under a stone arch after rain. At the upper-left INSIDE the panel place one simple rectangular narration caption box, no speech tail. Exact short Chinese text in it: 次日清晨. No other text or bubbles. Black ink, clear frame and light grey tones.\n\nFinal layout priority: exactly 2 x 2 equally sized contact-sheet cells, one complete example per cell. Generous boundary clearance, no unintended cropping or content shared across cells.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 68,
+      "origin": "AI-generated single-panel visual demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "MC009",
+          "label": "MC009",
+          "name": "花卉抒情背景格"
+        },
+        {
+          "entry_id": "MC010",
+          "label": "MC010",
+          "name": "闪亮高光气氛格"
+        },
+        {
+          "entry_id": "MC011",
+          "label": "MC011",
+          "name": "留白沉默停顿格"
+        },
+        {
+          "entry_id": "MC012",
+          "label": "MC012",
+          "name": "矩形旁白框叙事格"
+        }
+      ]
+    },
+    {
+      "id": "visual-mx-1-v68",
+      "category": "comic_panel_effects",
+      "title": "漫画动势、符号与气泡 · 动势与情绪线",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-visual-mx-1-v68.png",
+      "prompt": "Use case: scientific-educational visual-reference atlas. Original artwork, no copied film, comic franchise or artist identity. LANDSCAPE canvas, exactly TWO COLUMNS and TWO ROWS of equal cells, row-major order, FOUR independent reference illustrations. A thin straight dark vertical separator at exactly half width and horizontal separator at exactly half height, small consistent pale paper margins. No title, labels, IDs, watermarks, UI or logos. Each cell is an INDEPENDENT SINGLE FRAME, not a comic page or three-frame storyboard strip. Keep every example inside its own cell. All people are clearly adults. Recurring main character: adult woman about 28, dark chestnut bob, opaque teal everyday jacket over cream crew-neck top, charcoal trousers and shoes. Respect the technique specified in each cell. Any deliberate inset or internal border belongs only to that cell. Do not let one technique leak to neighboring examples. Apart from explicitly requested dialogue or sound-effect characters, NO TEXT. Manga/comic ink illustration; the requested expression, panel structure, tone or lettering is the focus, not the costume. \n\nCELL 1 (TOP LEFT): Adult woman waist-up with an alert surprised expression, centered. Strong radial black focus lines converge toward her face from all edges, with a clean white buffer around her head so the eyes remain visible. One ordinary comic frame. NOT parallel motion lines, no words or balloons.\n\nCELL 2 (TOP RIGHT): Full-body adult woman running toward the right with a satchel, jacket and hair trailing left. Background is long nearly horizontal PARALLEL speed lines, with thicker leading strokes and clear direction. Black and white manga. NO radial lines and no ghost copies of her body.\n\nCELL 3 (BOTTOM LEFT): Comic bust portrait of the adult woman frozen in awkward embarrassment, shoulders slightly dropped. Dark ink shadow across upper forehead and eyes, many thin downward VERTICAL gloom lines above and behind her head. Her lower face remains readable. No speed lines, no flowers, no words, no injury.\n\nCELL 4 (BOTTOM RIGHT): Dynamic single manga panel of adult woman planting an open palm firmly on a table. A tight jagged white-and-black IMPACT BURST is centered exactly where palm meets tabletop, with short energetic strokes around the contact. No injuries, no weapons, no contact with another person, no letters. One anatomically correct hand with five fingers.\n\nFinal layout priority: exactly 2 x 2 equally sized contact-sheet cells, one complete example per cell. Generous boundary clearance, no unintended cropping or content shared across cells.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 68,
+      "origin": "AI-generated single-panel visual demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "MX001",
+          "label": "MX001",
+          "name": "集中线强调格"
+        },
+        {
+          "entry_id": "MX002",
+          "label": "MX002",
+          "name": "速度线运动格"
+        },
+        {
+          "entry_id": "MX003",
+          "label": "MX003",
+          "name": "竖线压脸情绪格"
+        },
+        {
+          "entry_id": "MX004",
+          "label": "MX004",
+          "name": "冲击爆点定格"
+        }
+      ]
+    },
+    {
+      "id": "visual-mx-2-v68",
+      "category": "comic_panel_effects",
+      "title": "漫画动势、符号与气泡 · 变形与符号化",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-visual-mx-2-v68.png",
+      "prompt": "Use case: scientific-educational visual-reference atlas. Original artwork, no copied film, comic franchise or artist identity. LANDSCAPE canvas, exactly TWO COLUMNS and TWO ROWS of equal cells, row-major order, FOUR independent reference illustrations. A thin straight dark vertical separator at exactly half width and horizontal separator at exactly half height, small consistent pale paper margins. No title, labels, IDs, watermarks, UI or logos. Each cell is an INDEPENDENT SINGLE FRAME, not a comic page or three-frame storyboard strip. Keep every example inside its own cell. All people are clearly adults. Recurring main character: adult woman about 28, dark chestnut bob, opaque teal everyday jacket over cream crew-neck top, charcoal trousers and shoes. Respect the technique specified in each cell. Any deliberate inset or internal border belongs only to that cell. Do not let one technique leak to neighboring examples. Apart from explicitly requested dialogue or sound-effect characters, NO TEXT. Manga/comic ink illustration; the requested expression, panel structure, tone or lettering is the focus, not the costume. \n\nCELL 1 (TOP LEFT): ONE unbroken comic panel, no internal subdivisions: adult woman briskly turns and reaches forward. Show one solid final pose and two lighter ghosted preceding silhouettes offset behind her, all clearly the SAME woman as temporal AFTERIMAGES, not extra characters. Each ghost has coherent separate limbs; no fused anatomy. Black ink and pale grey.\n\nCELL 2 (TOP RIGHT): Same adult woman reinterpreted as an explicitly stylized ADULT chibi, about three heads tall, complete opaque teal jacket, cream top, charcoal trousers and shoes. Full tiny body, hands raised in a cheerful startled reaction. Large simple head, simplified face, clean bold manga outline. No child props, no dialogue or other figures.\n\nCELL 3 (BOTTOM LEFT): Comic exaggerated reaction of the same fully clothed adult woman: head and shoulders stretch in surprise, eyes become large simple oval outlines, jaw drops comically and hair lifts in angular shapes. Intentionally rubbery squash-and-stretch drawing, highly expressive BLACK INK, not realistic anatomy, not horror or injury. Keep her recognizable bob and everyday jacket.\n\nCELL 4 (BOTTOM RIGHT): Adult woman tilts her head with one brow raised and hands at her sides. Two bold floating question marks and one large outlined sweat drop sit in clear empty space near her head. EXACT symbols: ? ?. No speech bubble, no words. Single ordinary inked comic panel, recognizable normal adult proportions.\n\nFinal layout priority: exactly 2 x 2 equally sized contact-sheet cells, one complete example per cell. Generous boundary clearance, no unintended cropping or content shared across cells.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 68,
+      "origin": "AI-generated single-panel visual demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "MX005",
+          "label": "MX005",
+          "name": "残影连动单格"
+        },
+        {
+          "entry_id": "MX006",
+          "label": "MX006",
+          "name": "成人Q版反应格"
+        },
+        {
+          "entry_id": "MX007",
+          "label": "MX007",
+          "name": "夸张变形反应格"
+        },
+        {
+          "entry_id": "MX008",
+          "label": "MX008",
+          "name": "浮空符号反应格"
+        }
+      ]
+    },
+    {
+      "id": "visual-mx-3-v68",
+      "category": "comic_panel_effects",
+      "title": "漫画动势、符号与气泡 · 气泡与拟声",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-visual-mx-3-v68.png",
+      "prompt": "Use case: scientific-educational visual-reference atlas. Original artwork, no copied film, comic franchise or artist identity. LANDSCAPE canvas, exactly TWO COLUMNS and TWO ROWS of equal cells, row-major order, FOUR independent reference illustrations. A thin straight dark vertical separator at exactly half width and horizontal separator at exactly half height, small consistent pale paper margins. No title, labels, IDs, watermarks, UI or logos. Each cell is an INDEPENDENT SINGLE FRAME, not a comic page or three-frame storyboard strip. Keep every example inside its own cell. All people are clearly adults. Recurring main character: adult woman about 28, dark chestnut bob, opaque teal everyday jacket over cream crew-neck top, charcoal trousers and shoes. Respect the technique specified in each cell. Any deliberate inset or internal border belongs only to that cell. Do not let one technique leak to neighboring examples. Apart from explicitly requested dialogue or sound-effect characters, NO TEXT. Manga/comic ink illustration; the requested expression, panel structure, tone or lettering is the focus, not the costume. \n\nCELL 1 (TOP LEFT): Adult woman at a doorway speaks calmly. Place ONE clean white OVAL SPEECH BALLOON near the top-right, with a pointed connected tail aimed toward her mouth. Exact readable short Chinese text: 到了。 No other letters. Clean black ink and screentone, her entire face remains unobscured.\n\nCELL 2 (TOP RIGHT): Adult woman leans forward and calls to someone off frame with one hand raised. ONE bold jagged spiky SHOUT BALLOON with a connected tail aimed at her mouth. Exact short Chinese text: 等等！ No other text. Strong energetic ink, no impact against another person, no additional panels.\n\nCELL 3 (BOTTOM LEFT): Adult woman rests fingers near her chin, thinking. ONE cloud-lobed THOUGHT BALLOON above her, linked toward her head by three separate small round bubbles, NOT a pointed tail. Exact short Chinese text: 怎么办？ No other text. Crisp black ink, light tones, uncluttered composition.\n\nCELL 4 (BOTTOM RIGHT): Adult woman closes a heavy wooden door with one palm while looking back. Integrate one LARGE BOLD hand-drawn Chinese sound-effect character 咚 beside the door contact edge, tilted to follow the action. The character is NOT inside a bubble. No other text. Clean readable single-panel manga composition, no violence or injury.\n\nFinal layout priority: exactly 2 x 2 equally sized contact-sheet cells, one complete example per cell. Generous boundary clearance, no unintended cropping or content shared across cells.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 68,
+      "origin": "AI-generated single-panel visual demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "MX009",
+          "label": "MX009",
+          "name": "椭圆对白气泡格"
+        },
+        {
+          "entry_id": "MX010",
+          "label": "MX010",
+          "name": "锯齿喊话气泡格"
+        },
+        {
+          "entry_id": "MX011",
+          "label": "MX011",
+          "name": "云朵心声气泡格"
+        },
+        {
+          "entry_id": "MX012",
+          "label": "MX012",
+          "name": "拟声字融入画面"
+        }
+      ]
+    },
+    {
+      "id": "visual-sb-1-v68",
+      "category": "storyboard_drafts",
+      "title": "影视分镜与预演手稿 · 草稿到明暗分镜",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-visual-sb-1-v68.png",
+      "prompt": "Use case: scientific-educational visual-reference atlas. Original artwork, no copied film, comic franchise or artist identity. LANDSCAPE canvas, exactly TWO COLUMNS and TWO ROWS of equal cells, row-major order, FOUR independent reference illustrations. A thin straight dark vertical separator at exactly half width and horizontal separator at exactly half height, small consistent pale paper margins. No title, labels, IDs, watermarks, UI or logos. Each cell is an INDEPENDENT SINGLE FRAME, not a comic page or three-frame storyboard strip. Keep every example inside its own cell. All people are clearly adults. Recurring main character: adult woman about 28, dark chestnut bob, opaque teal everyday jacket over cream crew-neck top, charcoal trousers and shoes. Respect the technique specified in each cell. Any deliberate inset or internal border belongs only to that cell. Do not let one technique leak to neighboring examples. Apart from explicitly requested dialogue or sound-effect characters, NO TEXT. The four cells show ORIGINAL FILM PREPRODUCTION ART, each a single widescreen shot on a pale paper-like cell. A simple wide inner film frame and modest paper margin is allowed. Main adult woman is a courier at an abandoned stone-and-glass observatory, in the same teal jacket and opaque everyday clothing. Favor readable scene composition and production-design brush or pencil marks rather than character-sheet posing. NO typography or fake production annotations. \n\nCELL 1 (TOP LEFT): One very rough black pencil THUMBNAIL STORYBOARD FRAME on white paper. Adult female courier enters a cavernous old observatory hall through a side door, tiny foreground arch and deep perspective. Use only quick gesture lines and simple environment shapes, a few dark blocks. Lots of exploratory strokes, deliberately unfinished, NO polished rendering, no written notes.\n\nCELL 2 (TOP RIGHT): One CLEAN-LINE STORYBOARD FRAME of the adult female courier opening the observatory door. Precise confident black contours, readable clothed body, hand on door handle, interior architecture and simple perspective. Almost no tonal shading. Clearly a production storyboard drawing on pale paper, not a finished color illustration. No words or arrows.\n\nCELL 3 (BOTTOM LEFT): One TONAL GRAYSCALE STORYBOARD FRAME. Same adult woman in the old observatory hall, backlit by a bright doorway. Broad black, dark grey, medium grey and white shape groups establish depth and focal hierarchy. Loose black outlines remain visible, no color. Her silhouette is readable against the doorway, surroundings simplified.\n\nCELL 4 (BOTTOM RIGHT): One COLOR STORYBOARD FRAME of the courier stepping into the observatory: visible loose line drawing, limited teal-blue shadows and warm amber doorway light, flat simplified color fills, small amount of broad painterly shading. Story information remains crisp and economical. Not photorealistic, no dense detail, no text.\n\nFinal layout priority: exactly 2 x 2 equally sized contact-sheet cells, one complete example per cell. Generous boundary clearance, no unintended cropping or content shared across cells.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 68,
+      "origin": "AI-generated single-panel visual demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "SB001",
+          "label": "SB001",
+          "name": "分镜缩略草图"
+        },
+        {
+          "entry_id": "SB002",
+          "label": "SB002",
+          "name": "清线叙事分镜稿"
+        },
+        {
+          "entry_id": "SB003",
+          "label": "SB003",
+          "name": "灰阶明暗分镜稿"
+        },
+        {
+          "entry_id": "SB004",
+          "label": "SB004",
+          "name": "彩色叙事分镜稿"
+        }
+      ]
+    },
+    {
+      "id": "visual-sb-2-v68",
+      "category": "storyboard_drafts",
+      "title": "影视分镜与预演手稿 · 布局与表演预演",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-visual-sb-2-v68.png",
+      "prompt": "Use case: scientific-educational visual-reference atlas. Original artwork, no copied film, comic franchise or artist identity. LANDSCAPE canvas, exactly TWO COLUMNS and TWO ROWS of equal cells, row-major order, FOUR independent reference illustrations. A thin straight dark vertical separator at exactly half width and horizontal separator at exactly half height, small consistent pale paper margins. No title, labels, IDs, watermarks, UI or logos. Each cell is an INDEPENDENT SINGLE FRAME, not a comic page or three-frame storyboard strip. Keep every example inside its own cell. All people are clearly adults. Recurring main character: adult woman about 28, dark chestnut bob, opaque teal everyday jacket over cream crew-neck top, charcoal trousers and shoes. Respect the technique specified in each cell. Any deliberate inset or internal border belongs only to that cell. Do not let one technique leak to neighboring examples. Apart from explicitly requested dialogue or sound-effect characters, NO TEXT. The four cells show ORIGINAL FILM PREPRODUCTION ART, each a single widescreen shot on a pale paper-like cell. A simple wide inner film frame and modest paper margin is allowed. Main adult woman is a courier at an abandoned stone-and-glass observatory, in the same teal jacket and opaque everyday clothing. Favor readable scene composition and production-design brush or pencil marks rather than character-sheet posing. NO typography or fake production annotations. \n\nCELL 1 (TOP LEFT): One perspective LAYOUT drawing for the observatory interior. Adult woman stands near the middle distance; foreground railing and distant circular window establish clear depth. Draw visible pale blue perspective construction lines on floor and architecture beneath dark pencil cleanup. One camera view only, not a floorplan, no extra view insets or written annotations.\n\nCELL 2 (TOP RIGHT): One ACTION KEY-POSE production sketch: adult clothed female courier takes a long balancing step over a fallen low beam while extending one hand for balance and holding a small lantern in the other. Strong readable full-body silhouette and line of action. Loose pale blue construction beneath confident black pencil. ONE pose, no afterimages or neighboring frames.\n\nCELL 3 (BOTTOM LEFT): One ACTING AND STAGING STORYBOARD. Adult female courier in teal jacket offers the lantern handle to an adult man in a brown coat at the observatory door. Medium-wide view, both figures and clear interpersonal distance, hands and eye-lines readable. Expressive black pencil with restrained grey shading. ONE shared scene and moment, no split screen or arrows.\n\nCELL 4 (BOTTOM RIGHT): One 3D CLAY PREVIS frame of the female courier entering an observatory. Clearly clothed simplified adult female mannequin with bob, jacket, trousers and shoes; all surfaces matte neutral grey. Low-detail box-and-cylinder architecture, basic area light and cast shadows. Actual perspective render appearance, no sketch lines, no final textures, no nude anatomical mannequin, no UI.\n\nFinal layout priority: exactly 2 x 2 equally sized contact-sheet cells, one complete example per cell. Generous boundary clearance, no unintended cropping or content shared across cells.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 68,
+      "origin": "AI-generated single-panel visual demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "SB005",
+          "label": "SB005",
+          "name": "透视与布局分镜稿"
+        },
+        {
+          "entry_id": "SB006",
+          "label": "SB006",
+          "name": "动作关键姿势稿"
+        },
+        {
+          "entry_id": "SB007",
+          "label": "SB007",
+          "name": "双人表演调度稿"
+        },
+        {
+          "entry_id": "SB008",
+          "label": "SB008",
+          "name": "三维灰模预演帧"
+        }
+      ]
+    },
+    {
+      "id": "visual-fk-1-v68",
+      "category": "film_keyframes",
+      "title": "影视概念关键帧 · 空间与人物叙事",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-visual-fk-1-v68.png",
+      "prompt": "Use case: scientific-educational visual-reference atlas. Original artwork, no copied film, comic franchise or artist identity. LANDSCAPE canvas, exactly TWO COLUMNS and TWO ROWS of equal cells, row-major order, FOUR independent reference illustrations. A thin straight dark vertical separator at exactly half width and horizontal separator at exactly half height, small consistent pale paper margins. No title, labels, IDs, watermarks, UI or logos. Each cell is an INDEPENDENT SINGLE FRAME, not a comic page or three-frame storyboard strip. Keep every example inside its own cell. All people are clearly adults. Recurring main character: adult woman about 28, dark chestnut bob, opaque teal everyday jacket over cream crew-neck top, charcoal trousers and shoes. Respect the technique specified in each cell. Any deliberate inset or internal border belongs only to that cell. Do not let one technique leak to neighboring examples. Apart from explicitly requested dialogue or sound-effect characters, NO TEXT. The four cells show ORIGINAL FILM PREPRODUCTION ART, each a single widescreen shot on a pale paper-like cell. A simple wide inner film frame and modest paper margin is allowed. Main adult woman is a courier at an abandoned stone-and-glass observatory, in the same teal jacket and opaque everyday clothing. Favor readable scene composition and production-design brush or pencil marks rather than character-sheet posing. NO typography or fake production annotations. \n\nCELL 1 (TOP LEFT): One cinematic painted CONCEPT KEYFRAME: wide view of a vast abandoned glass-roof observatory with stone arches, overgrown plants and shafts of dusty sun. The adult female courier in teal jacket is a small but unmistakable full-body figure entering from foreground toward the central instrument. Strong scale, depth and storytelling composition, beautiful visible digital brushwork, not a diagram.\n\nCELL 2 (TOP RIGHT): One painted cinematic keyframe of the adult female courier's ENTRANCE. Three-quarter full body at a huge half-open observatory door, teal jacket and charcoal trousers, hand at door edge. Bright warm exterior makes an attractive readable rim-lit silhouette against a dark deep-blue hall; her face remains partly readable. Strong reveal moment, textured production concept painting, no multiple views.\n\nCELL 3 (BOTTOM LEFT): One fully painted PEAK-ACTION cinematic keyframe: the adult female courier leaps over a low fallen beam inside the observatory, holding a small lantern securely, free hand extended for balance, jacket hem and bob swept by movement. Strong diagonal full-body composition, dust in light beams, coherent anatomy. One figure and moment only, no afterimages, no dangerous weapon or injury.\n\nCELL 4 (BOTTOM RIGHT): One emotional cinematic painted keyframe, medium close view. Adult female courier in teal jacket has just opened a tiny old brass music box in both hands; her guarded face softens into a surprised tender expression, a small moist eye highlight. Warm box reflection against cool observatory shadows. Restrained acting, detailed hands, narrative prop clearly visible, no text or montage.\n\nFinal layout priority: exactly 2 x 2 equally sized contact-sheet cells, one complete example per cell. Generous boundary clearance, no unintended cropping or content shared across cells.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 68,
+      "origin": "AI-generated single-panel visual demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "FK001",
+          "label": "FK001",
+          "name": "环境建立概念关键帧"
+        },
+        {
+          "entry_id": "FK002",
+          "label": "FK002",
+          "name": "角色登场概念关键帧"
+        },
+        {
+          "entry_id": "FK003",
+          "label": "FK003",
+          "name": "动作高潮概念关键帧"
+        },
+        {
+          "entry_id": "FK004",
+          "label": "FK004",
+          "name": "情绪转折概念关键帧"
+        }
+      ]
+    },
+    {
+      "id": "visual-fk-2-v68",
+      "category": "film_keyframes",
+      "title": "影视概念关键帧 · 光色与视觉设计",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-visual-fk-2-v68.png",
+      "prompt": "Use case: scientific-educational visual-reference atlas. Original artwork, no copied film, comic franchise or artist identity. LANDSCAPE canvas, exactly TWO COLUMNS and TWO ROWS of equal cells, row-major order, FOUR independent reference illustrations. A thin straight dark vertical separator at exactly half width and horizontal separator at exactly half height, small consistent pale paper margins. No title, labels, IDs, watermarks, UI or logos. Each cell is an INDEPENDENT SINGLE FRAME, not a comic page or three-frame storyboard strip. Keep every example inside its own cell. All people are clearly adults. Recurring main character: adult woman about 28, dark chestnut bob, opaque teal everyday jacket over cream crew-neck top, charcoal trousers and shoes. Respect the technique specified in each cell. Any deliberate inset or internal border belongs only to that cell. Do not let one technique leak to neighboring examples. Apart from explicitly requested dialogue or sound-effect characters, NO TEXT. The four cells show ORIGINAL FILM PREPRODUCTION ART, each a single widescreen shot on a pale paper-like cell. A simple wide inner film frame and modest paper margin is allowed. Main adult woman is a courier at an abandoned stone-and-glass observatory, in the same teal jacket and opaque everyday clothing. Favor readable scene composition and production-design brush or pencil marks rather than character-sheet posing. NO typography or fake production annotations. \n\nCELL 1 (TOP LEFT): One LIGHTING DESIGN cinematic concept keyframe: full-body adult courier beneath one hanging amber lamp in a misty blue observatory corridor at dusk, wet stone softly reflecting light. Strong warm/cool separation, broad shadow masses, clear focal hierarchy and readable face. Painterly lighting study with atmospheric depth, not a polished still photograph or a collage of variants.\n\nCELL 2 (TOP RIGHT): ONE SINGLE COLOR-SCRIPT FRAME, not a sequence or contact sheet inside the cell. Highly simplified painted shapes depict the adult courier as a small teal-clothed silhouette walking across a narrow warm amber light path in a large deep-blue observatory. Clear huge color masses, warm/cool story emotion, minimal detail, visible gouache-like brush shapes. No palette swatches, no captions, no panel subdivisions.\n\nCELL 3 (BOTTOM LEFT): One cinematic VFX CONCEPT KEYFRAME: adult female courier stands in the observatory, one open hand lifting a huge translucent turquoise celestial mechanism made of elegant glowing rings and particles above a dormant instrument. The light illuminates her face, jacket and stone floor coherently. Painterly cinematic integration, scale and design exploration, no interface text, no franchise symbols, no multiple stages.\n\nCELL 4 (BOTTOM RIGHT): One FILM ENVIRONMENT PAINTOVER concept keyframe. Begin with a believable photorealistic-style old observatory hall and an adult female courier in teal jacket, then show clearly visible loose digital PAINTOVER brushwork and pencil construction strokes proposing new brass arches, suspended lamps and a central mechanical instrument within that SAME scene. Intentionally mixed realistic foundation and unfinished design paint. No before/after split, no extra views, no annotations or text.\n\nFinal layout priority: exactly 2 x 2 equally sized contact-sheet cells, one complete example per cell. Generous boundary clearance, no unintended cropping or content shared across cells.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 68,
+      "origin": "AI-generated single-panel visual demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "FK005",
+          "label": "FK005",
+          "name": "灯光气氛设计关键帧"
+        },
+        {
+          "entry_id": "FK006",
+          "label": "FK006",
+          "name": "色彩脚本中的单帧"
+        },
+        {
+          "entry_id": "FK007",
+          "label": "FK007",
+          "name": "特效概念设计关键帧"
+        },
+        {
+          "entry_id": "FK008",
+          "label": "FK008",
+          "name": "场景覆绘设计关键帧"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "R194",
+      "title": "Frames and Panels",
+      "publisher": "CLIP STUDIO PAINT Manual",
+      "url": "https://help.clip-studio.com/en-us/manual_en/540_comic/Frames_and_Panels.htm",
+      "kind": "官方漫画与影视设计资料",
+      "topics": "漫画表现与影视视觉开发",
+      "summary": "漫画格框、形状与显示区域的基础说明。",
+      "rights": "相关阅读链接；未复制其中图片。",
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "R195",
+      "title": "Speed lines and Focus lines",
+      "publisher": "CLIP STUDIO PAINT Manual",
+      "url": "https://help.clip-studio.com/en-us/manual_en/540_comic/Speed_lines_and_Focus_lines.htm",
+      "kind": "官方漫画与影视设计资料",
+      "topics": "漫画表现与影视视觉开发",
+      "summary": "说明速度线与集中线如何强调动作、运动和情绪。",
+      "rights": "相关阅读链接；未复制其中图片。",
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "R196",
+      "title": "Balloons",
+      "publisher": "CLIP STUDIO PAINT Manual",
+      "url": "https://help.clip-studio.com/en-us/manual_en/540_comic/Balloons.htm",
+      "kind": "官方漫画与影视设计资料",
+      "topics": "漫画表现与影视视觉开发",
+      "summary": "漫画气泡轮廓、尾线和闪光式气泡的基础说明。",
+      "rights": "相关阅读链接；未复制其中图片。",
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "R197",
+      "title": "Visual Development",
+      "publisher": "Walt Disney Animation Studios",
+      "url": "https://www.disneyanimation.com/process/visual-development/",
+      "kind": "官方漫画与影视设计资料",
+      "topics": "漫画表现与影视视觉开发",
+      "summary": "介绍视觉开发如何通过人物、世界、色彩和构图凝聚故事时刻。",
+      "rights": "相关阅读链接；未复制其中图片。",
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "R198",
+      "title": "Concept artist (VFX)",
+      "publisher": "ScreenSkills",
+      "url": "https://www.screenskills.com/job-profiles/browse/visual-effects-vfx/pre-production/concept-artist-visual-effects-vfx/",
+      "kind": "官方漫画与影视设计资料",
+      "topics": "漫画表现与影视视觉开发",
+      "summary": "介绍影视概念图如何建立人物、环境、道具及视觉效果的共同设计方向。",
+      "rights": "相关阅读链接；未复制其中图片。",
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "R199",
+      "title": "Story — Filmmaking Process",
+      "publisher": "Walt Disney Animation Studios",
+      "url": "https://www.disneyanimation.com/process/story/",
+      "kind": "官方漫画与影视设计资料",
+      "topics": "漫画表现与影视视觉开发",
+      "summary": "介绍从脚本缩略草图、提炼草稿到清晰分镜与明暗处理的故事可视化过程。",
+      "rights": "相关阅读链接；未复制其中图片。",
+      "checked": "2026-11-03"
+    }
+  ]
+}

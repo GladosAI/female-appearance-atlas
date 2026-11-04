@@ -1,0 +1,26 @@
+/* Theme variables and dropdown labels share theme_palettes.json. */
+__PALETTE_STYLES__
+.btn.primary,.body-axis-buttons button[aria-pressed="true"]{color:var(--accent-ink)}
+#categories.catalog-tree .tree-link.active{color:var(--accent-ink)}
+.hero .eyebrow,.brand small{color:var(--support)}
+.brand-mark{color:var(--accent);background:var(--soft)}
+.sidebar{background:var(--sidebar-bg)}
+#search,.directory-tools input,.hierarchy-controls select,.extra-filter-fields select,.sort-control select,.theme-picker select,.dimension-filter,.mobile-category{background:var(--field-bg);border-color:var(--field-line)}
+.image-button,.detail-image{background:#f5f0e9}
+.segmented button[aria-pressed="true"]{box-shadow:0 2px 5px #30252c12}
+dialog::backdrop{background:var(--backdrop)}
+:is(button,a,input,select,textarea,summary):focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.topline{flex-wrap:wrap;gap:10px}
+.topline-actions{display:flex;align-items:center;gap:10px;margin-left:auto}
+.theme-picker{display:flex;align-items:center;gap:7px;font-size:11px;color:var(--muted)}
+.theme-picker select{width:138px;max-width:100%;min-height:37px;padding:7px 26px 7px 10px;border:1px solid var(--field-line);border-radius:9px;background:var(--field-bg);color:var(--ink);font-size:12px;cursor:pointer}
+@media(max-width:560px){
+  .topline{row-gap:9px}
+  .edition{font-size:9px;letter-spacing:.06em}
+  .topline-actions{gap:6px}
+  .theme-picker>span{display:none}
+  .theme-picker select{width:132px;min-height:32px;font-size:11px;padding:6px 18px 6px 7px}
+}
+@media print{
+  :root,:root[data-theme]{--bg:#fff;--surface:#fff;--ink:#111;--muted:#444;--line:#ccc;--accent:#222;--soft:#eee;--support:#444;--accent-ink:#fff;color-scheme:light}
+}

@@ -1,0 +1,326 @@
+"""Edition 8: hooded cloaks, original themed costumes and hair references."""
+from catalog_content import CATALOG, CATEGORIES, category, add
+
+def block(key,dimension,text,aliases=()):
+    start=len(CATALOG);add(key,dimension,text)
+    assert len(CATALOG)-start==16,(key,dimension,len(CATALOG)-start)
+    for e in CATALOG[start:]:
+        e['aliases']=list(aliases)
+        if key=='special_costumes':e['reference_ids']=[]
+        elif key=='outerwear':
+            e['reference_ids']=['R05','R06','R52'];e['hooded_cloak']=True
+
+for e in CATALOG:
+    if e['name']=='连帽斗篷':
+        e['hooded_cloak']=True
+        e['aliases']=e.get('aliases',[])+['兜帽斗篷','带帽披风','hooded cloak']
+
+for c in CATEGORIES:
+    if c['id']=='special_costumes':
+        c['name']='特殊主题装扮'
+        c['guide']='女仆、兽耳拟态、节庆假面、幻想生物与道具主题分别整理；图例为成年角色的原创完整装扮，标明服装、装饰和固定点。'
+category('hair_combinations','完整发型与造型组合','把剪裁、刘海、侧束、扎编与固定点组合成完整方案；这是可直接用于角色设计的发型搭配，服饰与发色可另换。',['R01','R02','R53'])
+
+block('outerwear','兜帽斗篷：长度与开合','''
+系带圆兜短斗篷|tie-front round-hood capelet|圆弧帽兜连接齐肘短披覆，颈前系带，整圈下摆与独立内搭袖可见。
+深兜及腰斗篷|deep-hood waist-length cape|帽兜前伸形成较深面口，披覆到腰部，颈扣和肩部落点清楚。
+尖兜膝长斗篷|pointed-hood knee-length cloak|兜帽后顶有软尖，披覆到膝部，前开口露出内搭裤，帽根与衣身相连。
+圆兜落地斗篷|round-hood floor-length cloak|宽圆帽兜与及踝长斗篷，胸前双扣，布料覆盖身体轮廓但完整露出鞋尖。
+兜帽前拉链披风|front-zip hooded cape|正中拉链从领口延至腹部，环形披覆无独立袖管，帽缘与门襟连接可辨。
+兜帽偏襟扣合斗篷|offset-fastened hooded cloak|领部偏侧扣合，前布片交叠，帽兜从后领伸出，左右前缘不同。
+兜帽双排扣短披风|double-breasted hooded short cape|短披风前部双排扣、宽帽兜与圆下摆，侧面开口露出内搭手臂。
+兜帽套头披布|pullover hooded poncho|中心领口连兜帽，没有整条前门襟，方形披布形成前后两个下垂角。
+兜帽侧臂开口斗篷|hooded cloak with arm slits|前侧两道竖向臂口，手从开口伸出，臂口上方仍由斗篷布覆盖。
+兜帽短披肩长内裙装|hooded capelet over long dress|齐肩下短兜帽披肩罩长裙，颈结固定，两层不同长度明确。
+兜帽前短后长披风|high-low hooded cloak|前摆到膝上、后摆到脚踝，侧转展示长度差，帽兜与肩部接缝清楚。
+兜帽分叉后摆斗篷|split-tail hooded cloak|背面下摆分成两片长尾，三分之二后侧视角显示分叉，前襟扣合。
+兜帽宽领叠片斗篷|layered-collar hooded cloak|兜帽外根部叠宽肩领片，领片、帽兜和主体长披覆三个层次。
+可拆兜帽旅行斗篷|detachable-hood travel cloak|兜帽沿后领用小扣连接，连接边可见，前胸扣与旅行内搭配合。
+折叠兜帽领缘斗篷|fold-away hood cloak|帽兜收折在后领，侧转显示折叠兜口与扣袢，衣身仍为无袖披覆。
+双面里衬兜帽披风|reversible-lined hooded cloak|帽口翻出对比内衬，前缘和下摆同样显示内外两层，胸扣固定。
+''',('兜帽斗篷','连帽披风','带帽斗篷','hooded cloak','hooded cape'))
+
+block('outerwear','兜帽斗篷：材质与场景','''
+羊毛绒边兜帽斗篷|wool hooded cloak with plush edging|厚羊毛长披覆、仿毛帽口与颈扣，外层重量形成大幅垂褶。
+绗缝保暖兜帽披风|quilted insulated hooded cape|帽兜和披覆都有菱形绗缝，及膝下摆、前搭扣与内搭手臂分开。
+轻薄防雨兜帽斗篷|light rain hooded cloak|宽帽兜前有小护檐，防雨无袖披覆、压胶接缝和前开合清楚。
+透明罩层兜帽雨披|transparent-overlay hooded rain cape|透明外罩帽兜和披布覆盖完整不透明内搭，边缘封条与按扣可见。
+多袋远行兜帽斗篷|pocketed expedition hooded cloak|帽兜、侧臂开口与胸侧工具袋，袋的连接面片和肩部承重点明确。
+林地系绳兜帽斗篷|woodland drawstring hooded cloak|素色亚麻感披覆，帽口抽绳与领部木扣，双侧裙摆可拨开行走。
+荒原防尘兜帽披风|dust-travel hooded cape|宽面口帽兜配独立颈巾，长披覆与腰内层带分开，前侧开口可见。
+极地护颈兜帽斗篷|polar-inspired neckguard hood cloak|厚兜帽和高护颈领相叠，短前搭片、长背覆和仿毛内缘。
+夜行扣链兜帽斗篷|night-travel chain-clasp hood cloak|深色长披覆、帽口翻边与双点短扣链，扣链固定在肩前加固片。
+蕾丝外缘兜帽短披风|lace-edged hooded capelet|不透明短披覆边缘有蕾丝，帽兜与领结完整，装饰集中外缘。
+星图衬里兜帽长披风|star-map-lined hooded cloak|素色长斗篷翻出原创星图衬里，帽内外及衣缘两面区分，非发光皮肤。
+镶甲肩片兜帽斗篷|shoulder-guard hooded cloak|帽兜下有两片原创小肩护具，布披风从护具下落，扣带固定合理。
+短兜帽斜向游侠披风|short-hood diagonal ranger cape|兜帽、单侧较短披覆与另一侧长布角，肩前扣和轻便裤装。
+兜帽双层仪式斗篷|double-tier hooded ceremony cloak|短肩披层叠在长兜帽斗篷外，宽帽口、胸扣与两道下摆，原创仪式装。
+反光条兜帽机能披风|reflective-strip hooded utility cape|帽兜、反光布条与工具袋，侧臂开口保持活动，反光只表现衣料。
+可卷收纳兜帽轻斗篷|packable hooded lightweight cloak|轻薄帽兜披覆、侧收纳袋和卷折固定袢，袋口与帽口独立。
+''',('兜帽斗篷','连帽披风','带帽斗篷','hooded cloak','hooded cape'))
+
+block('special_costumes','兽耳兽角与动物拟态装扮','''
+狐耳披肩信使装|fox-ear courier costume|原创狐耳发箍、短披肩和斜挎信袋，尾饰由腰带固定，完整内搭。
+狼耳旅行夹克装|wolf-ear travel costume|尖狼耳发箍、仿毛领夹克和长裤，尾饰根部连在腰后，成年角色。
+犬耳垂耳围裙装|dog-ear apron costume|软垂犬耳帽、胸围裙与及膝裙，耳片缝在帽侧，围裙系结清楚。
+熊耳毛绒连体服|bear-ear plush jumpsuit costume|圆熊耳连帽连体服、前拉链与软袖口，帽耳为布制，完整手脚可见。
+鹿角林间礼裙装|deer-antler woodland costume|小型原创枝角头箍、长袖花叶礼裙和腰包，角根固定在头箍上。
+羊角卷绒短外套装|ram-horn fleece costume|卷角头箍、卷绒短外套与长裙，角形装饰与帽带独立。
+虎耳条纹运动装|tiger-ear striped sports costume|圆角虎耳帽、原创条纹运动套装和腰后尾饰，完整长裤。
+豹耳斑纹短斗篷装|leopard-ear spotted-cape costume|斑纹耳箍与短斗篷、素色内搭和裤裙，斑点分布在服装和耳饰上。
+浣熊耳工具背心装|raccoon-ear utility costume|圆耳发箍、宽工具背心和长裤，环纹尾饰与腰带连接。
+水獭圆耳背带裤装|otter-ear overalls costume|小圆耳软帽、背带裤和长袖衬衣，胸袋、帽耳与短尾饰清楚。
+蝙蝠耳翼袖装扮|bat-ear wing-sleeve costume|尖耳头饰、袖外可拆翼状布片和不透明裙裤，翼片沿袖缝固定。
+龙角鳞片纹外套装|dragon-horn scale-pattern costume|原创弯角头箍、鳞纹短外套与长裤，尾饰由腰后带承重。
+鸟羽冠披肩装|bird-crest feather-cape costume|原创羽冠头饰、羽状片肩披与长裙，肩披为服饰片材，无真实生物器官。
+鲨鱼帽兜休闲装|shark-hood casual costume|鲨鱼形软帽兜、背鳍布片和宽松长裤，帽口保持面部可见。
+章鱼触手裙缘装|octopus-hem costume|帽形头饰与八条软布裙缘，裙缘挂在完整不透明底裙外，不替换人体腿。
+蝴蝶触角翼披装|butterfly-antenna cape costume|细触角头箍、对称蝶翼披片和长袖裙，翼根连肩背带，原创花纹。
+''',('特殊装扮','兽耳装扮','动物拟态','cosplay costume'))
+
+block('special_costumes','节庆童话与假面主题','''
+红兜帽篮袋童话装|red-hood storybook costume|红色帽兜短斗篷、成人长袖布裙与手提小篮，原创童话主题。
+南瓜帽节庆裙装|pumpkin-hat festival costume|南瓜形小帽、分片橙色短裙与不透明长袜，叶形领片和帽柄连接。
+雪花披肩节庆长裙|snowflake-cape festival costume|雪花原创图形肩披、深蓝长裙与白色靴，分层布料与扣具。
+冬青结饰冬季礼装|holly-bow winter costume|原创叶果结饰、仿毛边短外套与收腰长裙，装饰集中领口和腰部。
+彩蛋拼片春日装|egg-panel spring costume|蛋形几何拼片上衣、宽短裤与外搭轻纱裙，图案为原创，无品牌玩偶。
+纸灯笼袖节庆装|lantern-sleeve festival costume|原创纸灯形膨袖、素色长内裙与腰结，灯形只是袖结构，不画真实灯火。
+丝带花环舞会装|ribbon-garland dance costume|花环头饰、多条垂带肩披与及小腿裙，带根固定在肩圈。
+羽饰半面舞会装|feather-half-mask masquerade costume|原创羽饰半面具、手套和不透明长礼裙，面具用侧带固定。
+手持面具燕尾裙装|handheld-mask tailcoat costume|原创手持小面具、前短后长燕尾外层与裙装，面具杆和持握清楚。
+双尖铃帽杂技装|two-point bell-cap acrobat costume|布制双尖铃帽、拼色不透明上衣和长裤，袖口与铃帽根部。
+菱格舞台小丑装|diamond-pattern stage-jester costume|原创菱格完整长袖连体服、软领圈与尖帽，成年舞台角色。
+圆领圈彩带戏装|ruff-collar ribbon stage costume|夸张圆褶领圈、彩带短外套与长裤，领圈为布褶，保持面口清楚。
+星形帽魔术舞台装|star-cap magic-stage costume|原创星形软帽、短燕尾外套与完整裤装，一只小牌盒作道具。
+纸牌扇裙节庆装|card-fan skirt festival costume|原创几何牌面片从腰带向外放射，不透明底裙、长袖上衣与小冠饰。
+月亮假面长披风装|crescent-mask cape costume|原创半月额饰面具、长披风与长裙，面具眼孔和系带可辨。
+彩玻璃纹舞会装|stained-glass-pattern masquerade costume|原创彩玻璃几何印花礼裙与小面具，印花为布料，无尖锐玻璃物件。
+''',('特殊装扮','节庆装扮','童话装扮','假面舞会','masquerade'))
+
+block('special_costumes','非人幻想主题服装','''
+羽翼背带天使礼装|wing-harness angel costume|原创白色长袖礼裙、背带固定羽翼道具与头箍小光环，属于幻想舞台装。
+弯角翼披恶魔装|curved-horn demon costume|原创弯角头饰、短翼披和深色完整长裙，翼披根部与肩带可见。
+尖领长斗篷吸血鬼装|high-collar vampire costume|尖领长斗篷、立领马甲与长裤，原创饰扣，不使用已知角色徽记。
+骨纹连体舞台装|skeleton-pattern stage bodysuit|不透明黑色长袖长裤连体服上印抽象骨纹，手脚完整，图案不是裸露骨骼。
+绷带纹包裹布装|bandage-pattern wrap costume|米色不透明连体内层外缝交叉布条，面部可见，布条是舞台服装。
+幽灵罩纱长裙装|ghost-overveil dress costume|完整内裙外罩轻纱与宽帽兜，面口开放可见，纱的肩部固定点清楚。
+人鱼鳞纹步行裙装|mermaid-scale walking-skirt costume|不透明鳞纹上衣和鱼尾形长裙，脚下开口能步行，双腿没有替换成真实鱼尾。
+花妖叶片层裙装|flower-spirit leaf-layer costume|原创花瓣头饰、叶片形外裙罩完整长裙，藤纹腰带与叶片挂点可见。
+蘑菇帽斗篷装|mushroom-cap cape costume|蘑菇形大软帽、斑点短斗篷与长裤，帽檐不遮住脸，原创拟态。
+树精枝冠长袍装|tree-spirit branch-crown costume|原创枝形头冠、树皮纹长袍和叶片肩饰，布料层与硬饰件分开。
+水晶肩饰祭礼装|crystal-ornament ceremonial costume|原创半透明水晶道具固定在肩带外，完整长袖长裙，装饰根部明确。
+羽臂鸟人舞台装|feather-arm bird-person costume|羽状布片沿袖外连接、鸟羽头冠和不透明长裤，保留正常人类手臂。
+史莱姆透明罩层装|slime-overlay costume|透明感软罩层覆盖完整不透明裙装，外层形似圆润液滴，双手脚完整。
+月兔长耳祭典装|moon-rabbit ceremonial costume|长兔耳头箍、圆月背饰与完整长袍，耳箍和背饰带具为原创道具。
+星灵环带长裙装|star-spirit ring-band costume|原创星形头饰与腰外轻环带固定多条垂片，长袖内裙完整。
+影偶不对称披覆装|shadow-puppet asymmetric costume|不透明深色裙裤、单侧层披与剪影形硬饰，饰件用腰带连接，无生理变形。
+''',('特殊装扮','幻想生物装扮','幻想舞台服','fantasy costume'))
+
+block('special_costumes','机关道具与拟物装扮','''
+发条钥匙人偶装|wind-up-key doll costume|原创背部大钥匙道具、关节纹印花长袖裙装与手套，钥匙固定在背架。
+提线木偶舞台装|marionette-stage costume|不透明分片上衣长裤、关节线装饰和肩外短绳道具，不画实际悬吊受力。
+瓷偶荷叶边礼装|porcelain-doll inspired costume|奶白服装与原创釉纹印花、轻荷叶边长裙和手套，身体仍为成年人物。
+钟面胸饰长外套装|clock-face coat costume|原创钟面胸饰在长外套外，金属色袖口与短链固定，无真实计时功能要求。
+机械兔耳工具装|mechanical-rabbit-ear costume|硬质兔耳头箍、工具背心和长裤，耳部铰链和腰袋，原创机械拟态。
+盒形机器人罩衣装|box-robot overgarment costume|圆角盒形外罩罩在完整运动内搭外，手臂开口、头口和背部扣带。
+星际触角头盔装|space-antenna helmet costume|原创透明面罩头盔、软触角饰与完整科幻长裤装，非专业宇航服。
+纸折鹤翼肩披装|origami-crane shoulder-cape costume|原创折纸几何肩披与长裙，折痕线、肩扣和对称翼片连接可辨。
+书页裙缘学者装|book-page-hem scholar costume|原创书页形白布裙缘与深色长袍，小书形帽饰和腰包，布页不会飞散。
+羽笔帽边记录员装|quill-brim recorder costume|原创羽笔形软饰插在帽围，长马甲、衬衣和长裤，携带一册道具书。
+糖果条纹舞台裙装|candy-stripe stage costume|原创彩色糖纸般结饰、条纹收腰裙和完整短袖，糖纸是布料造型。
+茶杯帽围裙礼装|teacup-hat apron costume|原创轻质茶杯帽饰、围裙长裙和手套，帽饰由头箍支撑，非实际瓷杯。
+棋子冠肩披装|chess-piece crown costume|原创抽象棋子形小冠、几何肩披与裤裙，冠根、肩扣与腰带明确。
+邮票拼片信使装|stamp-panel courier costume|原创邮票几何贴片短外套、长裤与信袋，锯齿贴边为布缝，不用真实邮票图案。
+云朵软壳连体装|cloud-shell jumpsuit costume|原创软云朵形肩部罩层、完整连体内搭与短靴，面部和手脚保持可见。
+机械昆虫翅鞘装|mechanical-insect wingcase costume|原创折叠翅鞘道具固定背架，工具外套和长裤，双腿和双臂保持正常。
+''',('特殊装扮','拟物装扮','机关道具装扮','prop costume'))
+
+block('hair_cut','新增短中发剪裁轮廓','''
+双侧推短蓬顶剪|short sides with raised top crop|两侧靠头推短、顶部明显抬高，前侧三分之二视角显示短区与长区分界。
+长鬓精灵短剪|long-sideburn pixie cut|后脑短、耳前鬓束保留到下颌，顶部轻层次，侧视便于比较长度。
+耳下碎层Bixie剪|ear-length layered bixie cut|精灵剪与短波波之间的原创组合，耳下轻碎发尾、短后颈和圆后脑。
+圆拱蓬顶短卷剪|arched-top short curl cut|头顶短卷抬成圆拱、两侧收窄，卷簇根部沿头形分布，非帽子。
+几何三角波波剪|geometric triangular bob cut|下颌附近齐切，底部向外扩成三角轮廓，侧面发量与平切发尾明显。
+双阶侧片长剪|double-step side-panel cut|脸旁有两级齐切侧片，后发到胸下，前侧展示两道侧片端线。
+高后颈圆堆剪|stacked nape bob cut|后颈上方叠层发片向上堆圆，前侧到下颌，后侧视角显示堆叠剪线。
+弧边贴耳短剪|curved-edge close-ear crop|贴耳短发外缘沿耳后形成连续弧线，鬓角短，后颈边缘清楚。
+颈后延长卷鲻鱼剪|curly mullet with extended nape|前顶短卷、侧面收短而后颈卷束延长到肩，长度分区明确。
+前长后短碎层鲻鱼剪|front-long layered mullet variation|前侧束到锁骨、后颈尾到肩，头顶短碎层，原创断层剪裁组合。
+拱形短卷蓬发剪|rounded cropped coily cut|紧密小卷形成短圆体积，后颈与耳侧收短，卷簇没有直发替代。
+梯形齐肩厚剪|trapezoid shoulder-length blunt cut|齐肩厚发整体上窄下宽，平发尾、较少层次，侧后视显示肩部长度。
+窄肩羽片长层剪|narrow shoulder feather-layer cut|肩部附近多片长层向外展开，后发到胸，羽片发束保留清楚根部。
+胸前对称弧层剪|symmetric chest-framing layer cut|长发在胸前分左右弧形层，脸旁最短层到下颌，后部保持长线。
+三段水母断层剪|three-tier jellyfish cut|头顶耳下短层、肩部长层与胸下细尾三段明确，原创层次剪裁。
+不对称剃区长卷剪|asymmetric undercut long-curl cut|一侧大面积短推区可见，另一侧长卷到胸，分界线与卷簇根部清楚。
+''',('头发','发型','剪裁','haircut'))
+
+block('hair_bangs','新增刘海与前发分束','''
+扇形五束刘海|five-section fan fringe|额前五条主束从额上向下扇开，束间留窄缝，展示发根和束端。
+中央V形缺口刘海|central V-notch fringe|较齐的刘海下缘中央留V形缺口，左右长度一致，缺口不是发际线。
+双尖垂束刘海|double-point drop fringe|额前两条较长尖束垂下，两侧短束衬托，尖端与根部清楚。
+半边齐切半边侧帘|half-blunt half-curtain fringe|一侧短齐刘海，另一侧长侧帘到颧部，分界在额部，成年肖像。
+中短两长三段刘海|short-center long-sides fringe|中央刘海较短，两侧分两级长束，端线及分层明确。
+圆拱中缝薄刘海|arched split wispy fringe|薄刘海两边形成圆拱，中央细缝露额，发根在头顶前区。
+交叉额前双束|crossed forehead strands|左右两条前发跨过额头交叉，交叉关系清楚，末端各向侧落下。
+贴额S弧前束|flat S-curve forehead lock|一条前发贴额形成S形弧，根在侧分处，末端落向鬓侧。
+逗号侧卷刘海|comma-curled side fringe|偏分前束末端卷成逗号状，卷根与卷尖分开，额部部分露出。
+波浪细帘刘海|fine wavy curtain fringe|额前左右细波浪束落向颧部，中分清楚，波峰连续。
+梳高前额卷峰|raised front-roll fringe|前额发束向上梳成单一卷峰，卷后固定根部可见，头发而非帽饰。
+额前双卷峰|paired front hair rolls|额前左右两团发卷向内卷起，双卷根和头顶分缝可见。
+分段小卷额发|sectioned small-curled fringe|前发分成多束小卷，卷簇贴着额上排列，根部来自前发区。
+梳背单束垂额|slicked-back hair with one loose lock|大部分前发后梳露额，仅一束弯发垂到眉旁，后梳流向清楚。
+细辫额前横带|thin forehead braid fringe|一条细辫沿前额发线横过，两端接侧发，辫纹可辨，非布发带。
+额角扭束开额前发|temple-twist open-forehead style|两侧额角前发向后扭，额心露出，扭束起点和后方固定点清楚。
+''',('头发','刘海','前发','fringe','bangs'))
+
+block('hair_tie','新增马尾半扎与盘髻','''
+绕根高束马尾|wrapped-root high ponytail|高马尾根部由独立小发束绕圈，固定点在后顶，尾长到肩下，后侧视。
+双层上下马尾|stacked double ponytail|上层和下层各有独立发圈，发尾叠成较长尾形，后视露出两个固定点。
+双侧半扎合尾|paired side twists into half ponytail|两侧扭束从耳上向后汇成半扎尾，后发保留披散，后侧视。
+半扎交叉结尾|crossed half-up knot|两侧前发在后脑交叉打成发结，下方留短尾，披发与结发分层。
+半扎细绳束环|half-up rope-loop knot|两条细扭束在后脑形成闭环固定，下方长发披散，环根可见。
+穿洞翻转低尾|inverted low ponytail|低扎根部上方分洞，马尾穿洞向内翻，两个扭卷边缘清楚。
+侧挂双泡泡尾|side-draped twin bubble tails|两束尾在侧后颈起扎，各分多段圆泡泡，段间发圈可见。
+宽扁带状低马尾|flat ribbon-shaped low ponytail|低尾梳成宽扁发片，根部窄而尾面展开，后视突出扁平发束。
+螺旋绕根低髻|spiral-wrapped low bun|后颈低髻由一束发螺旋盘绕，圈纹和收尾固定点可见。
+交叉发片低盘髻|crossed-panel low chignon|左右宽发片交叉叠在后颈盘髻上，髻根和交叠关系明确。
+双低髻单长尾|twin low buns with one long tail|后颈左右双小髻，单侧保留长尾，原创不对称扎发组合。
+高髻前垂双鬓|high bun with hanging side locks|高髻固定在后顶，左右鬓束垂到胸前，后侧视仍可看到鬓束轮廓。
+扇面展开盘髻|fan-shaped spread bun|头顶折叠发尾展开为扇形，扇根由发圈收紧，扇面由头发构成。
+竖向双环盘髻|vertical double-loop updo|后脑两只上下相接发环，环根与连接处可见，后视展示中空结构。
+斜向连续结髻|diagonal linked-knots updo|后脑发束沿对角线打成连续发结，每个结保留交叠和固定点。
+三团分区软盘髻|three-section soft updo|后脑三个软盘团分别固定，团间留分区缝，非三条披散马尾。
+''',('头发','扎发','盘发','马尾','updo'))
+
+block('hair_tie','新增编织束与分区发绺','''
+双鱼骨低辫|twin low fishtail braids|左右后颈各起一条鱼骨辫，细交错纹理与尾端发圈清楚。
+法式辫合并低尾|French braids merging to ponytail|两条贴头法式辫在后颈合并成一束低尾，合并点可见。
+荷兰辫接双泡泡尾|Dutch braids into twin bubble tails|两条凸起荷兰辫到后颈后改为分段泡泡尾，辫与尾有清楚分界。
+单侧贴头辫长尾|side cornrow into long ponytail|单侧数条贴头小辫汇入侧后尾，头皮分区线与尾固定点可见。
+斜穿后脑贴头辫|diagonal scalp braid|一条辫从一侧后顶斜向另一侧后颈，编入发束路径连续。
+网格交叉半扎辫|lattice half-up braids|多条细辫在后脑交叉成网格并固定，下方后发披散，交叉上下关系清楚。
+双环冠辫盘发|double-ring crown braid updo|两圈辫沿头侧和后脑围合，双圈不混为一圈，辫纹与尾端固定清楚。
+鱼骨辫盘卷低髻|fishtail-braid coiled bun|一条鱼骨辫绕成后颈盘髻，仍保留鱼骨细纹与辫尾固定点。
+宽松抽丝三股辫|expanded loose three-strand braid|三股辫外缘被均匀拉松，中心交织仍可辨，辫尾收紧。
+三辫合束长尾|three braids tied together|三条独立长辫在低位同扎，三条根部和末端仍分辨，不合成单辫纹。
+缎带穿织单辫|ribbon-woven single braid|三股辫中穿入一条缎带，布带与发股颜色质感分开，尾端系结。
+扭绞双股长束|two-strand long twists|多组双股发束互扭成绳，纹路为双股缠绕而非三股交编。
+方分区长发绺|square-parted long loc-style hair|方形头皮分区下垂多条完整发绺，质感为连续绺束，非普通三股辫。
+扭绞束高盘发|twist-bundle high updo|多条双股扭绞束合成头顶盘髻，根部分区和扭纹仍可见。
+细辫中位髻长尾|micro-braid bun with long tails|多条细辫部分盘成中位髻，其他细辫垂下，髻根与辫尾清楚。
+螺旋卷束半扎髻|coil-lock half-up bun|紧密螺旋卷束上半部分盘髻，下半部分披散，卷束根部与髻固定点明确。
+''',('头发','编发','辫子','扭绞发束','braids','twists'))
+
+block('hair_surface','新增卷纹与染色分区','''
+大S连续波浪|large continuous S waves|中长发形成连续宽S波峰，整体流向从头顶到肩下，波峰光影清楚。
+复古平贴指波纹|flat finger-wave surface|头侧发束紧贴头形形成连续S纹，三分之二侧视，区别于蓬松波浪。
+细密折线压纹|fine crimped hair texture|发束呈密集细折线节奏，直观显示小锯齿状纹理，长度到肩下。
+粗细混合螺旋卷|mixed-diameter spiral curls|大与小直径螺旋卷簇共存，各卷有连续圈形，卷根沿头部布局。
+根蓬尾直发纹|lifted roots with straight ends|发根抬起形成头顶体积，肩下发尾平直，根部与尾部状态分开。
+中段波纹直发尾|mid-length waves with straight ends|头顶较平、中段起波纹，末端恢复直束，三段转换清楚。
+末端成簇小卷|clustered small curled ends|头顶至中段顺直，发尾分成多团小卷，卷的位置集中尾端。
+紧密卷簇侧扩发|side-expanded coily volume|紧密卷簇沿头侧横向扩展，头顶略收，卷形不是帽子或泡沫。
+左右对半分区染|left-right split-dye hair|发色沿中分左右分区，两色从根到尾明确，染色不改变发束构造。
+额前框面双色染|face-framing two-tone dye|脸旁前束为浅色，后发主体为深色，浅色区根部和宽度清楚。
+刘海独立块染|fringe-only block dye|刘海为独立浅色块，侧发和后发保留深色，色块分界沿剪裁线。
+内外双层翻显染|inner-outer layered dye|外层深色、内层浅色，侧翻发束展示两层连接，不只是单根挑染。
+上下横带分区染|horizontal-banded hair dye|长发中段有一条连续对比横色带，上下主体同色，横带跟随发束曲面。
+多束条带交错染|alternating ribbon-streak dye|多条宽窄色束沿头顶流向延伸，条带根部来自发区，非外加缎带。
+暗根三段过渡染|dark-root three-step gradient dye|发根深色、中段中间色、尾端浅色，三段过渡位置可辨，头发仍有体积。
+卷簇末端点染|curl-tip accent dye|深色卷发的各卷末端浅色点染，染色只位于卷尖，卷圈完整。
+''',('头发','卷发','发色分区','hair texture','hair color'))
+
+block('hair_details','新增侧束后颈与发量细节','''
+双束贴颊细鬓|paired thin cheek locks|左右各一条细鬓贴近面颊，根部来自耳前，末端到下颌。
+外翻弧形侧鬓|outward-curved side locks|两侧鬓束在下颌外翻成弧，根部与主发分开，末端方向明确。
+耳上小环发束|small loop above the ear|耳上小发束折成环，环根固定在侧发中，局部放大显示空隙。
+耳后扭卷短束|short twist behind the ear|耳后短发向内扭卷，耳廓和后侧发根露出，卷形清楚。
+颈侧左右反卷束|opposed curls at neck sides|后颈两侧发束向相反方向卷，发根出自后发下缘。
+后颈三尖细尾|three-point nape ends|后颈短发下缘分成三条尖尾，中央与左右尾长度略不同。
+鬓角渐窄细尖|tapered pointed sideburn|鬓角从宽根逐渐收为细尖，耳前位置和毛流方向明确。
+后脑双向分流束|split-flow back hair|后脑中央主流分向左右，分流处轻露发缝，后视显示连续根部。
+头顶偏侧扇开束|off-center fan crown strands|偏侧顶部多束从同一区向外扇开，扇根与各束尖端清楚。
+额角单侧立束|one raised temple strand|一条额角细束向上立起，其余前发正常落下，立束根部可辨。
+后发内层短尾|short inner-layer back strands|外层后发较长，内层几条短束从颈侧露出，侧后视分层。
+齐切发尾内外叠片|stacked blunt-end hair panels|齐切发尾有内外两层相近端线，层间缝隙和厚度可见。
+耳前交叉双束|crossed double locks before ear|耳前两条细束交叉，上下顺序明确，束根各来自侧发区。
+侧头分区小发旋|small side crown whorl|头侧发束围绕小旋心改变方向，三分之二侧顶视角观察发根流向。
+双旋顶区发流|double crown whorl flow|头顶两个旋心各有连续流向，俯后视显示双旋，不画秃斑。
+发尾局部折返束|one folded-back end strand|长发中一条末端向上折回成钩，主发仍向下，折点和尾尖可见。
+''',('头发','侧发','发束细节','hair details'))
+
+block('hair_combinations','短发与中长发完整方案','''
+开额贴耳短发组合|open-forehead close-ear hair design|短剪、偏分后梳与渐窄鬓角组合，耳部清楚，侧后颈收短。
+薄齐刘海圆波波组合|wispy-fringe rounded bob design|薄齐刘海、下颌圆波波与内扣发尾组合，前侧展示整体轮廓。
+斜刘海蓬顶短卷组合|side-fringe raised short-curl design|斜前发、蓬顶短卷与耳侧收窄，卷簇根部清楚，成年头肩像。
+眉上刘海三角短发组合|short-fringe triangular bob design|眉上刘海与三角波波底缘，侧发到底角形成几何外轮廓。
+长鬓Bixie开额组合|long-sideburn open bixie design|碎层短发、开额与下颌长鬓束，短后颈和长前束对比。
+单侧短推长卷组合|undercut long-curl hair design|一侧短推露耳、另一侧肩长卷发，深侧分与剃区边界。
+中分锁骨直发组合|center-part collarbone straight design|中分、细长脸旁束与锁骨齐切直发，长度地标和分缝明确。
+窗帘刘海肩长波浪组合|curtain-fringe shoulder-wave design|窗帘刘海、肩长宽S波浪与轻外翻发尾，左右前发对称。
+齐刘海水母短层组合|blunt-fringe jellyfish hair design|齐刘海、耳下圆短层和肩下细长尾，断层线明确。
+偏分指波短发组合|side-part finger-wave bob design|偏分、平贴指波纹与耳下短发尾，三分之二侧面显示波纹。
+短卷圆蓬开额组合|open-forehead rounded coily design|短紧卷圆体积、开额与收短鬓区，各卷簇从头形长出。
+双侧细辫中发组合|side-microbraid medium-hair design|肩长发两侧各一条细辫向后固定，中央披散与侧编区区别。
+侧夹碎层齐肩组合|side-clipped shoulder-layer design|齐肩碎层、斜前束与单侧小发夹，夹点收住耳上发片。
+半扎短尾锁骨组合|collarbone half-up short-tail design|锁骨直发上半扎成短尾，薄刘海和耳前细束，下半披散。
+双小髻肩长披发组合|tiny-twin-bun shoulder-hair design|头侧双小髻与肩长披发，圆刘海、两处固定点和下层发尾。
+三段弧层中发组合|three-arc medium-layer design|刘海斜分、侧发下颌弧层与肩部外翻层，三处弧形衔接。
+''',('头发','完整发型','短发组合','hairstyle design'))
+
+block('hair_combinations','长发与半扎完整方案','''
+齐刘海及腰直发组合|blunt-fringe waist-length design|厚齐刘海、长脸旁束与及腰直后发，腰部框景展示全部发长。
+中分胸长大波浪组合|center-part chest-wave design|中分、脸旁弧束与胸长大S波浪，卷段从肩附近开始。
+双阶公主切长发组合|double-step hime long-hair design|齐刘海、两级侧片和及腰后发，侧片端线与后发长度分辨。
+高尾长鬓直发组合|high-tail straight-hair design|高马尾、两条胸前长鬓与薄刘海，三分之二侧后角显示根部。
+低尾侧帘长发组合|low-tail curtain-lock design|低马尾、偏分侧帘与发束绕根固定，尾长到背中，侧后视。
+双高尾卷尖组合|high-twin-tail curled-tip design|两侧高马尾与卷尖、扇束刘海，两个固定点与卷尾均完整。
+双低尾泡泡组合|low-twin-bubble hair design|后颈双低尾分成三段泡泡，窗帘前发与发圈位置可见。
+半扎环结长波浪组合|loop-knot half-up wave design|后脑半扎环结，下层长波浪与细前束，三分之二后侧看环根。
+双侧扭束长直发组合|side-twist long-straight design|左右耳上扭束后合，下层长直发，额角碎发与后固定点。
+瀑布辫宽波浪组合|waterfall-braid wave design|侧头瀑布辫不断放出垂束，下层宽波浪，后侧展示编入路径。
+细辫框面长卷组合|face-frame braids long-curl design|左右各一条细长前辫，后发是胸长卷簇，辫纹和卷纹分开。
+宽辫低尾侧鬓组合|wide-braid low-tail hair design|后颈宽三股辫、两条脸旁鬓束与偏分前发，三分之二侧后视。
+双鱼骨长辫组合|long-twin-fishtail hair design|两条低鱼骨辫到胸下，中央薄分刘海与细鬓，辫纹贯通。
+紧卷半扎高髻组合|coily half-up high-bun design|紧卷长发上半盘高髻，下半卷簇披散，额前小卷与髻根。
+双股扭束长尾组合|long-twist ponytail design|多条双股扭绞发束低扎成尾，额前分区线与双股纹清楚。
+横带染长直发组合|horizontal-dye-band long-hair design|长直发中段横带染、V缺口刘海和短侧片，色带跟随发束而非布带。
+''',('头发','完整发型','长发组合','半扎组合','hairstyle design'))
+
+block('hair_combinations','盘发与礼仪完整方案','''
+低髻交片侧帘组合|cross-panel chignon curtain design|后颈低髻、左右交片和长侧帘，三分之二后侧显示髻与交片。
+高髻弧额双鬓组合|high-bun arched-front design|高髻、额前弧束与双长鬓，固定点藏在髻根但连接关系明确。
+冠辫中央低髻组合|crown-braid central-chignon design|侧辫绕后脑接中央低髻，开额与双细鬓，后侧视展示完整冠辫。
+双环竖盘发组合|vertical-double-loop formal design|后脑竖向双环髻与后梳前发，细侧束点缀，中空发环可见。
+扇髻斜刘海组合|fan-updo side-fringe design|头顶扇面发髻、斜刘海和耳前短鬓，扇根由发束固定。
+辫盘螺旋低髻组合|braided-spiral chignon design|三股辫盘为螺旋低髻，圆薄前发与细鬓，辫纹和卷绕清楚。
+双低髻发带组合|twin-low-bun headband design|双低盘髻、薄刘海和窄布发带，发带贴头不代替发束，后侧视。
+法式扭髻开额组合|French-twist open-front design|后脑竖向扭髻、梳高前发与侧鬓，扭髻收束线和发夹固定。
+双前卷后低髻组合|front-rolls back-chignon design|左右前卷峰配后颈低髻，三分之二侧面能辨前卷和后髻。
+卷簇软盘发组合|soft-curled formal updo|胸长卷束盘成松软后髻，几条小卷垂侧，卷簇和固定根部可见。
+细辫围髻礼仪组合|microbraid-wrapped bun design|细辫围绕后顶大髻，开额与小额角卷束，后侧视显示编纹。
+链状结髻偏分组合|linked-knot side-part updo|后脑斜向结髻、偏分前发与单侧长鬓，连续结的交叠清楚。
+双层盘髻短侧片组合|double-level bun short-panel design|上下两层盘髻、短齐侧片与薄刘海，后側视让两层根部可辨。
+长尾高髻礼仪组合|long-tail high-bun formal design|高髻保留一束背中长尾，双侧细鬓与梳背前发，髻尾分界明确。
+绳束冠环盘发组合|rope-crown updo design|双股扭束绕头成冠环，后部小盘髻、前额露出，扭纹与髻根清楚。
+三团软髻开额组合|three-soft-bun formal design|后脑三团独立软髻、开额与长侧束，固定点呈三角布局。
+''',('头发','完整发型','盘发组合','礼仪发型','hairstyle design'))
+
+block('hair_combinations','幻想与行动完整发型','''
+环束双尾行动发型|loop-root twin-tail action design|两侧根部折环后接长尾，前发薄齐切，发圈和环的连接可辨。
+双辫高髻游侠发型|twin-braid high-bun ranger design|两条侧辫汇入高髻，后留短尾，开额便于行动，原创造型。
+侧剃双辫冒险发型|side-undercut dual-braid adventurer design|一侧短推区、另一侧两条长辫与斜前发，短区分界明显。
+高尾额前交束发型|high-ponytail crossed-front design|额前两束交叉接高马尾，侧鬓短，后侧视显示交束与尾根。
+短层长辫幻想发型|short-layer long-braid fantasy design|耳下短层外轮廓下接单条背中长辫，后颈辫根可辨，原创混合造型。
+双髻不等长尾发型|twin-bun unequal-tail design|双高髻分别接长短尾，一侧及肩另一侧到腰，腰部框景显示长度差。
+三尾分段高低扎发组合|three-tail segmented high-low hair design|左右双高尾各分段固定，后颈中央另接低尾；共三条主尾、五处扎点，后视分区清楚。
+宽辫护颈行动发型|wide-braid neck-close action design|宽低辫贴近后颈，前额后梳、耳侧细编固定，活动区不遮眼。
+星环折束幻想发型|star-ring folded-strand design|后顶几束头发折成原创放射环，环根由细带收束，下层披散，非光环道具。
+羽片尖尾幻想长发|feather-panel pointed-tail fantasy design|长层发片向外展开，末端尖细但有发根，斜前发与双侧短束。
+左右对半染双髻发型|split-dye twin-bun hair design|中分左右双色从根到双髻，后发短尾与薄齐刘海，色区与固定点分开。
+框面染高尾发型|face-frame-dye high-tail design|前侧浅色发束、深色高尾和额角碎发，染色只在头发内。
+多段泡泡侧尾发型|multi-bubble side-tail fantasy design|单侧尾分多段泡泡，另一侧耳上细辫后合，固定点及段圈可见。
+双股束围顶行动发型|twist-crown action design|多条双股扭束绕顶后低扎，短前卷和耳侧分区，扭纹全程可辨。
+前卷双辫混合发型|front-roll twin-braid hybrid design|前额两卷峰与后颈双长辫组合，侧后三分之二角显示前后结构。
+三阶公主切半髻发型|three-step side-cut half-bun design|三段齐切侧片、后顶半髻与腰长披发，原创幻想组合，层次端线清楚。
+''',('头发','完整发型','幻想发型','行动发型','hairstyle design'))

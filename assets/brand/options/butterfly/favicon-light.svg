@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none"><title>女性之美</title><style>:root{color:#92596c}.tile{fill:#f2e7eb}</style><rect class="tile" width="64" height="64" rx="15"/><g fill="none">
+  
+  <path fill="currentColor" d="M28 32C24 19 15 11 6 10 4 26 11 36 26 36l2-4Zm8 0c4-13 13-21 22-22 2 16-5 26-20 26l-2-4Z"/>
+  <path fill="currentColor" opacity=".78" d="M26 39c-11-2-17 4-18 13 11 5 20-1 21-12l-3-1Zm12 0c11-2 17 4 18 13-11 5-20-1-21-12l3-1Z"/>
+  <path fill="currentColor" d="M32 23c-4 8-4 20 0 31 4-11 4-23 0-31Z"/>
+  <path stroke="currentColor" stroke-width="2.7" stroke-linecap="round" d="M31 25c-1-5-4-8-7-9m9 9c1-5 4-8 7-9"/>
+</g></svg>

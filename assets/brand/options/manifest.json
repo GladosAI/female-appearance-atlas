@@ -1,0 +1,9 @@
+[
+  {"id":"original","name":"上版侧影","description":"上版图标，保留作对照","mark":"assets/brand/logo-mark.svg","directory":"assets/brand"},
+  {"id":"petals","name":"01 初绽花瓣","description":"舒展花瓣，柔和简洁","mark":"assets/brand/options/petals/mark.svg","directory":"assets/brand/options/petals"},
+  {"id":"butterfly","name":"02 翩羽蝴蝶","description":"流动蝶翼，轻盈灵动","mark":"assets/brand/options/butterfly/mark.svg","directory":"assets/brand/options/butterfly"},
+  {"id":"moon","name":"03 弦月星芒","description":"弦月与星，偏幻想气质","mark":"assets/brand/options/moon/mark.svg","directory":"assets/brand/options/moon"},
+  {"id":"monogram","name":"04 绢带女字","description":"女字变成舒展的绢带","mark":"assets/brand/options/monogram/mark.svg","directory":"assets/brand/options/monogram"},
+  {"id":"atlas","name":"05 开卷星图","description":"书页与星光，呼应图鉴","mark":"assets/brand/options/atlas/mark.svg","directory":"assets/brand/options/atlas"},
+  {"id":"eye","name":"06 灵动明眸","description":"明眸与高光，呼应角色外观","mark":"assets/brand/options/eye/mark.svg","directory":"assets/brand/options/eye"}
+]

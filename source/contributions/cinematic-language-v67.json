@@ -1,0 +1,1617 @@
+{
+  "schema": "female-appearance-contribution/v1",
+  "entries": [
+    {
+      "stable_id": "MV001",
+      "category": "camera_movement",
+      "dimension": "固定、推拉与摇镜",
+      "name": "固定镜头",
+      "en": "locked-off shot",
+      "description": "机位与构图保持不动，让人物或环境在画面内发生变化。",
+      "note": "固定镜头不等于静止照片；三格对照背景边缘不动、人物经过。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "固定机位",
+        "锁定机位"
+      ],
+      "reference_ids": [
+        "R188",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_movement",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "入画",
+        "经过",
+        "出画"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "MV002",
+      "category": "camera_movement",
+      "dimension": "固定、推拉与摇镜",
+      "name": "推镜头",
+      "en": "dolly in",
+      "description": "相机向主体靠近，画面逐渐收紧，同时改变前后景的透视关系。",
+      "note": "推镜是机位移动；与只改变焦距的变焦推近分开观察。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "推近",
+        "轨道推近",
+        "推进镜头"
+      ],
+      "reference_ids": [
+        "R188",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_movement",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "较远",
+        "靠近",
+        "更近"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "MV003",
+      "category": "camera_movement",
+      "dimension": "固定、推拉与摇镜",
+      "name": "拉镜头",
+      "en": "dolly out",
+      "description": "相机离开主体，逐渐显露更大的环境与人物所处空间。",
+      "note": "拉镜改变机位和透视，不是简单把图像缩小。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "拉远",
+        "后拉镜头"
+      ],
+      "reference_ids": [
+        "R188",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_movement",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "较近",
+        "后退",
+        "环境显露"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "MV004",
+      "category": "camera_movement",
+      "dimension": "固定、推拉与摇镜",
+      "name": "水平摇镜",
+      "en": "horizontal pan",
+      "description": "相机位置基本不变，绕支点向左或向右转动观察方向。",
+      "note": "对照横向扫过场景的过程；不要与相机横向平移混淆。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "横摇",
+        "摇镜",
+        "pan"
+      ],
+      "reference_ids": [
+        "R188",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_movement",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "起幅",
+        "横向扫过",
+        "落幅"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "MV005",
+      "category": "camera_movement",
+      "dimension": "移动、跟随与环绕",
+      "name": "俯仰摇镜",
+      "en": "vertical tilt",
+      "description": "相机位置基本不变，镜头绕支点向上或向下转动。",
+      "note": "摇镜改变指向；升降镜头则改变相机所在高度。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "上摇",
+        "下摇",
+        "竖摇",
+        "tilt"
+      ],
+      "reference_ids": [
+        "R188",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_movement",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "脚部",
+        "躯干",
+        "头部上方"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "MV006",
+      "category": "camera_movement",
+      "dimension": "移动、跟随与环绕",
+      "name": "横移跟拍",
+      "en": "lateral tracking shot",
+      "description": "相机沿人物一侧移动并跟随，近处与远处物体产生不同的位移。",
+      "note": "背景视差用于表达移动机位，人物可保持相近的画面大小。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "侧向跟拍",
+        "横向移动",
+        "truck shot"
+      ],
+      "reference_ids": [
+        "R188",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_movement",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "起步",
+        "并行",
+        "继续跟随"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "MV007",
+      "category": "camera_movement",
+      "dimension": "移动、跟随与环绕",
+      "name": "背后跟随镜头",
+      "en": "rear follow shot",
+      "description": "相机在人物身后移动，跟随其进入或穿过空间。",
+      "note": "主体背部保持可见，镜头与人物共同前进。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "跟镜头",
+        "跟拍",
+        "背后跟拍"
+      ],
+      "reference_ids": [
+        "R188",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_movement",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "跟上人物",
+        "进入空间",
+        "继续前进"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "MV008",
+      "category": "camera_movement",
+      "dimension": "移动、跟随与环绕",
+      "name": "环绕镜头",
+      "en": "orbit or arc shot",
+      "description": "相机围绕主体移动，连续改变人物朝向与背景关系。",
+      "note": "图例通过斜前、侧面、斜后关键帧表达环绕路径。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "环拍",
+        "弧线镜头",
+        "orbit"
+      ],
+      "reference_ids": [
+        "R188",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_movement",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "斜前",
+        "侧面",
+        "斜后"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "MV009",
+      "category": "camera_movement",
+      "dimension": "升降、快速与稳定方式",
+      "name": "升降镜头",
+      "en": "crane or boom shot",
+      "description": "相机整体升高或降低，改变观察高度和空间层次。",
+      "note": "这里展示低位到高位；机位移动与单纯上下摇镜不同。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "升镜头",
+        "降镜头",
+        "摇臂镜头",
+        "crane"
+      ],
+      "reference_ids": [
+        "R188",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_movement",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "低位",
+        "平视附近",
+        "高位"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "MV010",
+      "category": "camera_movement",
+      "dimension": "升降、快速与稳定方式",
+      "name": "甩镜头",
+      "en": "whip pan",
+      "description": "快速摇向另一处，以运动模糊连接起幅与落幅。",
+      "note": "中格刻意模糊，表示快速转向的过程，不是对焦失败。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "甩镜",
+        "快速摇镜",
+        "swish pan"
+      ],
+      "reference_ids": [
+        "R188",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_movement",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "起幅清晰",
+        "快速模糊",
+        "落幅清晰"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "MV011",
+      "category": "camera_movement",
+      "dimension": "升降、快速与稳定方式",
+      "name": "手持跟拍",
+      "en": "handheld following shot",
+      "description": "用手持方式跟随人物，画面带有轻微不规则的位移或倾斜。",
+      "note": "三格只示意不规则取景，不能从静态图还原真实晃动幅度。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "手持镜头",
+        "肩扛感",
+        "handheld"
+      ],
+      "reference_ids": [
+        "R188",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_movement",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "手持取景",
+        "轻微偏移",
+        "继续观察"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "MV012",
+      "category": "camera_movement",
+      "dimension": "升降、快速与稳定方式",
+      "name": "稳定器跟随镜头",
+      "en": "stabilized following shot",
+      "description": "相机跟随人物移动，尽量保持水平线、主体位置与运动连贯。",
+      "note": "稳定拍摄不等于固定机位，也不必然等于长镜头。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "稳定跟拍",
+        "稳定器镜头",
+        "Steadicam"
+      ],
+      "reference_ids": [
+        "R188",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_movement",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "平稳起步",
+        "保持构图",
+        "连续跟随"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "ZT001",
+      "category": "camera_optics_time",
+      "dimension": "变焦与转焦",
+      "name": "变焦推近",
+      "en": "zoom in",
+      "description": "机位保持不动，通过改变焦距逐渐收紧取景范围。",
+      "note": "对照背景与主体一起放大；与机位靠近的推镜不同。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "变焦放大",
+        "光学变焦推近"
+      ],
+      "reference_ids": [
+        "R189",
+        "R190",
+        "R191",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_optics_time",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "宽取景",
+        "变焦中",
+        "窄取景"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "ZT002",
+      "category": "camera_optics_time",
+      "dimension": "变焦与转焦",
+      "name": "变焦拉远",
+      "en": "zoom out",
+      "description": "机位保持不动，通过改变焦距逐渐扩大取景范围。",
+      "note": "强调取景范围变化，而不是移动摄影机。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "变焦缩小",
+        "光学变焦拉远"
+      ],
+      "reference_ids": [
+        "R189",
+        "R190",
+        "R191",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_optics_time",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "窄取景",
+        "变焦中",
+        "宽取景"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "ZT003",
+      "category": "camera_optics_time",
+      "dimension": "变焦与转焦",
+      "name": "滑动变焦",
+      "en": "dolly zoom",
+      "description": "让机位移动与反向变焦配合，主体大小相对稳定而背景空间观感改变。",
+      "note": "也称希区柯克式变焦或眩晕效果；图例不是精确光学标定。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "希区柯克变焦",
+        "眩晕镜头",
+        "Vertigo effect"
+      ],
+      "reference_ids": [
+        "R189",
+        "R190",
+        "R191",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_optics_time",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "主体大小稳定",
+        "移动并反向变焦",
+        "背景关系改变"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "ZT004",
+      "category": "camera_optics_time",
+      "dimension": "变焦与转焦",
+      "name": "转焦镜头",
+      "en": "rack focus",
+      "description": "在同一段镜头中把清晰焦点从一个距离层次转到另一个层次。",
+      "note": "与静态浅景深不同，关注清晰对象从前景到后景的交接。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "拉焦",
+        "移焦",
+        "焦点转移"
+      ],
+      "reference_ids": [
+        "R189",
+        "R190",
+        "R191",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_optics_time",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "前景清晰",
+        "焦点过渡",
+        "后景清晰"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "ZT005",
+      "category": "camera_optics_time",
+      "dimension": "时间与快门",
+      "name": "慢动作",
+      "en": "slow motion",
+      "description": "让动作在回放中显得更慢，突出动作阶段与细节。",
+      "note": "三格只是相邻动作阶段示意，不表示实际播放速度或帧率。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "升格",
+        "慢放"
+      ],
+      "reference_ids": [
+        "R189",
+        "R190",
+        "R191",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_optics_time",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "动作开始",
+        "细分阶段",
+        "动作延续"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "ZT006",
+      "category": "camera_optics_time",
+      "dimension": "时间与快门",
+      "name": "延时摄影",
+      "en": "time-lapse",
+      "description": "间隔采样并压缩时间，突出云、日影或人流等较长时间的变化。",
+      "note": "固定构图中的时间跨度可以很大，与慢动作方向相反。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "延时",
+        "缩时摄影"
+      ],
+      "reference_ids": [
+        "R189",
+        "R190",
+        "R191",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_optics_time",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "较早",
+        "时间流逝",
+        "较晚"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "ZT007",
+      "category": "camera_optics_time",
+      "dimension": "时间与快门",
+      "name": "高速快门凝固动作",
+      "en": "freeze action with a fast shutter",
+      "description": "用较短曝光把快速动作记录得较清晰，突出关键瞬间。",
+      "note": "这是摄影中的动作凝固，不等于视频定格或慢动作。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "凝固瞬间",
+        "高速快门",
+        "定格抓拍"
+      ],
+      "reference_ids": [
+        "R189",
+        "R190",
+        "R191",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_optics_time",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "起跳",
+        "空中瞬间",
+        "落地阶段"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "ZT008",
+      "category": "camera_optics_time",
+      "dimension": "时间与快门",
+      "name": "慢门运动拖影",
+      "en": "slow-shutter motion blur",
+      "description": "较长曝光让运动部位形成模糊或拖影，静止环境仍可相对清楚。",
+      "note": "对照动态轮廓的延展；图例不提供精确快门参数。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "慢门",
+        "运动模糊",
+        "拖影"
+      ],
+      "reference_ids": [
+        "R189",
+        "R190",
+        "R191",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "camera_optics_time",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "运动开始",
+        "轨迹延展",
+        "运动继续"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "NS001",
+      "category": "narrative_shots",
+      "dimension": "视点与叙事功能",
+      "name": "主观镜头",
+      "en": "point-of-view shot",
+      "description": "从角色的观看位置呈现所见对象，让观众暂时共享角色视点。",
+      "note": "中格示意角色所见，前后格交代观看者；主观视点不是某一种固定景别。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "POV",
+        "第一人称镜头",
+        "主观视角"
+      ],
+      "reference_ids": [
+        "R193",
+        "R192"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "narrative_shots",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "观看者",
+        "角色所见",
+        "观看回应"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "NS002",
+      "category": "narrative_shots",
+      "dimension": "视点与叙事功能",
+      "name": "客观旁观镜头",
+      "en": "objective observer shot",
+      "description": "从角色之外观察人物与空间，不直接代入某一角色的眼睛。",
+      "note": "客观视点可以配合移动镜头，不等于固定机位。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "客观镜头",
+        "旁观视角"
+      ],
+      "reference_ids": [
+        "R193",
+        "R192"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "narrative_shots",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "外部观察",
+        "人物行动",
+        "继续旁观"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "NS003",
+      "category": "narrative_shots",
+      "dimension": "视点与叙事功能",
+      "name": "建立镜头",
+      "en": "establishing shot",
+      "description": "先交代地点、人物位置和空间关系，为后续近景提供环境背景。",
+      "note": "建立镜头常用较宽景别，但建立功能与远景并非同义。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "交代镜头",
+        "环境建立镜头"
+      ],
+      "reference_ids": [
+        "R193",
+        "R192"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "narrative_shots",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "交代空间",
+        "人物进入",
+        "进入情节"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "NS004",
+      "category": "narrative_shots",
+      "dimension": "视点与叙事功能",
+      "name": "反应镜头",
+      "en": "reaction shot",
+      "description": "把注意力放在角色对事件或他人话语产生的表情与动作反应。",
+      "note": "图例从平静到察觉再到反应；不限定必须使用特写。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "反应特写",
+        "人物反应"
+      ],
+      "reference_ids": [
+        "R193",
+        "R192"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "narrative_shots",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "平静",
+        "察觉",
+        "反应"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "NS005",
+      "category": "narrative_shots",
+      "dimension": "细节、空镜与人物关系",
+      "name": "插入细节镜头",
+      "en": "insert shot",
+      "description": "短暂突出主动作中的关键细节，如拿钥匙的手或正在操作的物件。",
+      "note": "细节仍属于主动作；区别于转向主动作之外的切出镜头。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "插入镜头",
+        "细节插入"
+      ],
+      "reference_ids": [
+        "R193",
+        "R192"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "narrative_shots",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "主要动作",
+        "关键细节",
+        "返回动作"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "NS006",
+      "category": "narrative_shots",
+      "dimension": "细节、空镜与人物关系",
+      "name": "切出镜头",
+      "en": "cutaway shot",
+      "description": "暂时切向主动作之外但与叙事有关的对象，再返回原场景。",
+      "note": "图例以环境中的钟作为补充信息，不把它当作主动作的局部。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "切出",
+        "补充镜头"
+      ],
+      "reference_ids": [
+        "R193",
+        "R192"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "narrative_shots",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "主要场景",
+        "相关对象",
+        "返回场景"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "NS007",
+      "category": "narrative_shots",
+      "dimension": "细节、空镜与人物关系",
+      "name": "空镜头",
+      "en": "empty or environmental cutaway shot",
+      "description": "以环境或物件为主体，不让主要人物直接占据画面。",
+      "note": "图例三格都不出现人物，表达环境、停顿或气氛；空镜不等于建立镜头。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "空镜",
+        "环境镜头"
+      ],
+      "reference_ids": [
+        "R193",
+        "R192"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "narrative_shots",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "环境",
+        "物件或光影",
+        "气氛延续"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "NS008",
+      "category": "narrative_shots",
+      "dimension": "细节、空镜与人物关系",
+      "name": "双人关系镜头",
+      "en": "two-shot",
+      "description": "在同一画面中容纳两名人物，让距离、朝向和动作共同表达关系。",
+      "note": "三格示意关系变化；不要求两人始终位于同一景深平面。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "双人镜头",
+        "双人构图"
+      ],
+      "reference_ids": [
+        "R193",
+        "R192"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "narrative_shots",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "两人同框",
+        "交流",
+        "关系延续"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "SE001",
+      "category": "editing_language",
+      "dimension": "连续性匹配",
+      "name": "正反打",
+      "en": "shot/reverse shot",
+      "description": "在交流双方的观察方向之间交替切换，建立对话或对峙关系。",
+      "note": "常保持轴线同侧，让双方在画面中的视线方向相向；轴线规则不等于不能有意越轴。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "反打",
+        "对话反打",
+        "180度规则",
+        "轴线规则"
+      ],
+      "reference_ids": [
+        "R192",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "editing_language",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "人物A",
+        "人物B",
+        "返回A"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "SE002",
+      "category": "editing_language",
+      "dimension": "连续性匹配",
+      "name": "视线匹配剪辑",
+      "en": "eyeline match",
+      "description": "将角色的观看动作与随后呈现的所见对象连接起来。",
+      "note": "所见对象的方位与角色视线应形成可理解的空间关系。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "视线匹配",
+        "目光匹配"
+      ],
+      "reference_ids": [
+        "R192",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "editing_language",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "角色看向",
+        "对应对象",
+        "角色回应"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "SE003",
+      "category": "editing_language",
+      "dimension": "连续性匹配",
+      "name": "动作衔接剪辑",
+      "en": "cutting on action",
+      "description": "在动作进行中切换机位，让动作阶段衔接，保持时间与空间的连贯。",
+      "note": "以开门过程为例，切换后延续同一动作，而不是重复完成一次动作。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "动作匹配",
+        "动作接剪",
+        "match on action"
+      ],
+      "reference_ids": [
+        "R192",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "editing_language",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "动作开始",
+        "动作中切镜",
+        "动作完成"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "SE004",
+      "category": "editing_language",
+      "dimension": "连续性匹配",
+      "name": "图形匹配转场",
+      "en": "graphic match cut",
+      "description": "利用形状、位置或构图的相似性，将不同镜头连接起来。",
+      "note": "图例用居中的圆形呼应；图形相似不代表两个场景在同一时间或地点。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "匹配剪辑",
+        "形状匹配",
+        "match cut"
+      ],
+      "reference_ids": [
+        "R192",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "editing_language",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "圆形对象A",
+        "形状呼应B",
+        "视觉关联C"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "SE005",
+      "category": "editing_language",
+      "dimension": "时间组织与节奏",
+      "name": "交叉剪辑",
+      "en": "cross-cutting",
+      "description": "在不同地点的事件之间来回切换，常用来提示同时发生或相互关联。",
+      "note": "三格按A—B—A组织；是否同时发生仍需剧情和上下文交代。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "交叉蒙太奇",
+        "平行切换"
+      ],
+      "reference_ids": [
+        "R192",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "editing_language",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "场景A",
+        "场景B",
+        "返回A"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "SE006",
+      "category": "editing_language",
+      "dimension": "时间组织与节奏",
+      "name": "跳切",
+      "en": "jump cut",
+      "description": "从同一连续素材或近似机位中省去一段过程，产生可感知的时间跳跃。",
+      "note": "同一环境中的人物位置或动作突然变化；三格只示意被省略的过程。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "时间跳切",
+        "jumpcut"
+      ],
+      "reference_ids": [
+        "R192",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "editing_language",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "同机位片段A",
+        "时间省略",
+        "片段B"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "SE007",
+      "category": "editing_language",
+      "dimension": "时间组织与节奏",
+      "name": "蒙太奇段落",
+      "en": "montage sequence",
+      "description": "把多个时间或场景的片段组合，压缩过程或建立概念关联。",
+      "note": "图例用准备、途中、抵达概括一段行程，并不代表逐秒连续拍摄。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "蒙太奇",
+        "段落蒙太奇"
+      ],
+      "reference_ids": [
+        "R192",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "editing_language",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "准备",
+        "途中",
+        "抵达"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    },
+    {
+      "stable_id": "SE008",
+      "category": "editing_language",
+      "dimension": "时间组织与节奏",
+      "name": "连续长镜头",
+      "en": "long take",
+      "description": "在一次持续拍摄中展开人物行动，镜头内部不发生剪辑切换。",
+      "note": "长镜头说的是持续时间与连续拍摄，不是长焦镜头；三格是同一镜头的关键帧。 图例按左→右阅读；静态分镜只表示关键阶段。",
+      "aliases": [
+        "长镜头",
+        "一镜到底",
+        "连续镜头"
+      ],
+      "reference_ids": [
+        "R192",
+        "R193"
+      ],
+      "origin": "editorial",
+      "added_in": "67.0",
+      "camera_reference": true,
+      "cinematic_reference": true,
+      "camera_axis": "editing_language",
+      "sequence_reference": true,
+      "sequence_labels": [
+        "连续起始",
+        "连续经过",
+        "连续结束"
+      ],
+      "sequence_order": "left-to-right",
+      "reference_mode": "three-frame storyboard demonstration"
+    }
+  ],
+  "boards": [
+    {
+      "id": "cinematic-mv-1-v67",
+      "category": "camera_movement",
+      "title": "镜头运动与拍摄方式 · 固定、推拉与摇镜",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-cinematic-mv-1-v67.png",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 67,
+      "origin": "AI-generated storyboard demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-02",
+      "prompt": "Use case: stylized-concept educational cinematography reference. Create an ORIGINAL LANDSCAPE contact sheet, approximately 1536x1024, organized as EXACTLY FOUR BIG CELLS in a 2 columns by 2 rows grid. Each BIG CELL contains ONE THREE-FRAME horizontal storyboard strip, read left to right. Therefore there are SIX narrow mini-frames across the entire canvas and TWO rows; a THICK vertical line at the exact midpoint separates the two stories, and a THICK horizontal line at the midpoint separates the rows. Thin separators divide the three consecutive moments INSIDE each big cell. Each story is self-contained, all its three frames remain in its cell. No titles, letters, words, numbers, icons or watermarks. Detailed cinematic semi-realistic anime illustration, strong visual continuity. Recurring clearly adult woman around 28 with a chestnut bob, a teal jacket over opaque cream crew-neck top, charcoal trousers and white sneakers. Usually a pale stone courtyard with arches, a foreground railing and trees. Natural nonsexual ordinary wardrobe. Show real scene images rather than cameras, film crews or diagram arrows. Preserve recognizable face and outfit within every story. Framing changes and parallax should make the particular film technique visually legible. TOP LEFT BIG CELL: LOCKED-OFF SHOT. Three times in one locked wide composition: woman enters from left, walks through center, exits toward right. The same arch and railing are in identical screen positions across all three frames, absolutely no camera movement. TOP RIGHT: DOLLY IN. Woman stands still, camera physically approaches: first full-body with foreground railing, next waist-up as railing grows and shifts with parallax, last chest-up with background perspective changed. BOTTOM LEFT: DOLLY OUT. Camera physically retreats from a face close shot, through waist-up, to a full-body wide view showing more courtyard and nearer foreground architecture. BOTTOM RIGHT: PAN RIGHT ON A FIXED PIVOT. Three successive horizontal views: begin on tree and woman near right edge, sweep through woman near center, end on right arcade with woman near left edge. Camera height and horizon unchanged; this is horizontal rotation, not moving sideways.",
+      "items": [
+        {
+          "entry_id": "MV001",
+          "label": "MV001",
+          "name": "固定镜头"
+        },
+        {
+          "entry_id": "MV002",
+          "label": "MV002",
+          "name": "推镜头"
+        },
+        {
+          "entry_id": "MV003",
+          "label": "MV003",
+          "name": "拉镜头"
+        },
+        {
+          "entry_id": "MV004",
+          "label": "MV004",
+          "name": "水平摇镜"
+        }
+      ],
+      "edit_prompt": "Edit only the bottom-right three-frame pan demonstration. The woman stands motionless at the same fixed world position. As the camera pans right from a fixed pivot, the stationary woman appears at the far right of the first frame, centered in the second frame, and at the far left of the last frame. Tree at left and arcade at right provide background landmarks. Preserve the top-left locked-off, top-right dolly-in and bottom-left dolly-out triptychs, overall grid and visual style. No text, arrows or labels."
+    },
+    {
+      "id": "cinematic-mv-2-v67",
+      "category": "camera_movement",
+      "title": "镜头运动与拍摄方式 · 移动、跟随与环绕",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-cinematic-mv-2-v67.png",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 67,
+      "origin": "AI-generated storyboard demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-02",
+      "prompt": "Use case: stylized-concept educational cinematography reference. Create an ORIGINAL LANDSCAPE contact sheet, approximately 1536x1024, organized as EXACTLY FOUR BIG CELLS in a 2 columns by 2 rows grid. Each BIG CELL contains ONE THREE-FRAME horizontal storyboard strip, read left to right. Therefore there are SIX narrow mini-frames across the entire canvas and TWO rows; a THICK vertical line at the exact midpoint separates the two stories, and a THICK horizontal line at the midpoint separates the rows. Thin separators divide the three consecutive moments INSIDE each big cell. Each story is self-contained, all its three frames remain in its cell. No titles, letters, words, numbers, icons or watermarks. Detailed cinematic semi-realistic anime illustration, strong visual continuity. Recurring clearly adult woman around 28 with a chestnut bob, a teal jacket over opaque cream crew-neck top, charcoal trousers and white sneakers. Usually a pale stone courtyard with arches, a foreground railing and trees. Natural nonsexual ordinary wardrobe. Show real scene images rather than cameras, film crews or diagram arrows. Preserve recognizable face and outfit within every story. Framing changes and parallax should make the particular film technique visually legible. TOP LEFT: TILT UP ON FIXED CAMERA POSITION. First frame looks at woman's shoes and paving, second at waist and torso, third at head and high arches/sky. Show vertical camera rotation rather than lifting the camera or zooming. TOP RIGHT: LATERAL TRACKING. Woman walks to the right in side profile while camera travels beside her, keeping her the same size and near center in all three frames; close railing shifts much more than distant arches, demonstrating parallax. BOTTOM LEFT: REAR FOLLOW SHOT. View from behind woman walking away through the arcade; camera moves forward with her, preserving medium distance and her on-screen size across three moments while columns pass by at edges. BOTTOM RIGHT: ORBIT/ARC SHOT. Woman stands still; camera moves around her: front three-quarter view, exact side profile, rear three-quarter view. Background architecture changes with the orbit. Do not just rotate the woman's head.",
+      "items": [
+        {
+          "entry_id": "MV005",
+          "label": "MV005",
+          "name": "俯仰摇镜"
+        },
+        {
+          "entry_id": "MV006",
+          "label": "MV006",
+          "name": "横移跟拍"
+        },
+        {
+          "entry_id": "MV007",
+          "label": "MV007",
+          "name": "背后跟随镜头"
+        },
+        {
+          "entry_id": "MV008",
+          "label": "MV008",
+          "name": "环绕镜头"
+        }
+      ]
+    },
+    {
+      "id": "cinematic-mv-3-v67",
+      "category": "camera_movement",
+      "title": "镜头运动与拍摄方式 · 升降、快速与稳定方式",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-cinematic-mv-3-v67.png",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 67,
+      "origin": "AI-generated storyboard demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-02",
+      "prompt": "Use case: stylized-concept educational cinematography reference. Create an ORIGINAL LANDSCAPE contact sheet, approximately 1536x1024, organized as EXACTLY FOUR BIG CELLS in a 2 columns by 2 rows grid. Each BIG CELL contains ONE THREE-FRAME horizontal storyboard strip, read left to right. Therefore there are SIX narrow mini-frames across the entire canvas and TWO rows; a THICK vertical line at the exact midpoint separates the two stories, and a THICK horizontal line at the midpoint separates the rows. Thin separators divide the three consecutive moments INSIDE each big cell. Each story is self-contained, all its three frames remain in its cell. No titles, letters, words, numbers, icons or watermarks. Detailed cinematic semi-realistic anime illustration, strong visual continuity. Recurring clearly adult woman around 28 with a chestnut bob, a teal jacket over opaque cream crew-neck top, charcoal trousers and white sneakers. Usually a pale stone courtyard with arches, a foreground railing and trees. Natural nonsexual ordinary wardrobe. Show real scene images rather than cameras, film crews or diagram arrows. Preserve recognizable face and outfit within every story. Framing changes and parallax should make the particular film technique visually legible. TOP LEFT: CRANE UP. Camera starts low looking upward at woman, rises to eye-level full-body, finishes high looking down at crown and shoulders and paving. Woman stays at the same ground location; actual elevated viewpoint changes. TOP RIGHT: WHIP PAN. Woman clearly framed in first frame, middle frame is a strong horizontal motion-blur streak with no legible face, third frame lands sharply on a second clearly adult person in a brown jacket in the SAME courtyard. Only this cell includes a second adult. BOTTOM LEFT: HANDHELD FOLLOW. Three adjacent moments of woman walking, medium framing, slightly irregular camera position and small alternating horizon roll, natural observational feeling. Keep buildings straight within each frame rather than deforming them. BOTTOM RIGHT: STABILIZED WALKING FOLLOW. Three moments of walking woman from the front, camera travels backwards smoothly; she stays central at the same size, horizon perfectly level, consistent headroom and passing architecture. Contrast stable framing with the handheld cell.",
+      "items": [
+        {
+          "entry_id": "MV009",
+          "label": "MV009",
+          "name": "升降镜头"
+        },
+        {
+          "entry_id": "MV010",
+          "label": "MV010",
+          "name": "甩镜头"
+        },
+        {
+          "entry_id": "MV011",
+          "label": "MV011",
+          "name": "手持跟拍"
+        },
+        {
+          "entry_id": "MV012",
+          "label": "MV012",
+          "name": "稳定器跟随镜头"
+        }
+      ]
+    },
+    {
+      "id": "cinematic-zt-1-v67",
+      "category": "camera_optics_time",
+      "title": "光学与时间表现 · 变焦与转焦",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-cinematic-zt-1-v67.png",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 67,
+      "origin": "AI-generated storyboard demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-02",
+      "prompt": "Use case: stylized-concept educational cinematography reference. Create an ORIGINAL LANDSCAPE contact sheet, approximately 1536x1024, organized as EXACTLY FOUR BIG CELLS in a 2 columns by 2 rows grid. Each BIG CELL contains ONE THREE-FRAME horizontal storyboard strip, read left to right. Therefore there are SIX narrow mini-frames across the entire canvas and TWO rows; a THICK vertical line at the exact midpoint separates the two stories, and a THICK horizontal line at the midpoint separates the rows. Thin separators divide the three consecutive moments INSIDE each big cell. Each story is self-contained, all its three frames remain in its cell. No titles, letters, words, numbers, icons or watermarks. Detailed cinematic semi-realistic anime illustration, strong visual continuity. Recurring clearly adult woman around 28 with a chestnut bob, a teal jacket over opaque cream crew-neck top, charcoal trousers and white sneakers. Usually a pale stone courtyard with arches, a foreground railing and trees. Natural nonsexual ordinary wardrobe. Show real scene images rather than cameras, film crews or diagram arrows. Preserve recognizable face and outfit within every story. Framing changes and parallax should make the particular film technique visually legible. TOP LEFT: OPTICAL ZOOM IN from a FIXED POSITION. Woman stays motionless, three frames progressively crop from full-body to waist-up to chest-up. The distant facade and woman enlarge by similar magnification; foreground and background perspective relationships stay the same, no new side of objects revealed. TOP RIGHT: OPTICAL ZOOM OUT, the reverse sequence from chest-up through waist-up to full-body, no camera travel. BOTTOM LEFT: DOLLY ZOOM. Woman stays chest-up at almost EXACTLY THE SAME on-screen size and position across all three frames; background arcade changes dramatically in apparent scale and spatial depth while the camera moves and lens changes oppositely. Do NOT simply zoom the woman bigger. BOTTOM RIGHT: RACK FOCUS. Foreground brass key on a low stone ledge, woman standing in background. First key sharp/woman blurred; middle focus transitioning with both a little soft; last key blurred/woman sharp. Same camera framing in all three rack-focus frames.",
+      "items": [
+        {
+          "entry_id": "ZT001",
+          "label": "ZT001",
+          "name": "变焦推近"
+        },
+        {
+          "entry_id": "ZT002",
+          "label": "ZT002",
+          "name": "变焦拉远"
+        },
+        {
+          "entry_id": "ZT003",
+          "label": "ZT003",
+          "name": "滑动变焦"
+        },
+        {
+          "entry_id": "ZT004",
+          "label": "ZT004",
+          "name": "转焦镜头"
+        }
+      ]
+    },
+    {
+      "id": "cinematic-zt-2-v67",
+      "category": "camera_optics_time",
+      "title": "光学与时间表现 · 时间与快门",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-cinematic-zt-2-v67.png",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 67,
+      "origin": "AI-generated storyboard demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-02",
+      "prompt": "Use case: stylized-concept educational cinematography reference. Create an ORIGINAL LANDSCAPE contact sheet, approximately 1536x1024, organized as EXACTLY FOUR BIG CELLS in a 2 columns by 2 rows grid. Each BIG CELL contains ONE THREE-FRAME horizontal storyboard strip, read left to right. Therefore there are SIX narrow mini-frames across the entire canvas and TWO rows; a THICK vertical line at the exact midpoint separates the two stories, and a THICK horizontal line at the midpoint separates the rows. Thin separators divide the three consecutive moments INSIDE each big cell. Each story is self-contained, all its three frames remain in its cell. No titles, letters, words, numbers, icons or watermarks. Detailed cinematic semi-realistic anime illustration, strong visual continuity. Recurring clearly adult woman around 28 with a chestnut bob, a teal jacket over opaque cream crew-neck top, charcoal trousers and white sneakers. Usually a pale stone courtyard with arches, a foreground railing and trees. Natural nonsexual ordinary wardrobe. Show real scene images rather than cameras, film crews or diagram arrows. Preserve recognizable face and outfit within every story. Framing changes and parallax should make the particular film technique visually legible. TOP LEFT: SLOW-MOTION KEYFRAMES. Same framing of adult woman gently tossing a red scarf, three very closely spaced stages with the scarf and fingers incrementally changing position, silky fabric suspended in air, sharp graceful continuous motion. Do not draw multiple overlapping bodies in one frame. TOP RIGHT: TIME-LAPSE KEYFRAMES. Identical locked courtyard view with woman seated small at a bench; frame one morning long shadow from left, frame two noon short shadow, frame three late afternoon long shadow toward right, clouds and passersby positions change. BOTTOM LEFT: FAST-SHUTTER FREEZE ACTION. Adult woman makes a small jump: three crisp sharp photos of takeoff, airborne pose, and landing, trouser fabric and hair tack sharp without motion blur. Show all feet within frames, ordinary opaque clothing. BOTTOM RIGHT: SLOW-SHUTTER MOTION BLUR. Same stone courtyard architecture stays crisp, walking woman has visible soft directional blur and trailing limbs in each of three moments. No extra anatomically solid arms; blur represents movement. These are illustrative keyframes, no numeric camera settings.",
+      "items": [
+        {
+          "entry_id": "ZT005",
+          "label": "ZT005",
+          "name": "慢动作"
+        },
+        {
+          "entry_id": "ZT006",
+          "label": "ZT006",
+          "name": "延时摄影"
+        },
+        {
+          "entry_id": "ZT007",
+          "label": "ZT007",
+          "name": "高速快门凝固动作"
+        },
+        {
+          "entry_id": "ZT008",
+          "label": "ZT008",
+          "name": "慢门运动拖影"
+        }
+      ]
+    },
+    {
+      "id": "cinematic-ns-1-v67",
+      "category": "narrative_shots",
+      "title": "叙事功能与视点 · 视点与叙事功能",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-cinematic-ns-1-v67.png",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 67,
+      "origin": "AI-generated storyboard demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-02",
+      "prompt": "Use case: stylized-concept educational cinematography reference. Create an ORIGINAL LANDSCAPE contact sheet, approximately 1536x1024, organized as EXACTLY FOUR BIG CELLS in a 2 columns by 2 rows grid. Each BIG CELL contains ONE THREE-FRAME horizontal storyboard strip, read left to right. Therefore there are SIX narrow mini-frames across the entire canvas and TWO rows; a THICK vertical line at the exact midpoint separates the two stories, and a THICK horizontal line at the midpoint separates the rows. Thin separators divide the three consecutive moments INSIDE each big cell. Each story is self-contained, all its three frames remain in its cell. No titles, letters, words, numbers, icons or watermarks. Detailed cinematic semi-realistic anime illustration, strong visual continuity. Recurring clearly adult woman around 28 with a chestnut bob, a teal jacket over opaque cream crew-neck top, charcoal trousers and white sneakers. Usually a pale stone courtyard with arches, a foreground railing and trees. Natural nonsexual ordinary wardrobe. Show real scene images rather than cameras, film crews or diagram arrows. Preserve recognizable face and outfit within every story. Framing changes and parallax should make the particular film technique visually legible. TOP LEFT: POINT OF VIEW sequence. First woman in side close-up looks toward a wooden doorway; second shows doorway from HER eye position, with only a tiny hint of her teal sleeve/hand at lower edge and no external view of her face; third returns to her small acknowledging expression. Do not put text on the doorway. TOP RIGHT: OBJECTIVE OBSERVER. Three outside-observer medium-wide views of woman crossing courtyard and pausing beside a bench; viewer sees her whole person from an external position, no first-person hands. BOTTOM LEFT: ESTABLISHING SEQUENCE. First very wide courtyard and architecture, woman tiny; next full-body woman entering the arcade with spatial context; third medium view as she arrives at doorway. BOTTOM RIGHT: REACTION SEQUENCE. Three close shots of same face: calm listening, noticing something with raised brows, then a restrained surprised smile. Keep scene and outfit consistent, no distressed or sexual expression.",
+      "items": [
+        {
+          "entry_id": "NS001",
+          "label": "NS001",
+          "name": "主观镜头"
+        },
+        {
+          "entry_id": "NS002",
+          "label": "NS002",
+          "name": "客观旁观镜头"
+        },
+        {
+          "entry_id": "NS003",
+          "label": "NS003",
+          "name": "建立镜头"
+        },
+        {
+          "entry_id": "NS004",
+          "label": "NS004",
+          "name": "反应镜头"
+        }
+      ]
+    },
+    {
+      "id": "cinematic-ns-2-v67",
+      "category": "narrative_shots",
+      "title": "叙事功能与视点 · 细节、空镜与人物关系",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-cinematic-ns-2-v67.png",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 67,
+      "origin": "AI-generated storyboard demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-02",
+      "prompt": "Use case: stylized-concept educational cinematography reference. Create an ORIGINAL LANDSCAPE contact sheet, approximately 1536x1024, organized as EXACTLY FOUR BIG CELLS in a 2 columns by 2 rows grid. Each BIG CELL contains ONE THREE-FRAME horizontal storyboard strip, read left to right. Therefore there are SIX narrow mini-frames across the entire canvas and TWO rows; a THICK vertical line at the exact midpoint separates the two stories, and a THICK horizontal line at the midpoint separates the rows. Thin separators divide the three consecutive moments INSIDE each big cell. Each story is self-contained, all its three frames remain in its cell. No titles, letters, words, numbers, icons or watermarks. Detailed cinematic semi-realistic anime illustration, strong visual continuity. Recurring clearly adult woman around 28 with a chestnut bob, a teal jacket over opaque cream crew-neck top, charcoal trousers and white sneakers. Usually a pale stone courtyard with arches, a foreground railing and trees. Natural nonsexual ordinary wardrobe. Show real scene images rather than cameras, film crews or diagram arrows. Preserve recognizable face and outfit within every story. Framing changes and parallax should make the particular film technique visually legible. TOP LEFT: INSERT DETAIL. First medium woman preparing to open a door with a brass key; second close-up of her teal-sleeved hand and key approaching keyhole; third medium woman continues opening the door. TOP RIGHT: CUTAWAY. First woman waits at courtyard cafe table; second shot of a simple analog wall clock under an arch, no readable words; third returns to waiting woman glancing toward doorway. BOTTOM LEFT: EMPTY ENVIRONMENT SHOTS. All THREE frames intentionally contain NO PEOPLE: empty courtyard bench, close-up of a wind-touched leaf beside railing, empty arch with afternoon shadows. BOTTOM RIGHT: TWO-SHOT RELATIONSHIP. All three frames include both the teal-jacket adult woman on LEFT and an adult man in plain brown jacket on RIGHT in the SAME composition: facing each other at a little distance, conversing, then both glance toward courtyard exit. Maintain clear spacing, no romantic or violent contact.",
+      "items": [
+        {
+          "entry_id": "NS005",
+          "label": "NS005",
+          "name": "插入细节镜头"
+        },
+        {
+          "entry_id": "NS006",
+          "label": "NS006",
+          "name": "切出镜头"
+        },
+        {
+          "entry_id": "NS007",
+          "label": "NS007",
+          "name": "空镜头"
+        },
+        {
+          "entry_id": "NS008",
+          "label": "NS008",
+          "name": "双人关系镜头"
+        }
+      ]
+    },
+    {
+      "id": "cinematic-se-1-v67",
+      "category": "editing_language",
+      "title": "剪辑与连续性语言 · 连续性匹配",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-cinematic-se-1-v67.png",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 67,
+      "origin": "AI-generated storyboard demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-02",
+      "prompt": "Use case: stylized-concept educational cinematography reference. Create an ORIGINAL LANDSCAPE contact sheet, approximately 1536x1024, organized as EXACTLY FOUR BIG CELLS in a 2 columns by 2 rows grid. Each BIG CELL contains ONE THREE-FRAME horizontal storyboard strip, read left to right. Therefore there are SIX narrow mini-frames across the entire canvas and TWO rows; a THICK vertical line at the exact midpoint separates the two stories, and a THICK horizontal line at the midpoint separates the rows. Thin separators divide the three consecutive moments INSIDE each big cell. Each story is self-contained, all its three frames remain in its cell. No titles, letters, words, numbers, icons or watermarks. Detailed cinematic semi-realistic anime illustration, strong visual continuity. Recurring clearly adult woman around 28 with a chestnut bob, a teal jacket over opaque cream crew-neck top, charcoal trousers and white sneakers. Usually a pale stone courtyard with arches, a foreground railing and trees. Natural nonsexual ordinary wardrobe. Show real scene images rather than cameras, film crews or diagram arrows. Preserve recognizable face and outfit within every story. Framing changes and parallax should make the particular film technique visually legible. TOP LEFT: SHOT/REVERSE SHOT, A-B-A. First close-up of teal-jacket woman looking screen RIGHT with blurred brown-jacket man's shoulder at right edge. Second reverse close-up of brown-jacket adult man looking screen LEFT with blurred woman's shoulder at left edge. Third return to woman's first angle. Camera remains on one side of their axis, gaze directions oppose correctly. TOP RIGHT: EYELINE MATCH. First woman looks UP and screen RIGHT; second high wall clock seen from corresponding upward viewing angle; third return to woman looking the same direction. BOTTOM LEFT: CUT ON ACTION. Three views of ONE opening-door action: wide woman starts reaching, detail hand grasps handle in the middle of the gesture, side medium view door opens and woman steps through. Do not restart the action from the beginning. BOTTOM RIGHT: GRAPHIC MATCH CUT. Three DIFFERENT images with centered round shapes in matching screen position and similar scale: teal-sleeved hand holding a round pocket watch; round courtyard fountain seen from above; circular sun framed by a round window. No written words or clock numerals necessary. The round shapes should immediately connect the three shots visually.",
+      "items": [
+        {
+          "entry_id": "SE001",
+          "label": "SE001",
+          "name": "正反打"
+        },
+        {
+          "entry_id": "SE002",
+          "label": "SE002",
+          "name": "视线匹配剪辑"
+        },
+        {
+          "entry_id": "SE003",
+          "label": "SE003",
+          "name": "动作衔接剪辑"
+        },
+        {
+          "entry_id": "SE004",
+          "label": "SE004",
+          "name": "图形匹配转场"
+        }
+      ]
+    },
+    {
+      "id": "cinematic-se-2-v67",
+      "category": "editing_language",
+      "title": "剪辑与连续性语言 · 时间组织与节奏",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-cinematic-se-2-v67.png",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 67,
+      "origin": "AI-generated storyboard demonstration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-02",
+      "prompt": "Use case: stylized-concept educational cinematography reference. Create an ORIGINAL LANDSCAPE contact sheet, approximately 1536x1024, organized as EXACTLY FOUR BIG CELLS in a 2 columns by 2 rows grid. Each BIG CELL contains ONE THREE-FRAME horizontal storyboard strip, read left to right. Therefore there are SIX narrow mini-frames across the entire canvas and TWO rows; a THICK vertical line at the exact midpoint separates the two stories, and a THICK horizontal line at the midpoint separates the rows. Thin separators divide the three consecutive moments INSIDE each big cell. Each story is self-contained, all its three frames remain in its cell. No titles, letters, words, numbers, icons or watermarks. Detailed cinematic semi-realistic anime illustration, strong visual continuity. Recurring clearly adult woman around 28 with a chestnut bob, a teal jacket over opaque cream crew-neck top, charcoal trousers and white sneakers. Usually a pale stone courtyard with arches, a foreground railing and trees. Natural nonsexual ordinary wardrobe. Show real scene images rather than cameras, film crews or diagram arrows. Preserve recognizable face and outfit within every story. Framing changes and parallax should make the particular film technique visually legible. TOP LEFT: CROSS-CUT A-B-A. Frame one teal-jacket woman waiting inside a cafe and looking toward window; frame two brown-jacket adult man hurrying down a nearby outdoor street; frame three return to woman in same cafe looking toward door. Distinct locations but plausibly same time of day. TOP RIGHT: JUMP CUT. IDENTICAL locked camera angle and bench background in all three frames; seated woman abruptly changes position and pose between frames, with handbag suddenly moved and cup level changed, making omitted time visible. No camera angle change. BOTTOM LEFT: MONTAGE JOURNEY. Same adult woman in three separated places/times: packing a small bag at home, sitting beside a train window, arriving at the courtyard. Three snapshots compress a journey. BOTTOM RIGHT: ONE CONTINUOUS LONG TAKE KEYFRAMES. Woman and camera move continuously from courtyard approach through arch to doorway, same lighting and action, three successive moments with coherent perspective progression; no scene change, no teleporting. This is a single continuous-shot idea, not a long-focal-length lens. No written captions.",
+      "items": [
+        {
+          "entry_id": "SE005",
+          "label": "SE005",
+          "name": "交叉剪辑"
+        },
+        {
+          "entry_id": "SE006",
+          "label": "SE006",
+          "name": "跳切"
+        },
+        {
+          "entry_id": "SE007",
+          "label": "SE007",
+          "name": "蒙太奇段落"
+        },
+        {
+          "entry_id": "SE008",
+          "label": "SE008",
+          "name": "连续长镜头"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "R188",
+      "title": "Camera Terms, Prompts, & Examples",
+      "publisher": "Runway",
+      "url": "https://help.runwayml.com/hc/en-us/articles/46749315925395-Camera-Terms-Prompts-Examples",
+      "kind": "官方摄影与电影资料",
+      "topics": "镜头运动",
+      "summary": "区分固定支点的摇镜、机位移动、变焦及其他常见镜头术语。",
+      "rights": "官方资料阅读链接；未复制其中图片。",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "R189",
+      "title": "What is a dolly zoom: How to film the Vertigo effect",
+      "publisher": "Adobe",
+      "url": "https://www.adobe.com/creativecloud/video/production/cinematography/camera-shots-and-angles/dolly-zoom-shot.html",
+      "kind": "官方摄影与电影资料",
+      "topics": "滑动变焦",
+      "summary": "介绍机位移动与反向变焦配合所产生的空间观感。",
+      "rights": "官方资料阅读链接；未复制其中图片。",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "R190",
+      "title": "Cameras — Camera behaviors",
+      "publisher": "Apple Motion User Manual",
+      "url": "https://help.apple.com/motion/mac/5.0/help/English/en/motion/usermanual/chapter_21_section_5.html",
+      "kind": "官方摄影与电影资料",
+      "topics": "镜头与焦点",
+      "summary": "区分 Dolly、Focus、Zoom 等相机行为，可对照转焦与变焦。",
+      "rights": "官方资料阅读链接；未复制其中图片。",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "R191",
+      "title": "Capturing or Freezing Motion in Photos",
+      "publisher": "Nikon",
+      "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/capturing-or-freezing-motion-in-photos",
+      "kind": "官方摄影与电影资料",
+      "topics": "快门与动态",
+      "summary": "介绍快门速度与凝固动作、运动模糊的关系。",
+      "rights": "官方资料阅读链接；未复制其中图片。",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "R192",
+      "title": "Cuts in film",
+      "publisher": "Adobe",
+      "url": "https://www.adobe.com/creativecloud/video/post-production/cuts-in-film.html",
+      "kind": "官方摄影与电影资料",
+      "topics": "剪辑语言",
+      "summary": "介绍匹配剪辑、跳切、交叉剪辑及其他基本剪辑方式。",
+      "rights": "官方资料阅读链接；未复制其中图片。",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "R193",
+      "title": "Adobe Story Reference",
+      "publisher": "Adobe",
+      "url": "https://helpx.adobe.com/pdf/adobe_story_reference.pdf",
+      "kind": "官方摄影与电影资料",
+      "topics": "镜头功能与术语",
+      "summary": "脚本与拍摄术语说明，涵盖主观视点、转场、反打及拍摄方式等。",
+      "rights": "官方资料阅读链接；未复制其中图片。",
+      "checked": "2026-11-02"
+    }
+  ]
+}

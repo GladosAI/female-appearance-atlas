@@ -1,0 +1,46 @@
+[
+  {
+    "id": "R33",
+    "title": "Inside the Bags: Inside Out exhibition",
+    "publisher": "Victoria and Albert Museum",
+    "url": "https://www.vam.ac.uk/articles/inside-the-bags-inside-out-exhibition",
+    "kind": "包袋展览资料",
+    "summary": "观察包袋在携行用途、造型和制作构造上的变化；图鉴采用独立原创图例。",
+    "rights": "仅保存阅读链接，未复制原站图片。",
+    "checked": "2026-10-14",
+    "topics": "Inside the Bags: Inside Out exhibition"
+  },
+  {
+    "id": "R34",
+    "title": "Army Uniforms and Grooming Guide",
+    "publisher": "United States Army",
+    "url": "https://www.army.mil/uniforms/",
+    "kind": "制服结构参考",
+    "summary": "现役军服结构的阅读入口；图鉴军装为视觉改编，不复制真实军衔、单位标识或穿用规范。",
+    "rights": "仅保存阅读链接，未复制原站图片。",
+    "checked": "2026-10-14",
+    "topics": "Army Uniforms and Grooming Guide"
+  },
+  {
+    "id": "R35",
+    "title": "巫女（みこ）さんの装束について教えてください",
+    "publisher": "東京都神社庁",
+    "url": "https://mamechishiki.tokyo/?p=906",
+    "kind": "巫女装束资料",
+    "summary": "白衣、绯袴及千早等装束参考；原制服结构与架空巫女设计分别标注。",
+    "rights": "仅保存阅读链接，未复制原站图片。",
+    "checked": "2026-10-14",
+    "topics": "巫女（みこ）さんの装束について教えてください"
+  },
+  {
+    "id": "R36",
+    "title": "諸国勧進の出雲の巫女",
+    "publisher": "風俗博物館",
+    "url": "https://www.iz2.or.jp/fukushoku/f_disp.php?page_no=0000107",
+    "kind": "历史服饰参考",
+    "summary": "历史巡行巫女的千早、袴、笠和舞具参考；不与现代神社日常装束混作同一服制。",
+    "rights": "仅保存阅读链接，未复制原站图片。",
+    "checked": "2026-10-14",
+    "topics": "諸国勧進の出雲の巫女"
+  }
+]

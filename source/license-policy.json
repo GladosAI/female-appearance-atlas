@@ -1,0 +1,49 @@
+{
+  "schema": "female-appearance-license-policy/v1",
+  "decision_date": "2026-11-03",
+  "code": {
+    "status": "selected",
+    "spdx": "MIT",
+    "text": "LICENSE",
+    "scope": "LICENSE-SCOPE.md",
+    "notice": "Copyright (c) 2026 女性之美 contributors",
+    "authorization": "Project owner explicitly selected MIT for the code in this conversation on 2026-11-03."
+  },
+  "editorial_content": {
+    "status": "selected",
+    "license": "CC-BY-NC-4.0",
+    "text": "CONTENT-LICENSE",
+    "text_sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
+    "scope": "LICENSE-SCOPE.md",
+    "commercial_use": false,
+    "decision_evidence": "E-OWNER-NONCOMMERCIAL-20261103",
+    "authorization": "Owner selected a noncommercial material policy, following the code/content split of AI Pose Gallery; implemented as standard CC BY-NC 4.0 without adding ShareAlike.",
+    "future_changes": "Additional permissions may be considered later for material the relevant rights holders can authorize; existing compliant grants remain valid."
+  },
+  "ai_images": {
+    "status": "selected",
+    "license": "CC-BY-NC-4.0",
+    "text": "CONTENT-LICENSE",
+    "text_sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
+    "scope": "LICENSE-SCOPE.md",
+    "commercial_use": false,
+    "decision_evidence": "E-OWNER-NONCOMMERCIAL-20261103",
+    "authorization": "Owner selected a noncommercial material policy, following the code/content split of AI Pose Gallery; implemented as standard CC BY-NC 4.0 without adding ShareAlike.",
+    "future_changes": "Additional permissions may be considered later for material the relevant rights holders can authorize; existing compliant grants remain valid."
+  },
+  "brand_artwork": {
+    "status": "selected",
+    "license": "CC-BY-NC-4.0",
+    "text": "CONTENT-LICENSE",
+    "text_sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
+    "scope": "LICENSE-SCOPE.md",
+    "commercial_use": false,
+    "decision_evidence": "E-OWNER-NONCOMMERCIAL-20261103",
+    "authorization": "Owner selected a noncommercial material policy, following the code/content split of AI Pose Gallery; implemented as standard CC BY-NC 4.0 without adding ShareAlike.",
+    "future_changes": "Additional permissions may be considered later for material the relevant rights holders can authorize; existing compliant grants remain valid."
+  },
+  "third_party_assets": {
+    "status": "per-asset-review",
+    "policy": "Preserve verified upstream terms and public-domain notices; do not relabel third-party material as project-owned MIT content."
+  }
+}

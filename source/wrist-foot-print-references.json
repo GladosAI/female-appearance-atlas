@@ -1,0 +1,46 @@
+[
+  {
+    "id": "R57",
+    "title": "Textiles 纺织品馆藏",
+    "publisher": "Victoria and Albert Museum",
+    "url": "https://www.vam.ac.uk/collections/textiles",
+    "kind": "馆藏研究入口",
+    "topics": "Textiles 纺织品馆藏",
+    "summary": "织造、印花、刺绣等纺织品的馆藏研究入口；本版印花为原创图案，未复制馆藏图像。",
+    "rights": "仅保存阅读链接，未复制原站图片",
+    "checked": "2026-10-14"
+  },
+  {
+    "id": "R58",
+    "title": "William Morris textiles 纹样研究",
+    "publisher": "Victoria and Albert Museum",
+    "url": "https://www.vam.ac.uk/articles/willam-morris-textiles",
+    "kind": "馆藏研究入口",
+    "topics": "William Morris textiles 纹样研究",
+    "summary": "用于了解植物题材、重复纹样与纺织设计的研究文章；工艺美术图例为独立原创改编。",
+    "rights": "仅保存阅读链接，未复制原站图片",
+    "checked": "2026-10-14"
+  },
+  {
+    "id": "R59",
+    "title": "Rococo textile designs by William Kilburn",
+    "publisher": "Victoria and Albert Museum",
+    "url": "https://www.vam.ac.uk/articles/rococo-textile-designs-by-william-kilburn",
+    "kind": "馆藏研究入口",
+    "topics": "Rococo textile designs by William Kilburn",
+    "summary": "洛可可纺织图案设计与花卉纹样的阅读入口；不将原创视觉风格图例当作历史复刻。",
+    "rights": "仅保存阅读链接，未复制原站图片",
+    "checked": "2026-10-14"
+  },
+  {
+    "id": "R60",
+    "title": "Watch 瑞士钟表馆藏",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/art/collection/search/104896",
+    "kind": "馆藏研究入口",
+    "topics": "Watch 瑞士钟表馆藏",
+    "summary": "钟表与首饰材料的具体馆藏入口；新增腕表均为原创外观参考，不复制实物或推断机芯性能。",
+    "rights": "仅保存阅读链接，未复制原站图片",
+    "checked": "2026-10-14"
+  }
+]

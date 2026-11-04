@@ -1,0 +1,20 @@
+.work/
+dist/
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+images/export-data/
+*.zip
+*.log
+# The large image pack is distributed separately; maintain its checksum inventory.
+images/*.png
+images/*.jpg
+images/*.jpeg
+images/*.webp
+source/character-research*.json

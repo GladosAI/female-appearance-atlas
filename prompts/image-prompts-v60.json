@@ -1,0 +1,42 @@
+[
+  {
+    "id": "art-v60-1-portrait",
+    "prompt": "Original character art-style atlas. Create a LANDSCAPE 3:2 image exactly 2 columns by 2 rows with a fine separating line, four distinct panels in reading order. In each panel one clearly adult woman, portrait head and shoulders with full head in frame, modest opaque simple clothes, no writing, no watermark, no recognizable existing characters. Render each panel unmistakably in its assigned style. TOP LEFT nostalgic Japanese shojo manga, large sparkling eyes, elaborate ink lashes, flowers and screen tone; TOP RIGHT expressive Western hand-drawn 2D television cartoon with simplified graphic features and clean bold ink outlines; BOTTOM LEFT strict black-and-white 1-bit pixel art of character with large crisp square pixels and limited checkerboard dithering, no gray gradients; BOTTOM RIGHT 3D anime-style cel-shaded game render with simplified clear hard-edged shadow bands, visibly three-dimensional volumes.",
+    "image": "images/sheet-art-v60-1-portrait.png"
+  },
+  {
+    "id": "art-v60-1-fullbody",
+    "prompt": "Original character art-style atlas. PORTRAIT 2:3 canvas with EXACTLY 2 columns and 2 rows, four distinct tall panels. Each cell depicts one clearly adult woman standing, entire body from crown to complete shoes shown inside cell with margin; simple modest white blouse, dark trousers and shoes. All limbs remain within cell. No lettering, no logo, no watermark, no copyrighted characters. Render each panel unmistakably in its assigned style. TOP LEFT nostalgic Japanese shojo manga, large sparkling eyes, elaborate ink lashes, flowers and screen tone; TOP RIGHT expressive Western hand-drawn 2D television cartoon with simplified graphic features and clean bold ink outlines; BOTTOM LEFT strict black-and-white 1-bit pixel art of character with large crisp square pixels and limited checkerboard dithering, no gray gradients; BOTTOM RIGHT 3D anime-style cel-shaded game render with simplified clear hard-edged shadow bands, visibly three-dimensional volumes.",
+    "image": "images/sheet-art-v60-1-fullbody.png"
+  },
+  {
+    "id": "art-v60-2-portrait",
+    "prompt": "Original character art-style atlas. Create a LANDSCAPE 3:2 image exactly 2 columns by 2 rows with a fine separating line, four distinct panels in reading order. In each panel one clearly adult woman, portrait head and shoulders with full head in frame, modest opaque simple clothes, no writing, no watermark, no recognizable existing characters. Render each panel unmistakably in its assigned style. TOP LEFT traditional Chinese gongbi fine brush painting, deliberate delicate ink contour and carefully layered mineral colors on fibrous silk, intricate yet natural; TOP RIGHT Japanese ukiyo-e woodblock inspired illustration with flat colors, bold carved outlines, paper and visible woodblock print grain; BOTTOM LEFT impressionist oil painting in distinct broken brushstrokes and lively reflected daylight, painterly not photo; BOTTOM RIGHT Art Nouveau decorative illustration with elegant organic curves, floral ornamental border, graceful linework and subdued jewel colors.",
+    "image": "images/sheet-art-v60-2-portrait.png"
+  },
+  {
+    "id": "art-v60-2-fullbody",
+    "prompt": "Original character art-style atlas. PORTRAIT 2:3 canvas with EXACTLY 2 columns and 2 rows, four distinct tall panels. Each cell depicts one clearly adult woman standing, entire body from crown to complete shoes shown inside cell with margin; simple modest white blouse, dark trousers and shoes. All limbs remain within cell. No lettering, no logo, no watermark, no copyrighted characters. Render each panel unmistakably in its assigned style. TOP LEFT traditional Chinese gongbi fine brush painting, deliberate delicate ink contour and carefully layered mineral colors on fibrous silk, intricate yet natural; TOP RIGHT Japanese ukiyo-e woodblock inspired illustration with flat colors, bold carved outlines, paper and visible woodblock print grain; BOTTOM LEFT impressionist oil painting in distinct broken brushstrokes and lively reflected daylight, painterly not photo; BOTTOM RIGHT Art Nouveau decorative illustration with elegant organic curves, floral ornamental border, graceful linework and subdued jewel colors.",
+    "image": "images/sheet-art-v60-2-fullbody.png"
+  },
+  {
+    "id": "art-v60-3-portrait",
+    "prompt": "Original character art-style atlas. Create a LANDSCAPE 3:2 image exactly 2 columns by 2 rows with a fine separating line, four distinct panels in reading order. In each panel one clearly adult woman, portrait head and shoulders with full head in frame, modest opaque simple clothes, no writing, no watermark, no recognizable existing characters. Render each panel unmistakably in its assigned style. TOP LEFT film noir photographic style simulated black and white with dramatically directional high-contrast studio lighting and deep shadows; TOP RIGHT candid street-fashion editorial photograph simulation with urban backdrop and natural daylight; BOTTOM LEFT dreamy soft-focus pastel portrait photography simulation, diffused light, delicate hazy glow and gentle color; BOTTOM RIGHT false-color infrared photographic simulation with pale white foliage and unexpected crimson foliage tones, clearly photographic but surreal color.",
+    "image": "images/sheet-art-v60-3-portrait.png"
+  },
+  {
+    "id": "art-v60-3-fullbody",
+    "prompt": "Original character art-style atlas. PORTRAIT 2:3 canvas with EXACTLY 2 columns and 2 rows, four distinct tall panels. Each cell depicts one clearly adult woman standing, entire body from crown to complete shoes shown inside cell with margin; simple modest white blouse, dark trousers and shoes. All limbs remain within cell. No lettering, no logo, no watermark, no copyrighted characters. Render each panel unmistakably in its assigned style. TOP LEFT film noir photographic style simulated black and white with dramatically directional high-contrast studio lighting and deep shadows; TOP RIGHT candid street-fashion editorial photograph simulation with urban backdrop and natural daylight; BOTTOM LEFT dreamy soft-focus pastel portrait photography simulation, diffused light, delicate hazy glow and gentle color; BOTTOM RIGHT false-color infrared photographic simulation with pale white foliage and unexpected crimson foliage tones, clearly photographic but surreal color.",
+    "image": "images/sheet-art-v60-3-fullbody.png"
+  },
+  {
+    "id": "art-v60-4-portrait",
+    "prompt": "Original character art-style atlas. Create a LANDSCAPE 3:2 image exactly 2 columns by 2 rows with a fine separating line, four distinct panels in reading order. In each panel one clearly adult woman, portrait head and shoulders with full head in frame, modest opaque simple clothes, no writing, no watermark, no recognizable existing characters. Render each panel unmistakably in its assigned style. TOP LEFT voxel art, a visibly 3D character constructed from chunky cubic blocks and blocky silhouette; TOP RIGHT luminous stained glass artwork, lead cames outlining separate translucent colored glass pieces; BOTTOM LEFT blue ballpoint pen drawing on white paper with distinctly blue hatched strokes; BOTTOM RIGHT Western feature-animation inspired stylized 3D character with expressive exaggerated face and soft polished 3D volumes, visibly different from voxel.",
+    "image": "images/sheet-art-v60-4-portrait.png"
+  },
+  {
+    "id": "art-v60-4-fullbody",
+    "prompt": "Original character art-style atlas. PORTRAIT 2:3 canvas with EXACTLY 2 columns and 2 rows, four distinct tall panels. Each cell depicts one clearly adult woman standing, entire body from crown to complete shoes shown inside cell with margin; simple modest white blouse, dark trousers and shoes. All limbs remain within cell. No lettering, no logo, no watermark, no copyrighted characters. Render each panel unmistakably in its assigned style. TOP LEFT voxel art, a visibly 3D character constructed from chunky cubic blocks and blocky silhouette; TOP RIGHT luminous stained glass artwork, lead cames outlining separate translucent colored glass pieces; BOTTOM LEFT blue ballpoint pen drawing on white paper with distinctly blue hatched strokes; BOTTOM RIGHT Western feature-animation inspired stylized 3D character with expressive exaggerated face and soft polished 3D volumes, visibly different from voxel.",
+    "image": "images/sheet-art-v60-4-fullbody.png"
+  }
+]

@@ -1,0 +1,1627 @@
+{
+  "schema": "female-appearance-field-inventory/v1",
+  "entry_count": 7145,
+  "fields": {
+    "accessory_anchor": {
+      "count": 128,
+      "types": [
+        "str"
+      ]
+    },
+    "accessory_construction": {
+      "count": 128,
+      "types": [
+        "str"
+      ]
+    },
+    "accessory_expansion_reference": {
+      "count": 128,
+      "types": [
+        "bool"
+      ]
+    },
+    "accessory_family": {
+      "count": 128,
+      "types": [
+        "str"
+      ]
+    },
+    "added_in": {
+      "count": 6108,
+      "types": [
+        "str"
+      ]
+    },
+    "adult_measurement_reference": {
+      "count": 16,
+      "types": [
+        "bool"
+      ]
+    },
+    "adult_only": {
+      "count": 2204,
+      "types": [
+        "bool"
+      ]
+    },
+    "adult_sizing": {
+      "count": 128,
+      "types": [
+        "bool"
+      ]
+    },
+    "age_context": {
+      "count": 2697,
+      "types": [
+        "str"
+      ]
+    },
+    "age_max": {
+      "count": 96,
+      "types": [
+        "float",
+        "int",
+        "NoneType"
+      ]
+    },
+    "age_min": {
+      "count": 1852,
+      "types": [
+        "int",
+        "float"
+      ]
+    },
+    "age_range": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "age_stage": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "aliases": {
+      "count": 4813,
+      "types": [
+        "list"
+      ]
+    },
+    "animal_body_plan": {
+      "count": 4,
+      "types": [
+        "str"
+      ]
+    },
+    "anime_hairtie_keywords": {
+      "count": 32,
+      "types": [
+        "list"
+      ]
+    },
+    "anime_hairtie_reference": {
+      "count": 32,
+      "types": [
+        "bool"
+      ]
+    },
+    "anthro_level": {
+      "count": 32,
+      "types": [
+        "int"
+      ]
+    },
+    "anthro_reference": {
+      "count": 7145,
+      "types": [
+        "bool"
+      ]
+    },
+    "anthro_species": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "art_style_reference": {
+      "count": 96,
+      "types": [
+        "bool"
+      ]
+    },
+    "band_size_cm": {
+      "count": 32,
+      "types": [
+        "int"
+      ]
+    },
+    "bare_leg_styling": {
+      "count": 16,
+      "types": [
+        "bool"
+      ]
+    },
+    "beauty_expansion_reference": {
+      "count": 96,
+      "types": [
+        "bool"
+      ]
+    },
+    "beauty_kind": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "body_cord_reference": {
+      "count": 16,
+      "types": [
+        "bool"
+      ]
+    },
+    "body_dimension_reference": {
+      "count": 32,
+      "types": [
+        "bool"
+      ]
+    },
+    "body_orientation": {
+      "count": 4,
+      "types": [
+        "str"
+      ]
+    },
+    "body_shape_key": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "body_shape_reference": {
+      "count": 32,
+      "types": [
+        "bool"
+      ]
+    },
+    "body_shape_view": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "bra_size": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "bust_cm": {
+      "count": 48,
+      "types": [
+        "int",
+        "float"
+      ]
+    },
+    "camera_axis": {
+      "count": 78,
+      "types": [
+        "str"
+      ]
+    },
+    "camera_height": {
+      "count": 48,
+      "types": [
+        "str"
+      ]
+    },
+    "camera_reference": {
+      "count": 78,
+      "types": [
+        "bool"
+      ]
+    },
+    "category": {
+      "count": 7145,
+      "types": [
+        "str"
+      ]
+    },
+    "category_name": {
+      "count": 7145,
+      "types": [
+        "str"
+      ]
+    },
+    "changed_condition": {
+      "count": 24,
+      "types": [
+        "str"
+      ]
+    },
+    "chinese_fantasy_kind": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "chinese_fantasy_reference": {
+      "count": 32,
+      "types": [
+        "bool"
+      ]
+    },
+    "chronology_order": {
+      "count": 12,
+      "types": [
+        "int"
+      ]
+    },
+    "cinematic_reference": {
+      "count": 36,
+      "types": [
+        "bool"
+      ]
+    },
+    "comic_panel_reference": {
+      "count": 56,
+      "types": [
+        "bool"
+      ]
+    },
+    "comparison_baseline": {
+      "count": 24,
+      "types": [
+        "str"
+      ]
+    },
+    "comparison_figure": {
+      "count": 32,
+      "types": [
+        "dict"
+      ]
+    },
+    "comparison_kind": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "comparison_observation": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "comparison_order": {
+      "count": 56,
+      "types": [
+        "int"
+      ]
+    },
+    "comparison_reference": {
+      "count": 32,
+      "types": [
+        "bool"
+      ]
+    },
+    "comparison_set": {
+      "count": 24,
+      "types": [
+        "str"
+      ]
+    },
+    "comparison_stature_cm": {
+      "count": 32,
+      "types": [
+        "int"
+      ]
+    },
+    "comparison_view": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "cord_knot_anchor": {
+      "count": 16,
+      "types": [
+        "str"
+      ]
+    },
+    "cord_region": {
+      "count": 16,
+      "types": [
+        "str"
+      ]
+    },
+    "cord_view": {
+      "count": 16,
+      "types": [
+        "str"
+      ]
+    },
+    "cosplay_reference": {
+      "count": 7145,
+      "types": [
+        "bool"
+      ]
+    },
+    "coverage": {
+      "count": 16,
+      "types": [
+        "str"
+      ]
+    },
+    "coverage_group": {
+      "count": 8,
+      "types": [
+        "str"
+      ]
+    },
+    "coverage_kind": {
+      "count": 8,
+      "types": [
+        "str"
+      ]
+    },
+    "coverage_order": {
+      "count": 8,
+      "types": [
+        "int"
+      ]
+    },
+    "coverage_reference": {
+      "count": 8,
+      "types": [
+        "bool"
+      ]
+    },
+    "cup_difference_cm": {
+      "count": 32,
+      "types": [
+        "float",
+        "int"
+      ]
+    },
+    "cup_letter": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "cup_system": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "denier": {
+      "count": 16,
+      "types": [
+        "int"
+      ]
+    },
+    "description": {
+      "count": 7145,
+      "types": [
+        "str"
+      ]
+    },
+    "design_tip": {
+      "count": 7145,
+      "types": [
+        "str"
+      ]
+    },
+    "dimension": {
+      "count": 7145,
+      "types": [
+        "str"
+      ]
+    },
+    "dimension_axis": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "dimension_case": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "dimension_figure": {
+      "count": 32,
+      "types": [
+        "dict"
+      ]
+    },
+    "dimension_label": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "dimension_order": {
+      "count": 32,
+      "types": [
+        "int"
+      ]
+    },
+    "dimension_view": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "diverse_role_reference": {
+      "count": 64,
+      "types": [
+        "bool"
+      ]
+    },
+    "en": {
+      "count": 7145,
+      "types": [
+        "str"
+      ]
+    },
+    "era_name": {
+      "count": 12,
+      "types": [
+        "str"
+      ]
+    },
+    "expansion_group": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "expansion_order": {
+      "count": 32,
+      "types": [
+        "int"
+      ]
+    },
+    "eye_makeup_kind": {
+      "count": 48,
+      "types": [
+        "str"
+      ]
+    },
+    "eye_makeup_reference": {
+      "count": 48,
+      "types": [
+        "bool"
+      ]
+    },
+    "face_cover_kind": {
+      "count": 48,
+      "types": [
+        "str"
+      ]
+    },
+    "face_cover_reference": {
+      "count": 48,
+      "types": [
+        "bool"
+      ]
+    },
+    "facial_reference": {
+      "count": 7145,
+      "types": [
+        "bool"
+      ]
+    },
+    "fashion_history_extension": {
+      "count": 48,
+      "types": [
+        "bool"
+      ]
+    },
+    "fashion_history_reference": {
+      "count": 96,
+      "types": [
+        "bool"
+      ]
+    },
+    "film_design_reference": {
+      "count": 16,
+      "types": [
+        "bool"
+      ]
+    },
+    "fixed_conditions": {
+      "count": 24,
+      "types": [
+        "str"
+      ]
+    },
+    "flexibility_reference": {
+      "count": 24,
+      "types": [
+        "bool"
+      ]
+    },
+    "fullbody_visual": {
+      "count": 96,
+      "types": [
+        "dict"
+      ]
+    },
+    "game_design_reference": {
+      "count": 32,
+      "types": [
+        "bool"
+      ]
+    },
+    "gaze_direction": {
+      "count": 48,
+      "types": [
+        "str"
+      ]
+    },
+    "gesture_group": {
+      "count": 16,
+      "types": [
+        "str"
+      ]
+    },
+    "gesture_kind": {
+      "count": 16,
+      "types": [
+        "str"
+      ]
+    },
+    "gesture_order": {
+      "count": 16,
+      "types": [
+        "int"
+      ]
+    },
+    "gesture_reference": {
+      "count": 16,
+      "types": [
+        "bool"
+      ]
+    },
+    "growth_reference": {
+      "count": 16,
+      "types": [
+        "bool"
+      ]
+    },
+    "hair_accessory_anchor": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "hair_accessory_kind": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "hair_accessory_name": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "hair_accessory_view": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "hair_arrangement": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "hair_comparison_v65": {
+      "count": 24,
+      "types": [
+        "bool"
+      ]
+    },
+    "hair_group": {
+      "count": 24,
+      "types": [
+        "str"
+      ]
+    },
+    "hair_state_reference": {
+      "count": 64,
+      "types": [
+        "bool"
+      ]
+    },
+    "hair_tie_detail_inset": {
+      "count": 48,
+      "types": [
+        "bool"
+      ]
+    },
+    "hair_tie_motif": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "hair_tie_motif_name": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "hair_tie_structure_family": {
+      "count": 16,
+      "types": [
+        "str"
+      ]
+    },
+    "head_proportion_reference": {
+      "count": 16,
+      "types": [
+        "bool"
+      ]
+    },
+    "head_units": {
+      "count": 32,
+      "types": [
+        "float",
+        "int"
+      ]
+    },
+    "headphone_anchor": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "headphone_construction": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "headphone_detail_inset": {
+      "count": 32,
+      "types": [
+        "bool"
+      ]
+    },
+    "headphone_group": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "headphone_reference": {
+      "count": 32,
+      "types": [
+        "bool"
+      ]
+    },
+    "headphone_view": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "height_cm": {
+      "count": 61,
+      "types": [
+        "int"
+      ]
+    },
+    "hip_cm": {
+      "count": 48,
+      "types": [
+        "int"
+      ]
+    },
+    "history_change": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "history_comparison_kind": {
+      "count": 16,
+      "types": [
+        "str"
+      ]
+    },
+    "history_end": {
+      "count": 96,
+      "types": [
+        "int"
+      ]
+    },
+    "history_line": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "history_line_name": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "history_order": {
+      "count": 96,
+      "types": [
+        "int"
+      ]
+    },
+    "history_period": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "history_recipe": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "history_reference_scope": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "history_region": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "history_silhouette": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "history_start": {
+      "count": 96,
+      "types": [
+        "int"
+      ]
+    },
+    "history_track": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "hooded_cloak": {
+      "count": 33,
+      "types": [
+        "bool"
+      ]
+    },
+    "hosiery_reference": {
+      "count": 7145,
+      "types": [
+        "bool"
+      ]
+    },
+    "human_hands": {
+      "count": 4,
+      "types": [
+        "bool"
+      ]
+    },
+    "human_upper_body": {
+      "count": 4,
+      "types": [
+        "bool"
+      ]
+    },
+    "hybrid_connection": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "hybrid_group": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "hybrid_reference": {
+      "count": 32,
+      "types": [
+        "bool"
+      ]
+    },
+    "hybrid_support": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "id": {
+      "count": 7145,
+      "types": [
+        "str"
+      ]
+    },
+    "identity_character_design": {
+      "count": 36,
+      "types": [
+        "str"
+      ]
+    },
+    "identity_components": {
+      "count": 36,
+      "types": [
+        "list"
+      ]
+    },
+    "identity_flex_v52_reference": {
+      "count": 48,
+      "types": [
+        "bool"
+      ]
+    },
+    "identity_kind": {
+      "count": 36,
+      "types": [
+        "str"
+      ]
+    },
+    "identity_order": {
+      "count": 36,
+      "types": [
+        "int"
+      ]
+    },
+    "identity_pair": {
+      "count": 36,
+      "types": [
+        "str"
+      ]
+    },
+    "identity_reference": {
+      "count": 36,
+      "types": [
+        "bool"
+      ]
+    },
+    "illustration_recipe": {
+      "count": 780,
+      "types": [
+        "str"
+      ]
+    },
+    "inspiration_reference": {
+      "count": 86,
+      "types": [
+        "str"
+      ]
+    },
+    "intimate_theme_reference": {
+      "count": 48,
+      "types": [
+        "bool"
+      ]
+    },
+    "keywords": {
+      "count": 7145,
+      "types": [
+        "list"
+      ]
+    },
+    "length_cm": {
+      "count": 3,
+      "types": [
+        "int"
+      ]
+    },
+    "life_stage_group": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "life_stage_reference": {
+      "count": 96,
+      "types": [
+        "bool"
+      ]
+    },
+    "lip_reference": {
+      "count": 48,
+      "types": [
+        "bool"
+      ]
+    },
+    "magical_ninja_reference": {
+      "count": 64,
+      "types": [
+        "bool"
+      ]
+    },
+    "makeup_finish": {
+      "count": 48,
+      "types": [
+        "str"
+      ]
+    },
+    "makeup_placement": {
+      "count": 48,
+      "types": [
+        "str"
+      ]
+    },
+    "makeup_view": {
+      "count": 48,
+      "types": [
+        "str"
+      ]
+    },
+    "mascot_visibility": {
+      "count": 16,
+      "types": [
+        "str"
+      ]
+    },
+    "measurement_basis": {
+      "count": 64,
+      "types": [
+        "str"
+      ]
+    },
+    "minor_reference": {
+      "count": 2076,
+      "types": [
+        "bool"
+      ]
+    },
+    "motif_source_name": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "motif_source_url": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "name": {
+      "count": 7145,
+      "types": [
+        "str"
+      ]
+    },
+    "nun_reference": {
+      "count": 32,
+      "types": [
+        "bool"
+      ]
+    },
+    "origin": {
+      "count": 7145,
+      "types": [
+        "str"
+      ]
+    },
+    "outfit_combination_v63": {
+      "count": 48,
+      "types": [
+        "bool"
+      ]
+    },
+    "outfit_combination_v64": {
+      "count": 14,
+      "types": [
+        "bool"
+      ]
+    },
+    "outfit_components": {
+      "count": 1081,
+      "types": [
+        "list"
+      ]
+    },
+    "outfit_context": {
+      "count": 297,
+      "types": [
+        "str"
+      ]
+    },
+    "outfit_group": {
+      "count": 62,
+      "types": [
+        "str"
+      ]
+    },
+    "paired_shape_label": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "part_group": {
+      "count": 96,
+      "types": [
+        "str"
+      ]
+    },
+    "part_order": {
+      "count": 96,
+      "types": [
+        "int"
+      ]
+    },
+    "pattern_reference": {
+      "count": 112,
+      "types": [
+        "bool"
+      ]
+    },
+    "persona_extension": {
+      "count": 124,
+      "types": [
+        "bool"
+      ]
+    },
+    "persona_group": {
+      "count": 172,
+      "types": [
+        "str"
+      ]
+    },
+    "persona_order": {
+      "count": 172,
+      "types": [
+        "int"
+      ]
+    },
+    "persona_reference": {
+      "count": 172,
+      "types": [
+        "bool"
+      ]
+    },
+    "persona_tag": {
+      "count": 172,
+      "types": [
+        "str"
+      ]
+    },
+    "persona_v50_reference": {
+      "count": 20,
+      "types": [
+        "bool"
+      ]
+    },
+    "photo_framing": {
+      "count": 48,
+      "types": [
+        "str"
+      ]
+    },
+    "photo_pose_group": {
+      "count": 48,
+      "types": [
+        "str"
+      ]
+    },
+    "photo_pose_reference": {
+      "count": 48,
+      "types": [
+        "bool"
+      ]
+    },
+    "photo_scene": {
+      "count": 48,
+      "types": [
+        "str"
+      ]
+    },
+    "pixel_density_reference": {
+      "count": 16,
+      "types": [
+        "bool"
+      ]
+    },
+    "plush_size": {
+      "count": 16,
+      "types": [
+        "str"
+      ]
+    },
+    "pose_actors": {
+      "count": 288,
+      "types": [
+        "int"
+      ]
+    },
+    "pose_expansion_reference": {
+      "count": 240,
+      "types": [
+        "bool"
+      ]
+    },
+    "pose_family": {
+      "count": 24,
+      "types": [
+        "str"
+      ]
+    },
+    "pose_focus": {
+      "count": 288,
+      "types": [
+        "str"
+      ]
+    },
+    "pose_group": {
+      "count": 240,
+      "types": [
+        "str"
+      ]
+    },
+    "pose_group_name": {
+      "count": 240,
+      "types": [
+        "str"
+      ]
+    },
+    "pose_phase": {
+      "count": 288,
+      "types": [
+        "str"
+      ]
+    },
+    "pose_reference": {
+      "count": 288,
+      "types": [
+        "bool"
+      ]
+    },
+    "pose_sheet_layout": {
+      "count": 240,
+      "types": [
+        "str"
+      ]
+    },
+    "pose_sheet_topic": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "pose_support": {
+      "count": 288,
+      "types": [
+        "str"
+      ]
+    },
+    "pose_v54_reference": {
+      "count": 64,
+      "types": [
+        "bool"
+      ]
+    },
+    "pose_view": {
+      "count": 288,
+      "types": [
+        "str"
+      ]
+    },
+    "presence_gesture_reference": {
+      "count": 48,
+      "types": [
+        "bool"
+      ]
+    },
+    "presence_v49_group": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "presence_v49_order": {
+      "count": 32,
+      "types": [
+        "int"
+      ]
+    },
+    "presence_v49_reference": {
+      "count": 32,
+      "types": [
+        "bool"
+      ]
+    },
+    "presentation": {
+      "count": 64,
+      "types": [
+        "str"
+      ]
+    },
+    "prosthetic_limb": {
+      "count": 16,
+      "types": [
+        "str"
+      ]
+    },
+    "prosthetic_side": {
+      "count": 16,
+      "types": [
+        "str"
+      ]
+    },
+    "quadruped_reference": {
+      "count": 4,
+      "types": [
+        "bool"
+      ]
+    },
+    "reference_mode": {
+      "count": 246,
+      "types": [
+        "str"
+      ]
+    },
+    "reference_period": {
+      "count": 12,
+      "types": [
+        "str"
+      ]
+    },
+    "region": {
+      "count": 12,
+      "types": [
+        "str"
+      ]
+    },
+    "related_reading": {
+      "count": 7145,
+      "types": [
+        "list"
+      ]
+    },
+    "representation": {
+      "count": 16,
+      "types": [
+        "str"
+      ]
+    },
+    "role_kind": {
+      "count": 64,
+      "types": [
+        "str"
+      ]
+    },
+    "role_kind_name": {
+      "count": 64,
+      "types": [
+        "str"
+      ]
+    },
+    "role_style_group": {
+      "count": 60,
+      "types": [
+        "str"
+      ]
+    },
+    "role_style_order": {
+      "count": 60,
+      "types": [
+        "int"
+      ]
+    },
+    "role_style_reference": {
+      "count": 60,
+      "types": [
+        "bool"
+      ]
+    },
+    "role_variant": {
+      "count": 64,
+      "types": [
+        "int"
+      ]
+    },
+    "scholar_myth_v53_reference": {
+      "count": 64,
+      "types": [
+        "bool"
+      ]
+    },
+    "search_query": {
+      "count": 7145,
+      "types": [
+        "str"
+      ]
+    },
+    "season": {
+      "count": 297,
+      "types": [
+        "str"
+      ]
+    },
+    "season_name": {
+      "count": 297,
+      "types": [
+        "str"
+      ]
+    },
+    "seasonal_reference": {
+      "count": 297,
+      "types": [
+        "bool"
+      ]
+    },
+    "seated_pose_reference": {
+      "count": 32,
+      "types": [
+        "bool"
+      ]
+    },
+    "self_tied_ornament": {
+      "count": 16,
+      "types": [
+        "bool"
+      ]
+    },
+    "sequence_labels": {
+      "count": 36,
+      "types": [
+        "list"
+      ]
+    },
+    "sequence_order": {
+      "count": 36,
+      "types": [
+        "str"
+      ]
+    },
+    "sequence_reference": {
+      "count": 36,
+      "types": [
+        "bool"
+      ]
+    },
+    "shoulder_name": {
+      "count": 73,
+      "types": [
+        "str"
+      ]
+    },
+    "shoulder_type": {
+      "count": 7145,
+      "types": [
+        "NoneType",
+        "str"
+      ]
+    },
+    "shoulder_width_cm": {
+      "count": 32,
+      "types": [
+        "int"
+      ]
+    },
+    "single_panel_reference": {
+      "count": 72,
+      "types": [
+        "bool"
+      ]
+    },
+    "special_expansion": {
+      "count": 176,
+      "types": [
+        "bool"
+      ]
+    },
+    "special_role_v52_reference": {
+      "count": 8,
+      "types": [
+        "bool"
+      ]
+    },
+    "special_variant_reference": {
+      "count": 176,
+      "types": [
+        "bool"
+      ]
+    },
+    "species_reference": {
+      "count": 4,
+      "types": [
+        "str"
+      ]
+    },
+    "stage_family": {
+      "count": 192,
+      "types": [
+        "str"
+      ]
+    },
+    "stage_family_reference": {
+      "count": 192,
+      "types": [
+        "bool"
+      ]
+    },
+    "stance": {
+      "count": 4,
+      "types": [
+        "str"
+      ]
+    },
+    "stature_kind": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "story_state": {
+      "count": 48,
+      "types": [
+        "str"
+      ]
+    },
+    "story_state_reference": {
+      "count": 48,
+      "types": [
+        "bool"
+      ]
+    },
+    "structure_reference_urls": {
+      "count": 16,
+      "types": [
+        "list"
+      ]
+    },
+    "study_focus": {
+      "count": 80,
+      "types": [
+        "str"
+      ]
+    },
+    "study_group": {
+      "count": 80,
+      "types": [
+        "str"
+      ]
+    },
+    "study_order": {
+      "count": 80,
+      "types": [
+        "int"
+      ]
+    },
+    "study_reference": {
+      "count": 80,
+      "types": [
+        "bool"
+      ]
+    },
+    "study_view": {
+      "count": 80,
+      "types": [
+        "str"
+      ]
+    },
+    "styled_hair_reference": {
+      "count": 96,
+      "types": [
+        "bool"
+      ]
+    },
+    "styles": {
+      "count": 7145,
+      "types": [
+        "list"
+      ]
+    },
+    "superhero_inspiration": {
+      "count": 16,
+      "types": [
+        "str"
+      ]
+    },
+    "superhero_inspiration_universe": {
+      "count": 16,
+      "types": [
+        "str"
+      ]
+    },
+    "superhero_kind": {
+      "count": 32,
+      "types": [
+        "str"
+      ]
+    },
+    "superhero_reference": {
+      "count": 32,
+      "types": [
+        "bool"
+      ]
+    },
+    "trend_model_reference": {
+      "count": 96,
+      "types": [
+        "bool"
+      ]
+    },
+    "underbust_cm": {
+      "count": 32,
+      "types": [
+        "int"
+      ]
+    },
+    "view": {
+      "count": 24,
+      "types": [
+        "str"
+      ]
+    },
+    "view_type": {
+      "count": 112,
+      "types": [
+        "str"
+      ]
+    },
+    "visual": {
+      "count": 7145,
+      "types": [
+        "dict"
+      ]
+    },
+    "visual_language_reference": {
+      "count": 72,
+      "types": [
+        "bool"
+      ]
+    },
+    "waist_cm": {
+      "count": 48,
+      "types": [
+        "int"
+      ]
+    },
+    "wardrobe_part_reference": {
+      "count": 96,
+      "types": [
+        "bool"
+      ]
+    },
+    "wearing_visual": {
+      "count": 80,
+      "types": [
+        "dict"
+      ]
+    },
+    "wedding_context": {
+      "count": 80,
+      "types": [
+        "str"
+      ]
+    },
+    "wedding_reference": {
+      "count": 80,
+      "types": [
+        "bool"
+      ]
+    }
+  }
+}

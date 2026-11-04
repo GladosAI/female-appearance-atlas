@@ -1,0 +1,1213 @@
+{
+  "schema": "female-appearance-example-coverage/v1",
+  "example_count": 71,
+  "unique_entries": 332,
+  "min_entries": 5,
+  "max_entries": 8,
+  "category_count": 200,
+  "covered_categories": 125,
+  "section_count": 55,
+  "covered_sections": 47,
+  "domain_count": 9,
+  "covered_domains": 9,
+  "domains": [
+    {
+      "id": "hair_design",
+      "name": "头发与发型",
+      "category_count": 8,
+      "covered_categories": 5,
+      "sections": [
+        {
+          "id": "hair_shape",
+          "name": "剪裁与轮廓",
+          "covered": false
+        },
+        {
+          "id": "hair_texture",
+          "name": "质感、颜色与状态",
+          "covered": true
+        },
+        {
+          "id": "hair_styling",
+          "name": "扎编与完整发型",
+          "covered": true
+        }
+      ]
+    },
+    {
+      "id": "face_design",
+      "name": "脸部与表情",
+      "category_count": 19,
+      "covered_categories": 12,
+      "sections": [
+        {
+          "id": "facial_structure",
+          "name": "脸型、五官与视角",
+          "covered": true
+        },
+        {
+          "id": "portrait_light",
+          "name": "光照与明暗",
+          "covered": true
+        },
+        {
+          "id": "eyes_skin",
+          "name": "眼睛与肤色",
+          "covered": true
+        },
+        {
+          "id": "makeup_detail",
+          "name": "眼妆与唇妆",
+          "covered": true
+        },
+        {
+          "id": "expressions",
+          "name": "情绪与妆容",
+          "covered": true
+        },
+        {
+          "id": "face_actions",
+          "name": "口部与手部互动",
+          "covered": true
+        },
+        {
+          "id": "face_conditions",
+          "name": "状态、痕迹与覆盖",
+          "covered": true
+        },
+        {
+          "id": "face_technology",
+          "name": "光效与机械面部",
+          "covered": true
+        }
+      ]
+    },
+    {
+      "id": "body_design",
+      "name": "身体与动作",
+      "category_count": 13,
+      "covered_categories": 10,
+      "sections": [
+        {
+          "id": "body_age",
+          "name": "体型、比例与年龄",
+          "covered": true
+        },
+        {
+          "id": "body_movement",
+          "name": "动作与持物",
+          "covered": true
+        },
+        {
+          "id": "body_details",
+          "name": "手足、甲面与皮肤细节",
+          "covered": true
+        },
+        {
+          "id": "body_prosthetics",
+          "name": "机械义肢",
+          "covered": true
+        }
+      ]
+    },
+    {
+      "id": "everyday",
+      "name": "服装单件与日常穿搭",
+      "category_count": 29,
+      "covered_categories": 16,
+      "sections": [
+        {
+          "id": "garment_pieces",
+          "name": "上装、下装与外套",
+          "covered": true
+        },
+        {
+          "id": "garment_details",
+          "name": "领袖、结构与衣物动态",
+          "covered": false
+        },
+        {
+          "id": "intimate_home",
+          "name": "贴身、居家与泳装",
+          "covered": true
+        },
+        {
+          "id": "shoes_hosiery",
+          "name": "鞋履、袜类与手套",
+          "covered": true
+        },
+        {
+          "id": "four_seasons",
+          "name": "春夏秋冬整套穿搭",
+          "covered": true
+        },
+        {
+          "id": "school_sport",
+          "name": "校园、青少年与运动",
+          "covered": true
+        },
+        {
+          "id": "fashion_ensembles",
+          "name": "日常搭配与造型方向",
+          "covered": true
+        },
+        {
+          "id": "character_presence",
+          "name": "气质与角色表现",
+          "covered": true
+        }
+      ]
+    },
+    {
+      "id": "role_costumes",
+      "name": "职业、主题与历史服装",
+      "category_count": 58,
+      "covered_categories": 35,
+      "sections": [
+        {
+          "id": "history_culture",
+          "name": "传统、国风与年代",
+          "covered": true
+        },
+        {
+          "id": "occupations",
+          "name": "职业与户外作业",
+          "covered": true
+        },
+        {
+          "id": "military_space",
+          "name": "军旅、战术与宇航",
+          "covered": true
+        },
+        {
+          "id": "magic_religion",
+          "name": "魔法、仪式与幻想身份",
+          "covered": true
+        },
+        {
+          "id": "performance",
+          "name": "舞台、竞技与秀场",
+          "covered": true
+        },
+        {
+          "id": "wedding",
+          "name": "婚纱与婚服",
+          "covered": true
+        },
+        {
+          "id": "theme_costumes",
+          "name": "主题装扮与人偶服",
+          "covered": true
+        },
+        {
+          "id": "garment_states",
+          "name": "裹巾、破损与浸染状态",
+          "covered": false
+        },
+        {
+          "id": "identity_archetypes",
+          "name": "身份与经典设定",
+          "covered": true
+        }
+      ]
+    },
+    {
+      "id": "accessory_design",
+      "name": "配饰与随身物品",
+      "category_count": 25,
+      "covered_categories": 17,
+      "sections": [
+        {
+          "id": "head_accessories",
+          "name": "帽子、发饰与头部佩戴",
+          "covered": true
+        },
+        {
+          "id": "bags_equipment",
+          "name": "包袋与随身装备",
+          "covered": true
+        },
+        {
+          "id": "jewels_piercings",
+          "name": "首饰、吊坠与穿孔饰件",
+          "covered": true
+        },
+        {
+          "id": "wrist_hand_ankle",
+          "name": "腕表、手饰与足饰",
+          "covered": true
+        },
+        {
+          "id": "belts_collars",
+          "name": "腰带、腿带与颈饰",
+          "covered": true
+        },
+        {
+          "id": "fasteners_badges",
+          "name": "胸针、章牌与综合饰件",
+          "covered": true
+        },
+        {
+          "id": "scarves_cords",
+          "name": "巾带、缎带与绳饰",
+          "covered": true
+        }
+      ]
+    },
+    {
+      "id": "fantasy_design",
+      "name": "幻想形态与Cosplay",
+      "category_count": 16,
+      "covered_categories": 15,
+      "sections": [
+        {
+          "id": "anthro_shapes",
+          "name": "兽娘、福瑞与幻想形态",
+          "covered": true
+        },
+        {
+          "id": "cosplay_appearance",
+          "name": "Cosplay服装、妆容与假发",
+          "covered": true
+        },
+        {
+          "id": "cosplay_parts",
+          "name": "Cosplay头饰、外挂与道具",
+          "covered": true
+        },
+        {
+          "id": "cosplay_assembly",
+          "name": "穿戴结构与展示",
+          "covered": true
+        }
+      ]
+    },
+    {
+      "id": "surface_design",
+      "name": "材质、纹样与配色",
+      "category_count": 4,
+      "covered_categories": 3,
+      "sections": [
+        {
+          "id": "textiles",
+          "name": "材质与工艺",
+          "covered": true
+        },
+        {
+          "id": "patterns",
+          "name": "图案与印花表现",
+          "covered": true
+        },
+        {
+          "id": "colors",
+          "name": "整体配色",
+          "covered": true
+        }
+      ]
+    },
+    {
+      "id": "art_styles",
+      "name": "画风与视觉表现",
+      "category_count": 28,
+      "covered_categories": 12,
+      "sections": [
+        {
+          "id": "art_animation_game",
+          "name": "动漫与游戏",
+          "covered": true
+        },
+        {
+          "id": "game_character_design",
+          "name": "游戏角色原稿与设计方法",
+          "covered": false
+        },
+        {
+          "id": "art_photo_media",
+          "name": "摄影与传统绘画",
+          "covered": true
+        },
+        {
+          "id": "art_graphic_experiment",
+          "name": "平面印刷与实验表现",
+          "covered": true
+        },
+        {
+          "id": "comic_panel_language",
+          "name": "漫画单格与格内表现",
+          "covered": false
+        },
+        {
+          "id": "film_visual_development",
+          "name": "影视分镜与关键帧设计",
+          "covered": false
+        },
+        {
+          "id": "camera_viewpoints",
+          "name": "视角、机位与景别",
+          "covered": false
+        },
+        {
+          "id": "camera_framing_focus",
+          "name": "构图、景深与镜头",
+          "covered": true
+        },
+        {
+          "id": "camera_language",
+          "name": "镜头语言与叙事",
+          "covered": false
+        }
+      ]
+    }
+  ],
+  "category_examples": {
+    "hair_cut": [],
+    "hair_bangs": [],
+    "hair_tie": [
+      "character-midlife-maker",
+      "character-archery-coach",
+      "character-silver-ballet",
+      "character-martial-teacher",
+      "character-rainforest-botanist",
+      "character-motor-courier",
+      "character-opera-actress",
+      "character-edwardian-illustrator",
+      "character-young-queen",
+      "character-greenhouse-oracle",
+      "character-rooftop-ninja",
+      "character-nun-scribe",
+      "character-orbital-mechanic",
+      "character-fox-courier",
+      "character-centaur-guard",
+      "character-butterfly-flower"
+    ],
+    "hair_surface": [
+      "character-winter-witch",
+      "character-polar-commander"
+    ],
+    "face": [
+      "character-ribbon-weekend"
+    ],
+    "features": [],
+    "skin": [
+      "character-spring-florist",
+      "character-summer-traveler",
+      "character-street-model"
+    ],
+    "expression": [
+      "character-spring-florist",
+      "character-plush-cartoonist",
+      "character-morning-runner",
+      "character-cheer-captain",
+      "character-kind-pharmacist",
+      "character-opera-actress",
+      "character-edwardian-illustrator",
+      "character-circus-pierrot",
+      "character-altar-saint",
+      "character-nun-scribe"
+    ],
+    "body": [
+      "character-archery-coach",
+      "character-morning-runner",
+      "character-street-model",
+      "character-polar-commander",
+      "character-silver-gatekeeper"
+    ],
+    "pose": [
+      "character-ribbon-weekend",
+      "character-spring-florist",
+      "character-autumn-reader",
+      "character-sleepy-columnist",
+      "character-midlife-maker",
+      "character-rainy-novelist",
+      "character-reading-club",
+      "character-campus-drummer",
+      "character-archery-coach",
+      "character-morning-runner",
+      "character-cheer-captain",
+      "character-martial-teacher",
+      "character-kind-pharmacist",
+      "character-late-doctor",
+      "character-rainforest-botanist",
+      "character-desert-guide",
+      "character-motor-courier",
+      "character-film-director",
+      "character-lighthouse-keeper",
+      "character-lantern-festival",
+      "character-opera-actress",
+      "character-deco-party-guest",
+      "character-showa-records",
+      "character-ranch-owner",
+      "character-young-queen",
+      "character-red-gold-bride",
+      "character-hopeful-idol",
+      "character-punk-singer",
+      "character-jazz-vocalist",
+      "character-circus-pierrot",
+      "character-silver-runway",
+      "character-greenhouse-oracle",
+      "character-winter-witch",
+      "character-moon-fox-spirit",
+      "character-fallen-duchess",
+      "character-rooftop-ninja",
+      "character-dune-hunter",
+      "character-nun-scribe",
+      "character-city-assassin",
+      "character-orbital-mechanic",
+      "character-polar-commander",
+      "character-neon-detective",
+      "character-bridge-officer",
+      "character-water-apprentice",
+      "character-silver-gatekeeper",
+      "character-cat-tavern",
+      "character-fox-courier",
+      "character-mermaid-scholar",
+      "character-oasis-serpent",
+      "character-centaur-guard",
+      "character-white-wolf-ranger",
+      "character-cat-magic-girl",
+      "character-butterfly-flower",
+      "character-porcelain-keeper"
+    ],
+    "tops": [
+      "character-ribbon-weekend",
+      "character-old-watchmaker"
+    ],
+    "bottoms": [
+      "character-ribbon-weekend",
+      "character-old-watchmaker"
+    ],
+    "onepiece": [],
+    "outerwear": [
+      "character-white-wolf-ranger"
+    ],
+    "construction": [],
+    "footwear": [
+      "character-spring-florist",
+      "character-morning-runner",
+      "character-silver-ballet",
+      "character-ice-skater",
+      "character-cheer-captain",
+      "character-motor-courier",
+      "character-lighthouse-keeper",
+      "character-ranch-owner",
+      "character-silver-runway"
+    ],
+    "accessories": [],
+    "materials": [
+      "character-winter-commuter",
+      "character-lantern-festival"
+    ],
+    "style": [],
+    "fantasy": [
+      "character-greenhouse-oracle",
+      "character-water-apprentice",
+      "character-butterfly-flower"
+    ],
+    "hair_details": [],
+    "face_views": [],
+    "age": [
+      "character-plush-cartoonist",
+      "character-midlife-maker",
+      "character-silver-ballet",
+      "character-kind-pharmacist",
+      "character-old-watchmaker",
+      "character-film-director",
+      "character-lighthouse-keeper",
+      "character-young-queen",
+      "character-lace-bride",
+      "character-jazz-vocalist",
+      "character-silver-runway",
+      "character-greenhouse-oracle",
+      "character-winter-witch",
+      "character-fallen-duchess",
+      "character-nun-scribe",
+      "character-bridge-officer"
+    ],
+    "hats": [
+      "character-summer-traveler",
+      "character-desert-guide",
+      "character-lolita-stylist"
+    ],
+    "jewelry": [
+      "character-deco-party-guest",
+      "character-young-queen",
+      "character-jazz-vocalist",
+      "character-oasis-serpent"
+    ],
+    "bags": [
+      "character-summer-traveler",
+      "character-autumn-reader",
+      "character-rainy-novelist",
+      "character-reading-club",
+      "character-campus-drummer",
+      "character-rainforest-botanist",
+      "character-desert-guide",
+      "character-motor-courier",
+      "character-edwardian-illustrator",
+      "character-showa-records",
+      "character-dune-hunter",
+      "character-fox-courier"
+    ],
+    "uniforms": [
+      "character-spring-florist",
+      "character-kind-pharmacist",
+      "character-fox-courier"
+    ],
+    "traditional": [],
+    "armor": [
+      "character-archery-coach",
+      "character-centaur-guard",
+      "character-white-wolf-ranger"
+    ],
+    "sports": [
+      "character-archery-coach",
+      "character-morning-runner"
+    ],
+    "nails": [],
+    "palettes": [
+      "character-bamboo-immortal"
+    ],
+    "gear": [
+      "character-archery-coach",
+      "character-lighthouse-keeper",
+      "character-lantern-festival",
+      "character-greenhouse-oracle",
+      "character-orbital-mechanic",
+      "character-bridge-officer",
+      "character-mermaid-scholar",
+      "character-white-wolf-ranger"
+    ],
+    "fantasy_outfits": [],
+    "historical_outfits": [],
+    "stage_outfits": [
+      "character-silver-ballet"
+    ],
+    "layered_outfits": [],
+    "fashion_outfits": [
+      "character-lolita-stylist",
+      "character-jirai-streamer"
+    ],
+    "chinese_outfits": [
+      "character-lantern-festival"
+    ],
+    "opera_outfits": [
+      "character-opera-actress"
+    ],
+    "swimwear": [],
+    "special_costumes": [],
+    "underwear": [],
+    "space_suits": [
+      "character-orbital-mechanic",
+      "character-polar-commander"
+    ],
+    "masks": [],
+    "eyewear": [
+      "character-autumn-reader",
+      "character-reading-club",
+      "character-kind-pharmacist",
+      "character-late-doctor",
+      "character-old-watchmaker",
+      "character-rainforest-botanist",
+      "character-street-model",
+      "character-winter-witch",
+      "character-city-assassin",
+      "character-neon-detective",
+      "character-cat-tavern",
+      "character-porcelain-keeper"
+    ],
+    "eyes": [
+      "character-moon-fox-spirit",
+      "character-oasis-serpent",
+      "character-cat-magic-girl"
+    ],
+    "military_outfits": [
+      "character-bridge-officer"
+    ],
+    "wizard_outfits": [
+      "character-winter-witch"
+    ],
+    "priestess_outfits": [],
+    "early20c_outfits": [
+      "character-edwardian-illustrator",
+      "character-deco-party-guest"
+    ],
+    "hair_combinations": [
+      "character-summer-traveler",
+      "character-winter-commuter",
+      "character-rainy-novelist",
+      "character-ice-skater",
+      "character-late-doctor",
+      "character-desert-guide",
+      "character-film-director",
+      "character-lighthouse-keeper",
+      "character-deco-party-guest",
+      "character-showa-records",
+      "character-punk-singer",
+      "character-jazz-vocalist",
+      "character-circus-pierrot",
+      "character-street-model",
+      "character-silver-runway",
+      "character-jirai-streamer",
+      "character-winter-witch",
+      "character-moon-fox-spirit",
+      "character-fallen-duchess",
+      "character-city-assassin",
+      "character-polar-commander",
+      "character-neon-detective",
+      "character-bridge-officer",
+      "character-mermaid-scholar",
+      "character-oasis-serpent",
+      "character-porcelain-keeper"
+    ],
+    "hair_accessories": [],
+    "earrings": [
+      "character-red-gold-bride",
+      "character-fallen-duchess"
+    ],
+    "pendants": [
+      "character-lace-bride",
+      "character-mermaid-scholar"
+    ],
+    "studs": [
+      "character-punk-singer"
+    ],
+    "gloves": [
+      "character-winter-commuter",
+      "character-motor-courier",
+      "character-lighthouse-keeper",
+      "character-deco-party-guest",
+      "character-young-queen",
+      "character-lace-bride",
+      "character-silver-runway",
+      "character-rooftop-ninja",
+      "character-city-assassin",
+      "character-punk-coser"
+    ],
+    "body_art": [
+      "character-martial-teacher",
+      "character-circus-pierrot"
+    ],
+    "sleepwear": [
+      "character-sleepy-columnist"
+    ],
+    "schoolwear": [
+      "character-reading-club"
+    ],
+    "youthwear": [],
+    "watches": [
+      "character-old-watchmaker",
+      "character-film-director",
+      "character-showa-records"
+    ],
+    "rings": [
+      "character-street-model",
+      "character-lolita-stylist",
+      "character-city-assassin"
+    ],
+    "bracelets": [],
+    "bead_bracelets": [
+      "character-midlife-maker"
+    ],
+    "anklets": [],
+    "feet": [],
+    "clothing_prints": [
+      "character-summer-traveler"
+    ],
+    "print_styles": [],
+    "cosplay_outfits": [
+      "character-star-chart-coser",
+      "character-steam-coser",
+      "character-leaf-coser",
+      "character-punk-coser"
+    ],
+    "cosplay_looks": [
+      "character-star-chart-coser",
+      "character-leaf-coser",
+      "character-punk-coser"
+    ],
+    "cosplay_wigs": [
+      "character-star-chart-coser",
+      "character-steam-coser",
+      "character-leaf-coser",
+      "character-punk-coser"
+    ],
+    "cosplay_headgear": [
+      "character-star-chart-coser",
+      "character-steam-coser"
+    ],
+    "cosplay_accessories": [
+      "character-steam-coser",
+      "character-leaf-coser"
+    ],
+    "cosplay_props": [
+      "character-star-chart-coser",
+      "character-steam-coser",
+      "character-leaf-coser"
+    ],
+    "cosplay_build": [
+      "character-steam-coser"
+    ],
+    "cosplay_presentation": [
+      "character-star-chart-coser",
+      "character-leaf-coser",
+      "character-punk-coser"
+    ],
+    "face_states": [
+      "character-winter-commuter",
+      "character-late-doctor",
+      "character-desert-guide"
+    ],
+    "face_emotions": [
+      "character-ribbon-weekend",
+      "character-martial-teacher",
+      "character-hopeful-idol",
+      "character-punk-singer",
+      "character-jirai-streamer",
+      "character-water-apprentice"
+    ],
+    "mouth_actions": [
+      "character-sleepy-columnist"
+    ],
+    "face_hands": [
+      "character-altar-saint"
+    ],
+    "face_overlays": [],
+    "face_augments": [
+      "character-polar-commander",
+      "character-neon-detective",
+      "character-silver-gatekeeper"
+    ],
+    "hosiery": [
+      "character-ribbon-weekend",
+      "character-winter-commuter"
+    ],
+    "anthro_levels": [
+      "character-cat-magic-girl"
+    ],
+    "anthro_heads": [
+      "character-cat-tavern"
+    ],
+    "anthro_parts": [
+      "character-cat-tavern"
+    ],
+    "anthro_species": [
+      "character-cat-tavern",
+      "character-fox-courier",
+      "character-white-wolf-ranger"
+    ],
+    "spring_outfits": [],
+    "summer_outfits": [
+      "character-summer-traveler"
+    ],
+    "autumn_outfits": [
+      "character-autumn-reader"
+    ],
+    "winter_outfits": [
+      "character-winter-commuter"
+    ],
+    "trend_outfits": [],
+    "chic_outfits": [],
+    "model_outfits": [
+      "character-street-model"
+    ],
+    "bridal_gowns": [
+      "character-lace-bride"
+    ],
+    "wedding_attire": [
+      "character-red-gold-bride"
+    ],
+    "disguise_outfits": [],
+    "undead_costumes": [
+      "character-fallen-duchess"
+    ],
+    "outlaw_costumes": [],
+    "tactical_outfits": [],
+    "intimate_costumes": [],
+    "wet_outfits": [],
+    "hair_states": [
+      "character-plush-cartoonist",
+      "character-sleepy-columnist"
+    ],
+    "towel_wraps": [],
+    "distressed_outfits": [],
+    "covered_body_views": [],
+    "liquid_stained_outfits": [],
+    "doll_mascot_costumes": [
+      "character-porcelain-keeper"
+    ],
+    "prosthetic_styling": [
+      "character-orbital-mechanic",
+      "character-bridge-officer"
+    ],
+    "plush_holds": [
+      "character-plush-cartoonist"
+    ],
+    "female_life_stages": [],
+    "nun_costumes": [
+      "character-nun-scribe"
+    ],
+    "gymnastics_outfits": [],
+    "cheer_outfits": [
+      "character-cheer-captain"
+    ],
+    "reaper_costumes": [],
+    "runway_lingerie": [
+      "character-silver-runway"
+    ],
+    "magical_girl_outfits": [
+      "character-cat-magic-girl",
+      "character-butterfly-flower"
+    ],
+    "ninja_outfits": [
+      "character-rooftop-ninja"
+    ],
+    "urban_role_outfits": [
+      "character-film-director"
+    ],
+    "outdoor_role_outfits": [
+      "character-motor-courier",
+      "character-lighthouse-keeper"
+    ],
+    "dance_variety_outfits": [
+      "character-ice-skater"
+    ],
+    "fantasy_role_outfits": [
+      "character-greenhouse-oracle"
+    ],
+    "belts": [
+      "character-ranch-owner",
+      "character-dune-hunter"
+    ],
+    "leg_straps": [],
+    "neck_collars": [],
+    "brooches": [
+      "character-altar-saint"
+    ],
+    "scarves_neckerchiefs": [
+      "character-winter-commuter",
+      "character-desert-guide"
+    ],
+    "ribbons": [
+      "character-opera-actress"
+    ],
+    "insignia_badges": [
+      "character-kind-pharmacist"
+    ],
+    "cords_tassels": [],
+    "hair_with_accessories": [
+      "character-ribbon-weekend",
+      "character-spring-florist",
+      "character-autumn-reader",
+      "character-reading-club",
+      "character-campus-drummer",
+      "character-morning-runner",
+      "character-cheer-captain",
+      "character-kind-pharmacist",
+      "character-old-watchmaker",
+      "character-lantern-festival",
+      "character-ranch-owner",
+      "character-lace-bride",
+      "character-red-gold-bride",
+      "character-hopeful-idol",
+      "character-lolita-stylist",
+      "character-bamboo-immortal",
+      "character-altar-saint",
+      "character-dune-hunter",
+      "character-cat-magic-girl"
+    ],
+    "headphones": [
+      "character-lighthouse-keeper",
+      "character-hopeful-idol",
+      "character-jirai-streamer"
+    ],
+    "eyeshadow": [],
+    "eyeliner": [
+      "character-punk-singer"
+    ],
+    "eye_makeup": [],
+    "lips": [],
+    "lip_makeup": [
+      "character-jazz-vocalist",
+      "character-jirai-streamer",
+      "character-fallen-duchess"
+    ],
+    "fashion_history": [],
+    "superhero_outfits": [],
+    "chinese_fairy_outfits": [
+      "character-bamboo-immortal"
+    ],
+    "chinese_demoness_outfits": [
+      "character-moon-fox-spirit"
+    ],
+    "hybrid_body_forms": [
+      "character-mermaid-scholar",
+      "character-oasis-serpent",
+      "character-centaur-guard"
+    ],
+    "hands": [
+      "character-old-watchmaker",
+      "character-edwardian-illustrator"
+    ],
+    "nose_ear_teeth": [],
+    "skin_details": [
+      "character-old-watchmaker"
+    ],
+    "portrait_lighting": [
+      "character-midlife-maker",
+      "character-late-doctor",
+      "character-bamboo-immortal",
+      "character-nun-scribe",
+      "character-silver-gatekeeper"
+    ],
+    "garment_dynamics": [],
+    "persona_looks": [
+      "character-rainy-novelist"
+    ],
+    "coverage_looks": [],
+    "idol_outfits": [
+      "character-hopeful-idol",
+      "character-jazz-vocalist"
+    ],
+    "band_outfits": [
+      "character-campus-drummer",
+      "character-punk-singer",
+      "character-cat-tavern"
+    ],
+    "assassin_outfits": [
+      "character-city-assassin"
+    ],
+    "japanese_retro_outfits": [
+      "character-showa-records"
+    ],
+    "street_hiphop_outfits": [],
+    "day_home_outfits": [
+      "character-plush-cartoonist",
+      "character-midlife-maker"
+    ],
+    "identity_status": [
+      "character-young-queen"
+    ],
+    "identity_duties": [
+      "character-altar-saint",
+      "character-dune-hunter",
+      "character-neon-detective"
+    ],
+    "identity_classic": [],
+    "kungfu_outfits": [
+      "character-martial-teacher"
+    ],
+    "clown_outfits": [
+      "character-circus-pierrot"
+    ],
+    "flexibility_poses": [
+      "character-silver-ballet",
+      "character-ice-skater"
+    ],
+    "academic_research": [
+      "character-late-doctor"
+    ],
+    "biome_expeditions": [
+      "character-rainforest-botanist",
+      "character-desert-guide"
+    ],
+    "prehistoric_fantasy": [],
+    "western_cowgirls": [
+      "character-ranch-owner"
+    ],
+    "regional_cultures": [],
+    "nordic_looks": [],
+    "mythic_personifications": [],
+    "liquid_humanoids": [
+      "character-water-apprentice",
+      "character-silver-gatekeeper"
+    ],
+    "photo_poses": [
+      "character-summer-traveler",
+      "character-lace-bride",
+      "character-street-model",
+      "character-lolita-stylist",
+      "character-jirai-streamer"
+    ],
+    "quadruped_forms": [],
+    "art_animation": [
+      "character-ribbon-weekend",
+      "character-plush-cartoonist",
+      "character-reading-club",
+      "character-campus-drummer",
+      "character-cheer-captain",
+      "character-hopeful-idol",
+      "character-circus-pierrot",
+      "character-cat-magic-girl"
+    ],
+    "art_game": [
+      "character-archery-coach",
+      "character-greenhouse-oracle",
+      "character-winter-witch",
+      "character-dune-hunter",
+      "character-polar-commander",
+      "character-cat-tavern",
+      "character-fox-courier",
+      "character-centaur-guard"
+    ],
+    "art_photography": [
+      "character-summer-traveler",
+      "character-winter-commuter",
+      "character-rainy-novelist",
+      "character-morning-runner",
+      "character-ice-skater",
+      "character-lace-bride",
+      "character-jazz-vocalist",
+      "character-street-model",
+      "character-rooftop-ninja",
+      "character-city-assassin"
+    ],
+    "art_traditional": [
+      "character-spring-florist",
+      "character-martial-teacher",
+      "character-rainforest-botanist",
+      "character-lantern-festival",
+      "character-opera-actress",
+      "character-showa-records",
+      "character-ranch-owner",
+      "character-young-queen",
+      "character-red-gold-bride",
+      "character-bamboo-immortal",
+      "character-water-apprentice",
+      "character-oasis-serpent"
+    ],
+    "art_graphic": [
+      "character-deco-party-guest",
+      "character-lolita-stylist",
+      "character-altar-saint"
+    ],
+    "art_mixed": [
+      "character-edwardian-illustrator"
+    ],
+    "art_comics": [
+      "character-punk-singer",
+      "character-jirai-streamer"
+    ],
+    "art_drawing_media": [
+      "character-autumn-reader",
+      "character-sleepy-columnist",
+      "character-silver-ballet",
+      "character-silver-runway"
+    ],
+    "art_digital_moods": [
+      "character-moon-fox-spirit",
+      "character-fallen-duchess",
+      "character-neon-detective",
+      "character-mermaid-scholar",
+      "character-white-wolf-ranger"
+    ],
+    "art_craft_3d": [
+      "character-orbital-mechanic",
+      "character-bridge-officer",
+      "character-silver-gatekeeper",
+      "character-butterfly-flower",
+      "character-porcelain-keeper",
+      "character-punk-coser"
+    ],
+    "camera_directions": [],
+    "camera_heights": [],
+    "shot_sizes": [],
+    "camera_composition": [],
+    "depth_focus": [
+      "character-neon-detective",
+      "character-water-apprentice"
+    ],
+    "lens_perspective": [
+      "character-film-director",
+      "character-bridge-officer"
+    ],
+    "camera_movement": [],
+    "camera_optics_time": [],
+    "narrative_shots": [],
+    "editing_language": [],
+    "comic_panel_art": [],
+    "comic_panel_effects": [],
+    "storyboard_drafts": [],
+    "film_keyframes": [],
+    "game_concept_exploration": [],
+    "game_aaa_design": [],
+    "game_otome_design": [],
+    "game_production_sheets": []
+  },
+  "uncovered_categories": [
+    "hair_cut",
+    "hair_bangs",
+    "features",
+    "onepiece",
+    "construction",
+    "accessories",
+    "style",
+    "hair_details",
+    "face_views",
+    "traditional",
+    "nails",
+    "fantasy_outfits",
+    "historical_outfits",
+    "layered_outfits",
+    "swimwear",
+    "special_costumes",
+    "underwear",
+    "masks",
+    "priestess_outfits",
+    "hair_accessories",
+    "youthwear",
+    "bracelets",
+    "anklets",
+    "feet",
+    "print_styles",
+    "face_overlays",
+    "spring_outfits",
+    "trend_outfits",
+    "chic_outfits",
+    "disguise_outfits",
+    "outlaw_costumes",
+    "tactical_outfits",
+    "intimate_costumes",
+    "wet_outfits",
+    "towel_wraps",
+    "distressed_outfits",
+    "covered_body_views",
+    "liquid_stained_outfits",
+    "female_life_stages",
+    "gymnastics_outfits",
+    "reaper_costumes",
+    "leg_straps",
+    "neck_collars",
+    "cords_tassels",
+    "eyeshadow",
+    "eye_makeup",
+    "lips",
+    "fashion_history",
+    "superhero_outfits",
+    "nose_ear_teeth",
+    "garment_dynamics",
+    "coverage_looks",
+    "street_hiphop_outfits",
+    "identity_classic",
+    "prehistoric_fantasy",
+    "regional_cultures",
+    "nordic_looks",
+    "mythic_personifications",
+    "quadruped_forms",
+    "camera_directions",
+    "camera_heights",
+    "shot_sizes",
+    "camera_composition",
+    "camera_movement",
+    "camera_optics_time",
+    "narrative_shots",
+    "editing_language",
+    "comic_panel_art",
+    "comic_panel_effects",
+    "storyboard_drafts",
+    "film_keyframes",
+    "game_concept_exploration",
+    "game_aaa_design",
+    "game_otome_design",
+    "game_production_sheets"
+  ]
+}

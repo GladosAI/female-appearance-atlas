@@ -1,0 +1,1104 @@
+{
+  "schema": "female-appearance-contribution/v1",
+  "entries": [
+    {
+      "stable_id": "MC013",
+      "category": "comic_panel_art",
+      "dimension": "框形与画幅",
+      "name": "窄横格视线强调",
+      "en": "narrow horizontal eye-emphasis panel",
+      "description": "用窄长横格集中呈现眼部与视线，让读者注意人物正在观察什么。",
+      "note": "脸部局部裁切是该格的有意构图；完整窄横格应保留在本词条图例中。",
+      "aliases": [
+        "眼部横格",
+        "眼神特写格",
+        "窄横画格"
+      ],
+      "reference_ids": [
+        "R194"
+      ],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MC014",
+      "category": "comic_panel_art",
+      "dimension": "框形与画幅",
+      "name": "竖长格全身展示",
+      "en": "tall vertical full-body comic panel",
+      "description": "以狭长竖格容纳完整人物，强化纵向轮廓与站立空间。",
+      "note": "人物头顶与鞋底在内框中完整；两侧纸面留白不属于被裁掉的内容。",
+      "aliases": [
+        "竖条格",
+        "竖长画格",
+        "纵向人物格"
+      ],
+      "reference_ids": [
+        "R194"
+      ],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MC015",
+      "category": "comic_panel_art",
+      "dimension": "框形与画幅",
+      "name": "斜边倾压画格",
+      "en": "slanted trapezoid tension panel",
+      "description": "把画格的一侧或上下边做成斜线，用不稳定的格框加强紧张感。",
+      "note": "改变的是格框形状；人物与地面不必同时旋转成倾斜机位。",
+      "aliases": [
+        "斜格",
+        "梯形漫画格",
+        "倾斜格框"
+      ],
+      "reference_ids": [
+        "R194"
+      ],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MC016",
+      "category": "comic_panel_art",
+      "dimension": "框形与画幅",
+      "name": "圆形聚焦画格",
+      "en": "circular focus comic panel",
+      "description": "用圆形边界隔离一个观察对象，形成凝视、聚焦或柔和强调。",
+      "note": "圆形只表示漫画格框，不自动代表望远镜或角色主观视点。",
+      "aliases": [
+        "圆格",
+        "圆形画框",
+        "圆形漫画格"
+      ],
+      "reference_ids": [
+        "R194"
+      ],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MC017",
+      "category": "comic_panel_art",
+      "dimension": "笔触、反白与点染",
+      "name": "反白线稿黑底格",
+      "en": "white-line-on-black comic panel",
+      "description": "在黑色底面上用白线刻画人物和空间，形成与常规黑线相反的明暗组织。",
+      "note": "主体由白色线条描述，不是整个人物被涂成实黑剪影。",
+      "aliases": [
+        "反白漫画",
+        "白线黑底",
+        "负片式线稿"
+      ],
+      "reference_ids": [
+        "R205"
+      ],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MC018",
+      "category": "comic_panel_art",
+      "dimension": "笔触、反白与点染",
+      "name": "干笔飞白情绪格",
+      "en": "dry-brush broken-ink comic panel",
+      "description": "用带有断裂、毛边与露白的干笔墨迹强调粗粝感或强烈情绪。",
+      "note": "墨迹应有可见飞白质感，并保留脸部和动作的可读性。",
+      "aliases": [
+        "飞白漫画",
+        "干刷漫画",
+        "枯笔表现"
+      ],
+      "reference_ids": [
+        "R205"
+      ],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MC019",
+      "category": "comic_panel_art",
+      "dimension": "笔触、反白与点染",
+      "name": "水墨灰阶晕染格",
+      "en": "ink-wash grayscale comic panel",
+      "description": "用墨色的浓淡与扩散边缘塑造衣物、环境和柔和气氛。",
+      "note": "晕染表现的是灰阶用墨，和点阵网点、排线明暗分开理解。",
+      "aliases": [
+        "水墨漫画格",
+        "墨水晕染",
+        "灰阶墨洗"
+      ],
+      "reference_ids": [
+        "R205"
+      ],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MC020",
+      "category": "comic_panel_art",
+      "dimension": "笔触、反白与点染",
+      "name": "黑白底单色点染格",
+      "en": "selective-color accent comic panel",
+      "description": "在以黑白为主的画格中只保留一种小面积彩色焦点。",
+      "note": "示例只点染红色钥匙绳，其他人物和环境均保留黑白灰。",
+      "aliases": [
+        "局部彩色漫画",
+        "单色强调",
+        "点彩强调"
+      ],
+      "reference_ids": [
+        "R205"
+      ],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MC021",
+      "category": "comic_panel_art",
+      "dimension": "人物与场景主次",
+      "name": "精细背景简化人物格",
+      "en": "detailed-background simplified-character panel",
+      "description": "背景保持较多线条与空间信息，人物则以少量轮廓融入场景。",
+      "note": "重点是人物与环境的精细度差异，简化人物仍应有清楚姿态。",
+      "aliases": [
+        "详背景简人物",
+        "背景主导漫画",
+        "场景叙事格"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MC022",
+      "category": "comic_panel_art",
+      "dimension": "人物与场景主次",
+      "name": "精描人物简化背景格",
+      "en": "detailed-character minimal-background panel",
+      "description": "把线条、质感与神情集中在人物上，仅以少量环境线索交代位置。",
+      "note": "与全画面同等精细区分；背景应主动减省，而非缺少人物边界。",
+      "aliases": [
+        "人物主导漫画",
+        "简背景精人物"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MC023",
+      "category": "comic_panel_art",
+      "dimension": "人物与场景主次",
+      "name": "前景遮挡窥视格",
+      "en": "foreground-occlusion peeking panel",
+      "description": "让近处门缝、帘边或物件挡住部分画面，形成窥视与空间层次。",
+      "note": "遮挡来自明确的前景物体，保留足够人物特征让读者理解画面。",
+      "aliases": [
+        "窥视构图",
+        "门缝遮挡",
+        "遮挡漫画格"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MC024",
+      "category": "comic_panel_art",
+      "dimension": "人物与场景主次",
+      "name": "倒影传情叙事格",
+      "en": "reflection-led emotional comic panel",
+      "description": "把镜面或水面倒影作为主要表情信息，主体的真实身影仅部分出现。",
+      "note": "倒影需与角色位置相呼应；它是画面叙事手法，不是另一人物。",
+      "aliases": [
+        "镜中叙事",
+        "倒影漫画格",
+        "镜面表情"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MC025",
+      "category": "comic_panel_art",
+      "dimension": "痕迹、象征与框景",
+      "name": "物件留痕叙事格",
+      "en": "object-trace storytelling panel",
+      "description": "以人物留下的物件、温度或使用痕迹传达她的存在与离开。",
+      "note": "本项有意不直接画人物，靠物件关系组织一个可读的叙事瞬间。",
+      "aliases": [
+        "空镜漫画格",
+        "物件叙事",
+        "人物缺席画格"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MC026",
+      "category": "comic_panel_art",
+      "dimension": "痕迹、象征与框景",
+      "name": "回忆意象叠画格",
+      "en": "superimposed-memory comic panel",
+      "description": "把较淡的回忆形象叠入当前画面，让同一格容纳人物的联想与记忆。",
+      "note": "淡影是主观记忆意象，不是动作残影或新的连续分格。",
+      "aliases": [
+        "记忆叠画",
+        "回想叠影",
+        "双重曝光漫画"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MC027",
+      "category": "comic_panel_art",
+      "dimension": "痕迹、象征与框景",
+      "name": "轮廓白边分离背景格",
+      "en": "white-halo character separation panel",
+      "description": "在人物轮廓外留出细窄白边，把主体从密集黑线或网点中分离出来。",
+      "note": "白边服务于轮廓辨识，不表示角色发光或具有真实光源。",
+      "aliases": [
+        "白边勾形",
+        "轮廓留白",
+        "白色隔离线"
+      ],
+      "reference_ids": [
+        "R206"
+      ],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MC028",
+      "category": "comic_panel_art",
+      "dimension": "痕迹、象征与框景",
+      "name": "门窗框中框叙事格",
+      "en": "doorway frame-within-frame comic panel",
+      "description": "借场景里的门窗或拱廊形成内层框景，把人物放在被框定的空间里。",
+      "note": "内层边界属于真实场景建筑，与额外插入的细节小格区分。",
+      "aliases": [
+        "门框构图",
+        "窗框叙事",
+        "建筑框景"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MX013",
+      "category": "comic_panel_effects",
+      "dimension": "眼部遮挡与反应",
+      "name": "眼镜反光遮眼格",
+      "en": "opaque-glasses-glare reaction panel",
+      "description": "用镜片的整块反光暂时遮住眼睛，强化神秘、镇定或喜剧式停顿。",
+      "note": "反光是漫画夸张，镜框与鼻梁结构仍保持清楚。",
+      "aliases": [
+        "眼镜白光",
+        "镜片遮眼",
+        "眼镜闪光格"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MX014",
+      "category": "comic_panel_effects",
+      "dimension": "眼部遮挡与反应",
+      "name": "横向眼部阴影格",
+      "en": "horizontal eye-shadow tension panel",
+      "description": "以横向暗带压住眉眼，让表情显得阴沉、戒备或难以判断。",
+      "note": "暗带是局部视觉强调，不是把整个脸完全涂黑。",
+      "aliases": [
+        "黑线遮眼",
+        "眉眼阴影",
+        "阴沉眼影格"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MX015",
+      "category": "comic_panel_effects",
+      "dimension": "眼部遮挡与反应",
+      "name": "无瞳空白眼呆住格",
+      "en": "blank-pupil stunned reaction panel",
+      "description": "暂时省略瞳孔与虹膜，用空白眼形表现难以置信或反应停顿。",
+      "note": "这里是喜剧化表演符号，人物保持清醒姿态，不代表医学状态。",
+      "aliases": [
+        "空白眼",
+        "豆豆眼省略",
+        "无瞳反应"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MX016",
+      "category": "comic_panel_effects",
+      "dimension": "眼部遮挡与反应",
+      "name": "黑影脸留眼反应格",
+      "en": "shadowed-face eyes-only reaction panel",
+      "description": "把脸部大部分压入黑影，只留下眼部高光或少量轮廓强调气氛。",
+      "note": "与只遮眉眼的横向阴影不同，本项让整张脸进入图形化暗面。",
+      "aliases": [
+        "黑脸亮眼",
+        "阴影脸",
+        "暗面表情格"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MX017",
+      "category": "comic_panel_effects",
+      "dimension": "夸张状态与变形",
+      "name": "灵魂出窍打击格",
+      "en": "comic soul-leaving-body reaction",
+      "description": "在人物旁画出小型灵魂意象，夸张表现受到打击或精疲力尽。",
+      "note": "漂浮小灵魂是象征性漫画符号，不是实际死亡场景。",
+      "aliases": [
+        "灵魂出窍",
+        "吐魂",
+        "打击灵魂格"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MX018",
+      "category": "comic_panel_effects",
+      "dimension": "夸张状态与变形",
+      "name": "石化开裂打击格",
+      "en": "petrified cracked-statue reaction panel",
+      "description": "把人物暂时画成僵硬石像，用石纹或轻微碎屑夸张表现震惊。",
+      "note": "裂纹只属于象征性的石化外观，没有皮肤损伤或血液。",
+      "aliases": [
+        "石化表情",
+        "石像反应",
+        "震惊石化"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MX019",
+      "category": "comic_panel_effects",
+      "dimension": "夸张状态与变形",
+      "name": "软化融化崩溃格",
+      "en": "melting-soft cartoon reaction panel",
+      "description": "将人物线条软化、下垂或轻微融化，夸张表达泄气、炎热或无力。",
+      "note": "表现为卡通变形，避免误解为真实组织损伤。",
+      "aliases": [
+        "融化反应",
+        "软塌塌表情",
+        "泄气变形"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MX020",
+      "category": "comic_panel_effects",
+      "dimension": "夸张状态与变形",
+      "name": "炸毛惊跳反应格",
+      "en": "spiking-hair startled jump panel",
+      "description": "通过发束突然张开、身体弹起和手势变化强化受到惊吓的瞬间。",
+      "note": "发型变形服务于情绪，仍可看出原发型的基本轮廓。",
+      "aliases": [
+        "炸毛漫画",
+        "惊跳反应",
+        "毛发竖起"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MX021",
+      "category": "comic_panel_effects",
+      "dimension": "情绪符号与强调",
+      "name": "巨大汗滴尴尬格",
+      "en": "oversized-sweatdrop embarrassment panel",
+      "description": "在额角旁加入一枚明显放大的汗滴，突出尴尬、无奈或心虚。",
+      "note": "单枚大汗滴是情绪符号，与写实的大量流汗状态分开。",
+      "aliases": [
+        "漫画汗滴",
+        "尴尬汗",
+        "巨汗符号"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MX022",
+      "category": "comic_panel_effects",
+      "dimension": "情绪符号与强调",
+      "name": "井字青筋恼怒格",
+      "en": "cross-shaped anger-mark panel",
+      "description": "在额角或脸旁画出十字折角的青筋符号，强化恼怒和不满。",
+      "note": "符号不必按真实血管描画，不表示医学上的血管变化。",
+      "aliases": [
+        "井字青筋",
+        "爆筋符号",
+        "生气十字"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MX023",
+      "category": "comic_panel_effects",
+      "dimension": "情绪符号与强调",
+      "name": "心形瞳欣喜格",
+      "en": "heart-pupil delighted reaction panel",
+      "description": "把瞳孔替换成心形，用漫画符号强调喜爱、欣赏或强烈好感。",
+      "note": "心形瞳属于夸张表现，可用于看见喜爱的物件或人物。",
+      "aliases": [
+        "爱心眼",
+        "心心眼",
+        "心形眼睛格"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MX024",
+      "category": "comic_panel_effects",
+      "dimension": "情绪符号与强调",
+      "name": "鼻息白气强调格",
+      "en": "comic huff-of-steam emphasis panel",
+      "description": "以鼻边或嘴边短促白气强调哼气、用力或不服气。",
+      "note": "这里突出情绪动作符号，不是写实寒冷环境中的持续呼气。",
+      "aliases": [
+        "哼气符号",
+        "鼻息白气",
+        "喷气表情"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MX025",
+      "category": "comic_panel_effects",
+      "dimension": "语气气泡与图像对白",
+      "name": "虚线耳语气泡格",
+      "en": "dashed-outline whisper balloon panel",
+      "description": "用虚线或较轻的气泡边界表现压低声音的耳语。",
+      "note": "示例短句只说明气泡用法，不作为角色设定或导出提示词的额外内容。",
+      "aliases": [
+        "耳语气泡",
+        "小声对白",
+        "虚线对白框"
+      ],
+      "reference_ids": [
+        "R196"
+      ],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MX026",
+      "category": "comic_panel_effects",
+      "dimension": "语气气泡与图像对白",
+      "name": "波浪颤音气泡格",
+      "en": "wobbly-outline trembling speech balloon",
+      "description": "以轻微波浪状气泡边界提示声音发颤、迟疑或紧张。",
+      "note": "与尖锐的喊话气泡区分，波浪轮廓保持柔和且不规则。",
+      "aliases": [
+        "颤抖气泡",
+        "波浪对白",
+        "颤音边框"
+      ],
+      "reference_ids": [
+        "R196"
+      ],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MX027",
+      "category": "comic_panel_effects",
+      "dimension": "语气气泡与图像对白",
+      "name": "画外对白入框格",
+      "en": "off-panel speech entering the frame",
+      "description": "让对白气泡的尾巴指向画面外，提示说话者未出现在当前格中。",
+      "note": "尾巴的指向需要明确；画内人物是听者，不是气泡的发言者。",
+      "aliases": [
+        "画外音气泡",
+        "框外对白",
+        "离屏说话"
+      ],
+      "reference_ids": [
+        "R196"
+      ],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    },
+    {
+      "stable_id": "MX028",
+      "category": "comic_panel_effects",
+      "dimension": "语气气泡与图像对白",
+      "name": "无字图像心声气泡格",
+      "en": "pictorial thought-balloon panel",
+      "description": "在心声气泡内放图像而非文字，直观表达联想、点子或想要的事物。",
+      "note": "图像被包含在气泡内，和漂浮在人物周围的符号反应区分。",
+      "aliases": [
+        "图像气泡",
+        "无字心声",
+        "图形对白"
+      ],
+      "reference_ids": [
+        "R196"
+      ],
+      "origin": "editorial",
+      "added_in": "70.0",
+      "visual_language_reference": true,
+      "single_panel_reference": true,
+      "comic_panel_reference": true,
+      "reference_mode": "single-panel original visual demonstration"
+    }
+  ],
+  "boards": [
+    {
+      "id": "comic-mc-1-v70",
+      "category": "comic_panel_art",
+      "title": "漫画格框、用墨与气氛 · 框形与画幅",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-comic-mc-1-v70.png",
+      "prompt": "Use case: scientific-educational. Asset type: ORIGINAL MANGA SINGLE-PANEL visual-reference illustrations. Landscape canvas 1536 x 1024 target. EXACTLY TWO COLUMNS and TWO ROWS, FOUR equal cells in row-major order. Put thin straight divider lines at EXACT center x=768 and y=512. Pale off-white paper background, generous cell boundary clearance. Each CELL contains ONE independent manga example, not a comic page, no extra little panels unless explicitly requested. Any requested internal comic frame belongs ONLY to its own cell. All artwork stays inside its cell, no crossing central separators. Original adult woman about 28, short dark chestnut bob, opaque ordinary jacket over cream crew-neck shirt and charcoal trousers when visible; same basic character throughout. Black ink and grey tones unless a specific small color accent is requested. Clearly portray the requested visual device, keep face or object readable. No game or comic franchise characters, no creator imitation, no title, IDs, watermark, logos, fake annotation text. ONLY explicitly requested brief balloon text may appear. \n\nCELL 1 (TOP LEFT): ONE very WIDE NARROW horizontal inner manga frame centered within the cell, height about one third of cell. Close crop across the adult woman's two eyes, brows and bridge of nose, alert gaze directed to right. Hair strands at frame edges. Black crisp ink and grey screentone. Large white paper above and below. The INNER frame deliberately crops the face, but all inner frame edges remain within the cell. No additional panels.\n\nCELL 2 (TOP RIGHT): ONE tall NARROW rectangular manga frame centered in the cell, about one third cell width and nearly full cell height. Adult woman standing FULL BODY from hair to shoes inside it, hands near jacket pockets, clear stone doorway behind. Fine black ink, grey screentones. Generous white paper left and right. No inset, no balloons, no text.\n\nCELL 3 (BOTTOM LEFT): ONE INNER TRAPEZOID comic frame with strongly sloping top and bottom edges, visibly NOT rectangular. Inside, adult woman waist-up braces one hand against an upright door, tense focused face, normal upright perspective. Angular framing compresses her space. Black ink, high-contrast screentone, white paper all around the frame. No speed lines, no words.\n\nCELL 4 (BOTTOM RIGHT): ONE large CIRCULAR inner comic frame centered within the cell, completely surrounded by white paper. Inside circle a thoughtful adult woman bust portrait holding a small brass key, head and shoulders clearly composed inside circular crop. Delicate black ink and light grey tones. No rectangular inner frame, no inset or text.\n\nFinal layout: four equal independent cells; center dividers at exact half width and half height. Preserve full example inside each crop. Inner framing or close crops are intentional ONLY where requested.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 70,
+      "origin": "Original AI-generated single manga panel; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "MC013",
+          "label": "MC013",
+          "name": "窄横格视线强调"
+        },
+        {
+          "entry_id": "MC014",
+          "label": "MC014",
+          "name": "竖长格全身展示"
+        },
+        {
+          "entry_id": "MC015",
+          "label": "MC015",
+          "name": "斜边倾压画格"
+        },
+        {
+          "entry_id": "MC016",
+          "label": "MC016",
+          "name": "圆形聚焦画格"
+        }
+      ]
+    },
+    {
+      "id": "comic-mc-2-v70",
+      "category": "comic_panel_art",
+      "title": "漫画格框、用墨与气氛 · 笔触、反白与点染",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-comic-mc-2-v70.png",
+      "prompt": "Use case: scientific-educational. Asset type: ORIGINAL MANGA SINGLE-PANEL visual-reference illustrations. Landscape canvas 1536 x 1024 target. EXACTLY TWO COLUMNS and TWO ROWS, FOUR equal cells in row-major order. Put thin straight divider lines at EXACT center x=768 and y=512. Pale off-white paper background, generous cell boundary clearance. Each CELL contains ONE independent manga example, not a comic page, no extra little panels unless explicitly requested. Any requested internal comic frame belongs ONLY to its own cell. All artwork stays inside its cell, no crossing central separators. Original adult woman about 28, short dark chestnut bob, opaque ordinary jacket over cream crew-neck shirt and charcoal trousers when visible; same basic character throughout. Black ink and grey tones unless a specific small color accent is requested. Clearly portray the requested visual device, keep face or object readable. No game or comic franchise characters, no creator imitation, no title, IDs, watermark, logos, fake annotation text. ONLY explicitly requested brief balloon text may appear. \n\nCELL 1 (TOP LEFT): ONE inner rectangular manga panel with SOLID BLACK background throughout. Draw the adult woman in three-quarter bust using ONLY thin WHITE contour lines and selected white hatching, with white linework describing jacket collar, hair strands and face. Face remains black inside with white outline details, not a solid white silhouette. Subtle window geometry in white behind. White paper margin outside inner panel. No text.\n\nCELL 2 (TOP RIGHT): ONE adult woman waist-up turning sharply with determined expression. BLACK DRY-BRUSH manga drawing on white paper: visible broken bristles, scratchy ink edges and WHITE GAPS inside broad strokes, rough jacket shadow and hair masses. Keep both eyes and hands readable. Sparse background. No smooth grey wash, no airbrush gradients, no words or balloons.\n\nCELL 3 (BOTTOM LEFT): ONE rectangular comic panel of adult woman in teal-shaped jacket rendered in MONOCHROME BLACK AND GREY only, seated at a rainy window, waist-up. Fluid translucent INK WASH pools in clothing and background, irregular soft wet edges and layered grey stains, fine black facial lines. No halftone dot patterns, no crosshatching, no color, no text.\n\nCELL 4 (BOTTOM RIGHT): ONE black-and-white manga panel of adult woman waist-up holding a brass key drawn in grey. A small RED fabric cord hanging from the key is the ONLY colored area in the entire image. Her jacket, skin, hair, courtyard and key all black, white and grey screentone. Crisp ink, the short red cord visible against light background near hand. No other color, no words.\n\nFinal layout: four equal independent cells; center dividers at exact half width and half height. Preserve full example inside each crop. Inner framing or close crops are intentional ONLY where requested.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 70,
+      "origin": "Original AI-generated single manga panel; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "MC017",
+          "label": "MC017",
+          "name": "反白线稿黑底格"
+        },
+        {
+          "entry_id": "MC018",
+          "label": "MC018",
+          "name": "干笔飞白情绪格"
+        },
+        {
+          "entry_id": "MC019",
+          "label": "MC019",
+          "name": "水墨灰阶晕染格"
+        },
+        {
+          "entry_id": "MC020",
+          "label": "MC020",
+          "name": "黑白底单色点染格"
+        }
+      ]
+    },
+    {
+      "id": "comic-mc-3-v70",
+      "category": "comic_panel_art",
+      "title": "漫画格框、用墨与气氛 · 人物与场景主次",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-comic-mc-3-v70.png",
+      "prompt": "Use case: scientific-educational. Asset type: ORIGINAL MANGA SINGLE-PANEL visual-reference illustrations. Landscape canvas 1536 x 1024 target. EXACTLY TWO COLUMNS and TWO ROWS, FOUR equal cells in row-major order. Put thin straight divider lines at EXACT center x=768 and y=512. Pale off-white paper background, generous cell boundary clearance. Each CELL contains ONE independent manga example, not a comic page, no extra little panels unless explicitly requested. Any requested internal comic frame belongs ONLY to its own cell. All artwork stays inside its cell, no crossing central separators. Original adult woman about 28, short dark chestnut bob, opaque ordinary jacket over cream crew-neck shirt and charcoal trousers when visible; same basic character throughout. Black ink and grey tones unless a specific small color accent is requested. Clearly portray the requested visual device, keep face or object readable. No game or comic franchise characters, no creator imitation, no title, IDs, watermark, logos, fake annotation text. ONLY explicitly requested brief balloon text may appear. \n\nCELL 1 (TOP LEFT): ONE rectangular comic panel, expansive richly detailed old railway waiting hall with beams, window grids, benches and luggage, precise manga perspective linework. Adult woman with bob hair and everyday jacket sits small at lower right, drawn in deliberately SIMPLE flat contours with minimal face and garment detail. Environment dominates. Black ink and restrained grey, no text or signs.\n\nCELL 2 (TOP RIGHT): ONE adult woman in three-quarter waist-up portrait, meticulously drawn manga hair strands, expressive eyes, jacket folds, seams and hand holding a book. Behind her ONLY two pale simple lines hint at a doorway and one floor edge, large blank paper. Strong detail hierarchy between richly drawn character and minimal background. Black ink, very light grey tones, no decorative symbols or text.\n\nCELL 3 (BOTTOM LEFT): ONE manga panel looking THROUGH a partly open door. Very dark near-camera door edge covers left third, a hanging curtain covers a narrow strip at right, framing a clear adult woman in midground holding a book in a lit hallway. Her face and hands remain visible in the gap. Bold foreground black shapes, fine midground lines, modest grey tones. No peephole circle, no text.\n\nCELL 4 (BOTTOM RIGHT): ONE manga panel of an adult woman standing before a wall MIRROR. Her actual back and shoulder occupy a small foreground right area; her reflection in the large mirror clearly shows her thoughtful face, one hand adjusting collar and same bob haircut. Reflection and real figure plausibly correspond. Fine ink, muted grey wash, no supernatural duplicate, no words.\n\nFinal layout: four equal independent cells; center dividers at exact half width and half height. Preserve full example inside each crop. Inner framing or close crops are intentional ONLY where requested.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 70,
+      "origin": "Original AI-generated single manga panel; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "MC021",
+          "label": "MC021",
+          "name": "精细背景简化人物格"
+        },
+        {
+          "entry_id": "MC022",
+          "label": "MC022",
+          "name": "精描人物简化背景格"
+        },
+        {
+          "entry_id": "MC023",
+          "label": "MC023",
+          "name": "前景遮挡窥视格"
+        },
+        {
+          "entry_id": "MC024",
+          "label": "MC024",
+          "name": "倒影传情叙事格"
+        }
+      ]
+    },
+    {
+      "id": "comic-mc-4-v70",
+      "category": "comic_panel_art",
+      "title": "漫画格框、用墨与气氛 · 痕迹、象征与框景",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-comic-mc-4-v70.png",
+      "prompt": "Use case: scientific-educational. Asset type: ORIGINAL MANGA SINGLE-PANEL visual-reference illustrations. Landscape canvas 1536 x 1024 target. EXACTLY TWO COLUMNS and TWO ROWS, FOUR equal cells in row-major order. Put thin straight divider lines at EXACT center x=768 and y=512. Pale off-white paper background, generous cell boundary clearance. Each CELL contains ONE independent manga example, not a comic page, no extra little panels unless explicitly requested. Any requested internal comic frame belongs ONLY to its own cell. All artwork stays inside its cell, no crossing central separators. Original adult woman about 28, short dark chestnut bob, opaque ordinary jacket over cream crew-neck shirt and charcoal trousers when visible; same basic character throughout. Black ink and grey tones unless a specific small color accent is requested. Clearly portray the requested visual device, keep face or object readable. No game or comic franchise characters, no creator imitation, no title, IDs, watermark, logos, fake annotation text. ONLY explicitly requested brief balloon text may appear. \n\nCELL 1 (TOP LEFT): ONE quiet rectangular manga panel with NO PERSON visible. At a small cafe table: an open book with a pressed flower bookmark, a still-steaming mug, an ordinary woman's jacket draped over chair, and a small key on saucer. A slightly ajar door in far background implies recent departure. Carefully arranged readable objects, crisp ink and soft greys, no lettering anywhere.\n\nCELL 2 (TOP RIGHT): ONE continuous rectangular manga illustration, NO internal divisions. Dominant foreground: adult woman with bob, waist-up in everyday jacket, quietly looking at a key in her palm. Behind and partially overlapping her shoulder is ONE pale translucent MEMORY vignette of SAME adult woman smiling under a tree, rendered in lighter grey thin lines with fading edges. Present-day face dark and clear, memory visibly airy and soft. No movement trail, no text.\n\nCELL 3 (BOTTOM LEFT): ONE manga panel with adult woman waist-up in front of very densely crosshatched dark courtyard foliage. Character has normal black ink face, bob hair and jacket with light grey tones. A CONSISTENT narrow WHITE BUFFER HALO immediately OUTSIDE her silhouette cleanly separates hair and shoulders from busy background. This is an uninked paper gap, NOT a glowing aura. No stars or words.\n\nCELL 4 (BOTTOM RIGHT): ONE rectangular manga panel. In its scene, a broad stone ARCHWAY in foreground forms a second frame around adult woman standing full-body deeper inside courtyard, carrying a book. The inner arch is a clearly three-dimensional building, with visible stone depth, not an inset comic panel. Calm centered composition, black ink with subtle greys, no text.\n\nFinal layout: four equal independent cells; center dividers at exact half width and half height. Preserve full example inside each crop. Inner framing or close crops are intentional ONLY where requested.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 70,
+      "origin": "Original AI-generated single manga panel; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "MC025",
+          "label": "MC025",
+          "name": "物件留痕叙事格"
+        },
+        {
+          "entry_id": "MC026",
+          "label": "MC026",
+          "name": "回忆意象叠画格"
+        },
+        {
+          "entry_id": "MC027",
+          "label": "MC027",
+          "name": "轮廓白边分离背景格"
+        },
+        {
+          "entry_id": "MC028",
+          "label": "MC028",
+          "name": "门窗框中框叙事格"
+        }
+      ]
+    },
+    {
+      "id": "comic-mx-1-v70",
+      "category": "comic_panel_effects",
+      "title": "漫画动势、符号与气泡 · 眼部遮挡与反应",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-comic-mx-1-v70.png",
+      "prompt": "Use case: scientific-educational. Asset type: ORIGINAL MANGA SINGLE-PANEL visual-reference illustrations. Landscape canvas 1536 x 1024 target. EXACTLY TWO COLUMNS and TWO ROWS, FOUR equal cells in row-major order. Put thin straight divider lines at EXACT center x=768 and y=512. Pale off-white paper background, generous cell boundary clearance. Each CELL contains ONE independent manga example, not a comic page, no extra little panels unless explicitly requested. Any requested internal comic frame belongs ONLY to its own cell. All artwork stays inside its cell, no crossing central separators. Original adult woman about 28, short dark chestnut bob, opaque ordinary jacket over cream crew-neck shirt and charcoal trousers when visible; same basic character throughout. Black ink and grey tones unless a specific small color accent is requested. Clearly portray the requested visual device, keep face or object readable. No game or comic franchise characters, no creator imitation, no title, IDs, watermark, logos, fake annotation text. ONLY explicitly requested brief balloon text may appear. \n\nCELL 1 (TOP LEFT): ONE manga bust portrait of adult woman with bob in jacket and cream crewneck top, wearing rectangular eyeglasses. BOTH lenses filled with solid WHITE reflected glare, hiding eyes entirely while dark eyeglass frames, nose and small knowing smile remain readable. Minimal grey background, crisp black ink. No sparkles outside lenses, no words.\n\nCELL 2 (TOP RIGHT): ONE manga close bust portrait of adult woman facing front, short bob, jacket collar visible. A pronounced horizontal DARK SHADOW BAND stretches across eyebrows and eye sockets, with tiny readable highlights in eyes. Lower nose, lips, cheeks and chin remain normally light and clearly drawn. Serious restrained expression, blank light background. NO vertical gloom lines or text.\n\nCELL 3 (BOTTOM LEFT): ONE humorous manga waist-up adult woman with bob in ordinary jacket and opaque shirt, frozen upright after surprise. Eyes drawn as two clean EMPTY WHITE oval shapes with small upper lash contours, no pupils or irises. Small straight mouth, shoulders stiff, faint simple grey background. Adult proportions retained, no chibi body, no stars or extra icons, no text.\n\nCELL 4 (BOTTOM RIGHT): ONE dramatic manga bust portrait of adult woman, bob and ordinary jacket readable. Her ENTIRE facial area from forehead to chin is a flat near-BLACK shadow, leaving only TWO small white eye shapes and one tiny nose contour. Her neck, collar and hands remain normally light. Uneasy comic mood, no weapon or injury, pale background, no text.\n\nFinal layout: four equal independent cells; center dividers at exact half width and half height. Preserve full example inside each crop. Inner framing or close crops are intentional ONLY where requested.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 70,
+      "origin": "Original AI-generated single manga panel; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "MX013",
+          "label": "MX013",
+          "name": "眼镜反光遮眼格"
+        },
+        {
+          "entry_id": "MX014",
+          "label": "MX014",
+          "name": "横向眼部阴影格"
+        },
+        {
+          "entry_id": "MX015",
+          "label": "MX015",
+          "name": "无瞳空白眼呆住格"
+        },
+        {
+          "entry_id": "MX016",
+          "label": "MX016",
+          "name": "黑影脸留眼反应格"
+        }
+      ]
+    },
+    {
+      "id": "comic-mx-2-v70",
+      "category": "comic_panel_effects",
+      "title": "漫画动势、符号与气泡 · 夸张状态与变形",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-comic-mx-2-v70.png",
+      "prompt": "Use case: scientific-educational. Asset type: ORIGINAL MANGA SINGLE-PANEL visual-reference illustrations. Landscape canvas 1536 x 1024 target. EXACTLY TWO COLUMNS and TWO ROWS, FOUR equal cells in row-major order. Put thin straight divider lines at EXACT center x=768 and y=512. Pale off-white paper background, generous cell boundary clearance. Each CELL contains ONE independent manga example, not a comic page, no extra little panels unless explicitly requested. Any requested internal comic frame belongs ONLY to its own cell. All artwork stays inside its cell, no crossing central separators. Original adult woman about 28, short dark chestnut bob, opaque ordinary jacket over cream crew-neck shirt and charcoal trousers when visible; same basic character throughout. Black ink and grey tones unless a specific small color accent is requested. Clearly portray the requested visual device, keep face or object readable. No game or comic franchise characters, no creator imitation, no title, IDs, watermark, logos, fake annotation text. ONLY explicitly requested brief balloon text may appear. \n\nCELL 1 (TOP LEFT): ONE comic panel. Adult woman with bob in opaque jacket slumps at a desk with tired blank expression. A SMALL soft white ghost-shaped mini version with simplified face and wispy tail floats upward from near her head, attached visually by a thin wisp. Main adult woman remains alive and upright seated. Light humorous black ink, simple grey screen tone, no letters or symbols beyond soul shape.\n\nCELL 2 (TOP RIGHT): ONE comedic full-body manga reaction. Adult woman in ordinary jacket and trousers rendered as a STIFF GREY STONE STATUE of herself, blank shocked expression. Fine non-graphic cracks across stone jacket and hair, three tiny stone chips falling at feet, whole body intact. White background, clear outline, no injuries, no blood, no text.\n\nCELL 3 (BOTTOM LEFT): ONE humorous manga waist-up adult woman after exhausting work. Bob hair and opaque jacket have gently SAGGING SOFT outlines, shoulders droop, cheeks slightly cartoon-stretched downward, a small simplified lower edge of jacket seems to puddle into harmless soft ink blobs. Face recognizable and intact, sleepy defeated expression. No realistic body damage or gore. White paper and sparse light grey, no text.\n\nCELL 4 (BOTTOM RIGHT): ONE full-body manga panel. Adult woman in everyday opaque jacket and trousers makes a small startled jump, knees slightly bent, both hands lifted near shoulders. Her short bob has comically SPIKED outward in several clear jagged tufts. Strong clean expression, clear separation of feet from floor with a tiny ground shadow. No radial focus lines, no text or balloons.\n\nFinal layout: four equal independent cells; center dividers at exact half width and half height. Preserve full example inside each crop. Inner framing or close crops are intentional ONLY where requested.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 70,
+      "origin": "Original AI-generated single manga panel; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "MX017",
+          "label": "MX017",
+          "name": "灵魂出窍打击格"
+        },
+        {
+          "entry_id": "MX018",
+          "label": "MX018",
+          "name": "石化开裂打击格"
+        },
+        {
+          "entry_id": "MX019",
+          "label": "MX019",
+          "name": "软化融化崩溃格"
+        },
+        {
+          "entry_id": "MX020",
+          "label": "MX020",
+          "name": "炸毛惊跳反应格"
+        }
+      ]
+    },
+    {
+      "id": "comic-mx-3-v70",
+      "category": "comic_panel_effects",
+      "title": "漫画动势、符号与气泡 · 情绪符号与强调",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-comic-mx-3-v70.png",
+      "prompt": "Use case: scientific-educational. Asset type: ORIGINAL MANGA SINGLE-PANEL visual-reference illustrations. Landscape canvas 1536 x 1024 target. EXACTLY TWO COLUMNS and TWO ROWS, FOUR equal cells in row-major order. Put thin straight divider lines at EXACT center x=768 and y=512. Pale off-white paper background, generous cell boundary clearance. Each CELL contains ONE independent manga example, not a comic page, no extra little panels unless explicitly requested. Any requested internal comic frame belongs ONLY to its own cell. All artwork stays inside its cell, no crossing central separators. Original adult woman about 28, short dark chestnut bob, opaque ordinary jacket over cream crew-neck shirt and charcoal trousers when visible; same basic character throughout. Black ink and grey tones unless a specific small color accent is requested. Clearly portray the requested visual device, keep face or object readable. No game or comic franchise characters, no creator imitation, no title, IDs, watermark, logos, fake annotation text. ONLY explicitly requested brief balloon text may appear. \n\nCELL 1 (TOP LEFT): ONE lighthearted manga bust portrait of adult woman with bob, awkward sideways small smile and slightly raised brow. ONE enormous clean teardrop-shaped SWEAT DROP attached visually beside temple, white inside with black outline, much larger than real sweat. Simple pale grey backdrop, normal adult proportions, no other floating icons, no text.\n\nCELL 2 (TOP RIGHT): ONE manga waist-up adult woman in ordinary jacket, arms crossed, eyes narrowed and lips pressed in an annoyed pout. At one upper temple put ONE bold CROSS-SHAPED ANGER VEIN symbol made of four short curved corner strokes, like an open rounded hash. Black ink, clean white background. No real bulging veins, no words, no other icons.\n\nCELL 3 (BOTTOM LEFT): ONE cheerful manga close bust of adult woman with bob in jacket, smiling with delight while looking at a lovely small cake on plate at lower foreground. BOTH pupils are distinct solid HEART shapes inside otherwise normal anime eyes. Tiny blush accents in grey, black and white only, no floating hearts or balloons. Adult facial proportions, no text.\n\nCELL 4 (BOTTOM RIGHT): ONE manga bust portrait of adult woman in everyday jacket, chin lifted, lips pursed into a small dismissive huff, determined narrowed eyes. ONE small stylized white PUFF cloud with dark outline shoots sideways from just beside nose and mouth, with two short trailing curves. Plain light background, no cold weather, no breath fog all over face, no text.\n\nFinal layout: four equal independent cells; center dividers at exact half width and half height. Preserve full example inside each crop. Inner framing or close crops are intentional ONLY where requested.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 70,
+      "origin": "Original AI-generated single manga panel; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "MX021",
+          "label": "MX021",
+          "name": "巨大汗滴尴尬格"
+        },
+        {
+          "entry_id": "MX022",
+          "label": "MX022",
+          "name": "井字青筋恼怒格"
+        },
+        {
+          "entry_id": "MX023",
+          "label": "MX023",
+          "name": "心形瞳欣喜格"
+        },
+        {
+          "entry_id": "MX024",
+          "label": "MX024",
+          "name": "鼻息白气强调格"
+        }
+      ]
+    },
+    {
+      "id": "comic-mx-4-v70",
+      "category": "comic_panel_effects",
+      "title": "漫画动势、符号与气泡 · 语气气泡与图像对白",
+      "columns": 2,
+      "rows": 2,
+      "image": "images/sheet-comic-mx-4-v70.png",
+      "prompt": "Use case: scientific-educational. Asset type: ORIGINAL MANGA SINGLE-PANEL visual-reference illustrations. Landscape canvas 1536 x 1024 target. EXACTLY TWO COLUMNS and TWO ROWS, FOUR equal cells in row-major order. Put thin straight divider lines at EXACT center x=768 and y=512. Pale off-white paper background, generous cell boundary clearance. Each CELL contains ONE independent manga example, not a comic page, no extra little panels unless explicitly requested. Any requested internal comic frame belongs ONLY to its own cell. All artwork stays inside its cell, no crossing central separators. Original adult woman about 28, short dark chestnut bob, opaque ordinary jacket over cream crew-neck shirt and charcoal trousers when visible; same basic character throughout. Black ink and grey tones unless a specific small color accent is requested. Clearly portray the requested visual device, keep face or object readable. No game or comic franchise characters, no creator imitation, no title, IDs, watermark, logos, fake annotation text. ONLY explicitly requested brief balloon text may appear. \n\nCELL 1 (TOP LEFT): ONE manga panel, adult woman waist-up leaning forward slightly with one hand cupped beside mouth, confidential smile. ONE large oval speech balloon near head with DISTINCT DASHED OUTLINE and a slim tail pointing to mouth. Inside balloon exact Chinese short text: 小声说. No other text or bubbles. Clean black ink and very light grey tone.\n\nCELL 2 (TOP RIGHT): ONE manga panel of adult woman waist-up nervously clasping her book, brows worried but calm posture. ONE speech balloon with a conspicuously SOFT WAVY WAVERING contour, not spiky, with a normal small tail pointing at mouth. Inside exact short Chinese text: 等一下… . Black ink, light grey, no shaky motion lines around body, no other words or balloons.\n\nCELL 3 (BOTTOM LEFT): ONE INNER rectangular manga frame inside the cell. Adult woman in jacket stands at right, turning to LISTEN toward left edge, mouth CLOSED. ONE speech balloon near upper left contains exact Chinese: 这边！ Its long clear tail points to and ends at LEFT INNER FRAME EDGE, toward an unseen speaker outside the scene, NOT toward woman. Keep all marks within cell. No visible second person, no other text.\n\nCELL 4 (BOTTOM RIGHT): ONE manga bust of adult woman with bob in ordinary jacket, thoughtful face with one finger near chin. ONE cloud-shaped thought balloon connected to her head by THREE tiny circular thought dots. INSIDE balloon a simple clearly drawn LIGHT BULB with two short light rays. NO text, letters, punctuation, floating icons outside balloon or extra panels. Crisp black ink, sparse grey tone.\n\nFinal layout: four equal independent cells; center dividers at exact half width and half height. Preserve full example inside each crop. Inner framing or close crops are intentional ONLY where requested.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 70,
+      "origin": "Original AI-generated single manga panel; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "MX025",
+          "label": "MX025",
+          "name": "虚线耳语气泡格"
+        },
+        {
+          "entry_id": "MX026",
+          "label": "MX026",
+          "name": "波浪颤音气泡格"
+        },
+        {
+          "entry_id": "MX027",
+          "label": "MX027",
+          "name": "画外对白入框格"
+        },
+        {
+          "entry_id": "MX028",
+          "label": "MX028",
+          "name": "无字图像心声气泡格"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "R205",
+      "title": "The perfect brush for every style",
+      "publisher": "CLIP STUDIO PAINT",
+      "url": "https://www.clipstudio.net/en/functions/materials/",
+      "kind": "官方绘画工具与素材资料",
+      "topics": "漫画笔触与用墨",
+      "summary": "介绍水彩、印度墨水等不同笔刷与可调整的笔触。作为笔触媒介的相关阅读，不是本图鉴漫画构图或情绪符号的命名来源。",
+      "rights": "仅相关阅读，未使用其图片。",
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "R206",
+      "title": "How do I add borders to images and text?",
+      "publisher": "CLIP STUDIO Official Support",
+      "url": "https://support.clip-studio.com/en-us/faq/articles/20200008",
+      "kind": "官方绘画工具与素材资料",
+      "topics": "轮廓边缘与主体分离",
+      "summary": "说明给图像设置边缘效果与边框厚度的方法；可辅助理解人物轮廓白边的制作。",
+      "rights": "仅相关阅读，未使用其图片。",
+      "checked": "2026-11-03"
+    }
+  ]
+}

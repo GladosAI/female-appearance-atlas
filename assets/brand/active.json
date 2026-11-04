@@ -1,0 +1,9 @@
+{
+  "id": "beauty-profile",
+  "name": "头肩侧影",
+  "directory": "assets/brand/beauty-profile",
+  "source": "assets/brand/beauty-profile/source.png",
+  "selected_concept": "beauty_profile",
+  "prompt_record": "assets/brand/beauty-profile/generation-prompts.json",
+  "description": "以流动长发、侧脸外缘和颈肩姿态呈现女性美感，面部五官留白。"
+}

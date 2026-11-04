@@ -1,0 +1,93 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),{pathToFileURL}=require('node:url');
+const {chromium}=require('./runtime.cjs').playwright;
+const root=path.resolve(__dirname,'../..'),out=path.join(root,'.work/verification/navigation-v30');
+const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
+const data=read('data/catalog.json'),navigation=read('data/navigation.json');
+const original=read('.work/verification/v30/before/data/catalog.json');
+const report={checks:[],errors:[]};let browser;
+fs.mkdirSync(out,{recursive:true});
+(async()=>{
+ for(const old of original.entries){const next={...data.entries.find(e=>e.id===old.id)};delete next.wearing_visual;assert.deepEqual(next,old,old.id+' changed')}
+ const categories=navigation.groups.flatMap(g=>g.categories);
+ assert.equal(navigation.groups.length,12);assert.equal(categories.length,132);assert.equal(new Set(categories).size,132);
+ assert.deepEqual([...categories].sort(),data.categories.map(c=>c.id).sort());
+ assert.equal(navigation.groups.reduce((n,g)=>n+g.count,0),5597);
+ browser=await chromium.launch({...require('./runtime.cjs').browserOptions,headless:true});
+ const page=await browser.newPage({viewport:{width:1440,height:1080}});page.on('pageerror',e=>report.errors.push(e.message));
+ const url=pathToFileURL(path.join(root,'index.html')).href;
+ await page.goto(url);assert.ok(await page.locator('#directory-view').isVisible());assert.ok(await page.locator('#terms-view').isHidden());
+ assert.equal(await page.locator('.topic-card').count(),12);assert.equal(await page.locator('#topic-directory .topic-links [data-category]').count(),132);
+ assert.equal(await page.locator('#style-filter').count(),0);
+ assert.equal(await page.locator('#topic-directory .style-links [data-category]').count(),30);
+ assert.equal(await page.locator('.nav-topic').count(),12);
+ for(const g of navigation.groups){
+  assert.equal(await page.locator(`#board-category option[value="${g.scope}"]`).count(),1);
+  await page.locator(`#topic-directory .topic-head [data-category="${g.scope}"]`).last().click();
+  assert.match(await page.locator('#result-status').textContent(),new RegExp('^'+g.count+' '));
+  assert.equal(await page.locator('#group-filter').inputValue(),g.scope);assert.equal(await page.locator('.nav-topic[open]').count(),1);
+  assert.equal(await page.locator('#mobile-category optgroup').filter({has:page.locator(`option[value="${g.scope}"]`)}).count(),1);
+  for(const cid of g.categories)assert.equal(await page.locator(`#mobile-category option[value="${cid}"]`).count(),1);
+  await page.locator('.nav [data-view="boards"]').click();
+  const expected=data.boards.filter(b=>b.items.some(x=>g.categories.includes(data.entries.find(e=>e.id===x.entry_id).category))).length;
+  assert.equal(await page.locator('#board-list .board').count(),expected);
+  await page.locator('.nav [data-view="directory"]').click();
+ }
+ report.checks.push('12 topics assign all 132 categories exactly once and total 5597 entries; directory, sidebar, mobile options and gallery share the same hierarchy and exact counts.');
+ for(const c of data.categories){
+  await page.goto(url+'?edition=3&section='+c.id);assert.match(await page.locator('#result-status').textContent(),new RegExp('^'+(c.id==='female_life_stages'||c.id==='body'?16:c.count)+' '));
+  assert.ok(await page.locator('#breadcrumb').textContent().then(t=>t.includes(navigation.category_labels?.[c.id]||c.name)));
+ }
+ report.checks.push('All 132 existing category links resolve with matching counts and topic breadcrumbs.');
+ await page.goto(url+'?layout=20261015&section=topic_surface_design&style=ryousangata');
+ assert.equal(await page.locator('#mobile-category').inputValue(),'style_ryousangata');
+ assert.equal(await page.locator('#group-filter').inputValue(),'topic_everyday');
+ assert.match(await page.locator('#result-status').textContent(),/^16 /);
+ assert.equal(new URL(page.url()).searchParams.get('style'),null);
+ assert.equal(new URL(page.url()).searchParams.get('section'),'style_ryousangata');
+ await page.locator('#group-filter').selectOption('topic_surface_design');
+ assert.equal(await page.locator('#mobile-category option[value^="style_"]').count(),0);
+ assert.equal(await page.locator('#mobile-category option[value="style"]').count(),0);
+ assert.equal(await page.locator('#group-filter').inputValue(),'topic_surface_design');
+ assert.match(await page.locator('#result-status').textContent(),/^183 /);
+ await page.locator('#group-filter').selectOption('topic_everyday');
+ assert.equal(await page.locator('#mobile-category option[value^="style_"]').count(),30);
+ assert.equal(await page.locator('#mobile-category option[value="style"]').count(),1);
+ for(const style of navigation.style_categories){
+  await page.locator('#mobile-category').selectOption(style.id);
+  assert.match(await page.locator('#result-status').textContent(),new RegExp('^'+style.count+' '));
+  assert.equal(await page.locator('#group-filter').inputValue(),'topic_everyday');
+  assert.ok((await page.locator('#breadcrumb').textContent()).includes(style.name));
+  assert.equal(await page.locator('#entry-grid .entry').count(),Math.min(style.count,72));
+ }
+ await page.goto(url+'?section=style_ryousangata');await page.screenshot({path:path.join(out,'categories-desktop.png')});
+ report.checks.push('The reported material-plus-ryousangata URL resolves to 16 ryousangata outfits. All 30 styles are category choices under clothing outfits; surface materials show no outfit style control or option.');
+ await page.goto(url+'?view=directory');await page.locator('#directory-search').fill('20D');await page.locator('#directory-search-form button').click();
+ assert.equal(await page.locator('#entry-grid .entry').count(),1);assert.equal(await page.locator('#search').inputValue(),'20D');
+ await page.reload();assert.equal(await page.locator('#entry-grid .entry').count(),1);
+ await page.goto(url+'?section=topic_everyday');await page.locator('#mobile-category').selectOption('style_gothic');
+ assert.equal(await page.locator('#mobile-category').inputValue(),'style_gothic');
+ assert.match(await page.locator('#result-status').textContent(),new RegExp('^'+data.style_families.find(f=>f.id==='gothic').clothing_count+' '));
+ await page.reload();assert.equal(await page.locator('#mobile-category').inputValue(),'style_gothic');
+ await page.locator('#group-filter').selectOption('topic_garments');assert.equal(await page.locator('#search').inputValue(),'');
+ await page.locator('#mobile-category').selectOption('tops');
+ const dimension=await page.locator('#dimension-filter option').nth(1).getAttribute('value');await page.locator('#dimension-filter').selectOption(dimension);
+ const count=await page.locator('#result-status').textContent();await page.reload();assert.equal(await page.locator('#dimension-filter').inputValue(),dimension);assert.equal(await page.locator('#result-status').textContent(),count);
+ await page.locator('.nav [data-view="boards"]').click();await page.locator('#board-category').selectOption('winter_outfits');await page.locator('.nav [data-view="terms"]').click();
+ assert.match(await page.locator('#result-status').textContent(),/^64 /);assert.equal(await page.locator('#dimension-filter').inputValue(),'all');
+ report.checks.push('Directory search, all-catalog exact 20D lookup, style shortcuts, filter reset, gallery-to-terms navigation and bookmarked category/search/style/dimension state work.');
+ await page.goto(url+'?view=directory');await page.screenshot({path:path.join(out,'directory-desktop.png'),fullPage:true});
+ await page.setViewportSize({width:390,height:844});await page.goto(url);
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+ await page.screenshot({path:path.join(out,'directory-mobile.png'),fullPage:true});
+ await page.locator('#topic-directory [data-category="topic_accessory_design"]').first().click();
+ assert.equal(await page.locator('#mobile-category').inputValue(),'topic_accessory_design');
+ await page.locator('#mobile-category').selectOption('hair_accessories');assert.match(await page.locator('#result-status').textContent(),/^64 /);
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+ await page.locator('#category-title').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(out,'accessories-mobile.png')});
+ await page.goto(url+'?section=style_ryousangata');
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+ await page.locator('#breadcrumb').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(out,'categories-mobile.png')});
+ await page.emulateMedia({colorScheme:'dark'});await page.goto(url+'?view=directory');await page.screenshot({path:path.join(out,'directory-dark-mobile.png')});
+ assert.deepEqual(report.errors,[]);report.checks.push('Directory and category navigation work on mobile and in dark mode without horizontal overflow or JavaScript errors.');
+ report.passed=true;await browser.close();fs.writeFileSync(path.join(out,'navigation-report.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report));
+})().catch(async e=>{report.passed=false;report.failure=e.stack;if(browser)await browser.close();fs.writeFileSync(path.join(out,'navigation-report.json'),JSON.stringify(report,null,2));console.error(e);process.exitCode=1});

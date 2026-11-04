@@ -1,0 +1,472 @@
+[
+  {
+    "id": "wear-hr001-hr016",
+    "edition": 30,
+    "role": "wearing_reference",
+    "category": "hair_accessories",
+    "dimension": "发箍与发带佩戴",
+    "title": "发箍与发带佩戴 · 佩戴参考",
+    "columns": 4,
+    "rows": 4,
+    "entries": [
+      {
+        "id": "HR001",
+        "name": "窄硬齿梳发箍",
+        "en": "narrow toothed headband"
+      },
+      {
+        "id": "HR002",
+        "name": "宽缎面包布发箍",
+        "en": "wide satin-covered headband"
+      },
+      {
+        "id": "HR003",
+        "name": "软垫隆起发箍",
+        "en": "padded raised headband"
+      },
+      {
+        "id": "HR004",
+        "name": "中央扭结发箍",
+        "en": "center-knot headband"
+      },
+      {
+        "id": "HR005",
+        "name": "侧结短尾发箍",
+        "en": "side-bow short-tail headband"
+      },
+      {
+        "id": "HR006",
+        "name": "双轨细弧发箍",
+        "en": "double-rail slim headband"
+      },
+      {
+        "id": "HR007",
+        "name": "波浪金属发箍",
+        "en": "wavy metal headband"
+      },
+      {
+        "id": "HR008",
+        "name": "链节软骨发箍",
+        "en": "chain-link flexible headband"
+      },
+      {
+        "id": "HR009",
+        "name": "珠串单排发箍",
+        "en": "single-row bead headband"
+      },
+      {
+        "id": "HR010",
+        "name": "花簇侧饰发箍",
+        "en": "side-flower cluster headband"
+      },
+      {
+        "id": "HR011",
+        "name": "蕾丝软带发箍",
+        "en": "lace-covered soft headband"
+      },
+      {
+        "id": "HR012",
+        "name": "交叉前额弹力发带",
+        "en": "cross-front elastic hairband"
+      },
+      {
+        "id": "HR013",
+        "name": "系结长尾头巾带",
+        "en": "long-tail tied hairband"
+      },
+      {
+        "id": "HR014",
+        "name": "运动止滑宽发带",
+        "en": "wide nonslip sports hairband"
+      },
+      {
+        "id": "HR015",
+        "name": "环形编绳发带",
+        "en": "woven-cord ring hairband"
+      },
+      {
+        "id": "HR016",
+        "name": "细链额饰发带",
+        "en": "fine-chain forehead hairband"
+      }
+    ],
+    "image": "images/wear-hr001-hr016.png",
+    "prompt": "V30 SUPPLEMENTARY WEARING REFERENCE, not loose products. Portrait1024x1536, EXACT4 columns by4 rows,16 cells in row-major order. Thin straight grey grid lines at x256/512/768 and y384/768/1152. Exact small item IDs at upper left, no other text. Same polished professional anime technical illustration on ivory background. Every cell shows the exact named accessory actually WORN by a clearly MATURE ADULT woman age25-40, natural adult head proportions, complete opaque plain grey high-neck clothing. Main view is a large complete head/shoulder or head-to-hair-end portrait; full crown, accessory and every hair/cord/chain end fit inside cell. No chibi or childlike face, no school uniform. Actual contact at roots/temples/nose/ears must be readable, not tiny accessory icons or floating isolated products. One small circular detail inset may magnify the SAME actual attachment when needed, not another head. Follow exact named front/side/rear view. Do not hide back clips or pins behind a front face. Hair bands and eye frames follow curvature, clips close around hair, pin shafts enter HAIR BUN not flesh. Glasses bridge rests on nose, temples reach ears, lenses aligned to eyes with appropriate occlusion and subtle reflections. No logos, extra unrelated accessories or famous-character resemblance. Existing construction descriptions may describe an open product; MAIN wearing view must show closed/fastened use.\nOrdered cells:\nCell1, label HR001: 窄硬齿梳发箍 / narrow toothed headband. Wearing target: 侧面：齿梳发箍从耳后沿头顶弧线压入后梳发根，小齿与发流接触. Product structure context only: 窄弧形硬箍内侧有短齿，两端弯向耳后，齿与饰面分开。\nCell2, label HR002: 宽缎面包布发箍 / wide satin-covered headband. Wearing target: 斜前面：宽缎面包布发箍实际贴合头顶，两脚藏在耳后. Product structure context only: 宽弧形骨架包缎面，内侧止滑层和两端包边清楚。\nCell3, label HR003: 软垫隆起发箍 / padded raised headband. Wearing target: 斜前面：软垫隆起发箍位于齐刘海后方，内弧贴头. Product structure context only: 箍面有隆起软垫，内弧贴头，截面厚度可辨。\nCell4, label HR004: 中央扭结发箍 / center-knot headband. Wearing target: 斜前面：中央扭结布箍贴住头弧，扭结是箍面的一部分. Product structure context only: 包布箍顶部形成中央扭结，结的交叠与箍骨分开。\nCell5, label HR005: 侧结短尾发箍 / side-bow short-tail headband. Wearing target: 斜前面：单侧短尾蝶结固定在贴头弧箍的一侧，箍脚在耳后. Product structure context only: 结饰在箍侧，两个短尾垂下，结根缝在箍面。\nCell6, label HR006: 双轨细弧发箍 / double-rail slim headband. Wearing target: 斜侧面：双轨细箍两条轨道平行贴头弧，端点位于耳后. Product structure context only: 两条平行细弧通过两端连接，轨间空隙和耳后端点。\nCell7, label HR007: 波浪金属发箍 / wavy metal headband. Wearing target: 斜前面：细波浪金属箍顺头弧插在顶发内层，不跨过眼睛. Product structure context only: 金属细箍沿额上呈连续波浪，内侧光滑，两端圆钝。\nCell8, label HR008: 链节软骨发箍 / chain-link flexible headband. Wearing target: 斜前面：链节在柔性箍骨表面，内层贴合头发，耳后端点合理. Product structure context only: 短链节覆在柔性箍骨上，链环、内垫和端点可见。\nCell9, label HR009: 珠串单排发箍 / single-row bead headband. Wearing target: 斜前面：一排小珠沿真实头箍排列，珠根接在头箍上. Product structure context only: 小珠沿弧形箍单排排列，珠根固定在包布骨架上。\nCell10, label HR010: 花簇侧饰发箍 / side-flower cluster headband. Wearing target: 斜前面：布花簇在发箍单侧，另一侧箍骨沿头部延伸. Product structure context only: 原创布花簇在单侧，花簇底座和箍面连接清楚。\nCell11, label HR011: 蕾丝软带发箍 / lace-covered soft headband. Wearing target: 斜前面：完整蕾丝衬底软发带绕过头部，发层从带侧露出. Product structure context only: 蕾丝覆在完整软带上，后端弹性连接，带宽和内衬可见。\nCell12, label HR012: 交叉前额弹力发带 / cross-front elastic hairband. Wearing target: 斜前面：两条软布带在额上交叉，环绕到脑后，额前有完整发际线. Product structure context only: 两条布带在前额交叉，后部弹力段，交叉上下关系。\nCell13, label HR013: 系结长尾头巾带 / long-tail tied hairband. Wearing target: 斜后面：头巾带环绕头部后打结，两个长尾完整留在肩上，不画成松脱布条. Product structure context only: 长布带两端打结并垂尾，带体宽度和结环完整。\nCell14, label HR014: 运动止滑宽发带 / wide nonslip sports hairband. Wearing target: 斜侧面：运动针织宽发带沿发际绕头，露出高丸子与耳部. Product structure context only: 宽针织环带，内侧细止滑条、弹性后段和缝线。\nCell15, label HR015: 环形编绳发带 / woven-cord ring hairband. Wearing target: 斜后面：环形编绳发带贴合发层，脑后调节结与完整短尾可见. Product structure context only: 编绳构成闭环，后部调节结，绳股交编清楚。\nCell16, label HR016: 细链额饰发带 / fine-chain forehead hairband. Wearing target: 斜前面：细链额饰沿发际绕行，中央小垂饰位于额上，眼睛不被覆盖. Product structure context only: 原创细链绕额，后部小扣与中央垂饰，链长留完整。\nCritical: show16 distinct correct accessories actually worn, including physical fastening and complete ends, without crossing cell boundaries."
+  },
+  {
+    "id": "wear-hr017-hr032",
+    "edition": 30,
+    "role": "wearing_reference",
+    "category": "hair_accessories",
+    "dimension": "发卡与发夹佩戴",
+    "title": "发卡与发夹佩戴 · 佩戴参考",
+    "columns": 4,
+    "rows": 4,
+    "entries": [
+      {
+        "id": "HR017",
+        "name": "按压弹片发卡",
+        "en": "snap hair clip"
+      },
+      {
+        "id": "HR018",
+        "name": "长方弹簧背夹",
+        "en": "rectangular spring barrette"
+      },
+      {
+        "id": "HR019",
+        "name": "小型交叉一字夹",
+        "en": "crossed bobby pins"
+      },
+      {
+        "id": "HR020",
+        "name": "波纹单枚一字夹",
+        "en": "wavy bobby pin"
+      },
+      {
+        "id": "HR021",
+        "name": "双齿短侧发夹",
+        "en": "two-prong side clip"
+      },
+      {
+        "id": "HR022",
+        "name": "鸭嘴长尖发夹",
+        "en": "duckbill hair clip"
+      },
+      {
+        "id": "HR023",
+        "name": "鳄鱼齿口发夹",
+        "en": "alligator hair clip"
+      },
+      {
+        "id": "HR024",
+        "name": "大齿抓夹",
+        "en": "large claw clip"
+      },
+      {
+        "id": "HR025",
+        "name": "小圆壳抓夹",
+        "en": "small rounded claw clip"
+      },
+      {
+        "id": "HR026",
+        "name": "蝴蝶轮廓抓夹",
+        "en": "butterfly-shaped claw clip"
+      },
+      {
+        "id": "HR027",
+        "name": "镂空三角背夹",
+        "en": "open-triangle barrette"
+      },
+      {
+        "id": "HR028",
+        "name": "布结横条发卡",
+        "en": "fabric-bow barrette"
+      },
+      {
+        "id": "HR029",
+        "name": "圆盘转扣发卡",
+        "en": "disc twist-clasp hair clip"
+      },
+      {
+        "id": "HR030",
+        "name": "软磁夹片发卡",
+        "en": "magnetic flat hair clip"
+      },
+      {
+        "id": "HR031",
+        "name": "细珠悬链侧夹",
+        "en": "bead-chain side barrette"
+      },
+      {
+        "id": "HR032",
+        "name": "梳齿侧插发卡",
+        "en": "side-insert comb clip"
+      }
+    ],
+    "image": "images/wear-hr017-hr032.png",
+    "prompt": "V30 SUPPLEMENTARY WEARING REFERENCE, not loose products. Portrait1024x1536, EXACT4 columns by4 rows,16 cells in row-major order. Thin straight grey grid lines at x256/512/768 and y384/768/1152. Exact small item IDs at upper left, no other text. Same polished professional anime technical illustration on ivory background. Every cell shows the exact named accessory actually WORN by a clearly MATURE ADULT woman age25-40, natural adult head proportions, complete opaque plain grey high-neck clothing. Main view is a large complete head/shoulder or head-to-hair-end portrait; full crown, accessory and every hair/cord/chain end fit inside cell. No chibi or childlike face, no school uniform. Actual contact at roots/temples/nose/ears must be readable, not tiny accessory icons or floating isolated products. One small circular detail inset may magnify the SAME actual attachment when needed, not another head. Follow exact named front/side/rear view. Do not hide back clips or pins behind a front face. Hair bands and eye frames follow curvature, clips close around hair, pin shafts enter HAIR BUN not flesh. Glasses bridge rests on nose, temples reach ears, lenses aligned to eyes with appropriate occlusion and subtle reflections. No logos, extra unrelated accessories or famous-character resemblance. Existing construction descriptions may describe an open product; MAIN wearing view must show closed/fastened use.\nOrdered cells:\nCell1, label HR017: 按压弹片发卡 / snap hair clip. Wearing target: 斜侧面：按压弹片发卡闭合夹住耳上真实发片，未处于空中张开状态. Product structure context only: 弧形金属弹片按压开合，中央舌片与外框分开。\nCell2, label HR018: 长方弹簧背夹 / rectangular spring barrette. Wearing target: 斜后面：长方背夹横向夹合两侧汇拢的半扎束，弹簧夹条藏在发束后. Product structure context only: 长方饰面背后有弹簧扣，展示背面夹条与铰链。\nCell3, label HR019: 小型交叉一字夹 / crossed bobby pins. Wearing target: 斜前面：两枚小一字夹交叉夹住同一侧发片，夹脚沿发流. Product structure context only: 两枚一字夹交叉，各夹有上下两片与波纹止滑边。\nCell4, label HR020: 波纹单枚一字夹 / wavy bobby pin. Wearing target: 侧面：单枚波纹一字夹贴住侧发，波纹与平直夹片真实夹合. Product structure context only: 一面波纹一面平直，末端圆头与弹性夹口清楚。\nCell5, label HR021: 双齿短侧发夹 / two-prong side clip. Wearing target: 斜侧面：短双齿侧夹夹住耳上小发束，饰面和发片接触. Product structure context only: 两个短夹齿接在装饰底座上，背面夹齿和弹片可见。\nCell6, label HR022: 鸭嘴长尖发夹 / duckbill hair clip. Wearing target: 侧面：鸭嘴夹闭合固定侧刘海，细夹体沿发流，尾端铰接可见. Product structure context only: 细长上下夹片前端收尖，尾端弹簧和指压片。\nCell7, label HR023: 鳄鱼齿口发夹 / alligator hair clip. Wearing target: 斜侧面：鳄鱼齿口夹闭合咬住一侧发片，局部放大齿口接触发片. Product structure context only: 夹口有连续短齿，尾部弹簧与铰接可见，展示张开状态。\nCell8, label HR024: 大齿抓夹 / large claw clip. Wearing target: 斜后面：大齿抓夹实际闭合包住法式扭发，齿口在发束两侧. Product structure context only: 两组弧形长齿交错，中央弹簧与背部按柄完整。\nCell9, label HR025: 小圆壳抓夹 / small rounded claw clip. Wearing target: 斜后面：小圆壳抓夹固定后脑半扎点，下半齐肩发披散. Product structure context only: 圆壳外形接短抓齿，开口和弹簧根部可辨。\nCell10, label HR026: 蝴蝶轮廓抓夹 / butterfly-shaped claw clip. Wearing target: 斜后面：蝶形抓夹两翼是按柄，两组抓齿夹住实际半扎发束. Product structure context only: 原创蝶形两翼作为按柄，背后交错抓齿明确。\nCell11, label HR027: 镂空三角背夹 / open-triangle barrette. Wearing target: 背面略侧：三角空框背夹固定两侧后拢发片，后夹条真正夹住发束. Product structure context only: 三角空框饰面与后夹条，装饰框不代替夹口。\nCell12, label HR028: 布结横条发卡 / fabric-bow barrette. Wearing target: 斜后面：布结横条发卡固定半扎束，布结下可见部分横条夹体. Product structure context only: 大布结固定在横条背夹上，结根、夹条与弹簧。\nCell13, label HR029: 圆盘转扣发卡 / disc twist-clasp hair clip. Wearing target: 斜后面：圆盘转扣发卡固定后脑低位半扎点，发束从扣体下连续垂落. Product structure context only: 圆盘饰面接旋转卡扣，卡扣和盘面分件显示。\nCell14, label HR030: 软磁夹片发卡 / magnetic flat hair clip. Wearing target: 斜前侧面：小型包布磁夹片夹在单侧发片上，两片贴合，贴发不悬浮. Product structure context only: 两片包布薄片磁吸，边缘缝线、分离夹面与小磁扣可见。\nCell15, label HR031: 细珠悬链侧夹 / bead-chain side barrette. Wearing target: 斜侧面：短珠链侧夹固定耳上发片，珠链完整垂在侧发外，不遮眼. Product structure context only: 短侧夹下挂细珠链，链根小环与背夹结构完整。\nCell16, label HR032: 梳齿侧插发卡 / side-insert comb clip. Wearing target: 斜后面：梳齿侧插发卡插入一侧低盘髻上缘，饰面露在发层外. Product structure context only: 短饰面下接一排梳齿，插入方向与齿根可辨。\nCritical: show16 distinct correct accessories actually worn, including physical fastening and complete ends, without crossing cell boundaries."
+  },
+  {
+    "id": "wear-hr033-hr048",
+    "edition": 30,
+    "role": "wearing_reference",
+    "category": "hair_accessories",
+    "dimension": "发簪发钗与梳饰佩戴",
+    "title": "发簪发钗与梳饰佩戴 · 佩戴参考",
+    "columns": 4,
+    "rows": 4,
+    "entries": [
+      {
+        "id": "HR033",
+        "name": "单杆圆头素簪",
+        "en": "single-stick round-head hairpin"
+      },
+      {
+        "id": "HR034",
+        "name": "双叉U形盘发簪",
+        "en": "U-shaped bun pin"
+      },
+      {
+        "id": "HR035",
+        "name": "双杆平行发钗",
+        "en": "parallel double-stick hairpin"
+      },
+      {
+        "id": "HR036",
+        "name": "螺旋旋入盘发针",
+        "en": "spiral twist-in hair pin"
+      },
+      {
+        "id": "HR037",
+        "name": "扁杆叶形簪",
+        "en": "flat leaf-headed hair stick"
+      },
+      {
+        "id": "HR038",
+        "name": "曲杆月形簪",
+        "en": "curved crescent hair stick"
+      },
+      {
+        "id": "HR039",
+        "name": "花头短垂链簪",
+        "en": "flower-head dangling hairpin"
+      },
+      {
+        "id": "HR040",
+        "name": "珠顶双链步摇改编",
+        "en": "bead-top double-chain hairpin"
+      },
+      {
+        "id": "HR041",
+        "name": "几何环顶发簪",
+        "en": "geometric-ring hair stick"
+      },
+      {
+        "id": "HR042",
+        "name": "分叉枝形发簪",
+        "en": "branch-shaped hairpin"
+      },
+      {
+        "id": "HR043",
+        "name": "长杆穿孔盘发饰",
+        "en": "pierced-panel bun ornament"
+      },
+      {
+        "id": "HR044",
+        "name": "横梳珠边盘发饰",
+        "en": "bead-edged hair comb"
+      },
+      {
+        "id": "HR045",
+        "name": "宽弧镂空梳饰",
+        "en": "wide openwork hair comb"
+      },
+      {
+        "id": "HR046",
+        "name": "细齿侧插花梳",
+        "en": "fine-tooth floral side comb"
+      },
+      {
+        "id": "HR047",
+        "name": "簪杆发网组合饰",
+        "en": "hair-stick and net ornament"
+      },
+      {
+        "id": "HR048",
+        "name": "折叠叉骨盘发夹",
+        "en": "folding-fork bun clasp"
+      }
+    ],
+    "image": "images/wear-hr033-hr048.png",
+    "prompt": "V30 SUPPLEMENTARY WEARING REFERENCE, not loose products. Portrait1024x1536, EXACT4 columns by4 rows,16 cells in row-major order. Thin straight grey grid lines at x256/512/768 and y384/768/1152. Exact small item IDs at upper left, no other text. Same polished professional anime technical illustration on ivory background. Every cell shows the exact named accessory actually WORN by a clearly MATURE ADULT woman age25-40, natural adult head proportions, complete opaque plain grey high-neck clothing. Main view is a large complete head/shoulder or head-to-hair-end portrait; full crown, accessory and every hair/cord/chain end fit inside cell. No chibi or childlike face, no school uniform. Actual contact at roots/temples/nose/ears must be readable, not tiny accessory icons or floating isolated products. One small circular detail inset may magnify the SAME actual attachment when needed, not another head. Follow exact named front/side/rear view. Do not hide back clips or pins behind a front face. Hair bands and eye frames follow curvature, clips close around hair, pin shafts enter HAIR BUN not flesh. Glasses bridge rests on nose, temples reach ears, lenses aligned to eyes with appropriate occlusion and subtle reflections. No logos, extra unrelated accessories or famous-character resemblance. Existing construction descriptions may describe an open product; MAIN wearing view must show closed/fastened use.\nOrdered cells:\nCell1, label HR033: 单杆圆头素簪 / single-stick round-head hairpin. Wearing target: 斜后面：圆头素簪横斜穿入低盘髻，簪头与短露出端分别在髻两侧. Product structure context only: 单根长杆与圆头，杆尾圆钝，主体略弯便于观察。\nCell2, label HR034: 双叉U形盘发簪 / U-shaped bun pin. Wearing target: 斜后面：U形双叉插入同一竖向扭髻，U顶露在上端. Product structure context only: 双长叉从弯曲顶端伸出，叉尖圆钝，发髻插入结构清楚。\nCell3, label HR035: 双杆平行发钗 / parallel double-stick hairpin. Wearing target: 斜后面：两根平行发钗杆从同侧进入高髻，饰头和露出端清楚. Product structure context only: 两根平行杆连接同一饰头，杆间距与共同根部。\nCell4, label HR036: 螺旋旋入盘发针 / spiral twist-in hair pin. Wearing target: 斜后面：螺旋盘发针旋在圆髻内，仅顶部露出；放大入髻处，原图为单杆装饰变体. Product structure context only: 螺旋杆形成旋入形，顶部连接与圆钝端点；图例采用单杆装饰变体。\nCell5, label HR037: 扁杆叶形簪 / flat leaf-headed hair stick. Wearing target: 斜侧后面：叶形簪扁杆穿入侧低髻，叶片饰头位于髻外. Product structure context only: 扁长杆接原创叶形饰头，扁截面和叶柄根部。\nCell6, label HR038: 曲杆月形簪 / curved crescent hair stick. Wearing target: 斜后面：月形簪弯杆穿过低卷髻，月形饰头露在侧上方. Product structure context only: 轻弯杆与月形饰头，饰头开口和杆部接点。\nCell7, label HR039: 花头短垂链簪 / flower-head dangling hairpin. Wearing target: 斜后面：花头簪插入辫盘髻，小短链自然垂落且不穿过头部. Product structure context only: 原创花饰头下悬两条短链，链环、花根和长杆清楚。\nCell8, label HR040: 珠顶双链步摇改编 / bead-top double-chain hairpin. Wearing target: 斜后面：珠顶双链步摇改编插在高髻侧边，两挂点与完整短链可见. Product structure context only: 原创珠顶与双垂链，按现代装饰改编，双链挂点和簪杆分辨。\nCell9, label HR041: 几何环顶发簪 / geometric-ring hair stick. Wearing target: 斜后面：环顶发簪横穿扁盘髻，完整圆环饰头在发层外. Product structure context only: 环形镂空饰头接单杆，圆环厚度与杆根清楚。\nCell10, label HR042: 分叉枝形发簪 / branch-shaped hairpin. Wearing target: 斜后面：枝形发簪杆插入松卷低髻，短枝饰头位于发层外. Product structure context only: 原创短枝饰头向两侧分叉，下方单杆完整，枝不是头发。\nCell11, label HR043: 长杆穿孔盘发饰 / pierced-panel bun ornament. Wearing target: 斜后面：薄饰板贴在盘髻表面，独立长杆穿过板孔并固定发束. Product structure context only: 薄饰板中央穿孔，长杆穿过板孔，板与杆是独立部件。\nCell12, label HR044: 横梳珠边盘发饰 / bead-edged hair comb. Wearing target: 斜后面：珠边横梳的梳齿插入低髻上缘，横弧珠边露出. Product structure context only: 一排梳齿上方横弧珠边，齿根与珠架分开。\nCell13, label HR045: 宽弧镂空梳饰 / wide openwork hair comb. Wearing target: 斜后面：镂空宽弧梳的短齿插入盘髻边缘，宽弧饰板贴合头部曲面. Product structure context only: 宽弧镂空饰面下接短齿，金属板厚度与齿数可见。\nCell14, label HR046: 细齿侧插花梳 / fine-tooth floral side comb. Wearing target: 斜侧后面：细齿花梳插入法式竖髻侧边，小花簇和齿根可辨. Product structure context only: 原创小花横排下接细梳齿，花簇底座与插齿分辨。\nCell15, label HR047: 簪杆发网组合饰 / hair-stick and net ornament. Wearing target: 斜后面：低盘髻外罩发网，簪杆穿过网边圈及髻根，发网贴住发团. Product structure context only: 长簪穿过小发网边圈，网线、边圈和簪杆固定关系。\nCell16, label HR048: 折叠叉骨盘发夹 / folding-fork bun clasp. Wearing target: 斜后面：原创折叠叉骨盘发夹合拢固定低髻，后扣和饰面在髻外可见. Product structure context only: 两根叉骨在铰点折合，后扣与饰面分开，原创盘发件。\nCritical: show16 distinct correct accessories actually worn, including physical fastening and complete ends, without crossing cell boundaries."
+  },
+  {
+    "id": "wear-hr049-hr064",
+    "edition": 30,
+    "role": "wearing_reference",
+    "category": "hair_accessories",
+    "dimension": "发圈与固定件佩戴",
+    "title": "发圈与固定件佩戴 · 佩戴参考",
+    "columns": 4,
+    "rows": 4,
+    "entries": [
+      {
+        "id": "HR049",
+        "name": "无接缝细弹力发圈",
+        "en": "seamless thin elastic hair tie"
+      },
+      {
+        "id": "HR050",
+        "name": "宽扁弹力发圈",
+        "en": "wide flat elastic hair tie"
+      },
+      {
+        "id": "HR051",
+        "name": "布褶甜甜圈发圈",
+        "en": "fabric scrunchie"
+      },
+      {
+        "id": "HR052",
+        "name": "大蝴蝶结发圈",
+        "en": "large-bow hair tie"
+      },
+      {
+        "id": "HR053",
+        "name": "长飘带发圈",
+        "en": "long-ribbon hair tie"
+      },
+      {
+        "id": "HR054",
+        "name": "双珠绳扣发圈",
+        "en": "two-bead cord hair tie"
+      },
+      {
+        "id": "HR055",
+        "name": "电话线螺旋发圈",
+        "en": "spiral coil hair tie"
+      },
+      {
+        "id": "HR056",
+        "name": "钩端弹绳扎发件",
+        "en": "hook-ended elastic hair bungee"
+      },
+      {
+        "id": "HR057",
+        "name": "滑扣可调发绳",
+        "en": "adjustable sliding-cord hair tie"
+      },
+      {
+        "id": "HR058",
+        "name": "软管包芯发圈",
+        "en": "tube-covered elastic hair tie"
+      },
+      {
+        "id": "HR059",
+        "name": "花形布团发圈",
+        "en": "flower-scrunchie hair tie"
+      },
+      {
+        "id": "HR060",
+        "name": "珠链环扣发圈",
+        "en": "bead-chain clasp hair tie"
+      },
+      {
+        "id": "HR061",
+        "name": "金属壳套筒扎发件",
+        "en": "metal cuff ponytail tie"
+      },
+      {
+        "id": "HR062",
+        "name": "双环连接发圈",
+        "en": "linked double hair ties"
+      },
+      {
+        "id": "HR063",
+        "name": "软布包边发尾扣",
+        "en": "soft fabric tail clasp"
+      },
+      {
+        "id": "HR064",
+        "name": "丝巾绕圈扎发件",
+        "en": "scarf-wrapped hair tie"
+      }
+    ],
+    "image": "images/wear-hr049-hr064.png",
+    "prompt": "V30 SUPPLEMENTARY WEARING REFERENCE, not loose products. Portrait1024x1536, EXACT4 columns by4 rows,16 cells in row-major order. Thin straight grey grid lines at x256/512/768 and y384/768/1152. Exact small item IDs at upper left, no other text. Same polished professional anime technical illustration on ivory background. Every cell shows the exact named accessory actually WORN by a clearly MATURE ADULT woman age25-40, natural adult head proportions, complete opaque plain grey high-neck clothing. Main view is a large complete head/shoulder or head-to-hair-end portrait; full crown, accessory and every hair/cord/chain end fit inside cell. No chibi or childlike face, no school uniform. Actual contact at roots/temples/nose/ears must be readable, not tiny accessory icons or floating isolated products. One small circular detail inset may magnify the SAME actual attachment when needed, not another head. Follow exact named front/side/rear view. Do not hide back clips or pins behind a front face. Hair bands and eye frames follow curvature, clips close around hair, pin shafts enter HAIR BUN not flesh. Glasses bridge rests on nose, temples reach ears, lenses aligned to eyes with appropriate occlusion and subtle reflections. No logos, extra unrelated accessories or famous-character resemblance. Existing construction descriptions may describe an open product; MAIN wearing view must show closed/fastened use.\nOrdered cells:\nCell1, label HR049: 无接缝细弹力发圈 / seamless thin elastic hair tie. Wearing target: 斜后面：无接缝细圈围绕高马尾根部，放大图显示圈体围住真实发束. Product structure context only: 细圆绳闭环，无外露金属接头，圈体厚度可见。\nCell2, label HR050: 宽扁弹力发圈 / wide flat elastic hair tie. Wearing target: 斜后面：宽扁弹力圈平贴短低马尾根，带面平整，发束在圈内收拢. Product structure context only: 扁宽弹性环带，接缝在内侧，内外面分辨。\nCell3, label HR051: 布褶甜甜圈发圈 / fabric scrunchie. Wearing target: 斜后面：米色布褶甜甜圈发圈扎低马尾，褶布在弹力内圈外侧. Product structure context only: 软布围成有褶圆圈，内藏弹力芯，褶边和中孔清楚。\nCell4, label HR052: 大蝴蝶结发圈 / large-bow hair tie. Wearing target: 斜后面：大蝶结固定在弹圈外，弹圈真正围住半扎束根. Product structure context only: 弹力圈上缝大布结，圈根和结尾清楚，完整展示。\nCell5, label HR053: 长飘带发圈 / long-ribbon hair tie. Wearing target: 斜后面：布圈扎根并接两条长飘带，带尾完整留在肩部范围. Product structure context only: 布圈接两条长飘带，接缝与带末端，可比较带长。\nCell6, label HR054: 双珠绳扣发圈 / two-bead cord hair tie. Wearing target: 斜侧后面：双珠绳扣圈围束低马尾根，两珠在外侧相扣且绳圈可见. Product structure context only: 两端珠扣通过弹性绳收束，珠孔与绳圈可见。\nCell7, label HR055: 电话线螺旋发圈 / spiral coil hair tie. Wearing target: 斜后面：电话线螺旋圈围成连续闭环抱住半扎束，放大细连续线圈. Product structure context only: 弹性螺旋圈围成闭环，连续绕线与接头完整。\nCell8, label HR056: 钩端弹绳扎发件 / hook-ended elastic hair bungee. Wearing target: 斜后面：钩端弹绳只绕高马尾根，小钩固定在绳圈内，放大钩与圈接触，无游离垂钩. Product structure context only: 弹绳两端各有小钩，钩口、绳段与连接套分开。\nCell9, label HR057: 滑扣可调发绳 / adjustable sliding-cord hair tie. Wearing target: 斜后面：小滑扣调整低马尾发绳圈，短止端完整，滑扣和发束直接接触. Product structure context only: 发绳穿过滑扣改变环长，扣孔、双绳与止端。\nCell10, label HR058: 软管包芯发圈 / tube-covered elastic hair tie. Wearing target: 斜后面：软管包芯发圈围束根部，布管表面包住实际弹性内圈. Product structure context only: 软布管包住弹力芯，管体和内侧接缝，原创建构。\nCell11, label HR059: 花形布团发圈 / flower-scrunchie hair tie. Wearing target: 斜后面：花形布团在弹圈外侧，中央弹圈扎住高丸子髻根. Product structure context only: 布褶形成原创花形外圈，中央弹圈清楚，花根相接。\nCell12, label HR060: 珠链环扣发圈 / bead-chain clasp hair tie. Wearing target: 斜后面：小珠链在弹力圈外作为装饰，实际弹性段围住低尾束根. Product structure context only: 珠串与弹性段组成发圈，装饰珠链不代替弹力部分。\nCell13, label HR061: 金属壳套筒扎发件 / metal cuff ponytail tie. Wearing target: 斜后面：金属壳套筒是发圈外的短开合壳，发束从中央连续穿出，放大壳与圈. Product structure context only: 外部圆筒壳套在发圈外，壳开合与内圈分件。\nCell14, label HR062: 双环连接发圈 / linked double hair ties. Wearing target: 斜后面：原创双环连接件用两个相邻上下圈固定同一条低马尾的相邻两段，短连接片在同一尾束旁，不连接左右双马尾. Product structure context only: 两个弹力圈以短连接带相连，两环各有独立开口。\nCell15, label HR063: 软布包边发尾扣 / soft fabric tail clasp. Wearing target: 斜侧后面：包布发尾扣扣住侧辫末端，下方短发尾自然散开，放大侧扣. Product structure context only: 包布短扣环围住发尾，侧扣和内衬可见。\nCell16, label HR064: 丝巾绕圈扎发件 / scarf-wrapped hair tie. Wearing target: 斜后面：丝巾绕在低马尾发圈外打结，两条短巾尾完整，放大丝巾结与弹圈. Product structure context only: 小丝巾绕在弹圈上，结尾与圈根分开，原创图案。\nCritical: show16 distinct correct accessories actually worn, including physical fastening and complete ends, without crossing cell boundaries."
+  },
+  {
+    "id": "wear-eg001-eg016",
+    "edition": 30,
+    "role": "wearing_reference",
+    "category": "eyewear",
+    "dimension": "眼镜与镜片佩戴",
+    "title": "眼镜与镜片佩戴 · 佩戴参考",
+    "columns": 4,
+    "rows": 4,
+    "entries": [
+      {
+        "id": "EG001",
+        "name": "细金属圆框眼镜",
+        "en": "thin-metal round spectacles"
+      },
+      {
+        "id": "EG002",
+        "name": "粗板材方框眼镜",
+        "en": "thick-acetate square spectacles"
+      },
+      {
+        "id": "EG003",
+        "name": "椭圆框眼镜",
+        "en": "oval spectacles"
+      },
+      {
+        "id": "EG004",
+        "name": "猫眼框眼镜",
+        "en": "cat-eye spectacles"
+      },
+      {
+        "id": "EG005",
+        "name": "六边形框眼镜",
+        "en": "hexagonal spectacles"
+      },
+      {
+        "id": "EG006",
+        "name": "眉线半框眼镜",
+        "en": "browline spectacles"
+      },
+      {
+        "id": "EG007",
+        "name": "下半无框眼镜",
+        "en": "semi-rimless spectacles"
+      },
+      {
+        "id": "EG008",
+        "name": "全无框眼镜",
+        "en": "rimless spectacles"
+      },
+      {
+        "id": "EG009",
+        "name": "双梁飞行框眼镜",
+        "en": "double-bridge aviator spectacles"
+      },
+      {
+        "id": "EG010",
+        "name": "小圆墨镜",
+        "en": "small round sunglasses"
+      },
+      {
+        "id": "EG011",
+        "name": "方形墨镜",
+        "en": "square sunglasses"
+      },
+      {
+        "id": "EG012",
+        "name": "渐变镜片眼镜",
+        "en": "gradient-lens eyewear"
+      },
+      {
+        "id": "EG013",
+        "name": "夹片太阳镜眼镜",
+        "en": "clip-on sunglass spectacles"
+      },
+      {
+        "id": "EG014",
+        "name": "运动包覆眼镜",
+        "en": "wraparound sports eyewear"
+      },
+      {
+        "id": "EG015",
+        "name": "单片链式眼镜",
+        "en": "chained monocle"
+      },
+      {
+        "id": "EG016",
+        "name": "双目密封护目镜",
+        "en": "sealed two-lens goggles"
+      }
+    ],
+    "image": "images/wear-eg001-eg016.png",
+    "prompt": "V30 SUPPLEMENTARY WEARING REFERENCE, not loose products. Portrait1024x1536, EXACT4 columns by4 rows,16 cells in row-major order. Thin straight grey grid lines at x256/512/768 and y384/768/1152. Exact small item IDs at upper left, no other text. Same polished professional anime technical illustration on ivory background. Every cell shows the exact named accessory actually WORN by a clearly MATURE ADULT woman age25-40, natural adult head proportions, complete opaque plain grey high-neck clothing. Main view is a large complete head/shoulder or head-to-hair-end portrait; full crown, accessory and every hair/cord/chain end fit inside cell. No chibi or childlike face, no school uniform. Actual contact at roots/temples/nose/ears must be readable, not tiny accessory icons or floating isolated products. One small circular detail inset may magnify the SAME actual attachment when needed, not another head. Follow exact named front/side/rear view. Do not hide back clips or pins behind a front face. Hair bands and eye frames follow curvature, clips close around hair, pin shafts enter HAIR BUN not flesh. Glasses bridge rests on nose, temples reach ears, lenses aligned to eyes with appropriate occlusion and subtle reflections. No logos, extra unrelated accessories or famous-character resemblance. Existing construction descriptions may describe an open product; MAIN wearing view must show closed/fastened use.\nOrdered cells:\nCell1, label EG001: 细金属圆框眼镜 / thin-metal round spectacles. Wearing target: 斜前面：细金属圆框眼镜，完整圆镜圈，透明镜片后眼睛清楚，鼻托落在鼻梁两侧. Product structure context only: 细圆镜圈、窄鼻梁和细镜腿，透明镜片与鼻托清楚。\nCell2, label EG002: 粗板材方框眼镜 / thick-acetate square spectacles. Wearing target: 斜前面：粗黑板材方框，镜圈厚、方角明确，镜腿从铰链延伸到耳上. Product structure context only: 厚方形镜圈、宽镜腿与完整透明镜片，边角较直。\nCell3, label EG003: 椭圆框眼镜 / oval spectacles. Wearing target: 斜前面：横向椭圆镜框，椭圆镜片明显宽于高，鼻梁与镜腿贴合. Product structure context only: 横向椭圆镜圈配细镜腿，镜片形状与圆框区分。\nCell4, label EG004: 猫眼框眼镜 / cat-eye spectacles. Wearing target: 斜前面：猫眼框外上角明显上扬，双眼在透明镜片后，保持鼻梁支点. Product structure context only: 镜圈外上角上扬，鼻梁和镜腿接点明确。\nCell5, label EG005: 六边形框眼镜 / hexagonal spectacles. Wearing target: 斜前面：六边形镜圈有清楚六段直边，镜腿接在两侧，透明镜片. Product structure context only: 镜片周围六段折线形成多角边框，鼻托清楚。\nCell6, label EG006: 眉线半框眼镜 / browline spectacles. Wearing target: 斜前面：眉线框上缘厚、下缘为细金属圈，鼻梁连接完整. Product structure context only: 上框加厚，下方为细金属圈，鼻梁连接完整。\nCell7, label EG007: 下半无框眼镜 / semi-rimless spectacles. Wearing target: 斜前面：上半框条固定镜片，下缘透明细线，不画成完整金属下框. Product structure context only: 上缘框条与下缘透明线固定镜片，镜腿接点可见。\nCell8, label EG008: 全无框眼镜 / rimless spectacles. Wearing target: 斜前面：全无框眼镜只有透明镜片及小孔固定件，鼻梁和镜腿可见. Product structure context only: 镜片边缘无镜圈，鼻梁和镜腿通过小孔件连接。\nCell9, label EG009: 双梁飞行框眼镜 / double-bridge aviator spectacles. Wearing target: 斜前面：透明水滴飞行镜片与双鼻梁，细金属镜圈，双眼可见. Product structure context only: 水滴形透明镜片与两道鼻梁，细金属框明确。\nCell10, label EG010: 小圆墨镜 / small round sunglasses. Wearing target: 斜前面：较小圆形深色太阳镜，窄桥细腿，完整镜片均匀较暗. Product structure context only: 较小圆形深色镜片、窄桥与细腿，区别于透明矫正镜。\nCell11, label EG011: 方形墨镜 / square sunglasses. Wearing target: 斜前面：较大的方形深色墨镜，粗板材框和宽镜腿，明显方形轮廓. Product structure context only: 方形深色镜片和较粗框条，镜腿宽度可见。\nCell12, label EG012: 渐变镜片眼镜 / gradient-lens eyewear. Wearing target: 斜前面：镜片从上深下浅平顺渐变，下部双眼轮廓可见，镜圈固定完整. Product structure context only: 同一镜片从上深下浅渐变，框形和镜片效果分别可辨。\nCell13, label EG013: 夹片太阳镜眼镜 / clip-on sunglass spectacles. Wearing target: 斜前面略侧：普通眼镜上有一层翻起的深色太阳夹片，小夹点、内层透明镜片和外层夹片均可见. Product structure context only: 普通框上有可翻起夹片，小夹点与内层镜片都可见。\nCell14, label EG014: 运动包覆眼镜 / wraparound sports eyewear. Wearing target: 侧前面：运动镜片弧面包向面侧，鼻托贴合、镜腿沿两侧延伸到耳后. Product structure context only: 弯曲镜片包向面侧，鼻托和镜腿末端贴合结构清楚。\nCell15, label EG015: 单片链式眼镜 / chained monocle. Wearing target: 斜前面：单枚圆形单片眼镜嵌在一侧眼眶，细链从下缘完整垂到衣领附近，另一眼无遮挡. Product structure context only: 孤立圆形单镜片与边框，固定小链连接下缘。\nCell16, label EG016: 双目密封护目镜 / sealed two-lens goggles. Wearing target: 斜前面略侧：双目护目镜软边贴脸，两片镜片独立，弹性头带绕到脑后，在侧面可见. Product structure context only: 两个镜片嵌在贴脸软边框中，后部弹性头带清楚。\nCritical: show16 distinct correct accessories actually worn, including physical fastening and complete ends, without crossing cell boundaries."
+  }
+]

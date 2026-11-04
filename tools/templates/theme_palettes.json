@@ -1,0 +1,50 @@
+[
+  {
+    "id": "light",
+    "mode": "light",
+    "name": "暖白·灰玫瑰",
+    "description": "暖白纸底，灰玫瑰点缀",
+    "colors": {
+      "bg": "#f7f5f2", "surface": "#fffefd", "ink": "#302c2e", "muted": "#716a6c",
+      "line": "#e5dcdd", "accent": "#92596c", "soft": "#f2e7eb", "gold": "#8b7258",
+      "support": "#4f6a5d", "support-soft": "#eef2ee", "accent-ink": "#fffafd",
+      "sidebar-bg": "#fffefd", "field-bg": "#fffefd", "field-line": "#e5dcdd", "backdrop": "#211b228c"
+    }
+  },
+  {
+    "id": "light-linen",
+    "mode": "light",
+    "name": "奶油·燕麦",
+    "description": "奶油纸底，燕麦棕点缀",
+    "colors": {
+      "bg": "#f5eee3", "surface": "#fffaf1", "ink": "#493d2e", "muted": "#756449",
+      "line": "#e1d5c4", "accent": "#87623b", "soft": "#f4eadb", "gold": "#87623b",
+      "support": "#65704d", "support-soft": "#e8e9d8", "accent-ink": "#ffffff",
+      "sidebar-bg": "#faf4e9", "field-bg": "#fffaf1", "field-line": "#a28e75", "backdrop": "#3b2b198c"
+    }
+  },
+  {
+    "id": "dark",
+    "mode": "dark",
+    "name": "墨灰·香槟",
+    "description": "中性灰底，柔和金色",
+    "colors": {
+      "bg": "#17191d", "surface": "#23272d", "ink": "#e8e6e1", "muted": "#b0b3b8",
+      "line": "#3c424b", "accent": "#c6b18b", "soft": "#30353d", "gold": "#c6b18b",
+      "support": "#a5b7b2", "support-soft": "#293532", "accent-ink": "#202327",
+      "sidebar-bg": "#1c1f24", "field-bg": "#1d2024", "field-line": "#626c78", "backdrop": "#101216b3"
+    }
+  },
+  {
+    "id": "dark-forest",
+    "mode": "dark",
+    "name": "松林·雾绿",
+    "description": "沉静松绿，浅雾绿点缀",
+    "colors": {
+      "bg": "#13211e", "surface": "#20342e", "ink": "#e3ece6", "muted": "#acbeb3",
+      "line": "#365247", "accent": "#a4ccb1", "soft": "#2b4439", "gold": "#c8be98",
+      "support": "#b7c9a9", "support-soft": "#324231", "accent-ink": "#152b22",
+      "sidebar-bg": "#182923", "field-bg": "#172a23", "field-line": "#678879", "backdrop": "#081b14b3"
+    }
+  }
+]

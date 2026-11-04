@@ -1,0 +1,57 @@
+[
+  {
+    "id": "R83",
+    "title": "Our Religious Habit 修女会自身的衣装说明",
+    "publisher": "Dominican Sisters of Mary Immaculate Province",
+    "url": "https://houstondominicans.org/our-religious-habit",
+    "kind": "修会官方服装说明",
+    "topics": "长袍、腰带、肩布、头巾与披风",
+    "summary": "修会说明其长袍、腰带、肩布、头巾和披风的组成。用于核对衣物部件的观察范围；图鉴另有原创组合与幻想改编，不把一个修会的着装当作所有修女的统一制服。",
+    "rights": "仅保存阅读链接，未复制照片或原文长段",
+    "checked": "2026-10-15"
+  },
+  {
+    "id": "R84",
+    "title": "Formation 当代本笃会修女的着装语境",
+    "publisher": "Benedictine Sisters of Perpetual Adoration",
+    "url": "https://benedictinesisters.org/formation/",
+    "kind": "修会官方介绍",
+    "topics": "传统会服、简洁黑白日常衣物与头巾选择",
+    "summary": "官方介绍中同时提及传统会服和简洁黑白衣物，并说明头巾选择。用于保留当代修女着装存在差异的语境；原创服装不声称为某一修会的精确复原。",
+    "rights": "仅保存阅读链接，未复制照片",
+    "checked": "2026-10-15"
+  },
+  {
+    "id": "R85",
+    "title": "Unresponsive and Breathing Person 无反应状态资料入口",
+    "publisher": "American Red Cross",
+    "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/unresponsive-and-breathing-person",
+    "kind": "专业急救机构公众资料",
+    "topics": "反应、呼吸及真实状态评估的语境",
+    "summary": "资料将反应和呼吸等作为真实状态评估的一部分。图鉴的睡眠、昏迷、长眠是剧情标签，不能凭面部图像判断；本图鉴不把闭眼或肤色当作诊断依据。",
+    "rights": "仅保存阅读链接，未复制教学图片",
+    "checked": "2026-10-15"
+  },
+  {
+    "id": "R86",
+    "title": "Length/height-for-age 卧长与身高的资料入口",
+    "publisher": "World Health Organization",
+    "url": "https://www.who.int/tools/child-growth-standards/standards/length-height-for-age",
+    "kind": "国际卫生机构资料入口",
+    "topics": "婴幼儿卧长与站立身高的区分",
+    "summary": "用于保留卧长与身高是不同观察方式的资料语境。图鉴所有数字另标为虚构角色创作设定，没有复制或拟合WHO标准、百分位或平均值，不用于发育或健康评估。",
+    "rights": "仅保存阅读链接，未复制标准图表",
+    "checked": "2026-10-15"
+  },
+  {
+    "id": "R87",
+    "title": "Puberty 成长阶段的个体差异与整体轮廓变化",
+    "publisher": "NHS Just One Norfolk",
+    "url": "https://www.justonenorfolk.nhs.uk/child-development-additional-needs/supporting-development/puberty/",
+    "kind": "公共卫生机构成长资料",
+    "topics": "青春期整体生长、体形变化与时序差异",
+    "summary": "用于核对儿童至成年过渡存在整体身高、四肢与躯干轮廓变化，并保留个体时序差异的语境。图鉴是完整日常着装的原创阶段示例，没有复制临床图像、医学发育分级或标准尺寸。",
+    "rights": "仅保存阅读链接，未复制图像或长段原文",
+    "checked": "2026-10-15"
+  }
+]

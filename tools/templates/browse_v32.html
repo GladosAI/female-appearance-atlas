@@ -1,0 +1,18 @@
+<section id="browse-controls" aria-label="图鉴查找与筛选" hidden>
+<nav id="breadcrumb" class="breadcrumb" aria-label="当前位置"></nav>
+<form id="browse-search-form" class="browse-search-form" role="search">
+<div class="search-combobox search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="browse-suggestions" aria-label="搜索当前目录中的名称、编号与特征"><button id="clear-search" type="button" aria-label="清除关键词">×</button><div id="browse-suggestions" class="search-suggestions" role="listbox" aria-label="查找建议" hidden></div></div>
+<button class="btn primary" type="submit">查找</button>
+</form>
+<div class="search-context"><span id="search-scope-label">检索范围：全部图鉴</span><button id="expand-search" class="small-btn" type="button" hidden>扩大到全部图鉴 ↗</button></div>
+<div class="hierarchy-controls">
+<label><span>领域</span><select id="group-filter" aria-label="选择领域"></select></label>
+<label><span>分组</span><select id="branch-filter" aria-label="选择分组"></select></label>
+<label><span>类别</span><select id="mobile-category" aria-label="选择类别"></select></label>
+</div>
+<details id="extra-filters" class="filter-panel"><summary>更多筛选 <span id="filter-count">0</span><small>穿搭风格等</small></summary><div class="extra-filter-fields"><label id="style-control"><span>服装风格</span><select id="browse-style" aria-label="筛选服装风格"><option value="">全部穿搭风格</option></select></label><p>风格可与当前目录、细分和关键词同时使用。</p></div></details>
+<div id="active-filters" class="active-filters" aria-label="当前检索条件"></div>
+<div id="scope-children" class="scope-children" aria-label="继续收窄目录"></div>
+<div class="results-toolbar"><div class="result-view-switch" role="group" aria-label="结果展示方式"><button type="button" data-result-view="terms" aria-pressed="true">词条卡片</button><button type="button" data-result-view="boards" aria-pressed="false">分类图页</button></div><label class="sort-control"><span>排序</span><select id="browse-sort" aria-label="结果排序"><option value="directory">目录顺序</option><option value="relevance">相关度</option><option value="name">名称</option><option value="id">编号</option></select></label><div class="reset-actions"><button id="reset-facets" type="button">清空筛选</button><button id="reset-all" type="button">全部重置</button></div></div>
+<div class="hidden legacy-controls"><button id="all-mode">目录顺序</button><button id="illustrated-mode">图页顺序</button><select id="board-category"></select><label id="dimension-control" hidden><select id="dimension-filter" aria-label="选择类别内细分" tabindex="-1"><option value="all">全部细分</option></select></label></div>
+</section>

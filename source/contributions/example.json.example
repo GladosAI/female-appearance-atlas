@@ -1,0 +1,30 @@
+{
+  "schema": "female-appearance-contribution/v1",
+  "entries": [
+    {
+      "stable_id": "HC053",
+      "category": "hair_cut",
+      "dimension": "剪裁与长度",
+      "name": "示例名称（请替换，勿直接提交）",
+      "en": "example haircut",
+      "description": "清楚说明与既有词条的视觉差异。",
+      "note": "设计要点；不要把角色年龄和服装约束混入发型名称。",
+      "origin": "editorial",
+      "aliases": []
+    }
+  ],
+  "boards": [
+    {
+      "id": "contribution-example",
+      "title": "示例图页",
+      "image": "images/contribution-example.png",
+      "width": 1024,
+      "height": 1536,
+      "columns": 1,
+      "rows": 1,
+      "origin": "请填写真实来源与权利记录",
+      "items": [{"entry_id": "HC053", "label": "HC053", "name": "示例名称（请替换，勿直接提交）"}]
+    }
+  ],
+  "references": []
+}

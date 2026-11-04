@@ -1,0 +1,1131 @@
+{
+  "schema": "female-appearance-contribution/v1",
+  "entries": [
+    {
+      "stable_id": "GX001",
+      "category": "game_concept_exploration",
+      "dimension": "主题与形状探索",
+      "name": "主题意象转译板",
+      "en": "theme-to-character visual development board",
+      "description": "将故事身份的关键词转化为可见的轮廓、图形、配色与道具。",
+      "note": "观察同一主题如何贯穿衣领、工具和徽记；意象不是随意拼贴的装饰。",
+      "aliases": [
+        "主题板",
+        "意象提炼",
+        "视觉母题",
+        "Moodboard"
+      ],
+      "reference_ids": [
+        "R200",
+        "R201"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GX002",
+      "category": "game_concept_exploration",
+      "dimension": "主题与形状探索",
+      "name": "黑白剪影方案探索",
+      "en": "character silhouette exploration sheet",
+      "description": "先压低细节，以多个全身黑色轮廓比较外套、头发和装备的大形。",
+      "note": "轮廓差异要来自设计结构，不能只给同一人物换姿势。",
+      "aliases": [
+        "剪影探索",
+        "轮廓缩略草图",
+        "Silhouette thumbnails"
+      ],
+      "reference_ids": [
+        "R200"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GX003",
+      "category": "game_concept_exploration",
+      "dimension": "主题与形状探索",
+      "name": "形状语言方案对照",
+      "en": "shape-language character variations",
+      "description": "分别以圆弧、方块和尖角主导造型，比较同一身份产生的气质变化。",
+      "note": "形状语言同时作用于服装、发束和道具，不把某种形状当成人格定律。",
+      "aliases": [
+        "形状语言",
+        "圆方三角设计",
+        "Shape language"
+      ],
+      "reference_ids": [
+        "R200"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GX004",
+      "category": "game_concept_exploration",
+      "dimension": "明暗、配色与识别",
+      "name": "明暗大块分组探索",
+      "en": "character value-grouping studies",
+      "description": "保持轮廓不变，比较深浅色块如何突出脸部、躯干或关键装备。",
+      "note": "先看小图的明暗关系，再判断细节；不是不同方向的打光试验。",
+      "aliases": [
+        "明度分组",
+        "灰阶缩略稿",
+        "Value grouping"
+      ],
+      "reference_ids": [
+        "R200"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GX005",
+      "category": "game_concept_exploration",
+      "dimension": "明暗、配色与识别",
+      "name": "同稿配色方案探索",
+      "en": "character costume colorway exploration",
+      "description": "在相同线稿与明暗组织上比较主色、辅色和点缀色。",
+      "note": "避免同时改款式和姿势，让颜色变化可以直接对照。",
+      "aliases": [
+        "配色试稿",
+        "配色备选",
+        "Colorways"
+      ],
+      "reference_ids": [
+        "R200"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GX006",
+      "category": "game_concept_exploration",
+      "dimension": "明暗、配色与识别",
+      "name": "面部身份方案探索",
+      "en": "facial identity exploration sheet",
+      "description": "以多种脸部结构方案推敲同一角色的辨识度与气质。",
+      "note": "保持大致年龄、发型和表情一致，比较眉眼、鼻口与下颌，而非表情差分。",
+      "aliases": [
+        "脸部方案",
+        "角色选脸",
+        "Head exploration"
+      ],
+      "reference_ids": [
+        "R204"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GX007",
+      "category": "game_concept_exploration",
+      "dimension": "明暗、配色与识别",
+      "name": "发型轮廓迭代稿",
+      "en": "hairstyle silhouette iteration sheet",
+      "description": "保持人物服装和脸部识别点，比较发型大形及遮挡关系。",
+      "note": "展示发型设计的迭代过程；具体马尾、辫子等发型仍在头发目录检索。",
+      "aliases": [
+        "发型设计稿",
+        "头发方案",
+        "Hair exploration"
+      ],
+      "reference_ids": [
+        "R200",
+        "R202"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GX008",
+      "category": "game_concept_exploration",
+      "dimension": "明暗、配色与识别",
+      "name": "视觉焦点与细节密度规划",
+      "en": "character focal-point and detail hierarchy study",
+      "description": "用细节疏密、对比和少量强调色引导目光到角色的关键识别处。",
+      "note": "示例把胸前仪器设为焦点，其余服装留有较安静的大面。",
+      "aliases": [
+        "细节层级",
+        "识别点设计",
+        "视觉锚点",
+        "Focal hierarchy"
+      ],
+      "reference_ids": [
+        "R200"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GA001",
+      "category": "game_aaa_design",
+      "dimension": "服装结构与材质",
+      "name": "服装分层拆解设定",
+      "en": "layered costume breakdown sheet",
+      "description": "将内搭、外套与外部装备分开画出，说明穿着叠放关系。",
+      "note": "内搭保持完整不透明；层次拆解不是脱衣展示。",
+      "aliases": [
+        "服装拆解",
+        "穿衣层次",
+        "Costume breakdown"
+      ],
+      "reference_ids": [
+        "R201"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GA002",
+      "category": "game_aaa_design",
+      "dimension": "服装结构与材质",
+      "name": "服装材质分区与局部放大",
+      "en": "costume material callout sheet",
+      "description": "以同一套服装上的布料、皮革与金属分区，比较不同表面表现。",
+      "note": "局部特写与主图的部位一致；示意材质不等于PBR参数或实测材质。",
+      "aliases": [
+        "材质标注",
+        "材质分区",
+        "Material callouts"
+      ],
+      "reference_ids": [
+        "R201",
+        "R204"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GA003",
+      "category": "game_aaa_design",
+      "dimension": "服装结构与材质",
+      "name": "扣合、缝线与开口结构稿",
+      "en": "costume closure and seam construction study",
+      "description": "放大衣襟、口袋、扣具与缝线，让服装如何穿脱和开合更清楚。",
+      "note": "优先说明连接功能，避免主图和放大图出现不同扣合方式。",
+      "aliases": [
+        "服装工艺稿",
+        "扣具设定",
+        "服装开口",
+        "Construction callouts"
+      ],
+      "reference_ids": [
+        "R201"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GA004",
+      "category": "game_aaa_design",
+      "dimension": "服装结构与材质",
+      "name": "服装磨损与经历叙事对照",
+      "en": "costume wear and storytelling comparison",
+      "description": "比较同一套衣物的新旧状态，通过磨损、修补和污迹提示角色经历。",
+      "note": "磨损集中在接触、折叠和使用位置，不靠均匀污渍堆满全身。",
+      "aliases": [
+        "做旧设定",
+        "磨损设计",
+        "环境叙事",
+        "Weathering study"
+      ],
+      "reference_ids": [
+        "R201"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GA005",
+      "category": "game_aaa_design",
+      "dimension": "功能与游戏验证",
+      "name": "装备挂载与收纳关系稿",
+      "en": "equipment mounting and storage study",
+      "description": "用主视图、背视图和局部说明工具固定在身体或背包上的方式。",
+      "note": "挂载点、取用空间与角色动作相互关联；图片仅作功能设想。",
+      "aliases": [
+        "挂点设计",
+        "装备收纳",
+        "挂载设定",
+        "Attachment study"
+      ],
+      "reference_ids": [
+        "R201"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GA006",
+      "category": "game_aaa_design",
+      "dimension": "功能与游戏验证",
+      "name": "服装活动范围检查稿",
+      "en": "costume range-of-motion study",
+      "description": "以站立、蹲下与抬臂动作检查外套、护甲和装备的干涉位置。",
+      "note": "同一套衣服在各姿势下保持结构一致；最终仍需模型与绑定验证。",
+      "aliases": [
+        "活动度测试",
+        "动作干涉",
+        "服装机能",
+        "Range of motion"
+      ],
+      "reference_ids": [
+        "R201"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GA007",
+      "category": "game_aaa_design",
+      "dimension": "功能与游戏验证",
+      "name": "游戏镜头下的角色可读性测试",
+      "en": "in-game character readability study",
+      "description": "在接近游戏观察距离的画面中检查轮廓、配色与装备识别点。",
+      "note": "比较近景和缩小后的实际观感；不把概念图假定为引擎截图。",
+      "aliases": [
+        "游戏可读性",
+        "缩小测试",
+        "Gameplay readability"
+      ],
+      "reference_ids": [
+        "R200"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GA008",
+      "category": "game_aaa_design",
+      "dimension": "功能与游戏验证",
+      "name": "三维灰模辅助覆绘",
+      "en": "3D blockout assisted character paintover",
+      "description": "先用简单体块确定体积和装备位置，再以覆绘推敲造型细节。",
+      "note": "左侧灰模与右侧设计保持姿势和主要体块对应；本图模拟方法，没有附带可编辑模型。",
+      "aliases": [
+        "灰模覆绘",
+        "3D辅助概念",
+        "Blockout paintover"
+      ],
+      "reference_ids": [
+        "R204"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GO001",
+      "category": "game_otome_design",
+      "dimension": "立绘身份与差分",
+      "name": "乙游角色立姿方案探索",
+      "en": "otome character standing-pose exploration",
+      "description": "以多套全身立姿比较同一角色的性格、重心和手势。",
+      "note": "保持人脸与服装，集中观察姿态；女性示例可用于主角或配角。",
+      "aliases": [
+        "立绘姿势稿",
+        "立姿备选",
+        "Standing sprite poses"
+      ],
+      "reference_ids": [
+        "R202"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GO002",
+      "category": "game_otome_design",
+      "dimension": "立绘身份与差分",
+      "name": "同底立绘表情差分表",
+      "en": "visual-novel expression variant sheet",
+      "description": "固定脸部角度与底稿，通过眉眼和嘴部差异制作不同情绪状态。",
+      "note": "与选脸方案不同：同一人物的脸部结构、发型和视角保持一致。",
+      "aliases": [
+        "表情差分",
+        "同底表情",
+        "Expression sheet"
+      ],
+      "reference_ids": [
+        "R202"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GO003",
+      "category": "game_otome_design",
+      "dimension": "立绘身份与差分",
+      "name": "角色识别点与饰物呼应设定",
+      "en": "character identity anchors and motif callouts",
+      "description": "将发饰、眼部特征与代表饰物并置，整理可跨立绘沿用的识别点。",
+      "note": "重点是同一人的特征延续，而非给每个部位增加强制规定。",
+      "aliases": [
+        "视觉识别设定",
+        "角色锚点",
+        "Identity anchors"
+      ],
+      "reference_ids": [
+        "R200",
+        "R202"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GO004",
+      "category": "game_otome_design",
+      "dimension": "立绘身份与差分",
+      "name": "同角色多套衣装连续性设计",
+      "en": "same-character wardrobe continuity sheet",
+      "description": "为同一人物设计日常与正式衣装，同时维持发型、配色或饰物联系。",
+      "note": "换装后仍能认出同一人物；不把不同服装方案画成不同的脸。",
+      "aliases": [
+        "换装设定",
+        "衣装差分",
+        "Costume continuity"
+      ],
+      "reference_ids": [
+        "R202"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GO005",
+      "category": "game_otome_design",
+      "dimension": "事件CG与动态准备",
+      "name": "事件CG构图缩略方案",
+      "en": "event CG composition thumbnails",
+      "description": "以小幅构图方案探索剧情时刻的人物关系、视线与情绪重点。",
+      "note": "先比较构图与叙事，再进入精细上色；不是三个连续镜头。",
+      "aliases": [
+        "事件CG草图",
+        "CG构图",
+        "恋爱冒险构图",
+        "Event CG thumbnails"
+      ],
+      "reference_ids": [
+        "R202"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GO006",
+      "category": "game_otome_design",
+      "dimension": "事件CG与动态准备",
+      "name": "事件CG色稿到精修对照",
+      "en": "event CG color rough to polished illustration",
+      "description": "保持剧情构图，对照大块光色草稿与细化后的脸、手和服装。",
+      "note": "色稿先确定整体气氛；精修保持故事焦点与空间关系。",
+      "aliases": [
+        "CG色稿",
+        "CG精修",
+        "Color rough to final"
+      ],
+      "reference_ids": [
+        "R202"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GO007",
+      "category": "game_otome_design",
+      "dimension": "事件CG与动态准备",
+      "name": "对话立绘与界面留白测试",
+      "en": "dialogue sprite staging and text-safe-area study",
+      "description": "将立绘放入简化的对话场景，检查人物位置与文字区域的遮挡。",
+      "note": "留白区域只代表排版范围；它不是本网站的新交互界面。",
+      "aliases": [
+        "文字安全区",
+        "立绘排版",
+        "对话框避让",
+        "Dialogue staging"
+      ],
+      "reference_ids": [
+        "R202"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GO008",
+      "category": "game_otome_design",
+      "dimension": "事件CG与动态准备",
+      "name": "动态立绘分件与遮挡补全示意",
+      "en": "animated portrait parts and overlap preparation",
+      "description": "在完整立绘旁分示前后发、袖片与饰物，说明为动态变形准备的部件关系。",
+      "note": "分件示意不等于可导入的PSD或完成绑定；被遮挡边缘应有适量补全。",
+      "aliases": [
+        "Live2D分件",
+        "动态立绘拆分",
+        "遮挡补画",
+        "Parts separation"
+      ],
+      "reference_ids": [
+        "R203"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GP001",
+      "category": "game_production_sheets",
+      "dimension": "多视图与模型准备",
+      "name": "角色正侧背三视设定",
+      "en": "front side back character turnaround",
+      "description": "用相同站姿、比例和水平基准并列正面、侧面与背面，交代整体结构。",
+      "note": "三视图强调对应关系，仍需核对生成图中的接缝、饰物和左右方向。",
+      "aliases": [
+        "三视图",
+        "转面图",
+        "角色转面",
+        "Turnaround"
+      ],
+      "reference_ids": [
+        "R201",
+        "R204"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GP002",
+      "category": "game_production_sheets",
+      "dimension": "多视图与模型准备",
+      "name": "建模用A姿态设定",
+      "en": "A-pose character modeling reference",
+      "description": "让手臂与躯干适当分离，清楚交代腋下、袖口和轮廓，便于建模理解。",
+      "note": "A姿态是交接表达之一，不代表所有项目必须使用相同角度或骨架。",
+      "aliases": [
+        "A-Pose",
+        "建模设定稿",
+        "A姿势设定"
+      ],
+      "reference_ids": [
+        "R204"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GP003",
+      "category": "game_production_sheets",
+      "dimension": "多视图与模型准备",
+      "name": "头部转面与五官一致性稿",
+      "en": "head turnaround and facial consistency sheet",
+      "description": "以正面、斜侧和纯侧面并列同一人物，核对五官与发际结构的转折。",
+      "note": "关注设计交接的一致性；通用观察方向还可在视角目录单独查看。",
+      "aliases": [
+        "头部三视",
+        "头部转面",
+        "Head turnaround"
+      ],
+      "reference_ids": [
+        "R204"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GP004",
+      "category": "game_production_sheets",
+      "dimension": "结构、动作与定稿",
+      "name": "随身道具多视图与持用关系",
+      "en": "prop orthographic and handling callouts",
+      "description": "把角色道具的正侧形态、握持方式和身体尺度放在一起。",
+      "note": "道具独立图与手中同一物件保持形状对应，不等于真实制造尺寸。",
+      "aliases": [
+        "道具设定稿",
+        "道具持握",
+        "Prop callout sheet"
+      ],
+      "reference_ids": [
+        "R201"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GP005",
+      "category": "game_production_sheets",
+      "dimension": "结构、动作与定稿",
+      "name": "护甲与服装局部剖解稿",
+      "en": "armor and garment construction cutaway",
+      "description": "通过局部剖解或展开，说明外壳、软垫和布料的叠置方式。",
+      "note": "剖解只针对物件结构，采用非人体的局部示意；不是可生产工程图。",
+      "aliases": [
+        "结构剖解",
+        "护甲结构",
+        "Exploded costume detail"
+      ],
+      "reference_ids": [
+        "R201"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GP006",
+      "category": "game_production_sheets",
+      "dimension": "结构、动作与定稿",
+      "name": "角色招牌动作关键姿势表",
+      "en": "signature action key-pose design sheet",
+      "description": "用少量关键姿势整理角色的重心、道具使用和标志性动作语言。",
+      "note": "表现动作设计的节点，不能代替完整动画、时序或碰撞验证。",
+      "aliases": [
+        "动作设定",
+        "Key poses",
+        "招式设计稿"
+      ],
+      "reference_ids": [
+        "R200"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GP007",
+      "category": "game_production_sheets",
+      "dimension": "结构、动作与定稿",
+      "name": "同世界观角色阵容对照",
+      "en": "shared-world character lineup study",
+      "description": "将不同身份的人物并排，检查阵营共性、轮廓差异和角色间尺度。",
+      "note": "比较角色之间的设计关系，不把身高差异误当成某种年龄标准。",
+      "aliases": [
+        "阵容设计",
+        "角色阵列",
+        "Lineup",
+        "阵营统一"
+      ],
+      "reference_ids": [
+        "R200",
+        "R201"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    },
+    {
+      "stable_id": "GP008",
+      "category": "game_production_sheets",
+      "dimension": "结构、动作与定稿",
+      "name": "草稿、清线、平色与定稿对照",
+      "en": "rough line flat color and final concept progression",
+      "description": "将同一设计的草稿、清线、平色和细化阶段并列，观察信息逐步确定。",
+      "note": "各阶段保持构图与款式，阶段并列仅说明一种整理方法，不规定唯一制作流程。",
+      "aliases": [
+        "原稿流程",
+        "线稿色稿",
+        "设计阶段对照",
+        "Concept progression"
+      ],
+      "reference_ids": [
+        "R202",
+        "R204"
+      ],
+      "origin": "editorial",
+      "added_in": "69.0",
+      "game_design_reference": true,
+      "reference_mode": "original game-character concept-method case study"
+    }
+  ],
+  "boards": [
+    {
+      "id": "game-gx-1-v69",
+      "category": "game_concept_exploration",
+      "title": "角色概念探索 · 主题与形状探索",
+      "image": "images/sheet-game-gx-1-v69.png",
+      "columns": 2,
+      "rows": 2,
+      "prompt": "Use case: scientific-educational. Asset: original GAME CHARACTER CONCEPT DESIGN method examples for a visual reference atlas. LANDSCAPE canvas, 1536 by 1024 target, EXACTLY TWO equal COLUMNS and TWO equal ROWS. FOUR independent case studies, row-major order. Thin straight vertical separator exactly at half width, horizontal separator exactly at half height; off-white paper background and clear inset margins. Each QUADRANT is ONE COMPLETE CASE, and may contain multiple mini figures or detail drawings ONLY as requested within that quadrant. Do not move any subfigure into another quadrant. No titles, IDs, letters, numbers, logos, signatures, watermarks, fake annotation text or UI. Draw diagrams and concept ART, not a photograph of paper. Entire body, hair, equipment and feet inside the cell for full-body requests. All characters visibly ADULT, original fictional designs, no existing game characters or celebrity identity. Keep each case legible and uncluttered, with minimal leader lines only if specified. \n\nCASE 1 (TOP LEFT): An original adult female storm surveyor, full-body, opaque expedition coat and trousers. At left place three ORIGINAL drawn motif studies: a spiral storm diagram, a folded weather vane, a crescent brass instrument. At right one dominant character concept incorporates their spiral seam, angled collar and brass tool shapes. Restrained teal and ochre palette, loose painted concept drawing, generous white space. These are drawings, NOT photographs or borrowed reference images.\n\nCASE 2 (TOP RIGHT): FOUR large full-body black silhouettes of one adult female storm surveyor, all upright same scale, evenly spaced on ivory paper. Clearly DIFFERENT coat and equipment silhouettes: broad short cape, long split coat, compact jacket with tall pack, asymmetrical shoulder cloak. Negative gaps at arms and legs. Solid black, no internal face or garment detail, no color.\n\nCASE 3 (BOTTOM LEFT): THREE full-body concepts of an adult woman courier, same height and upright pose. Left rounded soft collar, curved satchel and rounded bob; middle squared jacket blocks, rectangular satchel and blunt bob; right angular lapels, triangular cloak hems and angled hair. Consistent restrained grey-teal palette, clean concept sketches. The three visibly different shape families must be immediately readable, with no diagram text.\n\nCASE 4 (BOTTOM RIGHT): THREE full-body drawings of the EXACT SAME adult female explorer in identical neutral pose, identical coat and backpack, only local costume VALUES change. Left dark coat with light head area; middle pale coat dark waist and boots; right medium coat with light shoulder panel and dark central stripe. ONLY black, mid-grey and white, flat value blocks, no cast lighting effects or material rendering.\n\nLayout priority: exactly four equal quadrant crops. Every complete case fits inside its own quadrant; subdrawings never cross central dividers. Modest margins, NO TEXT.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 69,
+      "origin": "Original AI-generated game-character design-method illustration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "GX001",
+          "label": "GX001",
+          "name": "主题意象转译板"
+        },
+        {
+          "entry_id": "GX002",
+          "label": "GX002",
+          "name": "黑白剪影方案探索"
+        },
+        {
+          "entry_id": "GX003",
+          "label": "GX003",
+          "name": "形状语言方案对照"
+        },
+        {
+          "entry_id": "GX004",
+          "label": "GX004",
+          "name": "明暗大块分组探索"
+        }
+      ]
+    },
+    {
+      "id": "game-gx-2-v69",
+      "category": "game_concept_exploration",
+      "title": "角色概念探索 · 明暗、配色与识别",
+      "image": "images/sheet-game-gx-2-v69.png",
+      "columns": 2,
+      "rows": 2,
+      "prompt": "Use case: scientific-educational. Asset: original GAME CHARACTER CONCEPT DESIGN method examples for a visual reference atlas. LANDSCAPE canvas, 1536 by 1024 target, EXACTLY TWO equal COLUMNS and TWO equal ROWS. FOUR independent case studies, row-major order. Thin straight vertical separator exactly at half width, horizontal separator exactly at half height; off-white paper background and clear inset margins. Each QUADRANT is ONE COMPLETE CASE, and may contain multiple mini figures or detail drawings ONLY as requested within that quadrant. Do not move any subfigure into another quadrant. No titles, IDs, letters, numbers, logos, signatures, watermarks, fake annotation text or UI. Draw diagrams and concept ART, not a photograph of paper. Entire body, hair, equipment and feet inside the cell for full-body requests. All characters visibly ADULT, original fictional designs, no existing game characters or celebrity identity. Keep each case legible and uncluttered, with minimal leader lines only if specified. \n\nCASE 1 (TOP LEFT): THREE identical full-body clean-line concepts of one adult female explorer, identical upright pose, face, bob hair, fitted opaque jacket and utility trousers. Only wardrobe colors vary: teal with ochre accents; burgundy with pale grey accents; indigo with cream accents. Each has a small three-square matching color swatch beside boots. Flat-to-soft shading, neutral white backdrop.\n\nCASE 2 (TOP RIGHT): THREE large colored shoulder-up head concepts for an original adult woman explorer around 30. Same short dark bob and neutral expression, same ochre collar. Distinct believable FACE STRUCTURE options: long oval with strong brows, broad cheekbones with rounded jaw, square jaw with narrower eyes. Semi-realistic production concept painting, equal lighting and camera angle, no resemblance to celebrities.\n\nCASE 3 (BOTTOM LEFT): THREE upper-thigh-up drawings of the SAME adult woman fantasy researcher, exact same face, expression and opaque high-collar coat. Different hair concepts: compact side-part bob; high swept ponytail with clear face; braided crown with a low loose tail. Brown hair throughout, near-front angle throughout. Clean pencil and flat color character development art, hair outlines fully contained and visually distinct.\n\nCASE 4 (BOTTOM RIGHT): One dominant full-body adult female storm surveyor in muted grey-teal coat and trousers. A brass circular chest-mounted weather instrument and amber scarf are the ONLY high-contrast detailed focal area. Arms, legs and coat lower panels are deliberately broad simple quiet shapes. At right ONE enlarged drawing of the same instrument and scarf seam, with one thin leader line. Professional concept art, no numbers or words.\n\nLayout priority: exactly four equal quadrant crops. Every complete case fits inside its own quadrant; subdrawings never cross central dividers. Modest margins, NO TEXT.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 69,
+      "origin": "Original AI-generated game-character design-method illustration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "GX005",
+          "label": "GX005",
+          "name": "同稿配色方案探索"
+        },
+        {
+          "entry_id": "GX006",
+          "label": "GX006",
+          "name": "面部身份方案探索"
+        },
+        {
+          "entry_id": "GX007",
+          "label": "GX007",
+          "name": "发型轮廓迭代稿"
+        },
+        {
+          "entry_id": "GX008",
+          "label": "GX008",
+          "name": "视觉焦点与细节密度规划"
+        }
+      ]
+    },
+    {
+      "id": "game-ga-1-v69",
+      "category": "game_aaa_design",
+      "title": "3A角色服装与功能设计 · 服装结构与材质",
+      "image": "images/sheet-game-ga-1-v69.png",
+      "columns": 2,
+      "rows": 2,
+      "prompt": "Use case: scientific-educational. Asset: original GAME CHARACTER CONCEPT DESIGN method examples for a visual reference atlas. LANDSCAPE canvas, 1536 by 1024 target, EXACTLY TWO equal COLUMNS and TWO equal ROWS. FOUR independent case studies, row-major order. Thin straight vertical separator exactly at half width, horizontal separator exactly at half height; off-white paper background and clear inset margins. Each QUADRANT is ONE COMPLETE CASE, and may contain multiple mini figures or detail drawings ONLY as requested within that quadrant. Do not move any subfigure into another quadrant. No titles, IDs, letters, numbers, logos, signatures, watermarks, fake annotation text or UI. Draw diagrams and concept ART, not a photograph of paper. Entire body, hair, equipment and feet inside the cell for full-body requests. All characters visibly ADULT, original fictional designs, no existing game characters or celebrity identity. Keep each case legible and uncluttered, with minimal leader lines only if specified. \n\nCASE 1 (TOP LEFT): THREE full-body aligned views of the SAME adult woman mountain ranger in neutral front pose. First: complete opaque long-sleeve thermal top, trousers and boots. Second: same underclothes plus short fitted weatherproof coat. Third: same full outfit plus utility belt and backpack straps. Different layers clearly accumulate from left to right. Realistic game costume concept drawing on pale grey paper, no skin exposure, no labels.\n\nCASE 2 (TOP RIGHT): One large full-body adult female ranger in opaque charcoal canvas coat, brown leather belt and brushed brass shoulder clasp, trousers and boots. Right side has THREE large close-up material swatches directly connected by thin leader lines to the corresponding coat fabric, belt leather and metal clasp. Distinct woven matte cloth, creased leather and reflective brushed brass, realistic game concept painting. No text.\n\nCASE 3 (BOTTOM LEFT): Adult female field medic, knee-up main drawing of opaque olive utility coat. At right TWO enlarged construction views: the SAME front storm flap lifted just enough to reveal a zipper underneath, and the SAME outer utility pocket with a readable flap and two snap fasteners. Thin leader lines link the insets to main coat. Fine seam and stitching lines, neutral semi-realistic concept drawing, no text or x-ray body.\n\nCASE 4 (BOTTOM RIGHT): TWO identical full-body adult woman ranger designs, same coat, trousers, boots and upright pose. Left new clean outfit. Right same outfit after long travel: frayed cuffs, scuffed boot toes, faded shoulders, a neat patch on one knee and mud only around hems. Face unchanged, no injuries or blood. Detailed realistic game costume concept comparison on pale paper.\n\nLayout priority: exactly four equal quadrant crops. Every complete case fits inside its own quadrant; subdrawings never cross central dividers. Modest margins, NO TEXT.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        489,
+        1024
+      ],
+      "edition": 69,
+      "origin": "Original AI-generated game-character design-method illustration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "GA001",
+          "label": "GA001",
+          "name": "服装分层拆解设定"
+        },
+        {
+          "entry_id": "GA002",
+          "label": "GA002",
+          "name": "服装材质分区与局部放大"
+        },
+        {
+          "entry_id": "GA003",
+          "label": "GA003",
+          "name": "扣合、缝线与开口结构稿"
+        },
+        {
+          "entry_id": "GA004",
+          "label": "GA004",
+          "name": "服装磨损与经历叙事对照"
+        }
+      ]
+    },
+    {
+      "id": "game-ga-2-v69",
+      "category": "game_aaa_design",
+      "title": "3A角色服装与功能设计 · 功能与游戏验证",
+      "image": "images/sheet-game-ga-2-v69.png",
+      "columns": 2,
+      "rows": 2,
+      "prompt": "Use case: scientific-educational. Asset: original GAME CHARACTER CONCEPT DESIGN method examples for a visual reference atlas. LANDSCAPE canvas, 1536 by 1024 target, EXACTLY TWO equal COLUMNS and TWO equal ROWS. FOUR independent case studies, row-major order. Thin straight vertical separator exactly at half width, horizontal separator exactly at half height; off-white paper background and clear inset margins. Each QUADRANT is ONE COMPLETE CASE, and may contain multiple mini figures or detail drawings ONLY as requested within that quadrant. Do not move any subfigure into another quadrant. No titles, IDs, letters, numbers, logos, signatures, watermarks, fake annotation text or UI. Draw diagrams and concept ART, not a photograph of paper. Entire body, hair, equipment and feet inside the cell for full-body requests. All characters visibly ADULT, original fictional designs, no existing game characters or celebrity identity. Keep each case legible and uncluttered, with minimal leader lines only if specified. \n\nCASE 1 (TOP LEFT): TWO full-body views, front-three-quarter and back-three-quarter, of SAME adult female cartographer in complete opaque expedition outfit. A folded brass survey tripod is strapped to side of pack using TWO visible buckled straps; a map tube is secured to opposite side. Small enlarged inset shows same two straps and pack anchor webbing. Tools remain separate from anatomy, plausible accessible attachment points, detailed painted game concept.\n\nCASE 2 (TOP RIGHT): THREE full-body views of SAME adult female ranger in identical opaque jacket, segmented shoulder armor and utility trousers. Left neutral standing; middle deep crouch with coat skirt spreading at split hem; right raising both arms above shoulders with shoulder plates rotating away from neck. Simple light pencil construction with restrained color, clear joints and cloth clearance, no anatomical overlays or text.\n\nCASE 3 (BOTTOM LEFT): A simulated game-readability concept board. On left a LARGE full-body adult female explorer with an ochre shoulder cape, grey coat, large circular backpack tool. On right TWO smaller drawings of SAME design in a muted rocky scene: medium-distance three-quarter view and far-distance silhouette, recognizable by cape and circular tool. Deliberate decrease in scale, no interface, no bars, no text. Original painted simulation, not actual game screenshot.\n\nCASE 4 (BOTTOM RIGHT): TWO matching three-quarter FULL-BODY adult woman character concepts, same pose and proportions. Left simple neutral grey 3D clay BLOCKOUT with rough volumes for short coat, wide boots and side pack. Right fully painted semi-realistic explorer costume over exact same volumes, teal fabric, leather straps and brass hardware, with a few visible loose paint strokes at edges. Pale background, no software UI, no wireframe noise or labels.\n\nLayout priority: exactly four equal quadrant crops. Every complete case fits inside its own quadrant; subdrawings never cross central dividers. Modest margins, NO TEXT.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        479,
+        1024
+      ],
+      "edition": 69,
+      "origin": "Original AI-generated game-character design-method illustration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "GA005",
+          "label": "GA005",
+          "name": "装备挂载与收纳关系稿"
+        },
+        {
+          "entry_id": "GA006",
+          "label": "GA006",
+          "name": "服装活动范围检查稿"
+        },
+        {
+          "entry_id": "GA007",
+          "label": "GA007",
+          "name": "游戏镜头下的角色可读性测试"
+        },
+        {
+          "entry_id": "GA008",
+          "label": "GA008",
+          "name": "三维灰模辅助覆绘"
+        }
+      ]
+    },
+    {
+      "id": "game-go-1-v69",
+      "category": "game_otome_design",
+      "title": "乙游立绘与表演设计 · 立绘身份与差分",
+      "image": "images/sheet-game-go-1-v69.png",
+      "columns": 2,
+      "rows": 2,
+      "prompt": "Use case: scientific-educational. Asset: original GAME CHARACTER CONCEPT DESIGN method examples for a visual reference atlas. LANDSCAPE canvas, 1536 by 1024 target, EXACTLY TWO equal COLUMNS and TWO equal ROWS. FOUR independent case studies, row-major order. Thin straight vertical separator exactly at half width, horizontal separator exactly at half height; off-white paper background and clear inset margins. Each QUADRANT is ONE COMPLETE CASE, and may contain multiple mini figures or detail drawings ONLY as requested within that quadrant. Do not move any subfigure into another quadrant. No titles, IDs, letters, numbers, logos, signatures, watermarks, fake annotation text or UI. Draw diagrams and concept ART, not a photograph of paper. Entire body, hair, equipment and feet inside the cell for full-body requests. All characters visibly ADULT, original fictional designs, no existing game characters or celebrity identity. Keep each case legible and uncluttered, with minimal leader lines only if specified. \n\nCASE 1 (TOP LEFT): THREE full-body ANIME visual-novel character roughs of the SAME adult woman protagonist, age 26, chestnut low bun, cream blouse, long plum skirt, ankle boots and small gold brooch. Pose one composed with a book held at waist; pose two curious with one hand near chin; pose three confident with one hand resting on hip. Elegant distinct readable gestures, polished pencil with flat color, pale backdrop, no text.\n\nCASE 2 (TOP RIGHT): FOUR large aligned bust portraits of EXACT SAME adult anime woman protagonist with chestnut low bun and cream high-collar blouse. Identical face proportions, viewing angle, hair and neck pose. Only facial expression changes: neutral attentive, warm smile, restrained worry, composed determination. 2 by 2 arrangement INSIDE this case cell, plain pale paper, no emotion icons or lettering.\n\nCASE 3 (BOTTOM LEFT): One dominant FULL-BODY anime adult woman archivist, dark auburn bob with one ivory crescent hairclip, cream and navy long dress, crescent-shaped brass brooch. Right THREE small clean closeups: her face with amber eyes, the crescent hairclip attached to her actual hair, the matching brooch fastened to same coat. Fine line art with soft color. Distinct corresponding motifs, no text or decorative unrelated objects.\n\nCASE 4 (BOTTOM RIGHT): TWO equal FULL-BODY anime drawings of SAME adult woman, identical face, chestnut low bun and pearl hairclip. Left everyday cream blouse and plum calf-length skirt with book satchel. Right elegant plum evening gown with cream capelet and same pearl clip, fully opaque and modest neckline. Same relaxed standing pose and scale; coherent palette but clearly different wardrobe for different occasions. No labels.\n\nLayout priority: exactly four equal quadrant crops. Every complete case fits inside its own quadrant; subdrawings never cross central dividers. Modest margins, NO TEXT.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        480,
+        1024
+      ],
+      "edition": 69,
+      "origin": "Original AI-generated game-character design-method illustration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "GO001",
+          "label": "GO001",
+          "name": "乙游角色立姿方案探索"
+        },
+        {
+          "entry_id": "GO002",
+          "label": "GO002",
+          "name": "同底立绘表情差分表"
+        },
+        {
+          "entry_id": "GO003",
+          "label": "GO003",
+          "name": "角色识别点与饰物呼应设定"
+        },
+        {
+          "entry_id": "GO004",
+          "label": "GO004",
+          "name": "同角色多套衣装连续性设计"
+        }
+      ]
+    },
+    {
+      "id": "game-go-2-v69",
+      "category": "game_otome_design",
+      "title": "乙游立绘与表演设计 · 事件CG与动态准备",
+      "image": "images/sheet-game-go-2-v69.png",
+      "columns": 2,
+      "rows": 2,
+      "prompt": "Use case: scientific-educational. Asset: original GAME CHARACTER CONCEPT DESIGN method examples for a visual reference atlas. LANDSCAPE canvas, 1536 by 1024 target, EXACTLY TWO equal COLUMNS and TWO equal ROWS. FOUR independent case studies, row-major order. Thin straight vertical separator exactly at half width, horizontal separator exactly at half height; off-white paper background and clear inset margins. Each QUADRANT is ONE COMPLETE CASE, and may contain multiple mini figures or detail drawings ONLY as requested within that quadrant. Do not move any subfigure into another quadrant. No titles, IDs, letters, numbers, logos, signatures, watermarks, fake annotation text or UI. Draw diagrams and concept ART, not a photograph of paper. Entire body, hair, equipment and feet inside the cell for full-body requests. All characters visibly ADULT, original fictional designs, no existing game characters or celebrity identity. Keep each case legible and uncluttered, with minimal leader lines only if specified. \n\nCASE 1 (TOP LEFT): THREE small landscape composition thumbnails stacked vertically inside ONE cell. All depict SAME quiet story moment: an adult woman archivist in cream blouse passing a closed book to an adult male colleague in navy coat across a library desk, both fully clothed. Different alternative compositions: broad balanced two-shot; over-man-shoulder focused on woman's thoughtful expression; elevated diagonal showing hands and book. Loose anime pencil and restrained grey values, no text, no chronological sequence.\n\nCASE 2 (TOP RIGHT): TWO equal landscape panels side by side INSIDE this case cell showing SAME composition: adult woman archivist seated by library window holding an open book, chestnut low bun, cream blouse and plum skirt, warm late afternoon. Left loose blocky color rough, simplified face and hands, broad light masses. Right finished refined anime event illustration with coherent face, book, hands and folds. Identical staging and light direction, no arrows or text.\n\nCASE 3 (BOTTOM LEFT): TWO scene-layout thumbnails INSIDE this case cell, anime adult woman archivist standing in simple blurred library backdrop. Left chest-up dialogue sprite offset to left, right waist-up sprite offset to right. BOTH frames have a wide clean blank translucent neutral rectangle across BOTTOM FIFTH as placeholder safe area; woman's face and hands are ABOVE it and unobscured. No actual letters, buttons, menu, logos or software chrome. This is composition planning, not an app screen.\n\nCASE 4 (BOTTOM RIGHT): On left one complete waist-up original adult anime woman archivist with low bun, bangs, cream blouse with opaque camisole underneath, plum jacket and brooch. On right show separated DRAWN COMPONENTS of SAME character: back hair mass, front bangs, one removable jacket sleeve, brooch and ribbon, neatly spaced with thin short leader lines to corresponding regions. Hair pieces include hidden overlap edges. Keep assembled person fully clothed; no separated skin/body parts. No software UI or text.\n\nLayout priority: exactly four equal quadrant crops. Every complete case fits inside its own quadrant; subdrawings never cross central dividers. Modest margins, NO TEXT.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 69,
+      "origin": "Original AI-generated game-character design-method illustration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "GO005",
+          "label": "GO005",
+          "name": "事件CG构图缩略方案"
+        },
+        {
+          "entry_id": "GO006",
+          "label": "GO006",
+          "name": "事件CG色稿到精修对照"
+        },
+        {
+          "entry_id": "GO007",
+          "label": "GO007",
+          "name": "对话立绘与界面留白测试"
+        },
+        {
+          "entry_id": "GO008",
+          "label": "GO008",
+          "name": "动态立绘分件与遮挡补全示意"
+        }
+      ]
+    },
+    {
+      "id": "game-gp-1-v69",
+      "category": "game_production_sheets",
+      "title": "角色设定与制作交接 · 多视图与模型准备",
+      "image": "images/sheet-game-gp-1-v69.png",
+      "columns": 2,
+      "rows": 2,
+      "prompt": "Use case: scientific-educational. Asset: original GAME CHARACTER CONCEPT DESIGN method examples for a visual reference atlas. LANDSCAPE canvas, 1536 by 1024 target, EXACTLY TWO equal COLUMNS and TWO equal ROWS. FOUR independent case studies, row-major order. Thin straight vertical separator exactly at half width, horizontal separator exactly at half height; off-white paper background and clear inset margins. Each QUADRANT is ONE COMPLETE CASE, and may contain multiple mini figures or detail drawings ONLY as requested within that quadrant. Do not move any subfigure into another quadrant. No titles, IDs, letters, numbers, logos, signatures, watermarks, fake annotation text or UI. Draw diagrams and concept ART, not a photograph of paper. Entire body, hair, equipment and feet inside the cell for full-body requests. All characters visibly ADULT, original fictional designs, no existing game characters or celebrity identity. Keep each case legible and uncluttered, with minimal leader lines only if specified. \n\nCASE 1 (TOP LEFT): THREE aligned FULL-BODY drawings of SAME adult female surveyor: FRONT, exact LEFT PROFILE, BACK. Same neutral standing pose, same body proportions and floor baseline. Opaque teal short coat with a single brass shoulder clasp, grey trousers and brown boots, short brown bob, same pack. Clean detailed concept line art with flat colors, thin faint horizontal eye/waist/knee guide lines. No perspective pose, no labels.\n\nCASE 2 (TOP RIGHT): TWO aligned full-body FRONT and BACK A-POSE concept drawings of SAME adult woman explorer in opaque fitted jacket, trousers and boots. Arms angled about 35 degrees down away from torso, elbows relaxed, hands clearly visible, feet shoulder-width. Hair tied short and clear of collar. Simple neutral grey and muted teal flat colors, clear garment seams and side silhouette, no anatomy exposure, no labels or ruler numbers.\n\nCASE 3 (BOTTOM LEFT): THREE large shoulder-up heads of SAME realistic adult woman around 30 with short chestnut bob and cream coat collar: FRONT, THREE-QUARTER, exact PROFILE, in that order. Same neutral expression, same facial identity, hairline, ear location, jaw and nose dimensions. Fine pencil construction and muted color, faint alignment lines across brow and chin. No makeup changes, no labels.\n\nCASE 4 (BOTTOM RIGHT): A concept callout case of an ORIGINAL brass folding weather instrument. Left upper: large front view and side view of the SAME closed device, aligned, believable simple mechanical design. Right: adult woman explorer waist-up holding the identical device with both hands naturally at chest height, fingers do not merge with device. Lower left one view of device open. Cream paper, clean painted line art, no dimensions, brand names or text.\n\nLayout priority: exactly four equal quadrant crops. Every complete case fits inside its own quadrant; subdrawings never cross central dividers. Modest margins, NO TEXT.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "edition": 69,
+      "origin": "Original AI-generated game-character design-method illustration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "GP001",
+          "label": "GP001",
+          "name": "角色正侧背三视设定"
+        },
+        {
+          "entry_id": "GP002",
+          "label": "GP002",
+          "name": "建模用A姿态设定"
+        },
+        {
+          "entry_id": "GP003",
+          "label": "GP003",
+          "name": "头部转面与五官一致性稿"
+        },
+        {
+          "entry_id": "GP004",
+          "label": "GP004",
+          "name": "随身道具多视图与持用关系"
+        }
+      ]
+    },
+    {
+      "id": "game-gp-2-v69",
+      "category": "game_production_sheets",
+      "title": "角色设定与制作交接 · 结构、动作与定稿",
+      "image": "images/sheet-game-gp-2-v69.png",
+      "columns": 2,
+      "rows": 2,
+      "prompt": "Use case: scientific-educational. Asset: original GAME CHARACTER CONCEPT DESIGN method examples for a visual reference atlas. LANDSCAPE canvas, 1536 by 1024 target, EXACTLY TWO equal COLUMNS and TWO equal ROWS. FOUR independent case studies, row-major order. Thin straight vertical separator exactly at half width, horizontal separator exactly at half height; off-white paper background and clear inset margins. Each QUADRANT is ONE COMPLETE CASE, and may contain multiple mini figures or detail drawings ONLY as requested within that quadrant. Do not move any subfigure into another quadrant. No titles, IDs, letters, numbers, logos, signatures, watermarks, fake annotation text or UI. Draw diagrams and concept ART, not a photograph of paper. Entire body, hair, equipment and feet inside the cell for full-body requests. All characters visibly ADULT, original fictional designs, no existing game characters or celebrity identity. Keep each case legible and uncluttered, with minimal leader lines only if specified. \n\nCASE 1 (TOP LEFT): One main full-body adult female expedition guard wearing fully opaque teal cloth coat, trousers and a small hard shoulder pauldron. At right a LARGE EXPLODED DETAIL of the SAME removable pauldron ONLY, showing three object layers separated slightly: outer brass shell, padded dark liner, small attachment strap. Thin leader connects detail to shoulder. Body stays whole and clothed; no anatomy cutaway. Production concept sketch, no text.\n\nCASE 2 (TOP RIGHT): THREE full-body key-pose concept drawings of SAME adult woman storm mage in complete opaque teal long coat and trousers, holding a brass ring staff. First poised grounded ready stance, second broad twisting wind-up, third decisive forward cast with a small amber spiral at staff head. Clear weight, strong line of action, consistent staff size and costume. Loose energetic pencil with selective teal color, no motion-arrow diagram or words.\n\nCASE 3 (BOTTOM LEFT): THREE DIFFERENT adult women full-body side-by-side on a common baseline, all belong to one original storm-survey guild, unified teal/ochre brass emblem design language. A compact sturdy engineer with tool pack, a tall slim navigator with long map tube, a medium-height field captain with short cape. Clearly different adult faces, hairstyles, build and silhouette, consistent semi-realistic concept finish, no names or numbers.\n\nCASE 4 (BOTTOM RIGHT): FOUR identical full-body drawings of SAME adult woman explorer in same neutral three-quarter pose, coat and trouser design, evenly spaced horizontally. Stage1 loose grey pencil rough; stage2 crisp black clean line drawing only; stage3 identical clean line plus flat teal, cream and brown local colors; stage4 finished semi-realistic painted shading and readable fabric texture. No change of face, body or garment design between stages, no arrows, numbers or words.\n\nLayout priority: exactly four equal quadrant crops. Every complete case fits inside its own quadrant; subdrawings never cross central dividers. Modest margins, NO TEXT.",
+      "width": 1536,
+      "height": 1024,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        490,
+        1024
+      ],
+      "edition": 69,
+      "origin": "Original AI-generated game-character design-method illustration; built-in image_gen",
+      "generation_tool": "built-in image_gen",
+      "generated_on": "2026-11-03",
+      "items": [
+        {
+          "entry_id": "GP005",
+          "label": "GP005",
+          "name": "护甲与服装局部剖解稿"
+        },
+        {
+          "entry_id": "GP006",
+          "label": "GP006",
+          "name": "角色招牌动作关键姿势表"
+        },
+        {
+          "entry_id": "GP007",
+          "label": "GP007",
+          "name": "同世界观角色阵容对照"
+        },
+        {
+          "entry_id": "GP008",
+          "label": "GP008",
+          "name": "草稿、清线、平色与定稿对照"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "R200",
+      "title": "Champion Insights: Seraphine",
+      "publisher": "Riot Games",
+      "url": "https://www.leagueoflegends.com/en-us/news/dev/champion-insights-seraphine/",
+      "summary": "开发团队介绍角色主题与世界观、轮廓辨识、功能和表演方式如何相互影响；作为概念探索的流程背景。",
+      "kind": "官方游戏角色设计与制作资料",
+      "topics": "游戏角色原稿与制作流程",
+      "rights": "仅相关阅读；未复制其图片或原稿。",
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "R201",
+      "title": "The creation of Horizon Zero Dawn’s Aloy, as told by Guerrilla Games",
+      "publisher": "PlayStation Blog / Guerrilla",
+      "url": "https://blog.playstation.com/archive/2017/02/13/the-creation-of-horizon-zero-dawns-aloy-as-told-by-guerrilla-games/",
+      "summary": "介绍主角设计与游戏世界、身份和玩法支柱之间的联系；不作为本项目图例的角色或图片来源。",
+      "kind": "官方游戏角色设计与制作资料",
+      "topics": "游戏角色原稿与制作流程",
+      "rights": "仅相关阅读；未复制其图片或原稿。",
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "R202",
+      "title": "Girl’s Illustration Seminar 2026 — オトメイト×バンタン",
+      "publisher": "Vantan Game Academy / Otomate",
+      "url": "https://www.vantan-game.com/gis2026/",
+      "summary": "主办方介绍由实际原画师和彩色担当讲解角色制作、彩色与图层的课程。支持乙游原稿存在多种制作环节，不表示本图鉴所有案例均取自其课程。",
+      "kind": "官方游戏角色设计与制作资料",
+      "topics": "游戏角色原稿与制作流程",
+      "rights": "仅相关阅读；未复制其图片或原稿。",
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "R203",
+      "title": "About Material Separation",
+      "publisher": "Live2D Cubism Manual",
+      "url": "https://docs.live2d.com/en/cubism-editor-manual/divide-the-material/",
+      "summary": "说明为动态建模准备的部件拆分与图像数据；本图鉴只画方法示意，没有交付PSD或绑定模型。",
+      "kind": "官方游戏角色设计与制作资料",
+      "topics": "游戏角色原稿与制作流程",
+      "rights": "仅相关阅读；未复制其图片或原稿。",
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "R204",
+      "title": "Creating the many Faces of Horizon Forbidden West",
+      "publisher": "Guerrilla",
+      "url": "https://www.guerrilla-games.com/read/creating-the-many-faces-of-horizon-forbidden-west",
+      "summary": "官方讲座介绍写实角色面部的制作流程、质量与外观开发；用于理解原稿之后的制作验证语境。",
+      "kind": "官方游戏角色设计与制作资料",
+      "topics": "游戏角色原稿与制作流程",
+      "rights": "仅相关阅读；未复制其图片或原稿。",
+      "checked": "2026-11-03"
+    }
+  ]
+}

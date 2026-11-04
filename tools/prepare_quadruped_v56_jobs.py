@@ -1,0 +1,20 @@
+"""Prepare complete quadruped morphology image mapping without changing old jobs."""
+import json, sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import _bootstrap
+import build_atlas_v2
+import quadruped_v56
+ROOT = _bootstrap.ROOT
+PROMPT = "Use case: stylized-concept. Asset type: final illustrated morphology reference sheet for a character appearance atlas. Create one LANDSCAPE 3:2 canvas, EXACTLY TWO COLUMNS and TWO ROWS, FOUR broad cells in reading order separated by thin straight gray grid lines. Pale warm ivory background in each cell, polished original 2D anime-adjacent fantasy animal concept illustration, clean lines and soft shading. A single COMPLETE ANIMAL in each cell, never a humanoid. Full horizontal animal torso, natural animal head, two forelegs and two hindlegs, exactly FOUR separated complete feet ALL resting on the ground, animal tail. View nearly SIDE ON with a slight three-quarter angle, far legs offset visibly so all four feet can be counted. Entire ears, head, hat/bow, tail and all paws/hooves fit INSIDE own cell with ample space. Small black exact label at upper left only. Four labels: QF001, QF002, QF003, QF004. No other text, no inset diagrams. Cell QF001: original mature small female PONY with tawny beige coat, dark brown simple mane and long tail, animal equine neck and horizontal barrel, FOUR hooves all grounded, a plain brown western hat and small muted blue neck scarf as the only adornment, no saddle or harness, friendly calm animal face, facing right. Cell QF002: original mature small female PONY with pale cream coat, wavy chestnut mane and long chestnut tail, four hooves all grounded, one small plum bow tied in mane and a very short violet shoulder capelet ending above foreleg joints; horizontal equine body fully recognizable, facing left. Cell QF003: original mature female FOX in entirely natural quadrupedal fox body, russet coat white chest and white-tipped bushy tail, long animal muzzle, four small animal paws grounded and visible, one teal neck bandana as the only clothing, facing right. Cell QF004: original mature female CAT in entirely natural quadrupedal feline body, soft gray tabby coat and long curved tail, four natural cat paws all grounded and clearly separate, one loose small burgundy ribbon bow at neck only, facing left. Constraints: nonsexual zoological/fantasy morphology context; NO human breasts, human torso, human arms or hands, bipedal stance, human pelvis, two-legged furry, centaur, saddle rider, crotch emphasis, anthropomorphic upright body, extra or missing limbs, floating feet, lifted foreleg, IP character symbols, apple or balloon markings, logo, watermark. These are COMPLETE quadrupedal animals with small accessories, never humans wearing animal ears. All four paws/hooves in each cell touch the floor."
+entries = [dict(e, id=f'QF{i:03}') for i, e in enumerate(quadruped_v56.NEW_ENTRIES, 1)]
+job = dict(id='quadruped-v56-complete-animal', category=quadruped_v56.CID,
+           dimension='完整动物体态·四足着地', title='完全动物体态与四足装饰 · 4项',
+           image='images/sheet-qf001-qf004.png', columns=2, rows=2, edition=56,
+           column_boundaries=[0,768,1536], row_boundaries=[0,512,1024],
+           entries=[{k:e[k] for k in ['id','name','en']} for e in entries], prompt=PROMPT)
+p = ROOT/'source/image-jobs.json'
+old = json.loads(p.read_text(encoding='utf-8'))
+p.write_text(json.dumps([j for j in old if j['id'] != job['id']] + [job], ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+print(json.dumps({'job':job['id'], 'entries':len(entries)}))
+

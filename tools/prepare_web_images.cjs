@@ -1,0 +1,4 @@
+// Build an explicitly labeled preview edition; original assets remain untouched.
+const fs=require('node:fs'),path=require('node:path'),sharp=require('sharp');
+const job=JSON.parse(fs.readFileSync(process.argv[2],'utf8'));sharp.concurrency(1);
+(async()=>{let cursor=0;await Promise.all(Array.from({length:3},async()=>{while(cursor<job.images.length){const relative=job.images[cursor++],target=path.join(job.output,relative.replace(/\.png$/i,'.webp'));fs.mkdirSync(path.dirname(target),{recursive:true});if(/\.png$/i.test(relative))await sharp(path.join(job.root,relative),{limitInputPixels:false}).webp({quality:88,effort:3}).toFile(target);else fs.copyFileSync(path.join(job.root,relative),target)}}));console.log(JSON.stringify({optimized:job.images.length,quality:88,resized:false}));})().catch(error=>{console.error(error);process.exitCode=1});

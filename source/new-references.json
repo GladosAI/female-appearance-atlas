@@ -1,0 +1,59 @@
+[
+  {
+    "id": "R14",
+    "title": "Hats – Explore the Collections",
+    "publisher": "Victoria and Albert Museum",
+    "url": "https://www.vam.ac.uk/collections/hats",
+    "kind": "帽饰馆藏入口",
+    "topics": "帽冠、帽檐、装饰与系固",
+    "summary": "用于对照真实帽饰的轮廓、材料和构造，各件年代以馆藏记录为准。",
+    "rights": "来源链接；没有复制图片",
+    "checked": "2026-10-13"
+  },
+  {
+    "id": "R15",
+    "title": "Jewellery – Explore the Collections",
+    "publisher": "Victoria and Albert Museum",
+    "url": "https://www.vam.ac.uk/collections/jewellery",
+    "kind": "首饰馆藏入口",
+    "topics": "耳饰、项饰、胸饰与手饰",
+    "summary": "观察不同首饰如何固定、连接和悬挂，设计图的结构需要与人体接触点相容。",
+    "rights": "来源链接；没有复制图片",
+    "checked": "2026-10-13"
+  },
+  {
+    "id": "R16",
+    "title": "The British Sari",
+    "publisher": "Victoria and Albert Museum",
+    "url": "https://www.vam.ac.uk/blog/moving-patterns/british-sari",
+    "kind": "服饰与纹样专题",
+    "topics": "纱丽纹样与文化背景",
+    "summary": "作为纱丽服饰和纹样的延伸阅读入口，创作改编与具体传统穿法应分别说明。",
+    "rights": "来源链接；没有复制图片",
+    "checked": "2026-10-13",
+    "access_note": "检索索引可见；本次正文访问返回 403，仅列为相关阅读入口。"
+  },
+  {
+    "id": "R17",
+    "title": "Women's hanbok",
+    "publisher": "National Folk Museum of Korea",
+    "url": "https://www.nfm.go.kr/k-box/ui/hanbok/female.do?lang=en",
+    "kind": "传统服饰专题",
+    "topics": "jeogori 上衣与 chima 裙装",
+    "summary": "用于对照女性韩服上衣与裙装的基本组合，具体时期与穿法仍需核对实物。",
+    "rights": "来源链接；没有复制图片",
+    "checked": "2026-10-13",
+    "access_note": "检索索引可见；本次正文抓取超时，仅列为相关阅读入口。"
+  },
+  {
+    "id": "R18",
+    "title": "Arms and Armor",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/departments/arms-and-armor",
+    "kind": "护甲馆藏入口",
+    "topics": "护甲部件与连接构造",
+    "summary": "用于观察护甲硬片、连接和装饰；本图鉴的装备为架空角色改编。",
+    "rights": "来源链接；没有复制图片",
+    "checked": "2026-10-13"
+  }
+]

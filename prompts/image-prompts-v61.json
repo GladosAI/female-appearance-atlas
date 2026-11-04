@@ -1,0 +1,42 @@
+[
+  {
+    "id": "art-v61-1-portrait",
+    "prompt": "Create an original character art-style atlas sheet, LANDSCAPE 3:2, four equal panels in exactly 2 columns by 2 rows with clear dividing lines. In each panel a clearly adult woman shown in a portrait from the shoulders up, head fully inside its panel. No writing, no watermark, no logos. Render each panel distinctly as assigned: TOP LEFT very coarse 16x16-sprite-inspired pixel art, severely simplified head and body with huge clear square pixels and very few colors; TOP RIGHT 32x32-sprite-inspired pixel art, larger square pixel clusters and limited colors but slightly more detail; BOTTOM LEFT 64x64-sprite-inspired pixel art, medium square pixels with clear eyes and color shading; BOTTOM RIGHT 128x128-sprite-inspired pixel art, fine visible square pixels and richer detail. Preserve hard pixel edges and an obvious gradual change in pixel density, do not use smooth photorealism.",
+    "image": "images/sheet-art-v61-1-portrait.png"
+  },
+  {
+    "id": "art-v61-1-fullbody",
+    "prompt": "Create an original character art-style atlas sheet, PORTRAIT 2:3, four equal panels in exactly 2 columns by 2 rows with clear dividing lines. In each panel one fully clothed adult woman, full-body standing, crown to both complete shoes fully within panel with ample blank margins. Simple ivory blouse, opaque dark trousers, shoes. No text, logos, watermarks. Render each panel distinctly as assigned: TOP LEFT very coarse 16x16-sprite-inspired pixel art, severely simplified head and body with huge clear square pixels and very few colors; TOP RIGHT 32x32-sprite-inspired pixel art, larger square pixel clusters and limited colors but slightly more detail; BOTTOM LEFT 64x64-sprite-inspired pixel art, medium square pixels with clear eyes and color shading; BOTTOM RIGHT 128x128-sprite-inspired pixel art, fine visible square pixels and richer detail. Preserve hard pixel edges and an obvious gradual change in pixel density, do not use smooth photorealism.",
+    "image": "images/sheet-art-v61-1-fullbody.png"
+  },
+  {
+    "id": "art-v61-2-portrait",
+    "prompt": "Create an original character art-style atlas sheet, LANDSCAPE 3:2, four equal panels in exactly 2 columns by 2 rows with clear dividing lines. In each panel a clearly adult woman shown in a portrait from the shoulders up, head fully inside its panel. No writing, no watermark, no logos. Render each panel distinctly as assigned: TOP LEFT Japanese shonen action manga ink with dynamic hatching, strong angular black outlines and screentone; TOP RIGHT futuristic city anime illustration with bold hand-drawn 1980s science fiction cel animation styling and luminous city; BOTTOM LEFT black charcoal drawing on textured paper with smudges and strong powdery strokes; BOTTOM RIGHT oil pastel crayon drawing with bright waxy color and irregular thick strokes.",
+    "image": "images/sheet-art-v61-2-portrait.png"
+  },
+  {
+    "id": "art-v61-2-fullbody",
+    "prompt": "Create an original character art-style atlas sheet, PORTRAIT 2:3, four equal panels in exactly 2 columns by 2 rows with clear dividing lines. In each panel one fully clothed adult woman, full-body standing, crown to both complete shoes fully within panel with ample blank margins. Simple ivory blouse, opaque dark trousers, shoes. No text, logos, watermarks. Render each panel distinctly as assigned: TOP LEFT Japanese shonen action manga ink with dynamic hatching, strong angular black outlines and screentone; TOP RIGHT futuristic city anime illustration with bold hand-drawn 1980s science fiction cel animation styling and luminous city; BOTTOM LEFT black charcoal drawing on textured paper with smudges and strong powdery strokes; BOTTOM RIGHT oil pastel crayon drawing with bright waxy color and irregular thick strokes.",
+    "image": "images/sheet-art-v61-2-fullbody.png"
+  },
+  {
+    "id": "art-v61-3-portrait",
+    "prompt": "Create an original character art-style atlas sheet, LANDSCAPE 3:2, four equal panels in exactly 2 columns by 2 rows with clear dividing lines. In each panel a clearly adult woman shown in a portrait from the shoulders up, head fully inside its panel. No writing, no watermark, no logos. Render each panel distinctly as assigned: TOP LEFT concert spotlight stage portrait photograph simulation, isolated subject lit by a dramatic single warm spotlight with dark backdrop; TOP RIGHT rainy night cinematic street photo simulation with wet pavement reflections and soft neon highlights; BOTTOM LEFT 1960s pop art comic halftone with bold flat primaries and strong black outlines; BOTTOM RIGHT art deco poster, geometric symmetrical metallic gold and dark shapes, flat clean decorative composition.",
+    "image": "images/sheet-art-v61-3-portrait.png"
+  },
+  {
+    "id": "art-v61-3-fullbody",
+    "prompt": "Create an original character art-style atlas sheet, PORTRAIT 2:3, four equal panels in exactly 2 columns by 2 rows with clear dividing lines. In each panel one fully clothed adult woman, full-body standing, crown to both complete shoes fully within panel with ample blank margins. Simple ivory blouse, opaque dark trousers, shoes. No text, logos, watermarks. Render each panel distinctly as assigned: TOP LEFT concert spotlight stage portrait photograph simulation, isolated subject lit by a dramatic single warm spotlight with dark backdrop; TOP RIGHT rainy night cinematic street photo simulation with wet pavement reflections and soft neon highlights; BOTTOM LEFT 1960s pop art comic halftone with bold flat primaries and strong black outlines; BOTTOM RIGHT art deco poster, geometric symmetrical metallic gold and dark shapes, flat clean decorative composition.",
+    "image": "images/sheet-art-v61-3-fullbody.png"
+  },
+  {
+    "id": "art-v61-4-portrait",
+    "prompt": "Create an original character art-style atlas sheet, LANDSCAPE 3:2, four equal panels in exactly 2 columns by 2 rows with clear dividing lines. In each panel a clearly adult woman shown in a portrait from the shoulders up, head fully inside its panel. No writing, no watermark, no logos. Render each panel distinctly as assigned: TOP LEFT jointed articulated ball-jointed fashion doll, clearly visible separate joints at elbows and knees on the full figure, smooth sculpted resin; TOP RIGHT porcelain doll with glossy glazed porcelain head and smoothly glazed material; BOTTOM LEFT modern digital East Asian ink-wash illustration with visible gestural brush strokes and subtle color washes; BOTTOM RIGHT monochrome playful ink doodle character art, rough freehand sketched outlines and expressive crosshatching.",
+    "image": "images/sheet-art-v61-4-portrait.png"
+  },
+  {
+    "id": "art-v61-4-fullbody",
+    "prompt": "Create an original character art-style atlas sheet, PORTRAIT 2:3, four equal panels in exactly 2 columns by 2 rows with clear dividing lines. In each panel one fully clothed adult woman, full-body standing, crown to both complete shoes fully within panel with ample blank margins. Simple ivory blouse, opaque dark trousers, shoes. No text, logos, watermarks. Render each panel distinctly as assigned: TOP LEFT jointed articulated ball-jointed fashion doll, clearly visible separate joints at elbows and knees on the full figure, smooth sculpted resin; TOP RIGHT porcelain doll with glossy glazed porcelain head and smoothly glazed material; BOTTOM LEFT modern digital East Asian ink-wash illustration with visible gestural brush strokes and subtle color washes; BOTTOM RIGHT monochrome playful ink doodle character art, rough freehand sketched outlines and expressive crosshatching.",
+    "image": "images/sheet-art-v61-4-fullbody.png"
+  }
+]

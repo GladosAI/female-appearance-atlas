@@ -1,0 +1,128 @@
+[
+  {
+    "id": "cinematic-mv-1-v67",
+    "category": "camera_movement",
+    "title": "镜头运动与拍摄方式 · 固定、推拉与摇镜",
+    "columns": 2,
+    "rows": 2,
+    "entry_ids": [
+      "MV001",
+      "MV002",
+      "MV003",
+      "MV004"
+    ],
+    "image": "images/sheet-cinematic-mv-1-v67.png"
+  },
+  {
+    "id": "cinematic-mv-2-v67",
+    "category": "camera_movement",
+    "title": "镜头运动与拍摄方式 · 移动、跟随与环绕",
+    "columns": 2,
+    "rows": 2,
+    "entry_ids": [
+      "MV005",
+      "MV006",
+      "MV007",
+      "MV008"
+    ],
+    "image": "images/sheet-cinematic-mv-2-v67.png"
+  },
+  {
+    "id": "cinematic-mv-3-v67",
+    "category": "camera_movement",
+    "title": "镜头运动与拍摄方式 · 升降、快速与稳定方式",
+    "columns": 2,
+    "rows": 2,
+    "entry_ids": [
+      "MV009",
+      "MV010",
+      "MV011",
+      "MV012"
+    ],
+    "image": "images/sheet-cinematic-mv-3-v67.png"
+  },
+  {
+    "id": "cinematic-zt-1-v67",
+    "category": "camera_optics_time",
+    "title": "光学与时间表现 · 变焦与转焦",
+    "columns": 2,
+    "rows": 2,
+    "entry_ids": [
+      "ZT001",
+      "ZT002",
+      "ZT003",
+      "ZT004"
+    ],
+    "image": "images/sheet-cinematic-zt-1-v67.png"
+  },
+  {
+    "id": "cinematic-zt-2-v67",
+    "category": "camera_optics_time",
+    "title": "光学与时间表现 · 时间与快门",
+    "columns": 2,
+    "rows": 2,
+    "entry_ids": [
+      "ZT005",
+      "ZT006",
+      "ZT007",
+      "ZT008"
+    ],
+    "image": "images/sheet-cinematic-zt-2-v67.png"
+  },
+  {
+    "id": "cinematic-ns-1-v67",
+    "category": "narrative_shots",
+    "title": "叙事功能与视点 · 视点与叙事功能",
+    "columns": 2,
+    "rows": 2,
+    "entry_ids": [
+      "NS001",
+      "NS002",
+      "NS003",
+      "NS004"
+    ],
+    "image": "images/sheet-cinematic-ns-1-v67.png"
+  },
+  {
+    "id": "cinematic-ns-2-v67",
+    "category": "narrative_shots",
+    "title": "叙事功能与视点 · 细节、空镜与人物关系",
+    "columns": 2,
+    "rows": 2,
+    "entry_ids": [
+      "NS005",
+      "NS006",
+      "NS007",
+      "NS008"
+    ],
+    "image": "images/sheet-cinematic-ns-2-v67.png"
+  },
+  {
+    "id": "cinematic-se-1-v67",
+    "category": "editing_language",
+    "title": "剪辑与连续性语言 · 连续性匹配",
+    "columns": 2,
+    "rows": 2,
+    "entry_ids": [
+      "SE001",
+      "SE002",
+      "SE003",
+      "SE004"
+    ],
+    "image": "images/sheet-cinematic-se-1-v67.png"
+  },
+  {
+    "id": "cinematic-se-2-v67",
+    "category": "editing_language",
+    "title": "剪辑与连续性语言 · 时间组织与节奏",
+    "columns": 2,
+    "rows": 2,
+    "entry_ids": [
+      "SE005",
+      "SE006",
+      "SE007",
+      "SE008"
+    ],
+    "image": "images/sheet-cinematic-se-2-v67.png"
+  }
+]
