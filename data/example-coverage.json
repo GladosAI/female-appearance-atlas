@@ -4,7 +4,7 @@
   "unique_entries": 332,
   "min_entries": 5,
   "max_entries": 8,
-  "category_count": 208,
+  "category_count": 211,
   "covered_categories": 125,
   "section_count": 56,
   "covered_sections": 47,
@@ -308,7 +308,7 @@
     {
       "id": "art_styles",
       "name": "画风与视觉表现",
-      "category_count": 36,
+      "category_count": 39,
       "covered_categories": 12,
       "sections": [
         {
@@ -1144,7 +1144,10 @@
     "scene_culture_sport": [],
     "scene_history_film": [],
     "scene_fantasy_game": [],
-    "scene_scifi_survival": []
+    "scene_scifi_survival": [],
+    "scene_campus": [],
+    "scene_community": [],
+    "scene_culture_visit": []
   },
   "uncovered_categories": [
     "hair_cut",
@@ -1229,6 +1232,9 @@
     "scene_culture_sport",
     "scene_history_film",
     "scene_fantasy_game",
-    "scene_scifi_survival"
+    "scene_scifi_survival",
+    "scene_campus",
+    "scene_community",
+    "scene_culture_visit"
   ]
 }

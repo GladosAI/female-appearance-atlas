@@ -1,6 +1,6 @@
 {
   "schema": "female-appearance-field-inventory/v1",
-  "entry_count": 7209,
+  "entry_count": 7241,
   "fields": {
     "accessory_anchor": {
       "count": 128,
@@ -27,7 +27,7 @@
       ]
     },
     "added_in": {
-      "count": 6172,
+      "count": 6204,
       "types": [
         "str"
       ]
@@ -84,7 +84,7 @@
       ]
     },
     "aliases": {
-      "count": 4877,
+      "count": 4909,
       "types": [
         "list"
       ]
@@ -114,7 +114,7 @@
       ]
     },
     "anthro_reference": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "bool"
       ]
@@ -223,13 +223,13 @@
       ]
     },
     "category": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "str"
       ]
     },
     "category_name": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "str"
       ]
@@ -343,7 +343,7 @@
       ]
     },
     "cosplay_reference": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "bool"
       ]
@@ -404,19 +404,19 @@
       ]
     },
     "description": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "str"
       ]
     },
     "design_tip": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "str"
       ]
     },
     "dimension": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "str"
       ]
@@ -464,7 +464,7 @@
       ]
     },
     "en": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "str"
       ]
@@ -512,7 +512,7 @@
       ]
     },
     "facial_reference": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "bool"
       ]
@@ -813,7 +813,7 @@
       ]
     },
     "hosiery_reference": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "bool"
       ]
@@ -855,7 +855,7 @@
       ]
     },
     "id": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "str"
       ]
@@ -921,7 +921,7 @@
       ]
     },
     "keywords": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "list"
       ]
@@ -1005,7 +1005,7 @@
       ]
     },
     "name": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "str"
       ]
@@ -1017,7 +1017,7 @@
       ]
     },
     "origin": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "str"
       ]
@@ -1293,7 +1293,7 @@
       ]
     },
     "related_reading": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "list"
       ]
@@ -1341,7 +1341,7 @@
       ]
     },
     "scene_reference": {
-      "count": 64,
+      "count": 96,
       "types": [
         "bool"
       ]
@@ -1353,7 +1353,7 @@
       ]
     },
     "search_query": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "str"
       ]
@@ -1413,7 +1413,7 @@
       ]
     },
     "shoulder_type": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "NoneType",
         "str"
@@ -1534,7 +1534,7 @@
       ]
     },
     "styles": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "list"
       ]
@@ -1588,7 +1588,7 @@
       ]
     },
     "visual": {
-      "count": 7209,
+      "count": 7241,
       "types": [
         "dict"
       ]

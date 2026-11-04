@@ -23195,6 +23195,222 @@
         ],
         "declared_inputs": []
       }
+    },
+    {
+      "path": "images/sheet-scenes-snu-1-v72.png",
+      "kind": "ai-generated-reference",
+      "sha256": "76971fc937193eedb9227c1147bed43fbb799044df8014343db563556906cb21",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "scene-v72-snu-1",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "evidence_ids": [
+        "E-SCENES-GENERATION-20261105-72",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-aec4070298717ebe"
+      ],
+      "provenance": {
+        "observed_sha256": "76971fc937193eedb9227c1147bed43fbb799044df8014343db563556906cb21",
+        "status": "generated-file-match",
+        "board_id": "scene-v72-snu-1",
+        "prompt_sources": [
+          "source/scene-prompts-v72.json#/jobs/0/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-scenes-snu-2-v72.png",
+      "kind": "ai-generated-reference",
+      "sha256": "e83bafcba66dd7111f2572fd5387611bfa73b8b586fcf29c90a9a19c410f2639",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "scene-v72-snu-2",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "evidence_ids": [
+        "E-SCENES-GENERATION-20261105-72",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-7e574a6ae8d40c6d"
+      ],
+      "provenance": {
+        "observed_sha256": "e83bafcba66dd7111f2572fd5387611bfa73b8b586fcf29c90a9a19c410f2639",
+        "status": "generated-file-match",
+        "board_id": "scene-v72-snu-2",
+        "prompt_sources": [
+          "source/scene-prompts-v72.json#/jobs/1/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-scenes-snu-3-v72.png",
+      "kind": "ai-generated-reference",
+      "sha256": "85e3b8e8b891c3c49a349e12826425d6328c251a099fcc11f31915f154cc1acd",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "scene-v72-snu-3",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "evidence_ids": [
+        "E-SCENES-GENERATION-20261105-72",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-56070975c707c679"
+      ],
+      "provenance": {
+        "observed_sha256": "85e3b8e8b891c3c49a349e12826425d6328c251a099fcc11f31915f154cc1acd",
+        "status": "generated-file-match",
+        "board_id": "scene-v72-snu-3",
+        "prompt_sources": [
+          "source/scene-prompts-v72.json#/jobs/2/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-scenes-snu-4-v72.png",
+      "kind": "ai-generated-reference",
+      "sha256": "678b1b337d60ad8edea1c82cc28ac85b322d5b31da7481190dc7c40ba9c3c489",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "scene-v72-snu-4",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "evidence_ids": [
+        "E-SCENES-GENERATION-20261105-72",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-77d218af3dc5f55e"
+      ],
+      "provenance": {
+        "observed_sha256": "678b1b337d60ad8edea1c82cc28ac85b322d5b31da7481190dc7c40ba9c3c489",
+        "status": "generated-file-match",
+        "board_id": "scene-v72-snu-4",
+        "prompt_sources": [
+          "source/scene-prompts-v72.json#/jobs/3/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-scenes-snb-1-v72.png",
+      "kind": "ai-generated-reference",
+      "sha256": "30cc6f96834e07ed032b0d9364cd7ec852fde159206c5b2e87f7da737dceb97e",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "scene-v72-snb-1",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "evidence_ids": [
+        "E-SCENES-GENERATION-20261105-72",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-9261a0b1f4b783f4"
+      ],
+      "provenance": {
+        "observed_sha256": "30cc6f96834e07ed032b0d9364cd7ec852fde159206c5b2e87f7da737dceb97e",
+        "status": "generated-file-match",
+        "board_id": "scene-v72-snb-1",
+        "prompt_sources": [
+          "source/scene-prompts-v72.json#/jobs/4/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-scenes-snb-2-v72.png",
+      "kind": "ai-generated-reference",
+      "sha256": "14f8ba791c2156b0920a9f4261c265d183d4d4d9bb283047ea903205cf097339",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "scene-v72-snb-2",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "evidence_ids": [
+        "E-SCENES-GENERATION-20261105-72",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-783746097bc6e504"
+      ],
+      "provenance": {
+        "observed_sha256": "14f8ba791c2156b0920a9f4261c265d183d4d4d9bb283047ea903205cf097339",
+        "status": "generated-file-match",
+        "board_id": "scene-v72-snb-2",
+        "prompt_sources": [
+          "source/scene-prompts-v72.json#/jobs/5/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-scenes-snv-1-v72.png",
+      "kind": "ai-generated-reference",
+      "sha256": "bc52b7eb1f1627017874d85fe31e8712c6a11daed4394daf014e0c087ab3fac5",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "scene-v72-snv-1",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "evidence_ids": [
+        "E-SCENES-GENERATION-20261105-72",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-0d10a4ec7a94794f"
+      ],
+      "provenance": {
+        "observed_sha256": "bc52b7eb1f1627017874d85fe31e8712c6a11daed4394daf014e0c087ab3fac5",
+        "status": "generated-file-match",
+        "board_id": "scene-v72-snv-1",
+        "prompt_sources": [
+          "source/scene-prompts-v72.json#/jobs/6/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-scenes-snv-2-v72-v2.png",
+      "kind": "ai-generated-reference",
+      "sha256": "14472fa82d4243fcf4c4626556af18e2d1cd85b4b3c81e96d8dd3b5a06f808d7",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "scene-v72-snv-2",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "evidence_ids": [
+        "E-SCENES-GENERATION-20261105-72",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-bcf85c7f4a57f816"
+      ],
+      "provenance": {
+        "observed_sha256": "14472fa82d4243fcf4c4626556af18e2d1cd85b4b3c81e96d8dd3b5a06f808d7",
+        "status": "generated-file-match",
+        "board_id": "scene-v72-snv-2",
+        "prompt_sources": [
+          "source/scene-prompts-v72.json#/jobs/7/prompt"
+        ],
+        "declared_inputs": []
+      }
     }
   ],
   "audit": {

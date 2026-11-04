@@ -12,16 +12,16 @@ def write(relative,value):
     path.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 
-def prepare():
-    plan=read('source/scene-plan-v71.json');entries=[];jobs=[]
+def prepare(edition=71):
+    plan=read(f'source/scene-plan-v{edition}.json');entries=[];jobs=[]
     for category in plan['categories']:
         assert len(category['entries'])%4==0
         for index,row in enumerate(category['entries']):
             name,en,description,note,direction=row
             entries.append({'stable_id':category['prefix']+str(index+1).zfill(3),'category':category['id'],
                 'dimension':category['groups'][index//4],'name':name,'en':en,'description':description,
-                'note':note,'aliases':['人物场景','场景参考','环境与人物','character in environment',name.removesuffix('场景')],
-                'reference_ids':[],'origin':'editorial','added_in':'71.0','scene_reference':True})
+                'note':note,'aliases':['人物场景','场景参考','环境与人物','character in environment',name.removesuffix('场景'),*category.get('aliases',[])],
+                'reference_ids':[],'origin':'editorial','added_in':f'{edition}.0','scene_reference':True})
         for offset in range(0,len(category['entries']),4):
             codes=[category['prefix']+str(i+1).zfill(3) for i in range(offset,offset+4)]
             prompt='''Use case: illustration-story. Asset type: original character-in-environment scene atlas for female game, animation and film character design.
@@ -33,20 +33,20 @@ Specific panels:
 '''
             for slot,(code,row) in enumerate(zip(codes,category['entries'][offset:offset+4]),1):
                 prompt+=f'Panel {slot}, exact label "{code}": {row[4]}\n'
-            jobs.append({'id':'scene-v71-'+category['prefix'].lower()+'-'+str(offset//4+1),
+            jobs.append({'id':f'scene-v{edition}-'+category['prefix'].lower()+'-'+str(offset//4+1),
                 'category':category['id'],'dimension':category['groups'][offset//4],
                 'title':category['name']+' · '+category['groups'][offset//4],
-                'image':'images/sheet-scenes-'+category['prefix'].lower()+'-'+str(offset//4+1)+'-v71.png',
-                'columns':2,'rows':2,'edition':71,'entries':[{'id':code,'name':row[0],'en':row[1]} for code,row in zip(codes,category['entries'][offset:offset+4])],
+                'image':category.get('image_paths',{}).get(str(offset//4+1),'images/sheet-scenes-'+category['prefix'].lower()+'-'+str(offset//4+1)+f'-v{edition}.png'),
+                'columns':2,'rows':2,'edition':edition,'entries':[{'id':code,'name':row[0],'en':row[1]} for code,row in zip(codes,category['entries'][offset:offset+4])],
                 'prompt':prompt,'declared_inputs':[]})
-    write('source/scene-prompts-v71.json',{'schema':'female-appearance-scene-prompts/v1','tool':'built-in image_gen','model':None,'jobs':jobs})
-    write('prompts/image-prompts-v71.json',jobs)
+    write(f'source/scene-prompts-v{edition}.json',{'schema':'female-appearance-scene-prompts/v1','tool':'built-in image_gen','model':None,'jobs':jobs})
+    write(f'prompts/image-prompts-v{edition}.json',jobs)
     return plan,entries,jobs
 
 
-def register():
-    plan,entries,jobs=prepare()
-    review=read('source/scene-review-v71.json');approved={item['board_id']:item for item in review['boards']}
+def register(edition=71):
+    plan,entries,jobs=prepare(edition)
+    review=read(f'source/scene-review-v{edition}.json');approved={item['board_id']:item for item in review['boards']}
     boards=[]
     for job in jobs:
         item=approved[job['id']]
@@ -75,7 +75,7 @@ def register():
     cats=[c['id'] for c in plan['categories']]
     section={'id':'scene_character_design','name':'场景与人物活动','categories':cats}
     old=next((s for s in group['sections'] if s['id']==section['id']),None)
-    if old:assert old==section
+    if old:old['categories'] += [category for category in cats if category not in old['categories']]
     else:group['sections'].insert(2,section)
     group['categories']=[category for section in group['sections'] for category in section['categories']]
     group['note']='按画风、媒介与视觉语言浏览；包括场景与人物活动、游戏角色原稿、漫画单格、影视分镜与关键帧，以及视角和镜头语言。'
@@ -83,16 +83,16 @@ def register():
     document={'name':'场景与人物活动','path':'docs/scenes-with-characters.md'}
     if not any(d.get('path')==document['path'] for d in navigation['documents']):navigation['documents'].append(document)
     write('source/navigation.json',navigation)
-    write('source/contributions/scenes-v71.json',{'schema':'female-appearance-contribution/v1','entries':entries,'boards':boards,'references':[]})
+    write(f'source/contributions/scenes-v{edition}.json',{'schema':'female-appearance-contribution/v1','entries':entries,'boards':boards,'references':[]})
     old_jobs=read('source/image-jobs.json');own={j['id'] for j in jobs}
     write('source/image-jobs.json',[j for j in old_jobs if j['id'] not in own]+jobs)
-    write('source/scene-prompts-v71.json',{'schema':'female-appearance-scene-prompts/v1','tool':'built-in image_gen','model':None,'jobs':jobs})
-    write('prompts/image-prompts-v71.json',jobs)
+    write(f'source/scene-prompts-v{edition}.json',{'schema':'female-appearance-scene-prompts/v1','tool':'built-in image_gen','model':None,'jobs':jobs})
+    write(f'prompts/image-prompts-v{edition}.json',jobs)
     print(json.dumps({'entries':len(entries),'boards':len(boards),'categories':len(cats)}))
 
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('action',choices=['prompts','register']);args=parser.parse_args()
-    if args.action=='register':register()
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('action',choices=['prompts','register']);parser.add_argument('--edition',type=int,default=71);args=parser.parse_args()
+    if args.action=='register':register(args.edition)
     else:
-        _,entries,jobs=prepare();print(json.dumps({'entries':len(entries),'boards':len(jobs)}))
+        _,entries,jobs=prepare(args.edition);print(json.dumps({'entries':len(entries),'boards':len(jobs)}))

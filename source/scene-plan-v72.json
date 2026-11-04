@@ -1,0 +1,285 @@
+{
+  "schema": "female-appearance-scene-plan/v1",
+  "categories": [
+    {
+      "id": "scene_campus",
+      "prefix": "SNU",
+      "name": "学校与校园生活",
+      "aliases": [
+        "学校",
+        "校园",
+        "学园",
+        "school",
+        "campus"
+      ],
+      "groups": [
+        "入校与教学空间",
+        "社团与艺术活动",
+        "课程与体育活动",
+        "校园起居与毕业"
+      ],
+      "entries": [
+        [
+          "学校校门入校场景",
+          "school-gate arrival scene",
+          "教学楼、校门、门岗与步行入口构成学校外部，女大学生背包步行进入校园。",
+          "以校门、校内道路和教学楼建立层次，人物与入口保持可信比例。",
+          "A university entrance with an original unbranded school gate, guardhouse, tree-lined path and academic buildings beyond. A prominent adult female university student wearing a casual jacket and backpack walks through the pedestrian entrance; two distant adult students. Show the complete arrival action and campus landmarks, no readable school name."
+        ],
+        [
+          "校园林荫路同行场景",
+          "campus tree-lined walkway scene",
+          "校园步道、林荫、长凳与教学楼构成校内道路，两位女大学生边走边交流。",
+          "双人步幅、书包与道路透视一致，树木和教学楼说明校园语境。",
+          "A leafy university campus walkway with benches, bicycle racks and academic buildings. A prominent adult female student in everyday campus clothing walks beside an adult female classmate, chatting while holding notebooks. Natural stride and bag contact, clear academic setting rather than a generic park."
+        ],
+        [
+          "教室课间整理书本场景",
+          "classroom break-time scene",
+          "课桌、黑板、窗户与讲台形成学校教室，女大学生在课间整理桌上的书本。",
+          "保留课桌排布和同学活动，区别于教师授课或书房阅读。",
+          "A university classroom during a break, rows of student desks, blackboard, lectern and tall windows. A prominent adult female student at a desk packs textbooks into her bag; two adult classmates talk quietly behind her. Medium-wide composition, clearly show desk rows and hands on the books."
+        ],
+        [
+          "考场监考场景",
+          "examination-room invigilation scene",
+          "间隔摆放的课桌、墙钟与前方讲台构成考场，女教师持名单在桌间巡视。",
+          "监考者、考生座位与过道清楚，试卷和名单不呈现真实个人信息。",
+          "A university examination room with separated desks, wall clock and front lectern. A prominent adult female lecturer carrying a clipboard walks along an aisle while a few adult students write at their desks. Quiet orderly atmosphere, generic unreadable papers and no identifiable personal data."
+        ],
+        [
+          "教学楼走廊交流场景",
+          "academic-building corridor scene",
+          "教室门、公告栏、窗边栏杆与走廊构成教学楼，两位女性在课后交流课程资料。",
+          "通过门牌位置、走廊纵深与资料接触表现校内交流，不依赖可读文字。",
+          "A university academic-building corridor with classroom doors, bulletin boards, windows and a stair landing. A prominent adult female student shows a notebook to an adult female tutor between classes. Clear corridor depth and plausible notebook contact, all signage abstract and unreadable."
+        ],
+        [
+          "校园社团教室活动场景",
+          "campus club-room activity scene",
+          "活动桌、收纳柜、海报板与手工作品形成社团教室，女大学生与伙伴制作活动装饰。",
+          "手工材料与手部真实接触，公共活动桌和作品陈列说明社团空间。",
+          "An original university club room with communal tables, storage cabinets, blank poster boards and handmade decorations. A prominent adult female student in casual clothes assembles a paper decoration with two adult club members. Clear hands, tabletop materials, practical room layout, no copyrighted posters or characters."
+        ],
+        [
+          "美术教室写生场景",
+          "art-classroom drawing scene",
+          "画架、静物台、颜料与大窗形成美术教室，成年女生对着静物绘制习作。",
+          "画架、画笔与人物视线对应，静物台和其他画架提供教学环境。",
+          "A university art classroom with easels, a still-life table, paint supplies and large windows. A prominent adult female art student in an apron draws an original simple still life of vase and fruit. Show brush or pencil contact, seated support and other easels; no recognizable existing artwork."
+        ],
+        [
+          "音乐教室钢琴练习场景",
+          "music-classroom piano-practice scene",
+          "钢琴、乐谱架、吸音墙与座椅形成音乐教室，成年女生坐在琴前练习。",
+          "双手落在琴键附近，座椅高度与键盘一致，乐谱为不可读的简化记号。",
+          "A university music classroom with an upright piano, music stand, acoustic wall panels and a few chairs. A prominent adult female student sits at the piano practicing, both hands naturally placed at the keys. Correct piano-seat relationship, simplified unreadable score and visible room context."
+        ],
+        [
+          "校园科学实验课堂场景",
+          "school science-laboratory lesson scene",
+          "实验桌、演示台、模型柜与黑板构成科学教室，女教师向成年学生讲解演示器材。",
+          "突出教学演示与听讲关系，器材仅作场景识别，不提供实验步骤。",
+          "A university teaching science lab with student benches, demonstration table, model cabinets and blackboard. A prominent adult female teacher in a lab coat and safety glasses explains generic sealed demonstration equipment to two adult students. No hazardous reaction or procedural instructions; educational room layout clearly visible."
+        ],
+        [
+          "计算机教室上机场景",
+          "computer-classroom practice scene",
+          "整排电脑、讲台显示屏与理线桌形成机房，女大学生在座位上操作电脑。",
+          "桌椅、键盘、显示器与人物动作一致，屏幕内容保持抽象。",
+          "A university computer classroom with rows of desktop monitors, cable-managed desks and a front teaching display. A prominent adult female student sits typing at a workstation, with an adult female instructor nearby. Natural keyboard contact and chair height, abstract unreadable screen graphics, visible monitor rows."
+        ],
+        [
+          "校园体育馆篮球练习场景",
+          "campus gym basketball-practice scene",
+          "篮球架、木地板、场地线与长凳构成校园体育馆，成年女学生在场边练习运球。",
+          "篮球、手部和地面关系明确，篮架与边线说明场地尺度。",
+          "A university indoor basketball gym with hoops, wood floor, court markings and benches. A prominent adult female student in ordinary sportswear practices a relaxed low dribble, one ball clearly between hand and floor; an adult teammate waits in the background. Natural joints and grounded feet, readable gym environment."
+        ],
+        [
+          "学校操场集合场景",
+          "school sports-ground assembly scene",
+          "教学楼、跑道、球场与旗杆构成校园操场，女体育教师持记录板组织成年学生集合。",
+          "以教学楼与操场的相邻关系区别于观众体育场，人物组织动作清楚。",
+          "A university sports ground beside academic buildings, with running track, open court and a plain flagpole. A prominent adult female PE instructor in practical sportswear holds a clipboard and gestures toward a small group of adult students assembling for class. No stadium crowd, no readable emblems, natural outdoor campus scale."
+        ],
+        [
+          "学校食堂就餐场景",
+          "school-canteen dining scene",
+          "取餐窗口、餐盘、长桌与回收区构成校园食堂，女大学生端餐盘寻找座位。",
+          "双手承托餐盘，人物、取餐动线与座位区比例明确。",
+          "A university canteen with food-service counter, tray racks, communal dining tables and return station. A prominent adult female student carries a balanced meal tray toward a table, while a few adult students sit in the background. Clear hand support under the tray, practical dining-room circulation."
+        ],
+        [
+          "校园宿舍整理场景",
+          "campus dormitory tidying scene",
+          "书桌、床铺、衣柜与行李形成大学宿舍，女大学生把折好的衣物放进收纳柜。",
+          "床桌尺度与衣物接触合理，以室友共用陈设表现宿舍生活。",
+          "A shared university dormitory room with beds, study desks, wardrobes and luggage. A prominent adult female university student in fully opaque everyday loungewear puts folded clothes into a storage cabinet. Clear hands and furniture scale, lived-in study items, no changing clothes or bathing."
+        ],
+        [
+          "校园公告栏查看场景",
+          "campus noticeboard scene",
+          "公告栏、社团海报、室外长凳与教学楼形成校园信息区，女大学生停步查看通知。",
+          "人物视线与公告栏对应，海报以抽象图形代替可识别作品或真实信息。",
+          "A university campus notice area with a large outdoor bulletin board, original abstract club flyers, benches and academic buildings. A prominent adult female student carrying a tote stops to study a notice. Show eye line, walking pause and board scale; no readable private information or existing poster art."
+        ],
+        [
+          "毕业礼堂合影场景",
+          "graduation-hall group-photo scene",
+          "讲台、排椅、典礼背景与花饰构成毕业礼堂，成年女毕业生与同伴穿学位服合影。",
+          "人物站位、学位帽与礼堂前后景完整，重点是典礼与毕业活动。",
+          "A university graduation hall with lectern, rows of chairs, original abstract ceremony backdrop and flowers. A prominent adult female graduate in a plain cap and gown stands with two adult female classmates for a commemorative photo. All adult graduates, natural hands holding diploma tubes, no university crest or readable text."
+        ]
+      ]
+    },
+    {
+      "id": "scene_community",
+      "prefix": "SNB",
+      "name": "社区生活与服务",
+      "aliases": [
+        "社区",
+        "生活服务",
+        "neighborhood"
+      ],
+      "groups": [
+        "日常购物与公共服务",
+        "社区照料与出行"
+      ],
+      "entries": [
+        [
+          "便利店夜班收银场景",
+          "convenience-store night-shift scene",
+          "收银台、冷柜、货架与夜间玻璃门构成便利店，女店员为成年顾客结算商品。",
+          "收银动作和柜台接触清楚，以小店布局与夜色区别于超市选购。",
+          "A small unbranded convenience store at night, checkout counter, refrigerated cases, compact shelves and glass entrance reflecting street lights. A prominent adult female cashier scans a grocery item for an adult customer. Clear hands and counter contact, no readable brands or prices."
+        ],
+        [
+          "自助洗衣店等候场景",
+          "self-service laundromat waiting scene",
+          "成排滚筒洗衣机、折衣台与等候长凳构成自助洗衣店，女性在座位上等候并阅读。",
+          "公共机器排布与等候区域明确，区别于家庭洗衣间。",
+          "A neighborhood self-service laundromat with rows of front-loading machines, folding tables and a waiting bench. A prominent adult woman in casual clothes sits reading beside her laundry basket while a machine runs. Clear public-shop layout, natural seated support and no readable machine brand."
+        ],
+        [
+          "邮局寄件场景",
+          "post-office parcel-mailing scene",
+          "业务柜台、包裹秤、包装区与等候线构成邮局，女性把包装好的包裹交给工作人员。",
+          "包裹、双手与称重台接触合理，单据不出现真实地址或个人信息。",
+          "An unbranded neighborhood post office with service counter, parcel scale, packing station and queue area. A prominent adult woman places a sealed parcel on the scale as an adult postal clerk assists her. Show natural two-hand support, no readable addresses, names or postal logos."
+        ],
+        [
+          "银行大厅办理业务场景",
+          "bank service-hall scene",
+          "业务柜台、叫号座椅、自助设备与隔断构成银行大厅，女性与工作人员在柜台交流。",
+          "通过柜台尺度、排队座位与交流姿态识别服务场景，不展示账户内容。",
+          "A generic bank service hall with teller counter, queue seating, self-service machines and privacy partitions. A prominent adult female customer in everyday clothes discusses a generic form with an adult female teller. Clear counter relationship, abstract unreadable displays and papers, no bank logos or financial instructions."
+        ],
+        [
+          "菜市场采购场景",
+          "fresh-food-market shopping scene",
+          "蔬菜摊、称重台、遮棚与通道构成社区菜市场，女性提篮挑选新鲜蔬菜。",
+          "人物、食材与摊位的前后关系清楚，体现生鲜市场而非餐饮夜市。",
+          "A lively neighborhood fresh-food market with vegetable stalls, produce scales, awnings and an open aisle. A prominent adult woman with a shopping basket selects a bunch of leafy vegetables from an adult vendor. Natural hand-to-produce contact and clear stall depth, no readable brands or price signs."
+        ],
+        [
+          "宠物诊所照料场景",
+          "veterinary-clinic care scene",
+          "检查台、宠物笼、收纳柜与动物图示形成宠物诊所，女兽医安抚检查台上的猫。",
+          "人物与动物有轻柔接触，台面承托与主人站位清楚，不绘制治疗操作。",
+          "A calm veterinary clinic with examination table, pet carrier, storage cabinet and original simple animal diagrams. A prominent adult female veterinarian in a coat gently reassures a relaxed cat on the table while its adult owner stands nearby. No injury, procedure or medical instruction, plausible animal anatomy and gentle contact."
+        ],
+        [
+          "社区花店扎花场景",
+          "neighborhood florist bouquet-making scene",
+          "花桶、包装纸、工作台与橱窗构成花店，女花艺师在桌边为花束系缎带。",
+          "手、花束与缎带连接真实，花店工作区与陈列区分开。",
+          "A neighborhood florist shop with flower buckets, wrapping paper, workbench and display window. A prominent adult female florist ties a simple ribbon around an original bouquet on the worktable. Clear stem, ribbon and hand contact, colorful flowers and readable shop layout, no brand signage."
+        ],
+        [
+          "高铁候车厅候车场景",
+          "high-speed-rail waiting-hall scene",
+          "检票闸机、排椅、行李与窗外列车构成高铁候车厅，女性旅客查看车票并等候检票。",
+          "人物、行李和闸机比例清楚，以轨道列车线索区别于机场。",
+          "A modern high-speed railway waiting hall with ticket gates, seating rows, luggage and a sleek unbranded train visible through a side window. A prominent adult female traveler checks a generic ticket beside her rolling suitcase. No airplane imagery, no readable personal data or railway logos."
+        ]
+      ]
+    },
+    {
+      "id": "scene_culture_visit",
+      "prefix": "SNV",
+      "name": "文化游览与休闲",
+      "aliases": [
+        "游览",
+        "参观",
+        "旅行场景",
+        "sightseeing"
+      ],
+      "groups": [
+        "文化场馆与观览",
+        "自然游览与地方生活"
+      ],
+      "entries": [
+        [
+          "博物馆讲解场景",
+          "museum guided-tour scene",
+          "展柜、展台、说明牌与高厅形成博物馆，女性讲解员向成年参观者介绍原创展品。",
+          "讲解者、展品与参观者的视线有对应，展品不复制具体馆藏。",
+          "A museum gallery with display cases, plinths, abstract information panels and a spacious hall. A prominent adult female guide gestures toward an invented ceramic vessel and stone artifact for two adult visitors. Original generic exhibits, no copied museum artwork, no readable institution branding."
+        ],
+        [
+          "美术馆观展场景",
+          "art-gallery viewing scene",
+          "留白展墙、画框、长凳与轨道灯构成美术馆，女性观众停在原创抽象画前欣赏。",
+          "人物视线、画框和灯光关系明确，以展厅纵深保留空间。",
+          "A contemporary art gallery with white exhibition walls, framed original abstract paintings, viewing bench and track lights. A prominent adult female visitor stands looking at a large invented abstract canvas, holding a folded gallery leaflet. No recognizable existing artwork or artist signature; clear room depth and eye line."
+        ],
+        [
+          "电影院检票入场场景",
+          "cinema ticket-checking scene",
+          "影厅入口、检票台、灯箱与走廊构成影院，女工作人员为成年观众检票。",
+          "检票接触、入口和厅门位置明确，电影海报只使用原创抽象图形。",
+          "An unbranded cinema foyer with screening-room entrance, ticket-check stand, abstract original poster lightboxes and dim corridor. A prominent adult female usher checks a generic ticket held by an adult moviegoer. Natural hand contact, no identifiable film characters, movie posters or readable brands."
+        ],
+        [
+          "海洋馆隧道参观场景",
+          "aquarium-tunnel visit scene",
+          "透明水下观览隧道、鱼群、蓝色光线与步道形成海洋馆，女性讲解员向成年游客介绍水生动物。",
+          "玻璃内外、人物脚下步道与鱼群尺度分开，呈现公共观览而非研究基地。",
+          "A public aquarium's glass viewing tunnel with fish overhead, blue water light and a dry pedestrian walkway. A prominent adult female aquarium educator holding a clipboard explains a passing ray to two adult visitors. Clear glass separation and human scale, no underwater laboratory equipment or diving inside."
+        ],
+        [
+          "动物园饲养照料场景",
+          "zoo animal-care scene",
+          "围栏、兽舍、饲料车与绿地构成动物园，女饲养员在工作通道准备长颈鹿的食物。",
+          "人物与动物的尺度、围栏分隔和工具接触清楚，突出日常照料。",
+          "A zoo giraffe habitat with protective fence, animal shelter, feeding trolley and greenery. A prominent adult female keeper in practical workwear prepares leafy feed in the staff service aisle while a giraffe stands beyond the barrier. Calm routine care, believable animal scale and safe physical separation, no logos."
+        ],
+        [
+          "植物园温室游览场景",
+          "botanical-garden greenhouse visit scene",
+          "玻璃穹顶、棕榈、植物标牌与步道构成植物园温室，女性游客用手机记录植物。",
+          "让温室结构、植物尺度与摄影动作共同说明游览活动，区别于家庭阳台与异星温室。",
+          "A real-world botanical garden greenhouse with glass dome, tall palms, original abstract plant labels and winding visitor paths. A prominent adult female tourist in casual travel clothes photographs a flowering plant with a phone in a solid bright orange protective case. The back of the phone case is completely plain, with no symbol, mark or logo. Clear phone grip, grounded stance, warm natural daylight and no science-fiction elements."
+        ],
+        [
+          "古镇水巷游览场景",
+          "canal-town sightseeing scene",
+          "石桥、临水民居、小船与沿河街道构成古镇水巷，女性游客沿岸步行观景。",
+          "桥、河岸、船与人物比例明确，人物穿当代旅行服装以表现实地游览。",
+          "An original contemporary East Asian canal town with a stone footbridge, waterside houses, small moored boats and riverside lane. A prominent adult female tourist in a light travel coat walks along the bank carrying a folded umbrella and admiring the view. Clear bridge and water-level perspective, no copied landmark or historical authenticity claim."
+        ],
+        [
+          "海港码头候船场景",
+          "harbor-pier ferry-waiting scene",
+          "渡轮泊位、系缆柱、行李与港湾远景构成海港码头，女性旅客在候船区查看船票。",
+          "人物站在陆侧候船区域，港口设施与船只的尺度关系可信。",
+          "A coastal ferry pier with moored ferry, bollards, waiting shelter, luggage and distant harbor boats. A prominent adult female traveler in a casual windbreaker checks a generic ferry ticket in the landside waiting area. Clear pier edge, boat scale and grounded stance, no readable personal information or shipping logos."
+        ]
+      ],
+      "image_paths": {
+        "2": "images/sheet-scenes-snv-2-v72-v2.png"
+      }
+    }
+  ]
+}

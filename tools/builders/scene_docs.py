@@ -9,7 +9,7 @@ def write_scene_docs(root, data):
 
 [打开图鉴分组](../index.html?section=branch_scene_character_design)
 
-共 {len(entries)} 项，归入“画风与视觉表现 → 场景与人物活动”。覆盖居家、工作、商业、旅行、文体、历史影视、奇幻和科幻空间。每幅图中都有与地点相符的人物及活动，可同时参考环境布局、人物尺度、姿态、着装、道具接触与照明关系。
+共 {len(entries)} 项，归入“画风与视觉表现 → 场景与人物活动”。覆盖居家、学校校园、工作、社区服务、商业、文化游览、旅行、文体、历史影视、奇幻和科幻空间。每幅图中都有与地点相符的人物及活动，可同时参考环境布局、人物尺度、姿态、着装、道具接触与照明关系。
 
 场景是可选素材。同一外观卡可以保留多个场景作为备选；案例人物的年龄、服装与动作不会自动变成角色限制。导出 AI 提示词时归入“场景与人物活动”，仅输出勾选词条的中英文名称。
 
@@ -27,5 +27,8 @@ def write_scene_docs(root, data):
         for entry in items:
             text += f"| {entry['id']} | {entry['name']} | {entry['en']} | {entry['description']} | {entry['design_tip']} |\n"
         text += '\n'
-    text += '[生成提示词](../prompts/image-prompts-v71.json) · [词条与图页](../source/contributions/scenes-v71.json) · [图像复核记录](../source/scene-review-v71.json)\n'
+    text += '## 生成与复核记录\n\n'
+    for plan in sorted((root/'source').glob('scene-plan-v*.json')):
+        edition = plan.stem.removeprefix('scene-plan-v')
+        text += f'- 第{edition}批：[生成提示词](../prompts/image-prompts-v{edition}.json) · [词条与图页](../source/contributions/scenes-v{edition}.json) · [图像复核记录](../source/scene-review-v{edition}.json)\n'
     (root/'docs/scenes-with-characters.md').write_text(text, encoding='utf-8')

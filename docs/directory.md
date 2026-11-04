@@ -1,6 +1,6 @@
 # 图鉴总目录
 
-9个领域 → 56个分组 → 208个类别 → 类别内细分，共7209项配图。每个类别只有一个主要归属。
+9个领域 → 56个分组 → 211个类别 → 类别内细分，共7241项配图。每个类别只有一个主要归属。
 
 [打开图鉴目录](../index.html?view=directory) · [查找与筛选说明](find-and-browse.md)
 
@@ -532,7 +532,7 @@
 
 ## 画风与视觉表现
 
-按画风、媒介与视觉语言浏览；包括场景与人物活动、游戏角色原稿、漫画单格、影视分镜与关键帧，以及视角和镜头语言。 共342项。 [领域全部](../index.html?section=topic_art_styles)
+按画风、媒介与视觉语言浏览；包括场景与人物活动、游戏角色原稿、漫画单格、影视分镜与关键帧，以及视角和镜头语言。 共374项。 [领域全部](../index.html?section=topic_art_styles)
 
 ### 动漫与游戏
 
@@ -557,7 +557,7 @@
 
 ### 场景与人物活动
 
-[分组全部 · 64项](../index.html?section=branch_scene_character_design)
+[分组全部 · 96项](../index.html?section=branch_scene_character_design)
 
 | 类别 | 配图词条 | 浏览 |
 | --- | ---: | --- |
@@ -569,6 +569,9 @@
 | 历史与影视叙事场景 | 8 | [词条](../index.html?section=scene_history_film) · [详表](atlas.md#scene_history_film) |
 | 奇幻与神话游戏场景 | 8 | [词条](../index.html?section=scene_fantasy_game) · [详表](atlas.md#scene_fantasy_game) |
 | 科幻与末世任务场景 | 8 | [词条](../index.html?section=scene_scifi_survival) · [详表](atlas.md#scene_scifi_survival) |
+| 学校与校园生活 | 16 | [词条](../index.html?section=scene_campus) · [详表](atlas.md#scene_campus) |
+| 社区生活与服务 | 8 | [词条](../index.html?section=scene_community) · [详表](atlas.md#scene_community) |
+| 文化游览与休闲 | 8 | [词条](../index.html?section=scene_culture_visit) · [详表](atlas.md#scene_culture_visit) |
 
 ### 摄影与传统绘画
 

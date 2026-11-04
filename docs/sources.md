@@ -1,6 +1,6 @@
 # 女性之美 · 来源与图片说明
 
-内容版 71.1，共7209个词条。以下阅读链接与照片保留各自核对日期，不代表全部资料在本次构建时重新核验。配图生成与图片权利是不同记录，许可状态见 [素材说明](../NOTICE.md) 和 [许可提案](licensing-proposal.md)，待审清单见 source/rights-review.json。
+内容版 72.0，共7241个词条。以下阅读链接与照片保留各自核对日期，不代表全部资料在本次构建时重新核验。配图生成与图片权利是不同记录，许可状态见 [素材说明](../NOTICE.md) 和 [许可提案](licensing-proposal.md)，待审清单见 source/rights-review.json。
 
 ## R01 How to Draw Hair: 3 Tips for Beginners
 

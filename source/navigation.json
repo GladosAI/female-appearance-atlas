@@ -714,6 +714,9 @@
         "scene_history_film",
         "scene_fantasy_game",
         "scene_scifi_survival",
+        "scene_campus",
+        "scene_community",
+        "scene_culture_visit",
         "art_photography",
         "art_traditional",
         "art_drawing_media",
@@ -767,7 +770,10 @@
             "scene_culture_sport",
             "scene_history_film",
             "scene_fantasy_game",
-            "scene_scifi_survival"
+            "scene_scifi_survival",
+            "scene_campus",
+            "scene_community",
+            "scene_culture_visit"
           ]
         },
         {

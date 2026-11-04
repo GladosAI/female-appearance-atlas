@@ -1,0 +1,158 @@
+{
+  "schema": "female-appearance-scene-review/v1",
+  "method": "AI-assisted visual inspection of all 8 selected original boards, their 32 named environments and corresponding people/activities. Divider profiles measured in pixels; the selected phone case has no brand mark. This is not a guarantee that all small background details are artifact-free.",
+  "boards": [
+    {
+      "board_id": "scene-v72-snu-1",
+      "image": "images/sheet-scenes-snu-1-v72.png",
+      "sha256": "76971fc937193eedb9227c1147bed43fbb799044df8014343db563556906cb21",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "校门入校、林荫路同行、课间整理书本、考场监考；校园环境、人物身份与活动一致。"
+    },
+    {
+      "board_id": "scene-v72-snu-2",
+      "image": "images/sheet-scenes-snu-2-v72.png",
+      "sha256": "e83bafcba66dd7111f2572fd5387611bfa73b8b586fcf29c90a9a19c410f2639",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "教学楼走廊、社团制作、美术写生、钢琴练习；主要手部与书本、纸花、画笔、琴键的接触可辨。"
+    },
+    {
+      "board_id": "scene-v72-snu-3",
+      "image": "images/sheet-scenes-snu-3-v72.png",
+      "sha256": "85e3b8e8b891c3c49a349e12826425d6328c251a099fcc11f31915f154cc1acd",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "科学演示、计算机上机、体育馆运球、操场集合；教师与成年学生处于对应教学或体育空间。"
+    },
+    {
+      "board_id": "scene-v72-snu-4",
+      "image": "images/sheet-scenes-snu-4-v72.png",
+      "sha256": "678b1b337d60ad8edea1c82cc28ac85b322d5b31da7481190dc7c40ba9c3c489",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        769,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "食堂端餐、宿舍整理、公告栏查看、毕业合影；校园起居与典礼活动清楚。"
+    },
+    {
+      "board_id": "scene-v72-snb-1",
+      "image": "images/sheet-scenes-snb-1-v72.png",
+      "sha256": "30cc6f96834e07ed032b0d9364cd7ec852fde159206c5b2e87f7da737dceb97e",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        769,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "夜班便利店、自助洗衣店、邮局寄件、银行交流；服务设施、人物与接触动作清楚。"
+    },
+    {
+      "board_id": "scene-v72-snb-2",
+      "image": "images/sheet-scenes-snb-2-v72.png",
+      "sha256": "14f8ba791c2156b0920a9f4261c265d183d4d4d9bb283047ea903205cf097339",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "菜市场采购、宠物照料、花店扎花、高铁候车；人物活动、道具与地点相配。"
+    },
+    {
+      "board_id": "scene-v72-snv-1",
+      "image": "images/sheet-scenes-snv-1-v72.png",
+      "sha256": "bc52b7eb1f1627017874d85fe31e8712c6a11daed4394daf014e0c087ab3fac5",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "博物馆讲解、美术馆观展、影院检票、海洋馆参观；观览设施和人物关系可辨，展品画作采用生成原创示意。"
+    },
+    {
+      "board_id": "scene-v72-snv-2",
+      "image": "images/sheet-scenes-snv-2-v72-v2.png",
+      "sha256": "14472fa82d4243fcf4c4626556af18e2d1cd85b4b3c81e96d8dd3b5a06f808d7",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "动物园照料、植物园摄影、古镇游览、海港候船；人物活动与场景对应，摄影手机采用无标识素色保护壳。"
+    }
+  ]
+}

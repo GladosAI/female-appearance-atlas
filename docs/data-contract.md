@@ -31,7 +31,7 @@
 - `sequence_reference`：主图是同一词条的三格分镜；`sequence_labels` 为三个阶段标题，`sequence_order` 固定为 `left-to-right`。浏览卡片、详情与外观卡展示阶段顺序，提示词仍只导出词条名称。一个网格单元保存完整三格，不能把三格分配给三个词条。
 - `visual_language_reference`：漫画单格或影视设计画面的参考，详情使用“画面设计要点”，AI提示词按实际类别列名。`single_panel_reference` 表示每项是一幅独立画面，不与三格顺序字段混用；`comic_panel_reference` 和 `film_design_reference` 分别供对应专题汇集。画中画只属于该单幅内部设计，不新增外部词条或切割成另一项。
 - `game_design_reference`：游戏角色原稿方法案例，归属“画风与视觉表现”下四个原稿类别。构建器汇集到游戏设计专题并生成计数；提示词按实际类别列名。一个词条的对照方案、局部图和阶段图都在同一个visual裁剪内，不另设portrait/fullbody或sequence模式。图例不代表已验证的生产图、PSD或三维资产。
-- `scene_reference`：环境、人物与活动同画面的场景参考，归入“画风与视觉表现 → 场景与人物活动”。浏览索引保留该标记，详情显示“场景与人物要点”，提示词按“场景与人物活动”仅导出中英文名称。每项是一个完整场景，不混用近景/全身配对或三格分镜字段。维护计划、提示词和实图复核边界分别保存在 `source/scene-plan-v71.json`、`source/scene-prompts-v71.json` 和 `source/scene-review-v71.json`；使用 `tools/prepare_scenes_v71.py register` 导入已检查的图页与词条，不会自动批准素材权利。
+- `scene_reference`：环境、人物与活动同画面的场景参考，归入“画风与视觉表现 → 场景与人物活动”。浏览索引保留该标记，详情显示“场景与人物要点”，提示词按“场景与人物活动”仅导出中英文名称。每项是一个完整场景，不混用近景/全身配对或三格分镜字段。维护计划、提示词和实图复核边界按批次保存在 `source/scene-plan-v*.json`、`source/scene-prompts-v*.json` 和 `source/scene-review-v*.json`；使用 `tools/prepare_scenes_v71.py register --edition 72` 导入指定批次已检查的图页与词条，原有无参数调用仍处理第71批。分组类别增量合并，不覆盖先前批次，也不会自动批准素材权利。
 
 visual 的网格坐标从 0 开始。若存在 crop，使用像素矩形 `x,y,width,height,sheet_width,sheet_height`；矩形不得越界，sheet 尺寸必须与图片一致。没有 crop 时用 column/row/columns/rows 均分。不要混用缩略图显示尺寸与原图坐标。
 
