@@ -23,7 +23,9 @@ const legacy=data.combinations[0],oldReference=data.combinations.find(card=>card
  assert.equal(await page.locator('#system-example-practice').count(),0);assert((await page.locator('#card-notes-preview').innerText()).includes(pixel.description));assert(await page.locator('[data-example-step="-1"]').isDisabled());assert(await page.locator('[data-example-step="1"]').isDisabled());
  await page.locator('#open-card-synthesis').click();const initialPrompt=await page.locator('#synthesis-prompt').inputValue();
  assert(!initialPrompt.includes(pixel.description));assert(!initialPrompt.includes(pixel.palette));assert(!initialPrompt.includes(pixel.name));
- await page.locator('#synthesis-prompt').fill('这个角色的手动提示词');await page.reload();await page.locator('#open-card-synthesis').click();assert.equal(await page.locator('#synthesis-prompt').inputValue(),'这个角色的手动提示词');
+ await page.locator('#synthesis-prompt').fill('这个角色的手动提示词');
+ await page.waitForFunction(({key,cardKey,prompt})=>JSON.parse(localStorage.getItem(key)||'[]').find(snapshot=>snapshot.cardKey===cardKey)?.prompt===prompt,{key:historyKey,cardKey:'system:'+pixel.id,prompt:'这个角色的手动提示词'});
+ await page.reload();await page.locator('#open-card-synthesis').click();assert.equal(await page.locator('#synthesis-prompt').inputValue(),'这个角色的手动提示词');
  const history=await page.evaluate(key=>JSON.parse(localStorage.getItem(key)),historyKey);assert(history.some(item=>item.cardKey==='system:'+pixel.id));await page.locator('#close-card-synthesis').click();
  await page.locator('[data-card-action="back"]').click();assert.equal(await page.locator('#card-library-search').inputValue(),'灰猫店主');assert.equal(await page.locator('[data-open-system-card]').count(),1);assert.equal(await page.locator('[data-example-topic="nonhuman"]').getAttribute('aria-pressed'),'true');
  await page.reload();assert.equal(await page.locator('[data-open-system-card]').count(),1);await page.locator('[data-open-system-card]').click();
