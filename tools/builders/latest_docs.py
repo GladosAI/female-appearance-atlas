@@ -1,5 +1,5 @@
 """Build the current edition index independently of persistent topic documents."""
-import sys
+import sys,json
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import _bootstrap
@@ -8,6 +8,17 @@ from pathlib import Path
 def write_latest_docs(root,data):
     root=Path(root);meta=data['meta'];edition=meta['version'].split('.')[0]
     entries=[e for e in data['entries'] if e.get('added_in')==meta['version']]
+    if not entries:
+        release=json.loads((root/'source/content-release.json').read_text(encoding='utf-8'))
+        text=f"# 本版修订 · 内容{meta['version']}\n\n{release.get('summary','本版维护现有词条。')}\n\n保留全图鉴{len(data['entries'])}个词条的编号与收藏引用。\n\n"
+        for path in sorted((root/'source/quality-reviews').glob('*.json')):
+            report=json.loads(path.read_text(encoding='utf-8'))
+            if report.get('catalog_version')!=meta['version']:continue
+            scope=report['scope']
+            text+=f"本批复核{scope['entries']}个词条、{scope['visuals']}幅主图与佩戴图，修正{len(report['changed_entries'])}项。\n\n"
+        text+='[质量复核记录](material-quality.md) · [进入图鉴](index.html?section=all) · [完整图文索引](atlas.md) · [变更记录](../CHANGELOG.md)\n'
+        (root/'docs/fashion-guide.md').write_text(text,encoding='utf-8')
+        return
     if edition=='32':
         (root/'docs/fashion-guide.md').write_text('# 第32版 · 目录与检索改版\n\n保留全部5629项配图词条，重整为8个领域、42个分组和133个类别。目录归属、筛选和结果展示使用同一层级。\n\n- 风格作为服装筛选条件，与类别、细分和关键词叠加。\n- 卡片与分类图页共用结果，切换保留当前条件。\n- 条件可单独移除，支持扩大查找范围、键盘建议、后退与地址恢复。\n- 原有图片、编号、专题链接和外观卡继续兼容。\n\n[进入图鉴](../index.html) · [完整目录](directory.md) · [检索使用说明](find-and-browse.md) · [最近补充：耳机佩戴](headphone-atlas.md)\n',encoding='utf-8')
         return

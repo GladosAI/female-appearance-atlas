@@ -24,6 +24,16 @@
     "mime": "image/webp",
     "file": "images/export-data/7f1b6b807305-d25d27b6b469.js"
   },
+  "images/quality-v70-1-fw046.png": {
+    "source_sha256": "21cbc484d0ac7a1aec0b7016623805ab25867d33498d0de5cd5a866da25f1fef",
+    "mime": "image/png",
+    "file": "images/export-data/3da204416214-21cbc484d0ac.js"
+  },
+  "images/quality-v70-1-so075.png": {
+    "source_sha256": "2c9c78563ddef01b2416ade0ecc9705cbaa7d85b3ce8b2639cd7b81d20ed7016",
+    "mime": "image/png",
+    "file": "images/export-data/51c0e31ea097-2c9c78563dde.js"
+  },
   "images/sheet-ac002-ac020.png": {
     "source_sha256": "58605ffd71a85cdabbd31c233223dd1a8f7fff614b2d383928bac05e9bc512e9",
     "mime": "image/webp",

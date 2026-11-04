@@ -1,0 +1,17 @@
+{
+  "schema": "female-appearance-quality-generation/v1",
+  "date": "2026-11-04",
+  "tool": "built-in image_gen",
+  "model": null,
+  "inputs": [],
+  "records": [
+    {
+      "entry_id": "FW046",
+      "prompt": "Use case: product-mockup. Asset type: original illustrated footwear catalog reference for a female character appearance atlas. Portrait or square single image on a warm ivory background, restrained anime production-reference linework with soft cel shading, very clear materials and construction. Draw ONE PAIR of adult-size pale blush-pink SOFT BALLET SLIPPERS with long narrow satin ankle ribbons. They are empty unworn shoes, arranged in a clear three-quarter flat-lay, with complete round flexible toe shapes and low supple uppers. The soft forefoot of one slipper gently bends so it is visibly pliable. The other shoe is turned partially sideways to reveal a very thin flexible split leather sole with separate forefoot and heel pads. Attached ribbons are sewn at the sides and lie in loose open curves, showing attachment points; no complex tied knots obscuring the shoes. Main purpose: distinguish a soft ballet slipper from a rigid pointe shoe: NO hard toe box, NO flattened platform toe end, NO rigid shank, NO shoe standing on its toe tip, NO high heel. Entire pair and ribbon ends fit inside the canvas with generous clear margin. Small exact code 'FW046' at top left; no other writing, logo, brand, watermark, grid, border, human model or extra shoes. Make the main pair large and easy to read in an atlas thumbnail."
+    },
+    {
+      "entry_id": "SO075",
+      "prompt": "Use case: scientific-educational. Asset type: original illustrated apparel-construction reference for a female character appearance atlas, non-sexual neutral product display. Portrait single image, warm ivory background, precise clean anime production-reference outlines and restrained cel shading. Show one complete pair of opaque charcoal-black STIRRUP TIGHTS from waistband through BOTH feet on a neutral matte light-gray adult-size lower-body retail mannequin, with no torso above the waist and no realistic skin. Three-quarter standing view; one foot slightly lifted and turned outward so its underside can be seen. The fabric legs continue past the ankle into a visibly CONTINUOUS narrow stirrup band beneath the midfoot ARCH, while the HEEL and FOREFOOT/TOES remain completely uncovered gray mannequin. The stirrup band is an integral continuation of the fabric leg, not a separate shoe, sock, ankle strap, cuff or isolated elastic. Add one large circular construction inset in clear unused space at the right showing the SAME foot from a low side/sole angle: opaque fabric connecting both ankle sides and wrapping beneath the arch, exposed gray heel behind it and exposed gray toes in front. Both the main image and inset must unmistakably show the under-arch band. Clearly show waistband and all garment edges and both complete feet, no truncation of the garment. Main figure large, inset does not overlap it. Small exact code 'SO075' at upper left. No other text, arrows, logo, brand, watermark, additional garments, shoes, decorative lace, human model, erotic pose or grid."
+    }
+  ]
+}

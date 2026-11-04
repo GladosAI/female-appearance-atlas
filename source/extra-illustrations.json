@@ -15638,7 +15638,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_note": "Complete headband, clip, pin or tie, with visible connection details."
+    "qa_note": "Complete headband, clip, pin or tie, with visible connection details.",
+    "column_boundaries": [
+      0,
+      328,
+      656,
+      984,
+      1312
+    ],
+    "row_boundaries": [
+      0,
+      290,
+      579,
+      852,
+      1199
+    ]
   },
   {
     "id": "sheet-pn001-pn016",
@@ -15834,7 +15848,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_note": "Complete headband, clip, pin or tie, with visible connection details. HR036 shown as a single spiral rod; description records this variant."
+    "qa_note": "Complete headband, clip, pin or tie, with visible connection details. HR036 shown as a single spiral rod; description records this variant.",
+    "column_boundaries": [
+      0,
+      315,
+      611,
+      909,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      316,
+      629,
+      940,
+      1286
+    ]
   },
   {
     "id": "sheet-hr049-hr064",
@@ -15932,7 +15960,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_note": "Complete headband, clip, pin or tie, with visible connection details."
+    "qa_note": "Complete headband, clip, pin or tie, with visible connection details.",
+    "column_boundaries": [
+      0,
+      307,
+      615,
+      921,
+      1230
+    ],
+    "row_boundaries": [
+      0,
+      296,
+      610,
+      908,
+      1278
+    ]
   },
   {
     "id": "sheet-pi001-pi016",

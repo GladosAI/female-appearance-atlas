@@ -124,7 +124,7 @@ T带鞋|T-strap shoes|跨带与纵向带形成T形。
 船形鞋|boat shoes|低帮鞋面与周边穿绳结构形成识别点。
 雪地保暖靴|insulated snow boots|厚底、防水下部与保暖靴筒分区。
 潜水袜靴|neoprene dive boots|软弹性鞋体与较薄防滑底相接。
-缎带芭蕾舞鞋|ballet shoes with ribbons|柔软鞋面与踝部交叉缎带固定。
+缎带芭蕾舞鞋|ballet shoes with ribbons|柔软圆头鞋面与可弯折薄底，侧缝连接长缎带；图例为软底芭蕾练功鞋，不带硬质足尖盒。
 ''')
 add('pose','静态姿态','''
 坐姿双脚伸前|seated legs extended|坐骨支撑，双腿向前伸展。

@@ -10216,6 +10216,34 @@
       ],
       "declared_inputs": [],
       "input_scope": "Recorded local image references checked; omitted/unrecorded historical context is not reconstructed."
+    },
+    {
+      "path": "images/quality-v70-1-fw046.png",
+      "board_id": "quality-20261104-fw046",
+      "sha256": "21cbc484d0ac7a1aec0b7016623805ab25867d33498d0de5cd5a866da25f1fef",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/material-quality-prompts-20261104.json#/records/0/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original output generated during the 2026-11-04 quality revision; no image inputs supplied."
+    },
+    {
+      "path": "images/quality-v70-1-so075.png",
+      "board_id": "quality-20261104-so075",
+      "sha256": "2c9c78563ddef01b2416ade0ecc9705cbaa7d85b3ce8b2639cd7b81d20ed7016",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/material-quality-prompts-20261104.json#/records/1/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original output generated during the 2026-11-04 quality revision; no image inputs supplied."
     }
   ],
   "declared_input_files": [
