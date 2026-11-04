@@ -45,6 +45,8 @@ def write_usage_readme(root):
     text+=f'''
 ## 开发与贡献
 
+无需编程即可使用[在线贡献表单]({package['homepage']}contribute.html)：查找近似词条、预览本机图片、填写来源后，导出贡献JSON与命名后的原图。建议编号不预留名额，素材和授权由维护者审核。也可离线打开[contribute.html](contribute.html)。
+
 Python 3.10+ 构建器只用标准库；Node 22+ / npm 用于浏览器检查和图片优化。源码包不携带大图片资源包，无图片时可先进行文字、数据和页面协作。
 
 ```sh

@@ -72,3 +72,11 @@ python tools/release_atlas.py packages --output dist/release-review
 本地克隆的 AI Pose Gallery 将数千张 img/、thumbs/ 图片作为普通 Git 对象跟踪，并通过 .gitignore 排除部分原始PNG备份和构建目录；它的下载体积并不小。`wrangler.jsonc` 指向 dist 静态资产，并为 `/api/*` 配置 Worker 优先处理。这说明它把“Git 存放什么”和“网站如何托管”分开处理；无法仅凭配置推定其实际账单或国内访问质量。我们的素材包更适合与日常代码协作分离。
 
 依据：[Pages 限制](https://developers.cloudflare.com/pages/platform/limits/)、[Pages 定价](https://developers.cloudflare.com/pages/functions/pricing/)、[Workers 静态资产费用](https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/)、[R2 定价](https://developers.cloudflare.com/r2/pricing/)、[GitHub Pages 限制](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)、[Release 限制](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)。
+
+## 定期检查与主分支保护
+
+`Check published website`工作流计划每天两次运行，也可在Actions手动启动。它读取github-pages环境最近一次成功部署的提交，核对公开首页、版本和文件SHA-256；正在构建或失败的新版本不会直接替换核验依据。巡检只读取部署信息和静态文件，不重新构建、不部署，也不创建Issue或发送自定义消息。失败显示在Actions，维护者可使用GitHub自己的工作流通知设置接收提醒；调度时间可能延迟。
+
+正式仓库的main通过PR更新，要求Linux/Windows数据检查与界面检查通过，禁止强推与删除，并对管理员生效。单人维护不额外要求另一位审批者。提交应先推到工作分支，再由通过检查的PR合并，不能为便利而关闭保护规则。
+
+GitHub Pages环境还需允许main分支以及正式版本标签app-v*和v*；否则从Release事件启动的部署会在分配运行器前被拒绝。新建镜像或Fork时应检查对应环境规则，并自行配置巡检地址；官方巡检工作流只在GladosAI/female-appearance-atlas启用。

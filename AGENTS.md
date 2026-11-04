@@ -16,3 +16,5 @@
 - 正式仓库为`GladosAI/female-appearance-atlas`。按当前会话的明确授权执行推送或发布，不创建其他远程仓库或付费托管。已确定：代码MIT；项目有权授权的文字、数据、提示词、AI配图及品牌图形采用CC BY-NC 4.0，仅非商业使用。第三方例外保留原许可。不得擅自放开商用、追加相同方式共享要求或扩大MIT范围。
 
 代码MIT及素材非商用范围见 `LICENSE-SCOPE.md`，素材许可正文为 `CONTENT-LICENSE`。许可决策见 `docs/licensing-proposal.md`，来源审核见 `docs/material-rights-audit.md`。
+
+- main启用PR与必要检查保护后，先在工作分支完成修改，通过PR合并；不绕过或临时关闭保护。贡献表单只生成待审草案，巡检只读，个人备份状态仅保存在浏览器。

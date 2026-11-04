@@ -1,15 +1,16 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const {pathToFileURL}=require('node:url');
-const {playwright:{chromium},browserOptions}=require('./runtime.cjs');
+const {launchBrowser}=require('./runtime.cjs');
 const root=path.resolve(__dirname,'../..'),output=path.join(root,'.work/qa');fs.mkdirSync(output,{recursive:true});
 const key='female-beauty-appearance-library-v2',historyKey='female-beauty-prompt-history-v1';
 const payload={schema:'female-appearance-library/v2',cards:[{id:'qa-reference-card',name:'素材组合测试',notes:'不自动导出此备注',selected:['AH020','SO093','AH031']},{id:'qa-other-card',name:'另一张独立卡',notes:'',selected:['TO086']}],lastAddedCardId:'qa-reference-card'};
 (async()=>{
- const browser=await chromium.launch({...browserOptions,headless:true});
+ const browser=await launchBrowser();
  try{
  const page=await browser.newPage({viewport:{width:1365,height:950}}),errors=[];page.on('pageerror',error=>errors.push(error.message));
- await page.addInitScript(({key,payload})=>{if(!localStorage.getItem(key))localStorage.setItem(key,JSON.stringify(payload));Object.defineProperty(navigator,'clipboard',{value:{writeText:async value=>{window.lastCopiedPrompt=value}},configurable:true})},{key,payload});
+ await page.addInitScript(()=>{Object.defineProperty(navigator,'clipboard',{value:{writeText:async value=>{window.lastCopiedPrompt=value}},configurable:true})});
  const base=process.env.ATLAS_TEST_URL||pathToFileURL(path.join(root,'index.html')).href;
+ await page.goto(base);await page.evaluate(({key,payload})=>localStorage.setItem(key,JSON.stringify(payload)),{key,payload});
  const waitForSavedSelection=(selected,prompt)=>page.waitForFunction(({historyKey,selected,prompt})=>{
   const latest=JSON.parse(localStorage.getItem(historyKey)||'[]').find(snapshot=>snapshot.cardKey==='qa-reference-card');
   return latest&&latest.prompt===prompt&&JSON.stringify([...latest.selected].sort())===JSON.stringify([...selected].sort());

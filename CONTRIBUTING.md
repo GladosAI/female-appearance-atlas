@@ -14,6 +14,20 @@ python tools/query_atlas.py --list categories
 
 ## 提交素材
 
+可以直接打开[在线贡献表单](https://gladosai.github.io/female-appearance-atlas/contribute.html)，或离线打开 `contribute.html`。表单适合每次提交一个词条与一张完整配图：自动查询近似词条、建议当前未登记的编号、读取图片尺寸与SHA-256，并导出贡献JSON和保持原始字节的命名图片。文件只在浏览器内处理，没有自动上传或自动收录。
+
+建议编号不会预留，多个贡献者可能同时得到相同建议；合并前按最新登记表检查，冲突时只调整尚未发布的新编号及其引用。已发布与退休编号不能回收。
+
+导出的 `submission` 保存署名、来源方式、授权说明、已知制作记录和图片哈希，状态始终为 `pending-review`。未知模型或日期保持null，文件修改时间不冒充生成日期。维护者仍需核对图片语义、分类、授权证据，并按现有流程登记权利记录。
+
+提交前可在源码目录检查草案：
+
+```sh
+python tools/review_contribution.py contribution-hc053.json --image contribution-hc053.png
+```
+
+检查编号冲突、必要字段、图页引用、路径、图片字节数及哈希，输出近似词条供复核。它不修改编号登记或素材权利；检查通过不等于授权审核通过。多格图页、修改已有词条或较复杂贡献仍可按下面的维护文件方式整理。
+
 1. 先用 Issue 说明词条名称、现有近似编号、差异与合适目录，避免多位贡献者重复制作。
 2. 复制 `source/contributions/example.json.example`，保存为新的 `.json` 文件。普通新增只需补 entries 和 boards；已有类别的名称、guide 和默认阅读来源会由构建器填充。
 3. 为词条分配未使用的 `stable_id`，编号前缀应沿用所属类别；检查 `source/id-registry.json`。PR 冲突时只调整未发布的新编号，旧编号不能复用。新类别另开讨论，并同步导航和编号前缀。

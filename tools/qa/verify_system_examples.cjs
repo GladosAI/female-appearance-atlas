@@ -1,17 +1,17 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const {pathToFileURL}=require('node:url');
-const {playwright:{chromium},browserOptions}=require('./runtime.cjs');
+const {launchBrowser}=require('./runtime.cjs');
 const root=path.resolve(__dirname,'../..'),data=JSON.parse(fs.readFileSync(path.join(root,'data/catalog.json'),'utf8'));
 const active=data.combinations.filter(card=>!card.archived),output=path.join(root,'.work/qa');fs.mkdirSync(output,{recursive:true});
 const libraryKey='female-beauty-appearance-library-v2',historyKey='female-beauty-prompt-history-v1';
 const legacy=data.combinations[0],oldReference=data.combinations.find(card=>card.id==='example-pixel-sizes'),existing={schema:'female-appearance-library/v2',lastAddedCardId:'existing-user-card',cards:[{id:'existing-user-card',name:'保留我的原卡',notes:'原备注',selected:['AH020','TO086']}]};
-(async()=>{const browser=await chromium.launch({...browserOptions,headless:true});try{
+(async()=>{const browser=await launchBrowser();try{
  const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];page.on('pageerror',error=>errors.push(error.message));
- await page.addInitScript(({libraryKey,historyKey,existing,legacy,oldReference})=>{
-  if(!localStorage.getItem(libraryKey))localStorage.setItem(libraryKey,JSON.stringify(existing));
-  if(!localStorage.getItem(historyKey))localStorage.setItem(historyKey,JSON.stringify([{id:'old-system-prompt',cardKey:'system:0',cardName:legacy.name,selected:legacy.entry_ids,prompt:'旧版示例的手写方案',createdAt:'2026-11-02T12:00:00Z'},{id:'old-reference-prompt',cardKey:'system:'+oldReference.id,cardName:oldReference.name,selected:oldReference.entry_ids,prompt:'过去参考合集的手写方案',createdAt:'2026-11-03T02:00:00Z'}]));
+ const base=process.env.ATLAS_TEST_URL||pathToFileURL(path.join(root,'index.html')).href;await page.goto(base);
+ await page.evaluate(({libraryKey,historyKey,existing,legacy,oldReference})=>{
+  localStorage.setItem(libraryKey,JSON.stringify(existing));
+  localStorage.setItem(historyKey,JSON.stringify([{id:'old-system-prompt',cardKey:'system:0',cardName:legacy.name,selected:legacy.entry_ids,prompt:'旧版示例的手写方案',createdAt:'2026-11-02T12:00:00Z'},{id:'old-reference-prompt',cardKey:'system:'+oldReference.id,cardName:oldReference.name,selected:oldReference.entry_ids,prompt:'过去参考合集的手写方案',createdAt:'2026-11-03T02:00:00Z'}]));
  },{libraryKey,historyKey,existing,legacy,oldReference});
- const base=process.env.ATLAS_TEST_URL||pathToFileURL(path.join(root,'index.html')).href;
  await page.goto(base+'?view=card&card_tab=examples');
  assert.equal(await page.locator('[data-open-system-card]').count(),active.length);
  assert((await page.locator('#card-library-summary').innerText()).includes('角色卡'));assert(!/覆盖|入门|练习/.test(await page.locator('#card-library-summary').innerText()));assert(active.every(card=>card.character_example));

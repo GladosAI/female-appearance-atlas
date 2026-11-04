@@ -4,7 +4,7 @@ let synthesisCopyTimer;
 const promptHistoryKey='female-beauty-prompt-history-v1';
 let synthesisCardKey='',promptHistory=[],synthesisSessionSnapshotId=null;
 try{const saved=JSON.parse(localStorage.getItem(promptHistoryKey)||'[]');if(Array.isArray(saved))promptHistory=saved.filter(x=>x&&typeof x.id==='string'&&typeof x.cardKey==='string'&&typeof x.prompt==='string'&&Array.isArray(x.selected)).slice(0,50)}catch{}
-function persistPromptHistory(){try{localStorage.setItem(promptHistoryKey,JSON.stringify(promptHistory));return true}catch{toast('方案无法保存在此浏览器，请复制提示词或导出外观卡备份。');return false}}
+function persistPromptHistory(){try{localStorage.setItem(promptHistoryKey,JSON.stringify(promptHistory));queueMicrotask(renderLibraryBackupStatus);return true}catch{toast('方案无法保存在此浏览器，请复制提示词或导出外观卡备份。');return false}}
 function promptHistoryForCard(cardKey){return promptHistory.filter(snapshot=>snapshot.cardKey===cardKey)}
 function importPromptHistory(records,cardMap){
  if(!Array.isArray(records))return;

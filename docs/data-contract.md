@@ -79,3 +79,9 @@ visual 的网格坐标从 0 开始。若存在 crop，使用像素矩形 `x,y,wi
 `data/combinations.json` 保留历史数字示例和已使用的字符串示例，以 `archived: true` 标记。当前人物角色卡带 `character_example: true`，主列表只展示活跃角色。`meta.combination_count` 统计活跃卡，归档数量单列。新人物分配新ID，链接与提示词历史使用同一ID；旧链接和旧历史继续有效，已另存的个人外观卡保持独立。源文件 `archived_cards` 保留过去的参考合集，不重新分配其ID。
 
 `example_chapters` 用于人物题材筛选，`example_coverage` 及 `data/example-coverage.json` 统计实际涉及的领域、分组与类别，并列出未覆盖类别。覆盖统计由所选词条计算；新增内容后应检查空缺，不把全覆盖作为永久成立的假设。
+
+## 社区草案与本机备份
+
+`contribute.html`与`assets/contribution-index.js`由`tools/builders/contribution_tools.py`生成。建议编号使用与主构建器相同的类别前缀和永久登记表，包含退休编号；页面不写入登记表。`submission`是供审核的贡献文件附加记录，由维护者消费，不自动注入角色词条或当成权利放行凭据。
+
+个人外观卡JSON格式继续使用v2，全部导出文件增加可选`exported_at`。浏览器另用`female-beauty-library-backup-v1`保存最近全部导出的时间与SHA-256摘要，摘要覆盖卡片和个人方案历史；它不重复保存卡片正文。界面标注“最近全部导出”，不能证明用户已保存下载文件。单卡导出不标记整库已备份，排序展示不改变摘要；新增、编辑、导入或方案修改后提示有新修改。

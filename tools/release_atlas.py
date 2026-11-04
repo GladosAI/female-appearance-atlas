@@ -124,6 +124,13 @@ def build_web(output, image_mode='original'):
     for directory in ['assets', 'docs', 'schemas']:
         if (ROOT / directory).exists():
             shutil.copytree(ROOT / directory, output / directory, dirs_exist_ok=True)
+    contribution_index=output/'assets/contribution-index.js'
+    contribution_hash=sha256_file(contribution_index)[:12]
+    contribution_name='assets/contribution-index-'+contribution_hash+'.js'
+    contribution_index.rename(output/contribution_name)
+    contribution_page=(ROOT/'contribute.html').read_text(encoding='utf-8').replace('assets/contribution-index.js',contribution_name)
+    (output/'contribute.html').write_text(contribution_page,encoding='utf-8')
+    shutil.copy2(ROOT/'CONTRIBUTING.md',output/'CONTRIBUTING.md')
     relative, detail_chunks = write_runtime(output, data, nav)
     build_info=application_info(ROOT,include_commit=True)
     build_info['image_delivery']=image_mode

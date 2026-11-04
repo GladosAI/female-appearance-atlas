@@ -491,6 +491,7 @@ def build(partial=False, package=True, image_exports=True, check_assets=True):
     template=template.replace('__APP_VERSION__',app_release['app_version'])
     template=template.replace('__CONTENT_VERSION__',app_release['content_version'])
     template=template.replace('__DELIVERY_SCRIPT__',(ROOT/'tools/templates/delivery.js').read_text(encoding='utf-8'))
+    template=template.replace('__CARD_BACKUP_SCRIPT__',(ROOT/'tools/templates/card_backup.js').read_text(encoding='utf-8'))
     template=template.replace('__LOADING_SCRIPT__',(ROOT/'tools/templates/lazy_thumbnails.js').read_text(encoding='utf-8'))
     template=template.replace('__CONTENT_MAJOR__',meta['version'].split('.')[0])
     template=apply_brand_assets(ROOT,template)
@@ -564,6 +565,8 @@ def build(partial=False, package=True, image_exports=True, check_assets=True):
     write_navigation_docs(ROOT,data,navigation)
     finalize_docs(ROOT)
     write_usage_readme(ROOT)
+    from contribution_tools import write_contribution_tools
+    write_contribution_tools(ROOT,data)
     archive=_bootstrap.PACKAGE
     if package:
         from release_atlas import package_legacy
