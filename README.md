@@ -8,11 +8,18 @@
 
 [源码仓库](https://github.com/GladosAI/female-appearance-atlas) · [版本与资源包](https://github.com/GladosAI/female-appearance-atlas/releases) · [问题反馈](https://github.com/GladosAI/female-appearance-atlas/issues)
 
-首个图片及离线复制资源包将在首次Release提供。直接下载源码不包含图鉴原图；网页在线阅览地址将在部署后公布。
+完整图鉴请从[Releases](https://github.com/GladosAI/female-appearance-atlas/releases/latest)获取以下资源包；网页在线阅览地址将在部署后公布。
+
+| 下载 | 内容与用途 |
+| --- | --- |
+| [源码与页面](https://github.com/GladosAI/female-appearance-atlas/releases/latest/download/female-appearance-atlas-source.zip) | 必需，含index.html、程序、词条数据、文档与许可 |
+| [图片资源](https://github.com/GladosAI/female-appearance-atlas/releases/latest/download/female-appearance-atlas-images.zip) | 必需，含图鉴原图 |
+| [离线图片读取数据](https://github.com/GladosAI/female-appearance-atlas/releases/latest/download/female-appearance-atlas-offline-copy.zip) | 本地双击时导出图片所需；通过HTTP访问可省略 |
+| [SHA-256校验清单](https://github.com/GladosAI/female-appearance-atlas/releases/latest/download/CHECKSUMS.json) | 核对三个ZIP的大小与完整性 |
 
 ## 浏览与使用
 
-完整离线包解压后双击 **index.html**，保留 images 目录。也可在此目录运行 `python -m http.server 8000`，浏览 http://127.0.0.1:8000/ 。普通浏览不需要 Node 或 AI 接口。
+将三个ZIP解压到**同一个目标目录**，合并同名的`female-appearance-atlas`文件夹；打开该文件夹中的**index.html**，保留同层的`images/`目录。也可只获取源码与图片包，在该文件夹运行`python -m http.server 8000`后浏览http://127.0.0.1:8000/。普通浏览不需要Node或AI接口。
 
 [打开总目录](index.html?view=directory) · [完整分类表](docs/directory.md) · [检索说明](docs/find-and-browse.md) · [视角与拍摄图鉴](index.html?section=branch_camera_viewpoints) · [游戏角色原稿方法](index.html?section=branch_game_character_design)
 
