@@ -1,0 +1,310 @@
+{
+  "schema": "female-appearance-scene-review/v1",
+  "method": "AI-assisted visual inspection of all 16 generated boards, 64 named scenes and their people/activities; divider profiles measured in pixels. This is not a guarantee that every small background detail is free from generative artifacts.",
+  "boards": [
+    {
+      "board_id": "scene-v71-snh-1",
+      "image": "images/sheet-scenes-snh-1-v71.png",
+      "sha256": "bad5cb5c221297dd8423e314204be904de7180d59914d4a51aff740a7274dc66",
+      "recorded_on": "2026-11-04",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "厨房备餐、卧室铺床、客厅读书、浴室刷牙；环境与人物活动一致，镜面为场景内部元素。"
+    },
+    {
+      "board_id": "scene-v71-snh-2",
+      "image": "images/sheet-scenes-snh-2-v71.png",
+      "sha256": "d52bd4bbe0ad3a4b042f1665cc750e05212affd5bcb6f3fb7cac7405c6bf0b44",
+      "recorded_on": "2026-11-04",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "书房写作、阳台养花、洗衣间叠放毛巾、玄关出门；人物与桌面、花盆、衣篮和挂钩关系可辨。"
+    },
+    {
+      "board_id": "scene-v71-snw-1",
+      "image": "images/sheet-scenes-snw-1-v71.png",
+      "sha256": "c35969f241e1c4089f94e3beba889c0d9cf419ef8f92e2f9e909f423415b8e31",
+      "recorded_on": "2026-11-04",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "办公室交流、会议演示、医生问诊、实验室显微镜观察；成人参与者与职业空间一致。"
+    },
+    {
+      "board_id": "scene-v71-snw-2",
+      "image": "images/sheet-scenes-snw-2-v71.png",
+      "sha256": "f042ddca49e18c9c18cf1855d16ad91362b35af0369b92b24f68c98e2ff8d40f",
+      "recorded_on": "2026-11-04",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "大学授课、图书馆阅读、地铁通勤、消防站装备整理；环境标志、人物与活动可辨。"
+    },
+    {
+      "board_id": "scene-v71-snc-1",
+      "image": "images/sheet-scenes-snc-1-v71.png",
+      "sha256": "c324989c58e1dc75e52ddef006c4227794b9a61f6dd07a5496acd3c411f88ce9",
+      "recorded_on": "2026-11-04",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "酒店接待、客房整理行李、餐厅上菜、咖啡拉花；四项包含相应设施和接触动作。"
+    },
+    {
+      "board_id": "scene-v71-snc-2",
+      "image": "images/sheet-scenes-snc-2-v71.png",
+      "sha256": "ae69c5dc5a629c0189ce9bec96f997a392704c2152ec73e3889e6398ff3ff869",
+      "recorded_on": "2026-11-04",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "面包店烘焙、超市采购、服装店整理陈列、美发服务；主人物及服务空间可辨。"
+    },
+    {
+      "board_id": "scene-v71-snr-1",
+      "image": "images/sheet-scenes-snr-1-v71.png",
+      "sha256": "26dd29b0492686146b5c33ee84e9c88528c941254ae9970478fcb5572a08d288",
+      "recorded_on": "2026-11-04",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "海滩散步、游乐园游览、露营整理、公园跑步；旅游与休闲活动符合环境。"
+    },
+    {
+      "board_id": "scene-v71-snr-2",
+      "image": "images/sheet-scenes-snr-2-v71.png",
+      "sha256": "19971aa84bec35a109635e2278b325de71348b3d2ed0135e7ebcf71908e95576",
+      "recorded_on": "2026-11-04",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "温泉旅馆走廊、山间徒步、滑雪场整装、机场候机；人物及相关设施可辨。"
+    },
+    {
+      "board_id": "scene-v71-sne-1",
+      "image": "images/sheet-scenes-sne-1-v71.png",
+      "sha256": "9712a79a15de008a5096182edaa9e3e6c20c912ff7c86562c5f35ca440efade0",
+      "recorded_on": "2026-11-04",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        480,
+        1024
+      ],
+      "notes": "健身拉伸、泳池休息、舞蹈排练、演唱会后台整装；实际水平格线位于480像素，已按非等分切图。"
+    },
+    {
+      "board_id": "scene-v71-sne-2",
+      "image": "images/sheet-scenes-sne-2-v71.png",
+      "sha256": "31e43f9dc01bb4112e111f997a3fdddffae9d9618df14fafc3aca2172d04c3ee",
+      "recorded_on": "2026-11-04",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "剧院表演、体育场赛前系鞋、夜市售餐、婚礼迎宾；人物与文体节庆场地一致。"
+    },
+    {
+      "board_id": "scene-v71-snf-1",
+      "image": "images/sheet-scenes-snf-1-v71.png",
+      "sha256": "21ddab36d3d12630077ca761fb92ebe77f0649de03946358796c657ea0f67615",
+      "recorded_on": "2026-11-04",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "古风庭院、宫殿阅卷、戏曲后台整理头饰、年代街道行走；创作场景不作精确历史复原。"
+    },
+    {
+      "board_id": "scene-v71-snf-2",
+      "image": "images/sheet-scenes-snf-2-v71.png",
+      "sha256": "66341a9781f989ce9d8abe712193583b66a386d09de7c264ae125e8e884f46e6",
+      "recorded_on": "2026-11-04",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "蒸汽列车乘坐、黑色电影雨巷、西部酒馆、侦探事务所；叙事空间与人物活动可辨。"
+    },
+    {
+      "board_id": "scene-v71-sng-1",
+      "image": "images/sheet-scenes-sng-1-v71.png",
+      "sha256": "22ff141939c1dcf59c95bf9ca984b92f1ab35f887dda4f51495ff2341169c776",
+      "recorded_on": "2026-11-04",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "魔法学院施法、公会查阅委托、城堡接待、炼金工坊；原创幻想人物与环境一致。"
+    },
+    {
+      "board_id": "scene-v71-sng-2",
+      "image": "images/sheet-scenes-sng-2-v71.png",
+      "sha256": "1a36a1c5f83e3a8db0a671dc9f6a75d6b6cb4cc25c528a1e68ea80b2e17378b1",
+      "recorded_on": "2026-11-04",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "精灵森林观察、巨龙遗迹探索、美人鱼海底城、水晶神殿；非人形尾部完整归属本格。"
+    },
+    {
+      "board_id": "scene-v71-sns-1",
+      "image": "images/sheet-scenes-sns-1-v71.png",
+      "sha256": "ebbb318a88f9154a8dbdbbca85377394f30f41bbe1dbaf8b84ae17a50f78dccc",
+      "recorded_on": "2026-11-04",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        511,
+        1024
+      ],
+      "notes": "空间站检修、星舰指挥、赛博城市快递、机甲机库维修；场景身份及作业对象可辨。"
+    },
+    {
+      "board_id": "scene-v71-sns-2",
+      "image": "images/sheet-scenes-sns-2-v71.png",
+      "sha256": "da0bac80c921cb71aa56c9920d5cb7e0c14059211f095a89b2f959d8133bf8fd",
+      "recorded_on": "2026-11-04",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "海底研究、废土补给、避难所物资管理、异星温室；人物与任务设施相配。"
+    }
+  ]
+}

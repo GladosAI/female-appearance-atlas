@@ -1,6 +1,6 @@
 # 图鉴总目录
 
-9个领域 → 55个分组 → 200个类别 → 类别内细分，共7145项配图。每个类别只有一个主要归属。
+9个领域 → 56个分组 → 208个类别 → 类别内细分，共7209项配图。每个类别只有一个主要归属。
 
 [打开图鉴目录](../index.html?view=directory) · [查找与筛选说明](find-and-browse.md)
 
@@ -532,7 +532,7 @@
 
 ## 画风与视觉表现
 
-按画风、媒介与视觉语言浏览；包括游戏角色原稿方法、漫画单格、影视分镜与关键帧、视角、景别、构图和镜头语言。 共278项。 [领域全部](../index.html?section=topic_art_styles)
+按画风、媒介与视觉语言浏览；包括场景与人物活动、游戏角色原稿、漫画单格、影视分镜与关键帧，以及视角和镜头语言。 共342项。 [领域全部](../index.html?section=topic_art_styles)
 
 ### 动漫与游戏
 
@@ -554,6 +554,21 @@
 | 3A角色服装与功能设计 | 8 | [词条](../index.html?section=game_aaa_design) · [详表](atlas.md#game_aaa_design) |
 | 乙游立绘与表演设计 | 8 | [词条](../index.html?section=game_otome_design) · [详表](atlas.md#game_otome_design) |
 | 角色设定与制作交接 | 8 | [词条](../index.html?section=game_production_sheets) · [详表](atlas.md#game_production_sheets) |
+
+### 场景与人物活动
+
+[分组全部 · 64项](../index.html?section=branch_scene_character_design)
+
+| 类别 | 配图词条 | 浏览 |
+| --- | ---: | --- |
+| 居家生活场景 | 8 | [词条](../index.html?section=scene_home) · [详表](atlas.md#scene_home) |
+| 工作与公共空间 | 8 | [词条](../index.html?section=scene_work_public) · [详表](atlas.md#scene_work_public) |
+| 餐饮住宿与商业场景 | 8 | [词条](../index.html?section=scene_commercial) · [详表](atlas.md#scene_commercial) |
+| 休闲自然与旅行场景 | 8 | [词条](../index.html?section=scene_leisure_travel) · [详表](atlas.md#scene_leisure_travel) |
+| 文体演出与节庆场景 | 8 | [词条](../index.html?section=scene_culture_sport) · [详表](atlas.md#scene_culture_sport) |
+| 历史与影视叙事场景 | 8 | [词条](../index.html?section=scene_history_film) · [详表](atlas.md#scene_history_film) |
+| 奇幻与神话游戏场景 | 8 | [词条](../index.html?section=scene_fantasy_game) · [详表](atlas.md#scene_fantasy_game) |
+| 科幻与末世任务场景 | 8 | [词条](../index.html?section=scene_scifi_survival) · [详表](atlas.md#scene_scifi_survival) |
 
 ### 摄影与传统绘画
 
@@ -702,3 +717,4 @@
 - [女性身体年龄阶段并排对照](life-stage-comparison.md)
 - [成年身型、舞台装扮与面部覆盖物](body-stage-cover-atlas.md)
 - [魔法少女与忍者装扮专题](magical-ninja-atlas.md)
+- [场景与人物活动](scenes-with-characters.md)

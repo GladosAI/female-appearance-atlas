@@ -57,6 +57,15 @@ class WebDeliveryTests(unittest.TestCase):
             self.assertNotEqual(before, after)
             self.assertTrue((root / after['hair-domain']).is_file())
 
+    def test_scene_prompt_group_is_available_before_loading_details(self):
+        data, navigation = self.fixture()
+        data['entries'][0]['scene_reference'] = True
+        index, chunks, _ = browsing_index(data, navigation)
+        self.assertTrue(index['entries'][0]['scene_reference'])
+        self.assertNotIn('design_tip', index['entries'][0])
+        self.assertNotIn('scene_reference', chunks['hair-domain'][0])
+        self.assertEqual(chunks['hair-domain'][0]['design_tip'], '检查发绳固定位置')
+
     def test_application_and_package_versions_must_agree(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

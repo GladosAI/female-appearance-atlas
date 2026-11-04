@@ -10244,6 +10244,230 @@
       ],
       "declared_inputs": [],
       "input_scope": "New original output generated during the 2026-11-04 quality revision; no image inputs supplied."
+    },
+    {
+      "path": "images/sheet-scenes-snh-1-v71.png",
+      "board_id": "scene-v71-snh-1",
+      "sha256": "bad5cb5c221297dd8423e314204be904de7180d59914d4a51aff740a7274dc66",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/scene-prompts-v71.json#/jobs/0/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original character-in-scene output generated for the project addition; no image inputs supplied."
+    },
+    {
+      "path": "images/sheet-scenes-snh-2-v71.png",
+      "board_id": "scene-v71-snh-2",
+      "sha256": "d52bd4bbe0ad3a4b042f1665cc750e05212affd5bcb6f3fb7cac7405c6bf0b44",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/scene-prompts-v71.json#/jobs/1/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original character-in-scene output generated for the project addition; no image inputs supplied."
+    },
+    {
+      "path": "images/sheet-scenes-snw-1-v71.png",
+      "board_id": "scene-v71-snw-1",
+      "sha256": "c35969f241e1c4089f94e3beba889c0d9cf419ef8f92e2f9e909f423415b8e31",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/scene-prompts-v71.json#/jobs/2/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original character-in-scene output generated for the project addition; no image inputs supplied."
+    },
+    {
+      "path": "images/sheet-scenes-snw-2-v71.png",
+      "board_id": "scene-v71-snw-2",
+      "sha256": "f042ddca49e18c9c18cf1855d16ad91362b35af0369b92b24f68c98e2ff8d40f",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/scene-prompts-v71.json#/jobs/3/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original character-in-scene output generated for the project addition; no image inputs supplied."
+    },
+    {
+      "path": "images/sheet-scenes-snc-1-v71.png",
+      "board_id": "scene-v71-snc-1",
+      "sha256": "c324989c58e1dc75e52ddef006c4227794b9a61f6dd07a5496acd3c411f88ce9",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/scene-prompts-v71.json#/jobs/4/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original character-in-scene output generated for the project addition; no image inputs supplied."
+    },
+    {
+      "path": "images/sheet-scenes-snc-2-v71.png",
+      "board_id": "scene-v71-snc-2",
+      "sha256": "ae69c5dc5a629c0189ce9bec96f997a392704c2152ec73e3889e6398ff3ff869",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/scene-prompts-v71.json#/jobs/5/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original character-in-scene output generated for the project addition; no image inputs supplied."
+    },
+    {
+      "path": "images/sheet-scenes-snr-1-v71.png",
+      "board_id": "scene-v71-snr-1",
+      "sha256": "26dd29b0492686146b5c33ee84e9c88528c941254ae9970478fcb5572a08d288",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/scene-prompts-v71.json#/jobs/6/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original character-in-scene output generated for the project addition; no image inputs supplied."
+    },
+    {
+      "path": "images/sheet-scenes-snr-2-v71.png",
+      "board_id": "scene-v71-snr-2",
+      "sha256": "19971aa84bec35a109635e2278b325de71348b3d2ed0135e7ebcf71908e95576",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/scene-prompts-v71.json#/jobs/7/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original character-in-scene output generated for the project addition; no image inputs supplied."
+    },
+    {
+      "path": "images/sheet-scenes-sne-1-v71.png",
+      "board_id": "scene-v71-sne-1",
+      "sha256": "9712a79a15de008a5096182edaa9e3e6c20c912ff7c86562c5f35ca440efade0",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/scene-prompts-v71.json#/jobs/8/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original character-in-scene output generated for the project addition; no image inputs supplied."
+    },
+    {
+      "path": "images/sheet-scenes-sne-2-v71.png",
+      "board_id": "scene-v71-sne-2",
+      "sha256": "31e43f9dc01bb4112e111f997a3fdddffae9d9618df14fafc3aca2172d04c3ee",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/scene-prompts-v71.json#/jobs/9/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original character-in-scene output generated for the project addition; no image inputs supplied."
+    },
+    {
+      "path": "images/sheet-scenes-snf-1-v71.png",
+      "board_id": "scene-v71-snf-1",
+      "sha256": "21ddab36d3d12630077ca761fb92ebe77f0649de03946358796c657ea0f67615",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/scene-prompts-v71.json#/jobs/10/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original character-in-scene output generated for the project addition; no image inputs supplied."
+    },
+    {
+      "path": "images/sheet-scenes-snf-2-v71.png",
+      "board_id": "scene-v71-snf-2",
+      "sha256": "66341a9781f989ce9d8abe712193583b66a386d09de7c264ae125e8e884f46e6",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/scene-prompts-v71.json#/jobs/11/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original character-in-scene output generated for the project addition; no image inputs supplied."
+    },
+    {
+      "path": "images/sheet-scenes-sng-1-v71.png",
+      "board_id": "scene-v71-sng-1",
+      "sha256": "22ff141939c1dcf59c95bf9ca984b92f1ab35f887dda4f51495ff2341169c776",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/scene-prompts-v71.json#/jobs/12/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original character-in-scene output generated for the project addition; no image inputs supplied."
+    },
+    {
+      "path": "images/sheet-scenes-sng-2-v71.png",
+      "board_id": "scene-v71-sng-2",
+      "sha256": "1a36a1c5f83e3a8db0a671dc9f6a75d6b6cb4cc25c528a1e68ea80b2e17378b1",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/scene-prompts-v71.json#/jobs/13/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original character-in-scene output generated for the project addition; no image inputs supplied."
+    },
+    {
+      "path": "images/sheet-scenes-sns-1-v71.png",
+      "board_id": "scene-v71-sns-1",
+      "sha256": "ebbb318a88f9154a8dbdbbca85377394f30f41bbe1dbaf8b84ae17a50f78dccc",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/scene-prompts-v71.json#/jobs/14/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original character-in-scene output generated for the project addition; no image inputs supplied."
+    },
+    {
+      "path": "images/sheet-scenes-sns-2-v71.png",
+      "board_id": "scene-v71-sns-2",
+      "sha256": "da0bac80c921cb71aa56c9920d5cb7e0c14059211f095a89b2f959d8133bf8fd",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-04",
+      "prompt_sources": [
+        "source/scene-prompts-v71.json#/jobs/15/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original character-in-scene output generated for the project addition; no image inputs supplied."
     }
   ],
   "declared_input_files": [

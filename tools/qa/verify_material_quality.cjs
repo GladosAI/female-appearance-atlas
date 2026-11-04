@@ -8,7 +8,8 @@ const read=async url=>url.protocol==='file:'?fs.readFileSync(fileURLToPath(url))
  const browser=await launchBrowser();try{
  const page=await browser.newPage({acceptDownloads:true,viewport:{width:1280,height:900}}),errors=[];page.on('pageerror',error=>errors.push(error.message));
  const checked=[];
- for(const id of ['HR025','HR045','HR053','FW046','SO075']){
+ const scenes=data.entries.filter(e=>e.scene_reference),representatives=[...new Set(scenes.map(e=>e.category))].map(category=>scenes.find(e=>e.category===category).id);
+ for(const id of ['HR025','HR045','HR053','FW046','SO075',...representatives]){
   const entry=data.entries.find(e=>e.id===id),visual=entry.visual;
   await page.goto(base+'?section='+entry.category+'&entry='+id);await page.locator('#detail-dialog').waitFor({state:'visible'});
   const kind=entry.wearing_visual?'object':'auto';

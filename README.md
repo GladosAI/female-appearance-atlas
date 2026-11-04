@@ -2,26 +2,26 @@
 
 **女性角色外观图鉴**
 
-面向游戏、动漫和角色创作的可检索素材仓库。内容版 70.1：7,145 个配图词条、694 张图页、200 个类别、9 个领域。支持检索、筛选、外观卡收藏、同类参考排列与 AI 提示词导出；不规定角色必填部件或自动生成流程。
+面向游戏、动漫和角色创作的可检索素材仓库。内容版 71.0：7,209 个配图词条、710 张图页、208 个类别、9 个领域。支持检索、筛选、外观卡收藏、同类参考排列与 AI 提示词导出；不规定角色必填部件或自动生成流程。
 
 > **代码采用[MIT](LICENSE)；项目有权授权的图鉴文字、数据、提示词、AI配图与Logo采用[CC BY-NC 4.0](CONTENT-LICENSE)，仅非商业使用。** 六张Met馆藏照片等第三方例外保留原许可。范围见[LICENSE-SCOPE.md](LICENSE-SCOPE.md)，详见[素材说明](NOTICE.md)与[当前许可决策](docs/licensing-proposal.md)。当前未授予商用或广告盈利镜像例外。
 
 [在线阅览](https://gladosai.github.io/female-appearance-atlas/) · [源码仓库](https://github.com/GladosAI/female-appearance-atlas) · [版本与资源包](https://github.com/GladosAI/female-appearance-atlas/releases) · [问题反馈](https://github.com/GladosAI/female-appearance-atlas/issues)
 
-无需下载即可[在线浏览图鉴](https://gladosai.github.io/female-appearance-atlas/)；当前程序版 **0.3.0**，内容版 **70.1**。需要原图或离线使用时，从[Releases](https://github.com/GladosAI/female-appearance-atlas/releases/latest)获取以下资源包。程序更新复用明确标记版本的图片资源，不必重复下载未变化的图片。
+无需下载即可[在线浏览图鉴](https://gladosai.github.io/female-appearance-atlas/)；当前程序版 **0.4.0**，内容版 **71.0**。需要原图或离线使用时，从[Releases](https://github.com/GladosAI/female-appearance-atlas/releases/latest)获取以下资源包。程序更新复用明确标记版本的图片资源，不必重复下载未变化的图片。
 
 | 下载 | 内容与用途 |
 | --- | --- |
 | [源码与页面](https://github.com/GladosAI/female-appearance-atlas/releases/latest/download/female-appearance-atlas-source.zip) | 必需，含index.html、程序、词条数据、文档与许可 |
-| [图片资源](https://github.com/GladosAI/female-appearance-atlas/releases/download/v70.1/female-appearance-atlas-images.zip) | 必需，含图鉴原图；资源版v70.1 |
-| [离线图片读取数据](https://github.com/GladosAI/female-appearance-atlas/releases/download/v70.1/female-appearance-atlas-offline-copy.zip) | 本地双击时导出图片所需；资源版v70.1；通过HTTP访问可省略 |
+| [图片资源](https://github.com/GladosAI/female-appearance-atlas/releases/download/v71.0/female-appearance-atlas-images.zip) | 必需，含图鉴原图；资源版v71.0 |
+| [离线图片读取数据](https://github.com/GladosAI/female-appearance-atlas/releases/download/v71.0/female-appearance-atlas-offline-copy.zip) | 本地双击时导出图片所需；资源版v71.0；通过HTTP访问可省略 |
 | [SHA-256校验清单](https://github.com/GladosAI/female-appearance-atlas/releases/latest/download/CHECKSUMS.json) | 核对三个ZIP的大小与完整性 |
 
 ## 浏览与使用
 
 将三个ZIP解压到**同一个目标目录**，合并同名的`female-appearance-atlas`文件夹；打开该文件夹中的**index.html**，保留同层的`images/`目录。也可只获取源码与图片包，在该文件夹运行`python -m http.server 8000`后浏览http://127.0.0.1:8000/。普通浏览不需要Node或AI接口。
 
-[打开总目录](index.html?view=directory) · [完整分类表](docs/directory.md) · [检索说明](docs/find-and-browse.md) · [视角与拍摄图鉴](index.html?section=branch_camera_viewpoints) · [游戏角色原稿方法](index.html?section=branch_game_character_design)
+[打开总目录](index.html?view=directory) · [完整分类表](docs/directory.md) · [检索说明](docs/find-and-browse.md) · [视角与拍摄图鉴](index.html?section=branch_camera_viewpoints) · [游戏角色原稿方法](index.html?section=branch_game_character_design) · [场景与人物活动](index.html?section=branch_scene_character_design)
 
 目录按“领域 → 分组 → 类别 → 细分”组织，风格作为筛选条件，画风独立归类。外观卡可保存多张；图鉴连续排列，个人卡默认最新加入在前，可切换按类别排序，不显示独立分类区块。提示词方案在当前浏览器留存，可恢复勾选与手动修改，不上传用户数据。
 
@@ -37,7 +37,7 @@
 | [配饰与随身物品](index.html?section=topic_accessory_design) | 25 | 646 |
 | [幻想形态与Cosplay](index.html?section=topic_fantasy_design) | 16 | 464 |
 | [材质、纹样与配色](index.html?section=topic_surface_design) | 4 | 183 |
-| [画风与视觉表现](index.html?section=topic_art_styles) | 28 | 278 |
+| [画风与视觉表现](index.html?section=topic_art_styles) | 36 | 342 |
 
 ## 开发与贡献
 

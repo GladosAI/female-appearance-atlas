@@ -4,9 +4,9 @@
   "unique_entries": 332,
   "min_entries": 5,
   "max_entries": 8,
-  "category_count": 200,
+  "category_count": 208,
   "covered_categories": 125,
-  "section_count": 55,
+  "section_count": 56,
   "covered_sections": 47,
   "domain_count": 9,
   "covered_domains": 9,
@@ -308,7 +308,7 @@
     {
       "id": "art_styles",
       "name": "画风与视觉表现",
-      "category_count": 28,
+      "category_count": 36,
       "covered_categories": 12,
       "sections": [
         {
@@ -319,6 +319,11 @@
         {
           "id": "game_character_design",
           "name": "游戏角色原稿与设计方法",
+          "covered": false
+        },
+        {
+          "id": "scene_character_design",
+          "name": "场景与人物活动",
           "covered": false
         },
         {
@@ -1131,7 +1136,15 @@
     "game_concept_exploration": [],
     "game_aaa_design": [],
     "game_otome_design": [],
-    "game_production_sheets": []
+    "game_production_sheets": [],
+    "scene_home": [],
+    "scene_work_public": [],
+    "scene_commercial": [],
+    "scene_leisure_travel": [],
+    "scene_culture_sport": [],
+    "scene_history_film": [],
+    "scene_fantasy_game": [],
+    "scene_scifi_survival": []
   },
   "uncovered_categories": [
     "hair_cut",
@@ -1208,6 +1221,14 @@
     "game_concept_exploration",
     "game_aaa_design",
     "game_otome_design",
-    "game_production_sheets"
+    "game_production_sheets",
+    "scene_home",
+    "scene_work_public",
+    "scene_commercial",
+    "scene_leisure_travel",
+    "scene_culture_sport",
+    "scene_history_film",
+    "scene_fantasy_game",
+    "scene_scifi_survival"
   ]
 }

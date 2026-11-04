@@ -31,7 +31,7 @@ def write_usage_readme(root):
 
 将三个ZIP解压到**同一个目标目录**，合并同名的`female-appearance-atlas`文件夹；打开该文件夹中的**index.html**，保留同层的`images/`目录。也可只获取源码与图片包，在该文件夹运行`python -m http.server 8000`后浏览http://127.0.0.1:8000/。普通浏览不需要Node或AI接口。
 
-[打开总目录](index.html?view=directory) · [完整分类表](docs/directory.md) · [检索说明](docs/find-and-browse.md) · [视角与拍摄图鉴](index.html?section=branch_camera_viewpoints) · [游戏角色原稿方法](index.html?section=branch_game_character_design)
+[打开总目录](index.html?view=directory) · [完整分类表](docs/directory.md) · [检索说明](docs/find-and-browse.md) · [视角与拍摄图鉴](index.html?section=branch_camera_viewpoints) · [游戏角色原稿方法](index.html?section=branch_game_character_design) · [场景与人物活动](index.html?section=branch_scene_character_design)
 
 目录按“领域 → 分组 → 类别 → 细分”组织，风格作为筛选条件，画风独立归类。外观卡可保存多张；图鉴连续排列，个人卡默认最新加入在前，可切换按类别排序，不显示独立分类区块。提示词方案在当前浏览器留存，可恢复勾选与手动修改，不上传用户数据。
 
