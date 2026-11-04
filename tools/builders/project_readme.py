@@ -66,7 +66,7 @@ npx playwright install chromium
 npm run test:browser
 ```
 
-[贡献指南](CONTRIBUTING.md) · [维护与镜像](GOVERNANCE.md) · [社区协作](CODE_OF_CONDUCT.md) · [独立构建](docs/development.md) · [数据契约与评估](docs/data-contract.md) · [Agent 查询](docs/agent-query.md) · [隐私与安全](SECURITY.md) · [变更记录](CHANGELOG.md)
+[贡献指南](CONTRIBUTING.md) · [素材质量记录](docs/material-quality.md) · [维护与镜像](GOVERNANCE.md) · [社区协作](CODE_OF_CONDUCT.md) · [独立构建](docs/development.md) · [数据契约与评估](docs/data-contract.md) · [Agent 查询](docs/agent-query.md) · [隐私与安全](SECURITY.md) · [变更记录](CHANGELOG.md)
 
 ## 发布与在线阅览
 

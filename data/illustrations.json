@@ -16056,7 +16056,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_note": "Complete headband, clip, pin or tie, with visible connection details."
+    "qa_note": "Complete headband, clip, pin or tie, with visible connection details.",
+    "column_boundaries": [
+      0,
+      328,
+      656,
+      984,
+      1312
+    ],
+    "row_boundaries": [
+      0,
+      290,
+      579,
+      852,
+      1199
+    ]
   },
   {
     "id": "sheet-hr033-hr048",
@@ -16154,7 +16168,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_note": "Complete headband, clip, pin or tie, with visible connection details. HR036 shown as a single spiral rod; description records this variant."
+    "qa_note": "Complete headband, clip, pin or tie, with visible connection details. HR036 shown as a single spiral rod; description records this variant.",
+    "column_boundaries": [
+      0,
+      315,
+      611,
+      909,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      316,
+      629,
+      940,
+      1286
+    ]
   },
   {
     "id": "sheet-hr049-hr064",
@@ -16252,7 +16280,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_note": "Complete headband, clip, pin or tie, with visible connection details."
+    "qa_note": "Complete headband, clip, pin or tie, with visible connection details.",
+    "column_boundaries": [
+      0,
+      307,
+      615,
+      921,
+      1230
+    ],
+    "row_boundaries": [
+      0,
+      296,
+      610,
+      908,
+      1278
+    ]
   },
   {
     "id": "sheet-er001-er016",
@@ -53783,6 +53825,48 @@
         "entry_id": "MX028",
         "label": "MX028",
         "name": "无字图像心声气泡格"
+      }
+    ]
+  },
+  {
+    "id": "quality-20261104-fw046",
+    "category": "footwear",
+    "dimension": "鞋靴",
+    "title": "缎带芭蕾舞鞋 · 结构修订",
+    "image": "images/quality-v70-1-fw046.png",
+    "width": 1254,
+    "height": 1254,
+    "columns": 1,
+    "rows": 1,
+    "origin": "AI-generated concept illustration",
+    "prompt": "Use case: product-mockup. Asset type: original illustrated footwear catalog reference for a female character appearance atlas. Portrait or square single image on a warm ivory background, restrained anime production-reference linework with soft cel shading, very clear materials and construction. Draw ONE PAIR of adult-size pale blush-pink SOFT BALLET SLIPPERS with long narrow satin ankle ribbons. They are empty unworn shoes, arranged in a clear three-quarter flat-lay, with complete round flexible toe shapes and low supple uppers. The soft forefoot of one slipper gently bends so it is visibly pliable. The other shoe is turned partially sideways to reveal a very thin flexible split leather sole with separate forefoot and heel pads. Attached ribbons are sewn at the sides and lie in loose open curves, showing attachment points; no complex tied knots obscuring the shoes. Main purpose: distinguish a soft ballet slipper from a rigid pointe shoe: NO hard toe box, NO flattened platform toe end, NO rigid shank, NO shoe standing on its toe tip, NO high heel. Entire pair and ribbon ends fit inside the canvas with generous clear margin. Small exact code 'FW046' at top left; no other writing, logo, brand, watermark, grid, border, human model or extra shoes. Make the main pair large and easy to read in an atlas thumbnail.",
+    "qa_status": "image_cells_checked",
+    "items": [
+      {
+        "entry_id": "FW046",
+        "label": "FW046",
+        "name": "缎带芭蕾舞鞋"
+      }
+    ]
+  },
+  {
+    "id": "quality-20261104-so075",
+    "category": "hosiery",
+    "dimension": "连裤袜与打底袜裤版型",
+    "title": "踩脚连裤袜 · 结构修订",
+    "image": "images/quality-v70-1-so075.png",
+    "width": 1214,
+    "height": 1295,
+    "columns": 1,
+    "rows": 1,
+    "origin": "AI-generated concept illustration",
+    "prompt": "Use case: scientific-educational. Asset type: original illustrated apparel-construction reference for a female character appearance atlas, non-sexual neutral product display. Portrait single image, warm ivory background, precise clean anime production-reference outlines and restrained cel shading. Show one complete pair of opaque charcoal-black STIRRUP TIGHTS from waistband through BOTH feet on a neutral matte light-gray adult-size lower-body retail mannequin, with no torso above the waist and no realistic skin. Three-quarter standing view; one foot slightly lifted and turned outward so its underside can be seen. The fabric legs continue past the ankle into a visibly CONTINUOUS narrow stirrup band beneath the midfoot ARCH, while the HEEL and FOREFOOT/TOES remain completely uncovered gray mannequin. The stirrup band is an integral continuation of the fabric leg, not a separate shoe, sock, ankle strap, cuff or isolated elastic. Add one large circular construction inset in clear unused space at the right showing the SAME foot from a low side/sole angle: opaque fabric connecting both ankle sides and wrapping beneath the arch, exposed gray heel behind it and exposed gray toes in front. Both the main image and inset must unmistakably show the under-arch band. Clearly show waistband and all garment edges and both complete feet, no truncation of the garment. Main figure large, inset does not overlap it. Small exact code 'SO075' at upper left. No other text, arrows, logo, brand, watermark, additional garments, shoes, decorative lace, human model, erotic pose or grid.",
+    "qa_status": "image_cells_checked",
+    "items": [
+      {
+        "entry_id": "SO075",
+        "label": "SO075",
+        "name": "踩脚连裤袜"
       }
     ]
   }

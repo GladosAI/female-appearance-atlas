@@ -2,8 +2,8 @@
   "meta": {
     "title": "女性之美",
     "subtitle": "女性角色外观图鉴",
-    "date": "2026-11-03",
-    "version": "70.0",
+    "date": "2026-11-04",
+    "version": "70.1",
     "entry_count": 7145,
     "category_count": 200,
     "clothing_count": 3365,
@@ -95,7 +95,7 @@
       "mythic_personifications"
     ],
     "illustrated_count": 7145,
-    "board_count": 692,
+    "board_count": 694,
     "reference_count": 206,
     "museum_image_count": 6,
     "combination_count": 71,
@@ -103,8 +103,8 @@
     "scope": "覆盖常见外貌、服饰、职业与幻想创作部件；视角、成年年龄表现与配色为独立创作参考分类；青少年服装按校园、日常和活动另列。",
     "provenance": "词条独立编排；动漫图为 AI 生成的创作示意，六张实物照片另有原始馆藏记录。相关阅读是延伸入口，不代表每项均为文献引用。",
     "layout_version": "32.0",
-    "last_content_version": "70.0",
-    "new_count": 32,
+    "last_content_version": "70.1",
+    "new_count": 0,
     "style_family_count": 30,
     "shoulder_count": 73,
     "hair_count": 531,
@@ -29238,7 +29238,7 @@
       "dimension": "鞋靴",
       "name": "缎带芭蕾舞鞋",
       "en": "ballet shoes with ribbons",
-      "description": "柔软鞋面与踝部交叉缎带固定。",
+      "description": "柔软圆头鞋面与可弯折薄底，侧缝连接长缎带；图例为软底芭蕾练功鞋，不带硬质足尖盒。",
       "origin": "editorial",
       "id": "FW046",
       "category_name": "鞋履与靴型",
@@ -29260,22 +29260,14 @@
       "hosiery_reference": false,
       "anthro_reference": false,
       "visual": {
-        "board": "sheet-fw033-fw046",
-        "image": "images/sheet-fw033-fw046.png",
-        "column": 1,
-        "row": 3,
-        "columns": 4,
-        "rows": 4,
+        "board": "quality-20261104-fw046",
+        "image": "images/quality-v70-1-fw046.png",
+        "column": 0,
+        "row": 0,
+        "columns": 1,
+        "rows": 1,
         "label": "FW046",
-        "aspect": 0.9131736526946108,
-        "crop": {
-          "x": 310,
-          "y": 944,
-          "width": 305,
-          "height": 334,
-          "sheet_width": 1230,
-          "sheet_height": 1278
-        }
+        "aspect": 1.0
       }
     },
     {
@@ -114945,7 +114937,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR017",
-        "aspect": 1.0942452043369475
+        "aspect": 1.1310344827586207,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 328,
+          "height": 290,
+          "sheet_width": 1312,
+          "sheet_height": 1199
+        }
       },
       "wearing_visual": {
         "board": "wear-hr017-hr032",
@@ -115017,7 +115017,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR018",
-        "aspect": 1.0942452043369475
+        "aspect": 1.1310344827586207,
+        "crop": {
+          "x": 328,
+          "y": 0,
+          "width": 328,
+          "height": 290,
+          "sheet_width": 1312,
+          "sheet_height": 1199
+        }
       },
       "wearing_visual": {
         "board": "wear-hr017-hr032",
@@ -115089,7 +115097,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR019",
-        "aspect": 1.0942452043369475
+        "aspect": 1.1310344827586207,
+        "crop": {
+          "x": 656,
+          "y": 0,
+          "width": 328,
+          "height": 290,
+          "sheet_width": 1312,
+          "sheet_height": 1199
+        }
       },
       "wearing_visual": {
         "board": "wear-hr017-hr032",
@@ -115161,7 +115177,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR020",
-        "aspect": 1.0942452043369475
+        "aspect": 1.1310344827586207,
+        "crop": {
+          "x": 984,
+          "y": 0,
+          "width": 328,
+          "height": 290,
+          "sheet_width": 1312,
+          "sheet_height": 1199
+        }
       },
       "wearing_visual": {
         "board": "wear-hr017-hr032",
@@ -115233,7 +115257,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR021",
-        "aspect": 1.0942452043369475
+        "aspect": 1.1349480968858132,
+        "crop": {
+          "x": 0,
+          "y": 290,
+          "width": 328,
+          "height": 289,
+          "sheet_width": 1312,
+          "sheet_height": 1199
+        }
       },
       "wearing_visual": {
         "board": "wear-hr017-hr032",
@@ -115305,7 +115337,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR022",
-        "aspect": 1.0942452043369475
+        "aspect": 1.1349480968858132,
+        "crop": {
+          "x": 328,
+          "y": 290,
+          "width": 328,
+          "height": 289,
+          "sheet_width": 1312,
+          "sheet_height": 1199
+        }
       },
       "wearing_visual": {
         "board": "wear-hr017-hr032",
@@ -115377,7 +115417,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR023",
-        "aspect": 1.0942452043369475
+        "aspect": 1.1349480968858132,
+        "crop": {
+          "x": 656,
+          "y": 290,
+          "width": 328,
+          "height": 289,
+          "sheet_width": 1312,
+          "sheet_height": 1199
+        }
       },
       "wearing_visual": {
         "board": "wear-hr017-hr032",
@@ -115449,7 +115497,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR024",
-        "aspect": 1.0942452043369475
+        "aspect": 1.1349480968858132,
+        "crop": {
+          "x": 984,
+          "y": 290,
+          "width": 328,
+          "height": 289,
+          "sheet_width": 1312,
+          "sheet_height": 1199
+        }
       },
       "wearing_visual": {
         "board": "wear-hr017-hr032",
@@ -115521,7 +115577,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR025",
-        "aspect": 1.0942452043369475
+        "aspect": 1.2014652014652014,
+        "crop": {
+          "x": 0,
+          "y": 579,
+          "width": 328,
+          "height": 273,
+          "sheet_width": 1312,
+          "sheet_height": 1199
+        }
       },
       "wearing_visual": {
         "board": "wear-hr017-hr032",
@@ -115593,7 +115657,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR026",
-        "aspect": 1.0942452043369475
+        "aspect": 1.2014652014652014,
+        "crop": {
+          "x": 328,
+          "y": 579,
+          "width": 328,
+          "height": 273,
+          "sheet_width": 1312,
+          "sheet_height": 1199
+        }
       },
       "wearing_visual": {
         "board": "wear-hr017-hr032",
@@ -115665,7 +115737,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR027",
-        "aspect": 1.0942452043369475
+        "aspect": 1.2014652014652014,
+        "crop": {
+          "x": 656,
+          "y": 579,
+          "width": 328,
+          "height": 273,
+          "sheet_width": 1312,
+          "sheet_height": 1199
+        }
       },
       "wearing_visual": {
         "board": "wear-hr017-hr032",
@@ -115737,7 +115817,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR028",
-        "aspect": 1.0942452043369475
+        "aspect": 1.2014652014652014,
+        "crop": {
+          "x": 984,
+          "y": 579,
+          "width": 328,
+          "height": 273,
+          "sheet_width": 1312,
+          "sheet_height": 1199
+        }
       },
       "wearing_visual": {
         "board": "wear-hr017-hr032",
@@ -115809,7 +115897,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR029",
-        "aspect": 1.0942452043369475
+        "aspect": 0.9452449567723343,
+        "crop": {
+          "x": 0,
+          "y": 852,
+          "width": 328,
+          "height": 347,
+          "sheet_width": 1312,
+          "sheet_height": 1199
+        }
       },
       "wearing_visual": {
         "board": "wear-hr017-hr032",
@@ -115881,7 +115977,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR030",
-        "aspect": 1.0942452043369475
+        "aspect": 0.9452449567723343,
+        "crop": {
+          "x": 328,
+          "y": 852,
+          "width": 328,
+          "height": 347,
+          "sheet_width": 1312,
+          "sheet_height": 1199
+        }
       },
       "wearing_visual": {
         "board": "wear-hr017-hr032",
@@ -115953,7 +116057,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR031",
-        "aspect": 1.0942452043369475
+        "aspect": 0.9452449567723343,
+        "crop": {
+          "x": 656,
+          "y": 852,
+          "width": 328,
+          "height": 347,
+          "sheet_width": 1312,
+          "sheet_height": 1199
+        }
       },
       "wearing_visual": {
         "board": "wear-hr017-hr032",
@@ -116025,7 +116137,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR032",
-        "aspect": 1.0942452043369475
+        "aspect": 0.9452449567723343,
+        "crop": {
+          "x": 984,
+          "y": 852,
+          "width": 328,
+          "height": 347,
+          "sheet_width": 1312,
+          "sheet_height": 1199
+        }
       },
       "wearing_visual": {
         "board": "wear-hr017-hr032",
@@ -116099,7 +116219,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR033",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9968354430379747,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 315,
+          "height": 316,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       },
       "wearing_visual": {
         "board": "wear-hr033-hr048",
@@ -116173,7 +116301,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR034",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9367088607594937,
+        "crop": {
+          "x": 315,
+          "y": 0,
+          "width": 296,
+          "height": 316,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       },
       "wearing_visual": {
         "board": "wear-hr033-hr048",
@@ -116247,7 +116383,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR035",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9430379746835443,
+        "crop": {
+          "x": 611,
+          "y": 0,
+          "width": 298,
+          "height": 316,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       },
       "wearing_visual": {
         "board": "wear-hr033-hr048",
@@ -116321,7 +116465,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR036",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9936708860759493,
+        "crop": {
+          "x": 909,
+          "y": 0,
+          "width": 314,
+          "height": 316,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       },
       "wearing_visual": {
         "board": "wear-hr033-hr048",
@@ -116395,7 +116547,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR037",
-        "aspect": 0.9510108864696734
+        "aspect": 1.0063897763578276,
+        "crop": {
+          "x": 0,
+          "y": 316,
+          "width": 315,
+          "height": 313,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       },
       "wearing_visual": {
         "board": "wear-hr033-hr048",
@@ -116469,7 +116629,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR038",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9456869009584664,
+        "crop": {
+          "x": 315,
+          "y": 316,
+          "width": 296,
+          "height": 313,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       },
       "wearing_visual": {
         "board": "wear-hr033-hr048",
@@ -116543,7 +116711,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR039",
-        "aspect": 0.9510108864696734
+        "aspect": 0.952076677316294,
+        "crop": {
+          "x": 611,
+          "y": 316,
+          "width": 298,
+          "height": 313,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       },
       "wearing_visual": {
         "board": "wear-hr033-hr048",
@@ -116617,7 +116793,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR040",
-        "aspect": 0.9510108864696734
+        "aspect": 1.0031948881789137,
+        "crop": {
+          "x": 909,
+          "y": 316,
+          "width": 314,
+          "height": 313,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       },
       "wearing_visual": {
         "board": "wear-hr033-hr048",
@@ -116691,7 +116875,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR041",
-        "aspect": 0.9510108864696734
+        "aspect": 1.0128617363344052,
+        "crop": {
+          "x": 0,
+          "y": 629,
+          "width": 315,
+          "height": 311,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       },
       "wearing_visual": {
         "board": "wear-hr033-hr048",
@@ -116765,7 +116957,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR042",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9517684887459807,
+        "crop": {
+          "x": 315,
+          "y": 629,
+          "width": 296,
+          "height": 311,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       },
       "wearing_visual": {
         "board": "wear-hr033-hr048",
@@ -116839,7 +117039,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR043",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9581993569131833,
+        "crop": {
+          "x": 611,
+          "y": 629,
+          "width": 298,
+          "height": 311,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       },
       "wearing_visual": {
         "board": "wear-hr033-hr048",
@@ -116913,7 +117121,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR044",
-        "aspect": 0.9510108864696734
+        "aspect": 1.0096463022508038,
+        "crop": {
+          "x": 909,
+          "y": 629,
+          "width": 314,
+          "height": 311,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       },
       "wearing_visual": {
         "board": "wear-hr033-hr048",
@@ -116987,7 +117203,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR045",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9104046242774566,
+        "crop": {
+          "x": 0,
+          "y": 940,
+          "width": 315,
+          "height": 346,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       },
       "wearing_visual": {
         "board": "wear-hr033-hr048",
@@ -117061,7 +117285,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR046",
-        "aspect": 0.9510108864696734
+        "aspect": 0.8554913294797688,
+        "crop": {
+          "x": 315,
+          "y": 940,
+          "width": 296,
+          "height": 346,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       },
       "wearing_visual": {
         "board": "wear-hr033-hr048",
@@ -117135,7 +117367,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR047",
-        "aspect": 0.9510108864696734
+        "aspect": 0.861271676300578,
+        "crop": {
+          "x": 611,
+          "y": 940,
+          "width": 298,
+          "height": 346,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       },
       "wearing_visual": {
         "board": "wear-hr033-hr048",
@@ -117209,7 +117449,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR048",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9075144508670521,
+        "crop": {
+          "x": 909,
+          "y": 940,
+          "width": 314,
+          "height": 346,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       },
       "wearing_visual": {
         "board": "wear-hr033-hr048",
@@ -117281,7 +117529,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR049",
-        "aspect": 0.9624413145539906
+        "aspect": 1.037162162162162,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 307,
+          "height": 296,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       },
       "wearing_visual": {
         "board": "wear-hr049-hr064",
@@ -117353,7 +117609,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR050",
-        "aspect": 0.9624413145539906
+        "aspect": 1.0405405405405406,
+        "crop": {
+          "x": 307,
+          "y": 0,
+          "width": 308,
+          "height": 296,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       },
       "wearing_visual": {
         "board": "wear-hr049-hr064",
@@ -117425,7 +117689,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR051",
-        "aspect": 0.9624413145539906
+        "aspect": 1.0337837837837838,
+        "crop": {
+          "x": 615,
+          "y": 0,
+          "width": 306,
+          "height": 296,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       },
       "wearing_visual": {
         "board": "wear-hr049-hr064",
@@ -117497,7 +117769,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR052",
-        "aspect": 0.9624413145539906
+        "aspect": 1.0439189189189189,
+        "crop": {
+          "x": 921,
+          "y": 0,
+          "width": 309,
+          "height": 296,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       },
       "wearing_visual": {
         "board": "wear-hr049-hr064",
@@ -117569,7 +117849,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR053",
-        "aspect": 0.9624413145539906
+        "aspect": 0.9777070063694268,
+        "crop": {
+          "x": 0,
+          "y": 296,
+          "width": 307,
+          "height": 314,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       },
       "wearing_visual": {
         "board": "wear-hr049-hr064",
@@ -117641,7 +117929,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR054",
-        "aspect": 0.9624413145539906
+        "aspect": 0.9808917197452229,
+        "crop": {
+          "x": 307,
+          "y": 296,
+          "width": 308,
+          "height": 314,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       },
       "wearing_visual": {
         "board": "wear-hr049-hr064",
@@ -117713,7 +118009,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR055",
-        "aspect": 0.9624413145539906
+        "aspect": 0.9745222929936306,
+        "crop": {
+          "x": 615,
+          "y": 296,
+          "width": 306,
+          "height": 314,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       },
       "wearing_visual": {
         "board": "wear-hr049-hr064",
@@ -117785,7 +118089,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR056",
-        "aspect": 0.9624413145539906
+        "aspect": 0.9840764331210191,
+        "crop": {
+          "x": 921,
+          "y": 296,
+          "width": 309,
+          "height": 314,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       },
       "wearing_visual": {
         "board": "wear-hr049-hr064",
@@ -117857,7 +118169,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR057",
-        "aspect": 0.9624413145539906
+        "aspect": 1.0302013422818792,
+        "crop": {
+          "x": 0,
+          "y": 610,
+          "width": 307,
+          "height": 298,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       },
       "wearing_visual": {
         "board": "wear-hr049-hr064",
@@ -117929,7 +118249,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR058",
-        "aspect": 0.9624413145539906
+        "aspect": 1.0335570469798658,
+        "crop": {
+          "x": 307,
+          "y": 610,
+          "width": 308,
+          "height": 298,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       },
       "wearing_visual": {
         "board": "wear-hr049-hr064",
@@ -118001,7 +118329,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR059",
-        "aspect": 0.9624413145539906
+        "aspect": 1.0268456375838926,
+        "crop": {
+          "x": 615,
+          "y": 610,
+          "width": 306,
+          "height": 298,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       },
       "wearing_visual": {
         "board": "wear-hr049-hr064",
@@ -118073,7 +118409,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR060",
-        "aspect": 0.9624413145539906
+        "aspect": 1.0369127516778522,
+        "crop": {
+          "x": 921,
+          "y": 610,
+          "width": 309,
+          "height": 298,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       },
       "wearing_visual": {
         "board": "wear-hr049-hr064",
@@ -118145,7 +118489,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR061",
-        "aspect": 0.9624413145539906
+        "aspect": 0.8297297297297297,
+        "crop": {
+          "x": 0,
+          "y": 908,
+          "width": 307,
+          "height": 370,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       },
       "wearing_visual": {
         "board": "wear-hr049-hr064",
@@ -118217,7 +118569,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR062",
-        "aspect": 0.9624413145539906
+        "aspect": 0.8324324324324325,
+        "crop": {
+          "x": 307,
+          "y": 908,
+          "width": 308,
+          "height": 370,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       },
       "wearing_visual": {
         "board": "wear-hr049-hr064",
@@ -118289,7 +118649,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR063",
-        "aspect": 0.9624413145539906
+        "aspect": 0.827027027027027,
+        "crop": {
+          "x": 615,
+          "y": 908,
+          "width": 306,
+          "height": 370,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       },
       "wearing_visual": {
         "board": "wear-hr049-hr064",
@@ -118361,7 +118729,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HR064",
-        "aspect": 0.9624413145539906
+        "aspect": 0.8351351351351352,
+        "crop": {
+          "x": 921,
+          "y": 908,
+          "width": 309,
+          "height": 370,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       },
       "wearing_visual": {
         "board": "wear-hr049-hr064",
@@ -182511,7 +182887,7 @@
       "dimension": "连裤袜与打底袜裤版型",
       "name": "踩脚连裤袜",
       "en": "stirrup hosiery tights",
-      "description": "完整袜裤从腰至踝，双侧脚底各一闭合窄踩脚环，脚跟与脚尖开放，环不可画成鞋。",
+      "description": "不透明袜裤由腰部延伸至脚踝，一体织造的踩脚带包住足弓，脚跟和前掌露出；附同一结构的脚底近景。",
       "origin": "editorial",
       "age_context": "成年规格袜类产品参考",
       "hosiery_reference": true,
@@ -182558,22 +182934,14 @@
       "facial_reference": false,
       "anthro_reference": false,
       "visual": {
-        "board": "sheet-so065-so080",
-        "image": "images/sheet-so065-so080-v2.png",
-        "column": 2,
-        "row": 2,
-        "columns": 4,
-        "rows": 4,
+        "board": "quality-20261104-so075",
+        "image": "images/quality-v70-1-so075.png",
+        "column": 0,
+        "row": 0,
+        "columns": 1,
+        "rows": 1,
         "label": "SO075",
-        "aspect": 1.0133333333333334,
-        "crop": {
-          "x": 610,
-          "y": 635,
-          "width": 304,
-          "height": 300,
-          "sheet_width": 1223,
-          "sheet_height": 1286
-        }
+        "aspect": 0.9374517374517375
       }
     },
     {
@@ -421684,7 +422052,21 @@
         }
       ],
       "qa_date": "2026-10-14",
-      "qa_note": "Complete headband, clip, pin or tie, with visible connection details."
+      "qa_note": "Complete headband, clip, pin or tie, with visible connection details.",
+      "column_boundaries": [
+        0,
+        328,
+        656,
+        984,
+        1312
+      ],
+      "row_boundaries": [
+        0,
+        290,
+        579,
+        852,
+        1199
+      ]
     },
     {
       "id": "sheet-hr033-hr048",
@@ -421782,7 +422164,21 @@
         }
       ],
       "qa_date": "2026-10-14",
-      "qa_note": "Complete headband, clip, pin or tie, with visible connection details. HR036 shown as a single spiral rod; description records this variant."
+      "qa_note": "Complete headband, clip, pin or tie, with visible connection details. HR036 shown as a single spiral rod; description records this variant.",
+      "column_boundaries": [
+        0,
+        315,
+        611,
+        909,
+        1223
+      ],
+      "row_boundaries": [
+        0,
+        316,
+        629,
+        940,
+        1286
+      ]
     },
     {
       "id": "sheet-hr049-hr064",
@@ -421880,7 +422276,21 @@
         }
       ],
       "qa_date": "2026-10-14",
-      "qa_note": "Complete headband, clip, pin or tie, with visible connection details."
+      "qa_note": "Complete headband, clip, pin or tie, with visible connection details.",
+      "column_boundaries": [
+        0,
+        307,
+        615,
+        921,
+        1230
+      ],
+      "row_boundaries": [
+        0,
+        296,
+        610,
+        908,
+        1278
+      ]
     },
     {
       "id": "sheet-er001-er016",
@@ -459413,6 +459823,48 @@
           "name": "无字图像心声气泡格"
         }
       ]
+    },
+    {
+      "id": "quality-20261104-fw046",
+      "category": "footwear",
+      "dimension": "鞋靴",
+      "title": "缎带芭蕾舞鞋 · 结构修订",
+      "image": "images/quality-v70-1-fw046.png",
+      "width": 1254,
+      "height": 1254,
+      "columns": 1,
+      "rows": 1,
+      "origin": "AI-generated concept illustration",
+      "prompt": "Use case: product-mockup. Asset type: original illustrated footwear catalog reference for a female character appearance atlas. Portrait or square single image on a warm ivory background, restrained anime production-reference linework with soft cel shading, very clear materials and construction. Draw ONE PAIR of adult-size pale blush-pink SOFT BALLET SLIPPERS with long narrow satin ankle ribbons. They are empty unworn shoes, arranged in a clear three-quarter flat-lay, with complete round flexible toe shapes and low supple uppers. The soft forefoot of one slipper gently bends so it is visibly pliable. The other shoe is turned partially sideways to reveal a very thin flexible split leather sole with separate forefoot and heel pads. Attached ribbons are sewn at the sides and lie in loose open curves, showing attachment points; no complex tied knots obscuring the shoes. Main purpose: distinguish a soft ballet slipper from a rigid pointe shoe: NO hard toe box, NO flattened platform toe end, NO rigid shank, NO shoe standing on its toe tip, NO high heel. Entire pair and ribbon ends fit inside the canvas with generous clear margin. Small exact code 'FW046' at top left; no other writing, logo, brand, watermark, grid, border, human model or extra shoes. Make the main pair large and easy to read in an atlas thumbnail.",
+      "qa_status": "image_cells_checked",
+      "items": [
+        {
+          "entry_id": "FW046",
+          "label": "FW046",
+          "name": "缎带芭蕾舞鞋"
+        }
+      ]
+    },
+    {
+      "id": "quality-20261104-so075",
+      "category": "hosiery",
+      "dimension": "连裤袜与打底袜裤版型",
+      "title": "踩脚连裤袜 · 结构修订",
+      "image": "images/quality-v70-1-so075.png",
+      "width": 1214,
+      "height": 1295,
+      "columns": 1,
+      "rows": 1,
+      "origin": "AI-generated concept illustration",
+      "prompt": "Use case: scientific-educational. Asset type: original illustrated apparel-construction reference for a female character appearance atlas, non-sexual neutral product display. Portrait single image, warm ivory background, precise clean anime production-reference outlines and restrained cel shading. Show one complete pair of opaque charcoal-black STIRRUP TIGHTS from waistband through BOTH feet on a neutral matte light-gray adult-size lower-body retail mannequin, with no torso above the waist and no realistic skin. Three-quarter standing view; one foot slightly lifted and turned outward so its underside can be seen. The fabric legs continue past the ankle into a visibly CONTINUOUS narrow stirrup band beneath the midfoot ARCH, while the HEEL and FOREFOOT/TOES remain completely uncovered gray mannequin. The stirrup band is an integral continuation of the fabric leg, not a separate shoe, sock, ankle strap, cuff or isolated elastic. Add one large circular construction inset in clear unused space at the right showing the SAME foot from a low side/sole angle: opaque fabric connecting both ankle sides and wrapping beneath the arch, exposed gray heel behind it and exposed gray toes in front. Both the main image and inset must unmistakably show the under-arch band. Clearly show waistband and all garment edges and both complete feet, no truncation of the garment. Main figure large, inset does not overlap it. Small exact code 'SO075' at upper left. No other text, arrows, logo, brand, watermark, additional garments, shoes, decorative lace, human model, erotic pose or grid.",
+      "qa_status": "image_cells_checked",
+      "items": [
+        {
+          "entry_id": "SO075",
+          "label": "SO075",
+          "name": "踩脚连裤袜"
+        }
+      ]
     }
   ],
   "references": [
@@ -466914,6 +467366,8 @@
     "images/clothing.png": "images/export-data/a19d49346e7e-b4b1fcfc668c.js",
     "images/face.png": "images/export-data/d472244eac44-53a1ea13754a.js",
     "images/hair.png": "images/export-data/7f1b6b807305-d25d27b6b469.js",
+    "images/quality-v70-1-fw046.png": "images/export-data/3da204416214-21cbc484d0ac.js",
+    "images/quality-v70-1-so075.png": "images/export-data/51c0e31ea097-2c9c78563dde.js",
     "images/sheet-ac002-ac020.png": "images/export-data/b344c5819c0e-58605ffd71a8.js",
     "images/sheet-ac023-ac044.png": "images/export-data/d9cd1f1a7e87-edcb72b521f9.js",
     "images/sheet-ad001-ad004-v2.png": "images/export-data/43fdd802bf47-be6263dcb731.js",

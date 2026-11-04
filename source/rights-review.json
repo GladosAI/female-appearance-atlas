@@ -22709,6 +22709,60 @@
         "declared_inputs": []
       },
       "generation_tool": "built-in image_gen"
+    },
+    {
+      "path": "images/quality-v70-1-fw046.png",
+      "kind": "ai-generated-reference",
+      "sha256": "21cbc484d0ac7a1aec0b7016623805ab25867d33498d0de5cd5a866da25f1fef",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "quality-20261104-fw046",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-04",
+      "reviewed_at": "2026-11-04",
+      "notes": "Original maintenance replacement with no image inputs; reviewed for the target garment structure. Existing project material license retained.",
+      "evidence_ids": [
+        "E-QUALITY-GENERATION-20261104",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-3da20441621449b0"
+      ],
+      "provenance": {
+        "observed_sha256": "21cbc484d0ac7a1aec0b7016623805ab25867d33498d0de5cd5a866da25f1fef",
+        "status": "generated-file-match",
+        "board_id": "quality-20261104-fw046",
+        "prompt_sources": [
+          "source/material-quality-prompts-20261104.json#/records/0/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/quality-v70-1-so075.png",
+      "kind": "ai-generated-reference",
+      "sha256": "2c9c78563ddef01b2416ade0ecc9705cbaa7d85b3ce8b2639cd7b81d20ed7016",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "quality-20261104-so075",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-04",
+      "reviewed_at": "2026-11-04",
+      "notes": "Original maintenance replacement with no image inputs; reviewed for the target garment structure. Existing project material license retained.",
+      "evidence_ids": [
+        "E-QUALITY-GENERATION-20261104",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-51c0e31ea097247c"
+      ],
+      "provenance": {
+        "observed_sha256": "2c9c78563ddef01b2416ade0ecc9705cbaa7d85b3ce8b2639cd7b81d20ed7016",
+        "status": "generated-file-match",
+        "board_id": "quality-20261104-so075",
+        "prompt_sources": [
+          "source/material-quality-prompts-20261104.json#/records/1/prompt"
+        ],
+        "declared_inputs": []
+      }
     }
   ],
   "audit": {

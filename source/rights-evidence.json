@@ -8083,6 +8083,48 @@
       "license": "CC-BY-NC-4.0",
       "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
       "permission_basis": "Noncommercial sharing and adaptation under the owner-selected material policy, within rights held or licensable by the project. Asset identity is bound to this hash; this grant does not relicense third-party material."
+    },
+    {
+      "id": "E-NC-GRANT-3da20441621449b0",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-04",
+      "asset": "images/quality-v70-1-fw046.png",
+      "local_sha256": "21cbc484d0ac7a1aec0b7016623805ab25867d33498d0de5cd5a866da25f1fef",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project maintenance replacement under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project. This asset-specific record binds the new output hash; third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-51c0e31ea097247c",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-04",
+      "asset": "images/quality-v70-1-so075.png",
+      "local_sha256": "2c9c78563ddef01b2416ade0ecc9705cbaa7d85b3ce8b2639cd7b81d20ed7016",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project maintenance replacement under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project. This asset-specific record binds the new output hash; third-party material is not relicensed."
+    },
+    {
+      "id": "E-QUALITY-GENERATION-20261104",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-04",
+      "title": "Original outputs for the first material quality revision",
+      "source": "Built-in image_gen tool output observed in the project maintenance conversation, 2026-11-04",
+      "assets": [
+        {
+          "path": "images/quality-v70-1-fw046.png",
+          "local_sha256": "21cbc484d0ac7a1aec0b7016623805ab25867d33498d0de5cd5a866da25f1fef",
+          "entry_id": "FW046"
+        },
+        {
+          "path": "images/quality-v70-1-so075.png",
+          "local_sha256": "2c9c78563ddef01b2416ade0ecc9705cbaa7d85b3ce8b2639cd7b81d20ed7016",
+          "entry_id": "SO075"
+        }
+      ],
+      "prompt_source": "source/material-quality-prompts-20261104.json",
+      "declared_inputs": [],
+      "permission_basis": "Generation provenance only; distribution permission is recorded separately through the continuing owner-selected material policy and asset-specific grants."
     }
   ]
 }
