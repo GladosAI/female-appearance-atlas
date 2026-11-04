@@ -1460,6 +1460,20 @@
         "entry_id": "PO020",
         "name": "蹲姿"
       }
+    ],
+    "column_boundaries": [
+      0,
+      311,
+      611,
+      913,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      332,
+      654,
+      960,
+      1286
     ]
   },
   {
@@ -1556,6 +1570,20 @@
         "entry_id": "PO039",
         "name": "悬浮"
       }
+    ],
+    "column_boundaries": [
+      0,
+      316,
+      611,
+      908,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      319,
+      637,
+      953,
+      1286
     ]
   },
   {
@@ -4016,6 +4044,19 @@
         "entry_id": "PO060",
         "name": "弯腰系鞋"
       }
+    ],
+    "column_boundaries": [
+      0,
+      305,
+      612,
+      919,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      429,
+      838,
+      1286
     ]
   },
   {
@@ -21498,7 +21539,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "HG009 label and description explicitly match the visible fist-back cough-cover variant."
+    "qa_notes": "HG009 label and description explicitly match the visible fist-back cough-cover variant.",
+    "column_boundaries": [
+      0,
+      314,
+      627,
+      941,
+      1254
+    ],
+    "row_boundaries": [
+      0,
+      314,
+      628,
+      938,
+      1254
+    ]
   },
   {
     "id": "sheet-hg033-hg048",
@@ -21596,7 +21651,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "HG041 label and description match fingers holding the glasses frame rather than lifting it."
+    "qa_notes": "HG041 label and description match fingers holding the glasses frame rather than lifting it.",
+    "column_boundaries": [
+      0,
+      303,
+      613,
+      922,
+      1227
+    ],
+    "row_boundaries": [
+      0,
+      319,
+      632,
+      935,
+      1282
+    ]
   },
   {
     "id": "sheet-fl001-fl016",
@@ -21990,7 +22059,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "Reviewed adult facial acting: mapped labels, visible requested features, coherent facial anatomy and hands where present. Nonexplicit, non-graphic creative reference."
+    "qa_notes": "Reviewed adult facial acting: mapped labels, visible requested features, coherent facial anatomy and hands where present. Nonexplicit, non-graphic creative reference.",
+    "column_boundaries": [
+      0,
+      312,
+      623,
+      937,
+      1249
+    ],
+    "row_boundaries": [
+      0,
+      314,
+      628,
+      930,
+      1260
+    ]
   },
   {
     "id": "sheet-fl017-fl032",

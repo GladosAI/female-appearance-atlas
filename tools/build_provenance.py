@@ -1,7 +1,22 @@
 """Public application/content/resource versions, without private machine metadata."""
 import json
+import hashlib
 import re
 import subprocess
+
+
+def resource_inventory_digest(root):
+    """Bind reusable resources to image identities and the offline export mapping, not crops."""
+    catalog = json.loads((root/'data/catalog.json').read_text(encoding='utf-8'))
+    rights = json.loads((root/'source/rights-review.json').read_text(encoding='utf-8'))
+    exports = json.loads((root/'data/image-export-index.json').read_text(encoding='utf-8'))
+    hashes = {asset['path']: asset['sha256'] for asset in rights['assets']}
+    paths = {board['image'] for board in catalog['boards']}
+    paths.update(reference['image'] for reference in catalog.get('references', []) if reference.get('image'))
+    payload = {'images': sorted((path, hashes[path]) for path in paths),
+               'offline_exports': sorted((image, item['file'], item['mime'], item['source_sha256'])
+                                         for image, item in exports.items())}
+    return hashlib.sha256(json.dumps(payload, sort_keys=True, separators=(',', ':')).encode('utf-8')).hexdigest()
 
 
 def application_info(root, include_commit=False):
@@ -18,8 +33,14 @@ def application_info(root, include_commit=False):
     if registry.exists():
         packs=json.loads(registry.read_text(encoding='utf-8'))['releases']
         resources=packs.get(release['image_release'])
-        if not resources or resources['content_version']!=content['version']:
+        if not resources:
             raise ValueError('Registered resource pack does not match the content version')
+        if resources['content_version'] != content['version']:
+            # A named metadata-only content revision may reuse released bytes, with an exact inventory proof.
+            if (content['version'] not in resources.get('compatible_content_versions', [])
+                    or not re.fullmatch('[0-9a-f]{64}', resources.get('inventory_sha256', ''))
+                    or resources['inventory_sha256'] != resource_inventory_digest(root)):
+                raise ValueError('Registered resource pack is not proven compatible with this content revision')
         expected={'female-appearance-atlas-images.zip','female-appearance-atlas-offline-copy.zip'}
         if len(resources['assets'])!=len(expected) or {asset['file'] for asset in resources['assets']}!=expected:
             raise ValueError('Incomplete resource pack registration')

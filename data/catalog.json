@@ -3,7 +3,7 @@
     "title": "女性之美",
     "subtitle": "女性角色外观图鉴",
     "date": "2026-11-04",
-    "version": "71.0",
+    "version": "71.1",
     "entry_count": 7209,
     "category_count": 208,
     "clothing_count": 3365,
@@ -103,8 +103,8 @@
     "scope": "覆盖常见外貌、服饰、职业与幻想创作部件；视角、成年年龄表现与配色为独立创作参考分类；青少年服装按校园、日常和活动另列。",
     "provenance": "词条独立编排；动漫图为 AI 生成的创作示意，六张实物照片另有原始馆藏记录。相关阅读是延伸入口，不代表每项均为文献引用。",
     "layout_version": "32.0",
-    "last_content_version": "71.0",
-    "new_count": 64,
+    "last_content_version": "71.1",
+    "new_count": 0,
     "style_family_count": 30,
     "shoulder_count": 73,
     "hair_count": 531,
@@ -12280,7 +12280,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO004",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9367469879518072,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 311,
+          "height": 332,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -12354,7 +12362,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO006",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9036144578313253,
+        "crop": {
+          "x": 311,
+          "y": 0,
+          "width": 300,
+          "height": 332,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -12391,7 +12407,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO007",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9096385542168675,
+        "crop": {
+          "x": 611,
+          "y": 0,
+          "width": 302,
+          "height": 332,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -12428,7 +12452,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO008",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9337349397590361,
+        "crop": {
+          "x": 913,
+          "y": 0,
+          "width": 310,
+          "height": 332,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -12465,7 +12497,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO009",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9658385093167702,
+        "crop": {
+          "x": 0,
+          "y": 332,
+          "width": 311,
+          "height": 322,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -12502,7 +12542,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO010",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9316770186335404,
+        "crop": {
+          "x": 311,
+          "y": 332,
+          "width": 300,
+          "height": 322,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -12539,7 +12587,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO011",
-        "aspect": 0.9510108864696734
+        "aspect": 0.937888198757764,
+        "crop": {
+          "x": 611,
+          "y": 332,
+          "width": 302,
+          "height": 322,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -12576,7 +12632,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO012",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9627329192546584,
+        "crop": {
+          "x": 913,
+          "y": 332,
+          "width": 310,
+          "height": 322,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -12613,7 +12677,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO013",
-        "aspect": 0.9510108864696734
+        "aspect": 1.0163398692810457,
+        "crop": {
+          "x": 0,
+          "y": 654,
+          "width": 311,
+          "height": 306,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -12650,7 +12722,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO014",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9803921568627451,
+        "crop": {
+          "x": 311,
+          "y": 654,
+          "width": 300,
+          "height": 306,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -12687,7 +12767,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO015",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9869281045751634,
+        "crop": {
+          "x": 611,
+          "y": 654,
+          "width": 302,
+          "height": 306,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -12761,7 +12849,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO017",
-        "aspect": 0.9510108864696734
+        "aspect": 1.0130718954248366,
+        "crop": {
+          "x": 913,
+          "y": 654,
+          "width": 310,
+          "height": 306,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -12798,7 +12894,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO018",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9539877300613497,
+        "crop": {
+          "x": 0,
+          "y": 960,
+          "width": 311,
+          "height": 326,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -12835,7 +12939,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO019",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9202453987730062,
+        "crop": {
+          "x": 311,
+          "y": 960,
+          "width": 300,
+          "height": 326,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -12872,7 +12984,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO020",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9263803680981595,
+        "crop": {
+          "x": 611,
+          "y": 960,
+          "width": 302,
+          "height": 326,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -12983,7 +13103,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO023",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9905956112852664,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 316,
+          "height": 319,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -13020,7 +13148,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO024",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9247648902821317,
+        "crop": {
+          "x": 316,
+          "y": 0,
+          "width": 295,
+          "height": 319,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -13057,7 +13193,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO025",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9310344827586207,
+        "crop": {
+          "x": 611,
+          "y": 0,
+          "width": 297,
+          "height": 319,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -13094,7 +13238,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO026",
-        "aspect": 0.9510108864696734
+        "aspect": 0.987460815047022,
+        "crop": {
+          "x": 908,
+          "y": 0,
+          "width": 315,
+          "height": 319,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -13168,7 +13320,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO028",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9937106918238994,
+        "crop": {
+          "x": 0,
+          "y": 319,
+          "width": 316,
+          "height": 318,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -13205,7 +13365,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO029",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9276729559748428,
+        "crop": {
+          "x": 316,
+          "y": 319,
+          "width": 295,
+          "height": 318,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -13242,7 +13410,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO030",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9339622641509434,
+        "crop": {
+          "x": 611,
+          "y": 319,
+          "width": 297,
+          "height": 318,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -13279,7 +13455,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO031",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9905660377358491,
+        "crop": {
+          "x": 908,
+          "y": 319,
+          "width": 315,
+          "height": 318,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -13316,7 +13500,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO032",
-        "aspect": 0.9510108864696734
+        "aspect": 1.0,
+        "crop": {
+          "x": 0,
+          "y": 637,
+          "width": 316,
+          "height": 316,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -13353,7 +13545,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO033",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9335443037974683,
+        "crop": {
+          "x": 316,
+          "y": 637,
+          "width": 295,
+          "height": 316,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -13390,7 +13590,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO034",
-        "aspect": 0.9510108864696734
+        "aspect": 0.939873417721519,
+        "crop": {
+          "x": 611,
+          "y": 637,
+          "width": 297,
+          "height": 316,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -13427,7 +13635,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO035",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9968354430379747,
+        "crop": {
+          "x": 908,
+          "y": 637,
+          "width": 315,
+          "height": 316,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -13464,7 +13680,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO036",
-        "aspect": 0.9510108864696734
+        "aspect": 0.948948948948949,
+        "crop": {
+          "x": 0,
+          "y": 953,
+          "width": 316,
+          "height": 333,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -13501,7 +13725,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO037",
-        "aspect": 0.9510108864696734
+        "aspect": 0.8858858858858859,
+        "crop": {
+          "x": 316,
+          "y": 953,
+          "width": 295,
+          "height": 333,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -13538,7 +13770,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO038",
-        "aspect": 0.9510108864696734
+        "aspect": 0.8918918918918919,
+        "crop": {
+          "x": 611,
+          "y": 953,
+          "width": 297,
+          "height": 333,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -13575,7 +13815,15 @@
         "columns": 4,
         "rows": 4,
         "label": "PO039",
-        "aspect": 0.9510108864696734
+        "aspect": 0.9459459459459459,
+        "crop": {
+          "x": 908,
+          "y": 953,
+          "width": 315,
+          "height": 333,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -29664,7 +29912,15 @@
         "columns": 4,
         "rows": 3,
         "label": "PO049",
-        "aspect": 0.713258164852255
+        "aspect": 0.710955710955711,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 305,
+          "height": 429,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -29701,7 +29957,15 @@
         "columns": 4,
         "rows": 3,
         "label": "PO050",
-        "aspect": 0.713258164852255
+        "aspect": 0.7156177156177156,
+        "crop": {
+          "x": 305,
+          "y": 0,
+          "width": 307,
+          "height": 429,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -29738,7 +30002,15 @@
         "columns": 4,
         "rows": 3,
         "label": "PO051",
-        "aspect": 0.713258164852255
+        "aspect": 0.7156177156177156,
+        "crop": {
+          "x": 612,
+          "y": 0,
+          "width": 307,
+          "height": 429,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -29775,7 +30047,15 @@
         "columns": 4,
         "rows": 3,
         "label": "PO052",
-        "aspect": 0.713258164852255
+        "aspect": 0.7086247086247086,
+        "crop": {
+          "x": 919,
+          "y": 0,
+          "width": 304,
+          "height": 429,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -29812,7 +30092,15 @@
         "columns": 4,
         "rows": 3,
         "label": "PO053",
-        "aspect": 0.713258164852255
+        "aspect": 0.7457212713936431,
+        "crop": {
+          "x": 0,
+          "y": 429,
+          "width": 305,
+          "height": 409,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -29849,7 +30137,15 @@
         "columns": 4,
         "rows": 3,
         "label": "PO054",
-        "aspect": 0.713258164852255
+        "aspect": 0.7506112469437652,
+        "crop": {
+          "x": 305,
+          "y": 429,
+          "width": 307,
+          "height": 409,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -29886,7 +30182,15 @@
         "columns": 4,
         "rows": 3,
         "label": "PO055",
-        "aspect": 0.713258164852255
+        "aspect": 0.7506112469437652,
+        "crop": {
+          "x": 612,
+          "y": 429,
+          "width": 307,
+          "height": 409,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -29923,7 +30227,15 @@
         "columns": 4,
         "rows": 3,
         "label": "PO056",
-        "aspect": 0.713258164852255
+        "aspect": 0.7432762836185819,
+        "crop": {
+          "x": 919,
+          "y": 429,
+          "width": 304,
+          "height": 409,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -29960,7 +30272,15 @@
         "columns": 4,
         "rows": 3,
         "label": "PO057",
-        "aspect": 0.713258164852255
+        "aspect": 0.6808035714285714,
+        "crop": {
+          "x": 0,
+          "y": 838,
+          "width": 305,
+          "height": 448,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -29997,7 +30317,15 @@
         "columns": 4,
         "rows": 3,
         "label": "PO058",
-        "aspect": 0.713258164852255
+        "aspect": 0.6852678571428571,
+        "crop": {
+          "x": 305,
+          "y": 838,
+          "width": 307,
+          "height": 448,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -30034,7 +30362,15 @@
         "columns": 4,
         "rows": 3,
         "label": "PO059",
-        "aspect": 0.713258164852255
+        "aspect": 0.6852678571428571,
+        "crop": {
+          "x": 612,
+          "y": 838,
+          "width": 307,
+          "height": 448,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -30071,7 +30407,15 @@
         "columns": 4,
         "rows": 3,
         "label": "PO060",
-        "aspect": 0.713258164852255
+        "aspect": 0.6785714285714286,
+        "crop": {
+          "x": 919,
+          "y": 838,
+          "width": 304,
+          "height": 448,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
       }
     },
     {
@@ -167402,7 +167746,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG001",
-        "aspect": 1.0
+        "aspect": 1.0,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 314,
+          "height": 314,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
       }
     },
     {
@@ -167446,7 +167798,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG002",
-        "aspect": 1.0
+        "aspect": 0.9968152866242038,
+        "crop": {
+          "x": 314,
+          "y": 0,
+          "width": 313,
+          "height": 314,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
       }
     },
     {
@@ -167490,7 +167850,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG003",
-        "aspect": 1.0
+        "aspect": 1.0,
+        "crop": {
+          "x": 627,
+          "y": 0,
+          "width": 314,
+          "height": 314,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
       }
     },
     {
@@ -167534,7 +167902,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG004",
-        "aspect": 1.0
+        "aspect": 0.9968152866242038,
+        "crop": {
+          "x": 941,
+          "y": 0,
+          "width": 313,
+          "height": 314,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
       }
     },
     {
@@ -167578,7 +167954,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG005",
-        "aspect": 1.0
+        "aspect": 1.0,
+        "crop": {
+          "x": 0,
+          "y": 314,
+          "width": 314,
+          "height": 314,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
       }
     },
     {
@@ -167622,7 +168006,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG006",
-        "aspect": 1.0
+        "aspect": 0.9968152866242038,
+        "crop": {
+          "x": 314,
+          "y": 314,
+          "width": 313,
+          "height": 314,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
       }
     },
     {
@@ -167666,7 +168058,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG007",
-        "aspect": 1.0
+        "aspect": 1.0,
+        "crop": {
+          "x": 627,
+          "y": 314,
+          "width": 314,
+          "height": 314,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
       }
     },
     {
@@ -167710,7 +168110,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG008",
-        "aspect": 1.0
+        "aspect": 0.9968152866242038,
+        "crop": {
+          "x": 941,
+          "y": 314,
+          "width": 313,
+          "height": 314,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
       }
     },
     {
@@ -167754,7 +168162,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG009",
-        "aspect": 1.0
+        "aspect": 1.0129032258064516,
+        "crop": {
+          "x": 0,
+          "y": 628,
+          "width": 314,
+          "height": 310,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
       }
     },
     {
@@ -167798,7 +168214,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG010",
-        "aspect": 1.0
+        "aspect": 1.0096774193548388,
+        "crop": {
+          "x": 314,
+          "y": 628,
+          "width": 313,
+          "height": 310,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
       }
     },
     {
@@ -167842,7 +168266,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG011",
-        "aspect": 1.0
+        "aspect": 1.0129032258064516,
+        "crop": {
+          "x": 627,
+          "y": 628,
+          "width": 314,
+          "height": 310,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
       }
     },
     {
@@ -167886,7 +168318,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG012",
-        "aspect": 1.0
+        "aspect": 1.0096774193548388,
+        "crop": {
+          "x": 941,
+          "y": 628,
+          "width": 313,
+          "height": 310,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
       }
     },
     {
@@ -167930,7 +168370,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG013",
-        "aspect": 1.0
+        "aspect": 0.9936708860759493,
+        "crop": {
+          "x": 0,
+          "y": 938,
+          "width": 314,
+          "height": 316,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
       }
     },
     {
@@ -167974,7 +168422,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG014",
-        "aspect": 1.0
+        "aspect": 0.990506329113924,
+        "crop": {
+          "x": 314,
+          "y": 938,
+          "width": 313,
+          "height": 316,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
       }
     },
     {
@@ -168018,7 +168474,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG015",
-        "aspect": 1.0
+        "aspect": 0.9936708860759493,
+        "crop": {
+          "x": 627,
+          "y": 938,
+          "width": 314,
+          "height": 316,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
       }
     },
     {
@@ -168062,7 +168526,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG016",
-        "aspect": 1.0
+        "aspect": 0.990506329113924,
+        "crop": {
+          "x": 941,
+          "y": 938,
+          "width": 313,
+          "height": 316,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
       }
     },
     {
@@ -168109,7 +168581,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG017",
-        "aspect": 0.9912698412698413
+        "aspect": 0.9936305732484076,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 312,
+          "height": 314,
+          "sheet_width": 1249,
+          "sheet_height": 1260
+        }
       }
     },
     {
@@ -168153,7 +168633,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG018",
-        "aspect": 0.9912698412698413
+        "aspect": 0.9904458598726115,
+        "crop": {
+          "x": 312,
+          "y": 0,
+          "width": 311,
+          "height": 314,
+          "sheet_width": 1249,
+          "sheet_height": 1260
+        }
       }
     },
     {
@@ -168197,7 +168685,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG019",
-        "aspect": 0.9912698412698413
+        "aspect": 1.0,
+        "crop": {
+          "x": 623,
+          "y": 0,
+          "width": 314,
+          "height": 314,
+          "sheet_width": 1249,
+          "sheet_height": 1260
+        }
       }
     },
     {
@@ -168241,7 +168737,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG020",
-        "aspect": 0.9912698412698413
+        "aspect": 0.9936305732484076,
+        "crop": {
+          "x": 937,
+          "y": 0,
+          "width": 312,
+          "height": 314,
+          "sheet_width": 1249,
+          "sheet_height": 1260
+        }
       }
     },
     {
@@ -168285,7 +168789,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG021",
-        "aspect": 0.9912698412698413
+        "aspect": 0.9936305732484076,
+        "crop": {
+          "x": 0,
+          "y": 314,
+          "width": 312,
+          "height": 314,
+          "sheet_width": 1249,
+          "sheet_height": 1260
+        }
       }
     },
     {
@@ -168329,7 +168841,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG022",
-        "aspect": 0.9912698412698413
+        "aspect": 0.9904458598726115,
+        "crop": {
+          "x": 312,
+          "y": 314,
+          "width": 311,
+          "height": 314,
+          "sheet_width": 1249,
+          "sheet_height": 1260
+        }
       }
     },
     {
@@ -168373,7 +168893,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG023",
-        "aspect": 0.9912698412698413
+        "aspect": 1.0,
+        "crop": {
+          "x": 623,
+          "y": 314,
+          "width": 314,
+          "height": 314,
+          "sheet_width": 1249,
+          "sheet_height": 1260
+        }
       }
     },
     {
@@ -168417,7 +168945,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG024",
-        "aspect": 0.9912698412698413
+        "aspect": 0.9936305732484076,
+        "crop": {
+          "x": 937,
+          "y": 314,
+          "width": 312,
+          "height": 314,
+          "sheet_width": 1249,
+          "sheet_height": 1260
+        }
       }
     },
     {
@@ -168461,7 +168997,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG025",
-        "aspect": 0.9912698412698413
+        "aspect": 1.033112582781457,
+        "crop": {
+          "x": 0,
+          "y": 628,
+          "width": 312,
+          "height": 302,
+          "sheet_width": 1249,
+          "sheet_height": 1260
+        }
       }
     },
     {
@@ -168509,7 +169053,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG026",
-        "aspect": 0.9912698412698413
+        "aspect": 1.0298013245033113,
+        "crop": {
+          "x": 312,
+          "y": 628,
+          "width": 311,
+          "height": 302,
+          "sheet_width": 1249,
+          "sheet_height": 1260
+        }
       }
     },
     {
@@ -168553,7 +169105,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG027",
-        "aspect": 0.9912698412698413
+        "aspect": 1.0397350993377483,
+        "crop": {
+          "x": 623,
+          "y": 628,
+          "width": 314,
+          "height": 302,
+          "sheet_width": 1249,
+          "sheet_height": 1260
+        }
       }
     },
     {
@@ -168597,7 +169157,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG028",
-        "aspect": 0.9912698412698413
+        "aspect": 1.033112582781457,
+        "crop": {
+          "x": 937,
+          "y": 628,
+          "width": 312,
+          "height": 302,
+          "sheet_width": 1249,
+          "sheet_height": 1260
+        }
       }
     },
     {
@@ -168641,7 +169209,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG029",
-        "aspect": 0.9912698412698413
+        "aspect": 0.9454545454545454,
+        "crop": {
+          "x": 0,
+          "y": 930,
+          "width": 312,
+          "height": 330,
+          "sheet_width": 1249,
+          "sheet_height": 1260
+        }
       }
     },
     {
@@ -168685,7 +169261,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG030",
-        "aspect": 0.9912698412698413
+        "aspect": 0.9424242424242424,
+        "crop": {
+          "x": 312,
+          "y": 930,
+          "width": 311,
+          "height": 330,
+          "sheet_width": 1249,
+          "sheet_height": 1260
+        }
       }
     },
     {
@@ -168733,7 +169317,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG031",
-        "aspect": 0.9912698412698413
+        "aspect": 0.9515151515151515,
+        "crop": {
+          "x": 623,
+          "y": 930,
+          "width": 314,
+          "height": 330,
+          "sheet_width": 1249,
+          "sheet_height": 1260
+        }
       }
     },
     {
@@ -168777,7 +169369,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG032",
-        "aspect": 0.9912698412698413
+        "aspect": 0.9454545454545454,
+        "crop": {
+          "x": 937,
+          "y": 930,
+          "width": 312,
+          "height": 330,
+          "sheet_width": 1249,
+          "sheet_height": 1260
+        }
       }
     },
     {
@@ -168821,7 +169421,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG033",
-        "aspect": 0.9570982839313572
+        "aspect": 0.9498432601880877,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 303,
+          "height": 319,
+          "sheet_width": 1227,
+          "sheet_height": 1282
+        }
       }
     },
     {
@@ -168865,7 +169473,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG034",
-        "aspect": 0.9570982839313572
+        "aspect": 0.9717868338557993,
+        "crop": {
+          "x": 303,
+          "y": 0,
+          "width": 310,
+          "height": 319,
+          "sheet_width": 1227,
+          "sheet_height": 1282
+        }
       }
     },
     {
@@ -168909,7 +169525,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG035",
-        "aspect": 0.9570982839313572
+        "aspect": 0.9686520376175548,
+        "crop": {
+          "x": 613,
+          "y": 0,
+          "width": 309,
+          "height": 319,
+          "sheet_width": 1227,
+          "sheet_height": 1282
+        }
       }
     },
     {
@@ -168953,7 +169577,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG036",
-        "aspect": 0.9570982839313572
+        "aspect": 0.9561128526645768,
+        "crop": {
+          "x": 922,
+          "y": 0,
+          "width": 305,
+          "height": 319,
+          "sheet_width": 1227,
+          "sheet_height": 1282
+        }
       }
     },
     {
@@ -168997,7 +169629,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG037",
-        "aspect": 0.9570982839313572
+        "aspect": 0.9680511182108626,
+        "crop": {
+          "x": 0,
+          "y": 319,
+          "width": 303,
+          "height": 313,
+          "sheet_width": 1227,
+          "sheet_height": 1282
+        }
       }
     },
     {
@@ -169041,7 +169681,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG038",
-        "aspect": 0.9570982839313572
+        "aspect": 0.9904153354632588,
+        "crop": {
+          "x": 303,
+          "y": 319,
+          "width": 310,
+          "height": 313,
+          "sheet_width": 1227,
+          "sheet_height": 1282
+        }
       }
     },
     {
@@ -169085,7 +169733,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG039",
-        "aspect": 0.9570982839313572
+        "aspect": 0.987220447284345,
+        "crop": {
+          "x": 613,
+          "y": 319,
+          "width": 309,
+          "height": 313,
+          "sheet_width": 1227,
+          "sheet_height": 1282
+        }
       }
     },
     {
@@ -169129,7 +169785,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG040",
-        "aspect": 0.9570982839313572
+        "aspect": 0.9744408945686901,
+        "crop": {
+          "x": 922,
+          "y": 319,
+          "width": 305,
+          "height": 313,
+          "sheet_width": 1227,
+          "sheet_height": 1282
+        }
       }
     },
     {
@@ -169173,7 +169837,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG041",
-        "aspect": 0.9570982839313572
+        "aspect": 1.0,
+        "crop": {
+          "x": 0,
+          "y": 632,
+          "width": 303,
+          "height": 303,
+          "sheet_width": 1227,
+          "sheet_height": 1282
+        }
       }
     },
     {
@@ -169217,7 +169889,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG042",
-        "aspect": 0.9570982839313572
+        "aspect": 1.023102310231023,
+        "crop": {
+          "x": 303,
+          "y": 632,
+          "width": 310,
+          "height": 303,
+          "sheet_width": 1227,
+          "sheet_height": 1282
+        }
       }
     },
     {
@@ -169261,7 +169941,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG043",
-        "aspect": 0.9570982839313572
+        "aspect": 1.0198019801980198,
+        "crop": {
+          "x": 613,
+          "y": 632,
+          "width": 309,
+          "height": 303,
+          "sheet_width": 1227,
+          "sheet_height": 1282
+        }
       }
     },
     {
@@ -169305,7 +169993,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG044",
-        "aspect": 0.9570982839313572
+        "aspect": 1.0066006600660067,
+        "crop": {
+          "x": 922,
+          "y": 632,
+          "width": 305,
+          "height": 303,
+          "sheet_width": 1227,
+          "sheet_height": 1282
+        }
       }
     },
     {
@@ -169349,7 +170045,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG045",
-        "aspect": 0.9570982839313572
+        "aspect": 0.8731988472622478,
+        "crop": {
+          "x": 0,
+          "y": 935,
+          "width": 303,
+          "height": 347,
+          "sheet_width": 1227,
+          "sheet_height": 1282
+        }
       }
     },
     {
@@ -169393,7 +170097,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG046",
-        "aspect": 0.9570982839313572
+        "aspect": 0.8933717579250721,
+        "crop": {
+          "x": 303,
+          "y": 935,
+          "width": 310,
+          "height": 347,
+          "sheet_width": 1227,
+          "sheet_height": 1282
+        }
       }
     },
     {
@@ -169437,7 +170149,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG047",
-        "aspect": 0.9570982839313572
+        "aspect": 0.8904899135446686,
+        "crop": {
+          "x": 613,
+          "y": 935,
+          "width": 309,
+          "height": 347,
+          "sheet_width": 1227,
+          "sheet_height": 1282
+        }
       }
     },
     {
@@ -169481,7 +170201,15 @@
         "columns": 4,
         "rows": 4,
         "label": "HG048",
-        "aspect": 0.9570982839313572
+        "aspect": 0.8789625360230547,
+        "crop": {
+          "x": 922,
+          "y": 935,
+          "width": 305,
+          "height": 347,
+          "sheet_width": 1227,
+          "sheet_height": 1282
+        }
       }
     },
     {
@@ -411620,6 +412348,20 @@
           "entry_id": "PO020",
           "name": "蹲姿"
         }
+      ],
+      "column_boundaries": [
+        0,
+        311,
+        611,
+        913,
+        1223
+      ],
+      "row_boundaries": [
+        0,
+        332,
+        654,
+        960,
+        1286
       ]
     },
     {
@@ -411716,6 +412458,20 @@
           "entry_id": "PO039",
           "name": "悬浮"
         }
+      ],
+      "column_boundaries": [
+        0,
+        316,
+        611,
+        908,
+        1223
+      ],
+      "row_boundaries": [
+        0,
+        319,
+        637,
+        953,
+        1286
       ]
     },
     {
@@ -414256,6 +415012,19 @@
           "entry_id": "PO060",
           "name": "弯腰系鞋"
         }
+      ],
+      "column_boundaries": [
+        0,
+        305,
+        612,
+        919,
+        1223
+      ],
+      "row_boundaries": [
+        0,
+        429,
+        838,
+        1286
       ]
     },
     {
@@ -431856,7 +432625,21 @@
         }
       ],
       "qa_date": "2026-10-14",
-      "qa_notes": "HG009 label and description explicitly match the visible fist-back cough-cover variant."
+      "qa_notes": "HG009 label and description explicitly match the visible fist-back cough-cover variant.",
+      "column_boundaries": [
+        0,
+        314,
+        627,
+        941,
+        1254
+      ],
+      "row_boundaries": [
+        0,
+        314,
+        628,
+        938,
+        1254
+      ]
     },
     {
       "id": "sheet-hg017-hg032",
@@ -431954,7 +432737,21 @@
         }
       ],
       "qa_date": "2026-10-14",
-      "qa_notes": "Reviewed adult facial acting: mapped labels, visible requested features, coherent facial anatomy and hands where present. Nonexplicit, non-graphic creative reference."
+      "qa_notes": "Reviewed adult facial acting: mapped labels, visible requested features, coherent facial anatomy and hands where present. Nonexplicit, non-graphic creative reference.",
+      "column_boundaries": [
+        0,
+        312,
+        623,
+        937,
+        1249
+      ],
+      "row_boundaries": [
+        0,
+        314,
+        628,
+        930,
+        1260
+      ]
     },
     {
       "id": "sheet-hg033-hg048",
@@ -432052,7 +432849,21 @@
         }
       ],
       "qa_date": "2026-10-14",
-      "qa_notes": "HG041 label and description match fingers holding the glasses frame rather than lifting it."
+      "qa_notes": "HG041 label and description match fingers holding the glasses frame rather than lifting it.",
+      "column_boundaries": [
+        0,
+        303,
+        613,
+        922,
+        1227
+      ],
+      "row_boundaries": [
+        0,
+        319,
+        632,
+        935,
+        1282
+      ]
     },
     {
       "id": "sheet-fl001-fl016",
