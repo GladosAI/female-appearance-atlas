@@ -54736,5 +54736,397 @@
         "name": "异星殖民地温室场景"
       }
     ]
+  },
+  {
+    "id": "scene-v72-snu-1",
+    "category": "scene_campus",
+    "dimension": "入校与教学空间",
+    "title": "学校与校园生活 · 入校与教学空间",
+    "image": "images/sheet-scenes-snu-1-v72.png",
+    "columns": 2,
+    "rows": 2,
+    "edition": 72,
+    "column_boundaries": [
+      0,
+      768,
+      1536
+    ],
+    "row_boundaries": [
+      0,
+      512,
+      1024
+    ],
+    "prompt": "Use case: illustration-story. Asset type: original character-in-environment scene atlas for female game, animation and film character design.\nCanvas: LANDSCAPE 3:2 contact sheet. EXACTLY TWO columns and TWO rows of rectangular landscape panels, read top-left, top-right, bottom-left, bottom-right. Four independent scenes. Thin continuous dark dividers at the canvas midpoint, no broad gutters. Each panel stays entirely inside its own rectangle.\nArt direction: detailed polished anime and semi-realistic cinematic environment concept illustration, expressive original adult characters, coherent perspective, carefully drawn natural hands, restrained clean outlines, attractive readable colors and lighting. This is a setting-and-activity atlas: the environment must be identifiable AND at least one prominent adult woman must actively belong in it. Main woman roughly 45-75 percent of panel height, shown full-body or medium-wide as appropriate, never a tiny distant silhouette. Vary women across panels in face, hairstyle, skin tone and everyday body shape. All human figures are adults.\nComposition: foreground, middle ground and background establish a useful place. Hands actually touch the relevant objects; feet and seats have plausible support. Clothing matches the location and activity. Do not replace a scene with a detached fashion cutout, portrait crop, empty room, generic gradient or white studio backdrop. Do not add inset diagrams. Preserve the complete intended action and environmental landmarks within each panel.\nNo known characters, franchises, company logos, celebrity likenesses or readable private information. Only each panel's exact ID in small legible type at its own top-left; no other captions or text.\nSpecific panels:\nPanel 1, exact label \"SNU001\": A university entrance with an original unbranded school gate, guardhouse, tree-lined path and academic buildings beyond. A prominent adult female university student wearing a casual jacket and backpack walks through the pedestrian entrance; two distant adult students. Show the complete arrival action and campus landmarks, no readable school name.\nPanel 2, exact label \"SNU002\": A leafy university campus walkway with benches, bicycle racks and academic buildings. A prominent adult female student in everyday campus clothing walks beside an adult female classmate, chatting while holding notebooks. Natural stride and bag contact, clear academic setting rather than a generic park.\nPanel 3, exact label \"SNU003\": A university classroom during a break, rows of student desks, blackboard, lectern and tall windows. A prominent adult female student at a desk packs textbooks into her bag; two adult classmates talk quietly behind her. Medium-wide composition, clearly show desk rows and hands on the books.\nPanel 4, exact label \"SNU004\": A university examination room with separated desks, wall clock and front lectern. A prominent adult female lecturer carrying a clipboard walks along an aisle while a few adult students write at their desks. Quiet orderly atmosphere, generic unreadable papers and no identifiable personal data.\n",
+    "width": 1536,
+    "height": 1024,
+    "origin": "Original AI-generated character-in-scene illustration; built-in image_gen",
+    "generation_tool": "built-in image_gen",
+    "generated_on": "2026-11-05",
+    "qa_status": "image_cells_checked",
+    "items": [
+      {
+        "entry_id": "SNU001",
+        "label": "SNU001",
+        "name": "学校校门入校场景"
+      },
+      {
+        "entry_id": "SNU002",
+        "label": "SNU002",
+        "name": "校园林荫路同行场景"
+      },
+      {
+        "entry_id": "SNU003",
+        "label": "SNU003",
+        "name": "教室课间整理书本场景"
+      },
+      {
+        "entry_id": "SNU004",
+        "label": "SNU004",
+        "name": "考场监考场景"
+      }
+    ]
+  },
+  {
+    "id": "scene-v72-snu-2",
+    "category": "scene_campus",
+    "dimension": "社团与艺术活动",
+    "title": "学校与校园生活 · 社团与艺术活动",
+    "image": "images/sheet-scenes-snu-2-v72.png",
+    "columns": 2,
+    "rows": 2,
+    "edition": 72,
+    "column_boundaries": [
+      0,
+      768,
+      1536
+    ],
+    "row_boundaries": [
+      0,
+      512,
+      1024
+    ],
+    "prompt": "Use case: illustration-story. Asset type: original character-in-environment scene atlas for female game, animation and film character design.\nCanvas: LANDSCAPE 3:2 contact sheet. EXACTLY TWO columns and TWO rows of rectangular landscape panels, read top-left, top-right, bottom-left, bottom-right. Four independent scenes. Thin continuous dark dividers at the canvas midpoint, no broad gutters. Each panel stays entirely inside its own rectangle.\nArt direction: detailed polished anime and semi-realistic cinematic environment concept illustration, expressive original adult characters, coherent perspective, carefully drawn natural hands, restrained clean outlines, attractive readable colors and lighting. This is a setting-and-activity atlas: the environment must be identifiable AND at least one prominent adult woman must actively belong in it. Main woman roughly 45-75 percent of panel height, shown full-body or medium-wide as appropriate, never a tiny distant silhouette. Vary women across panels in face, hairstyle, skin tone and everyday body shape. All human figures are adults.\nComposition: foreground, middle ground and background establish a useful place. Hands actually touch the relevant objects; feet and seats have plausible support. Clothing matches the location and activity. Do not replace a scene with a detached fashion cutout, portrait crop, empty room, generic gradient or white studio backdrop. Do not add inset diagrams. Preserve the complete intended action and environmental landmarks within each panel.\nNo known characters, franchises, company logos, celebrity likenesses or readable private information. Only each panel's exact ID in small legible type at its own top-left; no other captions or text.\nSpecific panels:\nPanel 1, exact label \"SNU005\": A university academic-building corridor with classroom doors, bulletin boards, windows and a stair landing. A prominent adult female student shows a notebook to an adult female tutor between classes. Clear corridor depth and plausible notebook contact, all signage abstract and unreadable.\nPanel 2, exact label \"SNU006\": An original university club room with communal tables, storage cabinets, blank poster boards and handmade decorations. A prominent adult female student in casual clothes assembles a paper decoration with two adult club members. Clear hands, tabletop materials, practical room layout, no copyrighted posters or characters.\nPanel 3, exact label \"SNU007\": A university art classroom with easels, a still-life table, paint supplies and large windows. A prominent adult female art student in an apron draws an original simple still life of vase and fruit. Show brush or pencil contact, seated support and other easels; no recognizable existing artwork.\nPanel 4, exact label \"SNU008\": A university music classroom with an upright piano, music stand, acoustic wall panels and a few chairs. A prominent adult female student sits at the piano practicing, both hands naturally placed at the keys. Correct piano-seat relationship, simplified unreadable score and visible room context.\n",
+    "width": 1536,
+    "height": 1024,
+    "origin": "Original AI-generated character-in-scene illustration; built-in image_gen",
+    "generation_tool": "built-in image_gen",
+    "generated_on": "2026-11-05",
+    "qa_status": "image_cells_checked",
+    "items": [
+      {
+        "entry_id": "SNU005",
+        "label": "SNU005",
+        "name": "教学楼走廊交流场景"
+      },
+      {
+        "entry_id": "SNU006",
+        "label": "SNU006",
+        "name": "校园社团教室活动场景"
+      },
+      {
+        "entry_id": "SNU007",
+        "label": "SNU007",
+        "name": "美术教室写生场景"
+      },
+      {
+        "entry_id": "SNU008",
+        "label": "SNU008",
+        "name": "音乐教室钢琴练习场景"
+      }
+    ]
+  },
+  {
+    "id": "scene-v72-snu-3",
+    "category": "scene_campus",
+    "dimension": "课程与体育活动",
+    "title": "学校与校园生活 · 课程与体育活动",
+    "image": "images/sheet-scenes-snu-3-v72.png",
+    "columns": 2,
+    "rows": 2,
+    "edition": 72,
+    "column_boundaries": [
+      0,
+      768,
+      1536
+    ],
+    "row_boundaries": [
+      0,
+      512,
+      1024
+    ],
+    "prompt": "Use case: illustration-story. Asset type: original character-in-environment scene atlas for female game, animation and film character design.\nCanvas: LANDSCAPE 3:2 contact sheet. EXACTLY TWO columns and TWO rows of rectangular landscape panels, read top-left, top-right, bottom-left, bottom-right. Four independent scenes. Thin continuous dark dividers at the canvas midpoint, no broad gutters. Each panel stays entirely inside its own rectangle.\nArt direction: detailed polished anime and semi-realistic cinematic environment concept illustration, expressive original adult characters, coherent perspective, carefully drawn natural hands, restrained clean outlines, attractive readable colors and lighting. This is a setting-and-activity atlas: the environment must be identifiable AND at least one prominent adult woman must actively belong in it. Main woman roughly 45-75 percent of panel height, shown full-body or medium-wide as appropriate, never a tiny distant silhouette. Vary women across panels in face, hairstyle, skin tone and everyday body shape. All human figures are adults.\nComposition: foreground, middle ground and background establish a useful place. Hands actually touch the relevant objects; feet and seats have plausible support. Clothing matches the location and activity. Do not replace a scene with a detached fashion cutout, portrait crop, empty room, generic gradient or white studio backdrop. Do not add inset diagrams. Preserve the complete intended action and environmental landmarks within each panel.\nNo known characters, franchises, company logos, celebrity likenesses or readable private information. Only each panel's exact ID in small legible type at its own top-left; no other captions or text.\nSpecific panels:\nPanel 1, exact label \"SNU009\": A university teaching science lab with student benches, demonstration table, model cabinets and blackboard. A prominent adult female teacher in a lab coat and safety glasses explains generic sealed demonstration equipment to two adult students. No hazardous reaction or procedural instructions; educational room layout clearly visible.\nPanel 2, exact label \"SNU010\": A university computer classroom with rows of desktop monitors, cable-managed desks and a front teaching display. A prominent adult female student sits typing at a workstation, with an adult female instructor nearby. Natural keyboard contact and chair height, abstract unreadable screen graphics, visible monitor rows.\nPanel 3, exact label \"SNU011\": A university indoor basketball gym with hoops, wood floor, court markings and benches. A prominent adult female student in ordinary sportswear practices a relaxed low dribble, one ball clearly between hand and floor; an adult teammate waits in the background. Natural joints and grounded feet, readable gym environment.\nPanel 4, exact label \"SNU012\": A university sports ground beside academic buildings, with running track, open court and a plain flagpole. A prominent adult female PE instructor in practical sportswear holds a clipboard and gestures toward a small group of adult students assembling for class. No stadium crowd, no readable emblems, natural outdoor campus scale.\n",
+    "width": 1536,
+    "height": 1024,
+    "origin": "Original AI-generated character-in-scene illustration; built-in image_gen",
+    "generation_tool": "built-in image_gen",
+    "generated_on": "2026-11-05",
+    "qa_status": "image_cells_checked",
+    "items": [
+      {
+        "entry_id": "SNU009",
+        "label": "SNU009",
+        "name": "校园科学实验课堂场景"
+      },
+      {
+        "entry_id": "SNU010",
+        "label": "SNU010",
+        "name": "计算机教室上机场景"
+      },
+      {
+        "entry_id": "SNU011",
+        "label": "SNU011",
+        "name": "校园体育馆篮球练习场景"
+      },
+      {
+        "entry_id": "SNU012",
+        "label": "SNU012",
+        "name": "学校操场集合场景"
+      }
+    ]
+  },
+  {
+    "id": "scene-v72-snu-4",
+    "category": "scene_campus",
+    "dimension": "校园起居与毕业",
+    "title": "学校与校园生活 · 校园起居与毕业",
+    "image": "images/sheet-scenes-snu-4-v72.png",
+    "columns": 2,
+    "rows": 2,
+    "edition": 72,
+    "column_boundaries": [
+      0,
+      769,
+      1536
+    ],
+    "row_boundaries": [
+      0,
+      512,
+      1024
+    ],
+    "prompt": "Use case: illustration-story. Asset type: original character-in-environment scene atlas for female game, animation and film character design.\nCanvas: LANDSCAPE 3:2 contact sheet. EXACTLY TWO columns and TWO rows of rectangular landscape panels, read top-left, top-right, bottom-left, bottom-right. Four independent scenes. Thin continuous dark dividers at the canvas midpoint, no broad gutters. Each panel stays entirely inside its own rectangle.\nArt direction: detailed polished anime and semi-realistic cinematic environment concept illustration, expressive original adult characters, coherent perspective, carefully drawn natural hands, restrained clean outlines, attractive readable colors and lighting. This is a setting-and-activity atlas: the environment must be identifiable AND at least one prominent adult woman must actively belong in it. Main woman roughly 45-75 percent of panel height, shown full-body or medium-wide as appropriate, never a tiny distant silhouette. Vary women across panels in face, hairstyle, skin tone and everyday body shape. All human figures are adults.\nComposition: foreground, middle ground and background establish a useful place. Hands actually touch the relevant objects; feet and seats have plausible support. Clothing matches the location and activity. Do not replace a scene with a detached fashion cutout, portrait crop, empty room, generic gradient or white studio backdrop. Do not add inset diagrams. Preserve the complete intended action and environmental landmarks within each panel.\nNo known characters, franchises, company logos, celebrity likenesses or readable private information. Only each panel's exact ID in small legible type at its own top-left; no other captions or text.\nSpecific panels:\nPanel 1, exact label \"SNU013\": A university canteen with food-service counter, tray racks, communal dining tables and return station. A prominent adult female student carries a balanced meal tray toward a table, while a few adult students sit in the background. Clear hand support under the tray, practical dining-room circulation.\nPanel 2, exact label \"SNU014\": A shared university dormitory room with beds, study desks, wardrobes and luggage. A prominent adult female university student in fully opaque everyday loungewear puts folded clothes into a storage cabinet. Clear hands and furniture scale, lived-in study items, no changing clothes or bathing.\nPanel 3, exact label \"SNU015\": A university campus notice area with a large outdoor bulletin board, original abstract club flyers, benches and academic buildings. A prominent adult female student carrying a tote stops to study a notice. Show eye line, walking pause and board scale; no readable private information or existing poster art.\nPanel 4, exact label \"SNU016\": A university graduation hall with lectern, rows of chairs, original abstract ceremony backdrop and flowers. A prominent adult female graduate in a plain cap and gown stands with two adult female classmates for a commemorative photo. All adult graduates, natural hands holding diploma tubes, no university crest or readable text.\n",
+    "width": 1536,
+    "height": 1024,
+    "origin": "Original AI-generated character-in-scene illustration; built-in image_gen",
+    "generation_tool": "built-in image_gen",
+    "generated_on": "2026-11-05",
+    "qa_status": "image_cells_checked",
+    "items": [
+      {
+        "entry_id": "SNU013",
+        "label": "SNU013",
+        "name": "学校食堂就餐场景"
+      },
+      {
+        "entry_id": "SNU014",
+        "label": "SNU014",
+        "name": "校园宿舍整理场景"
+      },
+      {
+        "entry_id": "SNU015",
+        "label": "SNU015",
+        "name": "校园公告栏查看场景"
+      },
+      {
+        "entry_id": "SNU016",
+        "label": "SNU016",
+        "name": "毕业礼堂合影场景"
+      }
+    ]
+  },
+  {
+    "id": "scene-v72-snb-1",
+    "category": "scene_community",
+    "dimension": "日常购物与公共服务",
+    "title": "社区生活与服务 · 日常购物与公共服务",
+    "image": "images/sheet-scenes-snb-1-v72.png",
+    "columns": 2,
+    "rows": 2,
+    "edition": 72,
+    "column_boundaries": [
+      0,
+      769,
+      1536
+    ],
+    "row_boundaries": [
+      0,
+      512,
+      1024
+    ],
+    "prompt": "Use case: illustration-story. Asset type: original character-in-environment scene atlas for female game, animation and film character design.\nCanvas: LANDSCAPE 3:2 contact sheet. EXACTLY TWO columns and TWO rows of rectangular landscape panels, read top-left, top-right, bottom-left, bottom-right. Four independent scenes. Thin continuous dark dividers at the canvas midpoint, no broad gutters. Each panel stays entirely inside its own rectangle.\nArt direction: detailed polished anime and semi-realistic cinematic environment concept illustration, expressive original adult characters, coherent perspective, carefully drawn natural hands, restrained clean outlines, attractive readable colors and lighting. This is a setting-and-activity atlas: the environment must be identifiable AND at least one prominent adult woman must actively belong in it. Main woman roughly 45-75 percent of panel height, shown full-body or medium-wide as appropriate, never a tiny distant silhouette. Vary women across panels in face, hairstyle, skin tone and everyday body shape. All human figures are adults.\nComposition: foreground, middle ground and background establish a useful place. Hands actually touch the relevant objects; feet and seats have plausible support. Clothing matches the location and activity. Do not replace a scene with a detached fashion cutout, portrait crop, empty room, generic gradient or white studio backdrop. Do not add inset diagrams. Preserve the complete intended action and environmental landmarks within each panel.\nNo known characters, franchises, company logos, celebrity likenesses or readable private information. Only each panel's exact ID in small legible type at its own top-left; no other captions or text.\nSpecific panels:\nPanel 1, exact label \"SNB001\": A small unbranded convenience store at night, checkout counter, refrigerated cases, compact shelves and glass entrance reflecting street lights. A prominent adult female cashier scans a grocery item for an adult customer. Clear hands and counter contact, no readable brands or prices.\nPanel 2, exact label \"SNB002\": A neighborhood self-service laundromat with rows of front-loading machines, folding tables and a waiting bench. A prominent adult woman in casual clothes sits reading beside her laundry basket while a machine runs. Clear public-shop layout, natural seated support and no readable machine brand.\nPanel 3, exact label \"SNB003\": An unbranded neighborhood post office with service counter, parcel scale, packing station and queue area. A prominent adult woman places a sealed parcel on the scale as an adult postal clerk assists her. Show natural two-hand support, no readable addresses, names or postal logos.\nPanel 4, exact label \"SNB004\": A generic bank service hall with teller counter, queue seating, self-service machines and privacy partitions. A prominent adult female customer in everyday clothes discusses a generic form with an adult female teller. Clear counter relationship, abstract unreadable displays and papers, no bank logos or financial instructions.\n",
+    "width": 1536,
+    "height": 1024,
+    "origin": "Original AI-generated character-in-scene illustration; built-in image_gen",
+    "generation_tool": "built-in image_gen",
+    "generated_on": "2026-11-05",
+    "qa_status": "image_cells_checked",
+    "items": [
+      {
+        "entry_id": "SNB001",
+        "label": "SNB001",
+        "name": "便利店夜班收银场景"
+      },
+      {
+        "entry_id": "SNB002",
+        "label": "SNB002",
+        "name": "自助洗衣店等候场景"
+      },
+      {
+        "entry_id": "SNB003",
+        "label": "SNB003",
+        "name": "邮局寄件场景"
+      },
+      {
+        "entry_id": "SNB004",
+        "label": "SNB004",
+        "name": "银行大厅办理业务场景"
+      }
+    ]
+  },
+  {
+    "id": "scene-v72-snb-2",
+    "category": "scene_community",
+    "dimension": "社区照料与出行",
+    "title": "社区生活与服务 · 社区照料与出行",
+    "image": "images/sheet-scenes-snb-2-v72.png",
+    "columns": 2,
+    "rows": 2,
+    "edition": 72,
+    "column_boundaries": [
+      0,
+      768,
+      1536
+    ],
+    "row_boundaries": [
+      0,
+      512,
+      1024
+    ],
+    "prompt": "Use case: illustration-story. Asset type: original character-in-environment scene atlas for female game, animation and film character design.\nCanvas: LANDSCAPE 3:2 contact sheet. EXACTLY TWO columns and TWO rows of rectangular landscape panels, read top-left, top-right, bottom-left, bottom-right. Four independent scenes. Thin continuous dark dividers at the canvas midpoint, no broad gutters. Each panel stays entirely inside its own rectangle.\nArt direction: detailed polished anime and semi-realistic cinematic environment concept illustration, expressive original adult characters, coherent perspective, carefully drawn natural hands, restrained clean outlines, attractive readable colors and lighting. This is a setting-and-activity atlas: the environment must be identifiable AND at least one prominent adult woman must actively belong in it. Main woman roughly 45-75 percent of panel height, shown full-body or medium-wide as appropriate, never a tiny distant silhouette. Vary women across panels in face, hairstyle, skin tone and everyday body shape. All human figures are adults.\nComposition: foreground, middle ground and background establish a useful place. Hands actually touch the relevant objects; feet and seats have plausible support. Clothing matches the location and activity. Do not replace a scene with a detached fashion cutout, portrait crop, empty room, generic gradient or white studio backdrop. Do not add inset diagrams. Preserve the complete intended action and environmental landmarks within each panel.\nNo known characters, franchises, company logos, celebrity likenesses or readable private information. Only each panel's exact ID in small legible type at its own top-left; no other captions or text.\nSpecific panels:\nPanel 1, exact label \"SNB005\": A lively neighborhood fresh-food market with vegetable stalls, produce scales, awnings and an open aisle. A prominent adult woman with a shopping basket selects a bunch of leafy vegetables from an adult vendor. Natural hand-to-produce contact and clear stall depth, no readable brands or price signs.\nPanel 2, exact label \"SNB006\": A calm veterinary clinic with examination table, pet carrier, storage cabinet and original simple animal diagrams. A prominent adult female veterinarian in a coat gently reassures a relaxed cat on the table while its adult owner stands nearby. No injury, procedure or medical instruction, plausible animal anatomy and gentle contact.\nPanel 3, exact label \"SNB007\": A neighborhood florist shop with flower buckets, wrapping paper, workbench and display window. A prominent adult female florist ties a simple ribbon around an original bouquet on the worktable. Clear stem, ribbon and hand contact, colorful flowers and readable shop layout, no brand signage.\nPanel 4, exact label \"SNB008\": A modern high-speed railway waiting hall with ticket gates, seating rows, luggage and a sleek unbranded train visible through a side window. A prominent adult female traveler checks a generic ticket beside her rolling suitcase. No airplane imagery, no readable personal data or railway logos.\n",
+    "width": 1536,
+    "height": 1024,
+    "origin": "Original AI-generated character-in-scene illustration; built-in image_gen",
+    "generation_tool": "built-in image_gen",
+    "generated_on": "2026-11-05",
+    "qa_status": "image_cells_checked",
+    "items": [
+      {
+        "entry_id": "SNB005",
+        "label": "SNB005",
+        "name": "菜市场采购场景"
+      },
+      {
+        "entry_id": "SNB006",
+        "label": "SNB006",
+        "name": "宠物诊所照料场景"
+      },
+      {
+        "entry_id": "SNB007",
+        "label": "SNB007",
+        "name": "社区花店扎花场景"
+      },
+      {
+        "entry_id": "SNB008",
+        "label": "SNB008",
+        "name": "高铁候车厅候车场景"
+      }
+    ]
+  },
+  {
+    "id": "scene-v72-snv-1",
+    "category": "scene_culture_visit",
+    "dimension": "文化场馆与观览",
+    "title": "文化游览与休闲 · 文化场馆与观览",
+    "image": "images/sheet-scenes-snv-1-v72.png",
+    "columns": 2,
+    "rows": 2,
+    "edition": 72,
+    "column_boundaries": [
+      0,
+      768,
+      1536
+    ],
+    "row_boundaries": [
+      0,
+      512,
+      1024
+    ],
+    "prompt": "Use case: illustration-story. Asset type: original character-in-environment scene atlas for female game, animation and film character design.\nCanvas: LANDSCAPE 3:2 contact sheet. EXACTLY TWO columns and TWO rows of rectangular landscape panels, read top-left, top-right, bottom-left, bottom-right. Four independent scenes. Thin continuous dark dividers at the canvas midpoint, no broad gutters. Each panel stays entirely inside its own rectangle.\nArt direction: detailed polished anime and semi-realistic cinematic environment concept illustration, expressive original adult characters, coherent perspective, carefully drawn natural hands, restrained clean outlines, attractive readable colors and lighting. This is a setting-and-activity atlas: the environment must be identifiable AND at least one prominent adult woman must actively belong in it. Main woman roughly 45-75 percent of panel height, shown full-body or medium-wide as appropriate, never a tiny distant silhouette. Vary women across panels in face, hairstyle, skin tone and everyday body shape. All human figures are adults.\nComposition: foreground, middle ground and background establish a useful place. Hands actually touch the relevant objects; feet and seats have plausible support. Clothing matches the location and activity. Do not replace a scene with a detached fashion cutout, portrait crop, empty room, generic gradient or white studio backdrop. Do not add inset diagrams. Preserve the complete intended action and environmental landmarks within each panel.\nNo known characters, franchises, company logos, celebrity likenesses or readable private information. Only each panel's exact ID in small legible type at its own top-left; no other captions or text.\nSpecific panels:\nPanel 1, exact label \"SNV001\": A museum gallery with display cases, plinths, abstract information panels and a spacious hall. A prominent adult female guide gestures toward an invented ceramic vessel and stone artifact for two adult visitors. Original generic exhibits, no copied museum artwork, no readable institution branding.\nPanel 2, exact label \"SNV002\": A contemporary art gallery with white exhibition walls, framed original abstract paintings, viewing bench and track lights. A prominent adult female visitor stands looking at a large invented abstract canvas, holding a folded gallery leaflet. No recognizable existing artwork or artist signature; clear room depth and eye line.\nPanel 3, exact label \"SNV003\": An unbranded cinema foyer with screening-room entrance, ticket-check stand, abstract original poster lightboxes and dim corridor. A prominent adult female usher checks a generic ticket held by an adult moviegoer. Natural hand contact, no identifiable film characters, movie posters or readable brands.\nPanel 4, exact label \"SNV004\": A public aquarium's glass viewing tunnel with fish overhead, blue water light and a dry pedestrian walkway. A prominent adult female aquarium educator holding a clipboard explains a passing ray to two adult visitors. Clear glass separation and human scale, no underwater laboratory equipment or diving inside.\n",
+    "width": 1536,
+    "height": 1024,
+    "origin": "Original AI-generated character-in-scene illustration; built-in image_gen",
+    "generation_tool": "built-in image_gen",
+    "generated_on": "2026-11-05",
+    "qa_status": "image_cells_checked",
+    "items": [
+      {
+        "entry_id": "SNV001",
+        "label": "SNV001",
+        "name": "博物馆讲解场景"
+      },
+      {
+        "entry_id": "SNV002",
+        "label": "SNV002",
+        "name": "美术馆观展场景"
+      },
+      {
+        "entry_id": "SNV003",
+        "label": "SNV003",
+        "name": "电影院检票入场场景"
+      },
+      {
+        "entry_id": "SNV004",
+        "label": "SNV004",
+        "name": "海洋馆隧道参观场景"
+      }
+    ]
+  },
+  {
+    "id": "scene-v72-snv-2",
+    "category": "scene_culture_visit",
+    "dimension": "自然游览与地方生活",
+    "title": "文化游览与休闲 · 自然游览与地方生活",
+    "image": "images/sheet-scenes-snv-2-v72-v2.png",
+    "columns": 2,
+    "rows": 2,
+    "edition": 72,
+    "column_boundaries": [
+      0,
+      768,
+      1536
+    ],
+    "row_boundaries": [
+      0,
+      512,
+      1024
+    ],
+    "prompt": "Use case: illustration-story. Asset type: original character-in-environment scene atlas for female game, animation and film character design.\nCanvas: LANDSCAPE 3:2 contact sheet. EXACTLY TWO columns and TWO rows of rectangular landscape panels, read top-left, top-right, bottom-left, bottom-right. Four independent scenes. Thin continuous dark dividers at the canvas midpoint, no broad gutters. Each panel stays entirely inside its own rectangle.\nArt direction: detailed polished anime and semi-realistic cinematic environment concept illustration, expressive original adult characters, coherent perspective, carefully drawn natural hands, restrained clean outlines, attractive readable colors and lighting. This is a setting-and-activity atlas: the environment must be identifiable AND at least one prominent adult woman must actively belong in it. Main woman roughly 45-75 percent of panel height, shown full-body or medium-wide as appropriate, never a tiny distant silhouette. Vary women across panels in face, hairstyle, skin tone and everyday body shape. All human figures are adults.\nComposition: foreground, middle ground and background establish a useful place. Hands actually touch the relevant objects; feet and seats have plausible support. Clothing matches the location and activity. Do not replace a scene with a detached fashion cutout, portrait crop, empty room, generic gradient or white studio backdrop. Do not add inset diagrams. Preserve the complete intended action and environmental landmarks within each panel.\nNo known characters, franchises, company logos, celebrity likenesses or readable private information. Only each panel's exact ID in small legible type at its own top-left; no other captions or text.\nSpecific panels:\nPanel 1, exact label \"SNV005\": A zoo giraffe habitat with protective fence, animal shelter, feeding trolley and greenery. A prominent adult female keeper in practical workwear prepares leafy feed in the staff service aisle while a giraffe stands beyond the barrier. Calm routine care, believable animal scale and safe physical separation, no logos.\nPanel 2, exact label \"SNV006\": A real-world botanical garden greenhouse with glass dome, tall palms, original abstract plant labels and winding visitor paths. A prominent adult female tourist in casual travel clothes photographs a flowering plant with a phone in a solid bright orange protective case. The back of the phone case is completely plain, with no symbol, mark or logo. Clear phone grip, grounded stance, warm natural daylight and no science-fiction elements.\nPanel 3, exact label \"SNV007\": An original contemporary East Asian canal town with a stone footbridge, waterside houses, small moored boats and riverside lane. A prominent adult female tourist in a light travel coat walks along the bank carrying a folded umbrella and admiring the view. Clear bridge and water-level perspective, no copied landmark or historical authenticity claim.\nPanel 4, exact label \"SNV008\": A coastal ferry pier with moored ferry, bollards, waiting shelter, luggage and distant harbor boats. A prominent adult female traveler in a casual windbreaker checks a generic ferry ticket in the landside waiting area. Clear pier edge, boat scale and grounded stance, no readable personal information or shipping logos.\n",
+    "width": 1536,
+    "height": 1024,
+    "origin": "Original AI-generated character-in-scene illustration; built-in image_gen",
+    "generation_tool": "built-in image_gen",
+    "generated_on": "2026-11-05",
+    "qa_status": "image_cells_checked",
+    "items": [
+      {
+        "entry_id": "SNV005",
+        "label": "SNV005",
+        "name": "动物园饲养照料场景"
+      },
+      {
+        "entry_id": "SNV006",
+        "label": "SNV006",
+        "name": "植物园温室游览场景"
+      },
+      {
+        "entry_id": "SNV007",
+        "label": "SNV007",
+        "name": "古镇水巷游览场景"
+      },
+      {
+        "entry_id": "SNV008",
+        "label": "SNV008",
+        "name": "海港码头候船场景"
+      }
+    ]
   }
 ]

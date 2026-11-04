@@ -28836,6 +28836,134 @@
     {
       "id": "SNS008",
       "source_key": "scene_scifi_survival|异星殖民地温室场景|alien-colony greenhouse scene"
+    },
+    {
+      "id": "SNU001",
+      "source_key": "scene_campus|学校校门入校场景|school-gate arrival scene"
+    },
+    {
+      "id": "SNU002",
+      "source_key": "scene_campus|校园林荫路同行场景|campus tree-lined walkway scene"
+    },
+    {
+      "id": "SNU003",
+      "source_key": "scene_campus|教室课间整理书本场景|classroom break-time scene"
+    },
+    {
+      "id": "SNU004",
+      "source_key": "scene_campus|考场监考场景|examination-room invigilation scene"
+    },
+    {
+      "id": "SNU005",
+      "source_key": "scene_campus|教学楼走廊交流场景|academic-building corridor scene"
+    },
+    {
+      "id": "SNU006",
+      "source_key": "scene_campus|校园社团教室活动场景|campus club-room activity scene"
+    },
+    {
+      "id": "SNU007",
+      "source_key": "scene_campus|美术教室写生场景|art-classroom drawing scene"
+    },
+    {
+      "id": "SNU008",
+      "source_key": "scene_campus|音乐教室钢琴练习场景|music-classroom piano-practice scene"
+    },
+    {
+      "id": "SNU009",
+      "source_key": "scene_campus|校园科学实验课堂场景|school science-laboratory lesson scene"
+    },
+    {
+      "id": "SNU010",
+      "source_key": "scene_campus|计算机教室上机场景|computer-classroom practice scene"
+    },
+    {
+      "id": "SNU011",
+      "source_key": "scene_campus|校园体育馆篮球练习场景|campus gym basketball-practice scene"
+    },
+    {
+      "id": "SNU012",
+      "source_key": "scene_campus|学校操场集合场景|school sports-ground assembly scene"
+    },
+    {
+      "id": "SNU013",
+      "source_key": "scene_campus|学校食堂就餐场景|school-canteen dining scene"
+    },
+    {
+      "id": "SNU014",
+      "source_key": "scene_campus|校园宿舍整理场景|campus dormitory tidying scene"
+    },
+    {
+      "id": "SNU015",
+      "source_key": "scene_campus|校园公告栏查看场景|campus noticeboard scene"
+    },
+    {
+      "id": "SNU016",
+      "source_key": "scene_campus|毕业礼堂合影场景|graduation-hall group-photo scene"
+    },
+    {
+      "id": "SNB001",
+      "source_key": "scene_community|便利店夜班收银场景|convenience-store night-shift scene"
+    },
+    {
+      "id": "SNB002",
+      "source_key": "scene_community|自助洗衣店等候场景|self-service laundromat waiting scene"
+    },
+    {
+      "id": "SNB003",
+      "source_key": "scene_community|邮局寄件场景|post-office parcel-mailing scene"
+    },
+    {
+      "id": "SNB004",
+      "source_key": "scene_community|银行大厅办理业务场景|bank service-hall scene"
+    },
+    {
+      "id": "SNB005",
+      "source_key": "scene_community|菜市场采购场景|fresh-food-market shopping scene"
+    },
+    {
+      "id": "SNB006",
+      "source_key": "scene_community|宠物诊所照料场景|veterinary-clinic care scene"
+    },
+    {
+      "id": "SNB007",
+      "source_key": "scene_community|社区花店扎花场景|neighborhood florist bouquet-making scene"
+    },
+    {
+      "id": "SNB008",
+      "source_key": "scene_community|高铁候车厅候车场景|high-speed-rail waiting-hall scene"
+    },
+    {
+      "id": "SNV001",
+      "source_key": "scene_culture_visit|博物馆讲解场景|museum guided-tour scene"
+    },
+    {
+      "id": "SNV002",
+      "source_key": "scene_culture_visit|美术馆观展场景|art-gallery viewing scene"
+    },
+    {
+      "id": "SNV003",
+      "source_key": "scene_culture_visit|电影院检票入场场景|cinema ticket-checking scene"
+    },
+    {
+      "id": "SNV004",
+      "source_key": "scene_culture_visit|海洋馆隧道参观场景|aquarium-tunnel visit scene"
+    },
+    {
+      "id": "SNV005",
+      "source_key": "scene_culture_visit|动物园饲养照料场景|zoo animal-care scene"
+    },
+    {
+      "id": "SNV006",
+      "source_key": "scene_culture_visit|植物园温室游览场景|botanical-garden greenhouse visit scene"
+    },
+    {
+      "id": "SNV007",
+      "source_key": "scene_culture_visit|古镇水巷游览场景|canal-town sightseeing scene"
+    },
+    {
+      "id": "SNV008",
+      "source_key": "scene_culture_visit|海港码头候船场景|harbor-pier ferry-waiting scene"
     }
   ]
 }

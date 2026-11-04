@@ -55,6 +55,23 @@
         "71.1"
       ],
       "inventory_sha256": "8e2d25cf6a04ef8b368b056d16d7cf26b477336f4b5d36cb8d940541dd522098"
+    },
+    "v72.0": {
+      "content_version": "72.0",
+      "assets": [
+        {
+          "file": "female-appearance-atlas-images.zip",
+          "bytes": 1480335680,
+          "sha256": "401e4cef1dbe5aff8221901a8251d4488eac548608c04d590e8dd339cc0ce4ac",
+          "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v72.0/female-appearance-atlas-images.zip"
+        },
+        {
+          "file": "female-appearance-atlas-offline-copy.zip",
+          "bytes": 1197627153,
+          "sha256": "26df60407be64b287f4b097c2da90f51e6a66fd77c01a5958ca13000c10de881",
+          "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v72.0/female-appearance-atlas-offline-copy.zip"
+        }
+      ]
     }
   }
 }

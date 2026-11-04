@@ -11,11 +11,12 @@ const data=JSON.parse(fs.readFileSync(path.join(root,'data/catalog.json'),'utf8'
  await page.goto(base+'?section=branch_scene_character_design');
  await page.locator('#entry-grid .entry').first().waitFor();
  assert.equal(await page.locator('#category-title').innerText(),'场景与人物活动');
- for(const term of ['厨房','医院','沙滩']){
+ for(const term of ['厨房','医院','沙滩','学校','邮局','博物馆']){
   await page.goto(base+'?section=branch_scene_character_design&q='+encodeURIComponent(term));
   await page.locator('#entry-grid .entry').first().waitFor();
   const found=await page.locator('#entry-grid [data-detail]').evaluateAll(elements=>elements.map(e=>e.dataset.detail));
   assert(found.some(id=>scenes.some(scene=>scene.id===id&&scene.name.includes(term))),term+' scene search');
+  if(term==='学校')for(const scene of scenes.filter(e=>e.category==='scene_campus'))assert(found.includes(scene.id),scene.id+' must be discoverable as a school scene');
  }
  const scene=scenes[0],second=scenes.find(e=>e.category!==scene.category);
  await page.goto(base+'?section='+scene.category+'&entry='+scene.id);await page.locator('#detail-dialog').waitFor({state:'visible'});

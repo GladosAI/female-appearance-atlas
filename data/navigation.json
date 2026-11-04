@@ -876,6 +876,9 @@
         "scene_history_film",
         "scene_fantasy_game",
         "scene_scifi_survival",
+        "scene_campus",
+        "scene_community",
+        "scene_culture_visit",
         "art_photography",
         "art_traditional",
         "art_drawing_media",
@@ -935,11 +938,14 @@
             "scene_culture_sport",
             "scene_history_film",
             "scene_fantasy_game",
-            "scene_scifi_survival"
+            "scene_scifi_survival",
+            "scene_campus",
+            "scene_community",
+            "scene_culture_visit"
           ],
           "scope": "branch_scene_character_design",
-          "count": 64,
-          "category_count": 8
+          "count": 96,
+          "category_count": 11
         },
         {
           "id": "art_photo_media",
@@ -1027,8 +1033,8 @@
         }
       ],
       "scope": "topic_art_styles",
-      "count": 342,
-      "category_count": 36
+      "count": 374,
+      "category_count": 39
     }
   ],
   "category_labels": {
@@ -1575,8 +1581,8 @@
       "scene"
     ]
   },
-  "entry_count": 7209,
-  "category_count": 208,
+  "entry_count": 7241,
+  "category_count": 211,
   "section_count": 56,
   "category_paths": {
     "hair_cut": {
@@ -2324,6 +2330,18 @@
       "section": "branch_scene_character_design"
     },
     "scene_scifi_survival": {
+      "domain": "topic_art_styles",
+      "section": "branch_scene_character_design"
+    },
+    "scene_campus": {
+      "domain": "topic_art_styles",
+      "section": "branch_scene_character_design"
+    },
+    "scene_community": {
+      "domain": "topic_art_styles",
+      "section": "branch_scene_character_design"
+    },
+    "scene_culture_visit": {
       "domain": "topic_art_styles",
       "section": "branch_scene_character_design"
     },
