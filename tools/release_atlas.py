@@ -8,6 +8,8 @@ import shutil
 import subprocess
 import sys
 import zipfile
+from build_provenance import application_info
+from web_delivery import write_runtime
 
 ROOT = Path(__file__).resolve().parents[1]
 EXCLUDED = {'.git', '.work', 'node_modules', '__pycache__', 'dist', '.venv'}
@@ -80,6 +82,9 @@ def manifest(folder):
               'content_licenses': {key:policy.get(key,{}).get('license')
                                    for key in ['editorial_content','ai_images','brand_artwork']},
               'third_party_licenses': 'Per-asset exceptions retain their original terms; see THIRD_PARTY_NOTICES.md'}
+    build_info=folder/'build-info.json'
+    if build_info.exists():
+        result['build']=json.loads(build_info.read_text(encoding='utf-8'))
     (folder / 'release-manifest.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     return result
 
@@ -119,11 +124,14 @@ def build_web(output, image_mode='original'):
     for directory in ['assets', 'docs', 'schemas']:
         if (ROOT / directory).exists():
             shutil.copytree(ROOT / directory, output / directory, dirs_exist_ok=True)
-    payload = "document.getElementById('atlas-data').textContent=" + json.dumps(json.dumps(data, ensure_ascii=False, separators=(',', ':')), ensure_ascii=False) + ';\n'
-    payload += "document.getElementById('atlas-navigation').textContent=" + json.dumps(json.dumps(nav, ensure_ascii=False, separators=(',', ':')), ensure_ascii=False) + ';\n'
-    fingerprint = hashlib.sha256(payload.encode()).hexdigest()[:12]
-    relative = f'assets/runtime-{fingerprint}.js'
-    (output / relative).write_text(payload, encoding='utf-8')
+    relative, detail_chunks = write_runtime(output, data, nav)
+    build_info=application_info(ROOT,include_commit=True)
+    build_info['image_delivery']=image_mode
+    build_info['runtime_index']=relative
+    build_info['detail_chunks']=detail_chunks
+    (output/'build-info.json').write_text(json.dumps(build_info,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    html=re.sub(r'(<script id="atlas-build" type="application/json">).*?(</script>)',
+                lambda match:match[1]+json.dumps(build_info,ensure_ascii=False,separators=(',',':'))+match[2],html,flags=re.S)
     html = re.sub(r'(<script id="atlas-data" type="application/json">).*?(</script>)', r'\1\2', html, flags=re.S)
     html = re.sub(r'(<script id="atlas-navigation" type="application/json">).*?(</script>)', r'\1\2' + f'\n<script src="{relative}"></script>', html, flags=re.S)
     if image_mode == 'webp':
@@ -201,9 +209,38 @@ def build_packages(output):
     print(json.dumps(results))
 
 
+def build_application(output):
+    """Publish code updates with explicit links to unchanged, separately versioned resources."""
+    output.mkdir(parents=True, exist_ok=True)
+    if any(output.iterdir()):
+        raise ValueError('Output must be empty')
+    info=application_info(ROOT,include_commit=True)
+    if not info.get('source_commit') or info.get('source_dirty'):
+        raise ValueError('Application release requires a clean, committed source checkout')
+    registry=json.loads((ROOT/'source/resource-packs.json').read_text(encoding='utf-8'))
+    resources=registry['releases'][info['image_release']]
+    if resources['content_version']!=info['content_version']:
+        raise ValueError('Resource pack content version differs from the application content')
+    archive=output/'female-appearance-atlas-source.zip'
+    subprocess.run(['git','archive','--format=zip','--prefix=female-appearance-atlas/',
+                    '--output='+str(archive),info['source_commit']],cwd=ROOT,check=True)
+    with zipfile.ZipFile(archive,'a',zipfile.ZIP_DEFLATED) as bundle:
+        metadata=zipfile.ZipInfo('female-appearance-atlas/build-info.json',(1980,1,1,0,0,0))
+        metadata.compress_type=zipfile.ZIP_DEFLATED
+        bundle.writestr(metadata,json.dumps(info,ensure_ascii=False,indent=2)+'\n')
+    tag='app-v'+info['app_version']
+    records=[{'file':archive.name,'bytes':archive.stat().st_size,'sha256':sha256_file(archive),
+              'url':f'https://github.com/GladosAI/female-appearance-atlas/releases/download/{tag}/{archive.name}'},
+             *resources['assets']]
+    (output/'CHECKSUMS.json').write_text(json.dumps(records,indent=2)+'\n',encoding='utf-8')
+    (output/'RESOURCE-PACKS.json').write_text(json.dumps({'build':info,'resource_release':info['image_release'],
+        'assets':resources['assets']},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    print(json.dumps({'tag':tag,'build':info,'assets':records},ensure_ascii=False))
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('target', choices=['web', 'packages'])
+    parser.add_argument('target', choices=['web', 'packages', 'application'])
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--image-mode', choices=['original', 'webp'], default='original')
     args = parser.parse_args()
@@ -212,8 +249,10 @@ def main():
         parser.error('Output cannot be the project root or one of its parents')
     if args.target == 'web':
         build_web(output, args.image_mode)
-    else:
+    elif args.target == 'packages':
         build_packages(output)
+    else:
+        build_application(output)
 
 
 if __name__ == '__main__':

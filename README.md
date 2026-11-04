@@ -8,13 +8,13 @@
 
 [在线阅览](https://gladosai.github.io/female-appearance-atlas/) · [源码仓库](https://github.com/GladosAI/female-appearance-atlas) · [版本与资源包](https://github.com/GladosAI/female-appearance-atlas/releases) · [问题反馈](https://github.com/GladosAI/female-appearance-atlas/issues)
 
-无需下载即可[在线浏览图鉴](https://gladosai.github.io/female-appearance-atlas/)；需要原图或离线使用时，从[Releases](https://github.com/GladosAI/female-appearance-atlas/releases/latest)获取以下资源包。
+无需下载即可[在线浏览图鉴](https://gladosai.github.io/female-appearance-atlas/)；当前程序版 **0.2.0**，内容版 **70.0**。需要原图或离线使用时，从[Releases](https://github.com/GladosAI/female-appearance-atlas/releases/latest)获取以下资源包。程序更新复用明确标记版本的图片资源，不必重复下载未变化的图片。
 
 | 下载 | 内容与用途 |
 | --- | --- |
 | [源码与页面](https://github.com/GladosAI/female-appearance-atlas/releases/latest/download/female-appearance-atlas-source.zip) | 必需，含index.html、程序、词条数据、文档与许可 |
-| [图片资源](https://github.com/GladosAI/female-appearance-atlas/releases/latest/download/female-appearance-atlas-images.zip) | 必需，含图鉴原图 |
-| [离线图片读取数据](https://github.com/GladosAI/female-appearance-atlas/releases/latest/download/female-appearance-atlas-offline-copy.zip) | 本地双击时导出图片所需；通过HTTP访问可省略 |
+| [图片资源](https://github.com/GladosAI/female-appearance-atlas/releases/download/v70.0/female-appearance-atlas-images.zip) | 必需，含图鉴原图；资源版v70.0 |
+| [离线图片读取数据](https://github.com/GladosAI/female-appearance-atlas/releases/download/v70.0/female-appearance-atlas-offline-copy.zip) | 本地双击时导出图片所需；资源版v70.0；通过HTTP访问可省略 |
 | [SHA-256校验清单](https://github.com/GladosAI/female-appearance-atlas/releases/latest/download/CHECKSUMS.json) | 核对三个ZIP的大小与完整性 |
 
 ## 浏览与使用

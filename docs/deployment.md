@@ -10,10 +10,12 @@
 
 发布流程维护在 `.github/workflows/pages.yml`：
 
-1. 发布正式 Release 后自动运行；也可打开仓库 Actions → **Publish online atlas** → **Run workflow**。手动运行默认读取最新正式 Release 的图片，也可填写资源版标签，例如 `v70.0`。
+1. 发布正式 Release 后自动运行；也可打开仓库 Actions → **Publish online atlas** → **Run workflow**。默认读取 `source/app-release.json` 指定的图片资源版；手动填写的标签也必须与此声明一致。程序版Release标签不冒充图片资源标签。
 2. 下载图片ZIP和 `CHECKSUMS.json`，使用 `tools/install_image_pack.py` 核对大小与SHA-256，仅安装图片，不用包内的旧文档覆盖当前源码与许可。
-3. 验证生成物一致性、素材权利及Python测试，构建WebP在线版，并在 `/female-appearance-atlas/` 项目路径下检查浏览、外观卡和图片下载。
+3. 验证生成物一致性、素材权利及Python测试，构建WebP在线版；离线界面检查、系统示例检查和 `/female-appearance-atlas/` 路径下的在线版检查全部通过后，才上传部署产物。在线检查覆盖详情按需加载、失败重试、词条反馈、外观卡、对照和图片下载。
 4. 通过官方 Pages Actions 上传并部署；临时构建包只保留1天。构建任务仅能读取仓库和Pages，部署任务才拥有Pages写入权限。
+
+5. 部署后读取正式网址的构建信息、首页、运行索引、详情分包和代表图片，核对提交及SHA-256；CDN尚未更新时有限重试，失败显示在Actions中。检查命令为 `python tools/check_online.py --base https://gladosai.github.io/female-appearance-atlas/ --expect-commit <完整提交SHA>`。
 
 首次需在 Settings → Pages 中将 Source 设置为 **GitHub Actions**。后续维护不需要提交图片到Git历史，也不需要上传离线图片读取数据。只有Release发布或手动运行会触发部署，普通代码提交与PR不会直接更新正式站点。新增图页先纳入对应图片Release；资源不匹配时应由检查阻止发布，不能静默沿用旧图片。
 
@@ -30,6 +32,20 @@ python tools/release_atlas.py web --image-mode webp --output dist/web-preview
 第一种保留原始 PNG；第二种使用 quality=88 的有损 WebP，不缩小像素尺寸，页面标注为预览版。原图不被覆盖。源码和完整离线包仍保留原图；预览站导出的图片由预览图解码，不能称为无损原图。
 
 在线包将数据抽离为可独立缓存的带哈希 JS，删去运行时不用的生成 prompt，保留检索、外观卡、详情和图片下载。不携带约1.3GiB的本地图片读取 sidecar；HTTP 同源可直接读取图片。词条缩略图接近可见区域才加载，而不是为全部已排版卡片下载整张图页。
+
+程序0.2.0将首载索引缩减到约4.4MiB（未压缩），其余词条资料按领域延后加载。分包URL随内容哈希变化，索引与详情共享一次构建的映射；不能手工混用不同构建的HTML和assets。`build-info.json`公开记录实际构建及运行文件，`release-manifest.json`继续核对每个文件。
+
+## 仅更新程序时的离线发行
+
+在干净且已提交的源码上运行：
+
+```sh
+python tools/release_atlas.py application --output dist/app-release
+```
+
+产出新的源码ZIP、跨包校验清单和 `RESOURCE-PACKS.json`，程序发行标签采用 `app-v<程序版本>`。源码ZIP来自明确的Git提交，并携带 `build-info.json`；它复用登记过的图片和离线读取资源，下载地址、大小和SHA-256均写入清单。README与发行说明直接链接正确资源版，不能默认认为“最新Release”一定包含所有大包。已有图片资源不变时，更新者只需替换源码与页面。
+
+新的内容或图片则沿用完整资源包发行流程，更新 `source/content-release.json`、`source/app-release.json` 和资源登记；不修改已公开版本的含义。`application`与`packages`命令都只产生本地产物，不自动公开发行。
 
 ## 其他静态托管方案
 

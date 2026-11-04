@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       image_release:
-        description: 'Image resource Release tag (empty uses the latest stable Release)'
+        description: 'Image resource Release tag (empty uses source/app-release.json; overrides must match it)'
         required: false
         type: string
 
@@ -39,13 +39,18 @@ jobs:
       - name: Download released image resources
         env:
           GH_TOKEN: ${{ github.token }}
-          IMAGE_RELEASE: ${{ github.event.release.tag_name || inputs.image_release }}
+          IMAGE_RELEASE: ${{ inputs.image_release }}
         shell: bash
         run: |
           mkdir -p .work/pages-resources
           tag="$IMAGE_RELEASE"
           if [ -z "$tag" ]; then
-            tag="$(gh api "repos/$GITHUB_REPOSITORY/releases/latest" --jq .tag_name)"
+            tag="$(python -c "import json; print(json.load(open('source/app-release.json'))['image_release'])")"
+          fi
+          declared="$(python -c "import json; print(json.load(open('source/app-release.json'))['image_release'])")"
+          if [ "$tag" != "$declared" ]; then
+            echo "Image Release must match source/app-release.json ($declared)." >&2
+            exit 1
           fi
           gh release download "$tag" --repo "$GITHUB_REPOSITORY" \
             --pattern female-appearance-atlas-images.zip --pattern CHECKSUMS.json \
@@ -66,6 +71,7 @@ jobs:
           ATLAS_WEB_BASE_PATH: /female-appearance-atlas/
         run: |
           npx playwright install --with-deps chromium
+          npm run test:browser
           npm run test:web
       - name: Configure Pages
         uses: actions/configure-pages@v6.0.0
@@ -80,12 +86,20 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
+      contents: read
       pages: write
       id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
       - name: Deploy online atlas
         id: deployment
         uses: actions/deploy-pages@v5.0.1
+      - name: Verify the published website
+        env:
+          SITE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: python tools/check_online.py --base "$SITE_URL" --expect-commit "$GITHUB_SHA"

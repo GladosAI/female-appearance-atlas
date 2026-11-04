@@ -6,6 +6,7 @@ def write_usage_readme(root):
     navigation=json.loads((root/'data/navigation.json').read_text(encoding='utf-8'))
     meta=data['meta']
     package=json.loads((root/'package.json').read_text(encoding='utf-8'))
+    app=json.loads((root/'source/app-release.json').read_text(encoding='utf-8'))
     repository=package['repository']['url'].removeprefix('git+').removesuffix('.git')
     text=f'''# 女性之美
 
@@ -17,13 +18,13 @@ def write_usage_readme(root):
 
 [在线阅览]({package['homepage']}) · [源码仓库]({repository}) · [版本与资源包]({repository}/releases) · [问题反馈]({repository}/issues)
 
-无需下载即可[在线浏览图鉴]({package['homepage']})；需要原图或离线使用时，从[Releases]({repository}/releases/latest)获取以下资源包。
+无需下载即可[在线浏览图鉴]({package['homepage']})；当前程序版 **{app['version']}**，内容版 **{meta['version']}**。需要原图或离线使用时，从[Releases]({repository}/releases/latest)获取以下资源包。程序更新复用明确标记版本的图片资源，不必重复下载未变化的图片。
 
 | 下载 | 内容与用途 |
 | --- | --- |
 | [源码与页面]({repository}/releases/latest/download/female-appearance-atlas-source.zip) | 必需，含index.html、程序、词条数据、文档与许可 |
-| [图片资源]({repository}/releases/latest/download/female-appearance-atlas-images.zip) | 必需，含图鉴原图 |
-| [离线图片读取数据]({repository}/releases/latest/download/female-appearance-atlas-offline-copy.zip) | 本地双击时导出图片所需；通过HTTP访问可省略 |
+| [图片资源]({repository}/releases/download/{app['image_release']}/female-appearance-atlas-images.zip) | 必需，含图鉴原图；资源版{app['image_release']} |
+| [离线图片读取数据]({repository}/releases/download/{app['image_release']}/female-appearance-atlas-offline-copy.zip) | 本地双击时导出图片所需；资源版{app['image_release']}；通过HTTP访问可省略 |
 | [SHA-256校验清单]({repository}/releases/latest/download/CHECKSUMS.json) | 核对三个ZIP的大小与完整性 |
 
 ## 浏览与使用

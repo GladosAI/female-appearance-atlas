@@ -485,6 +485,12 @@ def build(partial=False, package=True, image_exports=True, check_assets=True):
     for suffix,placeholder in [('css','__IMAGE_EXPORT_STYLES__'),('js','__IMAGE_EXPORT_SCRIPT__')]:
         template=template.replace(placeholder,(ROOT/f'tools/templates/image_export.{suffix}').read_text(encoding='utf-8'))
     template=apply_theme_palettes(ROOT,template)
+    from build_provenance import application_info
+    app_release=application_info(ROOT)
+    template=template.replace('__APP_RELEASE__',json.dumps(app_release,ensure_ascii=False,separators=(',',':')))
+    template=template.replace('__APP_VERSION__',app_release['app_version'])
+    template=template.replace('__CONTENT_VERSION__',app_release['content_version'])
+    template=template.replace('__DELIVERY_SCRIPT__',(ROOT/'tools/templates/delivery.js').read_text(encoding='utf-8'))
     template=template.replace('__LOADING_SCRIPT__',(ROOT/'tools/templates/lazy_thumbnails.js').read_text(encoding='utf-8'))
     template=template.replace('__CONTENT_MAJOR__',meta['version'].split('.')[0])
     template=apply_brand_assets(ROOT,template)
