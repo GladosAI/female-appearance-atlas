@@ -18,7 +18,11 @@ const payload={schema:'female-appearance-library/v2',cards:[{id:'qa-reference-ca
   const dialog=document.getElementById('card-synthesis-dialog');
   const actual=[...dialog.querySelectorAll('input[type="checkbox"]:checked')].map(input=>input.value).sort();
   return dialog.open&&document.getElementById('synthesis-prompt').value===prompt&&JSON.stringify(actual)===JSON.stringify([...selected].sort());
- },{selected,prompt},{timeout:10000});
+ },{selected,prompt},{timeout:10000}).catch(async error=>{
+  const diagnostic=await page.evaluate(key=>({url:location.href,history:JSON.parse(localStorage.getItem(key)||'[]'),prompt:document.getElementById('synthesis-prompt').value,checkboxes:[...document.querySelectorAll('#synthesis-references input')].map(input=>({id:input.value,checked:input.checked}))}),historyKey);
+  fs.writeFileSync(path.join(output,'restore-failure.json'),JSON.stringify(diagnostic,null,2));
+  console.error('Restore-state diagnostic: '+JSON.stringify(diagnostic));throw error;
+ });
  await page.goto(base+'?view=card&card=qa-reference-card');
  const galleryOrder=()=>page.locator('#selected-grid > .entry').evaluateAll(elements=>elements.map(element=>element.querySelector('[data-detail]').dataset.detail));
  const originalLibrary=await page.evaluate(key=>localStorage.getItem(key),key);
