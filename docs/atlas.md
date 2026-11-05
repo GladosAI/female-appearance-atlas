@@ -10418,9 +10418,9 @@ D数参考、袜长、材质、吊带与自持结构、袜裤、图案，以及�
 
 原创人物场景参考。观察环境用途、前中后景、人物活动与道具接触，以及透视、尺度和光照关系。人物与着装是案例，可按角色设定替换；历史与幻想场景为创作灵感。
 
-![居家生活场景 · 起居与日常照料](../images/sheet-scenes-snh-1-v71.png)
+![居家生活场景 · 起居与日常照料](../images/sheet-scenes-snh-1-v73.png)
 
-![居家生活场景 · 家务与居住细节](../images/sheet-scenes-snh-2-v71.png)
+![居家生活场景 · 家务与居住细节](../images/sheet-scenes-snh-2-v73.png)
 
 | 编号 | 中文 | English | 可见特征 |
 | --- | --- | --- | --- |
@@ -10439,9 +10439,9 @@ D数参考、袜长、材质、吊带与自持结构、袜裤、图案，以及�
 
 原创人物场景参考。观察环境用途、前中后景、人物活动与道具接触，以及透视、尺度和光照关系。人物与着装是案例，可按角色设定替换；历史与幻想场景为创作灵感。
 
-![工作与公共空间 · 工作、医疗与科研](../images/sheet-scenes-snw-1-v71.png)
+![工作与公共空间 · 工作、医疗与科研](../images/sheet-scenes-snw-1-v73.png)
 
-![工作与公共空间 · 学习、交通与公共服务](../images/sheet-scenes-snw-2-v71.png)
+![工作与公共空间 · 学习、交通与公共服务](../images/sheet-scenes-snw-2-v73.png)
 
 | 编号 | 中文 | English | 可见特征 |
 | --- | --- | --- | --- |
@@ -10449,7 +10449,7 @@ D数参考、袜长、材质、吊带与自持结构、袜裤、图案，以及�
 | SNW002 | 会议室汇报场景 | meeting-room presentation scene | 长会议桌、座椅、投影屏与白板构成会议室，女性在屏幕旁向几位成年同事讲解。 |
 | SNW003 | 医院门诊交流场景 | hospital consultation scene | 诊室中的问诊桌、检查床与医疗柜形成医院门诊，穿白大褂的女医生与成年女患者交流。 |
 | SNW004 | 实验室观察场景 | laboratory observation scene | 实验台、显微镜、封闭样本盒与柜体构成研究室，穿实验服的女研究员观察样本。 |
-| SNW005 | 大学教室授课场景 | university classroom teaching scene | 黑板、投影幕、课桌与讲台形成大学教室，成年女教师在讲台旁授课。 |
+| SNW005 | 中学教室授课场景 | secondary-school classroom teaching scene | 黑板、投影幕、课桌与讲台形成中学教室，成年女教师授课，穿校服的初高中学生在座位上听讲。 |
 | SNW006 | 图书馆阅览场景 | library reading scene | 高书架、阅览桌与大窗构成图书馆，女性在桌边翻阅书籍，书架间还有成年读者。 |
 | SNW007 | 地铁站通勤场景 | metro-station commuting scene | 站台、闸机、候车线与列车形成地铁空间，女性通勤者提包在安全区域候车。 |
 | SNW008 | 消防站备勤场景 | fire-station readiness scene | 车库、消防车、装备柜与长凳构成消防站，女消防员在车辆旁检查头盔与外套。 |
@@ -10460,9 +10460,9 @@ D数参考、袜长、材质、吊带与自持结构、袜裤、图案，以及�
 
 原创人物场景参考。观察环境用途、前中后景、人物活动与道具接触，以及透视、尺度和光照关系。人物与着装是案例，可按角色设定替换；历史与幻想场景为创作灵感。
 
-![餐饮住宿与商业场景 · 住宿与餐饮服务](../images/sheet-scenes-snc-1-v71.png)
+![餐饮住宿与商业场景 · 住宿与餐饮服务](../images/sheet-scenes-snc-1-v73.png)
 
-![餐饮住宿与商业场景 · 购物与生活服务](../images/sheet-scenes-snc-2-v71.png)
+![餐饮住宿与商业场景 · 购物与生活服务](../images/sheet-scenes-snc-2-v73.png)
 
 | 编号 | 中文 | English | 可见特征 |
 | --- | --- | --- | --- |
@@ -10481,9 +10481,9 @@ D数参考、袜长、材质、吊带与自持结构、袜裤、图案，以及�
 
 原创人物场景参考。观察环境用途、前中后景、人物活动与道具接触，以及透视、尺度和光照关系。人物与着装是案例，可按角色设定替换；历史与幻想场景为创作灵感。
 
-![休闲自然与旅行场景 · 海岸与城市休闲](../images/sheet-scenes-snr-1-v71.png)
+![休闲自然与旅行场景 · 海岸与城市休闲](../images/sheet-scenes-snr-1-v73.png)
 
-![休闲自然与旅行场景 · 自然旅行与交通](../images/sheet-scenes-snr-2-v71.png)
+![休闲自然与旅行场景 · 自然旅行与交通](../images/sheet-scenes-snr-2-v73.png)
 
 | 编号 | 中文 | English | 可见特征 |
 | --- | --- | --- | --- |
@@ -10502,9 +10502,9 @@ D数参考、袜长、材质、吊带与自持结构、袜裤、图案，以及�
 
 原创人物场景参考。观察环境用途、前中后景、人物活动与道具接触，以及透视、尺度和光照关系。人物与着装是案例，可按角色设定替换；历史与幻想场景为创作灵感。
 
-![文体演出与节庆场景 · 运动与排练空间](../images/sheet-scenes-sne-1-v71.png)
+![文体演出与节庆场景 · 运动与排练空间](../images/sheet-scenes-sne-1-v73.png)
 
-![文体演出与节庆场景 · 舞台与节庆活动](../images/sheet-scenes-sne-2-v71.png)
+![文体演出与节庆场景 · 舞台与节庆活动](../images/sheet-scenes-sne-2-v73.png)
 
 | 编号 | 中文 | English | 可见特征 |
 | --- | --- | --- | --- |
@@ -10523,9 +10523,9 @@ D数参考、袜长、材质、吊带与自持结构、袜裤、图案，以及�
 
 原创人物场景参考。观察环境用途、前中后景、人物活动与道具接触，以及透视、尺度和光照关系。人物与着装是案例，可按角色设定替换；历史与幻想场景为创作灵感。
 
-![历史与影视叙事场景 · 中式古风与年代空间](../images/sheet-scenes-snf-1-v71.png)
+![历史与影视叙事场景 · 中式古风与年代空间](../images/sheet-scenes-snf-1-v73.png)
 
-![历史与影视叙事场景 · 经典影视叙事空间](../images/sheet-scenes-snf-2-v71.png)
+![历史与影视叙事场景 · 经典影视叙事空间](../images/sheet-scenes-snf-2-v73.png)
 
 | 编号 | 中文 | English | 可见特征 |
 | --- | --- | --- | --- |
@@ -10544,13 +10544,13 @@ D数参考、袜长、材质、吊带与自持结构、袜裤、图案，以及�
 
 原创人物场景参考。观察环境用途、前中后景、人物活动与道具接触，以及透视、尺度和光照关系。人物与着装是案例，可按角色设定替换；历史与幻想场景为创作灵感。
 
-![奇幻与神话游戏场景 · 学院、公会与城堡](../images/sheet-scenes-sng-1-v71.png)
+![奇幻与神话游戏场景 · 学院、公会与城堡](../images/sheet-scenes-sng-1-v73.png)
 
-![奇幻与神话游戏场景 · 森林、遗迹与神话空间](../images/sheet-scenes-sng-2-v71.png)
+![奇幻与神话游戏场景 · 森林、遗迹与神话空间](../images/sheet-scenes-sng-2-v73.png)
 
 | 编号 | 中文 | English | 可见特征 |
 | --- | --- | --- | --- |
-| SNG001 | 魔法学院课堂场景 | magic-academy classroom scene | 拱窗、魔法书架、课桌与浮光形成魔法课堂，成年女学徒在桌边练习控制光球。 |
+| SNG001 | 魔法学院课堂场景 | magic-academy classroom scene | 拱窗、魔法书架、课桌与浮光形成魔法学院课堂，中学生年龄的女生穿完整学院制服，在桌边练习控制光球。 |
 | SNG002 | 冒险者公会接取任务场景 | adventurers-guild quest scene | 任务板、接待台、长桌与旅行装备构成冒险者公会，成年女游侠查看任务告示。 |
 | SNG003 | 城堡大厅接见场景 | fantasy-castle audience-hall scene | 拱顶、旗帜、石阶与高窗构成架空城堡大厅，成年女性领主在大厅接见访客。 |
 | SNG004 | 炼金工坊研究场景 | alchemy-workshop research scene | 曲管仪器、书册、材料柜与发光容器构成炼金工坊，成年女炼金师在工作台前观察魔法反应。 |
@@ -10565,9 +10565,9 @@ D数参考、袜长、材质、吊带与自持结构、袜裤、图案，以及�
 
 原创人物场景参考。观察环境用途、前中后景、人物活动与道具接触，以及透视、尺度和光照关系。人物与着装是案例，可按角色设定替换；历史与幻想场景为创作灵感。
 
-![科幻与末世任务场景 · 太空、都市与机械设施](../images/sheet-scenes-sns-1-v71.png)
+![科幻与末世任务场景 · 太空、都市与机械设施](../images/sheet-scenes-sns-1-v73.png)
 
-![科幻与末世任务场景 · 深海、废土与异星空间](../images/sheet-scenes-sns-2-v71.png)
+![科幻与末世任务场景 · 深海、废土与异星空间](../images/sheet-scenes-sns-2-v73.png)
 
 | 编号 | 中文 | English | 可见特征 |
 | --- | --- | --- | --- |
@@ -10586,32 +10586,32 @@ D数参考、袜长、材质、吊带与自持结构、袜裤、图案，以及�
 
 原创人物场景参考。观察环境用途、前中后景、人物活动与道具接触，以及透视、尺度和光照关系。人物与着装是案例，可按角色设定替换；历史与幻想场景为创作灵感。
 
-![学校与校园生活 · 入校与教学空间](../images/sheet-scenes-snu-1-v72.png)
+![学校与校园生活 · 入校与教学空间](../images/sheet-scenes-snu-1-v73.png)
 
-![学校与校园生活 · 社团与艺术活动](../images/sheet-scenes-snu-2-v72.png)
+![学校与校园生活 · 社团与艺术活动](../images/sheet-scenes-snu-2-v73.png)
 
-![学校与校园生活 · 课程与体育活动](../images/sheet-scenes-snu-3-v72.png)
+![学校与校园生活 · 课程与体育活动](../images/sheet-scenes-snu-3-v73.png)
 
-![学校与校园生活 · 校园起居与毕业](../images/sheet-scenes-snu-4-v72.png)
+![学校与校园生活 · 校园起居与毕业](../images/sheet-scenes-snu-4-v73.png)
 
 | 编号 | 中文 | English | 可见特征 |
 | --- | --- | --- | --- |
-| SNU001 | 学校校门入校场景 | school-gate arrival scene | 教学楼、校门、门岗与步行入口构成学校外部，女大学生背包步行进入校园。 |
-| SNU002 | 校园林荫路同行场景 | campus tree-lined walkway scene | 校园步道、林荫、长凳与教学楼构成校内道路，两位女大学生边走边交流。 |
-| SNU003 | 教室课间整理书本场景 | classroom break-time scene | 课桌、黑板、窗户与讲台形成学校教室，女大学生在课间整理桌上的书本。 |
-| SNU004 | 考场监考场景 | examination-room invigilation scene | 间隔摆放的课桌、墙钟与前方讲台构成考场，女教师持名单在桌间巡视。 |
-| SNU005 | 教学楼走廊交流场景 | academic-building corridor scene | 教室门、公告栏、窗边栏杆与走廊构成教学楼，两位女性在课后交流课程资料。 |
-| SNU006 | 校园社团教室活动场景 | campus club-room activity scene | 活动桌、收纳柜、海报板与手工作品形成社团教室，女大学生与伙伴制作活动装饰。 |
-| SNU007 | 美术教室写生场景 | art-classroom drawing scene | 画架、静物台、颜料与大窗形成美术教室，成年女生对着静物绘制习作。 |
-| SNU008 | 音乐教室钢琴练习场景 | music-classroom piano-practice scene | 钢琴、乐谱架、吸音墙与座椅形成音乐教室，成年女生坐在琴前练习。 |
-| SNU009 | 校园科学实验课堂场景 | school science-laboratory lesson scene | 实验桌、演示台、模型柜与黑板构成科学教室，女教师向成年学生讲解演示器材。 |
-| SNU010 | 计算机教室上机场景 | computer-classroom practice scene | 整排电脑、讲台显示屏与理线桌形成机房，女大学生在座位上操作电脑。 |
-| SNU011 | 校园体育馆篮球练习场景 | campus gym basketball-practice scene | 篮球架、木地板、场地线与长凳构成校园体育馆，成年女学生在场边练习运球。 |
-| SNU012 | 学校操场集合场景 | school sports-ground assembly scene | 教学楼、跑道、球场与旗杆构成校园操场，女体育教师持记录板组织成年学生集合。 |
-| SNU013 | 学校食堂就餐场景 | school-canteen dining scene | 取餐窗口、餐盘、长桌与回收区构成校园食堂，女大学生端餐盘寻找座位。 |
-| SNU014 | 校园宿舍整理场景 | campus dormitory tidying scene | 书桌、床铺、衣柜与行李形成大学宿舍，女大学生把折好的衣物放进收纳柜。 |
-| SNU015 | 校园公告栏查看场景 | campus noticeboard scene | 公告栏、社团海报、室外长凳与教学楼形成校园信息区，女大学生停步查看通知。 |
-| SNU016 | 毕业礼堂合影场景 | graduation-hall group-photo scene | 讲台、排椅、典礼背景与花饰构成毕业礼堂，成年女毕业生与同伴穿学位服合影。 |
+| SNU001 | 学校校门入校场景 | school-gate arrival scene | 教学楼、校门、门岗与步行入口构成中学校园，一名穿校服的高中女生背包步行入校。 |
+| SNU002 | 校园林荫路同行场景 | campus tree-lined walkway scene | 校园步道、林荫、长凳与教学楼构成中学校园，两位穿校服的初中女生边走边交流。 |
+| SNU003 | 教室课间整理书本场景 | classroom break-time scene | 课桌、黑板、窗户与讲台形成中学教室，初中女生在课间把课本整理进书包。 |
+| SNU004 | 考场监考场景 | examination-room invigilation scene | 间隔摆放的课桌、墙钟与讲台构成中学考场，成年女教师持名单巡视，初高中学生安静答卷。 |
+| SNU005 | 教学楼走廊交流场景 | academic-building corridor scene | 教室门、公告栏与窗边栏杆构成教学楼走廊，两位穿校服的高中女生在课后交流课程资料。 |
+| SNU006 | 校园社团教室活动场景 | campus club-room activity scene | 活动桌、收纳柜、海报板与手工作品形成社团教室，初中女生与同学制作校园活动装饰。 |
+| SNU007 | 美术教室写生场景 | art-classroom drawing scene | 画架、静物台、颜料与大窗形成中学美术教室，高中女生对着静物绘制写生习作。 |
+| SNU008 | 音乐教室钢琴练习场景 | music-classroom piano-practice scene | 钢琴、乐谱架、吸音墙与座椅形成中学音乐教室，初中女生坐在琴前练习。 |
+| SNU009 | 校园科学实验课堂场景 | school science-laboratory lesson scene | 实验桌、模型柜与黑板构成中学科学教室，成年女教师向穿校服的初中生讲解演示模型。 |
+| SNU010 | 计算机教室上机场景 | computer-classroom practice scene | 整排电脑、讲台显示屏与理线桌形成中学机房，高中女生在座位上操作电脑。 |
+| SNU011 | 校园体育馆篮球练习场景 | campus gym basketball-practice scene | 篮球架、木地板、场地线与长凳构成校园体育馆，高中女生穿宽松运动服练习运球。 |
+| SNU012 | 学校操场集合场景 | school sports-ground assembly scene | 教学楼、跑道、球场与旗杆构成中学操场，成年女体育教师持记录板组织初中生集合。 |
+| SNU013 | 学校食堂就餐场景 | school-canteen dining scene | 取餐窗口、餐盘、长桌与回收区构成中学食堂，穿校服的初中女生端餐盘寻找座位。 |
+| SNU014 | 校园宿舍整理场景 | campus dormitory tidying scene | 书桌、床铺、衣柜与行李形成寄宿中学宿舍，高中女生穿完整校服运动套装整理衣物。 |
+| SNU015 | 校园公告栏查看场景 | campus noticeboard scene | 公告栏、社团海报、长凳与教学楼形成校园信息区，高中女生停步查看通知。 |
+| SNU016 | 毕业礼堂合影场景 | graduation-hall group-photo scene | 讲台、排椅、典礼布景与花饰构成中学毕业礼堂，高中女生穿校服与同学合影。 |
 
 <a id="scene_community"></a>
 
@@ -10619,9 +10619,9 @@ D数参考、袜长、材质、吊带与自持结构、袜裤、图案，以及�
 
 原创人物场景参考。观察环境用途、前中后景、人物活动与道具接触，以及透视、尺度和光照关系。人物与着装是案例，可按角色设定替换；历史与幻想场景为创作灵感。
 
-![社区生活与服务 · 日常购物与公共服务](../images/sheet-scenes-snb-1-v72.png)
+![社区生活与服务 · 日常购物与公共服务](../images/sheet-scenes-snb-1-v73.png)
 
-![社区生活与服务 · 社区照料与出行](../images/sheet-scenes-snb-2-v72.png)
+![社区生活与服务 · 社区照料与出行](../images/sheet-scenes-snb-2-v73.png)
 
 | 编号 | 中文 | English | 可见特征 |
 | --- | --- | --- | --- |
@@ -10640,9 +10640,9 @@ D数参考、袜长、材质、吊带与自持结构、袜裤、图案，以及�
 
 原创人物场景参考。观察环境用途、前中后景、人物活动与道具接触，以及透视、尺度和光照关系。人物与着装是案例，可按角色设定替换；历史与幻想场景为创作灵感。
 
-![文化游览与休闲 · 文化场馆与观览](../images/sheet-scenes-snv-1-v72.png)
+![文化游览与休闲 · 文化场馆与观览](../images/sheet-scenes-snv-1-v73.png)
 
-![文化游览与休闲 · 自然游览与地方生活](../images/sheet-scenes-snv-2-v72-v2.png)
+![文化游览与休闲 · 自然游览与地方生活](../images/sheet-scenes-snv-2-v73.png)
 
 | 编号 | 中文 | English | 可见特征 |
 | --- | --- | --- | --- |

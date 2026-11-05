@@ -175,6 +175,15 @@ def build_web(output, image_mode='original'):
         target = output/source.relative_to(ROOT)
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source, target)
+    scene_records = sorted((ROOT/'source').glob('scene-*.json'))
+    scene_records += sorted((ROOT/'source/contributions').glob('scenes-v*.json'))
+    scene_records += sorted((ROOT/'source/rights-history').glob('*.json'))
+    for plan in sorted((ROOT/'source').glob('scene-plan-v*.json')):
+        scene_records.append(ROOT/'prompts'/('image-prompts-v'+plan.stem.removeprefix('scene-plan-v')+'.json'))
+    for source in scene_records:
+        target = output/source.relative_to(ROOT)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, target)
     (output / '_headers').write_text('/assets/runtime-*.js\n  Cache-Control: public, max-age=31536000, immutable\n/images/*\n  Cache-Control: public, max-age=3600\n/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n', encoding='utf-8')
     (output / 'wrangler.jsonc').write_text(json.dumps({'name': 'female-appearance-atlas', 'compatibility_date': '2026-11-02', 'assets': {'directory': '.', 'not_found_handling': '404-page'}}, indent=2) + '\n', encoding='utf-8')
     result = manifest(output)
@@ -193,12 +202,16 @@ def build_packages(output):
     groups = {'source': [], 'images': [], 'offline-copy': []}
     catalog=json.loads((ROOT/'data/catalog.json').read_text(encoding='utf-8'))
     needed_images={board['image'] for board in catalog['boards']} | {ref['image'] for ref in catalog['references'] if ref.get('image')}
+    export_index=json.loads((ROOT/'data/image-export-index.json').read_text(encoding='utf-8'))
+    needed_exports={record['file'] for image,record in export_index.items() if image in needed_images}
     for path in sorted(ROOT.rglob('*')):
         if not path.is_file() or not allowed(path, ROOT):
             continue
         relative = path.relative_to(ROOT)
         group = 'offline-copy' if relative.parts[:2] == ('images', 'export-data') else 'images' if relative.parts[0] == 'images' else 'source'
         if group=='images' and relative.as_posix() not in needed_images:
+            continue
+        if group=='offline-copy' and relative.as_posix() not in needed_exports:
             continue
         groups[group].append(path)
     for group in ['images', 'offline-copy']:

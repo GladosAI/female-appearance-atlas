@@ -20,6 +20,8 @@
 
 ## 公共核心
 
+场景重绘可沿用 `tools/prepare_scenes_v71.py register --edition 73`：计划的 `replace_existing` 更新原贡献文件，`board_ids` 保留图页身份，`image_paths` 指向新的版本文件，`prompt_header` 指定本批画风与年龄语境，`review_checks` 列出登记前必须实际完成的复核项，`entry_aliases` 补充指定词条检索入口。重绘不得改写永久编号或最初 `added_in`。当前资源的权利记录只列现用图片；被替换的来源与哈希保存在 `source/rights-history/`，旧授权证据和既有Release保留。
+
 - `id`：永久、不复用、不随排序/分类而变化。初始 6,963 个已发布编号全部登记；旧记录即使退休仍留在登记表。
 - `category`：主归属类别，一个词条只有一个主类别；主题和风格可以跨类别集合。
 - `dimension`：类别内细分，不是完整的冲突判断规则。

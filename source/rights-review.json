@@ -22765,441 +22765,441 @@
       }
     },
     {
-      "path": "images/sheet-scenes-snh-1-v71.png",
+      "path": "images/sheet-scenes-snh-1-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "bad5cb5c221297dd8423e314204be904de7180d59914d4a51aff740a7274dc66",
+      "sha256": "b366abd3585144056f262237a2e14e05f92b4b6f4eec085d2ad0896a7c124952",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v71-snh-1",
       "generation_tool": "built-in image_gen",
       "model": null,
-      "generated_at": "2026-11-04",
-      "reviewed_at": "2026-11-04",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261104",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-52ba31dd96526c9e"
+        "E-NC-GRANT-1503385d6883ef5e"
       ],
       "provenance": {
-        "observed_sha256": "bad5cb5c221297dd8423e314204be904de7180d59914d4a51aff740a7274dc66",
+        "observed_sha256": "b366abd3585144056f262237a2e14e05f92b4b6f4eec085d2ad0896a7c124952",
         "status": "generated-file-match",
         "board_id": "scene-v71-snh-1",
         "prompt_sources": [
-          "source/scene-prompts-v71.json#/jobs/0/prompt"
+          "source/scene-prompts-v73.json#/jobs/0/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-snh-2-v71.png",
+      "path": "images/sheet-scenes-snh-2-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "d52bd4bbe0ad3a4b042f1665cc750e05212affd5bcb6f3fb7cac7405c6bf0b44",
+      "sha256": "bfb1b083c43074319be888c67d7bb98c47c3593af697b91bb170be3700e99310",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v71-snh-2",
       "generation_tool": "built-in image_gen",
       "model": null,
-      "generated_at": "2026-11-04",
-      "reviewed_at": "2026-11-04",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261104",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-801f6630e1517424"
+        "E-NC-GRANT-1e65a3c3bb8e7467"
       ],
       "provenance": {
-        "observed_sha256": "d52bd4bbe0ad3a4b042f1665cc750e05212affd5bcb6f3fb7cac7405c6bf0b44",
+        "observed_sha256": "bfb1b083c43074319be888c67d7bb98c47c3593af697b91bb170be3700e99310",
         "status": "generated-file-match",
         "board_id": "scene-v71-snh-2",
         "prompt_sources": [
-          "source/scene-prompts-v71.json#/jobs/1/prompt"
+          "source/scene-prompts-v73.json#/jobs/1/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-snw-1-v71.png",
+      "path": "images/sheet-scenes-snw-1-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "c35969f241e1c4089f94e3beba889c0d9cf419ef8f92e2f9e909f423415b8e31",
+      "sha256": "6660421ed82e57213115e53bece30c4bba7e15a87fdd22d06515b03a89a01250",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v71-snw-1",
       "generation_tool": "built-in image_gen",
       "model": null,
-      "generated_at": "2026-11-04",
-      "reviewed_at": "2026-11-04",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261104",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-e1bcf106d3a4c3be"
+        "E-NC-GRANT-894fb67323ae9346"
       ],
       "provenance": {
-        "observed_sha256": "c35969f241e1c4089f94e3beba889c0d9cf419ef8f92e2f9e909f423415b8e31",
+        "observed_sha256": "6660421ed82e57213115e53bece30c4bba7e15a87fdd22d06515b03a89a01250",
         "status": "generated-file-match",
         "board_id": "scene-v71-snw-1",
         "prompt_sources": [
-          "source/scene-prompts-v71.json#/jobs/2/prompt"
+          "source/scene-prompts-v73.json#/jobs/2/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-snw-2-v71.png",
+      "path": "images/sheet-scenes-snw-2-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "f042ddca49e18c9c18cf1855d16ad91362b35af0369b92b24f68c98e2ff8d40f",
+      "sha256": "510192c168696843b1c0245bf8afae84caa188dd55c6d9285d9f454175b46086",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v71-snw-2",
       "generation_tool": "built-in image_gen",
       "model": null,
-      "generated_at": "2026-11-04",
-      "reviewed_at": "2026-11-04",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261104",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-918384027a1cfb93"
+        "E-NC-GRANT-04419122c790131c"
       ],
       "provenance": {
-        "observed_sha256": "f042ddca49e18c9c18cf1855d16ad91362b35af0369b92b24f68c98e2ff8d40f",
+        "observed_sha256": "510192c168696843b1c0245bf8afae84caa188dd55c6d9285d9f454175b46086",
         "status": "generated-file-match",
         "board_id": "scene-v71-snw-2",
         "prompt_sources": [
-          "source/scene-prompts-v71.json#/jobs/3/prompt"
+          "source/scene-prompts-v73.json#/jobs/3/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-snc-1-v71.png",
+      "path": "images/sheet-scenes-snc-1-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "c324989c58e1dc75e52ddef006c4227794b9a61f6dd07a5496acd3c411f88ce9",
+      "sha256": "28e8602908fecad77c16c1222698f83074dc5aa125ab11d7ee7d8cd5a9555982",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v71-snc-1",
       "generation_tool": "built-in image_gen",
       "model": null,
-      "generated_at": "2026-11-04",
-      "reviewed_at": "2026-11-04",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261104",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-1d1a7e9e7e8604ed"
+        "E-NC-GRANT-f77303fd74d39a45"
       ],
       "provenance": {
-        "observed_sha256": "c324989c58e1dc75e52ddef006c4227794b9a61f6dd07a5496acd3c411f88ce9",
+        "observed_sha256": "28e8602908fecad77c16c1222698f83074dc5aa125ab11d7ee7d8cd5a9555982",
         "status": "generated-file-match",
         "board_id": "scene-v71-snc-1",
         "prompt_sources": [
-          "source/scene-prompts-v71.json#/jobs/4/prompt"
+          "source/scene-prompts-v73.json#/jobs/4/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-snc-2-v71.png",
+      "path": "images/sheet-scenes-snc-2-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "ae69c5dc5a629c0189ce9bec96f997a392704c2152ec73e3889e6398ff3ff869",
+      "sha256": "a46f070ed090d955a414473c4f0c3b33bbbec053e288d65b083939a7c0dd9028",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v71-snc-2",
       "generation_tool": "built-in image_gen",
       "model": null,
-      "generated_at": "2026-11-04",
-      "reviewed_at": "2026-11-04",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261104",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-c72a4da422ab2aaa"
+        "E-NC-GRANT-1e7aa9fa6f34c0b8"
       ],
       "provenance": {
-        "observed_sha256": "ae69c5dc5a629c0189ce9bec96f997a392704c2152ec73e3889e6398ff3ff869",
+        "observed_sha256": "a46f070ed090d955a414473c4f0c3b33bbbec053e288d65b083939a7c0dd9028",
         "status": "generated-file-match",
         "board_id": "scene-v71-snc-2",
         "prompt_sources": [
-          "source/scene-prompts-v71.json#/jobs/5/prompt"
+          "source/scene-prompts-v73.json#/jobs/5/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-snr-1-v71.png",
+      "path": "images/sheet-scenes-snr-1-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "26dd29b0492686146b5c33ee84e9c88528c941254ae9970478fcb5572a08d288",
+      "sha256": "b1d2392045d459182c1ebfeb1f50ded8af76bf25db125cb52f86edd923ae4806",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v71-snr-1",
       "generation_tool": "built-in image_gen",
       "model": null,
-      "generated_at": "2026-11-04",
-      "reviewed_at": "2026-11-04",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261104",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-87302f089408e922"
+        "E-NC-GRANT-c644e428019bf385"
       ],
       "provenance": {
-        "observed_sha256": "26dd29b0492686146b5c33ee84e9c88528c941254ae9970478fcb5572a08d288",
+        "observed_sha256": "b1d2392045d459182c1ebfeb1f50ded8af76bf25db125cb52f86edd923ae4806",
         "status": "generated-file-match",
         "board_id": "scene-v71-snr-1",
         "prompt_sources": [
-          "source/scene-prompts-v71.json#/jobs/6/prompt"
+          "source/scene-prompts-v73.json#/jobs/6/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-snr-2-v71.png",
+      "path": "images/sheet-scenes-snr-2-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "19971aa84bec35a109635e2278b325de71348b3d2ed0135e7ebcf71908e95576",
+      "sha256": "c0e3c741103ab0914e6ac116b447ff5493f3e2be1e493ac8aed4202a120abba9",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v71-snr-2",
       "generation_tool": "built-in image_gen",
       "model": null,
-      "generated_at": "2026-11-04",
-      "reviewed_at": "2026-11-04",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261104",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-878e0762281c9640"
+        "E-NC-GRANT-425bb8fa20238b93"
       ],
       "provenance": {
-        "observed_sha256": "19971aa84bec35a109635e2278b325de71348b3d2ed0135e7ebcf71908e95576",
+        "observed_sha256": "c0e3c741103ab0914e6ac116b447ff5493f3e2be1e493ac8aed4202a120abba9",
         "status": "generated-file-match",
         "board_id": "scene-v71-snr-2",
         "prompt_sources": [
-          "source/scene-prompts-v71.json#/jobs/7/prompt"
+          "source/scene-prompts-v73.json#/jobs/7/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-sne-1-v71.png",
+      "path": "images/sheet-scenes-sne-1-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "9712a79a15de008a5096182edaa9e3e6c20c912ff7c86562c5f35ca440efade0",
+      "sha256": "5d500e5539c333ad2f719428765cfcc24746bc373b165a1c134e545cbc50062c",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v71-sne-1",
       "generation_tool": "built-in image_gen",
       "model": null,
-      "generated_at": "2026-11-04",
-      "reviewed_at": "2026-11-04",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261104",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-5ad4612f5a06f5c6"
+        "E-NC-GRANT-c54fd5cc5d3682eb"
       ],
       "provenance": {
-        "observed_sha256": "9712a79a15de008a5096182edaa9e3e6c20c912ff7c86562c5f35ca440efade0",
+        "observed_sha256": "5d500e5539c333ad2f719428765cfcc24746bc373b165a1c134e545cbc50062c",
         "status": "generated-file-match",
         "board_id": "scene-v71-sne-1",
         "prompt_sources": [
-          "source/scene-prompts-v71.json#/jobs/8/prompt"
+          "source/scene-prompts-v73.json#/jobs/8/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-sne-2-v71.png",
+      "path": "images/sheet-scenes-sne-2-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "31e43f9dc01bb4112e111f997a3fdddffae9d9618df14fafc3aca2172d04c3ee",
+      "sha256": "20f1cc137e55d004724aab88be0af0e9992d0350f4399e6934c5618b0cb24e48",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v71-sne-2",
       "generation_tool": "built-in image_gen",
       "model": null,
-      "generated_at": "2026-11-04",
-      "reviewed_at": "2026-11-04",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261104",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-afb6fedc21ebbd35"
+        "E-NC-GRANT-bb6b76645a28b64d"
       ],
       "provenance": {
-        "observed_sha256": "31e43f9dc01bb4112e111f997a3fdddffae9d9618df14fafc3aca2172d04c3ee",
+        "observed_sha256": "20f1cc137e55d004724aab88be0af0e9992d0350f4399e6934c5618b0cb24e48",
         "status": "generated-file-match",
         "board_id": "scene-v71-sne-2",
         "prompt_sources": [
-          "source/scene-prompts-v71.json#/jobs/9/prompt"
+          "source/scene-prompts-v73.json#/jobs/9/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-snf-1-v71.png",
+      "path": "images/sheet-scenes-snf-1-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "21ddab36d3d12630077ca761fb92ebe77f0649de03946358796c657ea0f67615",
+      "sha256": "ffb0165db68a59aa64813aafcd39c1e33a8ccbd93aef3f6afc68531105682c3c",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v71-snf-1",
       "generation_tool": "built-in image_gen",
       "model": null,
-      "generated_at": "2026-11-04",
-      "reviewed_at": "2026-11-04",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261104",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-462c043221edcb26"
+        "E-NC-GRANT-00f8c2f5aabc3e9b"
       ],
       "provenance": {
-        "observed_sha256": "21ddab36d3d12630077ca761fb92ebe77f0649de03946358796c657ea0f67615",
+        "observed_sha256": "ffb0165db68a59aa64813aafcd39c1e33a8ccbd93aef3f6afc68531105682c3c",
         "status": "generated-file-match",
         "board_id": "scene-v71-snf-1",
         "prompt_sources": [
-          "source/scene-prompts-v71.json#/jobs/10/prompt"
+          "source/scene-prompts-v73.json#/jobs/10/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-snf-2-v71.png",
+      "path": "images/sheet-scenes-snf-2-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "66341a9781f989ce9d8abe712193583b66a386d09de7c264ae125e8e884f46e6",
+      "sha256": "5fcba618d849f3b5ddd35e3043fda0ba05341b4761ae17198f7750a836b26ed0",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v71-snf-2",
       "generation_tool": "built-in image_gen",
       "model": null,
-      "generated_at": "2026-11-04",
-      "reviewed_at": "2026-11-04",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261104",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-0fb7305b3845d1e9"
+        "E-NC-GRANT-c8eb5381c6960947"
       ],
       "provenance": {
-        "observed_sha256": "66341a9781f989ce9d8abe712193583b66a386d09de7c264ae125e8e884f46e6",
+        "observed_sha256": "5fcba618d849f3b5ddd35e3043fda0ba05341b4761ae17198f7750a836b26ed0",
         "status": "generated-file-match",
         "board_id": "scene-v71-snf-2",
         "prompt_sources": [
-          "source/scene-prompts-v71.json#/jobs/11/prompt"
+          "source/scene-prompts-v73.json#/jobs/11/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-sng-1-v71.png",
+      "path": "images/sheet-scenes-sng-1-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "22ff141939c1dcf59c95bf9ca984b92f1ab35f887dda4f51495ff2341169c776",
+      "sha256": "ed82d8c143fbba59eb419c91516e7c653fbcf6dbb7825118505edf9dd6f0c430",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v71-sng-1",
       "generation_tool": "built-in image_gen",
       "model": null,
-      "generated_at": "2026-11-04",
-      "reviewed_at": "2026-11-04",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261104",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-86ecea87dc83b9b5"
+        "E-NC-GRANT-2862484c0fb813df"
       ],
       "provenance": {
-        "observed_sha256": "22ff141939c1dcf59c95bf9ca984b92f1ab35f887dda4f51495ff2341169c776",
+        "observed_sha256": "ed82d8c143fbba59eb419c91516e7c653fbcf6dbb7825118505edf9dd6f0c430",
         "status": "generated-file-match",
         "board_id": "scene-v71-sng-1",
         "prompt_sources": [
-          "source/scene-prompts-v71.json#/jobs/12/prompt"
+          "source/scene-prompts-v73.json#/jobs/12/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-sng-2-v71.png",
+      "path": "images/sheet-scenes-sng-2-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "1a36a1c5f83e3a8db0a671dc9f6a75d6b6cb4cc25c528a1e68ea80b2e17378b1",
+      "sha256": "859b934a8784b6a420dcd4cf395b2937b3492a416ee6ad2663d01f23cdf253ad",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v71-sng-2",
       "generation_tool": "built-in image_gen",
       "model": null,
-      "generated_at": "2026-11-04",
-      "reviewed_at": "2026-11-04",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261104",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-7c09530518c0dd59"
+        "E-NC-GRANT-d6970af33fb52523"
       ],
       "provenance": {
-        "observed_sha256": "1a36a1c5f83e3a8db0a671dc9f6a75d6b6cb4cc25c528a1e68ea80b2e17378b1",
+        "observed_sha256": "859b934a8784b6a420dcd4cf395b2937b3492a416ee6ad2663d01f23cdf253ad",
         "status": "generated-file-match",
         "board_id": "scene-v71-sng-2",
         "prompt_sources": [
-          "source/scene-prompts-v71.json#/jobs/13/prompt"
+          "source/scene-prompts-v73.json#/jobs/13/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-sns-1-v71.png",
+      "path": "images/sheet-scenes-sns-1-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "ebbb318a88f9154a8dbdbbca85377394f30f41bbe1dbaf8b84ae17a50f78dccc",
+      "sha256": "75c4e16ad5e53059e3a3b1b046b66dd0fb85163ec0391c737be505a1aa9e6bb5",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v71-sns-1",
       "generation_tool": "built-in image_gen",
       "model": null,
-      "generated_at": "2026-11-04",
-      "reviewed_at": "2026-11-04",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261104",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-30b9d0fce63f2731"
+        "E-NC-GRANT-0e7a1c7e91d9f1b3"
       ],
       "provenance": {
-        "observed_sha256": "ebbb318a88f9154a8dbdbbca85377394f30f41bbe1dbaf8b84ae17a50f78dccc",
+        "observed_sha256": "75c4e16ad5e53059e3a3b1b046b66dd0fb85163ec0391c737be505a1aa9e6bb5",
         "status": "generated-file-match",
         "board_id": "scene-v71-sns-1",
         "prompt_sources": [
-          "source/scene-prompts-v71.json#/jobs/14/prompt"
+          "source/scene-prompts-v73.json#/jobs/14/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-sns-2-v71.png",
+      "path": "images/sheet-scenes-sns-2-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "da0bac80c921cb71aa56c9920d5cb7e0c14059211f095a89b2f959d8133bf8fd",
+      "sha256": "0e1a9809b898e9345465ea9415ccc9848a1a4d1d7816884faee7671f8b95c965",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v71-sns-2",
       "generation_tool": "built-in image_gen",
       "model": null,
-      "generated_at": "2026-11-04",
-      "reviewed_at": "2026-11-04",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261104",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-c6b6205c95523cc6"
+        "E-NC-GRANT-31e1a644cdf76899"
       ],
       "provenance": {
-        "observed_sha256": "da0bac80c921cb71aa56c9920d5cb7e0c14059211f095a89b2f959d8133bf8fd",
+        "observed_sha256": "0e1a9809b898e9345465ea9415ccc9848a1a4d1d7816884faee7671f8b95c965",
         "status": "generated-file-match",
         "board_id": "scene-v71-sns-2",
         "prompt_sources": [
-          "source/scene-prompts-v71.json#/jobs/15/prompt"
+          "source/scene-prompts-v73.json#/jobs/15/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-snu-1-v72.png",
+      "path": "images/sheet-scenes-snu-1-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "76971fc937193eedb9227c1147bed43fbb799044df8014343db563556906cb21",
+      "sha256": "7fc25a645312a8f30c950375caf3a550fb4451b4dd52d70d8b1013c5680fd412",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v72-snu-1",
@@ -23207,26 +23207,26 @@
       "model": null,
       "generated_at": "2026-11-05",
       "reviewed_at": "2026-11-05",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261105-72",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-aec4070298717ebe"
+        "E-NC-GRANT-b5ce2c5b51f91752"
       ],
       "provenance": {
-        "observed_sha256": "76971fc937193eedb9227c1147bed43fbb799044df8014343db563556906cb21",
+        "observed_sha256": "7fc25a645312a8f30c950375caf3a550fb4451b4dd52d70d8b1013c5680fd412",
         "status": "generated-file-match",
         "board_id": "scene-v72-snu-1",
         "prompt_sources": [
-          "source/scene-prompts-v72.json#/jobs/0/prompt"
+          "source/scene-prompts-v73.json#/jobs/16/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-snu-2-v72.png",
+      "path": "images/sheet-scenes-snu-2-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "e83bafcba66dd7111f2572fd5387611bfa73b8b586fcf29c90a9a19c410f2639",
+      "sha256": "9b3cbb9869dfce77549fb9e78bb850f4062608ac252df2e7ede5d5e82471623e",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v72-snu-2",
@@ -23234,26 +23234,26 @@
       "model": null,
       "generated_at": "2026-11-05",
       "reviewed_at": "2026-11-05",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261105-72",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-7e574a6ae8d40c6d"
+        "E-NC-GRANT-8576ca1b6dbff2c2"
       ],
       "provenance": {
-        "observed_sha256": "e83bafcba66dd7111f2572fd5387611bfa73b8b586fcf29c90a9a19c410f2639",
+        "observed_sha256": "9b3cbb9869dfce77549fb9e78bb850f4062608ac252df2e7ede5d5e82471623e",
         "status": "generated-file-match",
         "board_id": "scene-v72-snu-2",
         "prompt_sources": [
-          "source/scene-prompts-v72.json#/jobs/1/prompt"
+          "source/scene-prompts-v73.json#/jobs/17/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-snu-3-v72.png",
+      "path": "images/sheet-scenes-snu-3-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "85e3b8e8b891c3c49a349e12826425d6328c251a099fcc11f31915f154cc1acd",
+      "sha256": "8eefa479b234e50e4a65e8106b56f6614d659863b8e4eceed2ffdef54cc95682",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v72-snu-3",
@@ -23261,26 +23261,26 @@
       "model": null,
       "generated_at": "2026-11-05",
       "reviewed_at": "2026-11-05",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261105-72",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-56070975c707c679"
+        "E-NC-GRANT-b5f937806f2ba64f"
       ],
       "provenance": {
-        "observed_sha256": "85e3b8e8b891c3c49a349e12826425d6328c251a099fcc11f31915f154cc1acd",
+        "observed_sha256": "8eefa479b234e50e4a65e8106b56f6614d659863b8e4eceed2ffdef54cc95682",
         "status": "generated-file-match",
         "board_id": "scene-v72-snu-3",
         "prompt_sources": [
-          "source/scene-prompts-v72.json#/jobs/2/prompt"
+          "source/scene-prompts-v73.json#/jobs/18/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-snu-4-v72.png",
+      "path": "images/sheet-scenes-snu-4-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "678b1b337d60ad8edea1c82cc28ac85b322d5b31da7481190dc7c40ba9c3c489",
+      "sha256": "27277cfec7bef73b3d041aa273342327538cd0703338b31dbcc20dea185bebb1",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v72-snu-4",
@@ -23288,26 +23288,26 @@
       "model": null,
       "generated_at": "2026-11-05",
       "reviewed_at": "2026-11-05",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261105-72",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-77d218af3dc5f55e"
+        "E-NC-GRANT-3d205e2d57c24628"
       ],
       "provenance": {
-        "observed_sha256": "678b1b337d60ad8edea1c82cc28ac85b322d5b31da7481190dc7c40ba9c3c489",
+        "observed_sha256": "27277cfec7bef73b3d041aa273342327538cd0703338b31dbcc20dea185bebb1",
         "status": "generated-file-match",
         "board_id": "scene-v72-snu-4",
         "prompt_sources": [
-          "source/scene-prompts-v72.json#/jobs/3/prompt"
+          "source/scene-prompts-v73.json#/jobs/19/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-snb-1-v72.png",
+      "path": "images/sheet-scenes-snb-1-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "30cc6f96834e07ed032b0d9364cd7ec852fde159206c5b2e87f7da737dceb97e",
+      "sha256": "6b8438f899378fc6f9607d7114b42ab77b0e093601a24dcf92d3129a703737d8",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v72-snb-1",
@@ -23315,26 +23315,26 @@
       "model": null,
       "generated_at": "2026-11-05",
       "reviewed_at": "2026-11-05",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261105-72",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-9261a0b1f4b783f4"
+        "E-NC-GRANT-b8b3588ec57cb8ff"
       ],
       "provenance": {
-        "observed_sha256": "30cc6f96834e07ed032b0d9364cd7ec852fde159206c5b2e87f7da737dceb97e",
+        "observed_sha256": "6b8438f899378fc6f9607d7114b42ab77b0e093601a24dcf92d3129a703737d8",
         "status": "generated-file-match",
         "board_id": "scene-v72-snb-1",
         "prompt_sources": [
-          "source/scene-prompts-v72.json#/jobs/4/prompt"
+          "source/scene-prompts-v73.json#/jobs/20/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-snb-2-v72.png",
+      "path": "images/sheet-scenes-snb-2-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "14f8ba791c2156b0920a9f4261c265d183d4d4d9bb283047ea903205cf097339",
+      "sha256": "2083d1062528ae8d04ab5f978eb1a62c2ae14e0165fda0a6d05ff30af1109c1a",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v72-snb-2",
@@ -23342,26 +23342,26 @@
       "model": null,
       "generated_at": "2026-11-05",
       "reviewed_at": "2026-11-05",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261105-72",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-783746097bc6e504"
+        "E-NC-GRANT-946bf48c8e01d094"
       ],
       "provenance": {
-        "observed_sha256": "14f8ba791c2156b0920a9f4261c265d183d4d4d9bb283047ea903205cf097339",
+        "observed_sha256": "2083d1062528ae8d04ab5f978eb1a62c2ae14e0165fda0a6d05ff30af1109c1a",
         "status": "generated-file-match",
         "board_id": "scene-v72-snb-2",
         "prompt_sources": [
-          "source/scene-prompts-v72.json#/jobs/5/prompt"
+          "source/scene-prompts-v73.json#/jobs/21/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-snv-1-v72.png",
+      "path": "images/sheet-scenes-snv-1-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "bc52b7eb1f1627017874d85fe31e8712c6a11daed4394daf014e0c087ab3fac5",
+      "sha256": "351a14bbd92878025dc872f1490074d20c3fbec055a2e7411bf34d92f220def1",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v72-snv-1",
@@ -23369,26 +23369,26 @@
       "model": null,
       "generated_at": "2026-11-05",
       "reviewed_at": "2026-11-05",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261105-72",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-0d10a4ec7a94794f"
+        "E-NC-GRANT-12a2d07c6afd28ae"
       ],
       "provenance": {
-        "observed_sha256": "bc52b7eb1f1627017874d85fe31e8712c6a11daed4394daf014e0c087ab3fac5",
+        "observed_sha256": "351a14bbd92878025dc872f1490074d20c3fbec055a2e7411bf34d92f220def1",
         "status": "generated-file-match",
         "board_id": "scene-v72-snv-1",
         "prompt_sources": [
-          "source/scene-prompts-v72.json#/jobs/6/prompt"
+          "source/scene-prompts-v73.json#/jobs/22/prompt"
         ],
         "declared_inputs": []
       }
     },
     {
-      "path": "images/sheet-scenes-snv-2-v72-v2.png",
+      "path": "images/sheet-scenes-snv-2-v73.png",
       "kind": "ai-generated-reference",
-      "sha256": "14472fa82d4243fcf4c4626556af18e2d1cd85b4b3c81e96d8dd3b5a06f808d7",
+      "sha256": "f3c6a528fd9dfd9fd7b4b440da239558e49c44ecb0dc4e5bef32410747413b4b",
       "status": "cleared",
       "license": "CC-BY-NC-4.0",
       "generation_job": "scene-v72-snv-2",
@@ -23396,18 +23396,18 @@
       "model": null,
       "generated_at": "2026-11-05",
       "reviewed_at": "2026-11-05",
-      "notes": "Original scene addition with no image inputs; checked for the named environment, people, activity, labels and tile boundaries. Existing project material license retained.",
+      "notes": "Original anime scene redraw with no image inputs; inspected for setting, people, activity, anime silhouettes, age context, labels and grid boundaries. Supersedes the previous image while preserving board and entry IDs.",
       "evidence_ids": [
-        "E-SCENES-GENERATION-20261105-72",
+        "E-SCENES-REDRAW-20261105-73",
         "E-OWNER-NONCOMMERCIAL-20261103",
-        "E-NC-GRANT-bcf85c7f4a57f816"
+        "E-NC-GRANT-a0c8ae49f53deb28"
       ],
       "provenance": {
-        "observed_sha256": "14472fa82d4243fcf4c4626556af18e2d1cd85b4b3c81e96d8dd3b5a06f808d7",
+        "observed_sha256": "f3c6a528fd9dfd9fd7b4b440da239558e49c44ecb0dc4e5bef32410747413b4b",
         "status": "generated-file-match",
         "board_id": "scene-v72-snv-2",
         "prompt_sources": [
-          "source/scene-prompts-v72.json#/jobs/7/prompt"
+          "source/scene-prompts-v73.json#/jobs/23/prompt"
         ],
         "declared_inputs": []
       }

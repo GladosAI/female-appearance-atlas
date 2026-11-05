@@ -8509,6 +8509,378 @@
       "prompt_source": "source/scene-prompts-v72.json",
       "declared_inputs": [],
       "permission_basis": "Generation provenance only; distribution permission is recorded separately through the continuing owner-selected material policy and asset-specific grants."
+    },
+    {
+      "id": "E-NC-GRANT-1503385d6883ef5e",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snh-1-v73.png",
+      "local_sha256": "b366abd3585144056f262237a2e14e05f92b4b6f4eec085d2ad0896a7c124952",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-1e65a3c3bb8e7467",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snh-2-v73.png",
+      "local_sha256": "bfb1b083c43074319be888c67d7bb98c47c3593af697b91bb170be3700e99310",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-894fb67323ae9346",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snw-1-v73.png",
+      "local_sha256": "6660421ed82e57213115e53bece30c4bba7e15a87fdd22d06515b03a89a01250",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-04419122c790131c",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snw-2-v73.png",
+      "local_sha256": "510192c168696843b1c0245bf8afae84caa188dd55c6d9285d9f454175b46086",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-f77303fd74d39a45",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snc-1-v73.png",
+      "local_sha256": "28e8602908fecad77c16c1222698f83074dc5aa125ab11d7ee7d8cd5a9555982",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-1e7aa9fa6f34c0b8",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snc-2-v73.png",
+      "local_sha256": "a46f070ed090d955a414473c4f0c3b33bbbec053e288d65b083939a7c0dd9028",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-c644e428019bf385",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snr-1-v73.png",
+      "local_sha256": "b1d2392045d459182c1ebfeb1f50ded8af76bf25db125cb52f86edd923ae4806",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-425bb8fa20238b93",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snr-2-v73.png",
+      "local_sha256": "c0e3c741103ab0914e6ac116b447ff5493f3e2be1e493ac8aed4202a120abba9",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-c54fd5cc5d3682eb",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-sne-1-v73.png",
+      "local_sha256": "5d500e5539c333ad2f719428765cfcc24746bc373b165a1c134e545cbc50062c",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-bb6b76645a28b64d",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-sne-2-v73.png",
+      "local_sha256": "20f1cc137e55d004724aab88be0af0e9992d0350f4399e6934c5618b0cb24e48",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-00f8c2f5aabc3e9b",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snf-1-v73.png",
+      "local_sha256": "ffb0165db68a59aa64813aafcd39c1e33a8ccbd93aef3f6afc68531105682c3c",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-c8eb5381c6960947",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snf-2-v73.png",
+      "local_sha256": "5fcba618d849f3b5ddd35e3043fda0ba05341b4761ae17198f7750a836b26ed0",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-2862484c0fb813df",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-sng-1-v73.png",
+      "local_sha256": "ed82d8c143fbba59eb419c91516e7c653fbcf6dbb7825118505edf9dd6f0c430",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-d6970af33fb52523",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-sng-2-v73.png",
+      "local_sha256": "859b934a8784b6a420dcd4cf395b2937b3492a416ee6ad2663d01f23cdf253ad",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-0e7a1c7e91d9f1b3",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-sns-1-v73.png",
+      "local_sha256": "75c4e16ad5e53059e3a3b1b046b66dd0fb85163ec0391c737be505a1aa9e6bb5",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-31e1a644cdf76899",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-sns-2-v73.png",
+      "local_sha256": "0e1a9809b898e9345465ea9415ccc9848a1a4d1d7816884faee7671f8b95c965",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-b5ce2c5b51f91752",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snu-1-v73.png",
+      "local_sha256": "7fc25a645312a8f30c950375caf3a550fb4451b4dd52d70d8b1013c5680fd412",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-8576ca1b6dbff2c2",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snu-2-v73.png",
+      "local_sha256": "9b3cbb9869dfce77549fb9e78bb850f4062608ac252df2e7ede5d5e82471623e",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-b5f937806f2ba64f",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snu-3-v73.png",
+      "local_sha256": "8eefa479b234e50e4a65e8106b56f6614d659863b8e4eceed2ffdef54cc95682",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-3d205e2d57c24628",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snu-4-v73.png",
+      "local_sha256": "27277cfec7bef73b3d041aa273342327538cd0703338b31dbcc20dea185bebb1",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-b8b3588ec57cb8ff",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snb-1-v73.png",
+      "local_sha256": "6b8438f899378fc6f9607d7114b42ab77b0e093601a24dcf92d3129a703737d8",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-946bf48c8e01d094",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snb-2-v73.png",
+      "local_sha256": "2083d1062528ae8d04ab5f978eb1a62c2ae14e0165fda0a6d05ff30af1109c1a",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-12a2d07c6afd28ae",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snv-1-v73.png",
+      "local_sha256": "351a14bbd92878025dc872f1490074d20c3fbec055a2e7411bf34d92f220def1",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-a0c8ae49f53deb28",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/sheet-scenes-snv-2-v73.png",
+      "local_sha256": "f3c6a528fd9dfd9fd7b4b440da239558e49c44ecb0dc4e5bef32410747413b4b",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original project-authorized redraw under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project; this record binds the output hash. Third-party material is not relicensed."
+    },
+    {
+      "id": "E-SCENES-REDRAW-20261105-73",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-05",
+      "title": "Original anime scene redraw, content 73.0",
+      "source": "Built-in image_gen outputs observed in the project redraw conversation, 2026-11-05",
+      "assets": [
+        {
+          "path": "images/sheet-scenes-snh-1-v73.png",
+          "local_sha256": "b366abd3585144056f262237a2e14e05f92b4b6f4eec085d2ad0896a7c124952",
+          "board_id": "scene-v71-snh-1"
+        },
+        {
+          "path": "images/sheet-scenes-snh-2-v73.png",
+          "local_sha256": "bfb1b083c43074319be888c67d7bb98c47c3593af697b91bb170be3700e99310",
+          "board_id": "scene-v71-snh-2"
+        },
+        {
+          "path": "images/sheet-scenes-snw-1-v73.png",
+          "local_sha256": "6660421ed82e57213115e53bece30c4bba7e15a87fdd22d06515b03a89a01250",
+          "board_id": "scene-v71-snw-1"
+        },
+        {
+          "path": "images/sheet-scenes-snw-2-v73.png",
+          "local_sha256": "510192c168696843b1c0245bf8afae84caa188dd55c6d9285d9f454175b46086",
+          "board_id": "scene-v71-snw-2"
+        },
+        {
+          "path": "images/sheet-scenes-snc-1-v73.png",
+          "local_sha256": "28e8602908fecad77c16c1222698f83074dc5aa125ab11d7ee7d8cd5a9555982",
+          "board_id": "scene-v71-snc-1"
+        },
+        {
+          "path": "images/sheet-scenes-snc-2-v73.png",
+          "local_sha256": "a46f070ed090d955a414473c4f0c3b33bbbec053e288d65b083939a7c0dd9028",
+          "board_id": "scene-v71-snc-2"
+        },
+        {
+          "path": "images/sheet-scenes-snr-1-v73.png",
+          "local_sha256": "b1d2392045d459182c1ebfeb1f50ded8af76bf25db125cb52f86edd923ae4806",
+          "board_id": "scene-v71-snr-1"
+        },
+        {
+          "path": "images/sheet-scenes-snr-2-v73.png",
+          "local_sha256": "c0e3c741103ab0914e6ac116b447ff5493f3e2be1e493ac8aed4202a120abba9",
+          "board_id": "scene-v71-snr-2"
+        },
+        {
+          "path": "images/sheet-scenes-sne-1-v73.png",
+          "local_sha256": "5d500e5539c333ad2f719428765cfcc24746bc373b165a1c134e545cbc50062c",
+          "board_id": "scene-v71-sne-1"
+        },
+        {
+          "path": "images/sheet-scenes-sne-2-v73.png",
+          "local_sha256": "20f1cc137e55d004724aab88be0af0e9992d0350f4399e6934c5618b0cb24e48",
+          "board_id": "scene-v71-sne-2"
+        },
+        {
+          "path": "images/sheet-scenes-snf-1-v73.png",
+          "local_sha256": "ffb0165db68a59aa64813aafcd39c1e33a8ccbd93aef3f6afc68531105682c3c",
+          "board_id": "scene-v71-snf-1"
+        },
+        {
+          "path": "images/sheet-scenes-snf-2-v73.png",
+          "local_sha256": "5fcba618d849f3b5ddd35e3043fda0ba05341b4761ae17198f7750a836b26ed0",
+          "board_id": "scene-v71-snf-2"
+        },
+        {
+          "path": "images/sheet-scenes-sng-1-v73.png",
+          "local_sha256": "ed82d8c143fbba59eb419c91516e7c653fbcf6dbb7825118505edf9dd6f0c430",
+          "board_id": "scene-v71-sng-1"
+        },
+        {
+          "path": "images/sheet-scenes-sng-2-v73.png",
+          "local_sha256": "859b934a8784b6a420dcd4cf395b2937b3492a416ee6ad2663d01f23cdf253ad",
+          "board_id": "scene-v71-sng-2"
+        },
+        {
+          "path": "images/sheet-scenes-sns-1-v73.png",
+          "local_sha256": "75c4e16ad5e53059e3a3b1b046b66dd0fb85163ec0391c737be505a1aa9e6bb5",
+          "board_id": "scene-v71-sns-1"
+        },
+        {
+          "path": "images/sheet-scenes-sns-2-v73.png",
+          "local_sha256": "0e1a9809b898e9345465ea9415ccc9848a1a4d1d7816884faee7671f8b95c965",
+          "board_id": "scene-v71-sns-2"
+        },
+        {
+          "path": "images/sheet-scenes-snu-1-v73.png",
+          "local_sha256": "7fc25a645312a8f30c950375caf3a550fb4451b4dd52d70d8b1013c5680fd412",
+          "board_id": "scene-v72-snu-1"
+        },
+        {
+          "path": "images/sheet-scenes-snu-2-v73.png",
+          "local_sha256": "9b3cbb9869dfce77549fb9e78bb850f4062608ac252df2e7ede5d5e82471623e",
+          "board_id": "scene-v72-snu-2"
+        },
+        {
+          "path": "images/sheet-scenes-snu-3-v73.png",
+          "local_sha256": "8eefa479b234e50e4a65e8106b56f6614d659863b8e4eceed2ffdef54cc95682",
+          "board_id": "scene-v72-snu-3"
+        },
+        {
+          "path": "images/sheet-scenes-snu-4-v73.png",
+          "local_sha256": "27277cfec7bef73b3d041aa273342327538cd0703338b31dbcc20dea185bebb1",
+          "board_id": "scene-v72-snu-4"
+        },
+        {
+          "path": "images/sheet-scenes-snb-1-v73.png",
+          "local_sha256": "6b8438f899378fc6f9607d7114b42ab77b0e093601a24dcf92d3129a703737d8",
+          "board_id": "scene-v72-snb-1"
+        },
+        {
+          "path": "images/sheet-scenes-snb-2-v73.png",
+          "local_sha256": "2083d1062528ae8d04ab5f978eb1a62c2ae14e0165fda0a6d05ff30af1109c1a",
+          "board_id": "scene-v72-snb-2"
+        },
+        {
+          "path": "images/sheet-scenes-snv-1-v73.png",
+          "local_sha256": "351a14bbd92878025dc872f1490074d20c3fbec055a2e7411bf34d92f220def1",
+          "board_id": "scene-v72-snv-1"
+        },
+        {
+          "path": "images/sheet-scenes-snv-2-v73.png",
+          "local_sha256": "f3c6a528fd9dfd9fd7b4b440da239558e49c44ecb0dc4e5bef32410747413b4b",
+          "board_id": "scene-v72-snv-2"
+        }
+      ],
+      "prompt_source": "source/scene-prompts-v73.json",
+      "declared_inputs": [],
+      "permission_basis": "Generation provenance only; distribution permission follows the existing owner decision and asset-specific grants."
     }
   ]
 }

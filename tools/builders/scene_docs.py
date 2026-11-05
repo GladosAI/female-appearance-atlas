@@ -1,4 +1,5 @@
 """Scene references keep people, activity and environment in the same example."""
+import json
 
 
 def write_scene_docs(root, data):
@@ -16,6 +17,8 @@ def write_scene_docs(root, data):
 所有配图均用内置 imagegen 原创生成，没有取用现成影视截图或游戏场景。历史、年代和神话空间为创作灵感，不能替代建筑、历史、医疗或生产设计资料。
 
 '''
+    if (root/'source/scene-plan-v73.json').exists():
+        text+='当前96项场景采用清晰线稿、赛璐璐上色与纤细匀称的二次元人物造型。校园学生按初高中生呈现，教师保持成年形象；寄宿中学宿舍使用完整校服运动套装，毕业合影使用校服，不使用大学学位服或学位帽。中学授课与魔法学院课堂也已同步校正学生年龄语境。\n\n'
     for category in data['categories']:
         items = [entry for entry in entries if entry['category'] == category['id']]
         if not items:
@@ -28,7 +31,12 @@ def write_scene_docs(root, data):
             text += f"| {entry['id']} | {entry['name']} | {entry['en']} | {entry['description']} | {entry['design_tip']} |\n"
         text += '\n'
     text += '## 生成与复核记录\n\n'
+    text += '早期提示词保留原始制作记录；当前图像以最新重绘批次的复核记录和图页维护源为准。\n\n'
     for plan in sorted((root/'source').glob('scene-plan-v*.json')):
         edition = plan.stem.removeprefix('scene-plan-v')
-        text += f'- 第{edition}批：[生成提示词](../prompts/image-prompts-v{edition}.json) · [词条与图页](../source/contributions/scenes-v{edition}.json) · [图像复核记录](../source/scene-review-v{edition}.json)\n'
+        settings=json.loads(plan.read_text(encoding='utf-8'))
+        if settings.get('replace_existing'):
+            sources=' · '.join(f'[沿用第{str(version).split(".")[0]}批维护源](../source/contributions/scenes-v{str(version).split(".")[0]}.json)' for version in settings['revision_of'])
+        else:sources=f'[词条与图页](../source/contributions/scenes-v{edition}.json)'
+        text += f'- 第{edition}批：[生成提示词](../prompts/image-prompts-v{edition}.json) · {sources} · [图像复核记录](../source/scene-review-v{edition}.json)\n'
     (root/'docs/scenes-with-characters.md').write_text(text, encoding='utf-8')

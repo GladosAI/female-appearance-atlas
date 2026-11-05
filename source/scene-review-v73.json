@@ -1,0 +1,510 @@
+{
+  "schema": "female-appearance-scene-review/v1",
+  "method": "Actual visual review of all 24 generated boards / 96 scenes, followed by pixel-profile checks of all central divider bands. Style, silhouette and school-age role context checked visually; these are not inferred from geometry checks.",
+  "boards": [
+    {
+      "board_id": "scene-v71-snh-1",
+      "image": "images/sheet-scenes-snh-1-v73.png",
+      "sha256": "b366abd3585144056f262237a2e14e05f92b4b6f4eec085d2ad0896a7c124952",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    },
+    {
+      "board_id": "scene-v71-snh-2",
+      "image": "images/sheet-scenes-snh-2-v73.png",
+      "sha256": "bfb1b083c43074319be888c67d7bb98c47c3593af697b91bb170be3700e99310",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    },
+    {
+      "board_id": "scene-v71-snw-1",
+      "image": "images/sheet-scenes-snw-1-v73.png",
+      "sha256": "6660421ed82e57213115e53bece30c4bba7e15a87fdd22d06515b03a89a01250",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    },
+    {
+      "board_id": "scene-v71-snw-2",
+      "image": "images/sheet-scenes-snw-2-v73.png",
+      "sha256": "510192c168696843b1c0245bf8afae84caa188dd55c6d9285d9f454175b46086",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content. SNW005 is a secondary-school class with uniformed teenage pupils and an adult teacher."
+    },
+    {
+      "board_id": "scene-v71-snc-1",
+      "image": "images/sheet-scenes-snc-1-v73.png",
+      "sha256": "28e8602908fecad77c16c1222698f83074dc5aa125ab11d7ee7d8cd5a9555982",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    },
+    {
+      "board_id": "scene-v71-snc-2",
+      "image": "images/sheet-scenes-snc-2-v73.png",
+      "sha256": "a46f070ed090d955a414473c4f0c3b33bbbec053e288d65b083939a7c0dd9028",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    },
+    {
+      "board_id": "scene-v71-snr-1",
+      "image": "images/sheet-scenes-snr-1-v73.png",
+      "sha256": "b1d2392045d459182c1ebfeb1f50ded8af76bf25db125cb52f86edd923ae4806",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    },
+    {
+      "board_id": "scene-v71-snr-2",
+      "image": "images/sheet-scenes-snr-2-v73.png",
+      "sha256": "c0e3c741103ab0914e6ac116b447ff5493f3e2be1e493ac8aed4202a120abba9",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    },
+    {
+      "board_id": "scene-v71-sne-1",
+      "image": "images/sheet-scenes-sne-1-v73.png",
+      "sha256": "5d500e5539c333ad2f719428765cfcc24746bc373b165a1c134e545cbc50062c",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    },
+    {
+      "board_id": "scene-v71-sne-2",
+      "image": "images/sheet-scenes-sne-2-v73.png",
+      "sha256": "20f1cc137e55d004724aab88be0af0e9992d0350f4399e6934c5618b0cb24e48",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    },
+    {
+      "board_id": "scene-v71-snf-1",
+      "image": "images/sheet-scenes-snf-1-v73.png",
+      "sha256": "ffb0165db68a59aa64813aafcd39c1e33a8ccbd93aef3f6afc68531105682c3c",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    },
+    {
+      "board_id": "scene-v71-snf-2",
+      "image": "images/sheet-scenes-snf-2-v73.png",
+      "sha256": "5fcba618d849f3b5ddd35e3043fda0ba05341b4761ae17198f7750a836b26ed0",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    },
+    {
+      "board_id": "scene-v71-sng-1",
+      "image": "images/sheet-scenes-sng-1-v73.png",
+      "sha256": "ed82d8c143fbba59eb419c91516e7c653fbcf6dbb7825118505edf9dd6f0c430",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content. SNG001 depicts a teenage magic-school student and clearly separate adult teacher."
+    },
+    {
+      "board_id": "scene-v71-sng-2",
+      "image": "images/sheet-scenes-sng-2-v73.png",
+      "sha256": "859b934a8784b6a420dcd4cf395b2937b3492a416ee6ad2663d01f23cdf253ad",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    },
+    {
+      "board_id": "scene-v71-sns-1",
+      "image": "images/sheet-scenes-sns-1-v73.png",
+      "sha256": "75c4e16ad5e53059e3a3b1b046b66dd0fb85163ec0391c737be505a1aa9e6bb5",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    },
+    {
+      "board_id": "scene-v71-sns-2",
+      "image": "images/sheet-scenes-sns-2-v73.png",
+      "sha256": "0e1a9809b898e9345465ea9415ccc9848a1a4d1d7816884faee7671f8b95c965",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    },
+    {
+      "board_id": "scene-v72-snu-1",
+      "image": "images/sheet-scenes-snu-1-v73.png",
+      "sha256": "7fc25a645312a8f30c950375caf3a550fb4451b4dd52d70d8b1013c5680fd412",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content. Middle/high-school students wear school uniforms or school sportswear; teachers remain adults. Boarding dorm uses full tracksuits; graduation uses school uniforms and flowers without academic gowns or caps."
+    },
+    {
+      "board_id": "scene-v72-snu-2",
+      "image": "images/sheet-scenes-snu-2-v73.png",
+      "sha256": "9b3cbb9869dfce77549fb9e78bb850f4062608ac252df2e7ede5d5e82471623e",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content. Middle/high-school students wear school uniforms or school sportswear; teachers remain adults. Boarding dorm uses full tracksuits; graduation uses school uniforms and flowers without academic gowns or caps."
+    },
+    {
+      "board_id": "scene-v72-snu-3",
+      "image": "images/sheet-scenes-snu-3-v73.png",
+      "sha256": "8eefa479b234e50e4a65e8106b56f6614d659863b8e4eceed2ffdef54cc95682",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content. Middle/high-school students wear school uniforms or school sportswear; teachers remain adults. Boarding dorm uses full tracksuits; graduation uses school uniforms and flowers without academic gowns or caps."
+    },
+    {
+      "board_id": "scene-v72-snu-4",
+      "image": "images/sheet-scenes-snu-4-v73.png",
+      "sha256": "27277cfec7bef73b3d041aa273342327538cd0703338b31dbcc20dea185bebb1",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content. Middle/high-school students wear school uniforms or school sportswear; teachers remain adults. Boarding dorm uses full tracksuits; graduation uses school uniforms and flowers without academic gowns or caps."
+    },
+    {
+      "board_id": "scene-v72-snb-1",
+      "image": "images/sheet-scenes-snb-1-v73.png",
+      "sha256": "6b8438f899378fc6f9607d7114b42ab77b0e093601a24dcf92d3129a703737d8",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    },
+    {
+      "board_id": "scene-v72-snb-2",
+      "image": "images/sheet-scenes-snb-2-v73.png",
+      "sha256": "2083d1062528ae8d04ab5f978eb1a62c2ae14e0165fda0a6d05ff30af1109c1a",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    },
+    {
+      "board_id": "scene-v72-snv-1",
+      "image": "images/sheet-scenes-snv-1-v73.png",
+      "sha256": "351a14bbd92878025dc872f1490074d20c3fbec055a2e7411bf34d92f220def1",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    },
+    {
+      "board_id": "scene-v72-snv-2",
+      "image": "images/sheet-scenes-snv-2-v73.png",
+      "sha256": "f3c6a528fd9dfd9fd7b4b440da239558e49c44ecb0dc4e5bef32410747413b4b",
+      "recorded_on": "2026-11-05",
+      "environment_and_people_checked": true,
+      "labels_and_bounds_checked": true,
+      "anime_style_and_silhouette_checked": true,
+      "age_context_checked": true,
+      "column_boundaries": [
+        0,
+        768,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        512,
+        1024
+      ],
+      "notes": "Reviewed all four labelled scenes at full-board resolution: anime/cel-shaded faces, slender balanced silhouettes, readable settings and relevant activities. Pixel profiles confirm the continuous central divider bands at x=768 and y=512; no cross-panel content."
+    }
+  ]
+}
