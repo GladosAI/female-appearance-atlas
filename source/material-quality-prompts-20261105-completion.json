@@ -1,0 +1,63 @@
+{
+  "schema": "female-appearance-quality-generation/v1",
+  "date": "2026-11-05",
+  "tool": "built-in image_gen",
+  "model": null,
+  "inputs": [],
+  "records": [
+    {
+      "entry_id": "FH022",
+      "prompt": "Use case: scientific-educational. Asset type: one original costume-silhouette reference illustration for the 女性之美 character appearance atlas. Draw ONE adult woman wearing a 15th-century Burgundian-inspired gown silhouette, standing calmly in three-quarter front view. Full figure, entire headwear and complete short train must fit comfortably inside a portrait canvas with generous clear margin above the hat, at both sides, and below the skirt. Costume: muted plum high-waisted long gown, deep V-shaped cream fur-edged outer collar over a fully opaque high modest inset, fitted long sleeves, full floor-length skirt, a small belt immediately below the ribs, and a modest TRUNCATED HENNIN headdress with a translucent linen veil. The flat circular top edge and all sides of the headdress must be fully visible, well below the upper image border; veil entirely visible. Elegant neutral adult proportions; natural hands held separately at waist height, no props. Mature clean original anime historical-fashion illustration, precise fine outlines, restrained soft cel shading and textile folds, warm ivory background, subtle ground contact. This is costume design inspiration, not a claim of archaeological reconstruction. Small exact code FH022 at upper left, no other writing, no grid, no decorative border, no brand, no watermark. Do not crop headwear, hands, hem, train, or shoes. Do not draw a collage, multiple women, close-up, fantasy armor or modern garments."
+    },
+    {
+      "entry_ids": [
+        "VA001",
+        "VA002",
+        "VA003",
+        "VA004",
+        "VA005",
+        "VA006",
+        "VA007",
+        "VA008",
+        "VA009",
+        "VA010",
+        "VA011",
+        "VA012",
+        "VA013",
+        "VA014",
+        "VA015",
+        "VA016"
+      ],
+      "image": "images/quality-v74-head-angles.png",
+      "columns": 4,
+      "rows": 4,
+      "prompt": "Use case: scientific-educational. Asset type: original character-art atlas head-angle study, exactly 16 separate panels in a 4-column by 4-row rectangular grid. One consistent adult woman's head in every panel: dark brown hair in a compact low bun, a few loose front strands, neutral facial expression, opaque charcoal crewneck shirt, clean original anime drawing with precise lines and restrained soft cel shading on warm ivory. Frame head, entire hairstyle INCLUDING THE WHOLE BUN, ears, neck and upper shoulders with generous clear margin above and on both sides IN EVERY PANEL; shrink the head inside its panel as necessary. No hair or bun touches a panel edge. Clearly separated thin grey straight grid lines; no overlaps between cells, no decorative framing. Small exact panel IDs at upper left, no other text.\nRow1 left to right:\nVA001 front head, level eye line, symmetric face.\nVA002 three-quarter facing viewer's LEFT, both eyes visible with the farther eye foreshortened.\nVA003 three-quarter facing viewer's RIGHT.\nVA004 strict left-facing profile, exactly one eye visible, nose points LEFT.\nRow2:\nVA005 strict right-facing profile, nose points RIGHT.\nVA006 exact rear view, face entirely invisible, both ears and nape visible.\nVA007 rear three-quarter, predominantly back of head with a small cheek sliver.\nVA008 front viewed from slightly below, chin underside and nostrils subtly visible.\nRow3:\nVA009 front viewed from slightly above, forehead larger and chin shortened.\nVA010 strict left-facing profile with chin raised, neck gently extended.\nVA011 strict left-facing profile with chin lowered, back of neck curved.\nVA012 three-quarter facing LEFT with chin raised.\nRow4:\nVA013 three-quarter facing LEFT with chin lowered, crown visible.\nVA014 torso facing away with head turned to look back over shoulder toward viewer, natural neck rotation.\nVA015 front facing head tilted gently toward one shoulder, eyes and mouth rotate together.\nVA016 three-quarter head with a stronger sideways tilt, clearly different from VA015.\nPrioritize legible angle differences, plausible ear/nose/jaw/neck relationships and COMPLETE hair silhouettes. Do not make a beauty close-up collage with clipped hair. No crown, hats, props, jewelry, watermark, logos or portrait cropping."
+    },
+    {
+      "entry_ids": [
+        "HA044",
+        "HA045",
+        "HA056",
+        "AC010",
+        "AC041",
+        "AC044",
+        "GE030",
+        "FX004"
+      ],
+      "image": "images/quality-v74-accessory-framing.png",
+      "columns": 4,
+      "rows": 2,
+      "prompt": "Use case: scientific-educational. Asset type: original character appearance atlas reference sheet, EXACTLY EIGHT panels, FOUR columns and TWO rows. Clean original anime illustration, accurate fine outlines, subtle soft cel shading, warm ivory backgrounds, straight thin grey separating lines. Each panel is an independent illustration with a small exact ID at its upper left and no other text. All human figures are clearly ADULT women, fully clothed in opaque casual or fantasy outfits. Important: the accessory is the subject; zoom OUT so ALL ends, tips, brim edges and roots of the accessory fit comfortably inside that panel with wide margins. NO cropped edges or crossing panel boundaries.\nTop row left to right:\nHA044: adult silver-haired sorceress wearing a soft floppy indigo wizard hat with bent tip and leather buckle. Full hat crown, complete oval brim, face and upper shoulders visible. Hat brim comfortably away from both panel edges.\nHA045: adult brunette wearing a VERY WIDE brimmed black witch hat with tall bent pointed crown and purple band. Full continuous oval outline of the oversized brim visible with generous side margins. Chest-up small figure.\nHA056: adult dark-haired traveler wearing a woven conical straw hat. Full cone apex and entire brim visible, plus face and shoulders. Woven radial construction readable.\nAC010: adult blonde woman wearing a summer wide-brim straw sunhat with dark ribbon bow. Entire broad hat ellipse and ribbon ends visible, face and upper torso.\nBottom row:\nAC041: adult woman holding an OPEN ivory lace parasol in one hand, full canopy and ALL lace edges visible, shaft extends continuously to a plausible grip. Three-quarter full figure, simple long dress; parasol wholly inside panel with clear margin above and on both sides.\nAC044: adult fantasy mage holding a staff upright. FULL staff from lower end to complete decorative blue orb-and-gold-ring finial visible with clear margin, no top cropped. Full clothed figure and both hands natural.\nGE030: adult female explorer seen three-quarter from behind, wearing a compact mechanical flying backpack with shoulder and waist straps, rigid hinged metal frame and two moderately spread mechanical wings. The ENTIRE left AND right wing tips and mounting structure must fit, including full span, enough side margins; view from head to upper thighs with figure small enough for all equipment.\nFX004: adult forest woman wearing modest green high-collar clothing. Head and shoulders with TWO branching deer antlers rooted symmetrically above forehead; ENTIRE antler silhouettes and ALL branch tips visible and generous blank space above. Human ears separate from antler roots, brown hair braided to one side.\nNo brands, watermark, extra panels, detached floating parts, inset crops or decorative text."
+    },
+    {
+      "entry_ids": [
+        "BP011",
+        "BH032"
+      ],
+      "image": "images/quality-v74-anthro-framing.png",
+      "columns": 2,
+      "rows": 1,
+      "prompt": "Use case: scientific-educational. Asset type: two-panel original fantasy character reference sheet, exactly TWO equal-width side-by-side panels, clear thin grey divider and warm ivory background. Refined anime character concept drawing, clean lines and soft cel shading. Both figures are adult, dressed in opaque dark high-neck knit tops. Chest-up views. Entire head, ears and antlers stay WELL INSIDE each panel with generous blank margins; no tip touches any image edge. Small exact ID in each upper left, no other text.\nLEFT BP011: adult woman with HUMAN face, warm brown hair, two large deer ears emerging naturally at the sides of the hair, and a separate pair of short branching deer antlers rooted visibly above her forehead. Show complete antler branch tips and both full ear tips with generous top and side margins. Three-quarter front, gentle neutral expression.\nRIGHT BH032: ADULT feminine anthropomorphic wolf face, fully furred with short brow fur transitioning into long layered cheek ruffs, coherent grey-brown fur directions following skull volume, amber eyes, moderate canine muzzle, black nose, two fully visible pointed wolf ears. Not a human face merely wearing a furry hood. Three-quarter front, calm expression, whole ear tips visible and separated from upper border, clearly distinguish short brow and long cheek fur. Preserve a continuous plausible neck into the high collar.\nNo crops, hats, jewels, accessories, brand, watermark, extra figure or inset."
+    }
+  ]
+}

@@ -10580,6 +10580,62 @@
       ],
       "declared_inputs": [],
       "input_scope": "Original scene redraw from written terms; no image inputs supplied."
+    },
+    {
+      "path": "images/quality-v74-fh022.png",
+      "board_id": "quality-20261105-completion-fh022",
+      "sha256": "b514a6a6dff51b2e4caf10fc670f3bf39f3537f074ea8b7a38adf9d3837b2022",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-05",
+      "prompt_sources": [
+        "source/material-quality-prompts-20261105-completion.json#/records/0/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original maintenance output generated on 2026-11-05; no image inputs supplied."
+    },
+    {
+      "path": "images/quality-v74-head-angles.png",
+      "board_id": "quality-20261105-completion-head-angles",
+      "sha256": "d5231e54f93753683608fb63f5f48f064a9ba0784142d085486409cb5a121643",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-05",
+      "prompt_sources": [
+        "source/material-quality-prompts-20261105-completion.json#/records/1/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original maintenance output generated on 2026-11-05; no image inputs supplied."
+    },
+    {
+      "path": "images/quality-v74-accessory-framing.png",
+      "board_id": "quality-20261105-completion-accessory-framing",
+      "sha256": "6f83c850bea38f27675428df74d15a05150795fa629af52d3327efb3ccfa33b0",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-05",
+      "prompt_sources": [
+        "source/material-quality-prompts-20261105-completion.json#/records/2/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original maintenance output generated on 2026-11-05; no image inputs supplied."
+    },
+    {
+      "path": "images/quality-v74-anthro-framing.png",
+      "board_id": "quality-20261105-completion-anthro-framing",
+      "sha256": "30cc46bfd91739e447994a36628a7eae86136d0e8f8ffef62d44b8b2ec5be079",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-05",
+      "prompt_sources": [
+        "source/material-quality-prompts-20261105-completion.json#/records/3/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "New original maintenance output generated on 2026-11-05; no image inputs supplied."
     }
   ],
   "declared_input_files": [

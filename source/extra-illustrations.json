@@ -93,6 +93,20 @@
         "entry_id": "HC018",
         "name": "碎发短剪"
       }
+    ],
+    "column_boundaries": [
+      0,
+      316,
+      610,
+      908,
+      1222
+    ],
+    "row_boundaries": [
+      0,
+      319,
+      634,
+      947,
+      1287
     ]
   },
   {
@@ -703,6 +717,20 @@
         "entry_id": "FE016",
         "name": "深色虹膜"
       }
+    ],
+    "column_boundaries": [
+      0,
+      351,
+      700,
+      1050,
+      1402
+    ],
+    "row_boundaries": [
+      0,
+      278,
+      558,
+      834,
+      1122
     ]
   },
   {
@@ -820,6 +848,20 @@
         "entry_id": "FE041",
         "name": "突出耳廓"
       }
+    ],
+    "column_boundaries": [
+      0,
+      312,
+      612,
+      913,
+      1225
+    ],
+    "row_boundaries": [
+      0,
+      320,
+      617,
+      891,
+      1284
     ]
   },
   {
@@ -1369,6 +1411,19 @@
         "entry_id": "EX028",
         "name": "舞台重妆"
       }
+    ],
+    "column_boundaries": [
+      0,
+      362,
+      724,
+      1086,
+      1448
+    ],
+    "row_boundaries": [
+      0,
+      361,
+      718,
+      1086
     ]
   },
   {
@@ -2283,6 +2338,19 @@
         "entry_id": "CS024",
         "name": "开衩袖"
       }
+    ],
+    "column_boundaries": [
+      0,
+      343,
+      687,
+      1030,
+      1374
+    ],
+    "row_boundaries": [
+      0,
+      382,
+      747,
+      1145
     ]
   },
   {
@@ -2738,6 +2806,20 @@
         "entry_id": "MT016",
         "name": "金属硬片"
       }
+    ],
+    "column_boundaries": [
+      0,
+      305,
+      617,
+      929,
+      1234
+    ],
+    "row_boundaries": [
+      0,
+      308,
+      617,
+      926,
+      1275
     ]
   },
   {
@@ -2997,6 +3079,20 @@
         "entry_id": "FX016",
         "name": "漂浮光环"
       }
+    ],
+    "column_boundaries": [
+      0,
+      298,
+      608,
+      919,
+      1222
+    ],
+    "row_boundaries": [
+      0,
+      324,
+      637,
+      953,
+      1287
     ]
   },
   {
@@ -4604,6 +4700,20 @@
         "entry_id": "HA016",
         "name": "皮革飞行帽灵感"
       }
+    ],
+    "column_boundaries": [
+      0,
+      328,
+      655,
+      983,
+      1312
+    ],
+    "row_boundaries": [
+      0,
+      302,
+      599,
+      890,
+      1199
     ]
   },
   {
@@ -5000,6 +5110,20 @@
         "entry_id": "BA016",
         "name": "皮革卷筒袋"
       }
+    ],
+    "column_boundaries": [
+      0,
+      300,
+      612,
+      925,
+      1226
+    ],
+    "row_boundaries": [
+      0,
+      320,
+      638,
+      958,
+      1283
     ]
   },
   {
@@ -6016,6 +6140,20 @@
         "entry_id": "PA016",
         "name": "薄荷深灰配色"
       }
+    ],
+    "column_boundaries": [
+      0,
+      303,
+      614,
+      922,
+      1227
+    ],
+    "row_boundaries": [
+      0,
+      319,
+      637,
+      957,
+      1282
     ]
   },
   {
@@ -6102,6 +6240,20 @@
         "entry_id": "GE030",
         "name": "架空飞行背具"
       }
+    ],
+    "column_boundaries": [
+      0,
+      304,
+      610,
+      918,
+      1222
+    ],
+    "row_boundaries": [
+      0,
+      326,
+      627,
+      946,
+      1287
     ]
   },
   {
@@ -6198,6 +6350,20 @@
         "entry_id": "PA032",
         "name": "高明度糖果配色"
       }
+    ],
+    "column_boundaries": [
+      0,
+      301,
+      615,
+      929,
+      1230
+    ],
+    "row_boundaries": [
+      0,
+      339,
+      658,
+      975,
+      1278
     ]
   },
   {
@@ -6294,6 +6460,20 @@
         "entry_id": "GE016",
         "name": "腰侧箭袋"
       }
+    ],
+    "column_boundaries": [
+      0,
+      306,
+      611,
+      915,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      317,
+      637,
+      957,
+      1286
     ]
   },
   {
@@ -8160,6 +8340,20 @@
         "entry_id": "FO032",
         "name": "飞艇登舰装"
       }
+    ],
+    "column_boundaries": [
+      0,
+      308,
+      612,
+      917,
+      1226
+    ],
+    "row_boundaries": [
+      0,
+      319,
+      640,
+      955,
+      1283
     ]
   },
   {
@@ -10614,6 +10808,20 @@
         "entry_id": "SW032",
         "name": "泳衣沙滩衬衫组合"
       }
+    ],
+    "column_boundaries": [
+      0,
+      309,
+      611,
+      913,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      329,
+      667,
+      990,
+      1286
     ]
   },
   {
@@ -10902,6 +11110,20 @@
         "entry_id": "TC032",
         "name": "兔耳舞台西装裙"
       }
+    ],
+    "column_boundaries": [
+      0,
+      305,
+      611,
+      917,
+      1222
+    ],
+    "row_boundaries": [
+      0,
+      320,
+      642,
+      981,
+      1287
     ]
   },
   {
@@ -11300,6 +11522,20 @@
         "entry_id": "UW032",
         "name": "肚兜传统内搭"
       }
+    ],
+    "column_boundaries": [
+      0,
+      313,
+      627,
+      940,
+      1254
+    ],
+    "row_boundaries": [
+      0,
+      313,
+      627,
+      920,
+      1254
     ]
   },
   {
@@ -11602,6 +11838,20 @@
         "entry_id": "EG016",
         "name": "双目密封护目镜"
       }
+    ],
+    "column_boundaries": [
+      0,
+      384,
+      768,
+      1151,
+      1536
+    ],
+    "row_boundaries": [
+      0,
+      255,
+      509,
+      747,
+      1024
     ]
   },
   {
@@ -11698,6 +11948,20 @@
         "entry_id": "EY016",
         "name": "较大圆瞳观察"
       }
+    ],
+    "column_boundaries": [
+      0,
+      382,
+      768,
+      1152,
+      1536
+    ],
+    "row_boundaries": [
+      0,
+      251,
+      506,
+      759,
+      1024
     ]
   },
   {
@@ -11794,6 +12058,20 @@
         "entry_id": "EY032",
         "name": "双环异色幻想眼"
       }
+    ],
+    "column_boundaries": [
+      0,
+      383,
+      768,
+      1151,
+      1536
+    ],
+    "row_boundaries": [
+      0,
+      242,
+      493,
+      741,
+      1024
     ]
   },
   {
@@ -12770,6 +13048,20 @@
         "entry_id": "WZ032",
         "name": "都市短衣魔女服"
       }
+    ],
+    "column_boundaries": [
+      0,
+      305,
+      611,
+      917,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      322,
+      642,
+      960,
+      1286
     ]
   },
   {
@@ -12866,6 +13158,20 @@
         "entry_id": "PR016",
         "name": "街装长袴巫女混搭"
       }
+    ],
+    "column_boundaries": [
+      0,
+      256,
+      512,
+      768,
+      1024
+    ],
+    "row_boundaries": [
+      0,
+      378,
+      753,
+      1126,
+      1536
     ]
   },
   {
@@ -14491,7 +14797,21 @@
         "name": "机械昆虫翅鞘装"
       }
     ],
-    "qa_date": "2026-10-14"
+    "qa_date": "2026-10-14",
+    "column_boundaries": [
+      0,
+      299,
+      611,
+      923,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      320,
+      641,
+      961,
+      1286
+    ]
   },
   {
     "id": "sheet-hc037-hc052",
@@ -14685,7 +15005,21 @@
         "name": "三团分区软盘髻"
       }
     ],
-    "qa_date": "2026-10-14"
+    "qa_date": "2026-10-14",
+    "column_boundaries": [
+      0,
+      304,
+      615,
+      922,
+      1230
+    ],
+    "row_boundaries": [
+      0,
+      318,
+      638,
+      952,
+      1278
+    ]
   },
   {
     "id": "sheet-tc033-tc048",
@@ -14782,7 +15116,21 @@
         "name": "蝴蝶触角翼披装"
       }
     ],
-    "qa_date": "2026-10-14"
+    "qa_date": "2026-10-14",
+    "column_boundaries": [
+      0,
+      307,
+      613,
+      918,
+      1225
+    ],
+    "row_boundaries": [
+      0,
+      319,
+      639,
+      956,
+      1284
+    ]
   },
   {
     "id": "sheet-ht062-ht077",
@@ -14879,7 +15227,21 @@
         "name": "螺旋卷束半扎髻"
       }
     ],
-    "qa_date": "2026-10-14"
+    "qa_date": "2026-10-14",
+    "column_boundaries": [
+      0,
+      308,
+      616,
+      923,
+      1233
+    ],
+    "row_boundaries": [
+      0,
+      318,
+      634,
+      948,
+      1275
+    ]
   },
   {
     "id": "sheet-hd025-hd040",
@@ -14976,7 +15338,21 @@
         "name": "发尾局部折返束"
       }
     ],
-    "qa_date": "2026-10-14"
+    "qa_date": "2026-10-14",
+    "column_boundaries": [
+      0,
+      306,
+      614,
+      923,
+      1230
+    ],
+    "row_boundaries": [
+      0,
+      321,
+      615,
+      932,
+      1278
+    ]
   },
   {
     "id": "sheet-tc049-tc064",
@@ -15170,7 +15546,21 @@
         "name": "卷簇末端点染"
       }
     ],
-    "qa_date": "2026-10-14"
+    "qa_date": "2026-10-14",
+    "column_boundaries": [
+      0,
+      310,
+      611,
+      913,
+      1222
+    ],
+    "row_boundaries": [
+      0,
+      318,
+      635,
+      948,
+      1287
+    ]
   },
   {
     "id": "sheet-hn017-hn032",
@@ -15267,7 +15657,21 @@
         "name": "横带染长直发组合"
       }
     ],
-    "qa_date": "2026-10-14"
+    "qa_date": "2026-10-14",
+    "column_boundaries": [
+      0,
+      309,
+      610,
+      915,
+      1222
+    ],
+    "row_boundaries": [
+      0,
+      322,
+      638,
+      954,
+      1287
+    ]
   },
   {
     "id": "sheet-hn033-hn048",
@@ -15364,7 +15768,21 @@
         "name": "三团软髻开额组合"
       }
     ],
-    "qa_date": "2026-10-14"
+    "qa_date": "2026-10-14",
+    "column_boundaries": [
+      0,
+      306,
+      611,
+      917,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      315,
+      636,
+      949,
+      1286
+    ]
   },
   {
     "id": "sheet-hn001-hn016",
@@ -15461,7 +15879,21 @@
         "name": "三段弧层中发组合"
       }
     ],
-    "qa_date": "2026-10-14"
+    "qa_date": "2026-10-14",
+    "column_boundaries": [
+      0,
+      306,
+      615,
+      923,
+      1230
+    ],
+    "row_boundaries": [
+      0,
+      313,
+      624,
+      935,
+      1278
+    ]
   },
   {
     "id": "sheet-hb021-hb036",
@@ -15857,7 +16289,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_note": "Paired earrings and clasp/back/clip constructions visible."
+    "qa_note": "Paired earrings and clasp/back/clip constructions visible.",
+    "column_boundaries": [
+      0,
+      313,
+      626,
+      940,
+      1254
+    ],
+    "row_boundaries": [
+      0,
+      314,
+      600,
+      907,
+      1254
+    ]
   },
   {
     "id": "sheet-hr017-hr032",
@@ -16067,7 +16513,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_note": "Pendant, bail and short chain sections visible."
+    "qa_note": "Pendant, bail and short chain sections visible.",
+    "column_boundaries": [
+      0,
+      296,
+      611,
+      926,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      300,
+      589,
+      881,
+      1286
+    ]
   },
   {
     "id": "sheet-hr033-hr048",
@@ -16713,7 +17173,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_note": "Opaque complete garment sets or gowns on neutral mannequins."
+    "qa_note": "Opaque complete garment sets or gowns on neutral mannequins.",
+    "column_boundaries": [
+      0,
+      309,
+      612,
+      912,
+      1222
+    ],
+    "row_boundaries": [
+      0,
+      317,
+      639,
+      944,
+      1287
+    ]
   },
   {
     "id": "sheet-at017-at032",
@@ -16811,7 +17285,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_note": "Original flat painted/tattoo motifs on adult face/body close-ups."
+    "qa_note": "Original flat painted/tattoo motifs on adult face/body close-ups.",
+    "column_boundaries": [
+      0,
+      326,
+      655,
+      985,
+      1312
+    ],
+    "row_boundaries": [
+      0,
+      294,
+      591,
+      866,
+      1199
+    ]
   },
   {
     "id": "sheet-at001-at016",
@@ -16909,7 +17397,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_note": "Original flat painted/tattoo motifs on adult face/body close-ups."
+    "qa_note": "Original flat painted/tattoo motifs on adult face/body close-ups.",
+    "column_boundaries": [
+      0,
+      328,
+      656,
+      983,
+      1312
+    ],
+    "row_boundaries": [
+      0,
+      300,
+      598,
+      889,
+      1199
+    ]
   },
   {
     "id": "sheet-su001-su016",
@@ -17693,7 +18195,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "16种壳形与表盘均可辨；完整表带、表冠和连接耳，数码窗无品牌界面。"
+    "qa_notes": "16种壳形与表盘均可辨；完整表带、表冠和连接耳，数码窗无品牌界面。",
+    "column_boundaries": [
+      0,
+      309,
+      612,
+      916,
+      1222
+    ],
+    "row_boundaries": [
+      0,
+      318,
+      634,
+      943,
+      1287
+    ]
   },
   {
     "id": "sheet-br001-br016",
@@ -17793,7 +18309,21 @@
     "reference_image": "images/sheet-br001-br016.png",
     "qa_notes": "BR007图例为四圈，词条已按实际描述；BR008局部修为单开口连续杆，其他15格保留。",
     "edit_prompt": "Edit target: this complete 4x4 BR001-BR016 jewelry reference contact sheet. Preserve the entire existing 4-column 4-row layout, all exact ID labels, cream background, crop boundaries, and all other 15 products unchanged. Make ONE LOCAL construction correction in cell BR008 (row 2, column 4): it is a single C-shaped round-wire cuff with two spherical bead ends at the LOWER FRONT opening. The current drawing mistakenly also has a second opening at the UPPER BACK. Connect only those two upper plain rod endpoints into one continuous smooth curved gold rod, so the cuff has exactly ONE opening, between the two existing lower bead ends. Keep both lower beads, their gap, the perspective, size, color, shadows and product within BR008. Do not change BR007: it correctly contains four stacked separate bangles. Do not add labels, change other cells or invent extra jewelry.",
-    "qa_date": "2026-10-14"
+    "qa_date": "2026-10-14",
+    "column_boundaries": [
+      0,
+      384,
+      768,
+      1151,
+      1536
+    ],
+    "row_boundaries": [
+      0,
+      237,
+      471,
+      710,
+      1024
+    ]
   },
   {
     "id": "sheet-wt017-wt032",
@@ -17989,7 +18519,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "软链扣件、编绳滑结与三支手背链均可辨。"
+    "qa_notes": "软链扣件、编绳滑结与三支手背链均可辨。",
+    "column_boundaries": [
+      0,
+      328,
+      656,
+      984,
+      1312
+    ],
+    "row_boundaries": [
+      0,
+      292,
+      593,
+      880,
+      1199
+    ]
   },
   {
     "id": "sheet-ri001-ri016",
@@ -18087,7 +18631,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "环孔、开口、层数与连接关系可见；编绳指环采用金色绳纹外观。"
+    "qa_notes": "环孔、开口、层数与连接关系可见；编绳指环采用金色绳纹外观。",
+    "column_boundaries": [
+      0,
+      350,
+      701,
+      1051,
+      1402
+    ],
+    "row_boundaries": [
+      0,
+      282,
+      561,
+      826,
+      1122
+    ]
   },
   {
     "id": "sheet-bb001-bb016",
@@ -18185,7 +18743,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "16种珠形和串列完整，双排织连、三圈和隔珠可辨。"
+    "qa_notes": "16种珠形和串列完整，双排织连、三圈和隔珠可辨。",
+    "column_boundaries": [
+      0,
+      350,
+      701,
+      1051,
+      1402
+    ],
+    "row_boundaries": [
+      0,
+      265,
+      527,
+      782,
+      1122
+    ]
   },
   {
     "id": "sheet-ft001-ft016",
@@ -18283,7 +18855,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "成年足形轮廓及侧影，俯视五趾完整；结构形态以连续变化的绘画参考说明。"
+    "qa_notes": "成年足形轮廓及侧影，俯视五趾完整；结构形态以连续变化的绘画参考说明。",
+    "column_boundaries": [
+      0,
+      306,
+      611,
+      916,
+      1222
+    ],
+    "row_boundaries": [
+      0,
+      320,
+      641,
+      907,
+      1287
+    ]
   },
   {
     "id": "sheet-ri017-ri032",
@@ -18479,7 +19065,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "五趾、趾端及短趾甲均完整，前趾长度和甲形可辨。"
+    "qa_notes": "五趾、趾端及短趾甲均完整，前趾长度和甲形可辨。",
+    "column_boundaries": [
+      0,
+      306,
+      611,
+      916,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      316,
+      632,
+      943,
+      1286
+    ]
   },
   {
     "id": "sheet-ft033-ft048",
@@ -18577,7 +19177,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "侧面遮挡自然，俯视五趾，双足支点、坐姿、抬跟回勾与轻屈动作可辨。"
+    "qa_notes": "侧面遮挡自然，俯视五趾，双足支点、坐姿、抬跟回勾与轻屈动作可辨。",
+    "column_boundaries": [
+      0,
+      304,
+      615,
+      925,
+      1230
+    ],
+    "row_boundaries": [
+      0,
+      302,
+      605,
+      902,
+      1278
+    ]
   },
   {
     "id": "sheet-ak001-ak016",
@@ -18675,7 +19289,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "16件足饰均有完整产品与成年踝足定位图，趾环及足背链明确。"
+    "qa_notes": "16件足饰均有完整产品与成年踝足定位图，趾环及足背链明确。",
+    "column_boundaries": [
+      0,
+      328,
+      655,
+      983,
+      1312
+    ],
+    "row_boundaries": [
+      0,
+      296,
+      595,
+      893,
+      1199
+    ]
   },
   {
     "id": "sheet-pt001-pt016",
@@ -18969,7 +19597,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "16种动物物件和叙事题材清楚，无现成角色与品牌。"
+    "qa_notes": "16种动物物件和叙事题材清楚，无现成角色与品牌。",
+    "column_boundaries": [
+      0,
+      297,
+      615,
+      934,
+      1230
+    ],
+    "row_boundaries": [
+      0,
+      314,
+      638,
+      948,
+      1278
+    ]
   },
   {
     "id": "sheet-ps001-ps016",
@@ -19265,7 +19907,21 @@
     "reference_image": "images/sheet-pt049-pt064.png",
     "edit_prompt": "Edit target: this existing 4x4 PT049-PT064 textile reference board. Preserve all exact IDs, 4 equal columns and 4 equal rows, every border, cream background, swatch dimensions and all other 15 cells unchanged. Make ONE local correction ONLY in cell PT053 (row 2 column 1), which is a FOUR-DIRECTION ROTATING textile repeat. Replace the current radially symmetric rosette clusters in that one swatch with distinct NON-SYMMETRIC SINGLE simple green elongated leaf motifs, each with a short brown stem at one end. Arrange them in a regular repeating 2x2 cycle: top-left leaf tip UP; top-right leaf tip RIGHT; bottom-left leaf tip LEFT; bottom-right leaf tip DOWN. Repeat that four-leaf block across the swatch, so all FOUR leaf-tip and stem directions can be plainly seen and compared. No flower rosettes, no radial symmetry, no arrows or added text. Keep PT053 label intact. All neighboring swatches, clothing products, front/back views and skirt placement illustrations must remain untouched.",
     "qa_date": "2026-10-14",
-    "qa_notes": "9种布样排布和7种衣物定位清楚；PT053已局部改成有明确叶尖、叶柄的单叶四向循环，其他15格保留。"
+    "qa_notes": "9种布样排布和7种衣物定位清楚；PT053已局部改成有明确叶尖、叶柄的单叶四向循环，其他15格保留。",
+    "column_boundaries": [
+      0,
+      299,
+      617,
+      928,
+      1230
+    ],
+    "row_boundaries": [
+      0,
+      316,
+      632,
+      937,
+      1278
+    ]
   },
   {
     "id": "sheet-pt065-pt080",
@@ -19461,7 +20117,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "16套变身与舞台角色方案完整；CP001/003实际持长杖，CP009/015为短裙裤袜变体，正文已据图调整。"
+    "qa_notes": "16套变身与舞台角色方案完整；CP001/003实际持长杖，CP009/015为短裙裤袜变体，正文已据图调整。",
+    "column_boundaries": [
+      0,
+      297,
+      615,
+      915,
+      1230
+    ],
+    "row_boundaries": [
+      0,
+      318,
+      635,
+      943,
+      1278
+    ]
   },
   {
     "id": "sheet-cp017-cp032",
@@ -19559,7 +20229,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "16套幻想冒险方案完整；CP023装饰箭袋含短箭，图文说明按实际外观记录。"
+    "qa_notes": "16套幻想冒险方案完整；CP023装饰箭袋含短箭，图文说明按实际外观记录。",
+    "column_boundaries": [
+      0,
+      305,
+      610,
+      918,
+      1222
+    ],
+    "row_boundaries": [
+      0,
+      326,
+      651,
+      970,
+      1287
+    ]
   },
   {
     "id": "sheet-cl001-cl016",
@@ -20051,7 +20735,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "灰色头模和完整假发、帽底、发帘、夹件、抽绳根均可辨。"
+    "qa_notes": "灰色头模和完整假发、帽底、发帘、夹件、抽绳根均可辨。",
+    "column_boundaries": [
+      0,
+      306,
+      611,
+      917,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      309,
+      604,
+      915,
+      1286
+    ]
   },
   {
     "id": "sheet-ch001-ch016",
@@ -20247,7 +20945,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "魔法日常道具完整；CR011竖琴框体与CR015长耳布偶按实际描述。"
+    "qa_notes": "魔法日常道具完整；CR011竖琴框体与CR015长耳布偶按实际描述。",
+    "column_boundaries": [
+      0,
+      295,
+      611,
+      928,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      321,
+      627,
+      921,
+      1286
+    ]
   },
   {
     "id": "sheet-wg017-wg032",
@@ -20345,7 +21057,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "造型假发轮廓、根部与尾端完整，WG027五段球尾按实际描述。"
+    "qa_notes": "造型假发轮廓、根部与尾端完整，WG027五段球尾按实际描述。",
+    "column_boundaries": [
+      0,
+      313,
+      614,
+      916,
+      1226
+    ],
+    "row_boundaries": [
+      0,
+      315,
+      632,
+      947,
+      1283
+    ]
   },
   {
     "id": "sheet-ca001-ca016",
@@ -20443,7 +21169,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "领肩胸腰及四肢装饰，物件与佩戴关系可辨；CA003为三层软肩，正文已调整。"
+    "qa_notes": "领肩胸腰及四肢装饰，物件与佩戴关系可辨；CA003为三层软肩，正文已调整。",
+    "column_boundaries": [
+      0,
+      302,
+      613,
+      930,
+      1222
+    ],
+    "row_boundaries": [
+      0,
+      315,
+      630,
+      951,
+      1287
+    ]
   },
   {
     "id": "sheet-cr017-cr032",
@@ -20541,7 +21281,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "轻量原创道具的全长、后握带、空壳与分节可辨，图例不作真实功能说明。"
+    "qa_notes": "轻量原创道具的全长、后握带、空壳与分节可辨，图例不作真实功能说明。",
+    "column_boundaries": [
+      0,
+      350,
+      700,
+      1051,
+      1402
+    ],
+    "row_boundaries": [
+      0,
+      279,
+      561,
+      814,
+      1122
+    ]
   },
   {
     "id": "sheet-cb017-cb032",
@@ -20639,7 +21393,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "分片外壳、关节间隙、独立背板与拆分部件可辨，五指正常。"
+    "qa_notes": "分片外壳、关节间隙、独立背板与拆分部件可辨，五指正常。",
+    "column_boundaries": [
+      0,
+      350,
+      701,
+      1051,
+      1402
+    ],
+    "row_boundaries": [
+      0,
+      280,
+      556,
+      826,
+      1122
+    ]
   },
   {
     "id": "sheet-cb001-cb016",
@@ -20835,7 +21603,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "大型尾翼、背框与腰托采用正背面穿戴示意，装饰完整可辨；CA020图例四片鳍，按实际说明。"
+    "qa_notes": "大型尾翼、背框与腰托采用正背面穿戴示意，装饰完整可辨；CA020图例四片鳍，按实际说明。",
+    "column_boundaries": [
+      0,
+      343,
+      687,
+      1031,
+      1375
+    ],
+    "row_boundaries": [
+      0,
+      268,
+      542,
+      823,
+      1144
+    ]
   },
   {
     "id": "sheet-cg001-cg016",
@@ -21031,7 +21813,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "Reviewed adult facial acting: mapped labels, visible requested features, coherent facial anatomy and hands where present. Nonexplicit, non-graphic creative reference."
+    "qa_notes": "Reviewed adult facial acting: mapped labels, visible requested features, coherent facial anatomy and hands where present. Nonexplicit, non-graphic creative reference.",
+    "column_boundaries": [
+      0,
+      305,
+      612,
+      920,
+      1224
+    ],
+    "row_boundaries": [
+      0,
+      311,
+      625,
+      941,
+      1285
+    ]
   },
   {
     "id": "sheet-fd017-fd032",
@@ -21129,7 +21925,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "Reviewed adult facial acting: mapped labels, visible requested features, coherent facial anatomy and hands where present. Nonexplicit, non-graphic creative reference."
+    "qa_notes": "Reviewed adult facial acting: mapped labels, visible requested features, coherent facial anatomy and hands where present. Nonexplicit, non-graphic creative reference.",
+    "column_boundaries": [
+      0,
+      307,
+      623,
+      940,
+      1246
+    ],
+    "row_boundaries": [
+      0,
+      309,
+      624,
+      930,
+      1262
+    ]
   },
   {
     "id": "sheet-fd033-fd048",
@@ -21325,7 +22135,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "Reviewed adult facial acting: mapped labels, visible requested features, coherent facial anatomy and hands where present. Nonexplicit, non-graphic creative reference."
+    "qa_notes": "Reviewed adult facial acting: mapped labels, visible requested features, coherent facial anatomy and hands where present. Nonexplicit, non-graphic creative reference.",
+    "column_boundaries": [
+      0,
+      321,
+      644,
+      966,
+      1286
+    ],
+    "row_boundaries": [
+      0,
+      300,
+      610,
+      908,
+      1223
+    ]
   },
   {
     "id": "sheet-em049-em064",
@@ -21423,7 +22247,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "Reviewed adult facial acting: mapped labels, visible requested features, coherent facial anatomy and hands where present. Nonexplicit, non-graphic creative reference."
+    "qa_notes": "Reviewed adult facial acting: mapped labels, visible requested features, coherent facial anatomy and hands where present. Nonexplicit, non-graphic creative reference.",
+    "column_boundaries": [
+      0,
+      301,
+      612,
+      925,
+      1224
+    ],
+    "row_boundaries": [
+      0,
+      314,
+      636,
+      946,
+      1285
+    ]
   },
   {
     "id": "sheet-em001-em016",
@@ -21521,7 +22359,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "Reviewed adult facial acting: mapped labels, visible requested features, coherent facial anatomy and hands where present. Nonexplicit, non-graphic creative reference."
+    "qa_notes": "Reviewed adult facial acting: mapped labels, visible requested features, coherent facial anatomy and hands where present. Nonexplicit, non-graphic creative reference.",
+    "column_boundaries": [
+      0,
+      305,
+      611,
+      919,
+      1224
+    ],
+    "row_boundaries": [
+      0,
+      315,
+      633,
+      949,
+      1285
+    ]
   },
   {
     "id": "sheet-em033-em048",
@@ -22139,7 +22991,21 @@
     "reference_image": "images/sheet-ma017-ma032.png",
     "edit_prompt": "Edit this existing 4 by 4 facial reference sheet very precisely. Preserve all sixteen panel boundaries, ID labels, head sizes, art style, adult age, opaque collars, lighting and all other facial drawings. Only correct panel MA030 (row 4 column 2): remove the protruding tongue entirely. Show normal closed or just slightly parted lips, a small hungry anticipation smile, ordinary eyes looking toward the bread held in the hand, and just ONE tiny droplet at a mouth corner. No tongue visible. Also only shorten the saliva mark in MA031 (row 4 column 3) to a tiny short trace immediately below a lip corner while preserving the sleepy closed eyes, head pose and cheek-resting hand. These are ordinary food anticipation and sleep reference portraits of adults aged 25+. No sexual context. Keep all other fourteen panels completely unchanged. Output the complete sheet, no cropping.",
     "qa_date": "2026-10-14",
-    "qa_notes": "Native edit corrected MA030 to normal lips with one food-anticipation droplet and shortened MA031 sleep drool. Everyday adult eating and neutral smoking portraits."
+    "qa_notes": "Native edit corrected MA030 to normal lips with one food-anticipation droplet and shortened MA031 sleep drool. Everyday adult eating and neutral smoking portraits.",
+    "column_boundaries": [
+      0,
+      306,
+      615,
+      923,
+      1230
+    ],
+    "row_boundaries": [
+      0,
+      316,
+      635,
+      949,
+      1278
+    ]
   },
   {
     "id": "sheet-ma033-ma048",
@@ -22237,7 +23103,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "Reviewed adult facial acting: mapped labels, visible requested features, coherent facial anatomy and hands where present. Nonexplicit, non-graphic creative reference."
+    "qa_notes": "Reviewed adult facial acting: mapped labels, visible requested features, coherent facial anatomy and hands where present. Nonexplicit, non-graphic creative reference.",
+    "column_boundaries": [
+      0,
+      311,
+      616,
+      921,
+      1230
+    ],
+    "row_boundaries": [
+      0,
+      313,
+      634,
+      949,
+      1278
+    ]
   },
   {
     "id": "sheet-hg017-hg032",
@@ -22745,7 +23625,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "Adult nonsexual acting reference. All 16 labels and visible facial differences reviewed. Hands coherent where shown; animation symbols explicit. FD050 names the actual closed-eye tilt variant."
+    "qa_notes": "Adult nonsexual acting reference. All 16 labels and visible facial differences reviewed. Hands coherent where shown; animation symbols explicit. FD050 names the actual closed-eye tilt variant.",
+    "column_boundaries": [
+      0,
+      306,
+      611,
+      918,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      316,
+      632,
+      949,
+      1286
+    ]
   },
   {
     "id": "sheet-em065-em080",
@@ -22843,7 +23737,21 @@
       }
     ],
     "qa_date": "2026-10-14",
-    "qa_notes": "Adult nonsexual confusion reference. All 16 labels, varied eyebrows, gaze/head directions and three hand gestures visually reviewed."
+    "qa_notes": "Adult nonsexual confusion reference. All 16 labels, varied eyebrows, gaze/head directions and three hand gestures visually reviewed.",
+    "column_boundaries": [
+      0,
+      314,
+      626,
+      939,
+      1254
+    ],
+    "row_boundaries": [
+      0,
+      312,
+      623,
+      933,
+      1254
+    ]
   },
   {
     "id": "sheet-so001-so016",
@@ -23975,7 +24883,7 @@
       0,
       311,
       628,
-      938,
+      940,
       1283
     ],
     "qa_date": "2026-10-14",
@@ -24336,16 +25244,16 @@
     ],
     "column_boundaries": [
       0,
-      300,
+      299,
       612,
       925,
       1224
     ],
     "row_boundaries": [
       0,
-      314,
-      637,
-      938,
+      319,
+      642,
+      944,
       1285
     ]
   },
@@ -27630,15 +28538,15 @@
     ],
     "column_boundaries": [
       0,
-      257,
+      256,
       512,
       768,
       1024
     ],
     "row_boundaries": [
       0,
-      385,
-      769,
+      384,
+      768,
       1151,
       1536
     ],
@@ -28964,16 +29872,16 @@
     ],
     "column_boundaries": [
       0,
-      255,
+      256,
       512,
       768,
       1024
     ],
     "row_boundaries": [
       0,
-      354,
-      723,
-      1087,
+      359,
+      729,
+      1092,
       1536
     ],
     "qa_notes": "All 16 labels, complete figures or head/hair studies and distinct clothing and hair features reviewed. Grid boundaries measured from unchanged native PNGs."
@@ -29075,16 +29983,16 @@
     ],
     "column_boundaries": [
       0,
-      258,
-      513,
-      767,
+      256,
+      512,
+      768,
       1024
     ],
     "row_boundaries": [
       0,
-      375,
-      761,
-      1145,
+      382,
+      766,
+      1150,
       1536
     ],
     "qa_notes": "All 16 labels, complete figures or head/hair studies and distinct clothing and hair features reviewed. Grid boundaries measured from unchanged native PNGs."
@@ -29299,16 +30207,16 @@
     ],
     "column_boundaries": [
       0,
-      255,
-      511,
-      767,
+      256,
+      512,
+      768,
       1024
     ],
     "row_boundaries": [
       0,
-      379,
-      762,
-      1146,
+      384,
+      767,
+      1151,
       1536
     ],
     "qa_notes": "All 16 labels, complete figures or head/hair studies and distinct clothing and hair features reviewed. Grid boundaries measured from unchanged native PNGs."
@@ -30416,9 +31324,9 @@
     ],
     "row_boundaries": [
       0,
-      373,
-      751,
-      1135,
+      374,
+      757,
+      1137,
       1536
     ],
     "qa_notes": "All 16 labels, complete figures or age-head studies and distinct costume, covered-view, prosthetic, toy and age-stage features reviewed. Grid boundaries measured from unchanged native PNGs."
@@ -30966,14 +31874,14 @@
       0,
       256,
       512,
-      767,
+      768,
       1024
     ],
     "row_boundaries": [
       0,
-      376,
-      759,
-      1140,
+      382,
+      766,
+      1146,
       1536
     ],
     "qa_notes": "All 16 labels, complete nun figures, adult non-graphic story-state faces, clothed age proportions and adult body-build features reviewed. Grid boundaries measured from unchanged native PNGs."
@@ -31083,8 +31991,8 @@
     "row_boundaries": [
       0,
       372,
-      755,
-      1132,
+      759,
+      1137,
       1536
     ],
     "qa_notes": "All 16 labels, complete nun figures, adult non-graphic story-state faces, clothed age proportions and adult body-build features reviewed. Grid boundaries measured from unchanged native PNGs."
@@ -32302,14 +33210,14 @@
       0,
       256,
       512,
-      767,
+      768,
       1024
     ],
     "row_boundaries": [
       0,
-      373,
-      756,
-      1137,
+      378,
+      762,
+      1143,
       1536
     ],
     "qa_notes": "All sixteen labels, complete adult figures or head studies, garment/covering distinctions and exact view angles visually reviewed. Body front/side contours, mirrored unequal shoulder lines and corrected athletic long sleeve checked. Native PNGs preserved; crop rules measured from final sheets."
@@ -32413,14 +33321,14 @@
       0,
       256,
       512,
-      767,
+      768,
       1024
     ],
     "row_boundaries": [
       0,
-      370,
-      746,
-      1111,
+      375,
+      752,
+      1116,
       1536
     ],
     "qa_notes": "All sixteen labels, complete adult figures or head studies, garment/covering distinctions and exact view angles visually reviewed. Body front/side contours, mirrored unequal shoulder lines and corrected athletic long sleeve checked. Native PNGs preserved; crop rules measured from final sheets."
@@ -32523,15 +33431,15 @@
     "column_boundaries": [
       0,
       256,
-      511,
-      767,
+      512,
+      768,
       1024
     ],
     "row_boundaries": [
       0,
-      379,
-      763,
-      1146,
+      384,
+      768,
+      1151,
       1536
     ],
     "qa_notes": "All sixteen labels, complete adult figures or head studies, garment/covering distinctions and exact view angles visually reviewed. Body front/side contours, mirrored unequal shoulder lines and corrected athletic long sleeve checked. Native PNGs preserved; crop rules measured from final sheets."
