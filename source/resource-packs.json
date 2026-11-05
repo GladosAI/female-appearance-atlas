@@ -95,7 +95,8 @@
         }
       ],
       "compatible_content_versions": [
-        "73.1"
+        "73.1",
+        "73.2"
       ]
     }
   }

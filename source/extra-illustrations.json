@@ -5172,6 +5172,19 @@
         "entry_id": "UN028",
         "name": "宠物护理工作装"
       }
+    ],
+    "column_boundaries": [
+      0,
+      300,
+      599,
+      899,
+      1199
+    ],
+    "row_boundaries": [
+      0,
+      438,
+      866,
+      1312
     ]
   },
   {
@@ -5450,6 +5463,20 @@
         "entry_id": "AR014",
         "name": "柔性腿带护具"
       }
+    ],
+    "column_boundaries": [
+      0,
+      311,
+      611,
+      912,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      327,
+      652,
+      976,
+      1286
     ]
   },
   {
@@ -5824,6 +5851,19 @@
         "entry_id": "AR024",
         "name": "盾与护臂组合"
       }
+    ],
+    "column_boundaries": [
+      0,
+      306,
+      613,
+      917,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      450,
+      883,
+      1286
     ]
   },
   {
@@ -8600,6 +8640,20 @@
         "entry_id": "SC032",
         "name": "变装戏剧双层服"
       }
+    ],
+    "column_boundaries": [
+      0,
+      306,
+      612,
+      918,
+      1225
+    ],
+    "row_boundaries": [
+      0,
+      319,
+      639,
+      958,
+      1284
     ]
   },
   {
@@ -8696,6 +8750,20 @@
         "entry_id": "HI032",
         "name": "长衬衣针织叠穿复古装"
       }
+    ],
+    "column_boundaries": [
+      0,
+      256,
+      512,
+      767,
+      1024
+    ],
+    "row_boundaries": [
+      0,
+      380,
+      761,
+      1145,
+      1536
     ]
   },
   {
@@ -10340,6 +10408,20 @@
         "entry_id": "TR064",
         "name": "直裾长衣改编"
       }
+    ],
+    "column_boundaries": [
+      0,
+      309,
+      615,
+      920,
+      1230
+    ],
+    "row_boundaries": [
+      0,
+      321,
+      638,
+      954,
+      1278
     ]
   },
   {
@@ -11314,6 +11396,20 @@
         "entry_id": "SS016",
         "name": "科幻轻型舱内工作服"
       }
+    ],
+    "column_boundaries": [
+      0,
+      313,
+      611,
+      914,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      321,
+      638,
+      958,
+      1286
     ]
   },
   {
@@ -12867,7 +12963,21 @@
         "name": "1900年代末高腰过渡裙"
       }
     ],
-    "qa_date": "2026-10-14"
+    "qa_date": "2026-10-14",
+    "column_boundaries": [
+      0,
+      305,
+      611,
+      918,
+      1223
+    ],
+    "row_boundaries": [
+      0,
+      316,
+      635,
+      955,
+      1286
+    ]
   },
   {
     "id": "sheet-fs137-fs152",
@@ -13061,7 +13171,21 @@
         "name": "1910年代末松腰直裙"
       }
     ],
-    "qa_date": "2026-10-14"
+    "qa_date": "2026-10-14",
+    "column_boundaries": [
+      0,
+      311,
+      615,
+      920,
+      1230
+    ],
+    "row_boundaries": [
+      0,
+      318,
+      636,
+      950,
+      1278
+    ]
   },
   {
     "id": "sheet-fs153-fs168",
@@ -13463,7 +13587,21 @@
         "name": "1920年代旗袍短外褂套装"
       }
     ],
-    "qa_date": "2026-10-14"
+    "qa_date": "2026-10-14",
+    "column_boundaries": [
+      0,
+      287,
+      572,
+      858,
+      1145
+    ],
+    "row_boundaries": [
+      0,
+      331,
+      671,
+      1013,
+      1374
+    ]
   },
   {
     "id": "sheet-fs233-fs248",
@@ -13951,7 +14089,21 @@
     "edit_prompt": "Edit this existing historical fashion reference sheet. Preserve the exact 4-column, 4-row layout, all IDs EC033 through EC048, ivory background, drawing style, every other cell, and full body framing. Change ONLY cell EC036 (top row, far right): its 1920s white sleeveless square-neck tennis dress needs a longer skirt. Lengthen its pleated white skirt so the hem reaches the model's KNEES or just below knees, while preserving the dropped waist at the hips, navy edging, square neckline, white opaque linen, tennis racket, socks, shoes, adult model and neutral pose. This is a 1926-inspired tennis dress, not a modern thigh-length tennis miniskirt. Keep all feet intact. No added text or logos.",
     "reference_image": "images/sheet-ec033-ec048.png",
     "qa_date": "2026-10-14",
-    "qa_note": "EC036 tennis skirt lengthened towards knee; other 15 labels and garment silhouettes retained."
+    "qa_note": "EC036 tennis skirt lengthened towards knee; other 15 labels and garment silhouettes retained.",
+    "column_boundaries": [
+      0,
+      300,
+      610,
+      921,
+      1222
+    ],
+    "row_boundaries": [
+      0,
+      326,
+      643,
+      963,
+      1287
+    ]
   },
   {
     "id": "sheet-ow079-ow094",

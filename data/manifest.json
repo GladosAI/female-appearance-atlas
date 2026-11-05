@@ -1,18 +1,18 @@
 {
   "schema": "female-appearance-data-manifest/v1",
-  "catalog_version": "73.1",
+  "catalog_version": "73.2",
   "files": {
     "data/catalog.json": {
-      "bytes": 18697632,
-      "sha256": "9b1653c639e1bf332912b456e6ab132161fe6e8c49b02d59b1d4de2bb069bb99"
+      "bytes": 18730409,
+      "sha256": "8a9f3e3ee075e0f786b1aa203bf35f66e0c5ec8b69fecadd232e3891ea1cde86"
     },
     "data/navigation.json": {
       "bytes": 72731,
       "sha256": "4728b5089a626c6f477a221efaca40dc2317cee3cb3cb963d4fe1206743250e3"
     },
     "data/agent-index.jsonl": {
-      "bytes": 4352090,
-      "sha256": "2688e20df31ec6dc0618db4cb67c46a7e6158f46250aea4d7185b80d54e976a9"
+      "bytes": 4366314,
+      "sha256": "f84f8be1611023c62f55cca0a785e8e4b5d0c470410c3008ec79633a0560b158"
     }
   }
 }
