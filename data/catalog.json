@@ -3,7 +3,7 @@
     "title": "女性之美",
     "subtitle": "女性角色外观图鉴",
     "date": "2026-11-05",
-    "version": "73.0",
+    "version": "73.1",
     "entry_count": 7241,
     "category_count": 211,
     "clothing_count": 3365,
@@ -103,7 +103,7 @@
     "scope": "覆盖常见外貌、服饰、职业与幻想创作部件；视角、成年年龄表现与配色为独立创作参考分类；青少年服装按校园、日常和活动另列。",
     "provenance": "词条独立编排；动漫图为 AI 生成的创作示意，六张实物照片另有原始馆藏记录。相关阅读是延伸入口，不代表每项均为文献引用。",
     "layout_version": "32.0",
-    "last_content_version": "73.0",
+    "last_content_version": "73.1",
     "new_count": 0,
     "style_family_count": 30,
     "shoulder_count": 73,
@@ -98177,7 +98177,15 @@
         "columns": 4,
         "rows": 4,
         "label": "FS169",
-        "aspect": 0.9624413145539906
+        "aspect": 0.933933933933934,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 311,
+          "height": 333,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       }
     },
     {
@@ -98223,7 +98231,15 @@
         "columns": 4,
         "rows": 4,
         "label": "FS170",
-        "aspect": 0.9624413145539906
+        "aspect": 0.9099099099099099,
+        "crop": {
+          "x": 311,
+          "y": 0,
+          "width": 303,
+          "height": 333,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       }
     },
     {
@@ -98269,7 +98285,15 @@
         "columns": 4,
         "rows": 4,
         "label": "FS171",
-        "aspect": 0.9624413145539906
+        "aspect": 0.9129129129129129,
+        "crop": {
+          "x": 614,
+          "y": 0,
+          "width": 304,
+          "height": 333,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       }
     },
     {
@@ -98315,7 +98339,15 @@
         "columns": 4,
         "rows": 4,
         "label": "FS172",
-        "aspect": 0.9624413145539906
+        "aspect": 0.9369369369369369,
+        "crop": {
+          "x": 918,
+          "y": 0,
+          "width": 312,
+          "height": 333,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       }
     },
     {
@@ -98361,7 +98393,15 @@
         "columns": 4,
         "rows": 4,
         "label": "FS173",
-        "aspect": 0.9624413145539906
+        "aspect": 0.948170731707317,
+        "crop": {
+          "x": 0,
+          "y": 333,
+          "width": 311,
+          "height": 328,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       }
     },
     {
@@ -98407,7 +98447,15 @@
         "columns": 4,
         "rows": 4,
         "label": "FS174",
-        "aspect": 0.9624413145539906
+        "aspect": 0.9237804878048781,
+        "crop": {
+          "x": 311,
+          "y": 333,
+          "width": 303,
+          "height": 328,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       }
     },
     {
@@ -98453,7 +98501,15 @@
         "columns": 4,
         "rows": 4,
         "label": "FS175",
-        "aspect": 0.9624413145539906
+        "aspect": 0.926829268292683,
+        "crop": {
+          "x": 614,
+          "y": 333,
+          "width": 304,
+          "height": 328,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       }
     },
     {
@@ -98499,7 +98555,15 @@
         "columns": 4,
         "rows": 4,
         "label": "FS176",
-        "aspect": 0.9624413145539906
+        "aspect": 0.9512195121951219,
+        "crop": {
+          "x": 918,
+          "y": 333,
+          "width": 312,
+          "height": 328,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       }
     },
     {
@@ -98544,7 +98608,15 @@
         "columns": 4,
         "rows": 4,
         "label": "FS177",
-        "aspect": 0.9624413145539906
+        "aspect": 0.9841772151898734,
+        "crop": {
+          "x": 0,
+          "y": 661,
+          "width": 311,
+          "height": 316,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       }
     },
     {
@@ -98589,7 +98661,15 @@
         "columns": 4,
         "rows": 4,
         "label": "FS178",
-        "aspect": 0.9624413145539906
+        "aspect": 0.9588607594936709,
+        "crop": {
+          "x": 311,
+          "y": 661,
+          "width": 303,
+          "height": 316,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       }
     },
     {
@@ -98634,7 +98714,15 @@
         "columns": 4,
         "rows": 4,
         "label": "FS179",
-        "aspect": 0.9624413145539906
+        "aspect": 0.9620253164556962,
+        "crop": {
+          "x": 614,
+          "y": 661,
+          "width": 304,
+          "height": 316,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       }
     },
     {
@@ -98679,7 +98767,15 @@
         "columns": 4,
         "rows": 4,
         "label": "FS180",
-        "aspect": 0.9624413145539906
+        "aspect": 0.9873417721518988,
+        "crop": {
+          "x": 918,
+          "y": 661,
+          "width": 312,
+          "height": 316,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       }
     },
     {
@@ -98724,7 +98820,15 @@
         "columns": 4,
         "rows": 4,
         "label": "FS181",
-        "aspect": 0.9624413145539906
+        "aspect": 1.0332225913621262,
+        "crop": {
+          "x": 0,
+          "y": 977,
+          "width": 311,
+          "height": 301,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       }
     },
     {
@@ -98769,7 +98873,15 @@
         "columns": 4,
         "rows": 4,
         "label": "FS182",
-        "aspect": 0.9624413145539906
+        "aspect": 1.0066445182724253,
+        "crop": {
+          "x": 311,
+          "y": 977,
+          "width": 303,
+          "height": 301,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       }
     },
     {
@@ -98814,7 +98926,15 @@
         "columns": 4,
         "rows": 4,
         "label": "FS183",
-        "aspect": 0.9624413145539906
+        "aspect": 1.0099667774086378,
+        "crop": {
+          "x": 614,
+          "y": 977,
+          "width": 304,
+          "height": 301,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       }
     },
     {
@@ -98859,7 +98979,15 @@
         "columns": 4,
         "rows": 4,
         "label": "FS184",
-        "aspect": 0.9624413145539906
+        "aspect": 1.0365448504983388,
+        "crop": {
+          "x": 918,
+          "y": 977,
+          "width": 312,
+          "height": 301,
+          "sheet_width": 1230,
+          "sheet_height": 1278
+        }
       }
     },
     {
@@ -428133,7 +428261,21 @@
           "name": "法式少女系蕾丝领长裙"
         }
       ],
-      "qa_date": "2026-10-14"
+      "qa_date": "2026-10-14",
+      "column_boundaries": [
+        0,
+        311,
+        614,
+        918,
+        1230
+      ],
+      "row_boundaries": [
+        0,
+        333,
+        661,
+        977,
+        1278
+      ]
     },
     {
       "id": "sheet-fs185-fs200",
