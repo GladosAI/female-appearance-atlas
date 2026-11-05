@@ -2,11 +2,15 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const {pathToFileURL,fileURLToPath}=require('node:url');
 const {launchBrowser,sharp}=require('./runtime.cjs');
+// Keep growing review batches bounded on developer machines and CI workers.
+sharp.cache({memory:32,files:0,items:32});sharp.concurrency(1);
 const root=path.resolve(__dirname,'../..'),base=process.env.ATLAS_TEST_URL||pathToFileURL(path.join(root,'index.html')).href;
 const read=async url=>url.protocol==='file:'?fs.readFileSync(fileURLToPath(url)):Buffer.from(await(await fetch(url)).arrayBuffer());
 (async()=>{const data=JSON.parse((await read(new URL('data/catalog.json',base))).toString('utf8'));
  const browser=await launchBrowser();try{
- const page=await browser.newPage({acceptDownloads:true,viewport:{width:1280,height:900}}),errors=[];page.on('pageerror',error=>errors.push(error.message));
+ const errors=[];
+ const openPage=async()=>{const p=await browser.newPage({acceptDownloads:true,viewport:{width:1280,height:900}});p.on('pageerror',error=>errors.push(error.message));return p};
+ let page=await openPage();
  const checked=[];
  const reviewed=new Map(),reviewRepresentatives=new Set();
  for(const file of fs.readdirSync(path.join(root,'source/quality-reviews')).filter(name=>name.endsWith('.json')).sort((a,b)=>a.localeCompare(b,'en',{numeric:true}))){
@@ -18,6 +22,9 @@ const read=async url=>url.protocol==='file:'?fs.readFileSync(fileURLToPath(url))
  for(const id of new Set(['HR025','HR045','HR053','FW046','SO075',
   'PO004','PO018','PO023','PO036','PO049','PO057',
   'HG001','HG013','HG017','HG029','HG033','HG045',...reviewRepresentatives,...representatives])){
+  // Repeated full catalog navigations retain decoded sheets in Chromium until GC.
+  // A fresh page releases them without changing the export assertions or storage.
+  if(checked.length&&checked.length%16===0){await page.close();page=await openPage()}
   const entry=data.entries.find(e=>e.id===id),visual=entry.visual;
   if(reviewRepresentatives.has(id)){
    const approved=reviewed.get(id)?.visual_at_review;assert(approved,id+' requires a review snapshot');
