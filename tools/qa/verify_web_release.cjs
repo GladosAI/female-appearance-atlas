@@ -41,6 +41,9 @@ const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=
  for(const key of ['editorial_content','ai_images','brand_artwork'])assert.equal(deliveredManifest.content_licenses[key],deliveredPolicy[key].license);
  const deliveredRights=await(await fetch(base+'/source/rights-review.json')).json();assert(deliveredRights.assets.every(asset=>asset.status==='cleared'));assert(deliveredRights.assets.filter(asset=>asset.kind==='third-party-museum-photo').every(asset=>asset.license==='CC0-1.0'));
  for(const file of ['LICENSE','CONTENT-LICENSE','LICENSE-SCOPE.md','THIRD_PARTY_NOTICES.md','docs/material-rights-audit.md','source/rights-review.json','source/rights-evidence.json','source/rights-provenance.json'])assert.equal((await fetch(base+'/'+file)).status,200,file);
+ const qualityFiles=fs.readdirSync(path.join(root,'source/quality-reviews')).filter(name=>name.endsWith('.json')).map(name=>'source/quality-reviews/'+name);
+ qualityFiles.push(...fs.readdirSync(path.join(root,'source')).filter(name=>/^material-quality-prompts-.*\.json$/.test(name)).map(name=>'source/'+name));
+ for(const file of qualityFiles){const response=await fetch(base+'/'+file);assert.equal(response.status,200,file+' public quality record');assert.deepEqual(await response.json(),JSON.parse(fs.readFileSync(path.join(root,file),'utf8')),file+' review identity')}
  await page.route('**/assets/details-*.js',route=>route.abort());
  await page.goto(base+'/index.html?section=hair_with_accessories&entry=AH020');await page.locator('#detail-dialog [role=alert]').waitFor();
  await page.unroute('**/assets/details-*.js');await page.getByRole('button',{name:'重新加载',exact:true}).click();await page.locator('[data-entry-feedback="AH020"]').waitFor();

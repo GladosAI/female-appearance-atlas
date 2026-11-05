@@ -8,11 +8,22 @@ const read=async url=>url.protocol==='file:'?fs.readFileSync(fileURLToPath(url))
  const browser=await launchBrowser();try{
  const page=await browser.newPage({acceptDownloads:true,viewport:{width:1280,height:900}}),errors=[];page.on('pageerror',error=>errors.push(error.message));
  const checked=[];
+ const reviewed=new Map(),reviewRepresentatives=new Set();
+ for(const file of fs.readdirSync(path.join(root,'source/quality-reviews')).filter(name=>name.endsWith('.json')).sort((a,b)=>a.localeCompare(b,'en',{numeric:true}))){
+  const review=JSON.parse(fs.readFileSync(path.join(root,'source/quality-reviews',file),'utf8'));
+  for(const record of review.records||[])if(record.field==='visual')reviewed.set(record.entry_id,record);
+  for(const id of review.export_representatives||[])reviewRepresentatives.add(id);
+ }
  const scenes=data.entries.filter(e=>e.scene_reference),representatives=[...new Set(scenes.map(e=>e.category))].map(category=>scenes.find(e=>e.category===category).id);
- for(const id of ['HR025','HR045','HR053','FW046','SO075',
+ for(const id of new Set(['HR025','HR045','HR053','FW046','SO075',
   'PO004','PO018','PO023','PO036','PO049','PO057',
-  'HG001','HG013','HG017','HG029','HG033','HG045',...representatives]){
+  'HG001','HG013','HG017','HG029','HG033','HG045',...reviewRepresentatives,...representatives])){
   const entry=data.entries.find(e=>e.id===id),visual=entry.visual;
+  if(reviewRepresentatives.has(id)){
+   const approved=reviewed.get(id)?.visual_at_review;assert(approved,id+' requires a review snapshot');
+   assert.equal(visual.board,approved.board,id+' reviewed board');
+   assert.deepEqual(visual.crop,approved.crop,id+' approved crop geometry');
+  }
   await page.goto(base+'?section='+entry.category+'&entry='+id);await page.locator('#detail-dialog').waitFor({state:'visible'});
   const kind=entry.wearing_visual?'object':'auto';
   const button=page.locator('#detail-dialog [data-image-export="download"][data-image-kind="'+kind+'"]').first();await button.waitFor();

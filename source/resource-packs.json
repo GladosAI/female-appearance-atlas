@@ -71,7 +71,11 @@
           "sha256": "26df60407be64b287f4b097c2da90f51e6a66fd77c01a5958ca13000c10de881",
           "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v72.0/female-appearance-atlas-offline-copy.zip"
         }
-      ]
+      ],
+      "compatible_content_versions": [
+        "72.1"
+      ],
+      "inventory_sha256": "aa96769d85ead23384d24c4d49263924294225d61e6d5f0c3cf67302933a1cef"
     }
   }
 }

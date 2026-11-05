@@ -2,13 +2,13 @@
 
 **女性角色外观图鉴**
 
-面向游戏、动漫和角色创作的可检索素材仓库。内容版 72.0：7,241 个配图词条、718 张图页、211 个类别、9 个领域。支持检索、筛选、外观卡收藏、同类参考排列与 AI 提示词导出；不规定角色必填部件或自动生成流程。
+面向游戏、动漫和角色创作的可检索素材仓库。内容版 72.1：7,241 个配图词条、718 张图页、211 个类别、9 个领域。支持检索、筛选、外观卡收藏、同类参考排列与 AI 提示词导出；不规定角色必填部件或自动生成流程。
 
 > **代码采用[MIT](LICENSE)；项目有权授权的图鉴文字、数据、提示词、AI配图与Logo采用[CC BY-NC 4.0](CONTENT-LICENSE)，仅非商业使用。** 六张Met馆藏照片等第三方例外保留原许可。范围见[LICENSE-SCOPE.md](LICENSE-SCOPE.md)，详见[素材说明](NOTICE.md)与[当前许可决策](docs/licensing-proposal.md)。当前未授予商用或广告盈利镜像例外。
 
 [在线阅览](https://gladosai.github.io/female-appearance-atlas/) · [源码仓库](https://github.com/GladosAI/female-appearance-atlas) · [版本与资源包](https://github.com/GladosAI/female-appearance-atlas/releases) · [问题反馈](https://github.com/GladosAI/female-appearance-atlas/issues)
 
-无需下载即可[在线浏览图鉴](https://gladosai.github.io/female-appearance-atlas/)；当前程序版 **0.4.1**，内容版 **72.0**。需要原图或离线使用时，从[Releases](https://github.com/GladosAI/female-appearance-atlas/releases/latest)获取以下资源包。程序更新复用明确标记版本的图片资源，不必重复下载未变化的图片。
+无需下载即可[在线浏览图鉴](https://gladosai.github.io/female-appearance-atlas/)；当前程序版 **0.4.1**，内容版 **72.1**。需要原图或离线使用时，从[Releases](https://github.com/GladosAI/female-appearance-atlas/releases/latest)获取以下资源包。程序更新复用明确标记版本的图片资源，不必重复下载未变化的图片。
 
 | 下载 | 内容与用途 |
 | --- | --- |
