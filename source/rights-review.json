@@ -23411,6 +23411,114 @@
         ],
         "declared_inputs": []
       }
+    },
+    {
+      "path": "images/quality-v74-fh022.png",
+      "kind": "ai-generated-reference",
+      "sha256": "b514a6a6dff51b2e4caf10fc670f3bf39f3537f074ea8b7a38adf9d3837b2022",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "quality-20261105-completion-fh022",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original replacement without image inputs; visually checked for full headwear, head angles, prop contours, antler or ear tips. Existing project material license retained.",
+      "evidence_ids": [
+        "E-QUALITY-GENERATION-20261105-COMPLETION",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-aaadec65585c49a6"
+      ],
+      "provenance": {
+        "observed_sha256": "b514a6a6dff51b2e4caf10fc670f3bf39f3537f074ea8b7a38adf9d3837b2022",
+        "status": "generated-file-match",
+        "board_id": "quality-20261105-completion-fh022",
+        "prompt_sources": [
+          "source/material-quality-prompts-20261105-completion.json#/records/0/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/quality-v74-head-angles.png",
+      "kind": "ai-generated-reference",
+      "sha256": "d5231e54f93753683608fb63f5f48f064a9ba0784142d085486409cb5a121643",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "quality-20261105-completion-head-angles",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original replacement without image inputs; visually checked for full headwear, head angles, prop contours, antler or ear tips. Existing project material license retained.",
+      "evidence_ids": [
+        "E-QUALITY-GENERATION-20261105-COMPLETION",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-8044e450d6e453b7"
+      ],
+      "provenance": {
+        "observed_sha256": "d5231e54f93753683608fb63f5f48f064a9ba0784142d085486409cb5a121643",
+        "status": "generated-file-match",
+        "board_id": "quality-20261105-completion-head-angles",
+        "prompt_sources": [
+          "source/material-quality-prompts-20261105-completion.json#/records/1/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/quality-v74-accessory-framing.png",
+      "kind": "ai-generated-reference",
+      "sha256": "6f83c850bea38f27675428df74d15a05150795fa629af52d3327efb3ccfa33b0",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "quality-20261105-completion-accessory-framing",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original replacement without image inputs; visually checked for full headwear, head angles, prop contours, antler or ear tips. Existing project material license retained.",
+      "evidence_ids": [
+        "E-QUALITY-GENERATION-20261105-COMPLETION",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-74a51619109bc322"
+      ],
+      "provenance": {
+        "observed_sha256": "6f83c850bea38f27675428df74d15a05150795fa629af52d3327efb3ccfa33b0",
+        "status": "generated-file-match",
+        "board_id": "quality-20261105-completion-accessory-framing",
+        "prompt_sources": [
+          "source/material-quality-prompts-20261105-completion.json#/records/2/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/quality-v74-anthro-framing.png",
+      "kind": "ai-generated-reference",
+      "sha256": "30cc46bfd91739e447994a36628a7eae86136d0e8f8ffef62d44b8b2ec5be079",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "quality-20261105-completion-anthro-framing",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "notes": "Original replacement without image inputs; visually checked for full headwear, head angles, prop contours, antler or ear tips. Existing project material license retained.",
+      "evidence_ids": [
+        "E-QUALITY-GENERATION-20261105-COMPLETION",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-d30ba331a5f2be31"
+      ],
+      "provenance": {
+        "observed_sha256": "30cc46bfd91739e447994a36628a7eae86136d0e8f8ffef62d44b8b2ec5be079",
+        "status": "generated-file-match",
+        "board_id": "quality-20261105-completion-anthro-framing",
+        "prompt_sources": [
+          "source/material-quality-prompts-20261105-completion.json#/records/3/prompt"
+        ],
+        "declared_inputs": []
+      }
     }
   ],
   "audit": {

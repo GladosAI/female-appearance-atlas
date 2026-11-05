@@ -1007,7 +1007,7 @@
 
 #### 视角参考
 
-![头部视角与转向 视角参考](../images/sheet-va001-va016.png)
+![素材完整构图修订 · head-angles](../images/quality-v74-head-angles.png)
 
 | 编号 | 中文 | English | 可见特征 |
 | --- | --- | --- | --- |
@@ -1184,6 +1184,8 @@
 #### 面部被毛纹理与分区
 
 ![兽脸吻部与毛纹 面部被毛纹理与分区](../images/sheet-bh017-bh032-v3.png)
+
+![素材完整构图修订 · anthro-framing](../images/quality-v74-anthro-framing.png)
 
 | 编号 | 中文 | English | 可见特征 |
 | --- | --- | --- | --- |

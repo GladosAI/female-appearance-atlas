@@ -108,6 +108,8 @@
 
 ![兽脸吻部与毛纹 面部被毛纹理与分区](../images/sheet-bh017-bh032-v3.png)
 
+![素材完整构图修订 · anthro-framing](../images/quality-v74-anthro-framing.png)
+
 | 编号 | 名称 | English | 可见特征 |
 | --- | --- | --- | --- |
 | BH017 | 短顺毛兽脸 | short-smooth fur face | 成年女性拟人猫脸，短顺毛边与细微毛向，鼻吻清楚，简洁衣领。 |
@@ -230,6 +232,8 @@
 ![幻想外观扩展 身体与装置](../images/sheet-fx001-fx016.png)
 
 ![幻想外观扩展 身体与装置](../images/sheet-fx023-fx036.png)
+
+![素材完整构图修订 · accessory-framing](../images/quality-v74-accessory-framing.png)
 
 | 编号 | 名称 | English | 可见特征 |
 | --- | --- | --- | --- |

@@ -34,6 +34,26 @@
     "mime": "image/png",
     "file": "images/export-data/51c0e31ea097-2c9c78563dde.js"
   },
+  "images/quality-v74-accessory-framing.png": {
+    "source_sha256": "6f83c850bea38f27675428df74d15a05150795fa629af52d3327efb3ccfa33b0",
+    "mime": "image/png",
+    "file": "images/export-data/74a51619109b-6f83c850bea3.js"
+  },
+  "images/quality-v74-anthro-framing.png": {
+    "source_sha256": "30cc46bfd91739e447994a36628a7eae86136d0e8f8ffef62d44b8b2ec5be079",
+    "mime": "image/png",
+    "file": "images/export-data/d30ba331a5f2-30cc46bfd917.js"
+  },
+  "images/quality-v74-fh022.png": {
+    "source_sha256": "b514a6a6dff51b2e4caf10fc670f3bf39f3537f074ea8b7a38adf9d3837b2022",
+    "mime": "image/png",
+    "file": "images/export-data/aaadec65585c-b514a6a6dff5.js"
+  },
+  "images/quality-v74-head-angles.png": {
+    "source_sha256": "d5231e54f93753683608fb63f5f48f064a9ba0784142d085486409cb5a121643",
+    "mime": "image/png",
+    "file": "images/export-data/8044e450d6e4-d5231e54f937.js"
+  },
   "images/sheet-ac002-ac020.png": {
     "source_sha256": "58605ffd71a85cdabbd31c233223dd1a8f7fff614b2d383928bac05e9bc512e9",
     "mime": "image/webp",
@@ -3288,11 +3308,6 @@
     "source_sha256": "ad6afbb0c95ebf7949b2d792b244b0386bc031859be0b3f344147d0604c29f3e",
     "mime": "image/webp",
     "file": "images/export-data/135f5f916b33-ad6afbb0c95e.js"
-  },
-  "images/sheet-va001-va016.png": {
-    "source_sha256": "dbc13adc55e4e5ae54b16411a8273cced9435989006d67069945346499dc3ef7",
-    "mime": "image/webp",
-    "file": "images/export-data/e2dbf94b67ce-dbc13adc55e4.js"
   },
   "images/sheet-vf001-vf016.png": {
     "source_sha256": "7c87e2b6bb4db8a7643411716a401e810cbfdcee06dfe20be5841ae3c4aba6e1",

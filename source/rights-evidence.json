@@ -8881,6 +8881,109 @@
       "prompt_source": "source/scene-prompts-v73.json",
       "declared_inputs": [],
       "permission_basis": "Generation provenance only; distribution permission follows the existing owner decision and asset-specific grants."
+    },
+    {
+      "id": "E-NC-GRANT-aaadec65585c49a6",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/quality-v74-fh022.png",
+      "local_sha256": "b514a6a6dff51b2e4caf10fc670f3bf39f3537f074ea8b7a38adf9d3837b2022",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project maintenance replacements under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project. This asset-specific record binds the new output hash; third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-8044e450d6e453b7",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/quality-v74-head-angles.png",
+      "local_sha256": "d5231e54f93753683608fb63f5f48f064a9ba0784142d085486409cb5a121643",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project maintenance replacements under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project. This asset-specific record binds the new output hash; third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-74a51619109bc322",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/quality-v74-accessory-framing.png",
+      "local_sha256": "6f83c850bea38f27675428df74d15a05150795fa629af52d3327efb3ccfa33b0",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project maintenance replacements under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project. This asset-specific record binds the new output hash; third-party material is not relicensed."
+    },
+    {
+      "id": "E-NC-GRANT-d30ba331a5f2be31",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-05",
+      "asset": "images/quality-v74-anthro-framing.png",
+      "local_sha256": "30cc46bfd91739e447994a36628a7eae86136d0e8f8ffef62d44b8b2ec5be079",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project maintenance replacements under the continuing owner-selected noncommercial material policy, within rights held or licensable by the project. This asset-specific record binds the new output hash; third-party material is not relicensed."
+    },
+    {
+      "id": "E-QUALITY-GENERATION-20261105-COMPLETION",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-05",
+      "title": "Original outputs completing the remaining material quality pass",
+      "source": "Built-in image_gen tool outputs observed in the project maintenance conversation, 2026-11-05",
+      "assets": [
+        {
+          "path": "images/quality-v74-fh022.png",
+          "local_sha256": "b514a6a6dff51b2e4caf10fc670f3bf39f3537f074ea8b7a38adf9d3837b2022",
+          "entry_ids": [
+            "FH022"
+          ]
+        },
+        {
+          "path": "images/quality-v74-head-angles.png",
+          "local_sha256": "d5231e54f93753683608fb63f5f48f064a9ba0784142d085486409cb5a121643",
+          "entry_ids": [
+            "VA001",
+            "VA002",
+            "VA003",
+            "VA004",
+            "VA005",
+            "VA006",
+            "VA007",
+            "VA008",
+            "VA009",
+            "VA010",
+            "VA011",
+            "VA012",
+            "VA013",
+            "VA014",
+            "VA015",
+            "VA016"
+          ]
+        },
+        {
+          "path": "images/quality-v74-accessory-framing.png",
+          "local_sha256": "6f83c850bea38f27675428df74d15a05150795fa629af52d3327efb3ccfa33b0",
+          "entry_ids": [
+            "HA044",
+            "HA045",
+            "HA056",
+            "AC010",
+            "AC041",
+            "AC044",
+            "GE030",
+            "FX004"
+          ]
+        },
+        {
+          "path": "images/quality-v74-anthro-framing.png",
+          "local_sha256": "30cc46bfd91739e447994a36628a7eae86136d0e8f8ffef62d44b8b2ec5be079",
+          "entry_ids": [
+            "BP011",
+            "BH032"
+          ]
+        }
+      ],
+      "prompt_source": "source/material-quality-prompts-20261105-completion.json",
+      "declared_inputs": [],
+      "permission_basis": "Generation provenance only; distribution permission is recorded separately through the continuing owner-selected policy and asset-specific grants."
     }
   ]
 }
