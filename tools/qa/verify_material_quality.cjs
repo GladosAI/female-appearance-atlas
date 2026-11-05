@@ -29,7 +29,8 @@ const read=async url=>url.protocol==='file:'?fs.readFileSync(fileURLToPath(url))
   const button=page.locator('#detail-dialog [data-image-export="download"][data-image-kind="'+kind+'"]').first();await button.waitFor();
   const event=page.waitForEvent('download');await button.click();const downloaded=fs.readFileSync(await(await event).path());
   const input=await read(new URL(visual.image,base)),size=await sharp(input).metadata();
-  const r=visual.crop||{x:0,y:0,width:size.width,height:size.height};
+  const left=Math.round(visual.column*size.width/visual.columns),top=Math.round(visual.row*size.height/visual.rows);
+  const r=visual.crop||{x:left,y:top,width:Math.round((visual.column+1)*size.width/visual.columns)-left,height:Math.round((visual.row+1)*size.height/visual.rows)-top};
   const expected=await sharp(input).extract({left:r.x,top:r.y,width:r.width,height:r.height}).removeAlpha().raw().toBuffer();
   const result=await sharp(downloaded).removeAlpha().raw().toBuffer({resolveWithObject:true});
   assert.equal(result.info.width,r.width,id+' export width');assert.equal(result.info.height,r.height,id+' export height');
