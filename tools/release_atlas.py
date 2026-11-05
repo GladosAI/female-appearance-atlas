@@ -169,6 +169,12 @@ def build_web(output, image_mode='original'):
         if (ROOT/'source'/file).exists():
             (output/'source').mkdir(exist_ok=True)
             shutil.copy2(ROOT/'source'/file,output/'source'/file)
+    quality_records = sorted((ROOT/'source/quality-reviews').glob('*.json'))
+    quality_records += sorted((ROOT/'source').glob('material-quality-prompts-*.json'))
+    for source in quality_records:
+        target = output/source.relative_to(ROOT)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, target)
     (output / '_headers').write_text('/assets/runtime-*.js\n  Cache-Control: public, max-age=31536000, immutable\n/images/*\n  Cache-Control: public, max-age=3600\n/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n', encoding='utf-8')
     (output / 'wrangler.jsonc').write_text(json.dumps({'name': 'female-appearance-atlas', 'compatibility_date': '2026-11-02', 'assets': {'directory': '.', 'not_found_handling': '404-page'}}, indent=2) + '\n', encoding='utf-8')
     result = manifest(output)
