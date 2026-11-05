@@ -12,6 +12,30 @@ def write(relative,value):
     path.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 
+def replace_existing_contributions(entries,boards):
+    replacements={e['stable_id']:e for e in entries};new_boards={b['id']:b for b in boards}
+    assert len(replacements)==len(entries) and len(new_boards)==len(boards),'duplicate replacement IDs'
+    found_entries=set();found_boards=set();documents=[]
+    for path in sorted((ROOT/'source/contributions').glob('*.json')):
+        document=read(path.relative_to(ROOT));changed=False
+        for entry in document.get('entries',[]):
+            identifier=entry.get('stable_id')
+            if identifier in replacements:
+                assert identifier not in found_entries,'duplicate replacement '+identifier
+                had_version='added_in' in entry;added_in=entry.get('added_in');entry.update(replacements[identifier])
+                if had_version:entry['added_in']=added_in
+                else:entry.pop('added_in',None)
+                found_entries.add(identifier);changed=True
+        for index,board in enumerate(document.get('boards',[])):
+            if board['id'] in new_boards:
+                assert board['id'] not in found_boards,'duplicate replacement board '+board['id']
+                document['boards'][index]=new_boards[board['id']]
+                found_boards.add(board['id']);changed=True
+        if changed:documents.append((path.relative_to(ROOT),document))
+    assert found_entries==set(replacements) and found_boards==set(new_boards),'replacement target missing'
+    for path,document in documents:write(path,document)
+
+
 def prepare(edition=71):
     plan=read(f'source/scene-plan-v{edition}.json');entries=[];jobs=[]
     for category in plan['categories']:
@@ -20,7 +44,7 @@ def prepare(edition=71):
             name,en,description,note,direction=row
             entries.append({'stable_id':category['prefix']+str(index+1).zfill(3),'category':category['id'],
                 'dimension':category['groups'][index//4],'name':name,'en':en,'description':description,
-                'note':note,'aliases':['人物场景','场景参考','环境与人物','character in environment',name.removesuffix('场景'),*category.get('aliases',[])],
+                'note':note,'aliases':['人物场景','场景参考','环境与人物','character in environment',name.removesuffix('场景'),*category.get('aliases',[]),*plan.get('entry_aliases',{}).get(category['prefix']+str(index+1).zfill(3),[])],
                 'reference_ids':[],'origin':'editorial','added_in':f'{edition}.0','scene_reference':True})
         for offset in range(0,len(category['entries']),4):
             codes=[category['prefix']+str(i+1).zfill(3) for i in range(offset,offset+4)]
@@ -32,8 +56,10 @@ No known characters, franchises, company logos, celebrity likenesses or readable
 Specific panels:
 '''
             for slot,(code,row) in enumerate(zip(codes,category['entries'][offset:offset+4]),1):
+                if slot==1 and plan.get('prompt_header'):
+                    prompt=plan['prompt_header']+'\nSpecific panels:\n'
                 prompt+=f'Panel {slot}, exact label "{code}": {row[4]}\n'
-            jobs.append({'id':f'scene-v{edition}-'+category['prefix'].lower()+'-'+str(offset//4+1),
+            jobs.append({'id':category.get('board_ids',{}).get(str(offset//4+1),f'scene-v{edition}-'+category['prefix'].lower()+'-'+str(offset//4+1)),
                 'category':category['id'],'dimension':category['groups'][offset//4],
                 'title':category['name']+' · '+category['groups'][offset//4],
                 'image':category.get('image_paths',{}).get(str(offset//4+1),'images/sheet-scenes-'+category['prefix'].lower()+'-'+str(offset//4+1)+f'-v{edition}.png'),
@@ -51,6 +77,8 @@ def register(edition=71):
     for job in jobs:
         item=approved[job['id']]
         assert item['environment_and_people_checked'] and item['labels_and_bounds_checked'],job['id']
+        for check in plan.get('review_checks',[]):
+            assert item.get(check) is True,job['id']+' requires '+check
         raw=(ROOT/job['image']).read_bytes();assert raw[:8]==b'\x89PNG\r\n\x1a\n'
         assert hashlib.sha256(raw).hexdigest()==item['sha256'],job['id']+' changed after review'
         width,height=struct.unpack('>II',raw[16:24])
@@ -83,7 +111,10 @@ def register(edition=71):
     document={'name':'场景与人物活动','path':'docs/scenes-with-characters.md'}
     if not any(d.get('path')==document['path'] for d in navigation['documents']):navigation['documents'].append(document)
     write('source/navigation.json',navigation)
-    write(f'source/contributions/scenes-v{edition}.json',{'schema':'female-appearance-contribution/v1','entries':entries,'boards':boards,'references':[]})
+    if plan.get('replace_existing'):
+        replace_existing_contributions(entries,boards)
+    else:
+        write(f'source/contributions/scenes-v{edition}.json',{'schema':'female-appearance-contribution/v1','entries':entries,'boards':boards,'references':[]})
     old_jobs=read('source/image-jobs.json');own={j['id'] for j in jobs}
     write('source/image-jobs.json',[j for j in old_jobs if j['id'] not in own]+jobs)
     write(f'source/scene-prompts-v{edition}.json',{'schema':'female-appearance-scene-prompts/v1','tool':'built-in image_gen','model':None,'jobs':jobs})

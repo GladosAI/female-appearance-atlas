@@ -21,9 +21,12 @@ class StandaloneResourceLicenseTests(unittest.TestCase):
                 file.write_text('CC0 exceptions' if relative=='THIRD_PARTY_NOTICES.md' else 'Noncommercial license fixture')
             (root/'data').mkdir()
             (root/'data/catalog.json').write_text(json.dumps({'boards':[{'image':'images/board.png'}],'references':[]}))
+            (root/'data/image-export-index.json').write_text(json.dumps({'images/board.png':{'file':'images/export-data/board.js'}}))
             (root/'images/export-data').mkdir(parents=True)
             (root/'images/board.png').write_bytes(b'board fixture')
             (root/'images/export-data/board.js').write_text('offline copy fixture')
+            (root/'images/export-data/retired.js').write_text('retired offline fixture')
+            (root/'images/retired.png').write_bytes(b'retired image fixture')
             output=Path(folder)/'packages'
             with patch.object(release_atlas,'ROOT',root),contextlib.redirect_stdout(io.StringIO()):
                 release_atlas.build_packages(output)
@@ -35,6 +38,8 @@ class StandaloneResourceLicenseTests(unittest.TestCase):
                     self.assertEqual(bundle.read('female-appearance-atlas/THIRD_PARTY_NOTICES.md'),b'CC0 exceptions')
                     self.assertIn('female-appearance-atlas/source/rights-review.json',bundle.namelist())
                     self.assertEqual(len(bundle.namelist()),len(set(bundle.namelist())))
+                    self.assertNotIn('female-appearance-atlas/images/export-data/retired.js',bundle.namelist())
+                    self.assertNotIn('female-appearance-atlas/images/retired.png',bundle.namelist())
 
 
 if __name__=='__main__':unittest.main()

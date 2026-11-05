@@ -7,7 +7,7 @@
       "dimension": "入校与教学空间",
       "name": "学校校门入校场景",
       "en": "school-gate arrival scene",
-      "description": "教学楼、校门、门岗与步行入口构成学校外部，女大学生背包步行进入校园。",
+      "description": "教学楼、校门、门岗与步行入口构成中学校园，一名穿校服的高中女生背包步行入校。",
       "note": "以校门、校内道路和教学楼建立层次，人物与入口保持可信比例。",
       "aliases": [
         "人物场景",
@@ -19,7 +19,15 @@
         "校园",
         "学园",
         "school",
-        "campus"
+        "campus",
+        "二次元场景",
+        "动漫人物场景",
+        "初中",
+        "高中",
+        "中学",
+        "初高中",
+        "middle school",
+        "high school"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -32,7 +40,7 @@
       "dimension": "入校与教学空间",
       "name": "校园林荫路同行场景",
       "en": "campus tree-lined walkway scene",
-      "description": "校园步道、林荫、长凳与教学楼构成校内道路，两位女大学生边走边交流。",
+      "description": "校园步道、林荫、长凳与教学楼构成中学校园，两位穿校服的初中女生边走边交流。",
       "note": "双人步幅、书包与道路透视一致，树木和教学楼说明校园语境。",
       "aliases": [
         "人物场景",
@@ -44,7 +52,15 @@
         "校园",
         "学园",
         "school",
-        "campus"
+        "campus",
+        "二次元场景",
+        "动漫人物场景",
+        "初中",
+        "高中",
+        "中学",
+        "初高中",
+        "middle school",
+        "high school"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -57,7 +73,7 @@
       "dimension": "入校与教学空间",
       "name": "教室课间整理书本场景",
       "en": "classroom break-time scene",
-      "description": "课桌、黑板、窗户与讲台形成学校教室，女大学生在课间整理桌上的书本。",
+      "description": "课桌、黑板、窗户与讲台形成中学教室，初中女生在课间把课本整理进书包。",
       "note": "保留课桌排布和同学活动，区别于教师授课或书房阅读。",
       "aliases": [
         "人物场景",
@@ -69,7 +85,15 @@
         "校园",
         "学园",
         "school",
-        "campus"
+        "campus",
+        "二次元场景",
+        "动漫人物场景",
+        "初中",
+        "高中",
+        "中学",
+        "初高中",
+        "middle school",
+        "high school"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -82,7 +106,7 @@
       "dimension": "入校与教学空间",
       "name": "考场监考场景",
       "en": "examination-room invigilation scene",
-      "description": "间隔摆放的课桌、墙钟与前方讲台构成考场，女教师持名单在桌间巡视。",
+      "description": "间隔摆放的课桌、墙钟与讲台构成中学考场，成年女教师持名单巡视，初高中学生安静答卷。",
       "note": "监考者、考生座位与过道清楚，试卷和名单不呈现真实个人信息。",
       "aliases": [
         "人物场景",
@@ -94,7 +118,15 @@
         "校园",
         "学园",
         "school",
-        "campus"
+        "campus",
+        "二次元场景",
+        "动漫人物场景",
+        "初中",
+        "高中",
+        "中学",
+        "初高中",
+        "middle school",
+        "high school"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -107,7 +139,7 @@
       "dimension": "社团与艺术活动",
       "name": "教学楼走廊交流场景",
       "en": "academic-building corridor scene",
-      "description": "教室门、公告栏、窗边栏杆与走廊构成教学楼，两位女性在课后交流课程资料。",
+      "description": "教室门、公告栏与窗边栏杆构成教学楼走廊，两位穿校服的高中女生在课后交流课程资料。",
       "note": "通过门牌位置、走廊纵深与资料接触表现校内交流，不依赖可读文字。",
       "aliases": [
         "人物场景",
@@ -119,7 +151,15 @@
         "校园",
         "学园",
         "school",
-        "campus"
+        "campus",
+        "二次元场景",
+        "动漫人物场景",
+        "初中",
+        "高中",
+        "中学",
+        "初高中",
+        "middle school",
+        "high school"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -132,7 +172,7 @@
       "dimension": "社团与艺术活动",
       "name": "校园社团教室活动场景",
       "en": "campus club-room activity scene",
-      "description": "活动桌、收纳柜、海报板与手工作品形成社团教室，女大学生与伙伴制作活动装饰。",
+      "description": "活动桌、收纳柜、海报板与手工作品形成社团教室，初中女生与同学制作校园活动装饰。",
       "note": "手工材料与手部真实接触，公共活动桌和作品陈列说明社团空间。",
       "aliases": [
         "人物场景",
@@ -144,7 +184,15 @@
         "校园",
         "学园",
         "school",
-        "campus"
+        "campus",
+        "二次元场景",
+        "动漫人物场景",
+        "初中",
+        "高中",
+        "中学",
+        "初高中",
+        "middle school",
+        "high school"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -157,7 +205,7 @@
       "dimension": "社团与艺术活动",
       "name": "美术教室写生场景",
       "en": "art-classroom drawing scene",
-      "description": "画架、静物台、颜料与大窗形成美术教室，成年女生对着静物绘制习作。",
+      "description": "画架、静物台、颜料与大窗形成中学美术教室，高中女生对着静物绘制写生习作。",
       "note": "画架、画笔与人物视线对应，静物台和其他画架提供教学环境。",
       "aliases": [
         "人物场景",
@@ -169,7 +217,15 @@
         "校园",
         "学园",
         "school",
-        "campus"
+        "campus",
+        "二次元场景",
+        "动漫人物场景",
+        "初中",
+        "高中",
+        "中学",
+        "初高中",
+        "middle school",
+        "high school"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -182,7 +238,7 @@
       "dimension": "社团与艺术活动",
       "name": "音乐教室钢琴练习场景",
       "en": "music-classroom piano-practice scene",
-      "description": "钢琴、乐谱架、吸音墙与座椅形成音乐教室，成年女生坐在琴前练习。",
+      "description": "钢琴、乐谱架、吸音墙与座椅形成中学音乐教室，初中女生坐在琴前练习。",
       "note": "双手落在琴键附近，座椅高度与键盘一致，乐谱为不可读的简化记号。",
       "aliases": [
         "人物场景",
@@ -194,7 +250,15 @@
         "校园",
         "学园",
         "school",
-        "campus"
+        "campus",
+        "二次元场景",
+        "动漫人物场景",
+        "初中",
+        "高中",
+        "中学",
+        "初高中",
+        "middle school",
+        "high school"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -207,7 +271,7 @@
       "dimension": "课程与体育活动",
       "name": "校园科学实验课堂场景",
       "en": "school science-laboratory lesson scene",
-      "description": "实验桌、演示台、模型柜与黑板构成科学教室，女教师向成年学生讲解演示器材。",
+      "description": "实验桌、模型柜与黑板构成中学科学教室，成年女教师向穿校服的初中生讲解演示模型。",
       "note": "突出教学演示与听讲关系，器材仅作场景识别，不提供实验步骤。",
       "aliases": [
         "人物场景",
@@ -219,7 +283,15 @@
         "校园",
         "学园",
         "school",
-        "campus"
+        "campus",
+        "二次元场景",
+        "动漫人物场景",
+        "初中",
+        "高中",
+        "中学",
+        "初高中",
+        "middle school",
+        "high school"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -232,7 +304,7 @@
       "dimension": "课程与体育活动",
       "name": "计算机教室上机场景",
       "en": "computer-classroom practice scene",
-      "description": "整排电脑、讲台显示屏与理线桌形成机房，女大学生在座位上操作电脑。",
+      "description": "整排电脑、讲台显示屏与理线桌形成中学机房，高中女生在座位上操作电脑。",
       "note": "桌椅、键盘、显示器与人物动作一致，屏幕内容保持抽象。",
       "aliases": [
         "人物场景",
@@ -244,7 +316,15 @@
         "校园",
         "学园",
         "school",
-        "campus"
+        "campus",
+        "二次元场景",
+        "动漫人物场景",
+        "初中",
+        "高中",
+        "中学",
+        "初高中",
+        "middle school",
+        "high school"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -257,7 +337,7 @@
       "dimension": "课程与体育活动",
       "name": "校园体育馆篮球练习场景",
       "en": "campus gym basketball-practice scene",
-      "description": "篮球架、木地板、场地线与长凳构成校园体育馆，成年女学生在场边练习运球。",
+      "description": "篮球架、木地板、场地线与长凳构成校园体育馆，高中女生穿宽松运动服练习运球。",
       "note": "篮球、手部和地面关系明确，篮架与边线说明场地尺度。",
       "aliases": [
         "人物场景",
@@ -269,7 +349,15 @@
         "校园",
         "学园",
         "school",
-        "campus"
+        "campus",
+        "二次元场景",
+        "动漫人物场景",
+        "初中",
+        "高中",
+        "中学",
+        "初高中",
+        "middle school",
+        "high school"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -282,7 +370,7 @@
       "dimension": "课程与体育活动",
       "name": "学校操场集合场景",
       "en": "school sports-ground assembly scene",
-      "description": "教学楼、跑道、球场与旗杆构成校园操场，女体育教师持记录板组织成年学生集合。",
+      "description": "教学楼、跑道、球场与旗杆构成中学操场，成年女体育教师持记录板组织初中生集合。",
       "note": "以教学楼与操场的相邻关系区别于观众体育场，人物组织动作清楚。",
       "aliases": [
         "人物场景",
@@ -294,7 +382,15 @@
         "校园",
         "学园",
         "school",
-        "campus"
+        "campus",
+        "二次元场景",
+        "动漫人物场景",
+        "初中",
+        "高中",
+        "中学",
+        "初高中",
+        "middle school",
+        "high school"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -307,7 +403,7 @@
       "dimension": "校园起居与毕业",
       "name": "学校食堂就餐场景",
       "en": "school-canteen dining scene",
-      "description": "取餐窗口、餐盘、长桌与回收区构成校园食堂，女大学生端餐盘寻找座位。",
+      "description": "取餐窗口、餐盘、长桌与回收区构成中学食堂，穿校服的初中女生端餐盘寻找座位。",
       "note": "双手承托餐盘，人物、取餐动线与座位区比例明确。",
       "aliases": [
         "人物场景",
@@ -319,7 +415,15 @@
         "校园",
         "学园",
         "school",
-        "campus"
+        "campus",
+        "二次元场景",
+        "动漫人物场景",
+        "初中",
+        "高中",
+        "中学",
+        "初高中",
+        "middle school",
+        "high school"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -332,7 +436,7 @@
       "dimension": "校园起居与毕业",
       "name": "校园宿舍整理场景",
       "en": "campus dormitory tidying scene",
-      "description": "书桌、床铺、衣柜与行李形成大学宿舍，女大学生把折好的衣物放进收纳柜。",
+      "description": "书桌、床铺、衣柜与行李形成寄宿中学宿舍，高中女生穿完整校服运动套装整理衣物。",
       "note": "床桌尺度与衣物接触合理，以室友共用陈设表现宿舍生活。",
       "aliases": [
         "人物场景",
@@ -344,7 +448,15 @@
         "校园",
         "学园",
         "school",
-        "campus"
+        "campus",
+        "二次元场景",
+        "动漫人物场景",
+        "初中",
+        "高中",
+        "中学",
+        "初高中",
+        "middle school",
+        "high school"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -357,7 +469,7 @@
       "dimension": "校园起居与毕业",
       "name": "校园公告栏查看场景",
       "en": "campus noticeboard scene",
-      "description": "公告栏、社团海报、室外长凳与教学楼形成校园信息区，女大学生停步查看通知。",
+      "description": "公告栏、社团海报、长凳与教学楼形成校园信息区，高中女生停步查看通知。",
       "note": "人物视线与公告栏对应，海报以抽象图形代替可识别作品或真实信息。",
       "aliases": [
         "人物场景",
@@ -369,7 +481,15 @@
         "校园",
         "学园",
         "school",
-        "campus"
+        "campus",
+        "二次元场景",
+        "动漫人物场景",
+        "初中",
+        "高中",
+        "中学",
+        "初高中",
+        "middle school",
+        "high school"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -382,8 +502,8 @@
       "dimension": "校园起居与毕业",
       "name": "毕业礼堂合影场景",
       "en": "graduation-hall group-photo scene",
-      "description": "讲台、排椅、典礼背景与花饰构成毕业礼堂，成年女毕业生与同伴穿学位服合影。",
-      "note": "人物站位、学位帽与礼堂前后景完整，重点是典礼与毕业活动。",
+      "description": "讲台、排椅、典礼布景与花饰构成中学毕业礼堂，高中女生穿校服与同学合影。",
+      "note": "以校服、纪念花束与中学礼堂说明毕业活动，人物站位和前后景完整；不使用大学学位服或学位帽。",
       "aliases": [
         "人物场景",
         "场景参考",
@@ -394,7 +514,15 @@
         "校园",
         "学园",
         "school",
-        "campus"
+        "campus",
+        "二次元场景",
+        "动漫人物场景",
+        "初中",
+        "高中",
+        "中学",
+        "初高中",
+        "middle school",
+        "high school"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -417,7 +545,9 @@
         "便利店夜班收银",
         "社区",
         "生活服务",
-        "neighborhood"
+        "neighborhood",
+        "二次元场景",
+        "动漫人物场景"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -440,7 +570,9 @@
         "自助洗衣店等候",
         "社区",
         "生活服务",
-        "neighborhood"
+        "neighborhood",
+        "二次元场景",
+        "动漫人物场景"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -463,7 +595,9 @@
         "邮局寄件",
         "社区",
         "生活服务",
-        "neighborhood"
+        "neighborhood",
+        "二次元场景",
+        "动漫人物场景"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -486,7 +620,9 @@
         "银行大厅办理业务",
         "社区",
         "生活服务",
-        "neighborhood"
+        "neighborhood",
+        "二次元场景",
+        "动漫人物场景"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -509,7 +645,9 @@
         "菜市场采购",
         "社区",
         "生活服务",
-        "neighborhood"
+        "neighborhood",
+        "二次元场景",
+        "动漫人物场景"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -532,7 +670,9 @@
         "宠物诊所照料",
         "社区",
         "生活服务",
-        "neighborhood"
+        "neighborhood",
+        "二次元场景",
+        "动漫人物场景"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -555,7 +695,9 @@
         "社区花店扎花",
         "社区",
         "生活服务",
-        "neighborhood"
+        "neighborhood",
+        "二次元场景",
+        "动漫人物场景"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -578,7 +720,9 @@
         "高铁候车厅候车",
         "社区",
         "生活服务",
-        "neighborhood"
+        "neighborhood",
+        "二次元场景",
+        "动漫人物场景"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -602,7 +746,9 @@
         "游览",
         "参观",
         "旅行场景",
-        "sightseeing"
+        "sightseeing",
+        "二次元场景",
+        "动漫人物场景"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -626,7 +772,9 @@
         "游览",
         "参观",
         "旅行场景",
-        "sightseeing"
+        "sightseeing",
+        "二次元场景",
+        "动漫人物场景"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -650,7 +798,9 @@
         "游览",
         "参观",
         "旅行场景",
-        "sightseeing"
+        "sightseeing",
+        "二次元场景",
+        "动漫人物场景"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -674,7 +824,9 @@
         "游览",
         "参观",
         "旅行场景",
-        "sightseeing"
+        "sightseeing",
+        "二次元场景",
+        "动漫人物场景"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -698,7 +850,9 @@
         "游览",
         "参观",
         "旅行场景",
-        "sightseeing"
+        "sightseeing",
+        "二次元场景",
+        "动漫人物场景"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -722,7 +876,9 @@
         "游览",
         "参观",
         "旅行场景",
-        "sightseeing"
+        "sightseeing",
+        "二次元场景",
+        "动漫人物场景"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -746,7 +902,9 @@
         "游览",
         "参观",
         "旅行场景",
-        "sightseeing"
+        "sightseeing",
+        "二次元场景",
+        "动漫人物场景"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -770,7 +928,9 @@
         "游览",
         "参观",
         "旅行场景",
-        "sightseeing"
+        "sightseeing",
+        "二次元场景",
+        "动漫人物场景"
       ],
       "reference_ids": [],
       "origin": "editorial",
@@ -784,10 +944,10 @@
       "category": "scene_campus",
       "dimension": "入校与教学空间",
       "title": "学校与校园生活 · 入校与教学空间",
-      "image": "images/sheet-scenes-snu-1-v72.png",
+      "image": "images/sheet-scenes-snu-1-v73.png",
       "columns": 2,
       "rows": 2,
-      "edition": 72,
+      "edition": 73,
       "column_boundaries": [
         0,
         768,
@@ -798,7 +958,7 @@
         512,
         1024
       ],
-      "prompt": "Use case: illustration-story. Asset type: original character-in-environment scene atlas for female game, animation and film character design.\nCanvas: LANDSCAPE 3:2 contact sheet. EXACTLY TWO columns and TWO rows of rectangular landscape panels, read top-left, top-right, bottom-left, bottom-right. Four independent scenes. Thin continuous dark dividers at the canvas midpoint, no broad gutters. Each panel stays entirely inside its own rectangle.\nArt direction: detailed polished anime and semi-realistic cinematic environment concept illustration, expressive original adult characters, coherent perspective, carefully drawn natural hands, restrained clean outlines, attractive readable colors and lighting. This is a setting-and-activity atlas: the environment must be identifiable AND at least one prominent adult woman must actively belong in it. Main woman roughly 45-75 percent of panel height, shown full-body or medium-wide as appropriate, never a tiny distant silhouette. Vary women across panels in face, hairstyle, skin tone and everyday body shape. All human figures are adults.\nComposition: foreground, middle ground and background establish a useful place. Hands actually touch the relevant objects; feet and seats have plausible support. Clothing matches the location and activity. Do not replace a scene with a detached fashion cutout, portrait crop, empty room, generic gradient or white studio backdrop. Do not add inset diagrams. Preserve the complete intended action and environmental landmarks within each panel.\nNo known characters, franchises, company logos, celebrity likenesses or readable private information. Only each panel's exact ID in small legible type at its own top-left; no other captions or text.\nSpecific panels:\nPanel 1, exact label \"SNU001\": A university entrance with an original unbranded school gate, guardhouse, tree-lined path and academic buildings beyond. A prominent adult female university student wearing a casual jacket and backpack walks through the pedestrian entrance; two distant adult students. Show the complete arrival action and campus landmarks, no readable school name.\nPanel 2, exact label \"SNU002\": A leafy university campus walkway with benches, bicycle racks and academic buildings. A prominent adult female student in everyday campus clothing walks beside an adult female classmate, chatting while holding notebooks. Natural stride and bag contact, clear academic setting rather than a generic park.\nPanel 3, exact label \"SNU003\": A university classroom during a break, rows of student desks, blackboard, lectern and tall windows. A prominent adult female student at a desk packs textbooks into her bag; two adult classmates talk quietly behind her. Medium-wide composition, clearly show desk rows and hands on the books.\nPanel 4, exact label \"SNU004\": A university examination room with separated desks, wall clock and front lectern. A prominent adult female lecturer carrying a clipboard walks along an aisle while a few adult students write at their desks. Quiet orderly atmosphere, generic unreadable papers and no identifiable personal data.\n",
+      "prompt": "Use case: illustration-story. Asset type: original 2D ANIME character-in-scene atlas.\nCanvas: LANDSCAPE 3:2, EXACTLY TWO COLUMNS and TWO ROWS, FOUR independent landscape scenes in a precise 2x2 grid. Thin continuous dark divider lines exactly at horizontal and vertical midpoints. No gutters. Each scene and its small exact ID label fit inside its own panel.\nArt direction: unmistakable polished Japanese-anime / anime-game promotional illustration, beautiful hand-drawn 2D linework, crisp graceful contours, clean CEL SHADING with a few deliberate shadow shapes, luminous harmonious colors. Appealing expressive anime faces with large carefully drawn eyes, small simplified noses and chins, elegant hair silhouettes. Entire cast has slender, balanced, healthy stylized anime proportions and clear slim silhouettes, with naturally proportioned limbs and hands. Vary hairstyles, hair colors, expressions and clothing between scenes. Background extras use the same slender anime character design. No photorealism, no semi-realistic mature portrait faces, no live-action look, no realistic skin pores, no 3D render, no heavy impasto, no chibi.\nAge and context: follow EACH panel's specified ages. Middle/high-school students must look like ordinary 13-17-year-old adolescents in complete modest school or PE uniforms, with age-appropriate faces and anatomy; teachers and other adult roles must clearly remain adults. Outside school/student scenes, the prominent women are adults aged about 20-35. All scenes are everyday, occupational, narrative or fantasy reference illustrations, never pin-ups, erotic poses or body-part displays.\nScene design: each panel has at least one prominent female character around 50-75 percent of panel height, full-body or medium-wide as suited to the activity. Both the place AND the person's activity must be clear. Attractive carefully composed anime backgrounds with foreground, middle ground and depth; architecture, environment landmarks, perspective and light remain coherent. Characters actually hold and touch relevant props; feet, chairs and objects have proper support. Preserve the complete intended action and key setting details. No isolated fashion cutouts, empty rooms, generic gradients, inset panels, unreadable hands, cropped heads or feet where a full figure is intended.\nOnly each panel's exact ID in small legible text at its own top-left. No other readable text, brands, real school/company names, logos, celebrity likenesses, existing anime characters or franchise symbols.\nSpecific panels:\nPanel 1, exact label \"SNU001\": A middle/high-school entrance with school gate, guardhouse, tree-lined approach and classroom buildings. A 16-year-old high-school girl in a complete neat navy school blazer, white shirt, knee-length pleated skirt and backpack walks through the entrance. A few uniformed adolescent classmates in the distance; a clearly adult gate attendant. Charming youthful anime face, no real school name.\nPanel 2, exact label \"SNU002\": A tree-lined middle-school walkway, benches, bicycle racks and classroom buildings. Two 14-year-old girls in ordinary blue-and-white school tracksuit uniforms walk side by side chatting and carrying notebooks. Clearly teenage natural schoolchildren, friendly everyday expressions, small backpacks; correct steps and book contact.\nPanel 3, exact label \"SNU003\": A middle-school classroom during break: rows of desks, blackboard, teacher platform and tall windows. A 14-year-old girl wearing a modest complete collared school shirt, cardigan and knee-length skirt packs textbooks into her schoolbag at a desk. Two uniformed teenage classmates talk behind her. Clear adolescent faces, proper ordinary school setting, hands touch the books.\nPanel 4, exact label \"SNU004\": A middle/high-school examination room with separated desks, wall clock and front platform. A clearly adult female teacher aged about 30 holds a clipboard and walks along the aisle, while 14-17-year-old students in modest school uniforms write at desks. Generic unreadable examination papers, quiet school atmosphere.\n",
       "width": 1536,
       "height": 1024,
       "origin": "Original AI-generated character-in-scene illustration; built-in image_gen",
@@ -833,10 +993,10 @@
       "category": "scene_campus",
       "dimension": "社团与艺术活动",
       "title": "学校与校园生活 · 社团与艺术活动",
-      "image": "images/sheet-scenes-snu-2-v72.png",
+      "image": "images/sheet-scenes-snu-2-v73.png",
       "columns": 2,
       "rows": 2,
-      "edition": 72,
+      "edition": 73,
       "column_boundaries": [
         0,
         768,
@@ -847,7 +1007,7 @@
         512,
         1024
       ],
-      "prompt": "Use case: illustration-story. Asset type: original character-in-environment scene atlas for female game, animation and film character design.\nCanvas: LANDSCAPE 3:2 contact sheet. EXACTLY TWO columns and TWO rows of rectangular landscape panels, read top-left, top-right, bottom-left, bottom-right. Four independent scenes. Thin continuous dark dividers at the canvas midpoint, no broad gutters. Each panel stays entirely inside its own rectangle.\nArt direction: detailed polished anime and semi-realistic cinematic environment concept illustration, expressive original adult characters, coherent perspective, carefully drawn natural hands, restrained clean outlines, attractive readable colors and lighting. This is a setting-and-activity atlas: the environment must be identifiable AND at least one prominent adult woman must actively belong in it. Main woman roughly 45-75 percent of panel height, shown full-body or medium-wide as appropriate, never a tiny distant silhouette. Vary women across panels in face, hairstyle, skin tone and everyday body shape. All human figures are adults.\nComposition: foreground, middle ground and background establish a useful place. Hands actually touch the relevant objects; feet and seats have plausible support. Clothing matches the location and activity. Do not replace a scene with a detached fashion cutout, portrait crop, empty room, generic gradient or white studio backdrop. Do not add inset diagrams. Preserve the complete intended action and environmental landmarks within each panel.\nNo known characters, franchises, company logos, celebrity likenesses or readable private information. Only each panel's exact ID in small legible type at its own top-left; no other captions or text.\nSpecific panels:\nPanel 1, exact label \"SNU005\": A university academic-building corridor with classroom doors, bulletin boards, windows and a stair landing. A prominent adult female student shows a notebook to an adult female tutor between classes. Clear corridor depth and plausible notebook contact, all signage abstract and unreadable.\nPanel 2, exact label \"SNU006\": An original university club room with communal tables, storage cabinets, blank poster boards and handmade decorations. A prominent adult female student in casual clothes assembles a paper decoration with two adult club members. Clear hands, tabletop materials, practical room layout, no copyrighted posters or characters.\nPanel 3, exact label \"SNU007\": A university art classroom with easels, a still-life table, paint supplies and large windows. A prominent adult female art student in an apron draws an original simple still life of vase and fruit. Show brush or pencil contact, seated support and other easels; no recognizable existing artwork.\nPanel 4, exact label \"SNU008\": A university music classroom with an upright piano, music stand, acoustic wall panels and a few chairs. A prominent adult female student sits at the piano practicing, both hands naturally placed at the keys. Correct piano-seat relationship, simplified unreadable score and visible room context.\n",
+      "prompt": "Use case: illustration-story. Asset type: original 2D ANIME character-in-scene atlas.\nCanvas: LANDSCAPE 3:2, EXACTLY TWO COLUMNS and TWO ROWS, FOUR independent landscape scenes in a precise 2x2 grid. Thin continuous dark divider lines exactly at horizontal and vertical midpoints. No gutters. Each scene and its small exact ID label fit inside its own panel.\nArt direction: unmistakable polished Japanese-anime / anime-game promotional illustration, beautiful hand-drawn 2D linework, crisp graceful contours, clean CEL SHADING with a few deliberate shadow shapes, luminous harmonious colors. Appealing expressive anime faces with large carefully drawn eyes, small simplified noses and chins, elegant hair silhouettes. Entire cast has slender, balanced, healthy stylized anime proportions and clear slim silhouettes, with naturally proportioned limbs and hands. Vary hairstyles, hair colors, expressions and clothing between scenes. Background extras use the same slender anime character design. No photorealism, no semi-realistic mature portrait faces, no live-action look, no realistic skin pores, no 3D render, no heavy impasto, no chibi.\nAge and context: follow EACH panel's specified ages. Middle/high-school students must look like ordinary 13-17-year-old adolescents in complete modest school or PE uniforms, with age-appropriate faces and anatomy; teachers and other adult roles must clearly remain adults. Outside school/student scenes, the prominent women are adults aged about 20-35. All scenes are everyday, occupational, narrative or fantasy reference illustrations, never pin-ups, erotic poses or body-part displays.\nScene design: each panel has at least one prominent female character around 50-75 percent of panel height, full-body or medium-wide as suited to the activity. Both the place AND the person's activity must be clear. Attractive carefully composed anime backgrounds with foreground, middle ground and depth; architecture, environment landmarks, perspective and light remain coherent. Characters actually hold and touch relevant props; feet, chairs and objects have proper support. Preserve the complete intended action and key setting details. No isolated fashion cutouts, empty rooms, generic gradients, inset panels, unreadable hands, cropped heads or feet where a full figure is intended.\nOnly each panel's exact ID in small legible text at its own top-left. No other readable text, brands, real school/company names, logos, celebrity likenesses, existing anime characters or franchise symbols.\nSpecific panels:\nPanel 1, exact label \"SNU005\": A high-school corridor with classroom doors, noticeboard, sunlit windows and railing. Two 16-year-old schoolgirls in modest complete school uniforms compare course notes after class. Youthful anime schoolgirl faces and natural adolescent anatomy, books in hands, ordinary friendly interaction, clear corridor depth.\nPanel 2, exact label \"SNU006\": A middle-school club room with activity tables, storage cabinets, poster board and handmade decorations. A 14-year-old girl and two teenage classmates in complete modest school uniforms fold colored paper flowers and prepare festival decorations on a table. Cute expressive anime students, clear fingers-paper contact, safe ordinary craft activity.\nPanel 3, exact label \"SNU007\": A high-school art classroom with easels, still-life objects, paints and large windows. A 16-year-old girl in a complete modest school uniform and simple protective art apron draws a still life at an easel. A few teenage classmates behind her. Show the brush or pencil, canvas and actual still-life arrangement clearly.\nPanel 4, exact label \"SNU008\": A middle-school music classroom with piano, sheet-music stand, acoustic wall panels and classroom chairs. A 14-year-old girl in a complete modest school uniform sits correctly at the piano and practices, hands naturally contacting keys, feet supported. Charming anime schoolgirl, readable classroom and piano, not an adult recital performer.\n",
       "width": 1536,
       "height": 1024,
       "origin": "Original AI-generated character-in-scene illustration; built-in image_gen",
@@ -882,10 +1042,10 @@
       "category": "scene_campus",
       "dimension": "课程与体育活动",
       "title": "学校与校园生活 · 课程与体育活动",
-      "image": "images/sheet-scenes-snu-3-v72.png",
+      "image": "images/sheet-scenes-snu-3-v73.png",
       "columns": 2,
       "rows": 2,
-      "edition": 72,
+      "edition": 73,
       "column_boundaries": [
         0,
         768,
@@ -896,7 +1056,7 @@
         512,
         1024
       ],
-      "prompt": "Use case: illustration-story. Asset type: original character-in-environment scene atlas for female game, animation and film character design.\nCanvas: LANDSCAPE 3:2 contact sheet. EXACTLY TWO columns and TWO rows of rectangular landscape panels, read top-left, top-right, bottom-left, bottom-right. Four independent scenes. Thin continuous dark dividers at the canvas midpoint, no broad gutters. Each panel stays entirely inside its own rectangle.\nArt direction: detailed polished anime and semi-realistic cinematic environment concept illustration, expressive original adult characters, coherent perspective, carefully drawn natural hands, restrained clean outlines, attractive readable colors and lighting. This is a setting-and-activity atlas: the environment must be identifiable AND at least one prominent adult woman must actively belong in it. Main woman roughly 45-75 percent of panel height, shown full-body or medium-wide as appropriate, never a tiny distant silhouette. Vary women across panels in face, hairstyle, skin tone and everyday body shape. All human figures are adults.\nComposition: foreground, middle ground and background establish a useful place. Hands actually touch the relevant objects; feet and seats have plausible support. Clothing matches the location and activity. Do not replace a scene with a detached fashion cutout, portrait crop, empty room, generic gradient or white studio backdrop. Do not add inset diagrams. Preserve the complete intended action and environmental landmarks within each panel.\nNo known characters, franchises, company logos, celebrity likenesses or readable private information. Only each panel's exact ID in small legible type at its own top-left; no other captions or text.\nSpecific panels:\nPanel 1, exact label \"SNU009\": A university teaching science lab with student benches, demonstration table, model cabinets and blackboard. A prominent adult female teacher in a lab coat and safety glasses explains generic sealed demonstration equipment to two adult students. No hazardous reaction or procedural instructions; educational room layout clearly visible.\nPanel 2, exact label \"SNU010\": A university computer classroom with rows of desktop monitors, cable-managed desks and a front teaching display. A prominent adult female student sits typing at a workstation, with an adult female instructor nearby. Natural keyboard contact and chair height, abstract unreadable screen graphics, visible monitor rows.\nPanel 3, exact label \"SNU011\": A university indoor basketball gym with hoops, wood floor, court markings and benches. A prominent adult female student in ordinary sportswear practices a relaxed low dribble, one ball clearly between hand and floor; an adult teammate waits in the background. Natural joints and grounded feet, readable gym environment.\nPanel 4, exact label \"SNU012\": A university sports ground beside academic buildings, with running track, open court and a plain flagpole. A prominent adult female PE instructor in practical sportswear holds a clipboard and gestures toward a small group of adult students assembling for class. No stadium crowd, no readable emblems, natural outdoor campus scale.\n",
+      "prompt": "Use case: illustration-story. Asset type: original 2D ANIME character-in-scene atlas.\nCanvas: LANDSCAPE 3:2, EXACTLY TWO COLUMNS and TWO ROWS, FOUR independent landscape scenes in a precise 2x2 grid. Thin continuous dark divider lines exactly at horizontal and vertical midpoints. No gutters. Each scene and its small exact ID label fit inside its own panel.\nArt direction: unmistakable polished Japanese-anime / anime-game promotional illustration, beautiful hand-drawn 2D linework, crisp graceful contours, clean CEL SHADING with a few deliberate shadow shapes, luminous harmonious colors. Appealing expressive anime faces with large carefully drawn eyes, small simplified noses and chins, elegant hair silhouettes. Entire cast has slender, balanced, healthy stylized anime proportions and clear slim silhouettes, with naturally proportioned limbs and hands. Vary hairstyles, hair colors, expressions and clothing between scenes. Background extras use the same slender anime character design. No photorealism, no semi-realistic mature portrait faces, no live-action look, no realistic skin pores, no 3D render, no heavy impasto, no chibi.\nAge and context: follow EACH panel's specified ages. Middle/high-school students must look like ordinary 13-17-year-old adolescents in complete modest school or PE uniforms, with age-appropriate faces and anatomy; teachers and other adult roles must clearly remain adults. Outside school/student scenes, the prominent women are adults aged about 20-35. All scenes are everyday, occupational, narrative or fantasy reference illustrations, never pin-ups, erotic poses or body-part displays.\nScene design: each panel has at least one prominent female character around 50-75 percent of panel height, full-body or medium-wide as suited to the activity. Both the place AND the person's activity must be clear. Attractive carefully composed anime backgrounds with foreground, middle ground and depth; architecture, environment landmarks, perspective and light remain coherent. Characters actually hold and touch relevant props; feet, chairs and objects have proper support. Preserve the complete intended action and key setting details. No isolated fashion cutouts, empty rooms, generic gradients, inset panels, unreadable hands, cropped heads or feet where a full figure is intended.\nOnly each panel's exact ID in small legible text at its own top-left. No other readable text, brands, real school/company names, logos, celebrity likenesses, existing anime characters or franchise symbols.\nSpecific panels:\nPanel 1, exact label \"SNU009\": A middle-school science classroom with laboratory benches, demonstration desk, model cabinet and blackboard. A clearly adult female science teacher aged about 28 in a lab coat explains a harmless closed demonstration model to 14-year-old students wearing complete school uniforms and safety glasses. No actionable experiment or chemical instructions.\nPanel 2, exact label \"SNU010\": A high-school computer classroom with ordered rows of computers, teacher display and cable-managed desks. A 16-year-old girl in a complete modest school uniform sits at a workstation operating mouse and keyboard. Uniformed teenage classmates at other stations, generic unreadable screens and proper seated support.\nPanel 3, exact label \"SNU011\": A high-school gymnasium with basketball hoop, wooden floor, court markings and bench. A 16-year-old girl in ordinary loose school PE jersey, knee-length athletic shorts and sneakers practices a simple grounded dribble. Clearly adolescent anime athlete, natural proportions, a few classmates in school sportswear, no glamour or body-part emphasis.\nPanel 4, exact label \"SNU012\": A middle-school playground with classroom building, running track, court and flagpole. A clearly adult female PE teacher aged about 28 in practical sportswear holds a clipboard while organizing rows of 14-year-old students wearing complete blue-and-white school tracksuits. School assembly context, everyone naturally grounded and age appropriate.\n",
       "width": 1536,
       "height": 1024,
       "origin": "Original AI-generated character-in-scene illustration; built-in image_gen",
@@ -931,13 +1091,13 @@
       "category": "scene_campus",
       "dimension": "校园起居与毕业",
       "title": "学校与校园生活 · 校园起居与毕业",
-      "image": "images/sheet-scenes-snu-4-v72.png",
+      "image": "images/sheet-scenes-snu-4-v73.png",
       "columns": 2,
       "rows": 2,
-      "edition": 72,
+      "edition": 73,
       "column_boundaries": [
         0,
-        769,
+        768,
         1536
       ],
       "row_boundaries": [
@@ -945,7 +1105,7 @@
         512,
         1024
       ],
-      "prompt": "Use case: illustration-story. Asset type: original character-in-environment scene atlas for female game, animation and film character design.\nCanvas: LANDSCAPE 3:2 contact sheet. EXACTLY TWO columns and TWO rows of rectangular landscape panels, read top-left, top-right, bottom-left, bottom-right. Four independent scenes. Thin continuous dark dividers at the canvas midpoint, no broad gutters. Each panel stays entirely inside its own rectangle.\nArt direction: detailed polished anime and semi-realistic cinematic environment concept illustration, expressive original adult characters, coherent perspective, carefully drawn natural hands, restrained clean outlines, attractive readable colors and lighting. This is a setting-and-activity atlas: the environment must be identifiable AND at least one prominent adult woman must actively belong in it. Main woman roughly 45-75 percent of panel height, shown full-body or medium-wide as appropriate, never a tiny distant silhouette. Vary women across panels in face, hairstyle, skin tone and everyday body shape. All human figures are adults.\nComposition: foreground, middle ground and background establish a useful place. Hands actually touch the relevant objects; feet and seats have plausible support. Clothing matches the location and activity. Do not replace a scene with a detached fashion cutout, portrait crop, empty room, generic gradient or white studio backdrop. Do not add inset diagrams. Preserve the complete intended action and environmental landmarks within each panel.\nNo known characters, franchises, company logos, celebrity likenesses or readable private information. Only each panel's exact ID in small legible type at its own top-left; no other captions or text.\nSpecific panels:\nPanel 1, exact label \"SNU013\": A university canteen with food-service counter, tray racks, communal dining tables and return station. A prominent adult female student carries a balanced meal tray toward a table, while a few adult students sit in the background. Clear hand support under the tray, practical dining-room circulation.\nPanel 2, exact label \"SNU014\": A shared university dormitory room with beds, study desks, wardrobes and luggage. A prominent adult female university student in fully opaque everyday loungewear puts folded clothes into a storage cabinet. Clear hands and furniture scale, lived-in study items, no changing clothes or bathing.\nPanel 3, exact label \"SNU015\": A university campus notice area with a large outdoor bulletin board, original abstract club flyers, benches and academic buildings. A prominent adult female student carrying a tote stops to study a notice. Show eye line, walking pause and board scale; no readable private information or existing poster art.\nPanel 4, exact label \"SNU016\": A university graduation hall with lectern, rows of chairs, original abstract ceremony backdrop and flowers. A prominent adult female graduate in a plain cap and gown stands with two adult female classmates for a commemorative photo. All adult graduates, natural hands holding diploma tubes, no university crest or readable text.\n",
+      "prompt": "Use case: illustration-story. Asset type: original 2D ANIME character-in-scene atlas.\nCanvas: LANDSCAPE 3:2, EXACTLY TWO COLUMNS and TWO ROWS, FOUR independent landscape scenes in a precise 2x2 grid. Thin continuous dark divider lines exactly at horizontal and vertical midpoints. No gutters. Each scene and its small exact ID label fit inside its own panel.\nArt direction: unmistakable polished Japanese-anime / anime-game promotional illustration, beautiful hand-drawn 2D linework, crisp graceful contours, clean CEL SHADING with a few deliberate shadow shapes, luminous harmonious colors. Appealing expressive anime faces with large carefully drawn eyes, small simplified noses and chins, elegant hair silhouettes. Entire cast has slender, balanced, healthy stylized anime proportions and clear slim silhouettes, with naturally proportioned limbs and hands. Vary hairstyles, hair colors, expressions and clothing between scenes. Background extras use the same slender anime character design. No photorealism, no semi-realistic mature portrait faces, no live-action look, no realistic skin pores, no 3D render, no heavy impasto, no chibi.\nAge and context: follow EACH panel's specified ages. Middle/high-school students must look like ordinary 13-17-year-old adolescents in complete modest school or PE uniforms, with age-appropriate faces and anatomy; teachers and other adult roles must clearly remain adults. Outside school/student scenes, the prominent women are adults aged about 20-35. All scenes are everyday, occupational, narrative or fantasy reference illustrations, never pin-ups, erotic poses or body-part displays.\nScene design: each panel has at least one prominent female character around 50-75 percent of panel height, full-body or medium-wide as suited to the activity. Both the place AND the person's activity must be clear. Attractive carefully composed anime backgrounds with foreground, middle ground and depth; architecture, environment landmarks, perspective and light remain coherent. Characters actually hold and touch relevant props; feet, chairs and objects have proper support. Preserve the complete intended action and key setting details. No isolated fashion cutouts, empty rooms, generic gradients, inset panels, unreadable hands, cropped heads or feet where a full figure is intended.\nOnly each panel's exact ID in small legible text at its own top-left. No other readable text, brands, real school/company names, logos, celebrity likenesses, existing anime characters or franchise symbols.\nSpecific panels:\nPanel 1, exact label \"SNU013\": A middle-school cafeteria with serving counter, food trays, long tables and tray-return area. A 14-year-old girl in a complete ordinary school uniform carries a balanced lunch tray while looking for a seat. Teenage uniformed classmates at tables, clearly adult kitchen staff behind the counter. Cheerful ordinary school lunch, no brand logos.\nPanel 2, exact label \"SNU014\": A boarding high-school dormitory with desks, tidy bunks, wardrobes, folded quilts and school bags. A 16-year-old girl wearing a complete long-sleeved school tracksuit and long trousers puts folded uniform clothes into a cabinet; another fully clothed teenage roommate studies in the background. Ordinary tidy school dormitory activity, no changing clothes, no sleepwear glamour.\nPanel 3, exact label \"SNU015\": A high-school noticeboard with generic club posters, outdoor bench and classroom building. A 16-year-old girl in a complete modest school uniform, backpack over both shoulders, pauses to read a school activity notice. Clearly teenage anime student, readable noticeboard purpose with abstract unreadable poster text.\nPanel 4, exact label \"SNU016\": A high-school graduation ceremony hall with platform, rows of chairs, generic celebratory backdrop and flowers. Three 17-year-old schoolgirls in complete modest regular school uniforms stand together smiling for a commemorative photograph, holding small bouquets or simple certificate folders. A clearly adult female teacher stands farther behind. NO university graduation gowns, NO mortarboards or academic caps; distinctly secondary-school graduation.\n",
       "width": 1536,
       "height": 1024,
       "origin": "Original AI-generated character-in-scene illustration; built-in image_gen",
@@ -980,13 +1140,13 @@
       "category": "scene_community",
       "dimension": "日常购物与公共服务",
       "title": "社区生活与服务 · 日常购物与公共服务",
-      "image": "images/sheet-scenes-snb-1-v72.png",
+      "image": "images/sheet-scenes-snb-1-v73.png",
       "columns": 2,
       "rows": 2,
-      "edition": 72,
+      "edition": 73,
       "column_boundaries": [
         0,
-        769,
+        768,
         1536
       ],
       "row_boundaries": [
@@ -994,7 +1154,7 @@
         512,
         1024
       ],
-      "prompt": "Use case: illustration-story. Asset type: original character-in-environment scene atlas for female game, animation and film character design.\nCanvas: LANDSCAPE 3:2 contact sheet. EXACTLY TWO columns and TWO rows of rectangular landscape panels, read top-left, top-right, bottom-left, bottom-right. Four independent scenes. Thin continuous dark dividers at the canvas midpoint, no broad gutters. Each panel stays entirely inside its own rectangle.\nArt direction: detailed polished anime and semi-realistic cinematic environment concept illustration, expressive original adult characters, coherent perspective, carefully drawn natural hands, restrained clean outlines, attractive readable colors and lighting. This is a setting-and-activity atlas: the environment must be identifiable AND at least one prominent adult woman must actively belong in it. Main woman roughly 45-75 percent of panel height, shown full-body or medium-wide as appropriate, never a tiny distant silhouette. Vary women across panels in face, hairstyle, skin tone and everyday body shape. All human figures are adults.\nComposition: foreground, middle ground and background establish a useful place. Hands actually touch the relevant objects; feet and seats have plausible support. Clothing matches the location and activity. Do not replace a scene with a detached fashion cutout, portrait crop, empty room, generic gradient or white studio backdrop. Do not add inset diagrams. Preserve the complete intended action and environmental landmarks within each panel.\nNo known characters, franchises, company logos, celebrity likenesses or readable private information. Only each panel's exact ID in small legible type at its own top-left; no other captions or text.\nSpecific panels:\nPanel 1, exact label \"SNB001\": A small unbranded convenience store at night, checkout counter, refrigerated cases, compact shelves and glass entrance reflecting street lights. A prominent adult female cashier scans a grocery item for an adult customer. Clear hands and counter contact, no readable brands or prices.\nPanel 2, exact label \"SNB002\": A neighborhood self-service laundromat with rows of front-loading machines, folding tables and a waiting bench. A prominent adult woman in casual clothes sits reading beside her laundry basket while a machine runs. Clear public-shop layout, natural seated support and no readable machine brand.\nPanel 3, exact label \"SNB003\": An unbranded neighborhood post office with service counter, parcel scale, packing station and queue area. A prominent adult woman places a sealed parcel on the scale as an adult postal clerk assists her. Show natural two-hand support, no readable addresses, names or postal logos.\nPanel 4, exact label \"SNB004\": A generic bank service hall with teller counter, queue seating, self-service machines and privacy partitions. A prominent adult female customer in everyday clothes discusses a generic form with an adult female teller. Clear counter relationship, abstract unreadable displays and papers, no bank logos or financial instructions.\n",
+      "prompt": "Use case: illustration-story. Asset type: original 2D ANIME character-in-scene atlas.\nCanvas: LANDSCAPE 3:2, EXACTLY TWO COLUMNS and TWO ROWS, FOUR independent landscape scenes in a precise 2x2 grid. Thin continuous dark divider lines exactly at horizontal and vertical midpoints. No gutters. Each scene and its small exact ID label fit inside its own panel.\nArt direction: unmistakable polished Japanese-anime / anime-game promotional illustration, beautiful hand-drawn 2D linework, crisp graceful contours, clean CEL SHADING with a few deliberate shadow shapes, luminous harmonious colors. Appealing expressive anime faces with large carefully drawn eyes, small simplified noses and chins, elegant hair silhouettes. Entire cast has slender, balanced, healthy stylized anime proportions and clear slim silhouettes, with naturally proportioned limbs and hands. Vary hairstyles, hair colors, expressions and clothing between scenes. Background extras use the same slender anime character design. No photorealism, no semi-realistic mature portrait faces, no live-action look, no realistic skin pores, no 3D render, no heavy impasto, no chibi.\nAge and context: follow EACH panel's specified ages. Middle/high-school students must look like ordinary 13-17-year-old adolescents in complete modest school or PE uniforms, with age-appropriate faces and anatomy; teachers and other adult roles must clearly remain adults. Outside school/student scenes, the prominent women are adults aged about 20-35. All scenes are everyday, occupational, narrative or fantasy reference illustrations, never pin-ups, erotic poses or body-part displays.\nScene design: each panel has at least one prominent female character around 50-75 percent of panel height, full-body or medium-wide as suited to the activity. Both the place AND the person's activity must be clear. Attractive carefully composed anime backgrounds with foreground, middle ground and depth; architecture, environment landmarks, perspective and light remain coherent. Characters actually hold and touch relevant props; feet, chairs and objects have proper support. Preserve the complete intended action and key setting details. No isolated fashion cutouts, empty rooms, generic gradients, inset panels, unreadable hands, cropped heads or feet where a full figure is intended.\nOnly each panel's exact ID in small legible text at its own top-left. No other readable text, brands, real school/company names, logos, celebrity likenesses, existing anime characters or franchise symbols.\nSpecific panels:\nPanel 1, exact label \"SNB001\": A small unbranded convenience store at night, checkout counter, refrigerated cases, compact shelves and glass entrance reflecting street lights. A prominent adult female cashier scans a grocery item for an adult customer. Clear hands and counter contact, no readable brands or prices.\nPanel 2, exact label \"SNB002\": A neighborhood self-service laundromat with rows of front-loading machines, folding tables and a waiting bench. A prominent adult woman in casual clothes sits reading beside her laundry basket while a machine runs. Clear public-shop layout, natural seated support and no readable machine brand.\nPanel 3, exact label \"SNB003\": An unbranded neighborhood post office with service counter, parcel scale, packing station and queue area. A prominent adult woman places a sealed parcel on the scale as an adult postal clerk assists her. Show natural two-hand support, no readable addresses, names or postal logos.\nPanel 4, exact label \"SNB004\": A generic bank service hall with teller counter, queue seating, self-service machines and privacy partitions. A prominent adult female customer in everyday clothes discusses a generic form with an adult female teller. Clear counter relationship, abstract unreadable displays and papers, no bank logos or financial instructions.\n",
       "width": 1536,
       "height": 1024,
       "origin": "Original AI-generated character-in-scene illustration; built-in image_gen",
@@ -1029,10 +1189,10 @@
       "category": "scene_community",
       "dimension": "社区照料与出行",
       "title": "社区生活与服务 · 社区照料与出行",
-      "image": "images/sheet-scenes-snb-2-v72.png",
+      "image": "images/sheet-scenes-snb-2-v73.png",
       "columns": 2,
       "rows": 2,
-      "edition": 72,
+      "edition": 73,
       "column_boundaries": [
         0,
         768,
@@ -1043,7 +1203,7 @@
         512,
         1024
       ],
-      "prompt": "Use case: illustration-story. Asset type: original character-in-environment scene atlas for female game, animation and film character design.\nCanvas: LANDSCAPE 3:2 contact sheet. EXACTLY TWO columns and TWO rows of rectangular landscape panels, read top-left, top-right, bottom-left, bottom-right. Four independent scenes. Thin continuous dark dividers at the canvas midpoint, no broad gutters. Each panel stays entirely inside its own rectangle.\nArt direction: detailed polished anime and semi-realistic cinematic environment concept illustration, expressive original adult characters, coherent perspective, carefully drawn natural hands, restrained clean outlines, attractive readable colors and lighting. This is a setting-and-activity atlas: the environment must be identifiable AND at least one prominent adult woman must actively belong in it. Main woman roughly 45-75 percent of panel height, shown full-body or medium-wide as appropriate, never a tiny distant silhouette. Vary women across panels in face, hairstyle, skin tone and everyday body shape. All human figures are adults.\nComposition: foreground, middle ground and background establish a useful place. Hands actually touch the relevant objects; feet and seats have plausible support. Clothing matches the location and activity. Do not replace a scene with a detached fashion cutout, portrait crop, empty room, generic gradient or white studio backdrop. Do not add inset diagrams. Preserve the complete intended action and environmental landmarks within each panel.\nNo known characters, franchises, company logos, celebrity likenesses or readable private information. Only each panel's exact ID in small legible type at its own top-left; no other captions or text.\nSpecific panels:\nPanel 1, exact label \"SNB005\": A lively neighborhood fresh-food market with vegetable stalls, produce scales, awnings and an open aisle. A prominent adult woman with a shopping basket selects a bunch of leafy vegetables from an adult vendor. Natural hand-to-produce contact and clear stall depth, no readable brands or price signs.\nPanel 2, exact label \"SNB006\": A calm veterinary clinic with examination table, pet carrier, storage cabinet and original simple animal diagrams. A prominent adult female veterinarian in a coat gently reassures a relaxed cat on the table while its adult owner stands nearby. No injury, procedure or medical instruction, plausible animal anatomy and gentle contact.\nPanel 3, exact label \"SNB007\": A neighborhood florist shop with flower buckets, wrapping paper, workbench and display window. A prominent adult female florist ties a simple ribbon around an original bouquet on the worktable. Clear stem, ribbon and hand contact, colorful flowers and readable shop layout, no brand signage.\nPanel 4, exact label \"SNB008\": A modern high-speed railway waiting hall with ticket gates, seating rows, luggage and a sleek unbranded train visible through a side window. A prominent adult female traveler checks a generic ticket beside her rolling suitcase. No airplane imagery, no readable personal data or railway logos.\n",
+      "prompt": "Use case: illustration-story. Asset type: original 2D ANIME character-in-scene atlas.\nCanvas: LANDSCAPE 3:2, EXACTLY TWO COLUMNS and TWO ROWS, FOUR independent landscape scenes in a precise 2x2 grid. Thin continuous dark divider lines exactly at horizontal and vertical midpoints. No gutters. Each scene and its small exact ID label fit inside its own panel.\nArt direction: unmistakable polished Japanese-anime / anime-game promotional illustration, beautiful hand-drawn 2D linework, crisp graceful contours, clean CEL SHADING with a few deliberate shadow shapes, luminous harmonious colors. Appealing expressive anime faces with large carefully drawn eyes, small simplified noses and chins, elegant hair silhouettes. Entire cast has slender, balanced, healthy stylized anime proportions and clear slim silhouettes, with naturally proportioned limbs and hands. Vary hairstyles, hair colors, expressions and clothing between scenes. Background extras use the same slender anime character design. No photorealism, no semi-realistic mature portrait faces, no live-action look, no realistic skin pores, no 3D render, no heavy impasto, no chibi.\nAge and context: follow EACH panel's specified ages. Middle/high-school students must look like ordinary 13-17-year-old adolescents in complete modest school or PE uniforms, with age-appropriate faces and anatomy; teachers and other adult roles must clearly remain adults. Outside school/student scenes, the prominent women are adults aged about 20-35. All scenes are everyday, occupational, narrative or fantasy reference illustrations, never pin-ups, erotic poses or body-part displays.\nScene design: each panel has at least one prominent female character around 50-75 percent of panel height, full-body or medium-wide as suited to the activity. Both the place AND the person's activity must be clear. Attractive carefully composed anime backgrounds with foreground, middle ground and depth; architecture, environment landmarks, perspective and light remain coherent. Characters actually hold and touch relevant props; feet, chairs and objects have proper support. Preserve the complete intended action and key setting details. No isolated fashion cutouts, empty rooms, generic gradients, inset panels, unreadable hands, cropped heads or feet where a full figure is intended.\nOnly each panel's exact ID in small legible text at its own top-left. No other readable text, brands, real school/company names, logos, celebrity likenesses, existing anime characters or franchise symbols.\nSpecific panels:\nPanel 1, exact label \"SNB005\": A lively neighborhood fresh-food market with vegetable stalls, produce scales, awnings and an open aisle. A prominent adult woman with a shopping basket selects a bunch of leafy vegetables from an adult vendor. Natural hand-to-produce contact and clear stall depth, no readable brands or price signs.\nPanel 2, exact label \"SNB006\": A calm veterinary clinic with examination table, pet carrier, storage cabinet and original simple animal diagrams. A prominent adult female veterinarian in a coat gently reassures a relaxed cat on the table while its adult owner stands nearby. No injury, procedure or medical instruction, plausible animal anatomy and gentle contact.\nPanel 3, exact label \"SNB007\": A neighborhood florist shop with flower buckets, wrapping paper, workbench and display window. A prominent adult female florist ties a simple ribbon around an original bouquet on the worktable. Clear stem, ribbon and hand contact, colorful flowers and readable shop layout, no brand signage.\nPanel 4, exact label \"SNB008\": A modern high-speed railway waiting hall with ticket gates, seating rows, luggage and a sleek unbranded train visible through a side window. A prominent adult female traveler checks a generic ticket beside her rolling suitcase. No airplane imagery, no readable personal data or railway logos.\n",
       "width": 1536,
       "height": 1024,
       "origin": "Original AI-generated character-in-scene illustration; built-in image_gen",
@@ -1078,10 +1238,10 @@
       "category": "scene_culture_visit",
       "dimension": "文化场馆与观览",
       "title": "文化游览与休闲 · 文化场馆与观览",
-      "image": "images/sheet-scenes-snv-1-v72.png",
+      "image": "images/sheet-scenes-snv-1-v73.png",
       "columns": 2,
       "rows": 2,
-      "edition": 72,
+      "edition": 73,
       "column_boundaries": [
         0,
         768,
@@ -1092,7 +1252,7 @@
         512,
         1024
       ],
-      "prompt": "Use case: illustration-story. Asset type: original character-in-environment scene atlas for female game, animation and film character design.\nCanvas: LANDSCAPE 3:2 contact sheet. EXACTLY TWO columns and TWO rows of rectangular landscape panels, read top-left, top-right, bottom-left, bottom-right. Four independent scenes. Thin continuous dark dividers at the canvas midpoint, no broad gutters. Each panel stays entirely inside its own rectangle.\nArt direction: detailed polished anime and semi-realistic cinematic environment concept illustration, expressive original adult characters, coherent perspective, carefully drawn natural hands, restrained clean outlines, attractive readable colors and lighting. This is a setting-and-activity atlas: the environment must be identifiable AND at least one prominent adult woman must actively belong in it. Main woman roughly 45-75 percent of panel height, shown full-body or medium-wide as appropriate, never a tiny distant silhouette. Vary women across panels in face, hairstyle, skin tone and everyday body shape. All human figures are adults.\nComposition: foreground, middle ground and background establish a useful place. Hands actually touch the relevant objects; feet and seats have plausible support. Clothing matches the location and activity. Do not replace a scene with a detached fashion cutout, portrait crop, empty room, generic gradient or white studio backdrop. Do not add inset diagrams. Preserve the complete intended action and environmental landmarks within each panel.\nNo known characters, franchises, company logos, celebrity likenesses or readable private information. Only each panel's exact ID in small legible type at its own top-left; no other captions or text.\nSpecific panels:\nPanel 1, exact label \"SNV001\": A museum gallery with display cases, plinths, abstract information panels and a spacious hall. A prominent adult female guide gestures toward an invented ceramic vessel and stone artifact for two adult visitors. Original generic exhibits, no copied museum artwork, no readable institution branding.\nPanel 2, exact label \"SNV002\": A contemporary art gallery with white exhibition walls, framed original abstract paintings, viewing bench and track lights. A prominent adult female visitor stands looking at a large invented abstract canvas, holding a folded gallery leaflet. No recognizable existing artwork or artist signature; clear room depth and eye line.\nPanel 3, exact label \"SNV003\": An unbranded cinema foyer with screening-room entrance, ticket-check stand, abstract original poster lightboxes and dim corridor. A prominent adult female usher checks a generic ticket held by an adult moviegoer. Natural hand contact, no identifiable film characters, movie posters or readable brands.\nPanel 4, exact label \"SNV004\": A public aquarium's glass viewing tunnel with fish overhead, blue water light and a dry pedestrian walkway. A prominent adult female aquarium educator holding a clipboard explains a passing ray to two adult visitors. Clear glass separation and human scale, no underwater laboratory equipment or diving inside.\n",
+      "prompt": "Use case: illustration-story. Asset type: original 2D ANIME character-in-scene atlas.\nCanvas: LANDSCAPE 3:2, EXACTLY TWO COLUMNS and TWO ROWS, FOUR independent landscape scenes in a precise 2x2 grid. Thin continuous dark divider lines exactly at horizontal and vertical midpoints. No gutters. Each scene and its small exact ID label fit inside its own panel.\nArt direction: unmistakable polished Japanese-anime / anime-game promotional illustration, beautiful hand-drawn 2D linework, crisp graceful contours, clean CEL SHADING with a few deliberate shadow shapes, luminous harmonious colors. Appealing expressive anime faces with large carefully drawn eyes, small simplified noses and chins, elegant hair silhouettes. Entire cast has slender, balanced, healthy stylized anime proportions and clear slim silhouettes, with naturally proportioned limbs and hands. Vary hairstyles, hair colors, expressions and clothing between scenes. Background extras use the same slender anime character design. No photorealism, no semi-realistic mature portrait faces, no live-action look, no realistic skin pores, no 3D render, no heavy impasto, no chibi.\nAge and context: follow EACH panel's specified ages. Middle/high-school students must look like ordinary 13-17-year-old adolescents in complete modest school or PE uniforms, with age-appropriate faces and anatomy; teachers and other adult roles must clearly remain adults. Outside school/student scenes, the prominent women are adults aged about 20-35. All scenes are everyday, occupational, narrative or fantasy reference illustrations, never pin-ups, erotic poses or body-part displays.\nScene design: each panel has at least one prominent female character around 50-75 percent of panel height, full-body or medium-wide as suited to the activity. Both the place AND the person's activity must be clear. Attractive carefully composed anime backgrounds with foreground, middle ground and depth; architecture, environment landmarks, perspective and light remain coherent. Characters actually hold and touch relevant props; feet, chairs and objects have proper support. Preserve the complete intended action and key setting details. No isolated fashion cutouts, empty rooms, generic gradients, inset panels, unreadable hands, cropped heads or feet where a full figure is intended.\nOnly each panel's exact ID in small legible text at its own top-left. No other readable text, brands, real school/company names, logos, celebrity likenesses, existing anime characters or franchise symbols.\nSpecific panels:\nPanel 1, exact label \"SNV001\": A museum gallery with display cases, plinths, abstract information panels and a spacious hall. A prominent adult female guide gestures toward an invented ceramic vessel and stone artifact for two adult visitors. Original generic exhibits, no copied museum artwork, no readable institution branding.\nPanel 2, exact label \"SNV002\": A contemporary art gallery with white exhibition walls, framed original abstract paintings, viewing bench and track lights. A prominent adult female visitor stands looking at a large invented abstract canvas, holding a folded gallery leaflet. No recognizable existing artwork or artist signature; clear room depth and eye line.\nPanel 3, exact label \"SNV003\": An unbranded cinema foyer with screening-room entrance, ticket-check stand, abstract original poster lightboxes and dim corridor. A prominent adult female usher checks a generic ticket held by an adult moviegoer. Natural hand contact, no identifiable film characters, movie posters or readable brands.\nPanel 4, exact label \"SNV004\": A public aquarium's glass viewing tunnel with fish overhead, blue water light and a dry pedestrian walkway. A prominent adult female aquarium educator holding a clipboard explains a passing ray to two adult visitors. Clear glass separation and human scale, no underwater laboratory equipment or diving inside.\n",
       "width": 1536,
       "height": 1024,
       "origin": "Original AI-generated character-in-scene illustration; built-in image_gen",
@@ -1127,10 +1287,10 @@
       "category": "scene_culture_visit",
       "dimension": "自然游览与地方生活",
       "title": "文化游览与休闲 · 自然游览与地方生活",
-      "image": "images/sheet-scenes-snv-2-v72-v2.png",
+      "image": "images/sheet-scenes-snv-2-v73.png",
       "columns": 2,
       "rows": 2,
-      "edition": 72,
+      "edition": 73,
       "column_boundaries": [
         0,
         768,
@@ -1141,7 +1301,7 @@
         512,
         1024
       ],
-      "prompt": "Use case: illustration-story. Asset type: original character-in-environment scene atlas for female game, animation and film character design.\nCanvas: LANDSCAPE 3:2 contact sheet. EXACTLY TWO columns and TWO rows of rectangular landscape panels, read top-left, top-right, bottom-left, bottom-right. Four independent scenes. Thin continuous dark dividers at the canvas midpoint, no broad gutters. Each panel stays entirely inside its own rectangle.\nArt direction: detailed polished anime and semi-realistic cinematic environment concept illustration, expressive original adult characters, coherent perspective, carefully drawn natural hands, restrained clean outlines, attractive readable colors and lighting. This is a setting-and-activity atlas: the environment must be identifiable AND at least one prominent adult woman must actively belong in it. Main woman roughly 45-75 percent of panel height, shown full-body or medium-wide as appropriate, never a tiny distant silhouette. Vary women across panels in face, hairstyle, skin tone and everyday body shape. All human figures are adults.\nComposition: foreground, middle ground and background establish a useful place. Hands actually touch the relevant objects; feet and seats have plausible support. Clothing matches the location and activity. Do not replace a scene with a detached fashion cutout, portrait crop, empty room, generic gradient or white studio backdrop. Do not add inset diagrams. Preserve the complete intended action and environmental landmarks within each panel.\nNo known characters, franchises, company logos, celebrity likenesses or readable private information. Only each panel's exact ID in small legible type at its own top-left; no other captions or text.\nSpecific panels:\nPanel 1, exact label \"SNV005\": A zoo giraffe habitat with protective fence, animal shelter, feeding trolley and greenery. A prominent adult female keeper in practical workwear prepares leafy feed in the staff service aisle while a giraffe stands beyond the barrier. Calm routine care, believable animal scale and safe physical separation, no logos.\nPanel 2, exact label \"SNV006\": A real-world botanical garden greenhouse with glass dome, tall palms, original abstract plant labels and winding visitor paths. A prominent adult female tourist in casual travel clothes photographs a flowering plant with a phone in a solid bright orange protective case. The back of the phone case is completely plain, with no symbol, mark or logo. Clear phone grip, grounded stance, warm natural daylight and no science-fiction elements.\nPanel 3, exact label \"SNV007\": An original contemporary East Asian canal town with a stone footbridge, waterside houses, small moored boats and riverside lane. A prominent adult female tourist in a light travel coat walks along the bank carrying a folded umbrella and admiring the view. Clear bridge and water-level perspective, no copied landmark or historical authenticity claim.\nPanel 4, exact label \"SNV008\": A coastal ferry pier with moored ferry, bollards, waiting shelter, luggage and distant harbor boats. A prominent adult female traveler in a casual windbreaker checks a generic ferry ticket in the landside waiting area. Clear pier edge, boat scale and grounded stance, no readable personal information or shipping logos.\n",
+      "prompt": "Use case: illustration-story. Asset type: original 2D ANIME character-in-scene atlas.\nCanvas: LANDSCAPE 3:2, EXACTLY TWO COLUMNS and TWO ROWS, FOUR independent landscape scenes in a precise 2x2 grid. Thin continuous dark divider lines exactly at horizontal and vertical midpoints. No gutters. Each scene and its small exact ID label fit inside its own panel.\nArt direction: unmistakable polished Japanese-anime / anime-game promotional illustration, beautiful hand-drawn 2D linework, crisp graceful contours, clean CEL SHADING with a few deliberate shadow shapes, luminous harmonious colors. Appealing expressive anime faces with large carefully drawn eyes, small simplified noses and chins, elegant hair silhouettes. Entire cast has slender, balanced, healthy stylized anime proportions and clear slim silhouettes, with naturally proportioned limbs and hands. Vary hairstyles, hair colors, expressions and clothing between scenes. Background extras use the same slender anime character design. No photorealism, no semi-realistic mature portrait faces, no live-action look, no realistic skin pores, no 3D render, no heavy impasto, no chibi.\nAge and context: follow EACH panel's specified ages. Middle/high-school students must look like ordinary 13-17-year-old adolescents in complete modest school or PE uniforms, with age-appropriate faces and anatomy; teachers and other adult roles must clearly remain adults. Outside school/student scenes, the prominent women are adults aged about 20-35. All scenes are everyday, occupational, narrative or fantasy reference illustrations, never pin-ups, erotic poses or body-part displays.\nScene design: each panel has at least one prominent female character around 50-75 percent of panel height, full-body or medium-wide as suited to the activity. Both the place AND the person's activity must be clear. Attractive carefully composed anime backgrounds with foreground, middle ground and depth; architecture, environment landmarks, perspective and light remain coherent. Characters actually hold and touch relevant props; feet, chairs and objects have proper support. Preserve the complete intended action and key setting details. No isolated fashion cutouts, empty rooms, generic gradients, inset panels, unreadable hands, cropped heads or feet where a full figure is intended.\nOnly each panel's exact ID in small legible text at its own top-left. No other readable text, brands, real school/company names, logos, celebrity likenesses, existing anime characters or franchise symbols.\nSpecific panels:\nPanel 1, exact label \"SNV005\": A zoo giraffe habitat with protective fence, animal shelter, feeding trolley and greenery. A prominent adult female keeper in practical workwear prepares leafy feed in the staff service aisle while a giraffe stands beyond the barrier. Calm routine care, believable animal scale and safe physical separation, no logos.\nPanel 2, exact label \"SNV006\": A real-world botanical garden greenhouse with glass dome, tall palms, original abstract plant labels and winding visitor paths. A prominent adult female tourist in casual travel clothes photographs a flowering plant with a phone in a solid bright orange protective case. The back of the phone case is completely plain, with no symbol, mark or logo. Clear phone grip, grounded stance, warm natural daylight and no science-fiction elements.\nPanel 3, exact label \"SNV007\": An original contemporary East Asian canal town with a stone footbridge, waterside houses, small moored boats and riverside lane. A prominent adult female tourist in a light travel coat walks along the bank carrying a folded umbrella and admiring the view. Clear bridge and water-level perspective, no copied landmark or historical authenticity claim.\nPanel 4, exact label \"SNV008\": A coastal ferry pier with moored ferry, bollards, waiting shelter, luggage and distant harbor boats. A prominent adult female traveler in a casual windbreaker checks a generic ferry ticket in the landside waiting area. Clear pier edge, boat scale and grounded stance, no readable personal information or shipping logos.\n",
       "width": 1536,
       "height": 1024,
       "origin": "Original AI-generated character-in-scene illustration; built-in image_gen",

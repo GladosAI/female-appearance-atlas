@@ -1,0 +1,4596 @@
+{
+  "schema": "female-appearance-quality-review/v1",
+  "batch": "2026-11-05-scene-anime-redraw",
+  "catalog_version": "73.0",
+  "date": "2026-11-05",
+  "reviewer": "Codex AI-assisted visual review",
+  "scope": {
+    "entries": 96,
+    "visuals": 96,
+    "categories": [
+      "scene_home",
+      "scene_work_public",
+      "scene_commercial",
+      "scene_leisure_travel",
+      "scene_culture_sport",
+      "scene_history_film",
+      "scene_fantasy_game",
+      "scene_scifi_survival",
+      "scene_campus",
+      "scene_community",
+      "scene_culture_visit"
+    ],
+    "category_counts": {
+      "scene_home": 8,
+      "scene_work_public": 8,
+      "scene_commercial": 8,
+      "scene_leisure_travel": 8,
+      "scene_culture_sport": 8,
+      "scene_history_film": 8,
+      "scene_fantasy_game": 8,
+      "scene_scifi_survival": 8,
+      "scene_campus": 16,
+      "scene_community": 8,
+      "scene_culture_visit": 8
+    }
+  },
+  "method": "Visual inspection of all 24 original generated boards / 96 scenes for cel-shaded anime style, slender balanced silhouettes, relevant locations and activities, school-age role context and labels; all central grid boundaries checked with pixel profiles.",
+  "issues": [
+    {
+      "id": "Q4-SCENE-ANIME-REDRAW",
+      "type": "image-and-school-context",
+      "status": "fixed",
+      "entries": [
+        "SNB001",
+        "SNB002",
+        "SNB003",
+        "SNB004",
+        "SNB005",
+        "SNB006",
+        "SNB007",
+        "SNB008",
+        "SNC001",
+        "SNC002",
+        "SNC003",
+        "SNC004",
+        "SNC005",
+        "SNC006",
+        "SNC007",
+        "SNC008",
+        "SNE001",
+        "SNE002",
+        "SNE003",
+        "SNE004",
+        "SNE005",
+        "SNE006",
+        "SNE007",
+        "SNE008",
+        "SNF001",
+        "SNF002",
+        "SNF003",
+        "SNF004",
+        "SNF005",
+        "SNF006",
+        "SNF007",
+        "SNF008",
+        "SNG001",
+        "SNG002",
+        "SNG003",
+        "SNG004",
+        "SNG005",
+        "SNG006",
+        "SNG007",
+        "SNG008",
+        "SNH001",
+        "SNH002",
+        "SNH003",
+        "SNH004",
+        "SNH005",
+        "SNH006",
+        "SNH007",
+        "SNH008",
+        "SNR001",
+        "SNR002",
+        "SNR003",
+        "SNR004",
+        "SNR005",
+        "SNR006",
+        "SNR007",
+        "SNR008",
+        "SNS001",
+        "SNS002",
+        "SNS003",
+        "SNS004",
+        "SNS005",
+        "SNS006",
+        "SNS007",
+        "SNS008",
+        "SNU001",
+        "SNU002",
+        "SNU003",
+        "SNU004",
+        "SNU005",
+        "SNU006",
+        "SNU007",
+        "SNU008",
+        "SNU009",
+        "SNU010",
+        "SNU011",
+        "SNU012",
+        "SNU013",
+        "SNU014",
+        "SNU015",
+        "SNU016",
+        "SNV001",
+        "SNV002",
+        "SNV003",
+        "SNV004",
+        "SNV005",
+        "SNV006",
+        "SNV007",
+        "SNV008",
+        "SNW001",
+        "SNW002",
+        "SNW003",
+        "SNW004",
+        "SNW005",
+        "SNW006",
+        "SNW007",
+        "SNW008"
+      ],
+      "finding": "Previous scene figures used inconsistent semi-realistic rendering and silhouettes; school contexts used adult/university assumptions.",
+      "resolution": "Original redraw of all 96 scene examples in clear anime linework and cel shading. Secondary-school students, adult teachers, boarding-school tracksuits and school-uniform graduation are explicit. SNW005 renamed without changing its ID; SNG001 is a teenage magic-school student."
+    }
+  ],
+  "changed_entries": [
+    "SNB001",
+    "SNB002",
+    "SNB003",
+    "SNB004",
+    "SNB005",
+    "SNB006",
+    "SNB007",
+    "SNB008",
+    "SNC001",
+    "SNC002",
+    "SNC003",
+    "SNC004",
+    "SNC005",
+    "SNC006",
+    "SNC007",
+    "SNC008",
+    "SNE001",
+    "SNE002",
+    "SNE003",
+    "SNE004",
+    "SNE005",
+    "SNE006",
+    "SNE007",
+    "SNE008",
+    "SNF001",
+    "SNF002",
+    "SNF003",
+    "SNF004",
+    "SNF005",
+    "SNF006",
+    "SNF007",
+    "SNF008",
+    "SNG001",
+    "SNG002",
+    "SNG003",
+    "SNG004",
+    "SNG005",
+    "SNG006",
+    "SNG007",
+    "SNG008",
+    "SNH001",
+    "SNH002",
+    "SNH003",
+    "SNH004",
+    "SNH005",
+    "SNH006",
+    "SNH007",
+    "SNH008",
+    "SNR001",
+    "SNR002",
+    "SNR003",
+    "SNR004",
+    "SNR005",
+    "SNR006",
+    "SNR007",
+    "SNR008",
+    "SNS001",
+    "SNS002",
+    "SNS003",
+    "SNS004",
+    "SNS005",
+    "SNS006",
+    "SNS007",
+    "SNS008",
+    "SNU001",
+    "SNU002",
+    "SNU003",
+    "SNU004",
+    "SNU005",
+    "SNU006",
+    "SNU007",
+    "SNU008",
+    "SNU009",
+    "SNU010",
+    "SNU011",
+    "SNU012",
+    "SNU013",
+    "SNU014",
+    "SNU015",
+    "SNU016",
+    "SNV001",
+    "SNV002",
+    "SNV003",
+    "SNV004",
+    "SNV005",
+    "SNV006",
+    "SNV007",
+    "SNV008",
+    "SNW001",
+    "SNW002",
+    "SNW003",
+    "SNW004",
+    "SNW005",
+    "SNW006",
+    "SNW007",
+    "SNW008"
+  ],
+  "export_representatives": [
+    "SNH001",
+    "SNH005",
+    "SNW001",
+    "SNW005",
+    "SNC001",
+    "SNC005",
+    "SNR001",
+    "SNR005",
+    "SNE001",
+    "SNE005",
+    "SNF001",
+    "SNF005",
+    "SNG001",
+    "SNG005",
+    "SNS001",
+    "SNS005",
+    "SNU001",
+    "SNU005",
+    "SNU009",
+    "SNU013",
+    "SNB001",
+    "SNB005",
+    "SNV001",
+    "SNV005"
+  ],
+  "stable_ids_preserved": true,
+  "original_image_bytes_preserved": false,
+  "previous_image_files_retained": true,
+  "unrelated_entries_preserved": 7145,
+  "resource_release": "v73.0",
+  "records": [
+    {
+      "entry_id": "SNB001",
+      "category": "scene_community",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snb-1-v73.png",
+      "image_sha256": "6b8438f899378fc6f9607d7114b42ab77b0e093601a24dcf92d3129a703737d8",
+      "visual_at_review": {
+        "board": "scene-v72-snb-1",
+        "image": "images/sheet-scenes-snb-1-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNB001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snb-1",
+        "image": "images/sheet-scenes-snb-1-v72.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNB001",
+        "aspect": 1.501953125,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 769,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNB002",
+      "category": "scene_community",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snb-1-v73.png",
+      "image_sha256": "6b8438f899378fc6f9607d7114b42ab77b0e093601a24dcf92d3129a703737d8",
+      "visual_at_review": {
+        "board": "scene-v72-snb-1",
+        "image": "images/sheet-scenes-snb-1-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNB002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snb-1",
+        "image": "images/sheet-scenes-snb-1-v72.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNB002",
+        "aspect": 1.498046875,
+        "crop": {
+          "x": 769,
+          "y": 0,
+          "width": 767,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNB003",
+      "category": "scene_community",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snb-1-v73.png",
+      "image_sha256": "6b8438f899378fc6f9607d7114b42ab77b0e093601a24dcf92d3129a703737d8",
+      "visual_at_review": {
+        "board": "scene-v72-snb-1",
+        "image": "images/sheet-scenes-snb-1-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNB003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snb-1",
+        "image": "images/sheet-scenes-snb-1-v72.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNB003",
+        "aspect": 1.501953125,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 769,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNB004",
+      "category": "scene_community",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snb-1-v73.png",
+      "image_sha256": "6b8438f899378fc6f9607d7114b42ab77b0e093601a24dcf92d3129a703737d8",
+      "visual_at_review": {
+        "board": "scene-v72-snb-1",
+        "image": "images/sheet-scenes-snb-1-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNB004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snb-1",
+        "image": "images/sheet-scenes-snb-1-v72.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNB004",
+        "aspect": 1.498046875,
+        "crop": {
+          "x": 769,
+          "y": 512,
+          "width": 767,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNB005",
+      "category": "scene_community",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snb-2-v73.png",
+      "image_sha256": "2083d1062528ae8d04ab5f978eb1a62c2ae14e0165fda0a6d05ff30af1109c1a",
+      "visual_at_review": {
+        "board": "scene-v72-snb-2",
+        "image": "images/sheet-scenes-snb-2-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNB005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snb-2",
+        "image": "images/sheet-scenes-snb-2-v72.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNB005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNB006",
+      "category": "scene_community",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snb-2-v73.png",
+      "image_sha256": "2083d1062528ae8d04ab5f978eb1a62c2ae14e0165fda0a6d05ff30af1109c1a",
+      "visual_at_review": {
+        "board": "scene-v72-snb-2",
+        "image": "images/sheet-scenes-snb-2-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNB006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snb-2",
+        "image": "images/sheet-scenes-snb-2-v72.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNB006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNB007",
+      "category": "scene_community",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snb-2-v73.png",
+      "image_sha256": "2083d1062528ae8d04ab5f978eb1a62c2ae14e0165fda0a6d05ff30af1109c1a",
+      "visual_at_review": {
+        "board": "scene-v72-snb-2",
+        "image": "images/sheet-scenes-snb-2-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNB007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snb-2",
+        "image": "images/sheet-scenes-snb-2-v72.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNB007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNB008",
+      "category": "scene_community",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snb-2-v73.png",
+      "image_sha256": "2083d1062528ae8d04ab5f978eb1a62c2ae14e0165fda0a6d05ff30af1109c1a",
+      "visual_at_review": {
+        "board": "scene-v72-snb-2",
+        "image": "images/sheet-scenes-snb-2-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNB008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snb-2",
+        "image": "images/sheet-scenes-snb-2-v72.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNB008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNC001",
+      "category": "scene_commercial",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snc-1-v73.png",
+      "image_sha256": "28e8602908fecad77c16c1222698f83074dc5aa125ab11d7ee7d8cd5a9555982",
+      "visual_at_review": {
+        "board": "scene-v71-snc-1",
+        "image": "images/sheet-scenes-snc-1-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNC001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snc-1",
+        "image": "images/sheet-scenes-snc-1-v71.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNC001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNC002",
+      "category": "scene_commercial",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snc-1-v73.png",
+      "image_sha256": "28e8602908fecad77c16c1222698f83074dc5aa125ab11d7ee7d8cd5a9555982",
+      "visual_at_review": {
+        "board": "scene-v71-snc-1",
+        "image": "images/sheet-scenes-snc-1-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNC002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snc-1",
+        "image": "images/sheet-scenes-snc-1-v71.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNC002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNC003",
+      "category": "scene_commercial",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snc-1-v73.png",
+      "image_sha256": "28e8602908fecad77c16c1222698f83074dc5aa125ab11d7ee7d8cd5a9555982",
+      "visual_at_review": {
+        "board": "scene-v71-snc-1",
+        "image": "images/sheet-scenes-snc-1-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNC003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snc-1",
+        "image": "images/sheet-scenes-snc-1-v71.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNC003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNC004",
+      "category": "scene_commercial",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snc-1-v73.png",
+      "image_sha256": "28e8602908fecad77c16c1222698f83074dc5aa125ab11d7ee7d8cd5a9555982",
+      "visual_at_review": {
+        "board": "scene-v71-snc-1",
+        "image": "images/sheet-scenes-snc-1-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNC004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snc-1",
+        "image": "images/sheet-scenes-snc-1-v71.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNC004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNC005",
+      "category": "scene_commercial",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snc-2-v73.png",
+      "image_sha256": "a46f070ed090d955a414473c4f0c3b33bbbec053e288d65b083939a7c0dd9028",
+      "visual_at_review": {
+        "board": "scene-v71-snc-2",
+        "image": "images/sheet-scenes-snc-2-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNC005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snc-2",
+        "image": "images/sheet-scenes-snc-2-v71.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNC005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNC006",
+      "category": "scene_commercial",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snc-2-v73.png",
+      "image_sha256": "a46f070ed090d955a414473c4f0c3b33bbbec053e288d65b083939a7c0dd9028",
+      "visual_at_review": {
+        "board": "scene-v71-snc-2",
+        "image": "images/sheet-scenes-snc-2-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNC006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snc-2",
+        "image": "images/sheet-scenes-snc-2-v71.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNC006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNC007",
+      "category": "scene_commercial",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snc-2-v73.png",
+      "image_sha256": "a46f070ed090d955a414473c4f0c3b33bbbec053e288d65b083939a7c0dd9028",
+      "visual_at_review": {
+        "board": "scene-v71-snc-2",
+        "image": "images/sheet-scenes-snc-2-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNC007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snc-2",
+        "image": "images/sheet-scenes-snc-2-v71.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNC007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNC008",
+      "category": "scene_commercial",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snc-2-v73.png",
+      "image_sha256": "a46f070ed090d955a414473c4f0c3b33bbbec053e288d65b083939a7c0dd9028",
+      "visual_at_review": {
+        "board": "scene-v71-snc-2",
+        "image": "images/sheet-scenes-snc-2-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNC008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snc-2",
+        "image": "images/sheet-scenes-snc-2-v71.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNC008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNE001",
+      "category": "scene_culture_sport",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sne-1-v73.png",
+      "image_sha256": "5d500e5539c333ad2f719428765cfcc24746bc373b165a1c134e545cbc50062c",
+      "visual_at_review": {
+        "board": "scene-v71-sne-1",
+        "image": "images/sheet-scenes-sne-1-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNE001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sne-1",
+        "image": "images/sheet-scenes-sne-1-v71.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNE001",
+        "aspect": 1.6,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 480,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNE002",
+      "category": "scene_culture_sport",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sne-1-v73.png",
+      "image_sha256": "5d500e5539c333ad2f719428765cfcc24746bc373b165a1c134e545cbc50062c",
+      "visual_at_review": {
+        "board": "scene-v71-sne-1",
+        "image": "images/sheet-scenes-sne-1-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNE002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sne-1",
+        "image": "images/sheet-scenes-sne-1-v71.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNE002",
+        "aspect": 1.6,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 480,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNE003",
+      "category": "scene_culture_sport",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sne-1-v73.png",
+      "image_sha256": "5d500e5539c333ad2f719428765cfcc24746bc373b165a1c134e545cbc50062c",
+      "visual_at_review": {
+        "board": "scene-v71-sne-1",
+        "image": "images/sheet-scenes-sne-1-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNE003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sne-1",
+        "image": "images/sheet-scenes-sne-1-v71.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNE003",
+        "aspect": 1.411764705882353,
+        "crop": {
+          "x": 0,
+          "y": 480,
+          "width": 768,
+          "height": 544,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNE004",
+      "category": "scene_culture_sport",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sne-1-v73.png",
+      "image_sha256": "5d500e5539c333ad2f719428765cfcc24746bc373b165a1c134e545cbc50062c",
+      "visual_at_review": {
+        "board": "scene-v71-sne-1",
+        "image": "images/sheet-scenes-sne-1-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNE004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sne-1",
+        "image": "images/sheet-scenes-sne-1-v71.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNE004",
+        "aspect": 1.411764705882353,
+        "crop": {
+          "x": 768,
+          "y": 480,
+          "width": 768,
+          "height": 544,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNE005",
+      "category": "scene_culture_sport",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sne-2-v73.png",
+      "image_sha256": "20f1cc137e55d004724aab88be0af0e9992d0350f4399e6934c5618b0cb24e48",
+      "visual_at_review": {
+        "board": "scene-v71-sne-2",
+        "image": "images/sheet-scenes-sne-2-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNE005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sne-2",
+        "image": "images/sheet-scenes-sne-2-v71.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNE005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNE006",
+      "category": "scene_culture_sport",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sne-2-v73.png",
+      "image_sha256": "20f1cc137e55d004724aab88be0af0e9992d0350f4399e6934c5618b0cb24e48",
+      "visual_at_review": {
+        "board": "scene-v71-sne-2",
+        "image": "images/sheet-scenes-sne-2-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNE006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sne-2",
+        "image": "images/sheet-scenes-sne-2-v71.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNE006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNE007",
+      "category": "scene_culture_sport",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sne-2-v73.png",
+      "image_sha256": "20f1cc137e55d004724aab88be0af0e9992d0350f4399e6934c5618b0cb24e48",
+      "visual_at_review": {
+        "board": "scene-v71-sne-2",
+        "image": "images/sheet-scenes-sne-2-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNE007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sne-2",
+        "image": "images/sheet-scenes-sne-2-v71.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNE007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNE008",
+      "category": "scene_culture_sport",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sne-2-v73.png",
+      "image_sha256": "20f1cc137e55d004724aab88be0af0e9992d0350f4399e6934c5618b0cb24e48",
+      "visual_at_review": {
+        "board": "scene-v71-sne-2",
+        "image": "images/sheet-scenes-sne-2-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNE008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sne-2",
+        "image": "images/sheet-scenes-sne-2-v71.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNE008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNF001",
+      "category": "scene_history_film",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snf-1-v73.png",
+      "image_sha256": "ffb0165db68a59aa64813aafcd39c1e33a8ccbd93aef3f6afc68531105682c3c",
+      "visual_at_review": {
+        "board": "scene-v71-snf-1",
+        "image": "images/sheet-scenes-snf-1-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNF001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snf-1",
+        "image": "images/sheet-scenes-snf-1-v71.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNF001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNF002",
+      "category": "scene_history_film",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snf-1-v73.png",
+      "image_sha256": "ffb0165db68a59aa64813aafcd39c1e33a8ccbd93aef3f6afc68531105682c3c",
+      "visual_at_review": {
+        "board": "scene-v71-snf-1",
+        "image": "images/sheet-scenes-snf-1-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNF002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snf-1",
+        "image": "images/sheet-scenes-snf-1-v71.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNF002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNF003",
+      "category": "scene_history_film",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snf-1-v73.png",
+      "image_sha256": "ffb0165db68a59aa64813aafcd39c1e33a8ccbd93aef3f6afc68531105682c3c",
+      "visual_at_review": {
+        "board": "scene-v71-snf-1",
+        "image": "images/sheet-scenes-snf-1-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNF003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snf-1",
+        "image": "images/sheet-scenes-snf-1-v71.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNF003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNF004",
+      "category": "scene_history_film",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snf-1-v73.png",
+      "image_sha256": "ffb0165db68a59aa64813aafcd39c1e33a8ccbd93aef3f6afc68531105682c3c",
+      "visual_at_review": {
+        "board": "scene-v71-snf-1",
+        "image": "images/sheet-scenes-snf-1-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNF004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snf-1",
+        "image": "images/sheet-scenes-snf-1-v71.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNF004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNF005",
+      "category": "scene_history_film",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snf-2-v73.png",
+      "image_sha256": "5fcba618d849f3b5ddd35e3043fda0ba05341b4761ae17198f7750a836b26ed0",
+      "visual_at_review": {
+        "board": "scene-v71-snf-2",
+        "image": "images/sheet-scenes-snf-2-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNF005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snf-2",
+        "image": "images/sheet-scenes-snf-2-v71.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNF005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNF006",
+      "category": "scene_history_film",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snf-2-v73.png",
+      "image_sha256": "5fcba618d849f3b5ddd35e3043fda0ba05341b4761ae17198f7750a836b26ed0",
+      "visual_at_review": {
+        "board": "scene-v71-snf-2",
+        "image": "images/sheet-scenes-snf-2-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNF006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snf-2",
+        "image": "images/sheet-scenes-snf-2-v71.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNF006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNF007",
+      "category": "scene_history_film",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snf-2-v73.png",
+      "image_sha256": "5fcba618d849f3b5ddd35e3043fda0ba05341b4761ae17198f7750a836b26ed0",
+      "visual_at_review": {
+        "board": "scene-v71-snf-2",
+        "image": "images/sheet-scenes-snf-2-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNF007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snf-2",
+        "image": "images/sheet-scenes-snf-2-v71.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNF007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNF008",
+      "category": "scene_history_film",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snf-2-v73.png",
+      "image_sha256": "5fcba618d849f3b5ddd35e3043fda0ba05341b4761ae17198f7750a836b26ed0",
+      "visual_at_review": {
+        "board": "scene-v71-snf-2",
+        "image": "images/sheet-scenes-snf-2-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNF008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snf-2",
+        "image": "images/sheet-scenes-snf-2-v71.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNF008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNG001",
+      "category": "scene_fantasy_game",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sng-1-v73.png",
+      "image_sha256": "ed82d8c143fbba59eb419c91516e7c653fbcf6dbb7825118505edf9dd6f0c430",
+      "visual_at_review": {
+        "board": "scene-v71-sng-1",
+        "image": "images/sheet-scenes-sng-1-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNG001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sng-1",
+        "image": "images/sheet-scenes-sng-1-v71.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNG001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNG002",
+      "category": "scene_fantasy_game",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sng-1-v73.png",
+      "image_sha256": "ed82d8c143fbba59eb419c91516e7c653fbcf6dbb7825118505edf9dd6f0c430",
+      "visual_at_review": {
+        "board": "scene-v71-sng-1",
+        "image": "images/sheet-scenes-sng-1-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNG002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sng-1",
+        "image": "images/sheet-scenes-sng-1-v71.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNG002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNG003",
+      "category": "scene_fantasy_game",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sng-1-v73.png",
+      "image_sha256": "ed82d8c143fbba59eb419c91516e7c653fbcf6dbb7825118505edf9dd6f0c430",
+      "visual_at_review": {
+        "board": "scene-v71-sng-1",
+        "image": "images/sheet-scenes-sng-1-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNG003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sng-1",
+        "image": "images/sheet-scenes-sng-1-v71.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNG003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNG004",
+      "category": "scene_fantasy_game",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sng-1-v73.png",
+      "image_sha256": "ed82d8c143fbba59eb419c91516e7c653fbcf6dbb7825118505edf9dd6f0c430",
+      "visual_at_review": {
+        "board": "scene-v71-sng-1",
+        "image": "images/sheet-scenes-sng-1-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNG004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sng-1",
+        "image": "images/sheet-scenes-sng-1-v71.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNG004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNG005",
+      "category": "scene_fantasy_game",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sng-2-v73.png",
+      "image_sha256": "859b934a8784b6a420dcd4cf395b2937b3492a416ee6ad2663d01f23cdf253ad",
+      "visual_at_review": {
+        "board": "scene-v71-sng-2",
+        "image": "images/sheet-scenes-sng-2-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNG005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sng-2",
+        "image": "images/sheet-scenes-sng-2-v71.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNG005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNG006",
+      "category": "scene_fantasy_game",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sng-2-v73.png",
+      "image_sha256": "859b934a8784b6a420dcd4cf395b2937b3492a416ee6ad2663d01f23cdf253ad",
+      "visual_at_review": {
+        "board": "scene-v71-sng-2",
+        "image": "images/sheet-scenes-sng-2-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNG006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sng-2",
+        "image": "images/sheet-scenes-sng-2-v71.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNG006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNG007",
+      "category": "scene_fantasy_game",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sng-2-v73.png",
+      "image_sha256": "859b934a8784b6a420dcd4cf395b2937b3492a416ee6ad2663d01f23cdf253ad",
+      "visual_at_review": {
+        "board": "scene-v71-sng-2",
+        "image": "images/sheet-scenes-sng-2-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNG007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sng-2",
+        "image": "images/sheet-scenes-sng-2-v71.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNG007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNG008",
+      "category": "scene_fantasy_game",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sng-2-v73.png",
+      "image_sha256": "859b934a8784b6a420dcd4cf395b2937b3492a416ee6ad2663d01f23cdf253ad",
+      "visual_at_review": {
+        "board": "scene-v71-sng-2",
+        "image": "images/sheet-scenes-sng-2-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNG008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sng-2",
+        "image": "images/sheet-scenes-sng-2-v71.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNG008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNH001",
+      "category": "scene_home",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snh-1-v73.png",
+      "image_sha256": "b366abd3585144056f262237a2e14e05f92b4b6f4eec085d2ad0896a7c124952",
+      "visual_at_review": {
+        "board": "scene-v71-snh-1",
+        "image": "images/sheet-scenes-snh-1-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNH001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snh-1",
+        "image": "images/sheet-scenes-snh-1-v71.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNH001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNH002",
+      "category": "scene_home",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snh-1-v73.png",
+      "image_sha256": "b366abd3585144056f262237a2e14e05f92b4b6f4eec085d2ad0896a7c124952",
+      "visual_at_review": {
+        "board": "scene-v71-snh-1",
+        "image": "images/sheet-scenes-snh-1-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNH002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snh-1",
+        "image": "images/sheet-scenes-snh-1-v71.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNH002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNH003",
+      "category": "scene_home",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snh-1-v73.png",
+      "image_sha256": "b366abd3585144056f262237a2e14e05f92b4b6f4eec085d2ad0896a7c124952",
+      "visual_at_review": {
+        "board": "scene-v71-snh-1",
+        "image": "images/sheet-scenes-snh-1-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNH003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snh-1",
+        "image": "images/sheet-scenes-snh-1-v71.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNH003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNH004",
+      "category": "scene_home",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snh-1-v73.png",
+      "image_sha256": "b366abd3585144056f262237a2e14e05f92b4b6f4eec085d2ad0896a7c124952",
+      "visual_at_review": {
+        "board": "scene-v71-snh-1",
+        "image": "images/sheet-scenes-snh-1-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNH004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snh-1",
+        "image": "images/sheet-scenes-snh-1-v71.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNH004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNH005",
+      "category": "scene_home",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snh-2-v73.png",
+      "image_sha256": "bfb1b083c43074319be888c67d7bb98c47c3593af697b91bb170be3700e99310",
+      "visual_at_review": {
+        "board": "scene-v71-snh-2",
+        "image": "images/sheet-scenes-snh-2-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNH005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snh-2",
+        "image": "images/sheet-scenes-snh-2-v71.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNH005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNH006",
+      "category": "scene_home",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snh-2-v73.png",
+      "image_sha256": "bfb1b083c43074319be888c67d7bb98c47c3593af697b91bb170be3700e99310",
+      "visual_at_review": {
+        "board": "scene-v71-snh-2",
+        "image": "images/sheet-scenes-snh-2-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNH006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snh-2",
+        "image": "images/sheet-scenes-snh-2-v71.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNH006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNH007",
+      "category": "scene_home",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snh-2-v73.png",
+      "image_sha256": "bfb1b083c43074319be888c67d7bb98c47c3593af697b91bb170be3700e99310",
+      "visual_at_review": {
+        "board": "scene-v71-snh-2",
+        "image": "images/sheet-scenes-snh-2-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNH007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snh-2",
+        "image": "images/sheet-scenes-snh-2-v71.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNH007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNH008",
+      "category": "scene_home",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snh-2-v73.png",
+      "image_sha256": "bfb1b083c43074319be888c67d7bb98c47c3593af697b91bb170be3700e99310",
+      "visual_at_review": {
+        "board": "scene-v71-snh-2",
+        "image": "images/sheet-scenes-snh-2-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNH008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snh-2",
+        "image": "images/sheet-scenes-snh-2-v71.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNH008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNR001",
+      "category": "scene_leisure_travel",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snr-1-v73.png",
+      "image_sha256": "b1d2392045d459182c1ebfeb1f50ded8af76bf25db125cb52f86edd923ae4806",
+      "visual_at_review": {
+        "board": "scene-v71-snr-1",
+        "image": "images/sheet-scenes-snr-1-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNR001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snr-1",
+        "image": "images/sheet-scenes-snr-1-v71.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNR001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNR002",
+      "category": "scene_leisure_travel",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snr-1-v73.png",
+      "image_sha256": "b1d2392045d459182c1ebfeb1f50ded8af76bf25db125cb52f86edd923ae4806",
+      "visual_at_review": {
+        "board": "scene-v71-snr-1",
+        "image": "images/sheet-scenes-snr-1-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNR002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snr-1",
+        "image": "images/sheet-scenes-snr-1-v71.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNR002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNR003",
+      "category": "scene_leisure_travel",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snr-1-v73.png",
+      "image_sha256": "b1d2392045d459182c1ebfeb1f50ded8af76bf25db125cb52f86edd923ae4806",
+      "visual_at_review": {
+        "board": "scene-v71-snr-1",
+        "image": "images/sheet-scenes-snr-1-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNR003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snr-1",
+        "image": "images/sheet-scenes-snr-1-v71.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNR003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNR004",
+      "category": "scene_leisure_travel",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snr-1-v73.png",
+      "image_sha256": "b1d2392045d459182c1ebfeb1f50ded8af76bf25db125cb52f86edd923ae4806",
+      "visual_at_review": {
+        "board": "scene-v71-snr-1",
+        "image": "images/sheet-scenes-snr-1-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNR004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snr-1",
+        "image": "images/sheet-scenes-snr-1-v71.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNR004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNR005",
+      "category": "scene_leisure_travel",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snr-2-v73.png",
+      "image_sha256": "c0e3c741103ab0914e6ac116b447ff5493f3e2be1e493ac8aed4202a120abba9",
+      "visual_at_review": {
+        "board": "scene-v71-snr-2",
+        "image": "images/sheet-scenes-snr-2-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNR005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snr-2",
+        "image": "images/sheet-scenes-snr-2-v71.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNR005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNR006",
+      "category": "scene_leisure_travel",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snr-2-v73.png",
+      "image_sha256": "c0e3c741103ab0914e6ac116b447ff5493f3e2be1e493ac8aed4202a120abba9",
+      "visual_at_review": {
+        "board": "scene-v71-snr-2",
+        "image": "images/sheet-scenes-snr-2-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNR006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snr-2",
+        "image": "images/sheet-scenes-snr-2-v71.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNR006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNR007",
+      "category": "scene_leisure_travel",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snr-2-v73.png",
+      "image_sha256": "c0e3c741103ab0914e6ac116b447ff5493f3e2be1e493ac8aed4202a120abba9",
+      "visual_at_review": {
+        "board": "scene-v71-snr-2",
+        "image": "images/sheet-scenes-snr-2-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNR007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snr-2",
+        "image": "images/sheet-scenes-snr-2-v71.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNR007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNR008",
+      "category": "scene_leisure_travel",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snr-2-v73.png",
+      "image_sha256": "c0e3c741103ab0914e6ac116b447ff5493f3e2be1e493ac8aed4202a120abba9",
+      "visual_at_review": {
+        "board": "scene-v71-snr-2",
+        "image": "images/sheet-scenes-snr-2-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNR008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snr-2",
+        "image": "images/sheet-scenes-snr-2-v71.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNR008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNS001",
+      "category": "scene_scifi_survival",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sns-1-v73.png",
+      "image_sha256": "75c4e16ad5e53059e3a3b1b046b66dd0fb85163ec0391c737be505a1aa9e6bb5",
+      "visual_at_review": {
+        "board": "scene-v71-sns-1",
+        "image": "images/sheet-scenes-sns-1-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNS001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sns-1",
+        "image": "images/sheet-scenes-sns-1-v71.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNS001",
+        "aspect": 1.5029354207436398,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 511,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNS002",
+      "category": "scene_scifi_survival",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sns-1-v73.png",
+      "image_sha256": "75c4e16ad5e53059e3a3b1b046b66dd0fb85163ec0391c737be505a1aa9e6bb5",
+      "visual_at_review": {
+        "board": "scene-v71-sns-1",
+        "image": "images/sheet-scenes-sns-1-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNS002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sns-1",
+        "image": "images/sheet-scenes-sns-1-v71.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNS002",
+        "aspect": 1.5029354207436398,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 511,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNS003",
+      "category": "scene_scifi_survival",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sns-1-v73.png",
+      "image_sha256": "75c4e16ad5e53059e3a3b1b046b66dd0fb85163ec0391c737be505a1aa9e6bb5",
+      "visual_at_review": {
+        "board": "scene-v71-sns-1",
+        "image": "images/sheet-scenes-sns-1-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNS003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sns-1",
+        "image": "images/sheet-scenes-sns-1-v71.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNS003",
+        "aspect": 1.4970760233918128,
+        "crop": {
+          "x": 0,
+          "y": 511,
+          "width": 768,
+          "height": 513,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNS004",
+      "category": "scene_scifi_survival",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sns-1-v73.png",
+      "image_sha256": "75c4e16ad5e53059e3a3b1b046b66dd0fb85163ec0391c737be505a1aa9e6bb5",
+      "visual_at_review": {
+        "board": "scene-v71-sns-1",
+        "image": "images/sheet-scenes-sns-1-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNS004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sns-1",
+        "image": "images/sheet-scenes-sns-1-v71.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNS004",
+        "aspect": 1.4970760233918128,
+        "crop": {
+          "x": 768,
+          "y": 511,
+          "width": 768,
+          "height": 513,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNS005",
+      "category": "scene_scifi_survival",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sns-2-v73.png",
+      "image_sha256": "0e1a9809b898e9345465ea9415ccc9848a1a4d1d7816884faee7671f8b95c965",
+      "visual_at_review": {
+        "board": "scene-v71-sns-2",
+        "image": "images/sheet-scenes-sns-2-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNS005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sns-2",
+        "image": "images/sheet-scenes-sns-2-v71.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNS005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNS006",
+      "category": "scene_scifi_survival",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sns-2-v73.png",
+      "image_sha256": "0e1a9809b898e9345465ea9415ccc9848a1a4d1d7816884faee7671f8b95c965",
+      "visual_at_review": {
+        "board": "scene-v71-sns-2",
+        "image": "images/sheet-scenes-sns-2-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNS006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sns-2",
+        "image": "images/sheet-scenes-sns-2-v71.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNS006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNS007",
+      "category": "scene_scifi_survival",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sns-2-v73.png",
+      "image_sha256": "0e1a9809b898e9345465ea9415ccc9848a1a4d1d7816884faee7671f8b95c965",
+      "visual_at_review": {
+        "board": "scene-v71-sns-2",
+        "image": "images/sheet-scenes-sns-2-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNS007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sns-2",
+        "image": "images/sheet-scenes-sns-2-v71.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNS007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNS008",
+      "category": "scene_scifi_survival",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-sns-2-v73.png",
+      "image_sha256": "0e1a9809b898e9345465ea9415ccc9848a1a4d1d7816884faee7671f8b95c965",
+      "visual_at_review": {
+        "board": "scene-v71-sns-2",
+        "image": "images/sheet-scenes-sns-2-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNS008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-sns-2",
+        "image": "images/sheet-scenes-sns-2-v71.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNS008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNU001",
+      "category": "scene_campus",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snu-1-v73.png",
+      "image_sha256": "7fc25a645312a8f30c950375caf3a550fb4451b4dd52d70d8b1013c5680fd412",
+      "visual_at_review": {
+        "board": "scene-v72-snu-1",
+        "image": "images/sheet-scenes-snu-1-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snu-1",
+        "image": "images/sheet-scenes-snu-1-v72.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNU002",
+      "category": "scene_campus",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snu-1-v73.png",
+      "image_sha256": "7fc25a645312a8f30c950375caf3a550fb4451b4dd52d70d8b1013c5680fd412",
+      "visual_at_review": {
+        "board": "scene-v72-snu-1",
+        "image": "images/sheet-scenes-snu-1-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snu-1",
+        "image": "images/sheet-scenes-snu-1-v72.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNU003",
+      "category": "scene_campus",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snu-1-v73.png",
+      "image_sha256": "7fc25a645312a8f30c950375caf3a550fb4451b4dd52d70d8b1013c5680fd412",
+      "visual_at_review": {
+        "board": "scene-v72-snu-1",
+        "image": "images/sheet-scenes-snu-1-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snu-1",
+        "image": "images/sheet-scenes-snu-1-v72.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNU004",
+      "category": "scene_campus",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snu-1-v73.png",
+      "image_sha256": "7fc25a645312a8f30c950375caf3a550fb4451b4dd52d70d8b1013c5680fd412",
+      "visual_at_review": {
+        "board": "scene-v72-snu-1",
+        "image": "images/sheet-scenes-snu-1-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snu-1",
+        "image": "images/sheet-scenes-snu-1-v72.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNU005",
+      "category": "scene_campus",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snu-2-v73.png",
+      "image_sha256": "9b3cbb9869dfce77549fb9e78bb850f4062608ac252df2e7ede5d5e82471623e",
+      "visual_at_review": {
+        "board": "scene-v72-snu-2",
+        "image": "images/sheet-scenes-snu-2-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snu-2",
+        "image": "images/sheet-scenes-snu-2-v72.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNU006",
+      "category": "scene_campus",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snu-2-v73.png",
+      "image_sha256": "9b3cbb9869dfce77549fb9e78bb850f4062608ac252df2e7ede5d5e82471623e",
+      "visual_at_review": {
+        "board": "scene-v72-snu-2",
+        "image": "images/sheet-scenes-snu-2-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snu-2",
+        "image": "images/sheet-scenes-snu-2-v72.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNU007",
+      "category": "scene_campus",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snu-2-v73.png",
+      "image_sha256": "9b3cbb9869dfce77549fb9e78bb850f4062608ac252df2e7ede5d5e82471623e",
+      "visual_at_review": {
+        "board": "scene-v72-snu-2",
+        "image": "images/sheet-scenes-snu-2-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snu-2",
+        "image": "images/sheet-scenes-snu-2-v72.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNU008",
+      "category": "scene_campus",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snu-2-v73.png",
+      "image_sha256": "9b3cbb9869dfce77549fb9e78bb850f4062608ac252df2e7ede5d5e82471623e",
+      "visual_at_review": {
+        "board": "scene-v72-snu-2",
+        "image": "images/sheet-scenes-snu-2-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snu-2",
+        "image": "images/sheet-scenes-snu-2-v72.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNU009",
+      "category": "scene_campus",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snu-3-v73.png",
+      "image_sha256": "8eefa479b234e50e4a65e8106b56f6614d659863b8e4eceed2ffdef54cc95682",
+      "visual_at_review": {
+        "board": "scene-v72-snu-3",
+        "image": "images/sheet-scenes-snu-3-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU009",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snu-3",
+        "image": "images/sheet-scenes-snu-3-v72.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU009",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNU010",
+      "category": "scene_campus",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snu-3-v73.png",
+      "image_sha256": "8eefa479b234e50e4a65e8106b56f6614d659863b8e4eceed2ffdef54cc95682",
+      "visual_at_review": {
+        "board": "scene-v72-snu-3",
+        "image": "images/sheet-scenes-snu-3-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU010",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snu-3",
+        "image": "images/sheet-scenes-snu-3-v72.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU010",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNU011",
+      "category": "scene_campus",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snu-3-v73.png",
+      "image_sha256": "8eefa479b234e50e4a65e8106b56f6614d659863b8e4eceed2ffdef54cc95682",
+      "visual_at_review": {
+        "board": "scene-v72-snu-3",
+        "image": "images/sheet-scenes-snu-3-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU011",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snu-3",
+        "image": "images/sheet-scenes-snu-3-v72.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU011",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNU012",
+      "category": "scene_campus",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snu-3-v73.png",
+      "image_sha256": "8eefa479b234e50e4a65e8106b56f6614d659863b8e4eceed2ffdef54cc95682",
+      "visual_at_review": {
+        "board": "scene-v72-snu-3",
+        "image": "images/sheet-scenes-snu-3-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU012",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snu-3",
+        "image": "images/sheet-scenes-snu-3-v72.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU012",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNU013",
+      "category": "scene_campus",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snu-4-v73.png",
+      "image_sha256": "27277cfec7bef73b3d041aa273342327538cd0703338b31dbcc20dea185bebb1",
+      "visual_at_review": {
+        "board": "scene-v72-snu-4",
+        "image": "images/sheet-scenes-snu-4-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU013",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snu-4",
+        "image": "images/sheet-scenes-snu-4-v72.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU013",
+        "aspect": 1.501953125,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 769,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNU014",
+      "category": "scene_campus",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snu-4-v73.png",
+      "image_sha256": "27277cfec7bef73b3d041aa273342327538cd0703338b31dbcc20dea185bebb1",
+      "visual_at_review": {
+        "board": "scene-v72-snu-4",
+        "image": "images/sheet-scenes-snu-4-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU014",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snu-4",
+        "image": "images/sheet-scenes-snu-4-v72.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU014",
+        "aspect": 1.498046875,
+        "crop": {
+          "x": 769,
+          "y": 0,
+          "width": 767,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNU015",
+      "category": "scene_campus",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snu-4-v73.png",
+      "image_sha256": "27277cfec7bef73b3d041aa273342327538cd0703338b31dbcc20dea185bebb1",
+      "visual_at_review": {
+        "board": "scene-v72-snu-4",
+        "image": "images/sheet-scenes-snu-4-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU015",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snu-4",
+        "image": "images/sheet-scenes-snu-4-v72.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU015",
+        "aspect": 1.501953125,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 769,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNU016",
+      "category": "scene_campus",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snu-4-v73.png",
+      "image_sha256": "27277cfec7bef73b3d041aa273342327538cd0703338b31dbcc20dea185bebb1",
+      "visual_at_review": {
+        "board": "scene-v72-snu-4",
+        "image": "images/sheet-scenes-snu-4-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU016",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snu-4",
+        "image": "images/sheet-scenes-snu-4-v72.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNU016",
+        "aspect": 1.498046875,
+        "crop": {
+          "x": 769,
+          "y": 512,
+          "width": 767,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNV001",
+      "category": "scene_culture_visit",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snv-1-v73.png",
+      "image_sha256": "351a14bbd92878025dc872f1490074d20c3fbec055a2e7411bf34d92f220def1",
+      "visual_at_review": {
+        "board": "scene-v72-snv-1",
+        "image": "images/sheet-scenes-snv-1-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNV001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snv-1",
+        "image": "images/sheet-scenes-snv-1-v72.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNV001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNV002",
+      "category": "scene_culture_visit",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snv-1-v73.png",
+      "image_sha256": "351a14bbd92878025dc872f1490074d20c3fbec055a2e7411bf34d92f220def1",
+      "visual_at_review": {
+        "board": "scene-v72-snv-1",
+        "image": "images/sheet-scenes-snv-1-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNV002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snv-1",
+        "image": "images/sheet-scenes-snv-1-v72.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNV002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNV003",
+      "category": "scene_culture_visit",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snv-1-v73.png",
+      "image_sha256": "351a14bbd92878025dc872f1490074d20c3fbec055a2e7411bf34d92f220def1",
+      "visual_at_review": {
+        "board": "scene-v72-snv-1",
+        "image": "images/sheet-scenes-snv-1-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNV003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snv-1",
+        "image": "images/sheet-scenes-snv-1-v72.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNV003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNV004",
+      "category": "scene_culture_visit",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snv-1-v73.png",
+      "image_sha256": "351a14bbd92878025dc872f1490074d20c3fbec055a2e7411bf34d92f220def1",
+      "visual_at_review": {
+        "board": "scene-v72-snv-1",
+        "image": "images/sheet-scenes-snv-1-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNV004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snv-1",
+        "image": "images/sheet-scenes-snv-1-v72.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNV004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNV005",
+      "category": "scene_culture_visit",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snv-2-v73.png",
+      "image_sha256": "f3c6a528fd9dfd9fd7b4b440da239558e49c44ecb0dc4e5bef32410747413b4b",
+      "visual_at_review": {
+        "board": "scene-v72-snv-2",
+        "image": "images/sheet-scenes-snv-2-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNV005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snv-2",
+        "image": "images/sheet-scenes-snv-2-v72-v2.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNV005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNV006",
+      "category": "scene_culture_visit",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snv-2-v73.png",
+      "image_sha256": "f3c6a528fd9dfd9fd7b4b440da239558e49c44ecb0dc4e5bef32410747413b4b",
+      "visual_at_review": {
+        "board": "scene-v72-snv-2",
+        "image": "images/sheet-scenes-snv-2-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNV006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snv-2",
+        "image": "images/sheet-scenes-snv-2-v72-v2.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNV006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNV007",
+      "category": "scene_culture_visit",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snv-2-v73.png",
+      "image_sha256": "f3c6a528fd9dfd9fd7b4b440da239558e49c44ecb0dc4e5bef32410747413b4b",
+      "visual_at_review": {
+        "board": "scene-v72-snv-2",
+        "image": "images/sheet-scenes-snv-2-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNV007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snv-2",
+        "image": "images/sheet-scenes-snv-2-v72-v2.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNV007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNV008",
+      "category": "scene_culture_visit",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snv-2-v73.png",
+      "image_sha256": "f3c6a528fd9dfd9fd7b4b440da239558e49c44ecb0dc4e5bef32410747413b4b",
+      "visual_at_review": {
+        "board": "scene-v72-snv-2",
+        "image": "images/sheet-scenes-snv-2-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNV008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v72-snv-2",
+        "image": "images/sheet-scenes-snv-2-v72-v2.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNV008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNW001",
+      "category": "scene_work_public",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snw-1-v73.png",
+      "image_sha256": "6660421ed82e57213115e53bece30c4bba7e15a87fdd22d06515b03a89a01250",
+      "visual_at_review": {
+        "board": "scene-v71-snw-1",
+        "image": "images/sheet-scenes-snw-1-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNW001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snw-1",
+        "image": "images/sheet-scenes-snw-1-v71.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNW001",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNW002",
+      "category": "scene_work_public",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snw-1-v73.png",
+      "image_sha256": "6660421ed82e57213115e53bece30c4bba7e15a87fdd22d06515b03a89a01250",
+      "visual_at_review": {
+        "board": "scene-v71-snw-1",
+        "image": "images/sheet-scenes-snw-1-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNW002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snw-1",
+        "image": "images/sheet-scenes-snw-1-v71.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNW002",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNW003",
+      "category": "scene_work_public",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snw-1-v73.png",
+      "image_sha256": "6660421ed82e57213115e53bece30c4bba7e15a87fdd22d06515b03a89a01250",
+      "visual_at_review": {
+        "board": "scene-v71-snw-1",
+        "image": "images/sheet-scenes-snw-1-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNW003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snw-1",
+        "image": "images/sheet-scenes-snw-1-v71.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNW003",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNW004",
+      "category": "scene_work_public",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snw-1-v73.png",
+      "image_sha256": "6660421ed82e57213115e53bece30c4bba7e15a87fdd22d06515b03a89a01250",
+      "visual_at_review": {
+        "board": "scene-v71-snw-1",
+        "image": "images/sheet-scenes-snw-1-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNW004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snw-1",
+        "image": "images/sheet-scenes-snw-1-v71.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNW004",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNW005",
+      "category": "scene_work_public",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snw-2-v73.png",
+      "image_sha256": "510192c168696843b1c0245bf8afae84caa188dd55c6d9285d9f454175b46086",
+      "visual_at_review": {
+        "board": "scene-v71-snw-2",
+        "image": "images/sheet-scenes-snw-2-v73.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNW005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snw-2",
+        "image": "images/sheet-scenes-snw-2-v71.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNW005",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNW006",
+      "category": "scene_work_public",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snw-2-v73.png",
+      "image_sha256": "510192c168696843b1c0245bf8afae84caa188dd55c6d9285d9f454175b46086",
+      "visual_at_review": {
+        "board": "scene-v71-snw-2",
+        "image": "images/sheet-scenes-snw-2-v73.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNW006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snw-2",
+        "image": "images/sheet-scenes-snw-2-v71.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNW006",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNW007",
+      "category": "scene_work_public",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snw-2-v73.png",
+      "image_sha256": "510192c168696843b1c0245bf8afae84caa188dd55c6d9285d9f454175b46086",
+      "visual_at_review": {
+        "board": "scene-v71-snw-2",
+        "image": "images/sheet-scenes-snw-2-v73.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNW007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snw-2",
+        "image": "images/sheet-scenes-snw-2-v71.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNW007",
+        "aspect": 1.5,
+        "crop": {
+          "x": 0,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    },
+    {
+      "entry_id": "SNW008",
+      "category": "scene_work_public",
+      "field": "visual",
+      "result": "image-replaced-and-rechecked",
+      "image": "images/sheet-scenes-snw-2-v73.png",
+      "image_sha256": "510192c168696843b1c0245bf8afae84caa188dd55c6d9285d9f454175b46086",
+      "visual_at_review": {
+        "board": "scene-v71-snw-2",
+        "image": "images/sheet-scenes-snw-2-v73.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNW008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "visual_before": {
+        "board": "scene-v71-snw-2",
+        "image": "images/sheet-scenes-snw-2-v71.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "SNW008",
+        "aspect": 1.5,
+        "crop": {
+          "x": 768,
+          "y": 512,
+          "width": 768,
+          "height": 512,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      },
+      "method": "full-board-visual-review-and-pixel-divider-check"
+    }
+  ]
+}

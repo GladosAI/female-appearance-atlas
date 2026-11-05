@@ -6,6 +6,10 @@ const root=path.resolve(__dirname,'../..'),base=process.env.ATLAS_TEST_URL||path
 const data=JSON.parse(fs.readFileSync(path.join(root,'data/catalog.json'),'utf8'));
 (async()=>{const scenes=data.entries.filter(e=>e.scene_reference);assert(scenes.length>=60);
  const categories=[...new Set(scenes.map(e=>e.category))];
+ const campus=scenes.filter(e=>e.category==='scene_campus');
+ assert(campus.length>0);for(const scene of campus)assert(/初中|高中|中学/.test(scene.description),scene.id+' secondary-school context');
+ assert.equal(scenes.find(e=>e.id==='SNW005').name,'中学教室授课场景');
+ assert(!/大学|学位服|学位帽/.test(scenes.find(e=>e.id==='SNU016').description),'Graduation scene describes secondary-school uniforms');
  const browser=await launchBrowser();try{
  const page=await browser.newPage({viewport:{width:1280,height:900}}),errors=[];page.on('pageerror',error=>errors.push(error.message));
  await page.goto(base+'?section=branch_scene_character_design');
