@@ -1,6 +1,6 @@
 {
   "name": "female-appearance-atlas",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "private": true,
   "description": "女性之美：可检索、可组合的女性角色外观素材仓库",
   "engines": {
@@ -11,7 +11,7 @@
     "check": "python tools/validate_atlas.py",
     "check:metadata": "python tools/validate_atlas.py --metadata-only",
     "test": "python -m unittest discover -s tests -v",
-    "test:browser": "node tools/qa/verify_repository_workflows.cjs && node tools/qa/verify_system_examples.cjs && node tools/qa/verify_community_tools.cjs && node tools/qa/verify_scenes.cjs",
+    "test:browser": "node tools/qa/verify_repository_workflows.cjs && node tools/qa/verify_system_examples.cjs && node tools/qa/verify_community_tools.cjs && node tools/qa/verify_scenes.cjs && node tools/qa/verify_i18n.cjs",
     "images:offline": "node tools/prepare_image_exports.cjs",
     "test:web": "node tools/qa/verify_web_release.cjs",
     "check:generated": "python tools/build_atlas.py --check-generated"

@@ -2,7 +2,7 @@
   <div class="library-heading"><div><p class="eyebrow">CHARACTER COLLECTIONS</p><h1 id="library-title" tabindex="-1">外观卡</h1><p>为每个角色保存一套图鉴，也可以从系统示例开始。</p></div><button type="button" class="btn primary" data-card-action="new">＋ 新建外观卡</button></div>
   <p id="card-storage-notice" class="notice" role="status" hidden></p>
   <p class="card-backup-info"><span>我的外观卡仅保存在当前浏览器。</span><span id="card-backup-status" aria-live="polite">尚未导出全部外观卡</span></p>
-  <div id="card-undo" class="card-undo" role="status" hidden><span id="card-undo-message"></span><button type="button" data-card-action="undo">撤销操作</button></div>
+  <div id="card-undo" class="card-undo" role="status" hidden><span id="card-undo-message" data-i18n-skip></span><button type="button" data-card-action="undo">撤销操作</button></div>
   <div id="card-library-home">
     <div class="library-tabs" role="group" aria-label="外观卡来源"><button type="button" data-card-tab="mine" aria-pressed="true">我的外观卡 <span id="personal-card-total">0</span></button><button type="button" data-card-tab="examples" aria-pressed="false">系统示例 <span>__COMBO_COUNT__</span></button></div>
     <div class="library-tools"><label class="library-search"><span class="sr-only">查找外观卡</span><input id="card-library-search" type="search" placeholder="查找名称、设定或部件" autocomplete="off"></label><div class="card-actions"><button type="button" class="btn" id="import-card">导入外观卡</button><button type="button" class="btn" data-card-action="export-library">备份全部</button></div></div>
@@ -12,8 +12,8 @@
   </div>
   <div id="card-library-detail" hidden>
     <button type="button" class="card-back" data-card-action="back">← 返回外观卡列表</button>
-    <div class="appearance-card-heading"><div><span id="card-source-label" class="tag"></span><h2 id="appearance-card-title" tabindex="-1"></h2><p id="card-count"></p></div><div id="card-detail-actions" class="card-actions"></div></div>
-    <p id="card-notes-preview" class="card-notes-preview" hidden></p>
+    <div class="appearance-card-heading"><div><span id="card-source-label" class="tag"></span><h2 id="appearance-card-title" tabindex="-1" data-i18n-skip></h2><p id="card-count"></p></div><div id="card-detail-actions" class="card-actions"></div></div>
+    <p id="card-notes-preview" class="card-notes-preview" data-i18n-skip hidden></p>
     <div id="system-example-navigation" class="example-navigation" hidden><button type="button" class="btn" data-example-step="-1">← 上一角色</button><span id="system-example-position"></span><button type="button" class="btn" data-example-step="1">下一角色 →</button></div>
     <section id="card-settings" class="card-panel" hidden><div class="card-editor-heading"><h3>编辑外观卡</h3><span>自动保存</span></div><div class="card-settings-fields"><label for="card-name">外观卡名称</label><input id="card-name" maxlength="200" placeholder="为这个角色命名"><label for="card-notes">角色设定与备注</label><textarea id="card-notes" maxlength="10000" placeholder="记录角色设定、配色、固定识别点和需要的差分…"></textarea></div></section>
     <div class="card-gallery-heading"><h3>图鉴集合</h3><div class="card-actions"><button type="button" class="btn" id="card-entry-sort" data-card-sort-toggle>按加入时间 ↓</button><button type="button" class="btn primary" id="open-card-synthesis" aria-haspopup="dialog" aria-controls="card-synthesis-dialog">导出AI提示词</button><button type="button" class="btn" data-card-action="browse">返回图鉴浏览 ↗</button></div></div>
@@ -21,14 +21,14 @@
     <p class="card-resources">参考资料：<a href="docs/character-template.md" target="_blank">人设模板 ↗</a></p>
   </div>
 </section>
-<dialog id="card-action-dialog" class="card-action-dialog" aria-labelledby="card-action-title"><h2 id="card-action-title"></h2><p id="card-action-message"></p><div class="card-actions"><button id="card-action-cancel" type="button" class="btn" autofocus>取消</button><button id="card-action-confirm" type="button" class="btn primary">确认操作</button></div></dialog>
+<dialog id="card-action-dialog" class="card-action-dialog" aria-labelledby="card-action-title"><h2 id="card-action-title" data-i18n-skip></h2><p id="card-action-message"></p><div class="card-actions"><button id="card-action-cancel" type="button" class="btn" autofocus>取消</button><button id="card-action-confirm" type="button" class="btn primary">确认操作</button></div></dialog>
 <dialog id="appearance-picker" class="appearance-picker" aria-labelledby="appearance-picker-title" aria-describedby="appearance-picker-entry">
   <form id="appearance-picker-form">
     <div class="appearance-picker-heading"><h2 id="appearance-picker-title">添加到外观卡</h2><button id="appearance-picker-close" type="button" aria-label="关闭卡片选择">×</button></div>
-    <p id="appearance-picker-entry"></p>
+    <p id="appearance-picker-entry" data-i18n-skip></p>
     <label id="appearance-picker-search-wrap" class="library-search" hidden><span class="sr-only">搜索外观卡名称</span><input id="appearance-picker-search" type="search" placeholder="搜索外观卡名称" autocomplete="off"></label>
     <fieldset class="appearance-picker-choices"><legend class="sr-only">选择一张外观卡</legend><div id="appearance-picker-options"></div><label class="appearance-picker-choice"><input type="radio" name="appearance-destination" value="__new__" id="appearance-picker-new"><span>＋ 新建外观卡</span></label></fieldset>
     <label id="appearance-picker-name-wrap" class="appearance-picker-name" hidden><span>新卡名称</span><input id="appearance-picker-name" maxlength="200" autocomplete="off"></label>
-    <div class="appearance-picker-footer"><button type="submit" id="appearance-picker-add" class="btn primary"></button></div>
+    <div class="appearance-picker-footer"><button type="submit" id="appearance-picker-add" class="btn primary" data-i18n-skip data-i18n-skip-attributes></button></div>
   </form>
 </dialog>

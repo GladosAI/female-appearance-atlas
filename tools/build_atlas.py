@@ -26,6 +26,11 @@ if __name__ == "__main__":
         if strip((root/'.work/previews/index-v2-preview.html').read_text(encoding='utf-8'))!=strip((root/'index.html').read_text(encoding='utf-8')):
             differing.append('index.html/template')
         from contribution_tools import contribution_files
+        from localization_delivery import localization_files
+        for relative,text in localization_files(root,expected).items():
+            path=root/relative
+            if not path.exists() or path.read_text(encoding='utf-8')!=text:
+                differing.append(relative)
         for relative,text in contribution_files(root,expected).items():
             path=root/relative
             if not path.exists() or path.read_text(encoding='utf-8')!=text:

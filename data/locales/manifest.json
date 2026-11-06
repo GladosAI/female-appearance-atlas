@@ -1,0 +1,15 @@
+{
+  "schema": "female-appearance-locale-assets/v1",
+  "locales": {
+    "en": {
+      "path": "data/locales/en.js",
+      "sha256": "ccd1614a353da40c4aa714011c67521289336d9b6d6bba1c18261b76b5de7556",
+      "bytes": 2593450
+    },
+    "ja": {
+      "path": "data/locales/ja.js",
+      "sha256": "fdd451537e9dbc3096c41c903250618e209ad2c91511d05859399141538efb3b",
+      "bytes": 2863722
+    }
+  }
+}

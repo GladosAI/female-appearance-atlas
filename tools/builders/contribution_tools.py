@@ -29,6 +29,8 @@ def contribution_files(root, data):
     template=(root/'tools/templates/contribute.html').read_text(encoding='utf-8')
     template=template.replace('__CONTRIBUTE_SCRIPT__',(root/'tools/templates/contribute.js').read_text(encoding='utf-8'))
     template=apply_brand_assets(root,apply_theme_palettes(root,template))
+    from localization_delivery import apply_localization
+    template=apply_localization(root,template,data,include_search=False)
     return {'contribute.html':template,'assets/contribution-index.js':
             'window.ATLAS_CONTRIBUTION='+json.dumps(payload,ensure_ascii=False,separators=(',',':'))+';\n'}
 

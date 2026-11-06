@@ -90,6 +90,7 @@ from game_design_docs import write_game_design_docs
 from scene_docs import write_scene_docs
 from rights_docs import write_rights_docs
 from system_examples import prepare_system_examples, example_coverage, write_example_docs
+from localization_delivery import apply_localization, write_localization
 from trend_model_docs import write_trend_model_docs
 from wedding_docs import write_wedding_docs
 from costume_hair_docs import write_costume_hair_docs
@@ -496,6 +497,7 @@ def build(partial=False, package=True, image_exports=True, check_assets=True):
     template=template.replace('__LOADING_SCRIPT__',(ROOT/'tools/templates/lazy_thumbnails.js').read_text(encoding='utf-8'))
     template=template.replace('__CONTENT_MAJOR__',meta['version'].split('.')[0])
     template=apply_brand_assets(ROOT,template)
+    template=apply_localization(ROOT,template,data)
     template=template.replace('__NAVIGATION_DATA__',json.dumps(navigation,ensure_ascii=False,separators=(',',':')).replace('</','<\\/'))
     replacements={'__CLOTHING_COUNT__':str(meta['clothing_count']),'__ATLAS_DATA__':json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('</','<\\/'),'__ENTRY_COUNT__':str(len(entries)),'__ILLUSTRATED_COUNT__':str(illustrated),'__BOARD_COUNT__':str(len(boards)),'__REFERENCE_COUNT__':str(len(refs)),'__READING_COUNT__':str(len(refs)-6),'__COMBO_COUNT__':str(meta['combination_count']),'__CATEGORY_COUNT__':str(len(categories)),'__DOMAIN_COUNT__':str(len(navigation['groups'])),'__SECTION_COUNT__':str(navigation['section_count'])}
     for old,new in replacements.items():template=template.replace(old,new)
@@ -505,6 +507,7 @@ def build(partial=False, package=True, image_exports=True, check_assets=True):
         (ROOT/'.work/previews/index-v2-preview.html').write_text(template,encoding='utf-8')
         print(json.dumps({'preview_entries':len(entries),'image_checks':check_assets}));return data
     (ROOT/'index.html').write_text(template,encoding='utf-8')
+    write_localization(ROOT,data)
     for fname,obj in [('data/catalog.json',data),('data/illustrations.json',boards),('data/references.json',refs),('data/combinations.json',combos),('data/navigation.json',navigation)]:
         (ROOT/fname).write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     write_json(ROOT/'source/id-registry.json',registry)

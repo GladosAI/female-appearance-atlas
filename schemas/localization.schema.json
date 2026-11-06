@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:female-appearance-atlas:localization:v1",
+  "title": "Atlas maintained translation overlay",
+  "type": "object",
+  "required": ["schema", "locale", "messages", "entries"],
+  "properties": {
+    "schema": {"const": "female-appearance-i18n/v1"},
+    "locale": {"enum": ["en", "ja"]},
+    "messages": {"type": "object", "additionalProperties": {"type": "string", "minLength": 1}},
+    "message_review": {"type": "object", "additionalProperties": {"enum": ["draft", "reviewed"]}},
+    "entries": {"type": "object", "additionalProperties": {"$ref": "#/$defs/entry"}},
+    "source_hashes": {"type": "object", "additionalProperties": {"type": "object", "additionalProperties": {"type": "string", "pattern": "^[0-9a-f]{64}$"}}},
+    "review": {"type": "object", "additionalProperties": {"type": "object", "additionalProperties": {"enum": ["draft", "reviewed"]}}}
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "description": {"type": "string", "minLength": 1},
+        "design_tip": {"type": "string", "minLength": 1},
+        "aliases": {"type": "array", "items": {"type": "string", "minLength": 1}}
+      },
+      "additionalProperties": {"type": "string", "minLength": 1}
+    }
+  },
+  "additionalProperties": true
+}

@@ -26,10 +26,10 @@ async function showDetail(id){
  if(window.ATLAS_WEB){
   $('detail-heading').textContent=entry.id+' · '+categoryName(entry.category);
   $('detail-content').setAttribute('aria-busy','true');
-  $('detail-content').innerHTML=`<div class="detail-copy" role="status" aria-live="polite"><h2>${esc(entry.name)}</h2><p>正在读取详细资料…</p></div>`;
+  $('detail-content').innerHTML=`<div class="detail-copy" role="status" aria-live="polite"><h2 data-i18n-skip>${esc(entryName(entry))}</h2><p>正在读取详细资料…</p></div>`;
   if(!$('detail-dialog').open)$('detail-dialog').showModal();
   try{await ensureEntryDetails(entry)}catch(error){
-   if(serial===detailRequestSerial&&currentEntryId===id&&$('detail-dialog').open){$('detail-content').setAttribute('aria-busy','false');$('detail-content').innerHTML=`<div class="detail-copy" role="alert"><h2>${esc(entry.name)}</h2><p>${esc(error.message)}</p><button class="btn" data-detail="${esc(id)}">重新加载</button></div>`}
+   if(serial===detailRequestSerial&&currentEntryId===id&&$('detail-dialog').open){$('detail-content').setAttribute('aria-busy','false');$('detail-content').innerHTML=`<div class="detail-copy" role="alert"><h2 data-i18n-skip>${esc(entryName(entry))}</h2><p>${esc(error.message)}</p><button class="btn" data-detail="${esc(id)}">重新加载</button></div>`}
    return;
   }
   if(serial!==detailRequestSerial||currentEntryId!==id||!$('detail-dialog').open)return;

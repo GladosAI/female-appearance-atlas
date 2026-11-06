@@ -8,11 +8,11 @@ async function backupDigest(payload){
 async function renderLibraryBackupStatus(){
  const generation=++backupRenderGeneration,node=$('card-backup-status');if(!node)return;
  let record;try{record=JSON.parse(localStorage.getItem(libraryBackupKey)||'null')}catch{}
- if(!record?.exportedAt||Number.isNaN(Date.parse(record.exportedAt))){node.textContent='尚未导出全部外观卡';delete node.dataset.changed;return}
- const date=new Date(record.exportedAt).toLocaleString('zh-CN',{year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false});
+ if(!record?.exportedAt||Number.isNaN(Date.parse(record.exportedAt))){node.textContent=ct('尚未导出全部外观卡');delete node.dataset.changed;return}
+ const date=new Date(record.exportedAt).toLocaleString(globalThis.AtlasI18n?.localeTag()||'zh-CN',{year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false});
  let changed=false;try{const digest=await backupDigest(appearanceBackupPayload());changed=!!digest&&!!record.digest&&digest!==record.digest}catch{}
  if(generation!==backupRenderGeneration)return;
- const text='最近全部导出：'+date+(changed?' · 此后有新修改':'');
+ const text=ct('最近全部导出：{date}',{date})+(changed?' · '+ct('此后有新修改'):'');
  if(node.textContent!==text)node.textContent=text;node.dataset.changed=String(changed);
 }
 async function recordLibraryExport(payload,exportedAt){

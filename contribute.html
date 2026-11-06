@@ -15,9 +15,16 @@
 :root[data-theme="dark-forest"]{--bg:#13211e;--surface:#20342e;--ink:#e3ece6;--muted:#acbeb3;--line:#365247;--accent:#a4ccb1;--soft:#2b4439;--gold:#c8be98;--support:#b7c9a9;--support-soft:#324231;--accent-ink:#152b22;--sidebar-bg:#182923;--field-bg:#172a23;--field-line:#678879;--backdrop:#081b14b3;--shadow:0 8px 30px #0004;color-scheme:dark;}
 :root[data-theme="system"]{--bg:#f7f5f2;--surface:#fffefd;--ink:#302c2e;--muted:#716a6c;--line:#e5dcdd;--accent:#92596c;--soft:#f2e7eb;--gold:#8b7258;--support:#4f6a5d;--support-soft:#eef2ee;--accent-ink:#fffafd;--sidebar-bg:#fffefd;--field-bg:#fffefd;--field-line:#e5dcdd;--backdrop:#211b228c;--shadow:0 8px 30px #30252c0b;color-scheme:light;}
 @media(prefers-color-scheme:dark){:root[data-theme="system"]{--bg:#17191d;--surface:#23272d;--ink:#e8e6e1;--muted:#b0b3b8;--line:#3c424b;--accent:#c6b18b;--soft:#30353d;--gold:#c6b18b;--support:#a5b7b2;--support-soft:#293532;--accent-ink:#202327;--sidebar-bg:#1c1f24;--field-bg:#1d2024;--field-line:#626c78;--backdrop:#101216b3;--shadow:0 8px 30px #0004;color-scheme:dark;}}
+.language-picker{display:inline-flex;align-items:center;gap:7px;flex-shrink:0;font-size:12px;color:var(--muted)}.language-picker select{max-width:124px;min-height:36px;padding:7px 26px 7px 10px;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:9px}.language-load-error{padding:12px;border:1px solid var(--accent);border-radius:8px;background:var(--soft);margin-bottom:18px;font-size:12px}.language-load-error button{text-decoration:underline;background:transparent;color:var(--accent)}.translation-fallback{display:inline-block;font-size:9px;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:1px 4px;margin-left:5px;font-weight:400;vertical-align:middle}html[lang=en] .brand strong{font-size:20px;line-height:1.3}html[lang=en] .brand-subtitle{font-size:10px}html[lang=en] .tree-heading strong{overflow-wrap:anywhere}html:not([lang=zh-CN]) .tree-summary{gap:7px}html:not([lang=zh-CN]) .tree-action{min-width:0}html:not([lang=zh-CN]) .nav button{overflow-wrap:anywhere}html:not([lang=zh-CN]) .category-controls label>span{width:auto;min-width:45px}html:not([lang=zh-CN]) .topline-actions{flex-wrap:wrap}@media(max-width:560px){.language-picker{font-size:10px;gap:4px}.language-picker select{min-height:34px;max-width:106px;padding:6px 18px 6px 8px;font-size:11px}html[lang=en] .brand strong{font-size:18px}html:not([lang=zh-CN]) .hierarchy-controls>label>span{flex-basis:auto;min-width:48px}html:not([lang=zh-CN]) .results-toolbar{gap:9px}html:not([lang=zh-CN]) .tree-summary{gap:5px}}
+
+.tree-action::after{content:var(--tree-expand-label,'展开')}#categories.catalog-tree details[open]>.tree-summary>.tree-action::after{content:var(--tree-collapse-label,'收起')}
+html[lang=ja]{font-family:"Yu Gothic UI","Hiragino Kaku Gothic ProN","Noto Sans JP",system-ui,sans-serif}html[lang=en]{font-family:system-ui,"Segoe UI",sans-serif}
+
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.7 "Microsoft YaHei",system-ui,sans-serif}main{max-width:1040px;margin:auto;padding:32px 24px 60px}a{color:var(--accent);text-underline-offset:3px}h1{margin:18px 0 8px;font-size:30px}h2{margin:0 0 16px;font-size:18px}p{margin:8px 0 16px}.muted,small{color:var(--muted);font-size:12px}.panel{border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:22px;margin-top:20px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:16px}.wide{grid-column:1/-1}label{display:grid;gap:6px;font-size:13px}input,textarea,select{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--field-bg);color:var(--ink);font:inherit;min-width:0}textarea{min-height:90px;resize:vertical}input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}.actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:18px}button,.button{border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);padding:10px 14px;font:inherit;cursor:pointer;text-decoration:none;font-size:13px}button:disabled{opacity:.5;cursor:default}.primary{background:var(--accent);color:var(--accent-ink)}.preview{max-width:100%;max-height:340px;display:block;margin:16px auto;object-fit:contain}.consent{display:flex;gap:10px;align-items:flex-start}.consent input{width:auto;margin-top:7px}#proposal{min-height:210px;font:12px/1.6 ui-monospace,monospace}#nearby{padding-left:22px;margin-bottom:0}#nearby li{margin:8px 0}#proposal-status{margin:0;color:var(--muted);font-size:12px}#image-status{overflow-wrap:anywhere}details summary{cursor:pointer;color:var(--muted);font-size:13px}[hidden]{display:none!important}@media(max-width:620px){main{padding:20px 14px 40px}.panel{padding:16px}.fields{grid-template-columns:1fr}.wide{grid-column:auto}h1{font-size:25px}.actions>*{max-width:100%}}
+
+.contribution-topline{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.contribution-topline .language-picker{display:inline-flex;align-items:center;gap:7px}.contribution-topline .language-picker select{width:auto;min-width:100px}
 </style></head><body><main>
-<a href="index.html?view=directory">← 女性之美</a><h1>贡献一个素材词条</h1>
+<div class="contribution-topline"><a href="index.html?view=directory">← 女性之美</a><label class="language-picker"><span>语言</span><select id="language-select" aria-label="页面语言"><option value="zh" lang="zh-CN" data-i18n-skip>简体中文</option><option value="en" lang="en" data-i18n-skip>English</option><option value="ja" lang="ja" data-i18n-skip>日本語</option></select></label></div><h1>贡献一个素材词条</h1>
 <p class="muted">先确认是否已收录，再整理一个词条与一张完整配图。图片仅在本机预览；导出的文件与原图由你提交，维护者审核后收录。</p>
 <section class="panel"><h2>1. 先找近似词条</h2><label for="existing-search">名称、英文或别名<input id="existing-search" type="search" placeholder="例如：高马尾、丝巾、pony tail" autocomplete="off"></label><ul id="nearby"><li class="muted">输入关键词，避免重复制作已有词条。</li></ul></section>
 <form id="contribution-form">
@@ -38,22 +45,167 @@
 </div></section>
 <section class="panel"><h2>导出与提交</h2><p class="muted">编号是当前建议，不代表占用名额。请将贡献文件与原图一并附在素材反馈中；不会自动修改图鉴或授权记录。</p><textarea id="proposal" readonly aria-label="贡献文件预览" placeholder="填写完必需项后显示贡献文件。"></textarea><div class="actions"><button type="submit" class="primary" id="download-proposal" disabled>导出贡献文件</button><button type="button" id="download-image" disabled>下载命名后的原图</button><a class="button" href="https://github.com/GladosAI/female-appearance-atlas/issues/new?template=material.yml" target="_blank" rel="noopener noreferrer">打开素材反馈 ↗</a><span id="proposal-status" role="status"></span></div></section>
 </form><p class="muted">贡献方法与审核要求见 <a href="CONTRIBUTING.md" target="_blank">贡献指南</a>。代码MIT；有权授权的项目素材按CC BY-NC 4.0非商业许可接纳，第三方例外保留原条件。</p>
-</main><script src="assets/contribution-index.js"></script><script>(()=>{'use strict';
+</main><script src="assets/contribution-index.js"></script><script>globalThis.ATLAS_LOCALE_PATHS={"en":"data/locales/en.js?v=ccd1614a353d","ja":"data/locales/ja.js?v=fdd451537e9d"};
+globalThis.ATLAS_LOCALE_SEARCH={};
+// Display translations overlay immutable catalog records; IDs and storage stay canonical.
+(()=>{'use strict';
+ const supported=new Set(['zh','en','ja']),storageKey='female-beauty-language-v1';
+ const canonicalLocale=value=>({zh:'zh','zh-cn':'zh','zh-hans':'zh',en:'en','en-us':'en','en-gb':'en',ja:'ja','ja-jp':'ja'}[String(value||'').toLowerCase()]||null);
+ let saved=null;try{saved=localStorage.getItem(storageKey)}catch{}
+ const requested=canonicalLocale(new URLSearchParams(location.search).get('lang'))||canonicalLocale(saved)||'zh';
+ const api={locale:requested,requestedLocale:requested,loadError:null};
+ const loading=new Map(),patterns=new Map(),translatedValues=new Map(),translatedNodes=new WeakMap(),translatedAttributes=new WeakMap(),originalTitle=document.title;globalThis.ATLAS_LOCALES??={};
+ const pack=locale=>globalThis.ATLAS_LOCALES[canonicalLocale(locale)||api.locale];
+ const localeTag=locale=>({zh:'zh-CN',en:'en',ja:'ja'}[canonicalLocale(locale)||api.locale]);
+ function ensure(locale){
+  locale=canonicalLocale(locale)||'zh';if(locale==='zh')return Promise.resolve(null);
+  if(pack(locale))return Promise.resolve(pack(locale));if(loading.has(locale))return loading.get(locale);
+  const promise=new Promise((resolve,reject)=>{
+   const script=document.createElement('script'),path=globalThis.ATLAS_LOCALE_PATHS?.[locale]||`data/locales/${locale}.js`;
+   const timer=setTimeout(()=>finish(new Error('Language pack timed out: '+locale)),20000);
+   function finish(error){clearTimeout(timer);script.remove();if(error){loading.delete(locale);reject(error)}else if(!pack(locale)){loading.delete(locale);reject(new Error('Invalid language pack: '+locale))}else{patterns.delete(locale);patterns.delete(locale+'|dom');translatedValues.delete(locale);resolve(pack(locale))}}
+   script.src=new URL(path,document.baseURI).href;script.async=true;script.onload=()=>finish();script.onerror=()=>finish(new Error('Language pack could not load: '+locale));document.head.append(script);
+  });loading.set(locale,promise);return promise;
+ }
+ function text(value,locale=api.locale,protectTranslated=true){
+  const source=String(value??'');locale=canonicalLocale(locale)||api.locale;if(locale==='zh'||!source)return source;
+  const messages=pack(locale)?.messages||{},trimmed=source.trim();
+  if(protectTranslated){
+   if(!translatedValues.has(locale)){
+    const values=Object.values(messages);
+    for(const entry of Object.values(pack(locale)?.entries||{}))for(const value of Object.values(entry))if(typeof value==='string')values.push(value);
+    translatedValues.set(locale,new Set(values));
+   }
+   if(translatedValues.get(locale).has(trimmed))return source;
+  }
+  if(typeof messages[source]==='string')return messages[source];
+  if(typeof messages[trimmed]==='string')return source.replace(trimmed,messages[trimmed]);
+  // Complete literal messages take precedence. Substrings cover counts and labels
+  // assembled by legacy templates, without rewriting IDs, URLs or form values.
+  if(!/[\u3400-\u9fff]/u.test(source))return source;
+  const patternKey=locale+(protectTranslated?'|dom':'');
+  if(!patterns.has(patternKey)){
+   const candidates=Object.keys(messages).filter(key=>typeof messages[key]==='string');
+   if(protectTranslated){
+    candidates.push(...Object.values(messages));
+    // Protect names embedded in formatted labels. Whole translated descriptions
+    // are handled by the value set without enlarging the substring matcher.
+    for(const entry of Object.values(pack(locale)?.entries||{}))if(entry.name)candidates.push(entry.name);
+   }
+   const keys=[...new Set(candidates)].filter(key=>key.length>=2&&/[\u3400-\u9fff]/u.test(key)).sort((a,b)=>b.length-a.length);
+   patterns.set(patternKey,keys.length?new RegExp(keys.map(key=>key.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|'),'gu'):null);
+  }
+  const pattern=patterns.get(patternKey);return pattern?source.replace(pattern,key=>protectTranslated&&translatedValues.get(locale).has(key)?key:messages[key]):source;
+ }
+ function translation(entry,field,locale=api.locale){
+  locale=canonicalLocale(locale)||api.locale;
+  if(locale==='zh')return {value:entry?.[field]??'',locale:'zh'};
+  const translated=pack(locale)?.entries?.[entry?.id]?.[field];
+  if(typeof translated==='string'&&translated.trim())return {value:translated,locale};
+  const shared=pack(locale)?.messages?.[entry?.[field]];
+  if(typeof shared==='string'&&shared.trim())return {value:shared,locale};
+  if(field==='name'){
+   const english=pack('en')?.entries?.[entry?.id]?.name||entry?.en;
+   if(english)return {value:english,locale:'en'};
+  }
+  if(locale==='ja'){
+   const english=pack('en')?.entries?.[entry?.id]?.[field]||pack('en')?.messages?.[entry?.[field]];
+   if(typeof english==='string'&&english.trim())return {value:english,locale:'en'};
+  }
+  return {value:entry?.[field]??'',locale:'zh'};
+ }
+ const entryText=(entry,field,locale)=>translation(entry,field,locale).value;
+ const entryName=(entry,locale)=>entryText(entry,'name',locale);
+ const entryLanguage=(entry,field='name',locale)=>localeTag(translation(entry,field,locale).locale);
+ const hasTranslation=(entry,field='name',locale=api.locale)=>translation(entry,field,locale).locale===(canonicalLocale(locale)||api.locale);
+ const format=(source,values={},locale=api.locale)=>text(source,locale).replace(/\{([A-Za-z][A-Za-z0-9_]*)\}/g,(token,key)=>Object.hasOwn(values,key)?String(values[key]):token);
+ function translateElement(element){
+  if(!element?.getAttribute||element.closest('[data-i18n-skip]'))return;
+  if(!element.hasAttribute('data-i18n-skip-attributes'))for(const attribute of ['aria-label','aria-description','placeholder','title']){
+   if(element.hasAttribute(attribute)){
+    const current=element.getAttribute(attribute),previous=translatedAttributes.get(element)?.get(attribute);
+    if(previous?.target===current&&previous.locale===api.locale)continue;
+    const source=previous?.target===current?previous.source:current;
+    const target=text(source,api.locale,true);if(!translatedAttributes.has(element))translatedAttributes.set(element,new Map());
+    translatedAttributes.get(element).set(attribute,{source,target,locale:api.locale});if(target!==current)element.setAttribute(attribute,target);
+   }
+  }
+ }
+ function translateTree(root){
+  if(!root)return;
+  if(root.nodeType===Node.TEXT_NODE){
+   const parent=root.parentElement;if(!parent||parent.closest('script,style,textarea,code,pre,[data-i18n-skip],[contenteditable="true"]'))return;
+   const current=root.nodeValue,previous=translatedNodes.get(root);if(previous?.target===current&&previous.locale===api.locale)return;
+   const source=previous?.target===current?previous.source:current;
+   const target=text(source,api.locale,true);translatedNodes.set(root,{source,target,locale:api.locale});if(current!==target)root.nodeValue=target;return;
+  }
+  if(root.nodeType!==Node.ELEMENT_NODE&&root.nodeType!==Node.DOCUMENT_NODE)return;
+  if(root.nodeType===Node.ELEMENT_NODE){translateElement(root);if(root.matches('script,style,textarea,code,pre,[data-i18n-skip],[contenteditable="true"]'))return}
+  for(const child of root.childNodes)translateTree(child);
+ }
+ let observer;
+ function apply(){
+  document.documentElement.lang=localeTag();document.title=text(originalTitle);translateTree(document.body);
+  for(const element of document.querySelectorAll('[data-i18n-format]')){
+   element.textContent=format(element.dataset.i18nFormat,JSON.parse(element.dataset.i18nValues||'{}'));
+  }
+  document.documentElement.style.setProperty('--tree-expand-label',JSON.stringify(text('展开')));document.documentElement.style.setProperty('--tree-collapse-label',JSON.stringify(text('收起')));
+  const selector=document.getElementById('language-select');if(selector)selector.value=api.locale;
+  // Language is part of shareable internal URLs; raw data and external links are unchanged.
+  for(const link of document.querySelectorAll('a[href]')){
+   const url=new URL(link.href,document.baseURI);
+   if(url.origin===location.origin&&(/(?:^|\/)(?:index|contribute)\.html$/.test(url.pathname)||url.pathname.endsWith('/'))&&url.protocol===location.protocol&&(api.locale!=='zh'||url.searchParams.has('lang'))){url.searchParams.set('lang',api.locale);if(link.href!==url.href)link.href=url.href}
+  }
+ }
+ function observe(){
+  apply();if(observer)return;
+  observer=new MutationObserver(records=>{
+   for(const record of records){
+    if(record.type==='characterData')translateTree(record.target);
+    else if(record.type==='attributes')translateElement(record.target);
+    else for(const node of record.addedNodes)translateTree(node);
+   }
+  });observer.observe(document.body,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:['aria-label','aria-description','placeholder','title']});
+ }
+ function switchLanguage(locale){
+  locale=canonicalLocale(locale);if(!supported.has(locale))return;
+  try{localStorage.setItem(storageKey,locale)}catch{}
+  const url=new URL(location.href);url.searchParams.set('lang',locale);
+  const event=new CustomEvent('atlas:beforelocalechange',{detail:{locale},cancelable:true});
+  if(document.dispatchEvent(event))location.assign(url.href);
+ }
+ async function setLocale(locale){
+  locale=canonicalLocale(locale);if(!supported.has(locale))throw new Error('Unsupported language');await ensure(locale);
+  api.locale=api.requestedLocale=locale;api.loadError=null;try{localStorage.setItem(storageKey,locale)}catch{}
+  const url=new URL(location.href);url.searchParams.set('lang',locale);history.replaceState(null,'',url.href);apply();return locale;
+ }
+ Object.assign(api,{ensure,t:text,text,format,entryText,entryName,entryLanguage,hasTranslation,localeTag,apply,observe,switchLanguage,setLocale});globalThis.AtlasI18n=api;
+ api.ready=ensure(requested).catch(error=>{api.loadError=error;api.locale='zh';return null});
+ document.addEventListener('change',event=>{if(event.target.id==='language-select')switchLanguage(event.target.value)});
+ api.ready.then(()=>{
+  const start=()=>{observe();if(api.loadError){const notice=document.createElement('div');notice.className='language-load-error';notice.setAttribute('role','alert');notice.innerHTML='语言包加载失败，暂时显示中文。 <button type="button">重试 / Retry</button>';notice.querySelector('button').addEventListener('click',()=>location.reload());document.querySelector('#main,main')?.prepend(notice)}};
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
+ });
+})();
+</script><script>(async()=>{'use strict';
+await AtlasI18n.ready;
 const D=window.ATLAS_CONTRIBUTION,$=id=>document.getElementById(id),form=$('contribution-form');
 const categories=new Map(D.categories.map(c=>[c.id,c]));let image=null,imageURL=null,imageGeneration=0,proposal=null;
 const text=id=>$(id).value.trim(),normalize=value=>String(value).normalize('NFKC').toLocaleLowerCase();
-for(const c of D.categories){const option=document.createElement('option');option.value=c.id;option.textContent=c.name;$('category').append(option)}
+function categoryOptions(){const selected=$('category').value;$('category').replaceChildren();for(const c of D.categories){const option=document.createElement('option');option.value=c.id;option.textContent=AtlasI18n.text(c.name);$('category').append(option)}if(categories.has(selected))$('category').value=selected}
+categoryOptions();
 function nearby(value){
  const words=normalize(value).split(/[\s,，]+/).filter(Boolean),list=$('nearby');list.replaceChildren();
  if(!words.length){const li=document.createElement('li');li.textContent='输入关键词，避免重复制作已有词条。';li.className='muted';list.append(li);return}
- const matches=D.entries.filter(e=>words.every(word=>normalize([e.name,e.en,...e.aliases].join(' ')).includes(word))).slice(0,6);
- for(const entry of matches){const li=document.createElement('li'),a=document.createElement('a');a.href='index.html?'+new URLSearchParams({section:entry.category,entry:entry.id});a.target='_blank';a.rel='noopener noreferrer';a.textContent=entry.id+' · '+entry.name+'（'+entry.en+'）';li.append(a);list.append(li)}
+ const matches=D.entries.filter(e=>{const translated=globalThis.ATLAS_LOCALE_SEARCH?.[e.id]||{};return words.every(word=>normalize([e.name,e.en,AtlasI18n.entryName(e),translated.en,translated.ja,...(translated.aliases||[]),...e.aliases].join(' ')).includes(word))}).slice(0,6);
+ for(const entry of matches){const li=document.createElement('li'),a=document.createElement('a');a.href='index.html?'+new URLSearchParams({section:entry.category,entry:entry.id,lang:AtlasI18n.locale});a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('data-i18n-skip','');a.textContent=entry.id+' · '+AtlasI18n.entryName(entry)+(AtlasI18n.locale==='en'?'':'（'+entry.en+'）');li.append(a);list.append(li)}
  if(!matches.length){const li=document.createElement('li');li.className='muted';li.textContent='当前关键词未找到近似词条，也可换英文或别名继续查找。';list.append(li)}
 }
-function changeCategory(){const c=categories.get($('category').value);$('dimension').value=c.dimensions[0]||'';$('dimensions').replaceChildren(...c.dimensions.map(value=>{const option=document.createElement('option');option.value=value;return option}));$('identifier-note').textContent='建议编号：'+c.suggested_id+' · 合并前会重新检查编号冲突。';refresh()}
+function updateCategoryLabels(){const c=categories.get($('category').value);$('dimensions').replaceChildren(...c.dimensions.map(value=>{const option=document.createElement('option');option.value=value;option.label=AtlasI18n.text(value);return option}));$('identifier-note').textContent=AtlasI18n.format('建议编号：{id} · 合并前会重新检查编号冲突。',{id:c.suggested_id})}
+function changeCategory(){const c=categories.get($('category').value);$('dimension').value=c.dimensions[0]||'';updateCategoryLabels();refresh()}
 function refresh(){
  proposal=null;const category=categories.get($('category').value);
- let source=null;try{if(text('source-url')){source=new URL(text('source-url'));if(!['http:','https:'].includes(source.protocol))throw Error();}}catch{$('source-url').setCustomValidity('请使用公开的 http 或 https 链接。');source=null;}
+ let source=null;try{if(text('source-url')){source=new URL(text('source-url'));if(!['http:','https:'].includes(source.protocol))throw Error();}}catch{$('source-url').setCustomValidity(AtlasI18n.t('请使用公开的 http 或 https 链接。'));source=null;}
  if(!text('source-url')||source)$('source-url').setCustomValidity('');
  $('source-url').required=text('method')==='third-party'||text('license')!=='CC-BY-NC-4.0';
  $('rights-note').required=text('license')==='other';
@@ -83,5 +235,9 @@ function download(blob,name){const url=URL.createObjectURL(blob),a=document.crea
 form.addEventListener('submit',event=>{event.preventDefault();refresh();if(!proposal){form.reportValidity();return}download(new Blob([JSON.stringify(proposal,null,2)+'\n'],{type:'application/json'}),'contribution-'+proposal.entries[0].stable_id.toLowerCase()+'.json')});
 $('download-image').addEventListener('click',()=>{if(proposal&&image)download(image.file,proposal.boards[0].image.split('/').pop())});
 window.addEventListener('pagehide',event=>{if(!event.persisted&&imageURL)URL.revokeObjectURL(imageURL)});changeCategory();
+document.addEventListener('atlas:beforelocalechange',event=>{
+ event.preventDefault();const desired=event.detail.locale,selector=$('language-select');selector.disabled=true;
+ AtlasI18n.setLocale(desired).then(()=>{categoryOptions();updateCategoryLabels();nearby(text('existing-search')||text('name'));refresh();AtlasI18n.apply()}).catch(()=>{selector.value=AtlasI18n.locale;$('proposal-status').textContent=AtlasI18n.t('语言包加载失败，请重试。')}).finally(()=>selector.disabled=false);
+});
 })();
 </script></body></html>
