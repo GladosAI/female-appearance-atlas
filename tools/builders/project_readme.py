@@ -10,6 +10,8 @@ def write_usage_readme(root):
     repository=package['repository']['url'].removeprefix('git+').removesuffix('.git')
     text=f'''# 女性之美
 
+[中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
+
 **女性角色外观图鉴**
 
 面向游戏、动漫和角色创作的可检索素材仓库。内容版 {meta['version']}：{meta['entry_count']:,} 个配图词条、{meta['board_count']} 张图页、{meta['category_count']} 个类别、{len(navigation['groups'])} 个领域。支持检索、筛选、外观卡收藏、同类参考排列与 AI 提示词导出；不规定角色必填部件或自动生成流程。
@@ -34,6 +36,8 @@ def write_usage_readme(root):
 [打开总目录](index.html?view=directory) · [完整分类表](docs/directory.md) · [检索说明](docs/find-and-browse.md) · [视角与拍摄图鉴](index.html?section=branch_camera_viewpoints) · [游戏角色原稿方法](index.html?section=branch_game_character_design) · [场景与人物活动](index.html?section=branch_scene_character_design)
 
 目录按“领域 → 分组 → 类别 → 细分”组织，风格作为筛选条件，画风独立归类。外观卡可保存多张；图鉴连续排列，个人卡默认最新加入在前，可切换按类别排序，不显示独立分类区块。提示词方案在当前浏览器留存，可恢复勾选与手动修改，不上传用户数据。
+
+界面、目录、词条名称与介绍支持中文、English、日本語，右上角可切换，链接可用`lang=zh|en|ja`分享。检索同时匹配三语名称；导出提示词可独立选择语言。英文沿用既有名称，英日介绍与日文名称是带复核状态的辅助翻译，历史文档、生成记录和图片内文字保留原样；缺译可回退原文。维护方法见[多语言与翻译贡献](docs/localization.md)。
 
 [系统角色卡](docs/combinations.md) 围绕具体人物与场景搭配，可按题材、精选角色或关键词查找，并另存编辑。整组通过不同年龄、身份、时代、气质、形态与画风展现多样性。维护源为 `source/system-examples.json`；旧链接与已另存的个人卡继续保留。
 

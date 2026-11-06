@@ -2,48 +2,59 @@
 let synthesisEntryIds=[],synthesisSelected=new Set(),synthesisReturnFocus=null;
 let synthesisCopyTimer;
 const promptHistoryKey='female-beauty-prompt-history-v1';
+const synthesisLanguageKey='female-beauty-prompt-language-v1';
+let synthesisPromptLanguage='zh',synthesisLanguageRequest=0;
 let synthesisCardKey='',promptHistory=[],synthesisSessionSnapshotId=null;
+function validPromptLanguage(value){return ['zh','en','ja'].includes(value)?value:'zh'}
+function preferredPromptLanguage(){try{const stored=localStorage.getItem(synthesisLanguageKey);if(['zh','en','ja'].includes(stored))return stored}catch{}return validPromptLanguage(globalThis.AtlasI18n?.locale)}
+function synthesisText(text){return globalThis.AtlasI18n?.t(text,synthesisPromptLanguage)||text}
+function synthesisEntryName(entry){return globalThis.AtlasI18n?.entryName(entry,synthesisPromptLanguage)||entry.name}
+async function ensureSynthesisLanguage(locale){await globalThis.AtlasI18n?.ensure(locale)}
 try{const saved=JSON.parse(localStorage.getItem(promptHistoryKey)||'[]');if(Array.isArray(saved))promptHistory=saved.filter(x=>x&&typeof x.id==='string'&&typeof x.cardKey==='string'&&typeof x.prompt==='string'&&Array.isArray(x.selected)).slice(0,50)}catch{}
-function persistPromptHistory(){try{localStorage.setItem(promptHistoryKey,JSON.stringify(promptHistory));queueMicrotask(renderLibraryBackupStatus);return true}catch{toast('方案无法保存在此浏览器，请复制提示词或导出外观卡备份。');return false}}
+function persistPromptHistory(){try{localStorage.setItem(promptHistoryKey,JSON.stringify(promptHistory));queueMicrotask(renderLibraryBackupStatus);return true}catch{toast(ct('方案无法保存在此浏览器，请复制提示词或导出外观卡备份。'));return false}}
 function promptHistoryForCard(cardKey){return promptHistory.filter(snapshot=>snapshot.cardKey===cardKey)}
 function importPromptHistory(records,cardMap){
  if(!Array.isArray(records))return;
- const imported=records.slice(0,50).filter(x=>x&&cardMap.has(x.cardKey)&&typeof x.prompt==='string'&&x.prompt.length<=100000&&Array.isArray(x.selected)).map(x=>({id:newAppearanceId(),cardKey:cardMap.get(x.cardKey),cardName:String(x.cardName||'').slice(0,200),selected:[...new Set(x.selected.filter(id=>typeof id==='string'))].slice(0,10000),availableIds:Array.isArray(x.availableIds)?x.availableIds.filter(id=>typeof id==='string').slice(0,10000):undefined,prompt:x.prompt,createdAt:!Number.isNaN(Date.parse(x.createdAt))?x.createdAt:new Date().toISOString()}));
+ const imported=records.slice(0,50).filter(x=>x&&cardMap.has(x.cardKey)&&typeof x.prompt==='string'&&x.prompt.length<=100000&&Array.isArray(x.selected)).map(x=>({id:newAppearanceId(),cardKey:cardMap.get(x.cardKey),cardName:String(x.cardName||'').slice(0,200),selected:[...new Set(x.selected.filter(id=>typeof id==='string'))].slice(0,10000),availableIds:Array.isArray(x.availableIds)?x.availableIds.filter(id=>typeof id==='string').slice(0,10000):undefined,prompt:x.prompt,promptLanguage:validPromptLanguage(x.promptLanguage),createdAt:!Number.isNaN(Date.parse(x.createdAt))?x.createdAt:new Date().toISOString()}));
  if(imported.length){promptHistory=[...imported,...promptHistory].slice(0,50);persistPromptHistory()}
 }
 function renderPromptHistory(){
  const history=promptHistory.filter(x=>x.cardKey===synthesisCardKey);
- $('synthesis-history-count').textContent=history.length?`方案历史 · ${history.length}`:'方案历史';
- $('synthesis-history-list').innerHTML=history.length?history.map(x=>`<option value="${esc(x.id)}">${esc(new Date(x.createdAt).toLocaleString())+' · '+x.selected.length+'项'}</option>`).join(''):'<option value="">暂无保存的方案</option>';
+ $('synthesis-history-count').textContent=ct('方案历史')+(history.length?' · '+history.length:'');
+ $('synthesis-history-list').innerHTML=history.length?history.map(x=>`<option value="${esc(x.id)}">${esc(new Date(x.createdAt).toLocaleString(globalThis.AtlasI18n?.localeTag())+' · '+ct('{count}项',{count:x.selected.length}))}</option>`).join(''):`<option value="">${esc(ct('暂无保存的方案'))}</option>`;
  $('synthesis-history-restore').disabled=!history.length;$('synthesis-history-delete').disabled=!history.length;
 }
 function saveSynthesisSnapshot(){
  const prompt=$('synthesis-prompt').value;if(!synthesisCardKey)return;
  const selected=synthesisEntryIds.filter(id=>synthesisSelected.has(id));
  const previous=promptHistory.find(x=>x.cardKey===synthesisCardKey);
- if(previous&&previous.prompt===prompt&&JSON.stringify(previous.selected)===JSON.stringify(selected)&&JSON.stringify(previous.availableIds||synthesisEntryIds)===JSON.stringify(synthesisEntryIds))return;
- const snapshot={id:synthesisSessionSnapshotId||newAppearanceId(),cardKey:synthesisCardKey,cardName:$('card-synthesis-card').textContent.split(' · ')[0],selected,availableIds:[...synthesisEntryIds],prompt:prompt.slice(0,100000),createdAt:new Date().toISOString()};
+ if(previous&&previous.prompt===prompt&&validPromptLanguage(previous.promptLanguage)===synthesisPromptLanguage&&JSON.stringify(previous.selected)===JSON.stringify(selected)&&JSON.stringify(previous.availableIds||synthesisEntryIds)===JSON.stringify(synthesisEntryIds))return;
+ const snapshot={id:synthesisSessionSnapshotId||newAppearanceId(),cardKey:synthesisCardKey,cardName:$('card-synthesis-card').dataset.cardName||'',selected,availableIds:[...synthesisEntryIds],prompt:prompt.slice(0,100000),promptLanguage:synthesisPromptLanguage,createdAt:new Date().toISOString()};
  synthesisSessionSnapshotId=snapshot.id;
  promptHistory=[snapshot,...promptHistory.filter(item=>item.id!==snapshot.id)].slice(0,50);
  persistPromptHistory();renderPromptHistory();
 }
 function applySynthesisSnapshot(snapshot,automatic=false){
+ synthesisPromptLanguage=validPromptLanguage(snapshot.promptLanguage);$('synthesis-language').value=synthesisPromptLanguage;
  const available=Array.isArray(snapshot.availableIds)?snapshot.availableIds:null;
  const added=available?synthesisEntryIds.filter(id=>!available.includes(id)):[];
  const removed=snapshot.selected.filter(id=>!synthesisEntryIds.includes(id));
  synthesisSelected=new Set([...snapshot.selected.filter(id=>synthesisEntryIds.includes(id)),...(automatic?added:[])]);refreshSynthesisPrompt();
  // Preserve the exact manual wording instead of silently rebuilding it.
  if(!automatic||!added.length&&!removed.length){$('synthesis-prompt').value=snapshot.prompt;$('synthesis-copy-prompt').disabled=!snapshot.prompt.trim()}
- if(automatic&&(added.length||removed.length)){saveSynthesisSnapshot();toast('外观卡内容已变化，已更新选项；原提示词保留在方案历史。')}
- if(!automatic)toast(removed.length?`已恢复提示词；其中 ${removed.length} 项已不在当前卡中，历史文字保留。`:'已恢复勾选与提示词');
+ if(automatic&&(added.length||removed.length)){saveSynthesisSnapshot();toast(ct('外观卡内容已变化，已更新选项；原提示词保留在方案历史。'))}
+ if(!automatic)toast(removed.length?ct('已恢复提示词；其中 {count} 项已不在当前卡中，历史文字保留。',{count:removed.length}):ct('已恢复勾选与提示词'));
 }
-function restorePromptSnapshot(){
+async function restorePromptSnapshot(){
  const snapshot=promptHistory.find(x=>x.id===$('synthesis-history-list').value&&x.cardKey===synthesisCardKey);if(!snapshot)return;
+ const request=++synthesisLanguageRequest,cardKey=synthesisCardKey;
+ try{await ensureSynthesisLanguage(validPromptLanguage(snapshot.promptLanguage))}catch{toast(ct('语言包加载失败，请重试。'));return}
+ if(request!==synthesisLanguageRequest||cardKey!==synthesisCardKey||!$('card-synthesis-dialog').open)return;
  synthesisSessionSnapshotId=null;applySynthesisSnapshot(snapshot);saveSynthesisSnapshot();
 }
 function renderSynthesisReferences(){
  const entries=orderedAppearanceEntries(synthesisEntryIds,openedSystemIndex!==null);
- $('synthesis-references').innerHTML=entries.length?entries.map(e=>{const checked=synthesisSelected.has(e.id);return `<article class="synthesis-reference${checked?' is-selected':''}" data-synthesis-entry="${esc(e.id)}" title="${esc(e.name)}"><label class="synthesis-reference-toggle"><input type="checkbox" value="${esc(e.id)}" ${checked?'checked':''} aria-label="选用${esc(e.name)}"><span class="synthesis-reference-image" aria-hidden="true">${thumb(e)}</span></label><button type="button" class="synthesis-reference-name" data-detail="${esc(e.id)}" aria-label="查看${esc(e.name)}完整介绍" aria-haspopup="dialog">${esc(e.name)}</button></article>`}).join(''):'<p class="synthesis-empty">这张外观卡还没有图鉴。请先在图鉴浏览中添加部件。</p>';
+ $('synthesis-references').innerHTML=entries.length?entries.map(e=>{const checked=synthesisSelected.has(e.id),name=cardEntryName(e);return `<article class="synthesis-reference${checked?' is-selected':''}" data-synthesis-entry="${esc(e.id)}" title="${esc(name)}"><label class="synthesis-reference-toggle"><input type="checkbox" value="${esc(e.id)}" ${checked?'checked':''} aria-label="${esc(ct('选用{name}',{name}))}"><span class="synthesis-reference-image" aria-hidden="true">${thumb(e)}</span></label><button type="button" class="synthesis-reference-name" data-detail="${esc(e.id)}" aria-label="${esc(ct('查看{name}完整介绍',{name}))}" aria-haspopup="dialog">${esc(name)}</button></article>`}).join(''):`<p class="synthesis-empty">${esc(ct('这张外观卡还没有图鉴。请先在图鉴浏览中添加部件。'))}</p>`;
  renderAppearanceSortButtons();
 }
 function setSynthesisCopyStatus(message='',success=false){
@@ -53,7 +64,7 @@ function setSynthesisCopyStatus(message='',success=false){
 }
 function synthesisTraitGroup(e){
  if(e.scene_reference)return '场景与人物活动';
- if(e.camera_reference||e.visual_language_reference||e.game_design_reference)return categoryName(e.category);
+ if(e.camera_reference||e.visual_language_reference||e.game_design_reference)return C.get(e.category)?.name||e.category;
  if(['age','female_life_stages'].includes(e.category))return '年龄';
  if(e.category==='body')return '体型';
  if(e.category==='persona_looks')return '气质';
@@ -75,7 +86,7 @@ function synthesisTraitGroup(e){
 }
 // Only selected term names belong in the prompt; descriptions stay in entry details.
 function synthesisTraitText(e){
- return e.name+(e.en?`（${e.en}）`:'');
+ const name=synthesisEntryName(e);return name+(e.en&&name!==e.en?`（${e.en}）`:'');
 }
 function refreshSynthesisPrompt(){
  const selected=synthesisEntryIds.filter(id=>synthesisSelected.has(id));
@@ -83,28 +94,36 @@ function refreshSynthesisPrompt(){
   const id=el.dataset.synthesisEntry,checked=synthesisSelected.has(id);
   el.classList.toggle('is-selected',checked);el.querySelector('input').checked=checked;
  }
- $('synthesis-selection-count').textContent=`已选 ${selected.length} / ${synthesisEntryIds.length} 项`;
+ $('synthesis-selection-count').textContent=ct('已选 {selected} / {total} 项',{selected:selected.length,total:synthesisEntryIds.length});
  const groups=new Map();
  for(const id of selected){const e=E.get(id),group=synthesisTraitGroup(e);if(!groups.has(group))groups.set(group,[]);groups.get(group).push(synthesisTraitText(e))}
  const order=['年龄','体型','幻想形态','身体特征','面部特征','发型','服装','服装细节','袜类','鞋履','配饰与道具','材质与配色','妆容','表情','气质','姿态','场景与人物活动','画风','光照','观察方向','机位高度与俯仰','景别与取景范围','画面构图','景深与对焦','镜头与透视'];
  const orderedGroups=[...order,...[...groups.keys()].filter(group=>!order.includes(group))];
- const lines=orderedGroups.filter(group=>groups.has(group)).map(group=>group+'：\n'+[...new Set(groups.get(group))].map(text=>text+'；').join('\n'));
- $('synthesis-prompt').value=selected.length?'请根据以下外观词条设计女性角色。同一类别有多个选项时，将它们作为备选分别搭配，生成一张或多张角色图像。\n\n'+lines.join('\n\n'):'';
+ const punctuation=synthesisPromptLanguage==='en'?[':', ';']:['：','；'];
+ const lines=orderedGroups.filter(group=>groups.has(group)).map(group=>synthesisText(group)+punctuation[0]+'\n'+[...new Set(groups.get(group))].map(text=>text+punctuation[1]).join('\n'));
+ $('synthesis-prompt').value=selected.length?synthesisText('请根据以下外观词条设计女性角色。同一类别有多个选项时，将它们作为备选分别搭配，生成一张或多张角色图像。')+'\n\n'+lines.join('\n\n'):'';
+ $('synthesis-prompt').lang=globalThis.AtlasI18n?.localeTag(synthesisPromptLanguage)||synthesisPromptLanguage;
  $('synthesis-copy-prompt').disabled=!selected.length;
  $('synthesis-select-all').disabled=!synthesisEntryIds.length||selected.length===synthesisEntryIds.length;
  $('synthesis-select-none').disabled=!selected.length;
  setSynthesisCopyStatus();
 }
-function openCardSynthesis(){
+async function openCardSynthesis(){
  const system=openedSystemIndex!==null,card=system?D.combinations[openedSystemIndex]:appearanceCards.find(c=>c.id===openedCardId);if(!card)return;
+ const request=++synthesisLanguageRequest;
  synthesisEntryIds=[...new Set((system?card.entry_ids:card.selected).filter(id=>E.has(id)))];synthesisSelected=new Set(synthesisEntryIds);
  synthesisCardKey=system?'system:'+(card.id||openedSystemIndex):card.id;
  synthesisSessionSnapshotId=null;
  synthesisReturnFocus=document.activeElement;
- $('card-synthesis-card').textContent=(card.name||'未命名外观卡')+' · '+synthesisEntryIds.length+' 个图鉴部件';
+ const latest=promptHistory.find(snapshot=>snapshot.cardKey===synthesisCardKey);
+ synthesisPromptLanguage=latest?validPromptLanguage(latest.promptLanguage):preferredPromptLanguage();
+ try{await ensureSynthesisLanguage(synthesisPromptLanguage)}catch{toast(ct('语言包加载失败，请重试。'));return}
+ if(request!==synthesisLanguageRequest)return;
+ $('synthesis-language').value=synthesisPromptLanguage;
+ const name=system?cardText(card.name):card.name||ct('未命名外观卡');$('card-synthesis-card').textContent=name+' · '+ct('{count} 个图鉴部件',{count:synthesisEntryIds.length});$('card-synthesis-card').dataset.cardName=card.name||'';
  renderSynthesisReferences();
  renderPromptHistory();$('synthesis-history').open=false;
- refreshSynthesisPrompt();const latest=promptHistory.find(snapshot=>snapshot.cardKey===synthesisCardKey);if(latest)applySynthesisSnapshot(latest,true);
+ refreshSynthesisPrompt();if(latest)applySynthesisSnapshot(latest,true);
  const dialog=$('card-synthesis-dialog');if(!dialog.open)dialog.showModal();dialog.scrollTop=0;$('synthesis-references').scrollTop=0;$('close-card-synthesis').focus({preventScroll:true});
 }
 async function copySynthesisPrompt(){
@@ -112,7 +131,7 @@ async function copySynthesisPrompt(){
  let copied=false;
  try{if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(text);copied=true}}catch{}
  if(!copied){const active=document.activeElement,start=field.selectionStart,end=field.selectionEnd;field.focus({preventScroll:true});field.select();try{copied=document.execCommand('copy')}catch{}if(copied){field.setSelectionRange(start,end);active?.focus({preventScroll:true})}}
- setSynthesisCopyStatus(copied?'提示词已复制':'复制失败，请选中提示词后手动复制。',copied);
+ setSynthesisCopyStatus(ct(copied?'提示词已复制':'复制失败，请选中提示词后手动复制。'),copied);
  if(copied)saveSynthesisSnapshot();
 }
 $('open-card-synthesis').addEventListener('click',openCardSynthesis);
@@ -126,8 +145,15 @@ $('synthesis-references').addEventListener('click',ev=>{
  ev.target.closest('[data-synthesis-entry]')?.querySelector('input').click();
 });
 $('synthesis-copy-prompt').addEventListener('click',copySynthesisPrompt);
+$('synthesis-language').addEventListener('change',async()=>{
+ const requested=validPromptLanguage($('synthesis-language').value),request=++synthesisLanguageRequest;
+ try{await ensureSynthesisLanguage(requested)}catch{if(request===synthesisLanguageRequest){$('synthesis-language').value=synthesisPromptLanguage;toast(ct('语言包加载失败，请重试。'))}return}
+ if(request!==synthesisLanguageRequest||!$('card-synthesis-dialog').open)return;
+ synthesisPromptLanguage=requested;try{localStorage.setItem(synthesisLanguageKey,requested)}catch{}
+ refreshSynthesisPrompt();saveSynthesisSnapshot();
+});
 $('synthesis-prompt').addEventListener('input',()=>{$('synthesis-copy-prompt').disabled=!$('synthesis-prompt').value.trim();setSynthesisCopyStatus();saveSynthesisSnapshot()});
-$('card-synthesis-dialog').addEventListener('close',()=>{setSynthesisCopyStatus();if(synthesisReturnFocus?.isConnected)synthesisReturnFocus.focus({preventScroll:true})});
+$('card-synthesis-dialog').addEventListener('close',()=>{synthesisLanguageRequest++;setSynthesisCopyStatus();if(synthesisReturnFocus?.isConnected)synthesisReturnFocus.focus({preventScroll:true})});
 $('synthesis-history-restore').addEventListener('click',restorePromptSnapshot);
 $('synthesis-history-delete').addEventListener('click',()=>{const id=$('synthesis-history-list').value;promptHistory=promptHistory.filter(x=>x.id!==id);persistPromptHistory();renderPromptHistory()});
 $('card-synthesis-dialog').addEventListener('click',ev=>{if(ev.target!==ev.currentTarget)return;const r=ev.currentTarget.getBoundingClientRect();if(ev.clientX<r.left||ev.clientX>r.right||ev.clientY<r.top||ev.clientY>r.bottom)ev.currentTarget.close()});

@@ -154,6 +154,16 @@ def main():
     data = load(ROOT / 'data/catalog.json')
     errors = validate(data, load(ROOT / 'data/navigation.json'), assets=not args.metadata_only,
                       registry=load(ROOT / 'source/id-registry.json'))
+    from i18n_tools import validate_locales
+    errors.extend(validate_locales(ROOT,data))
+    from localization_delivery import localization_files
+    try:
+        for relative,text in localization_files(ROOT,data).items():
+            file=local_path(ROOT,relative)
+            if not file.is_file() or file.read_text(encoding='utf-8')!=text:
+                errors.append('Generated locale file is stale: '+relative)
+    except ValueError as error:
+        errors.append(str(error))
     manifest=load(ROOT/'data/manifest.json')
     for relative,record in manifest['files'].items():
         path=local_path(ROOT,relative)

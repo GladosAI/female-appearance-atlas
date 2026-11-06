@@ -1,0 +1,83 @@
+{
+  "schema": "female-appearance-translation-coverage/v1",
+  "locales": {
+    "en": {
+      "locale": "en",
+      "entries": 7241,
+      "fields": {
+        "name": {
+          "translated": 7241,
+          "missing": 0,
+          "stale": 0,
+          "untracked": 0,
+          "draft": 7241,
+          "reviewed": 0
+        },
+        "description": {
+          "translated": 7241,
+          "missing": 0,
+          "stale": 0,
+          "untracked": 0,
+          "draft": 7241,
+          "reviewed": 0
+        },
+        "design_tip": {
+          "translated": 7241,
+          "missing": 0,
+          "stale": 0,
+          "untracked": 0,
+          "draft": 7241,
+          "reviewed": 0
+        }
+      },
+      "messages": {
+        "total": 9611,
+        "translated": 9611,
+        "missing": 0
+      },
+      "message_review": {
+        "reviewed": 673,
+        "draft": 8938
+      }
+    },
+    "ja": {
+      "locale": "ja",
+      "entries": 7241,
+      "fields": {
+        "name": {
+          "translated": 7241,
+          "missing": 0,
+          "stale": 0,
+          "untracked": 0,
+          "draft": 0,
+          "reviewed": 7241
+        },
+        "description": {
+          "translated": 7241,
+          "missing": 0,
+          "stale": 0,
+          "untracked": 0,
+          "draft": 7236,
+          "reviewed": 5
+        },
+        "design_tip": {
+          "translated": 7241,
+          "missing": 0,
+          "stale": 0,
+          "untracked": 0,
+          "draft": 7236,
+          "reviewed": 5
+        }
+      },
+      "messages": {
+        "total": 9611,
+        "translated": 9611,
+        "missing": 0
+      },
+      "message_review": {
+        "reviewed": 673,
+        "draft": 8938
+      }
+    }
+  }
+}

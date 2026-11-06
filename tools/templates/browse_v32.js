@@ -15,7 +15,7 @@ function canAutoLoadTerms(){
 function updateTermLoadStatus(){
  const remaining=filteredEntries.length-renderedTermCount;
  $('more-wrap').hidden=view!=='terms'||$('entry-grid').hidden||remaining<=0;
- $('auto-load-status').textContent=remaining>0?`继续向下浏览，自动加载其余 ${remaining} 项`:'';
+ $('auto-load-status').textContent=remaining>0?uiFormat('继续向下浏览，自动加载其余 {count} 项',{count:remaining}):'';
 }
 function queueTermAutoLoad(){
  if(pendingTermLoad!==null||!canAutoLoadTerms())return;
@@ -25,7 +25,7 @@ function queueTermAutoLoad(){
   const end=Math.min(renderedTermCount+termBatchSize,filteredEntries.length),grid=$('entry-grid');
   grid.setAttribute('aria-busy','true');
   try{grid.insertAdjacentHTML('beforeend',filteredEntries.slice(renderedTermCount,end).map(entryCard).join(''));renderedTermCount=end;limit=end;
-   $('result-status').textContent=`${filteredEntries.length} 个结果 · 显示 ${renderedTermCount} 个`;updateTermLoadStatus();
+   $('result-status').textContent=uiFormat('{count} 个结果 · 显示 {shown} 个',{count:filteredEntries.length,shown:renderedTermCount});updateTermLoadStatus();
   }finally{grid.removeAttribute('aria-busy')}
   queueTermAutoLoad();
  });
@@ -44,7 +44,8 @@ const boardOrder=new Map(D.boards.map((b,i)=>[b.id,i]));
 const normalize=s=>String(s??'').normalize('NFKC').toLocaleLowerCase().trim();
 const searchIndex=new Map(D.entries.map(e=>{
  const dimension=e.history_line_name||e.dimension,keywords=e.history_line?e.keywords.filter(k=>k!==e.dimension):e.keywords;
- return [e.id,normalize([e.id,e.name,e.en,e.category_name,categoryName(e.category),dimension,e.description,...keywords,...e.styles.map(s=>F.get(s)?.name||s),...(e.aliases||[])].join(' '))];
+ const translated=globalThis.ATLAS_LOCALE_SEARCH?.[e.id]||{};
+ return [e.id,normalize([e.id,e.name,e.en,entryName(e),translated.en,translated.ja,...(translated.aliases||[]),e.category_name,categoryName(e.category),dimension,localizedText(dimension),e.description,entryText(e,'description'),...keywords,...e.styles.flatMap(s=>[F.get(s)?.name||s,localizedText(F.get(s)?.name||s)]),...(e.aliases||[])].join(' '))];
 }));
 const searchAliases=new Map();
 const historyRegionTokens=new Map([['南亚','south_asia'],['西亚','west_asia'],['东南亚','southeast_asia']]);
@@ -66,24 +67,24 @@ function matchesCategory(e,cat=category){
  return cat==='life_stages'?!!e.life_stage_reference:cat==='special'?D.meta.special_costume_categories.includes(e.category):cat==='wedding'?!!e.wedding_reference:cat==='seasonal'?!!e.seasonal_reference:cat==='anthro'?!!e.anthro_reference:cat==='socks'?!!e.hosiery_reference:cat==='facial'?!!e.facial_reference:cat==='cosplay'?!!e.cosplay_reference:cat==='hair'?hairCategories.has(e.category):cat==='hooded_cloaks'?!!e.hooded_cloak:cat==='clothing'?clothingCategories.has(e.category):e.category===cat;
 }
 function pathFor(id=category){const b=B.get(id)||B.get(N.category_paths[id]?.section);return {domain:G.get(id)||b?.parent,branch:b,leaf:C.get(id)}}
-function scopeLabel(id=category){return id==='all'?'全部图鉴':id==='clothing'?'全部服装':id==='clothing_new'?'最近补充':categoryName(id)}
-function score(e,q=query){const n=normalize(q);return normalize(e.id)===n?1000:normalize(e.name)===n?500:normalize(e.name).startsWith(n)?250:normalize(e.name).includes(n)?150:normalize(e.en).includes(n)?90:40}
+function scopeLabel(id=category){return id==='all'?t('全部图鉴'):id==='clothing'?t('全部服装'):id==='clothing_new'?t('最近补充'):categoryName(id)}
+function score(e,q=query){const n=normalize(q),translated=globalThis.ATLAS_LOCALE_SEARCH?.[e.id]||{},names=[e.name,e.en,entryName(e),translated.en,translated.ja].filter(Boolean).map(normalize);return normalize(e.id)===n?1000:names.includes(n)?500:names.some(name=>name.startsWith(n))?250:names.some(name=>name.includes(n))?150:40}
 function getResults({scope=category,dimension=$('dimension-filter').value,style=styleFilter,q=query}={}){
  const ts=tokensFor(q);return D.entries.filter(e=>matchesCategory(e,scope)&&(dimension==='all'||!dimension||e.dimension===dimension)&&(!style||clothingCategories.has(e.category)&&e.styles.includes(style))&&ts.every(t=>matchesToken(e,t)));
 }
 function sortResults(arr){return arr.sort((a,b)=>{
  if(sortOrder==='relevance'&&query){const diff=score(b)-score(a);if(diff)return diff}
- if(sortOrder==='name')return a.name.localeCompare(b.name,'zh-CN');if(sortOrder==='id')return a.id.localeCompare(b.id,undefined,{numeric:true});
+ if(sortOrder==='name')return entryName(a).localeCompare(entryName(b),AtlasI18n.localeTag());if(sortOrder==='id')return a.id.localeCompare(b.id,undefined,{numeric:true});
  if(mode==='illustrated')return (boardOrder.get(a.visual?.board)??9999)-(boardOrder.get(b.visual?.board)??9999)||a.visual.row*a.visual.columns+a.visual.column-(b.visual.row*b.visual.columns+b.visual.column);
  return categoryOrder.get(a.category)-categoryOrder.get(b.category)||a.id.localeCompare(b.id,undefined,{numeric:true});
 })}
-function categoryButton(id,label,count){return `<button data-category="${id}"><span>${esc(label)}</span><small>${count}</small></button>`}
+function categoryButton(id,label,count){return `<button data-category="${id}"><span>${esc(localizedText(label))}</span><small>${count}</small></button>`}
 function scopeCount(id){return D.entries.filter(e=>matchesCategory(e,id)).length}
 function treeLink(id,label,count,kind='leaf'){
- return `<button class="tree-link tree-link-${kind}" data-category="${id}"><span class="tree-leaf-mark" aria-hidden="true"></span><span class="tree-link-label">${esc(label)}</span><small>${count}项</small><span class="tree-current-mark" aria-hidden="true"></span></button>`;
+ return `<button class="tree-link tree-link-${kind}" data-category="${id}"><span class="tree-leaf-mark" aria-hidden="true"></span><span class="tree-link-label">${esc(localizedText(label))}</span><small>${esc(uiFormat('{count}项',{count}))}</small><span class="tree-current-mark" aria-hidden="true"></span></button>`;
 }
 function treeSummary(label,count,level){
- return `<summary class="tree-summary" aria-label="展开或收起${level}：${esc(label)}"><span class="tree-toggle" aria-hidden="true"></span><span class="tree-heading"><strong>${esc(label)}</strong><small>${level} · ${count}个类别</small></span><span class="tree-action" aria-hidden="true"></span></summary>`;
+ return `<summary class="tree-summary" aria-label="${esc(uiFormat('展开或收起{level}：{name}',{level:t(level),name:localizedText(label)}))}"><span class="tree-toggle" aria-hidden="true"></span><span class="tree-heading"><strong>${esc(localizedText(label))}</strong><small>${esc(uiFormat('{level} · {count}个类别',{level:t(level),count}))}</small></span><span class="tree-action" aria-hidden="true"></span></summary>`;
 }
 function revealSidebarPath(scroll=false){
  const {domain,branch}=pathFor();if(domain)document.querySelector(`#categories [data-domain="${domain.scope}"]`).open=true;if(branch)document.querySelector(`#categories [data-branch="${branch.scope}"]`).open=true;
@@ -97,12 +98,12 @@ function renderSidebar(){
  $('tree-reveal').addEventListener('click',()=>revealSidebarPath(true));
 }
 function renderDirectory(){
- $('topic-directory').innerHTML=N.groups.map((g,i)=>`<article class="domain-card"><div class="domain-title"><span class="domain-number">${String(i+1).padStart(2,'0')}</span><div><h3><button data-category="${g.scope}">${esc(g.name)} <span aria-hidden="true">↗</span></button></h3><span>${g.category_count}类 · ${g.count}项</span></div></div><p>${esc(g.note)}</p><div class="domain-branches">${g.sections.map(s=>categoryButton(s.scope,s.name,s.count)).join('')}</div><details class="domain-tree"><summary>展开全部${g.category_count}个类别</summary>${g.sections.map(s=>`<div class="tree-section"><strong>${esc(s.name)}</strong><div>${s.categories.map(cid=>categoryButton(cid,categoryName(cid),C.get(cid).count)).join('')}</div></div>`).join('')}</details></article>`).join('');
+ $('topic-directory').innerHTML=N.groups.map((g,i)=>`<article class="domain-card"><div class="domain-title"><span class="domain-number">${String(i+1).padStart(2,'0')}</span><div><h3><button data-category="${g.scope}">${esc(g.name)} <span aria-hidden="true">↗</span></button></h3><span>${esc(uiFormat('{categories}类 · {count}项',{categories:g.category_count,count:g.count}))}</span></div></div><p>${esc(g.note)}</p><div class="domain-branches">${g.sections.map(s=>categoryButton(s.scope,s.name,s.count)).join('')}</div><details class="domain-tree"><summary>${esc(uiFormat('展开全部{count}个类别',{count:g.category_count}))}</summary>${g.sections.map(s=>`<div class="tree-section"><strong>${esc(s.name)}</strong><div>${s.categories.map(cid=>categoryButton(cid,categoryName(cid),C.get(cid).count)).join('')}</div></div>`).join('')}</details></article>`).join('');
  renderSidebar();
  $('directory-shortcuts').innerHTML=N.shortcuts.filter(s=>N.featured_shortcuts.includes(s.id)).map(s=>categoryButton(s.id,s.name,scopeCount(s.id))).join('');
  $('document-links').innerHTML=N.documents.map(d=>`<a href="${d.path}" target="_blank">${esc(d.name)} ↗</a>`).join('');
 }
-function fillSelect(id,options,value){const el=$(id);const html=options.map(([v,n,disabled])=>`<option value="${esc(v)}"${disabled?' disabled':''}>${esc(n)}</option>`).join('');if(el.innerHTML!==html)el.innerHTML=html;el.value=value}
+function fillSelect(id,options,value){const el=$(id);const html=options.map(([v,n,disabled])=>`<option value="${esc(v)}"${disabled?' disabled':''}>${esc(localizedText(n))}</option>`).join('');if(el.innerHTML!==html)el.innerHTML=html;el.value=value}
 function prepareDimensions(value='all'){const base=D.entries.filter(e=>matchesCategory(e));const dims=[...new Set(base.map(e=>e.dimension))];fillSelect('dimension-filter',[['all','全部细分'],...dims.map(d=>[d,d.replace(/^新增/,'')+' · '+base.filter(e=>e.dimension===d).length])],dims.includes(value)?value:'all')}
 function renderTopicContext(){
  const {domain,branch,leaf}=pathFor();
@@ -112,9 +113,9 @@ function renderTopicContext(){
  fillSelect('mobile-category',[['all',branch?'本分组全部':domain?'本领域全部':'全部类别'],...ids.map(id=>[id,categoryName(id)+' · '+C.get(id).count])],leaf?category:'all');$('mobile-category').disabled=!domain;
  const crumbs=[`<button data-view="directory">总目录</button>`];if(domain)crumbs.push(`<button data-category="${domain.scope}">${esc(domain.name)}</button>`);if(branch)crumbs.push(`<button data-category="${branch.scope}">${esc(branch.name)}</button>`);if(leaf)crumbs.push(`<span aria-current="page">${esc(categoryName(category))}</span>`);if(!domain)crumbs.push(`<span aria-current="page">${esc(scopeLabel())}</span>`);
  $('breadcrumb').innerHTML=crumbs.join('<span aria-hidden="true">›</span>');
- $('search-scope-label').textContent='检索范围：'+[domain?.name,branch?.name,leaf?categoryName(category):null].filter(Boolean).join(' / ')||(category==='all'?'检索范围：全部图鉴':'检索范围：'+scopeLabel());
- if(!domain)$('search-scope-label').textContent='检索范围：'+scopeLabel();
- $('search').placeholder=category==='all'?'搜索名称、编号或特征，例如：猫耳 耳机、20D…':'在“'+scopeLabel()+'”内搜索，多个关键词用空格分开';
+ $('search-scope-label').textContent=t('检索范围：')+[domain?.name,branch?.name,leaf?categoryName(category):null].filter(Boolean).map(value=>localizedText(value)).join(' / ')||(category==='all'?'检索范围：全部图鉴':'检索范围：'+scopeLabel());
+ if(!domain)$('search-scope-label').textContent=t('检索范围：')+scopeLabel();
+ $('search').placeholder=category==='all'?t('搜索名称、编号或特征，例如：猫耳 耳机、20D…'):uiFormat('在“{scope}”内搜索，多个关键词用空格分开',{scope:scopeLabel()});
  $('expand-search').hidden=category==='all';
  const base=getResults({style:''});const hasClothes=D.entries.some(e=>matchesCategory(e)&&clothingCategories.has(e.category));$('style-control').hidden=!hasClothes;$('extra-filters').hidden=!hasClothes&&!styleFilter;
  fillSelect('browse-style',[['','全部穿搭风格'],...D.style_families.map(f=>[f.id,f.name+' · '+base.filter(e=>clothingCategories.has(e.category)&&e.styles.includes(f.id)).length])],styleFilter);
@@ -127,7 +128,7 @@ function renderTopicContext(){
 }
 function renderActiveFilters(){
  const chips=[];if(category!=='all')chips.push(['scope',scopeLabel()]);if(query)chips.push(['query','关键词：'+query]);if($('dimension-filter').value!=='all')chips.push(['dimension',$('dimension-filter').value]);if(styleFilter)chips.push(['style','风格：'+F.get(styleFilter).name]);
- $('active-filters').innerHTML=chips.length?`<span>当前条件</span>`+chips.map(([k,v])=>`<button data-remove-filter="${k}" aria-label="移除${esc(v)}">${esc(v)} <span aria-hidden="true">×</span></button>`).join(''):'<span>全部图鉴 · 未设置筛选</span>';
+ $('active-filters').innerHTML=chips.length?`<span>当前条件</span>`+chips.map(([k,v])=>k==='query'?`<button data-remove-filter="query" data-i18n-skip data-i18n-skip-attributes aria-label="${esc(t('移除关键词：')+query)}">${esc(t('关键词：'))}${esc(query)} <span aria-hidden="true">×</span></button>`:`<button data-remove-filter="${k}" aria-label="${esc(uiFormat('移除条件：{name}',{name:localizedText(v)}))}" data-i18n-skip-attributes>${esc(localizedText(v))} <span aria-hidden="true">×</span></button>`).join(''):'<span>全部图鉴 · 未设置筛选</span>';
  $('filter-count').textContent=String(Number($('dimension-filter').value!=='all')+Number(!!styleFilter));
 }
 function renderAccessoryContext(){
@@ -137,8 +138,8 @@ function renderAccessoryContext(){
 function renderTerms(){
  resetTermAutoLoad();
  filteredEntries=sortResults(getResults());currentFilteredIds=filteredEntries.map(e=>e.id);const count=filteredEntries.length;
- $('category-title').textContent=query?'“'+query+'”的查找结果':scopeLabel();$('category-guide').textContent=C.get(category)?.guide||scopes.get(category)?.guide||'逐级选择目录，或使用关键词与筛选条件查找；每项都有对应图例。';
- $('result-status').textContent=`${count} 个结果 · 显示 ${Math.min(limit,count)} 个`;
+ $('category-title').innerHTML=query?esc(t('“{query}”的查找结果')).replace('{query}',`<span data-i18n-skip>${esc(query)}</span>`):esc(scopeLabel());$('category-guide').textContent=localizedText(C.get(category)?.guide||scopes.get(category)?.guide||'逐级选择目录，或使用关键词与筛选条件查找；每项都有对应图例。');
+ $('result-status').textContent=uiFormat('{count} 个结果 · 显示 {shown} 个',{count,shown:Math.min(limit,count)});
  $('entry-grid').innerHTML=count?filteredEntries.slice(0,limit).map(entryCard).join(''):`<div class="empty" style="grid-column:1/-1"><strong>当前条件下没有结果</strong><p>可以先移除细分或风格，再扩大目录范围。</p><div class="empty-actions"><button class="btn" data-remove-filter="facets">清空筛选</button><button class="btn" data-remove-filter="scope">保留关键词，查全部图鉴</button></div></div>`;
  renderedTermCount=Math.min(limit,count);
  renderTopicContext();renderActiveFilters();renderAccessoryContext();renderWearingPreviewControls(filteredEntries);$('pose-group-index').hidden=true;$('role-kind-quicklinks').hidden=true;
@@ -149,8 +150,8 @@ function renderTerms(){
 }
 function renderBoards(){
  const ids=new Set(filteredEntries.map(e=>e.id));const boards=D.boards.map(b=>({b,items:b.items.filter(x=>ids.has(x.entry_id))})).filter(x=>x.items.length);
- $('board-results-status').textContent=`${filteredEntries.length}个匹配词条 · ${boards.length}张相关图页`;
- $('board-list').innerHTML=boards.length?boards.map(({b,items})=>`<article class="board"><h3>${esc(b.title)}</h3><p class="en">匹配 ${items.length} / ${b.items.length} 项 · 原图保留整页</p><button class="board-open" data-board="${b.id}" aria-label="放大${esc(b.title)}"><img src="${b.image}" loading="lazy" alt="${esc(b.title)}"></button><div class="caption-list">${items.map(x=>`<button data-detail="${x.entry_id}">${esc(x.label+' '+x.name)}</button>`).join('')}</div></article>`).join(''):'<div class="empty"><strong>没有匹配图页</strong><p>请移除条件或扩大目录范围。</p></div>';
+ $('board-results-status').textContent=uiFormat('{count}个匹配词条 · {boards}张相关图页',{count:filteredEntries.length,boards:boards.length});
+ $('board-list').innerHTML=boards.length?boards.map(({b,items})=>`<article class="board"><h3>${esc(localizedText(b.title))}</h3><p class="en">匹配 ${items.length} / ${b.items.length} 项 · 原图保留整页</p><button class="board-open" data-board="${b.id}" aria-label="${esc(uiFormat('放大{name}',{name:localizedText(b.title)}))}" data-i18n-skip-attributes><img src="${b.image}" loading="lazy" alt="${esc(localizedText(b.title))}"></button><div class="caption-list">${items.map(x=>`<button data-detail="${x.entry_id}">${esc(x.label+' '+entryName(E.get(x.entry_id)))}</button>`).join('')}</div></article>`).join(''):'<div class="empty"><strong>没有匹配图页</strong><p>请移除条件或扩大目录范围。</p></div>';
 }
 function navigate(next){
  if(!restoring&&['terms','boards'].includes(view)&&!['terms','boards'].includes(next))lastBrowsePosition={view,scrollY:window.scrollY,category,query,styleFilter,sortOrder,mode,limit,dimension:$('dimension-filter').value,ageView,ageZoom,bodyView,bodyAxis,bodyCases:[...bodyCases]};
@@ -189,6 +190,8 @@ function syncURL(){
  if(restoring)return;const p=new URLSearchParams();if(view==='directory')p.set('view','directory');else if(view==='card'){p.set('view','card');if(cardTab==='examples')p.set('card_tab','examples');if(openedCardId)p.set('card',openedCardId);if(openedSystemIndex!==null)p.set('example',exampleRoute(openedSystemIndex));if(cardTab==='examples'){if(exampleTopic!=='all')p.set('example_topic',exampleTopic);if(cardListQuery)p.set('example_q',cardListQuery)}}else{p.set('section',category);if(view!=='terms')p.set('view',view)}
  if(view!=='card')for(const [k,v] of [['q',query],['style',styleFilter],['dimension',$('dimension-filter').value==='all'?'':$('dimension-filter').value],['sort',sortOrder==='directory'?'':sortOrder],['mode',mode==='all'?'':mode],['body_view',category==='body'&&bodyView==='entries'?'entries':''],['body_axis',category==='body'&&bodyAxis!=='cup'?bodyAxis:''],['body_cases',category==='body'&&bodyView==='compare'?bodyCases.join(','):''],['age_view',(category==='female_life_stages'||category==='life_stages')&&ageView==='entries'?'entries':'']])if(v)p.set(k,v);
  if($('detail-dialog').open&&currentEntryId)p.set('entry',currentEntryId);
+ const routeLocale=AtlasI18n.loadError?AtlasI18n.requestedLocale:AtlasI18n.locale;
+ if(routeLocale!=='zh'||new URLSearchParams(location.search).has('lang'))p.set('lang',routeLocale);
  const u=location.pathname+'?'+p.toString();if(u!==location.pathname+location.search){history[pushRoute?'pushState':'replaceState'](null,'',u)}pushRoute=false;lastURL=u;
 }
 function restoreURL(){
@@ -208,7 +211,7 @@ function renderSuggestions(input,boxId,global){
  const box=$(boxId),q=input.value.trim();if(!q){hideSuggestions();return}const ts=tokensFor(q);
  const cats=D.categories.filter(c=>ts.every(t=>normalize(categoryName(c.id)+' '+c.name+' '+c.id).includes(t))).slice(0,4);
  const es=(global?D.entries.filter(e=>ts.every(t=>matchesToken(e,t))):getResults({q})).sort((a,b)=>score(b,q)-score(a,q)).slice(0,5);
- const rows=[...cats.map(c=>({kind:'category',id:c.id,name:categoryName(c.id),note:pathFor(c.id).domain.name+' / '+pathFor(c.id).branch.name})),...es.map(e=>({kind:'entry',id:e.id,name:e.name,note:e.id+' · '+categoryName(e.category)}))];
+ const rows=[...cats.map(c=>({kind:'category',id:c.id,name:categoryName(c.id),note:localizedText(pathFor(c.id).domain.name)+' / '+localizedText(pathFor(c.id).branch.name)})),...es.map(e=>({kind:'entry',id:e.id,name:entryName(e),note:e.id+' · '+categoryName(e.category)}))];
  box.innerHTML=rows.map((r,i)=>`<button type="button" role="option" id="${boxId}-${i}" data-suggest-kind="${r.kind}" data-suggest-value="${r.id}" aria-selected="false"><span>${esc(r.name)}</span><small>${esc(r.note)}</small></button>`).join('')+(rows.length?'<span class="suggestion-hint">↑ ↓ 选择 · Enter 打开 · Esc 收起</span>':'<span class="suggestion-hint">按Enter查看全部结果</span>');
  box.hidden=false;input.setAttribute('aria-expanded','true');suggestionFocus=-1;
 }

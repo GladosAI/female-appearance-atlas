@@ -1,5 +1,5 @@
 <dialog id="card-synthesis-dialog" class="card-synthesis-dialog" aria-labelledby="card-synthesis-title" aria-describedby="card-synthesis-card">
-  <header class="dialog-top synthesis-header"><div><h2 id="card-synthesis-title">导出AI提示词</h2><p id="card-synthesis-card"></p></div><button type="button" class="close" id="close-card-synthesis" aria-label="关闭AI提示词导出窗口">×</button></header>
+  <header class="dialog-top synthesis-header"><div><h2 id="card-synthesis-title">导出AI提示词</h2><p id="card-synthesis-card" data-i18n-skip></p></div><button type="button" class="close" id="close-card-synthesis" aria-label="关闭AI提示词导出窗口">×</button></header>
   <div class="synthesis-body">
     <details id="synthesis-history" class="synthesis-history"><summary id="synthesis-history-count">方案历史</summary><div><label class="sr-only" for="synthesis-history-list">已保存的提示词方案</label><select id="synthesis-history-list"></select><button type="button" class="btn" id="synthesis-history-restore">恢复方案</button><button type="button" class="btn" id="synthesis-history-delete">删除记录</button><small>勾选和编辑自动保存，再次打开恢复上次状态。保存在当前浏览器，最多 50 条历史。</small></div></details>
     <section class="synthesis-section" aria-labelledby="synthesis-references-title">
@@ -7,9 +7,9 @@
       <div id="synthesis-references" class="synthesis-references" role="group" aria-label="选择外观词条"></div>
     </section>
     <section class="synthesis-section" aria-labelledby="synthesis-prompt-title">
-      <div class="synthesis-section-heading"><h3 id="synthesis-prompt-title">2. 提示词</h3><div class="synthesis-copy-actions"><span id="synthesis-copy-status" class="synthesis-copy-status" role="status" aria-live="polite" hidden></span><button type="button" class="btn primary" id="synthesis-copy-prompt">复制提示词</button></div></div>
+      <div class="synthesis-section-heading"><h3 id="synthesis-prompt-title">2. 提示词</h3><div class="synthesis-copy-actions"><label class="synthesis-language"><span>提示词语言</span><select id="synthesis-language" aria-label="提示词语言"><option value="zh" lang="zh-CN">中文</option><option value="en" lang="en">English</option><option value="ja" lang="ja">日本語</option></select></label><span id="synthesis-copy-status" class="synthesis-copy-status" role="status" aria-live="polite" hidden></span><button type="button" class="btn primary" id="synthesis-copy-prompt">复制提示词</button></div></div>
       <label for="synthesis-prompt" class="sr-only">可复制的角色合成提示词</label>
-      <textarea id="synthesis-prompt" spellcheck="false" placeholder="请先勾选要组合的图鉴。"></textarea>
+      <textarea id="synthesis-prompt" data-i18n-skip spellcheck="false" placeholder="请先勾选要组合的图鉴。"></textarea>
     </section>
   </div>
 </dialog>

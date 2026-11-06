@@ -10,6 +10,7 @@ import sys
 import zipfile
 from build_provenance import application_info
 from web_delivery import write_runtime
+from localization_delivery import prepare_web_locales
 
 ROOT = Path(__file__).resolve().parents[1]
 EXCLUDED = {'.git', '.work', 'node_modules', '__pycache__', 'dist', '.venv'}
@@ -129,8 +130,11 @@ def build_web(output, image_mode='original'):
     contribution_name='assets/contribution-index-'+contribution_hash+'.js'
     contribution_index.rename(output/contribution_name)
     contribution_page=(ROOT/'contribute.html').read_text(encoding='utf-8').replace('assets/contribution-index.js',contribution_name)
+    html,contribution_page=prepare_web_locales(ROOT,output,html,contribution_page)
     (output/'contribute.html').write_text(contribution_page,encoding='utf-8')
     shutil.copy2(ROOT/'CONTRIBUTING.md',output/'CONTRIBUTING.md')
+    for locale in ['en','ja']:
+        shutil.copy2(ROOT/f'CONTRIBUTING.{locale}.md',output/f'CONTRIBUTING.{locale}.md')
     relative, detail_chunks = write_runtime(output, data, nav)
     build_info=application_info(ROOT,include_commit=True)
     build_info['image_delivery']=image_mode
@@ -161,7 +165,7 @@ def build_web(output, image_mode='original'):
         path=output/relative
         data_manifest['files'][relative]={'bytes':path.stat().st_size,'sha256':sha256_file(path)}
     (output/'data/manifest.json').write_text(json.dumps(data_manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    for file in ['view-relations.html', 'NOTICE.md', 'LICENSE', 'CONTENT-LICENSE', 'LICENSE-SCOPE.md', 'THIRD_PARTY_NOTICES.md']:
+    for file in ['view-relations.html', 'NOTICE.md', 'LICENSE', 'CONTENT-LICENSE', 'LICENSE-SCOPE.md', 'THIRD_PARTY_NOTICES.md','README.en.md','README.ja.md']:
         if (ROOT / file).exists():
             shutil.copy2(ROOT / file, output / file)
     # Public audit links must resolve in the preview without exposing private receipts.
