@@ -14,7 +14,6 @@
 .subdivision-option[aria-pressed="true"]>small{color:inherit;opacity:.9}
 .subdivision-option[aria-pressed="true"]>span::before{content:'✓';margin-right:4px;font-size:9px}
 .subdivision-option:disabled{opacity:.4;cursor:default}
-.subdivision-more{margin-top:6px;padding:3px 0;color:var(--accent);background:transparent;font-size:10px;text-align:left;line-height:1.7}
 .subdivision-search-note{margin:6px 0 0;font-size:9px;color:var(--muted);line-height:1.6}
 .subdivision-browser.is-single{display:flex;align-items:center;gap:10px;padding:8px 0}
 .subdivision-browser.is-single .subdivision-heading{margin:0}
