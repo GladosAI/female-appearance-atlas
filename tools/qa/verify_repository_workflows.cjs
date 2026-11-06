@@ -82,6 +82,26 @@ const payload={schema:'female-appearance-library/v2',cards:[{id:'qa-reference-ca
  await page.waitForFunction(()=>document.querySelector('#entry-grid .thumb')?.style.backgroundImage);
  const pending=await page.locator('#entry-grid [data-thumb-image]').count();assert(pending>0,'Offscreen sheet thumbnails are deferred');
  await page.locator('#entry-grid .entry').nth(50).scrollIntoViewIfNeeded();await page.waitForFunction(()=>!document.querySelectorAll('#entry-grid .entry')[50].querySelector('[data-thumb-image]'));
+ // Categories with many subdivisions expose every choice without a second action.
+ const fashionEntries=JSON.parse(fs.readFileSync(path.join(root,'data/catalog.json'),'utf8')).entries.filter(entry=>entry.category==='fashion_outfits');
+ const fashionDimensions=[...new Set(fashionEntries.map(entry=>entry.dimension))];assert(fashionDimensions.length>8);
+ for(const viewport of [{width:1365,height:950},{width:390,height:844}]){
+  await page.setViewportSize(viewport);
+  for(const browseView of ['terms','boards']){
+   await page.goto(base+'?section=fashion_outfits&view='+browseView);
+   const panel=page.locator(browseView==='boards'?'#board-subdivisions':'#category-subdivisions');await panel.waitFor({state:'visible'});
+   const choices=panel.locator('[data-dimension-choice]');
+   assert.deepEqual(await choices.evaluateAll(buttons=>buttons.map(button=>button.dataset.dimensionChoice)),['all',...fashionDimensions]);
+   for(const button of await choices.all())assert(await button.isVisible(),'Every subdivision must be visible without expanding');
+   assert.equal(await page.locator('[data-expand-subdivisions]').count(),0);
+   assert(await panel.evaluate(element=>element.scrollWidth<=element.clientWidth+1),'Subdivision choices wrap within the panel');
+   await panel.screenshot({path:path.join(output,`all-subdivisions-${browseView}-${viewport.width}.png`)});
+   await choices.last().click();assert.equal(await page.locator('#dimension-filter').inputValue(),fashionDimensions.at(-1));
+   assert.equal(await panel.locator('[aria-pressed="true"]').getAttribute('data-dimension-choice'),fashionDimensions.at(-1));
+   await panel.locator('[data-dimension-choice="all"]').click();assert.equal(await page.locator('#dimension-filter').inputValue(),'all');
+  }
+ }
+ await page.setViewportSize({width:1365,height:950});
  await page.goto(base.replace(/index\.html$/, '')+'view-relations.html');
  await page.waitForURL(/section=branch_camera_viewpoints/);await page.locator('#entry-grid .entry').first().waitFor();
  assert((await page.locator('#category-title').innerText()).includes('视角、机位与景别'));await page.screenshot({path:path.join(output,'camera-gallery-main-directory.png')});
@@ -117,6 +137,6 @@ const payload={schema:'female-appearance-library/v2',cards:[{id:'qa-reference-ca
  await page.goto(base+'?view=card');await page.locator('#import-file').setInputFiles({name:'comic-panels-v70.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify({schema:'female-appearance-card/v1',name:'漫画单格扩展参考',selected:['MC014','MC026','MX017','MX027']}))});await page.locator('#open-card-synthesis').click();
  const newComicPrompt=await page.locator('#synthesis-prompt').inputValue();for(const heading of ['漫画格框、用墨与气氛','漫画动势、符号与气泡'])assert(newComicPrompt.includes(heading+'：'));for(const name of ['竖长格全身展示','回忆意象叠画格','灵魂出窍打击格','画外对白入框格'])assert(newComicPrompt.includes(name));assert(!newComicPrompt.includes('这边！'));assert(!newComicPrompt.includes('配饰与道具：'));
  assert.deepEqual(errors,[]);
- console.log(JSON.stringify({passed:true,checks:['continuous grid, no category blocks','newest-first and adjacent-category sorting','real additions and re-additions first','sorting preserves collections and prompt edits','automatic reopen/reload state','empty selection/text persistence','per-card isolation','mobile 3-column layout','history export/import','offscreen thumbnails deferred','main camera gallery and prompt groups'],deferred_thumbnails:pending}));
+ console.log(JSON.stringify({passed:true,checks:['continuous grid, no category blocks','newest-first and adjacent-category sorting','real additions and re-additions first','sorting preserves collections and prompt edits','automatic reopen/reload state','empty selection/text persistence','per-card isolation','mobile 3-column layout','history export/import','offscreen thumbnails deferred','all subdivisions visible and selectable on desktop/mobile in both browse views','main camera gallery and prompt groups'],deferred_thumbnails:pending}));
  }finally{await browser.close()}
 })().catch(error=>{console.error(error);process.exitCode=1});
