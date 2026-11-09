@@ -27,6 +27,14 @@ function translated(id,field,locale){return locale==='zh'?entries.get(id)[field]
    await waitLanguage(locale);
   };
   const assertFooter=async locale=>{
+   const repository=page.locator('#source-repository-link');
+   assert(await repository.isVisible(),'Keep the source repository reachable on desktop and mobile');
+   assert.equal(await repository.getAttribute('href'),'https://github.com/GladosAI/female-appearance-atlas');
+   assert.equal(await repository.getAttribute('target'),'_blank');
+   assert(await repository.locator('svg').isVisible(),'Show the GitHub mark');
+   assert.equal(await repository.locator('.source-repo-address').textContent(),'GladosAI/female-appearance-atlas');
+   const repositoryLabel='GitHub 开源项目';
+   assert((await repository.textContent()).includes(locale==='zh'?repositoryLabel:packs[locale].messages[repositoryLabel]));
    const link=page.locator('footer #offline-download-link');
    assert.equal(await link.count(),1,'Keep exactly one offline download entry');
    assert(await link.isVisible(),'Offline downloads are available in file and HTTP editions');
@@ -134,6 +142,7 @@ function translated(id,field,locale){return locale==='zh'?entries.get(id)[field]
   assert.equal(await page.locator('#synthesis-language').inputValue(),'en');await assertPersonalData();
   await page.screenshot({path:path.join(output,'i18n-prompt-independent-desktop.png')});
   await page.setViewportSize({width:390,height:844});
+  await assertFooter('ja');
   assert(await page.locator('#card-synthesis-dialog').evaluate(element=>element.scrollWidth<=element.clientWidth+1));
   assert.equal(await page.locator('#synthesis-references').evaluate(element=>getComputedStyle(element).gridTemplateColumns.split(' ').length),3);
   await page.screenshot({path:path.join(output,'i18n-prompt-independent-mobile.png')});await page.locator('#close-card-synthesis').click();
