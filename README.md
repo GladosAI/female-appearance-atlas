@@ -10,7 +10,7 @@
 
 [在线阅览](https://gladosai.github.io/female-appearance-atlas/) · [源码仓库](https://github.com/GladosAI/female-appearance-atlas) · [版本与资源包](https://github.com/GladosAI/female-appearance-atlas/releases) · [问题反馈](https://github.com/GladosAI/female-appearance-atlas/issues)
 
-无需下载即可[在线浏览图鉴](https://gladosai.github.io/female-appearance-atlas/)；当前程序版 **0.5.0**，内容版 **74.0**。需要原图或离线使用时，从[Releases](https://github.com/GladosAI/female-appearance-atlas/releases/latest)获取以下资源包。程序更新复用明确标记版本的图片资源，不必重复下载未变化的图片。
+无需下载即可[在线浏览图鉴](https://gladosai.github.io/female-appearance-atlas/)；当前程序版 **0.5.1**，内容版 **74.0**。需要原图或离线使用时，从[Releases](https://github.com/GladosAI/female-appearance-atlas/releases/latest)获取以下资源包。程序更新复用明确标记版本的图片资源，不必重复下载未变化的图片。
 
 | 下载 | 内容与用途 |
 | --- | --- |
