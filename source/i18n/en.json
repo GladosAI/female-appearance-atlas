@@ -9612,7 +9612,10 @@
     "{available} 组尺寸 · 当前 {selected} 组正面＋侧身": "{available} measurement sets · Showing {selected} front-and-side pairs",
     "案例 {number} · 25岁以上成年设定": "Example {number} · Adult character aged 25+",
     "移除条件：{name}": "Remove filter: {name}",
-    "放大{name}": "Enlarge {name}"
+    "放大{name}": "Enlarge {name}",
+    "下载完整离线资源包与原图": "Download the complete offline edition and original images",
+    "在线预览使用有损 WebP 压缩图片，原图可通过下方入口下载。": "The online preview uses lossy WebP images. Download the originals using the link below.",
+    "GitHub 开源项目": "GitHub repository"
   },
   "entries": {
     "HC001": {
@@ -118920,6 +118923,9 @@
     "{available} 组尺寸 · 当前 {selected} 组正面＋侧身": "reviewed",
     "案例 {number} · 25岁以上成年设定": "reviewed",
     "移除条件：{name}": "reviewed",
-    "放大{name}": "reviewed"
+    "放大{name}": "reviewed",
+    "下载完整离线资源包与原图": "reviewed",
+    "在线预览使用有损 WebP 压缩图片，原图可通过下方入口下载。": "reviewed",
+    "GitHub 开源项目": "reviewed"
   }
 }

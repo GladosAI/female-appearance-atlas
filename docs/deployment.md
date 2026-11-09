@@ -80,3 +80,11 @@ python tools/release_atlas.py packages --output dist/release-review
 正式仓库的main通过PR更新，要求Linux/Windows数据检查与界面检查通过，禁止强推与删除，并对管理员生效。单人维护不额外要求另一位审批者。提交应先推到工作分支，再由通过检查的PR合并，不能为便利而关闭保护规则。
 
 GitHub Pages环境还需允许main分支以及正式版本标签app-v*和v*；否则从Release事件启动的部署会在分配运行器前被拒绝。新建镜像或Fork时应检查对应环境规则，并自行配置巡检地址；官方巡检工作流只在GladosAI/female-appearance-atlas启用。
+
+## 通过网盘分享完整离线版
+
+按最新版源码包内 `RESOURCE-PACKS.json` 指定的版本获取资源。将官方发行的图片资源包、离线图片读取数据包先解压到同一位置，最后解压最新版源码与页面包并覆盖同名文件。三个 ZIP 都使用 `female-appearance-atlas/` 作为顶层文件夹，应合并到同一个文件夹，而不是再套三层包名目录。保留原图、`images/export-data/`、`data/`、`assets/`、文档及许可文件。
+
+确认完全解压后可双击 `female-appearance-atlas/index.html` 浏览、使用外观卡和导出提示词，再将整个文件夹压缩成一个“完整离线版”ZIP上传网盘。接收者下载、完整解压后打开 `index.html` 即可，无需安装 Node、Python 或运行构建命令；不要在压缩包预览窗口内打开HTML。
+
+使用官方发行文件合并，不直接压缩含`.git`、`.work`和`node_modules`的开发目录。个人外观卡和历史保存在各自浏览器，不会自动包含在图鉴文件中；需要迁移时单独导出备份。完整离线包约数GB，外部相关阅读、反馈和GitHub链接仍需网络。

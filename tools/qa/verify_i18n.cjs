@@ -26,6 +26,27 @@ function translated(id,field,locale){return locale==='zh'?entries.get(id)[field]
    await Promise.all([page.waitForURL(url=>url.searchParams.get('lang')===locale),page.locator('#language-select').selectOption(locale)]);
    await waitLanguage(locale);
   };
+  const assertFooter=async locale=>{
+   const repository=page.locator('#source-repository-link');
+   assert(await repository.isVisible(),'Keep the source repository reachable on desktop and mobile');
+   assert.equal(await repository.getAttribute('href'),'https://github.com/GladosAI/female-appearance-atlas');
+   assert.equal(await repository.getAttribute('target'),'_blank');
+   assert(await repository.locator('svg').isVisible(),'Show the GitHub mark');
+   assert.equal(await repository.locator('.source-repo-address').textContent(),'GladosAI/female-appearance-atlas');
+   const repositoryLabel='GitHub 开源项目';
+   assert((await repository.textContent()).includes(locale==='zh'?repositoryLabel:packs[locale].messages[repositoryLabel]));
+   const link=page.locator('footer #offline-download-link');
+   assert.equal(await link.count(),1,'Keep exactly one offline download entry');
+   assert(await link.isVisible(),'Offline downloads are available in file and HTTP editions');
+   assert.equal(await link.getAttribute('href'),'https://github.com/GladosAI/female-appearance-atlas/releases/latest');
+   assert.equal(await link.getAttribute('target'),'_blank');
+   assert((await link.getAttribute('rel')).split(/\s+/).includes('noopener'));
+   const title='下载完整离线资源包与原图',notice='在线预览使用有损 WebP 压缩图片，原图可通过下方入口下载。';
+   assert.equal(await link.textContent(),locale==='zh'?title:packs[locale].messages[title]);
+   const webp=await page.evaluate(()=>JSON.parse(document.getElementById('atlas-build').textContent).image_delivery==='webp');
+   assert.equal(await page.locator('#web-preview-notice').isVisible(),webp,'Show lossy preview disclosure only in WebP builds');
+   if(webp)assert.equal(await page.locator('#web-preview-notice').textContent(),locale==='zh'?notice:packs[locale].messages[notice]);
+  };
   const referenceCard=()=>page.locator('#entry-grid .entry').filter({has:page.locator('.title-button[data-detail="AH020"]')});
   const assertPersonalData=async()=>{
    const stored=await page.evaluate(key=>JSON.parse(localStorage.getItem(key)),libraryKey);
@@ -38,7 +59,7 @@ function translated(id,field,locale){return locale==='zh'?entries.get(id)[field]
    for(const id of ids){assert(prompt.includes(translated(id,'name',locale)),`${locale} prompt includes ${id} name`);for(const field of ['description','design_tip']){const detail=translated(id,field,locale);if(detail&&detail.length>12)assert(!prompt.includes(detail),`${locale} prompt excludes ${id} ${field}`)}}
    assert(!prompt.includes('【图1'));return prompt;
   };
-  await page.goto(route({lang:'zh',section:'hair_with_accessories'}));await waitLanguage('zh');
+  await page.goto(route({lang:'zh',section:'hair_with_accessories'}));await waitLanguage('zh');await assertFooter('zh');
   await page.evaluate(({libraryKey,historyKey,fixture})=>{localStorage.setItem(libraryKey,JSON.stringify(fixture));localStorage.removeItem(historyKey);localStorage.removeItem('female-beauty-prompt-language-v1')},{libraryKey,historyKey,fixture});
 
   // Old links retain the original Chinese dimension value; only labels change.
@@ -89,6 +110,7 @@ function translated(id,field,locale){return locale==='zh'?entries.get(id)[field]
   await page.locator('#search').fill(reference.en);await page.locator('#search').press('Enter');await referenceCard().waitFor();
   for(const locale of ['zh','en','ja']){
    await switchLanguage(locale);await referenceCard().waitFor();
+   await assertFooter(locale);
    assert.equal(await page.locator('#search').inputValue(),reference.en);
    assert.equal(await referenceCard().locator('.title-button').textContent(),translated(reference.id,'name',locale));
    await page.reload();await waitLanguage(locale);await referenceCard().waitFor();
@@ -120,6 +142,7 @@ function translated(id,field,locale){return locale==='zh'?entries.get(id)[field]
   assert.equal(await page.locator('#synthesis-language').inputValue(),'en');await assertPersonalData();
   await page.screenshot({path:path.join(output,'i18n-prompt-independent-desktop.png')});
   await page.setViewportSize({width:390,height:844});
+  await assertFooter('ja');
   assert(await page.locator('#card-synthesis-dialog').evaluate(element=>element.scrollWidth<=element.clientWidth+1));
   assert.equal(await page.locator('#synthesis-references').evaluate(element=>getComputedStyle(element).gridTemplateColumns.split(' ').length),3);
   await page.screenshot({path:path.join(output,'i18n-prompt-independent-mobile.png')});await page.locator('#close-card-synthesis').click();

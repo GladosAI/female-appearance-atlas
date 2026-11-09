@@ -3,13 +3,13 @@
   "locales": {
     "en": {
       "path": "data/locales/en.js",
-      "sha256": "ccd1614a353da40c4aa714011c67521289336d9b6d6bba1c18261b76b5de7556",
-      "bytes": 2593450
+      "sha256": "9d861f02ec6a603a4ab6ea66c7e0116fcff3a19e63fa905a0209771c8a58a5db",
+      "bytes": 2593765
     },
     "ja": {
       "path": "data/locales/ja.js",
-      "sha256": "fdd451537e9dbc3096c41c903250618e209ad2c91511d05859399141538efb3b",
-      "bytes": 2863722
+      "sha256": "51d05c03871d12bf61bf36a7ef0adc42801aa785daee678f37cda8294c63e62a",
+      "bytes": 2864114
     }
   }
 }

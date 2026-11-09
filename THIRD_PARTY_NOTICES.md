@@ -31,3 +31,7 @@
 AI图页的文件来源、已记录的编辑输入和生成提示词见`source/rights-provenance.json`。生成工具的条款与第三方输入、形象等权利分别核验；输出文件在生成目录中存在不等于获得所有第三方权利。项目有权授权的AI配图现采用CC BY-NC 4.0，按具体文件哈希记录所有者的非商业授权。
 
 相关阅读链接不是图片来源授权。项目没有将AI Pose Gallery的图库作为本项目的图片包；抽象词条、独立文案与具体图片的来源应分别判断。
+
+## GitHub 图标
+
+侧栏 GitHub 标志使用 [Primer Octicons mark-github-16](https://github.com/primer/octicons/blob/main/icons/mark-github-16.svg)，Copyright (c) 2026 GitHub Inc.，采用 MIT 许可。图标以 SVG 内嵌，仅增加随主题配色和辅助功能属性；完整许可见 [OCTICONS-LICENSE.txt](assets/icons/OCTICONS-LICENSE.txt)。该第三方图标保留原许可，不适用项目素材的非商用限制。

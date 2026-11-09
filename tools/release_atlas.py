@@ -64,6 +64,16 @@ def runtime_data(data):
     return source
 
 
+def prepare_web_footer(html, image_mode):
+    """Keep the shared download entry; disclose compression only for WebP."""
+    marker = '<div id="web-preview-notice" hidden>'
+    if html.count('id="offline-download-link"') != 1 or html.count(marker) != 1:
+        raise ValueError('Missing or duplicate shared offline-download footer')
+    if image_mode == 'webp':
+        html = html.replace(marker, '<div id="web-preview-notice">', 1)
+    return html
+
+
 def manifest(folder):
     files = []
     for path in sorted(folder.rglob('*')):
@@ -145,8 +155,7 @@ def build_web(output, image_mode='original'):
                 lambda match:match[1]+json.dumps(build_info,ensure_ascii=False,separators=(',',':'))+match[2],html,flags=re.S)
     html = re.sub(r'(<script id="atlas-data" type="application/json">).*?(</script>)', r'\1\2', html, flags=re.S)
     html = re.sub(r'(<script id="atlas-navigation" type="application/json">).*?(</script>)', r'\1\2' + f'\n<script src="{relative}"></script>', html, flags=re.S)
-    if image_mode == 'webp':
-        html = html.replace('<footer class="footer">', '<footer class="footer">在线预览使用有损 WebP 压缩图片；<a href="https://github.com/GladosAI/female-appearance-atlas/releases/latest" target="_blank" rel="noopener">下载完整离线资源包与原图</a>。<br>')
+    html = prepare_web_footer(html, image_mode)
     (output / 'index.html').write_text(html, encoding='utf-8')
     (output / '.nojekyll').write_text('', encoding='utf-8')
     (output / 'data').mkdir(exist_ok=True)
