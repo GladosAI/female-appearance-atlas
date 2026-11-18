@@ -1,0 +1,336 @@
+{
+  "schema": "female-appearance-quality-review/v1",
+  "batch": "2026-11-15-anime-face-types",
+  "catalog_version": "75.0",
+  "date": "2026-11-15",
+  "reviewer": "Codex AI-assisted visual review",
+  "scope": {
+    "entries": 12,
+    "visuals": 12,
+    "categories": [
+      "anime_face_types"
+    ],
+    "category_counts": {
+      "anime_face_types": 12
+    }
+  },
+  "method": "Visual comparison of the original 4 × 3 portrait sheet, verifying geometry, consistent front-facing framing and cell-to-entry correspondence.",
+  "issues": [],
+  "changed_entries": [],
+  "export_representatives": [],
+  "resource_release": "v75.0",
+  "records": [
+    {
+      "entry_id": "AF001",
+      "category": "anime_face_types",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-af001-af012.png",
+      "image_sha256": "84c972c741fe70715f36765e5d5eb0fca0e4f46c90fa337771cd5a5735dbdbb4",
+      "visual_at_review": {
+        "board": "anime-faces-v75",
+        "image": "images/sheet-af001-af012.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 3,
+        "label": "AF001",
+        "aspect": 1.002770083102493,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 362,
+          "height": 361,
+          "sheet_width": 1448,
+          "sheet_height": 1086
+        }
+      }
+    },
+    {
+      "entry_id": "AF002",
+      "category": "anime_face_types",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-af001-af012.png",
+      "image_sha256": "84c972c741fe70715f36765e5d5eb0fca0e4f46c90fa337771cd5a5735dbdbb4",
+      "visual_at_review": {
+        "board": "anime-faces-v75",
+        "image": "images/sheet-af001-af012.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 3,
+        "label": "AF002",
+        "aspect": 1.002770083102493,
+        "crop": {
+          "x": 362,
+          "y": 0,
+          "width": 362,
+          "height": 361,
+          "sheet_width": 1448,
+          "sheet_height": 1086
+        }
+      }
+    },
+    {
+      "entry_id": "AF003",
+      "category": "anime_face_types",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-af001-af012.png",
+      "image_sha256": "84c972c741fe70715f36765e5d5eb0fca0e4f46c90fa337771cd5a5735dbdbb4",
+      "visual_at_review": {
+        "board": "anime-faces-v75",
+        "image": "images/sheet-af001-af012.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 3,
+        "label": "AF003",
+        "aspect": 1.002770083102493,
+        "crop": {
+          "x": 724,
+          "y": 0,
+          "width": 362,
+          "height": 361,
+          "sheet_width": 1448,
+          "sheet_height": 1086
+        }
+      }
+    },
+    {
+      "entry_id": "AF004",
+      "category": "anime_face_types",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-af001-af012.png",
+      "image_sha256": "84c972c741fe70715f36765e5d5eb0fca0e4f46c90fa337771cd5a5735dbdbb4",
+      "visual_at_review": {
+        "board": "anime-faces-v75",
+        "image": "images/sheet-af001-af012.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 3,
+        "label": "AF004",
+        "aspect": 1.002770083102493,
+        "crop": {
+          "x": 1086,
+          "y": 0,
+          "width": 362,
+          "height": 361,
+          "sheet_width": 1448,
+          "sheet_height": 1086
+        }
+      }
+    },
+    {
+      "entry_id": "AF005",
+      "category": "anime_face_types",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-af001-af012.png",
+      "image_sha256": "84c972c741fe70715f36765e5d5eb0fca0e4f46c90fa337771cd5a5735dbdbb4",
+      "visual_at_review": {
+        "board": "anime-faces-v75",
+        "image": "images/sheet-af001-af012.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 3,
+        "label": "AF005",
+        "aspect": 0.9972451790633609,
+        "crop": {
+          "x": 0,
+          "y": 361,
+          "width": 362,
+          "height": 363,
+          "sheet_width": 1448,
+          "sheet_height": 1086
+        }
+      }
+    },
+    {
+      "entry_id": "AF006",
+      "category": "anime_face_types",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-af001-af012.png",
+      "image_sha256": "84c972c741fe70715f36765e5d5eb0fca0e4f46c90fa337771cd5a5735dbdbb4",
+      "visual_at_review": {
+        "board": "anime-faces-v75",
+        "image": "images/sheet-af001-af012.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 3,
+        "label": "AF006",
+        "aspect": 0.9972451790633609,
+        "crop": {
+          "x": 362,
+          "y": 361,
+          "width": 362,
+          "height": 363,
+          "sheet_width": 1448,
+          "sheet_height": 1086
+        }
+      }
+    },
+    {
+      "entry_id": "AF007",
+      "category": "anime_face_types",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-af001-af012.png",
+      "image_sha256": "84c972c741fe70715f36765e5d5eb0fca0e4f46c90fa337771cd5a5735dbdbb4",
+      "visual_at_review": {
+        "board": "anime-faces-v75",
+        "image": "images/sheet-af001-af012.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 3,
+        "label": "AF007",
+        "aspect": 0.9972451790633609,
+        "crop": {
+          "x": 724,
+          "y": 361,
+          "width": 362,
+          "height": 363,
+          "sheet_width": 1448,
+          "sheet_height": 1086
+        }
+      }
+    },
+    {
+      "entry_id": "AF008",
+      "category": "anime_face_types",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-af001-af012.png",
+      "image_sha256": "84c972c741fe70715f36765e5d5eb0fca0e4f46c90fa337771cd5a5735dbdbb4",
+      "visual_at_review": {
+        "board": "anime-faces-v75",
+        "image": "images/sheet-af001-af012.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 3,
+        "label": "AF008",
+        "aspect": 0.9972451790633609,
+        "crop": {
+          "x": 1086,
+          "y": 361,
+          "width": 362,
+          "height": 363,
+          "sheet_width": 1448,
+          "sheet_height": 1086
+        }
+      }
+    },
+    {
+      "entry_id": "AF009",
+      "category": "anime_face_types",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-af001-af012.png",
+      "image_sha256": "84c972c741fe70715f36765e5d5eb0fca0e4f46c90fa337771cd5a5735dbdbb4",
+      "visual_at_review": {
+        "board": "anime-faces-v75",
+        "image": "images/sheet-af001-af012.png",
+        "column": 0,
+        "row": 2,
+        "columns": 4,
+        "rows": 3,
+        "label": "AF009",
+        "aspect": 1.0,
+        "crop": {
+          "x": 0,
+          "y": 724,
+          "width": 362,
+          "height": 362,
+          "sheet_width": 1448,
+          "sheet_height": 1086
+        }
+      }
+    },
+    {
+      "entry_id": "AF010",
+      "category": "anime_face_types",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-af001-af012.png",
+      "image_sha256": "84c972c741fe70715f36765e5d5eb0fca0e4f46c90fa337771cd5a5735dbdbb4",
+      "visual_at_review": {
+        "board": "anime-faces-v75",
+        "image": "images/sheet-af001-af012.png",
+        "column": 1,
+        "row": 2,
+        "columns": 4,
+        "rows": 3,
+        "label": "AF010",
+        "aspect": 1.0,
+        "crop": {
+          "x": 362,
+          "y": 724,
+          "width": 362,
+          "height": 362,
+          "sheet_width": 1448,
+          "sheet_height": 1086
+        }
+      }
+    },
+    {
+      "entry_id": "AF011",
+      "category": "anime_face_types",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-af001-af012.png",
+      "image_sha256": "84c972c741fe70715f36765e5d5eb0fca0e4f46c90fa337771cd5a5735dbdbb4",
+      "visual_at_review": {
+        "board": "anime-faces-v75",
+        "image": "images/sheet-af001-af012.png",
+        "column": 2,
+        "row": 2,
+        "columns": 4,
+        "rows": 3,
+        "label": "AF011",
+        "aspect": 1.0,
+        "crop": {
+          "x": 724,
+          "y": 724,
+          "width": 362,
+          "height": 362,
+          "sheet_width": 1448,
+          "sheet_height": 1086
+        }
+      }
+    },
+    {
+      "entry_id": "AF012",
+      "category": "anime_face_types",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-af001-af012.png",
+      "image_sha256": "84c972c741fe70715f36765e5d5eb0fca0e4f46c90fa337771cd5a5735dbdbb4",
+      "visual_at_review": {
+        "board": "anime-faces-v75",
+        "image": "images/sheet-af001-af012.png",
+        "column": 3,
+        "row": 2,
+        "columns": 4,
+        "rows": 3,
+        "label": "AF012",
+        "aspect": 1.0,
+        "crop": {
+          "x": 1086,
+          "y": 724,
+          "width": 362,
+          "height": 362,
+          "sheet_width": 1448,
+          "sheet_height": 1086
+        }
+      }
+    }
+  ]
+}

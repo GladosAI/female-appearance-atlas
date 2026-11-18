@@ -56576,5 +56576,1334 @@
       0,
       887
     ]
+  },
+  {
+    "id": "anime-faces-v75",
+    "category": "anime_face_types",
+    "title": "常见动漫脸型 · 正面对照",
+    "image": "images/sheet-af001-af012.png",
+    "width": 1448,
+    "height": 1086,
+    "columns": 4,
+    "rows": 3,
+    "column_boundaries": [
+      0,
+      362,
+      724,
+      1086,
+      1448
+    ],
+    "row_boundaries": [
+      0,
+      361,
+      724,
+      1086
+    ],
+    "origin": "AI 生成的原创动漫脸型示意",
+    "prompt": "Use case: stylized-concept. Generate an original professional anime face-construction comparison sheet for a game artist's visual atlas. Exactly 12 clearly distinct adult female head-and-shoulder portraits, in a perfectly aligned 4-column by 3-row equal-size grid with thin straight pale-grey ruled separators. Landscape, 4:3 ideally; full bleed grid, no outer title or labels or text of any kind. Each portrait contained strictly within its own cell, evenly centered at the same scale, with generous padding on all sides so the entire skull, hair outline, neck, chin never get clipped. Eye-level straight-on front view; neutral relaxed expression. Same plain ivory crew-neck top, same quiet pale warm-gray background, same neutral frontal light, simple dark chestnut hair brushed neatly away from both cheeks and brow, so judge differences by facial geometry not apparel, expression or hairstyles. All original clearly adult women 22–35. Different face constructions, no replicas of any identifiable people or existing characters, no logos. High-quality Japanese anime and manga facial draftsmanship; intentionally and distinctly vary head shapes, relative eye size and shape, features placement, nose geometry and jaw contours, not just superficial color. Professional readable comparison image, clean lines, subtitles absent.\n\nRead left to right by row. Row 1: [1] soft everyday anime face, softly rounded cheeks, short smoothly curved chin, gently rounded horizontally oval eyes, short simplified nose and soft fine cel shading. [2] elegant game illustration face: a slender oval tapering neatly into a small rounded chin, extended almond eyes with finely layered iris highlights and lashes, fine extended nose bridge, delicate gradient shading. [3] retro tall-eye face: tall oval eyes with emphatic multiple solid white highlights, compact tiny triangular nose, narrow small mouth, sharper chin, distinctly late-1990s thick black outline and two-tone cel shading. [4] low-set large round-eye face: high visible forehead, very large round eyes set noticeably lower on the face, short lower face and broad soft round jaw, clean flat anime rendering.\nRow 2: [5] angular action manga face: wedge jaw corners, pointy chin, strongly slanted upturned eyes, assertive high-contrast linework. [6] long-face slim-eye face: vertical long narrow jaw and long midface, narrow level eyes, visible extended nose bridge, low small mouth, understated look. [7] wide-cheek short-chin face: prominent wide cheeks contrasted with short rounded chin, small gently downturned eyes and broad midface. [8] youthful-looking adult triangular V chin face: taper suddenly below the cheekbones into a sharp small V, wide eyes with compact nose and mouth, cheeks distinctly cornered compared with the round face in cell 4.\nRow 3: [9] elegant mature face: small almond eyes, longer bridge, narrow lips, visible defined cheekbones and softly structured jaw. [10] adult super-deformed mini face: large nearly spherical head, compressed forehead-to-chin proportions, very simplified little nose and mouth, dot-like narrow ovoid eyes; stay recognizable as a stylized adult woman, not a child. [11] broad square chin graphic anime face: substantial square jaw ending in wide flat chin, thick level brows, slightly rectangular eyes, graphic flat shapes. [12] semi-realistic anime face: near-natural eye size, visibly modeled orbital ridge, distinct nose wings and softly modeled lips, subtle realistic painting without becoming a photo. Keep all 12 structures visually distinguished and avoid a common 'same face' template.",
+    "items": [
+      {
+        "entry_id": "AF001",
+        "label": "AF001",
+        "name": "圆润日常动画脸"
+      },
+      {
+        "entry_id": "AF002",
+        "label": "AF002",
+        "name": "细杏眼游戏插画脸"
+      },
+      {
+        "entry_id": "AF003",
+        "label": "AF003",
+        "name": "复古纵长高光眼脸"
+      },
+      {
+        "entry_id": "AF004",
+        "label": "AF004",
+        "name": "低位圆眼短下脸"
+      },
+      {
+        "entry_id": "AF005",
+        "label": "AF005",
+        "name": "锐角上挑眼动作漫画脸"
+      },
+      {
+        "entry_id": "AF006",
+        "label": "AF006",
+        "name": "细长脸平直窄眼"
+      },
+      {
+        "entry_id": "AF007",
+        "label": "AF007",
+        "name": "宽颊下垂眼短下巴"
+      },
+      {
+        "entry_id": "AF008",
+        "label": "AF008",
+        "name": "大眼窄 V 形动漫脸"
+      },
+      {
+        "entry_id": "AF009",
+        "label": "AF009",
+        "name": "高颧细眼成熟动漫脸"
+      },
+      {
+        "entry_id": "AF010",
+        "label": "AF010",
+        "name": "椭圆点眼 Q 版脸"
+      },
+      {
+        "entry_id": "AF011",
+        "label": "AF011",
+        "name": "平颏方颌几何脸"
+      },
+      {
+        "entry_id": "AF012",
+        "label": "AF012",
+        "name": "半写实立体五官脸"
+      }
+    ]
+  },
+  {
+    "id": "footwear-v77-flats",
+    "category": "footwear",
+    "title": "装饰平鞋与厚底扣带鞋",
+    "image": "images/sheet-fw095-fw102.png",
+    "width": 1672,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      418,
+      836,
+      1254,
+      1672
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创人物鞋履穿着示意",
+    "prompt": "Use case: stylized-concept. Create an original professional anime fashion footwear reference atlas, a landscape image at approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent portrait-shaped rectangular cells, straight thin pale-grey dividers at x=25%,50%,75%, y=50%. A single matching pair of women's shoes is being WORN on the two anatomically natural lower legs of ONE ADULT woman in each cell. Frame only from just below her knees to the ground, with knees/legs naturally entering through the top edge. In each cell both shoes, toes, heels, soles and every fastening are fully visible with generous left, right and bottom margins. Both feet rest naturally on an ivory floor, one slightly ahead and turned outward to show the side construction, no crossed legs. Clean ivory background, crisp refined line art and soft cel shading, fabric and leather readable, consistent gentle daylight, attractive slim adult female leg proportions. Large shoe details occupy most of the lower two thirds of each tile. Eight clearly DIFFERENT original designs, no brand, logos, text, captions, IDs, inset diagrams, watermark, full-body figures, floating shoes, overlapping cells or crops of shoe tips. Each boot must visibly enclose the leg, each strap wraps and connects to the corresponding shoe. The TWO FEET in a cell MUST wear the SAME shoe design and color. Order is left-to-right row one then left-to-right row two. Eight decorative flat and platform shoes. Row one: (1) Burgundy round-toe PLATFORM MARY JANES with a continuous 3cm black platform sole and exactly TWO narrow parallel buckled instep straps, white ankle socks. (2) Dusty pink structured BALLET FLATS with a thin flat outsole and satin RIBBONS visibly CROSSING over the instep then wrapping twice around the ankles, small bows on outer ankles, bare ankles. (3) Dark navy round-toe thin-soled flats with exactly THREE narrow horizontal silver-buckled instep straps running from toe area toward ankle, white ankle socks. (4) Olive soft-fabric pointed-toe flats with a LARGE FABRIC KNOT centered on the toe vamp, closed sides, bare ankles. Row two: (5) Brown pointed flats with narrow leather toe cap and heel cup, open SIDE WAISTS with laces that BRIDGE the open instep through actual eyelets, bare ankles. (6) Tan loafers with broad woven interlaced LEATHER STRIPS covering the entire vamp, solid plain heel and thin low outsole, bare ankles. (7) Cream square-toe low flats, TWO wide folded-over rectangular leather FLAPS form a visible central overlap across the toe vamp, bare ankles. (8) Black round-toe flats with TWO oval SIDE CUTOUTS each near the waist and a single silver RING-BUCKLE ankle strap, bare ankles. Ensure each listed construction is clearly visible, do not substitute generic pumps.",
+    "qa_status": "visually_reviewed",
+    "items": [
+      {
+        "entry_id": "FW095",
+        "label": "FW095",
+        "name": "双扣带厚底玛丽珍鞋"
+      },
+      {
+        "entry_id": "FW096",
+        "label": "FW096",
+        "name": "交叉缎带芭蕾平鞋"
+      },
+      {
+        "entry_id": "FW097",
+        "label": "FW097",
+        "name": "三扣带圆头平鞋"
+      },
+      {
+        "entry_id": "FW098",
+        "label": "FW098",
+        "name": "打结布面尖头平鞋"
+      },
+      {
+        "entry_id": "FW099",
+        "label": "FW099",
+        "name": "镂空侧腰系带平鞋"
+      },
+      {
+        "entry_id": "FW100",
+        "label": "FW100",
+        "name": "编织皮条乐福鞋"
+      },
+      {
+        "entry_id": "FW101",
+        "label": "FW101",
+        "name": "方头折片平鞋"
+      },
+      {
+        "entry_id": "FW102",
+        "label": "FW102",
+        "name": "双侧开窗环扣平鞋"
+      }
+    ]
+  },
+  {
+    "id": "footwear-v77-heels",
+    "category": "footwear",
+    "title": "礼装鞋口、踝带与鞋跟",
+    "image": "images/sheet-fw103-fw110.png",
+    "width": 1672,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      418,
+      836,
+      1254,
+      1672
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创人物鞋履穿着示意",
+    "prompt": "Use case: stylized-concept. Create an original professional anime fashion footwear reference atlas, a landscape image at approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent portrait-shaped rectangular cells, straight thin pale-grey dividers at x=25%,50%,75%, y=50%. A single matching pair of women's shoes is being WORN on the two anatomically natural lower legs of ONE ADULT woman in each cell. Frame only from just below her knees to the ground, with knees/legs naturally entering through the top edge. In each cell both shoes, toes, heels, soles and every fastening are fully visible with generous left, right and bottom margins. Both feet rest naturally on an ivory floor, one slightly ahead and turned outward to show the side construction, no crossed legs. Clean ivory background, crisp refined line art and soft cel shading, fabric and leather readable, consistent gentle daylight, attractive slim adult female leg proportions. Large shoe details occupy most of the lower two thirds of each tile. Eight clearly DIFFERENT original designs, no brand, logos, text, captions, IDs, inset diagrams, watermark, full-body figures, floating shoes, overlapping cells or crops of shoe tips. Each boot must visibly enclose the leg, each strap wraps and connects to the corresponding shoe. The TWO FEET in a cell MUST wear the SAME shoe design and color. Order is left-to-right row one then left-to-right row two. Eight dress-heel constructions, bare ankles and no socks. Row one: (1) Burgundy pointed STILETTO pumps with an unusually deep narrow V-shaped TOPLINE down the vamp, otherwise solid sidewalls and fully enclosed toe, a real continuous shoe bottom. (2) Black HIGH-VAMP evening pumps with a closed pointed toe and lace-up front extending high over the instep nearly to ankle, medium narrow heel, two lace panels and clearly connected eyelets. (3) Ivory pointed pumps with enclosed toe and heel cups connected ONLY at the sole; deep symmetric SIDE CUTOUTS leave the middle of both foot sides exposed, medium heel. (4) Plum closed-toe evening heels with a sculpted wide PETAL-SHAPED CUFF wrapping round each ankle, three large lobes on the cuff, cuff joined to closed heel cup. Row two: (5) Blush closed-toe pumps with broad satin ribbons wrapped round each ankle and a LARGE OUTER-ANKLE BOW with two short visible tails, medium heel. (6) Powder blue OPEN-HEEL MULES with two stacked fabric RUFFLES across the entire forefoot, low block heel, open back and closed rounded toe. (7) Black pointed SLINGBACK pumps with a fine GOLD CHAIN encircling ankle connected by a small vertical chain link to the leather back strap, low tapered heel. (8) Cream round-toe dress shoes with a visibly DOUBLE-STEP thick forefoot PLATFORM made of two stacked outsole layers and a wide BLOCK HEEL, a thin ankle strap. Every heel solidly supports its matching shoe, all shoes fully grounded with correct leg-to-foot anatomy.",
+    "qa_status": "visually_reviewed",
+    "items": [
+      {
+        "entry_id": "FW103",
+        "label": "FW103",
+        "name": "深V口细跟浅口鞋"
+      },
+      {
+        "entry_id": "FW104",
+        "label": "FW104",
+        "name": "高包背系带礼鞋"
+      },
+      {
+        "entry_id": "FW105",
+        "label": "FW105",
+        "name": "双侧留空浅口鞋"
+      },
+      {
+        "entry_id": "FW106",
+        "label": "FW106",
+        "name": "花瓣护踝礼鞋"
+      },
+      {
+        "entry_id": "FW107",
+        "label": "FW107",
+        "name": "缎带绕踝蝴蝶结礼鞋"
+      },
+      {
+        "entry_id": "FW108",
+        "label": "FW108",
+        "name": "叠层荷叶边穆勒鞋"
+      },
+      {
+        "entry_id": "FW109",
+        "label": "FW109",
+        "name": "踝链连接后空鞋"
+      },
+      {
+        "entry_id": "FW110",
+        "label": "FW110",
+        "name": "双层前台粗跟鞋"
+      }
+    ]
+  },
+  {
+    "id": "footwear-v77-sandals",
+    "category": "footwear",
+    "title": "凉鞋、洞洞鞋与居家软鞋",
+    "image": "images/sheet-fw111-fw118.png",
+    "width": 1672,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      418,
+      836,
+      1254,
+      1672
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创人物鞋履穿着示意",
+    "prompt": "Use case: stylized-concept. Create an original professional anime fashion footwear reference atlas, a landscape image at approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent portrait-shaped rectangular cells, straight thin pale-grey dividers at x=25%,50%,75%, y=50%. A single matching pair of women's shoes is being WORN on the two anatomically natural lower legs of ONE ADULT woman in each cell. Frame only from just below her knees to the ground, with knees/legs naturally entering through the top edge. In each cell both shoes, toes, heels, soles and every fastening are fully visible with generous left, right and bottom margins. Both feet rest naturally on an ivory floor, one slightly ahead and turned outward to show the side construction, no crossed legs. Clean ivory background, crisp refined line art and soft cel shading, fabric and leather readable, consistent gentle daylight, attractive slim adult female leg proportions. Large shoe details occupy most of the lower two thirds of each tile. Eight clearly DIFFERENT original designs, no brand, logos, text, captions, IDs, inset diagrams, watermark, full-body figures, floating shoes, overlapping cells or crops of shoe tips. Each boot must visibly enclose the leg, each strap wraps and connects to the corresponding shoe. The TWO FEET in a cell MUST wear the SAME shoe design and color. Order is left-to-right row one then left-to-right row two. Eight sandals and indoor shoes. Row one: (1) Light tan FLAT sandals with a closed LOOP around the BIG TOE and two fine diagonal leather straps across the middle of the foot; toe loop distinct from a thong post. (2) Muted sage natural ROPE-WOVEN flat sandals, interlaced soft rope on the forefoot and a rope heel strap, flat solid sole. (3) Grey and teal UTILITY SANDALS with two broad padded hook-and-loop straps over the toes and instep and a third broad strap round the BACK OF THE HEEL, lugged rubber sole. (4) Pale yellow one-piece molded CLOGS, broad fully closed rounded toe shell with orderly round ventilation holes, swivel strap around back of heel, same molded material for shell and sole, NO brand. Row two: (5) Warm brown leather closed-toe CLOGS with a thick natural WOODEN SOLE and a row of small metal STUDS holding the leather edge to the wood, open heel. (6) Blue quilted closed-toe HOUSE SLIPPERS, raised diamond quilting over soft padded forefoot, open heel and thin fabric-covered outsole. (7) Cream FAUX-FUR slippers with exactly TWO broad CROSSING plush straps on the forefoot, open toe and open heel, flat padded soles. (8) Mauve soft-soled entirely CLOTH indoor shoes, CLOSED TOES and CLOSED HEELS with elastic gathered rim around opening, padded fabric soles, clearly distinct from open-back slippers. In each cell two natural feet in the same shoe design. Toes only visible where the shoe is open, no extra toes and no cut-away illustration.",
+    "qa_status": "visually_reviewed",
+    "items": [
+      {
+        "entry_id": "FW111",
+        "label": "FW111",
+        "name": "拇趾环细带凉鞋"
+      },
+      {
+        "entry_id": "FW112",
+        "label": "FW112",
+        "name": "交织绳编平底凉鞋"
+      },
+      {
+        "entry_id": "FW113",
+        "label": "FW113",
+        "name": "后束带机能凉鞋"
+      },
+      {
+        "entry_id": "FW114",
+        "label": "FW114",
+        "name": "一体镂孔包头洞洞鞋"
+      },
+      {
+        "entry_id": "FW115",
+        "label": "FW115",
+        "name": "木底铆钉包头鞋"
+      },
+      {
+        "entry_id": "FW116",
+        "label": "FW116",
+        "name": "绗缝软垫居家拖鞋"
+      },
+      {
+        "entry_id": "FW117",
+        "label": "FW117",
+        "name": "毛绒交叉带拖鞋"
+      },
+      {
+        "entry_id": "FW118",
+        "label": "FW118",
+        "name": "软底包跟布鞋"
+      }
+    ]
+  },
+  {
+    "id": "footwear-v77-boots",
+    "category": "footwear",
+    "title": "新靴型与靴筒结构",
+    "image": "images/sheet-fw119-fw126.png",
+    "width": 1672,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      418,
+      836,
+      1254,
+      1672
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创人物鞋履穿着示意",
+    "prompt": "Use case: stylized-concept. Create an original professional anime fashion footwear reference atlas, a landscape image at approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent portrait-shaped rectangular cells, straight thin pale-grey dividers at x=25%,50%,75%, y=50%. A single matching pair of women's shoes is being WORN on the two anatomically natural lower legs of ONE ADULT woman in each cell. Frame only from just below her knees to the ground, with knees/legs naturally entering through the top edge. In each cell both shoes, toes, heels, soles and every fastening are fully visible with generous left, right and bottom margins. Both feet rest naturally on an ivory floor, one slightly ahead and turned outward to show the side construction, no crossed legs. Clean ivory background, crisp refined line art and soft cel shading, fabric and leather readable, consistent gentle daylight, attractive slim adult female leg proportions. Large shoe details occupy most of the lower two thirds of each tile. Eight clearly DIFFERENT original designs, no brand, logos, text, captions, IDs, inset diagrams, watermark, full-body figures, floating shoes, overlapping cells or crops of shoe tips. Each boot must visibly enclose the leg, each strap wraps and connects to the corresponding shoe. The TWO FEET in a cell MUST wear the SAME shoe design and color. Order is left-to-right row one then left-to-right row two. Eight boot constructions. Frame from just ABOVE THE KNEES to ground in ALL eight cells to fit tall shafts, plain skirt hem barely entering at top edge, both boots and soles complete. Row one: (1) Beige suede DESERT ANKLE BOOTS, simple softly curved two-piece upper with only TWO PAIRS OF LACE EYELETS, untextured crepe flat sole. (2) Olive DUCK BOOTS, dark waterproof molded RUBBER lower shell with horizontal ribbing around toe and cream lace-up FABRIC upper reaching above ankle, seam between rubber and cloth clearly visible. (3) Cream tall WINTER BOOTS to below knees, quilted insulated shafts ending in gathered DRAWCORD RIMS with little cord toggles, dark rounded rubber foot shell. (4) Dark brown knee-high SLOUCH BOOTS, shafts visibly form several deep horizontal soft RUCHED FOLDS along calf, ordinary low block heel, shafts stay below knee. Row two: (5) Black ankle boots covered by a separate grey SPAT GAITER with a row of small side buttons and a visibly separate lower edge arching over the vamp, gaiter leaves toe and heel exposed. (6) Tan low-heeled ankle boots with LARGE DIAMOND SIDE OPENINGS below each ankle and a narrow joining strap across each opening; upper cuff and heel cup remain connected to sole. (7) Burgundy lace-up mid-calf boots with thick rolled cream KNITTED CUFFS folded over the top, ordinary continuous lacing and sturdy soles. (8) Charcoal ankle-high utility boots secured by THREE broad HORIZONTAL STRAPS with flat METAL HOOK CLOSURES over a solid tongue, no lacing, thick black soles. Distinct complete shafts, coherent closures and real feet inside boots.",
+    "qa_status": "visually_reviewed",
+    "items": [
+      {
+        "entry_id": "FW119",
+        "label": "FW119",
+        "name": "绒面系带沙漠短靴"
+      },
+      {
+        "entry_id": "FW120",
+        "label": "FW120",
+        "name": "防水拼接鸭嘴靴"
+      },
+      {
+        "entry_id": "FW121",
+        "label": "FW121",
+        "name": "长筒束口防雪靴"
+      },
+      {
+        "entry_id": "FW122",
+        "label": "FW122",
+        "name": "褶筒松垮长靴"
+      },
+      {
+        "entry_id": "FW123",
+        "label": "FW123",
+        "name": "护套罩面短靴"
+      },
+      {
+        "entry_id": "FW124",
+        "label": "FW124",
+        "name": "侧开窗扣带踝靴"
+      },
+      {
+        "entry_id": "FW125",
+        "label": "FW125",
+        "name": "针织折领系带靴"
+      },
+      {
+        "entry_id": "FW126",
+        "label": "FW126",
+        "name": "钩扣多带短靴"
+      }
+    ]
+  },
+  {
+    "id": "footwear-v77-special",
+    "category": "footwear",
+    "title": "专项运动与幻想鞋型",
+    "image": "images/sheet-fw127-fw134.png",
+    "width": 1672,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      418,
+      836,
+      1254,
+      1672
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创人物鞋履穿着示意",
+    "prompt": "Use case: stylized-concept. Create an original professional anime fashion footwear reference atlas, a landscape image at approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent portrait-shaped rectangular cells, straight thin pale-grey dividers at x=25%,50%,75%, y=50%. A single matching pair of women's shoes is being WORN on the two anatomically natural lower legs of ONE ADULT woman in each cell. Frame only from just below her knees to the ground, with knees/legs naturally entering through the top edge. In each cell both shoes, toes, heels, soles and every fastening are fully visible with generous left, right and bottom margins. Both feet rest naturally on an ivory floor, one slightly ahead and turned outward to show the side construction, no crossed legs. Clean ivory background, crisp refined line art and soft cel shading, fabric and leather readable, consistent gentle daylight, attractive slim adult female leg proportions. Large shoe details occupy most of the lower two thirds of each tile. Eight clearly DIFFERENT original designs, no brand, logos, text, captions, IDs, inset diagrams, watermark, full-body figures, floating shoes, overlapping cells or crops of shoe tips. Each boot must visibly enclose the leg, each strap wraps and connects to the corresponding shoe. The TWO FEET in a cell MUST wear the SAME shoe design and color. Order is left-to-right row one then left-to-right row two. Six specialist sport shoes and two completely original fantasy footwear designs. Row one: (1) White and orange HIGH-TOP BASKETBALL shoes with padded high collars wrapping ankles, conventional laces and broad CUSHIONED SOLES, white crew socks. (2) Black low-profile CYCLING SHOES with STIFF thin soles, two small closure DIALS and fine cable fastening across the upper; small cleat visible just under the forefoot on the slightly outward-turned shoe without lifting either foot, low black socks. (3) White rigid PLASTIC SKI BOOTS with overlapping hard-shell cuffs and THREE BLUE METAL BUCKLES each, flat thick soles; no skis. (4) Dark-purple INLINE ROLLER SKATES, hard ankle cuff, heel brake on one boot, exactly FOUR WHEELS IN A SINGLE LONGITUDINAL LINE under EACH boot, no quad-wheel arrangement. Row two: (5) Yellow close-fitting CLIMBING SHOES, strongly curved black RUBBER TOE CAPS around the forefoot, two broad hook-and-loop straps, low cuff, feet resting without athletic action. (6) Grey aquatic WATER SHOES, fine DRAINAGE MESH across uppers, elastic toggle at instep, narrow perforated rubber outsoles and closed rounded toe. (7) Fantasy ELF ankle shoes, soft sage-green leaf-veined panels with a gently CURLED pointed toe on each foot, matching narrow leaf-shaped bands winding round ankles, brown thin soles, no logo or borrowed character. (8) Original science-fiction calf boots with a normal solid graphite enclosed shoe and slim external silver ARTICULATED EXOSKELETON linking heel to calf by visible hinge pivots; a pale blue panel beside calf, functional normal humanoid proportions and no weapons. Keep frames on knees-to-ground, fully visible wheels, boot bottoms and shoe tips.",
+    "qa_status": "visually_reviewed",
+    "items": [
+      {
+        "entry_id": "FW127",
+        "label": "FW127",
+        "name": "高帮缓震篮球鞋"
+      },
+      {
+        "entry_id": "FW128",
+        "label": "FW128",
+        "name": "锁扣骑行鞋"
+      },
+      {
+        "entry_id": "FW129",
+        "label": "FW129",
+        "name": "多卡扣硬壳滑雪靴"
+      },
+      {
+        "entry_id": "FW130",
+        "label": "FW130",
+        "name": "单排四轮轮滑鞋"
+      },
+      {
+        "entry_id": "FW131",
+        "label": "FW131",
+        "name": "橡胶包趾攀岩鞋"
+      },
+      {
+        "entry_id": "FW132",
+        "label": "FW132",
+        "name": "排水网孔涉水鞋"
+      },
+      {
+        "entry_id": "FW133",
+        "label": "FW133",
+        "name": "叶脉缠带精灵鞋"
+      },
+      {
+        "entry_id": "FW134",
+        "label": "FW134",
+        "name": "分节机械支架长靴"
+      }
+    ]
+  },
+  {
+    "id": "hosiery-v78-knit",
+    "category": "hosiery",
+    "title": "特色织纹与可调节袜筒",
+    "image": "images/sheet-so121-so128.png",
+    "width": 1672,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      418,
+      836,
+      1254,
+      1672
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创袜类穿着示意",
+    "prompt": "Use case: stylized-concept. Create an original anime fashion hosiery reference atlas, landscape approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent rectangular cells with straight thin pale-grey dividers at 25%,50%,75% width and 50% height. Each cell shows ONE matching pair of socks being WORN on the TWO natural legs of ONE ADULT WOMAN. Refined crisp anime line art, soft cel shading, readable yarn, seams and fabric, plain warm ivory backdrop and floor, gentle studio daylight. Frame only the relevant part of the woman's legs, a neutral standing pose, feet slightly apart and one turned outward for construction visibility, not crossed. Keep BOTH sock toes, heels and outer soles completely inside each tile with generous bottom and side margins. Show all sock cuffs completely and leave a small strip of bare leg above them. NO shoes, full-body people, faces, text, captions, numbers, logos, watermarks, insets or decorative borders. Each cell must be a distinct construction; both legs wear the SAME design. Feet rest on the ground naturally, plausible toes concealed by ordinary footed socks unless specified as leg warmers. Read all eight designs in strict first-row left-to-right, then second-row left-to-right order. Eight knitted socks and leg warmers. Frame from just ABOVE KNEES to the floor so all cuff heights are fully in frame. Row one: (1) Soft sage calf-height CREW SOCKS with a uniform fine PEBBLY SEED-STITCH texture, individual tiny raised knitted dots, plain ribbed cuff. (2) Butter-yellow ankle socks made of visibly recessed square WAFFLE KNIT, thick closed toe and heel. (3) Ivory KNEE SOCKS with repeated LARGE VERTICAL LEAF-SHAPED OPENWORK motifs across the whole calf, solid toes and heels and opaque cuff; the openwork is part of knitting. (4) Muted blue crew socks with repeating raised interconnected HEXAGONAL HONEYCOMB KNIT cells, solid ribbed cuff. Row two: (5) Dusty pink ankle socks with exactly TWO separately ROLLED knitted edges at each cuff, one pale pink and one burgundy, plain closed foot. (6) Dark green knee socks with ONE SHORT VERTICAL SLIT at outer side of each ribbed cuff, the slit divides only top 4cm of cuff and ends in solid sock fabric below. (7) Taupe open-foot KNIT LEG WARMERS from just below knee to just above ankle, a row of real small SIDE BUTTONS fastening two overlapping edges down the outer calf; bare feet visible below, no footed sock. (8) Cream open-foot LEG WARMERS from below knee to ankle with TWO SIDE DRAWSTRING CHANNELS creating adjustable lengthwise RUCHED folds and little tied cord ends at outer bottom; bare feet. Match yarn textures and show both whole cuffs and complete feet.",
+    "qa_status": "visually_reviewed",
+    "items": [
+      {
+        "entry_id": "SO121",
+        "label": "SO121",
+        "name": "珍珠针圆粒中筒袜"
+      },
+      {
+        "entry_id": "SO122",
+        "label": "SO122",
+        "name": "华夫格针织短袜"
+      },
+      {
+        "entry_id": "SO123",
+        "label": "SO123",
+        "name": "镂空叶脉长袜"
+      },
+      {
+        "entry_id": "SO124",
+        "label": "SO124",
+        "name": "蜂巢格针织中筒袜"
+      },
+      {
+        "entry_id": "SO125",
+        "label": "SO125",
+        "name": "双层卷边短袜"
+      },
+      {
+        "entry_id": "SO126",
+        "label": "SO126",
+        "name": "袜口开衩针织长袜"
+      },
+      {
+        "entry_id": "SO127",
+        "label": "SO127",
+        "name": "侧排扣针织袜套"
+      },
+      {
+        "entry_id": "SO128",
+        "label": "SO128",
+        "name": "抽绳褶筒袜套"
+      }
+    ]
+  },
+  {
+    "id": "hosiery-v78-patterns",
+    "category": "hosiery",
+    "title": "图案、刺绣与拼色袜",
+    "image": "images/sheet-so129-so136.png",
+    "width": 1672,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      418,
+      836,
+      1254,
+      1672
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创袜类穿着示意",
+    "prompt": "Use case: stylized-concept. Create an original anime fashion hosiery reference atlas, landscape approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent rectangular cells with straight thin pale-grey dividers at 25%,50%,75% width and 50% height. Each cell shows ONE matching pair of socks being WORN on the TWO natural legs of ONE ADULT WOMAN. Refined crisp anime line art, soft cel shading, readable yarn, seams and fabric, plain warm ivory backdrop and floor, gentle studio daylight. Frame only the relevant part of the woman's legs, a neutral standing pose, feet slightly apart and one turned outward for construction visibility, not crossed. Keep BOTH sock toes, heels and outer soles completely inside each tile with generous bottom and side margins. Show all sock cuffs completely and leave a small strip of bare leg above them. NO shoes, full-body people, faces, text, captions, numbers, logos, watermarks, insets or decorative borders. Each cell must be a distinct construction; both legs wear the SAME design. Feet rest on the ground naturally, plausible toes concealed by ordinary footed socks unless specified as leg warmers. Read all eight designs in strict first-row left-to-right, then second-row left-to-right order. Eight patterned socks. Frame from just ABOVE KNEES to the floor with complete cuffs. Row one: (1) Black-and-ivory KNEE SOCKS with crisp traditional small broken HOUNDSTOOTH checks across shafts and feet, black cuff. (2) Navy knee socks with widely spaced fine pale-blue WINDOWPANE CHECK LINES forming large square frames, solid cuff. (3) Burgundy crew socks with a clearly repeated cream PAISLEY TEARDROP print, patterned shaft and plain toe and heel. (4) Midnight-blue knee socks with clearly visible repeated pale gold CRESCENT MOONS and fine looping ORBITAL ARCS, restrained plain toe and heel. Row two: (5) Muted plum opaque knee socks with narrow APPLIED EMBROIDERED GREEN VINES climbing the OUTER SIDE of each calf, small individually stitched leaves, solid rest of sock. (6) Cream knee socks with a distinct APPLIED FLORAL LACE PATCH at the OUTER ANKLE on each sock, patch shaped as a tapering vertical spray of three blue embroidered flowers, rest plain knitted fabric. (7) Color-block CREW SOCKS with distinct rust, cream and teal FABRIC PANELS joined by highly visible contrasting white OVERLOCK SEAMS that run at an angle across calf and instep. (8) Opaque pale lavender knee socks with bold smooth continuous NAVY WAVY VERTICAL STRIPES from cuff down foot, two main wavy lines per visible side, plain purple cuff. No text or tiny symbols that resemble lettering; make each motif readable.",
+    "qa_status": "visually_reviewed",
+    "items": [
+      {
+        "entry_id": "SO129",
+        "label": "SO129",
+        "name": "千鸟格长袜"
+      },
+      {
+        "entry_id": "SO130",
+        "label": "SO130",
+        "name": "窗格细线长袜"
+      },
+      {
+        "entry_id": "SO131",
+        "label": "SO131",
+        "name": "佩斯利印花中筒袜"
+      },
+      {
+        "entry_id": "SO132",
+        "label": "SO132",
+        "name": "新月星轨长袜"
+      },
+      {
+        "entry_id": "SO133",
+        "label": "SO133",
+        "name": "藤蔓刺绣长袜"
+      },
+      {
+        "entry_id": "SO134",
+        "label": "SO134",
+        "name": "踝侧花饰拼片长袜"
+      },
+      {
+        "entry_id": "SO135",
+        "label": "SO135",
+        "name": "拼缝撞色中筒袜"
+      },
+      {
+        "entry_id": "SO136",
+        "label": "SO136",
+        "name": "波浪纵纹长袜"
+      }
+    ]
+  },
+  {
+    "id": "hosiery-v78-cuffs",
+    "category": "hosiery",
+    "title": "装饰袜口与局部开窗",
+    "image": "images/sheet-so137-so144-v5.png",
+    "width": 1672,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      418,
+      836,
+      1254,
+      1672
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创袜类穿着示意",
+    "prompt": "Use case: stylized-concept. Create an original anime fashion hosiery reference atlas, landscape approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent rectangular cells with straight thin pale-grey dividers at 25%,50%,75% width and 50% height. Each cell shows ONE matching pair of socks being WORN on the TWO natural legs of ONE ADULT WOMAN. Refined crisp anime line art, soft cel shading, readable yarn, seams and fabric, plain warm ivory backdrop and floor, gentle studio daylight. Frame only the relevant part of the woman's legs, a neutral standing pose, feet slightly apart and one turned outward for construction visibility, not crossed. Keep BOTH sock toes, heels and outer soles completely inside each tile with generous bottom and side margins. Show all sock cuffs completely and leave a small strip of bare leg above them. NO shoes, full-body people, faces, text, captions, numbers, logos, watermarks, insets or decorative borders. Each cell must be a distinct construction; both legs wear the SAME design. Feet rest on the ground naturally, plausible toes concealed by ordinary footed socks unless specified as leg warmers. Read all eight designs in strict first-row left-to-right, then second-row left-to-right order. Eight socks with distinct applied trims and opening structures, all opaque footed base fabric. Frame from just ABOVE KNEES to floor, complete cuffs and toes. Row one: (1) White ankle socks with TWO SHALLOW LAYERS OF SHEER ORGANZA rising from their cuffs, floating translucent fabric ruffles are added only above the solid ribbed cuff. (2) Ivory ankle socks with TWO SCALLOPED LACE LAYERS FOLDED DOWN over each cuff, clearly visible double scallop edges, otherwise plain knitted feet. (3) Black ankle socks with a single small PEARL CHAIN attached in a neat loop to the cuff edge, sewn onto actual fabric, pearls stay at cuff, otherwise plain opaque knit. (4) Dusty-blue ankle socks with a small OUTER CUFF NOTCH closed by a THIN CORD through eyelets tied in a small side bow, closed feet. Row two: (5) Soft pink crew socks with ONE clearly HEART-SHAPED CUTOUT on the OUTER CALF of each sock, bare skin shows only through this single cutout, solid fabric all around. (6) Cream knee socks with one long narrow FABRIC RUFFLE sewn down the OUTER SIDE SEAM of each calf, from cuff to just above ankle, closed plain toe. (7) Dark wine KNEE SOCKS, one large matching satin BOW attached at BACK CENTER OF EACH CUFF, two short tails; show this ONE TILE in a rear three-quarter view so both back bows and enclosed heels and toes are visible. (8) Sage ankle socks with a short front cuff OPENING BRIDGED by one broad fabric BUTTON TAB and a single small button on its other side; the tab really closes the opening. Small trims on fabric, no loose jewelry around naked skin.",
+    "qa_status": "visually_reviewed",
+    "items": [
+      {
+        "entry_id": "SO137",
+        "label": "SO137",
+        "name": "透纱叠口短袜"
+      },
+      {
+        "entry_id": "SO138",
+        "label": "SO138",
+        "name": "双层蕾丝翻口短袜"
+      },
+      {
+        "entry_id": "SO139",
+        "label": "SO139",
+        "name": "珍珠链袜口短袜"
+      },
+      {
+        "entry_id": "SO140",
+        "label": "SO140",
+        "name": "侧系细绳短袜"
+      },
+      {
+        "entry_id": "SO141",
+        "label": "SO141",
+        "name": "心形开窗中筒袜"
+      },
+      {
+        "entry_id": "SO142",
+        "label": "SO142",
+        "name": "荷叶侧缝长袜"
+      },
+      {
+        "entry_id": "SO143",
+        "label": "SO143",
+        "name": "前饰大蝴蝶结长袜"
+      },
+      {
+        "entry_id": "SO144",
+        "label": "SO144",
+        "name": "纽襻搭桥袜口短袜"
+      }
+    ],
+    "reference_image": "images/sheet-so137-so144-v4.png",
+    "edit_prompt": "Use case: precise-object-edit. Edit the supplied eight-cell anime sock reference sheet. Change ONLY the TWO BURGUNDY SATIN BOWS in column 3 of the bottom row. Their current flat identical camera-facing directions are unnatural. Make each a believable SOFT THREE-DIMENSIONAL SEWN FABRIC BOW ATTACHED TO ITS OWN SOCK'S FRONT CENTER, following THAT LEG'S ORIENTATION and the ROUNDNESS OF THE CALF. The viewer-left lower leg is almost frontal: its bow may face nearly forward with subtle asymmetry, small rounded center knot, softly folded unequal satin loops, short tails falling down by gravity over the sock. The viewer-right leg and foot turn outward toward IMAGE RIGHT: the RIGHT BOW MUST ROTATE WITH THE ANTERIOR SHIN TOWARD IMAGE RIGHT, at roughly 35 to 45 degrees of yaw. Its attachment knot sits on the front surface of that turned shin, a little toward the visible right side of the calf; the far wing is visibly foreshortened, the nearer wing is fuller, the loops and knot have natural 3D volume, the short tails drape down and follow the calf surface. Show the bow attachment touching the sock and a subtle contact shadow. Both bows remain on the FRONT of the cuff, not the backs or outer side seams. They do not look like identical flat graphic stickers or rigid horizontal plates. Keep bow material, burgundy color, overall restrained size, two loops and two short tails. CRITICAL preserve the standing POSE AND FOOT DIRECTIONS of all eight panels exactly as reference, in particular the near-forward foot and other foot pointing to IMAGE RIGHT in every panel. Preserve all seven other sock designs, all cuffs and all feet. Preserve exact four equal columns and two equal rows, straight thin dividing lines at25/50/75 percent width and50 percent height, landscape proportions, plain ivory studio ground, refined anime line drawing and soft shading. No new text, insets, logo or watermark.",
+    "edit_history": [
+      {
+        "date": "2026-11-18",
+        "image": "images/sheet-so137-so144-v2.png",
+        "reference_image": "images/sheet-so137-so144.png",
+        "prompt": "Use case: precise-object-edit. Edit the supplied original eight-cell anime hosiery atlas. CRITICAL edit target is ONLY the THIRD CELL IN THE BOTTOM ROW (column 3 of 4, row 2 of 2), the dark burgundy knee socks with large bows. Correct the anatomical view of this one pair of lower legs to an UNAMBIGUOUS STRAIGHT REAR VIEW, standing naturally with parallel feet pointing FORWARD AWAY FROM THE CAMERA. We see the backs of both knees at the cell top, both calf backs, two narrow Achilles tendon shapes at rear ankles, and the rounded BACKS OF THE HEELS nearest camera at the floor. Toes extend away from the viewer and are mostly hidden behind the heels and the feet, never protruding laterally to the right or left. Each opaque burgundy sock has its satin bow SEWN TO THE CENTER BACK of its cuff, directly above the Achilles/heel on that same leg. The two bows face directly toward camera because camera is behind the woman. Both feet point in the same away-from-camera direction and both knee hollows are oriented to match, no twisted ankle, reversed foot, rotated shins or visible kneecaps. Show two complete heels and sufficient floor beneath, and whole knees-to-feet inside this cell. Preserve matching burgundy color, two bow loops and two short tails on each bow, plain soft knit sock shafts, adult anatomical proportions. Preserve ALL OTHER SEVEN CELLS, their socks, ornaments, shapes, viewpoint, colors and details. Preserve the overall exact FOUR COLUMNS by TWO ROWS layout, straight dividers at 25%,50%,75% width and 50% height, original ivory background and anime line-art/cel-shading style. Do not add text, logos, watermarks, extra inset, numbers or border. Full landscape sheet at original proportions."
+      },
+      {
+        "date": "2026-11-18",
+        "image": "images/sheet-so137-so144-v3.png",
+        "reference_image": "images/sheet-so137-so144-v2.png",
+        "prompt": "Use case: precise-object-edit. Edit the supplied eight-cell anime hosiery atlas. Change ONLY the burgundy BOW SOCKS in the THIRD COLUMN OF THE BOTTOM ROW. This pair must now be shown from the FRONT with the satin BOWS ATTACHED TO THE CENTER FRONT OF EACH SOCK CUFF. Turn BOTH LEGS and BOTH FEET to a matching natural frontal stance: visible kneecaps/fronts of knees, shins, ankles, INSTEPS and two rounded CLOSED SOCK TOE BOXES pointing directly TOWARD THE CAMERA in the foreground. The toes are nearest the viewer and the heels are behind them, hidden toward the back. Both complete foot silhouettes extend forward toward the camera naturally, no heel-facing view, no visible Achilles tendons, no rear knee hollows, no twisted ankles or backwards feet. The two burgundy satin bows are clearly visible on the FRONT of the cuffs above the SHINS, with two loops, center knot and two short tails per bow. Keep both full cuffs and both whole feet completely within this one cell. Keep opaque burgundy knee socks and natural adult proportions. This change matches the front-facing sock display used in the other atlas cells. Preserve ALL OTHER SEVEN CELLS with their exact subject designs and viewpoints, their color, trims, shapes and arrangement. Preserve the original ivory studio background, gentle shadows, refined anime line art and soft shading. Preserve landscape aspect ratio, exact FOUR EQUAL COLUMNS and TWO EQUAL ROWS, straight thin dividers at x25/50/75 percent and y50 percent. Do not add text, labels, watermark, logo or insets."
+      },
+      {
+        "date": "2026-11-18",
+        "image": "images/sheet-so137-so144-v4.png",
+        "reference_image": "images/sheet-so137-so144-v3.png",
+        "prompt": "Use case: precise-object-edit. Edit the provided original eight-cell sock atlas. The entire TOP ROW of four panels is the exact pose reference and must remain as it is. Adjust ONLY THE FOUR BOTTOM PANELS so their lower legs and sock-covered feet use THE SAME POSE AND FOOT ORIENTATIONS AS THE TOP ROW, panel by panel. In EACH bottom panel, copy the stance silhouette of the panel directly above: the viewer-left foot is closer to camera, slightly forward and roughly facing camera, with a visible broad instep; the viewer-right foot is set slightly farther back and rotated naturally outward so its LONG FOOT AND TOES POINT TO THE RIGHT EDGE OF THE IMAGE at about 45 degrees, revealing the outer side and heel profile. BOTH soles remain planted, the ankle, shin and knee orientation must turn coherently. The two feet should form the same comfortable asymmetrical three-quarter stance that already appears throughout the TOP ROW. Keep exact same leg spacing and shoe-free adult proportions as the pose examples above. Do not show both toes squarely parallel facing camera in bottom panels. All feet entirely visible with bottom/right margins. Preserve the lower sock designs: bottom-left pink opaque long socks with heart cutouts; next ivory socks with outer-side ruffles; third burgundy knee socks with large matching satin BOWS still sewn at FRONT CENTERS OF THE CUFFS, bows track their frontal shin surface and stay clearly visible in the three-quarter pose; bottom-right green ankle socks with small front button tabs. Keep all cuff heights, colors, fabric textures, hearts, bows, ruffles and buttons. Preserve the top four designs, the ivory backdrop, clean anime linework and soft shading. Canvas is the same landscape aspect and EXACT FOUR COLUMNS by TWO ROWS with straight thin dividers at x25/50/75 percent and y50 percent. No added text, numbers, logos, inset or watermark."
+      },
+      {
+        "date": "2026-11-18",
+        "image": "images/sheet-so137-so144-v5.png",
+        "reference_image": "images/sheet-so137-so144-v4.png",
+        "prompt": "Use case: precise-object-edit. Edit the supplied eight-cell anime sock reference sheet. Change ONLY the TWO BURGUNDY SATIN BOWS in column 3 of the bottom row. Their current flat identical camera-facing directions are unnatural. Make each a believable SOFT THREE-DIMENSIONAL SEWN FABRIC BOW ATTACHED TO ITS OWN SOCK'S FRONT CENTER, following THAT LEG'S ORIENTATION and the ROUNDNESS OF THE CALF. The viewer-left lower leg is almost frontal: its bow may face nearly forward with subtle asymmetry, small rounded center knot, softly folded unequal satin loops, short tails falling down by gravity over the sock. The viewer-right leg and foot turn outward toward IMAGE RIGHT: the RIGHT BOW MUST ROTATE WITH THE ANTERIOR SHIN TOWARD IMAGE RIGHT, at roughly 35 to 45 degrees of yaw. Its attachment knot sits on the front surface of that turned shin, a little toward the visible right side of the calf; the far wing is visibly foreshortened, the nearer wing is fuller, the loops and knot have natural 3D volume, the short tails drape down and follow the calf surface. Show the bow attachment touching the sock and a subtle contact shadow. Both bows remain on the FRONT of the cuff, not the backs or outer side seams. They do not look like identical flat graphic stickers or rigid horizontal plates. Keep bow material, burgundy color, overall restrained size, two loops and two short tails. CRITICAL preserve the standing POSE AND FOOT DIRECTIONS of all eight panels exactly as reference, in particular the near-forward foot and other foot pointing to IMAGE RIGHT in every panel. Preserve all seven other sock designs, all cuffs and all feet. Preserve exact four equal columns and two equal rows, straight thin dividing lines at25/50/75 percent width and50 percent height, landscape proportions, plain ivory studio ground, refined anime line drawing and soft shading. No new text, insets, logo or watermark."
+      }
+    ]
+  },
+  {
+    "id": "hosiery-v78-tights",
+    "category": "hosiery",
+    "title": "织纹、印花与拼接袜裤",
+    "image": "images/sheet-so145-so152.png",
+    "width": 1672,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      418,
+      836,
+      1254,
+      1672
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创袜类穿着示意",
+    "prompt": "Use case: stylized-concept. Original professional anime fashion TIGHTS reference atlas. Landscape 16:9, EXACT FOUR EQUAL COLUMNS by TWO EQUAL ROWS, thin straight grey panel lines at 25%,50%,75% width and50%height. Each cell shows one FULLY CLOTHED ADULT WOMAN, cropped from her natural waist to the floor, in entirely OPAQUE FOOTED TIGHTS. A plain long-sleeve sweater only enters top edge and ends at waistband, hips and whole legs remain completely covered by the opaque tights, simple neutral stance and natural proportions. Show the whole waistband, both full legs, both closed socked feet and soles entirely in the same cell with comfortable margins, no shoes, no faces. Refined anime line art, soft cel shading, neutral bright ivory studio floor and backdrop, fabric pattern sharply readable. Both legs in each cell wear a single coherent pair of tights. NO underwear outlines, translucent garment, suggestive pose, text, brand, watermark or inset. Row one left-to-right: (1) Dark charcoal tights with a dense fine visible HERRINGBONE zigzag woven pattern over both legs. (2) Cream cable-knit tights with large raised VERTICAL CABLE BRAIDS from waist over both knees to feet, ordinary ribbed waistband and solid closed toes. (3) Blue-and-grey opaque tights printed with a broad flowing MARBLED INK pattern, irregular branching veins, no uniform stripes. (4) Opaque burgundy-and-ivory ASYMMETRICAL DIAGONAL COLOR-BLOCK TIGHTS, a high diagonal two-color seam across the RIGHT thigh and a low diagonal color seam across LEFT shin, clearly unequal height but a single continuous garment. Row two left-to-right: (5) Muted mauve tights with many evenly spaced TINY CLUSTERS OF FIVE CREAM DOTS forming little flower motifs, each motif separated by clear empty fabric. (6) Forest-green tights with a GOLDEN OCHRE CHAIN OF INTERLOCKING DIAMOND LOOPS repeated as vertical jacquard columns down each leg, no small lettering. (7) Opaque black tights, each ANKLE has a wide contrasting attached IVORY FLORAL-LACE PANEL that encircles ankle above a solid black foot, lace neatly joined into opaque garment. (8) Slate-and-dusty-blue opaque tights with two wide SCALLOPED STEP-SHAPED COLOR-BLOCK SEAMS, one above knee and one below knee, broad visible rounded scallops, continuous covered legs and feet. Clearly distinguish all eight patterns, keep complete foot silhouettes.",
+    "qa_status": "visually_reviewed",
+    "items": [
+      {
+        "entry_id": "SO145",
+        "label": "SO145",
+        "name": "细人字纹连裤袜"
+      },
+      {
+        "entry_id": "SO146",
+        "label": "SO146",
+        "name": "竖向麻花针织袜裤"
+      },
+      {
+        "entry_id": "SO147",
+        "label": "SO147",
+        "name": "大理石晕纹袜裤"
+      },
+      {
+        "entry_id": "SO148",
+        "label": "SO148",
+        "name": "非对称斜切拼色袜裤"
+      },
+      {
+        "entry_id": "SO149",
+        "label": "SO149",
+        "name": "簇点小花袜裤"
+      },
+      {
+        "entry_id": "SO150",
+        "label": "SO150",
+        "name": "链式菱格提花袜裤"
+      },
+      {
+        "entry_id": "SO151",
+        "label": "SO151",
+        "name": "踝部拼蕾丝连裤袜"
+      },
+      {
+        "entry_id": "SO152",
+        "label": "SO152",
+        "name": "波齿阶梯拼接袜裤"
+      }
+    ]
+  },
+  {
+    "id": "hosiery-v78-fantasy",
+    "category": "hosiery",
+    "title": "主题装饰与幻想袜型",
+    "image": "images/sheet-so153-so160.png",
+    "width": 1672,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      418,
+      836,
+      1254,
+      1672
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创袜类穿着示意",
+    "prompt": "Use case: stylized-concept. Create an original anime fashion hosiery reference atlas, landscape approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent rectangular cells with straight thin pale-grey dividers at 25%,50%,75% width and 50% height. Each cell shows ONE matching pair of socks being WORN on the TWO natural legs of ONE ADULT WOMAN. Refined crisp anime line art, soft cel shading, readable yarn, seams and fabric, plain warm ivory backdrop and floor, gentle studio daylight. Frame only the relevant part of the woman's legs, a neutral standing pose, feet slightly apart and one turned outward for construction visibility, not crossed. Keep BOTH sock toes, heels and outer soles completely inside each tile with generous bottom and side margins. Show all sock cuffs completely and leave a small strip of bare leg above them. NO shoes, full-body people, faces, text, captions, numbers, logos, watermarks, insets or decorative borders. Each cell must be a distinct construction; both legs wear the SAME design. Feet rest on the ground naturally, plausible toes concealed by ordinary footed socks unless specified as leg warmers. Read all eight designs in strict first-row left-to-right, then second-row left-to-right order. Eight original themed KNEE SOCKS, frame from just above knees to floor. No borrowed character designs or emblems. All are fabric socks actually worn, opaque base fabric with fully closed feet, all cuffs visible below knees. Row one: (1) Burgundy knee socks with a row of THREE DIAMOND CUTOUTS down the FRONT of each shaft, each small opening BRIDGED by narrow black CORD LACING through its edges, continuous fabric around holes. (2) Cream knee socks with contrasting navy satin RIBBONS winding in a large CROSSCROSS PATH from ankle UP TO CUFF, ribbons attach near ankle and tie into small cuff bows, continuous solid base sock remains visible underneath. (3) Lavender knee socks with soft BUTTERFLY-WING-SHAPED FABRIC CUFF PANELS fanning slightly from outer upper calf, clear stitched wing veins, no physical animal attached, complete cuff follows leg. (4) Midnight-blue knee socks with FOLDED-DOWN CUFFS secured on outer side by a small GOLD STAR-SHAPED CLASP with actual attachment to fabric, ordinary plain foot. Row two: (5) Graphite and teal OPEN-FOOT technical-knit LEG SLEEVES from below knee to above ankle, soft distinct HORIZONTAL STRETCH FABRIC PANELS with articulated-looking seams around calf, no hard metal, no boot; bare feet. (6) White knee socks with a delicate ring of SHORT SOFT FAUX FEATHERS sewn along cuff and one small pale-pink outer side bow with short tails, sock stays soft cloth and opaque. (7) Pale-green ELF-THEMED knee socks with an embroidered golden LEAF-VEIN PATTERN and a CUFF EDGED WITH SOFT OVERLAPPING LEAF SHAPES, tiny fabric vine trim winds once round upper calf; ordinary rounded closed toe, no shoe sole. (8) Pale ice-blue knee socks with five small FACETED CRYSTAL-SHAPED BLUE BEADS hanging on short THREAD TASSELS from each cuff, firmly sewn onto cloth cuff, tiny silver pattern on shaft, plain closed toe. Trims attached to actual knitted fabric, no floating ornaments, every shoe-free foot complete.",
+    "qa_status": "visually_reviewed",
+    "items": [
+      {
+        "entry_id": "SO153",
+        "label": "SO153",
+        "name": "菱形开窗绑带长袜"
+      },
+      {
+        "entry_id": "SO154",
+        "label": "SO154",
+        "name": "交叉缎带缠绕长袜"
+      },
+      {
+        "entry_id": "SO155",
+        "label": "SO155",
+        "name": "蝶翼袜口长袜"
+      },
+      {
+        "entry_id": "SO156",
+        "label": "SO156",
+        "name": "星扣翻口长袜"
+      },
+      {
+        "entry_id": "SO157",
+        "label": "SO157",
+        "name": "机能分段弹力袜套"
+      },
+      {
+        "entry_id": "SO158",
+        "label": "SO158",
+        "name": "羽缘飘带长袜"
+      },
+      {
+        "entry_id": "SO159",
+        "label": "SO159",
+        "name": "蔓叶缠边精灵长袜"
+      },
+      {
+        "entry_id": "SO160",
+        "label": "SO160",
+        "name": "冰晶流苏袜口长袜"
+      }
+    ]
+  },
+  {
+    "id": "weixin-lolita-v76-skirts",
+    "category": "bottoms",
+    "dimension": "洛丽塔半裙与叠摆",
+    "title": "洛丽塔裙 · 半裙叠摆对照",
+    "image": "images/sheet-bt091-bt098.png",
+    "width": 1672,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      418,
+      836,
+      1254,
+      1672
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创服装结构与搭配示意",
+    "prompt": "Use case: stylized-concept. Original garment construction atlas contact sheet. EXACTLY 4 columns by 2 rows, each tile same size, one object centered per tile, in perfectly aligned grid. Landscape 16:9. Each tile has plain warm ivory background, clean thin divider lines. Entire garment silhouette in its cell, generous top/sides/bottom margins and no bleed into adjacent cells. Professional Japanese-anime fashion design documentation, readable crisp linework, softly shaded fabric. All designs are new: no brand, logos, decorative page border, existing outfit, lettering, captions, labels or watermarks. Order is strictly left to right on first row, then second row. Eight distinct full knee-length Lolita fashion waist-to-hem standalone skirts on neutral invisible waist forms, front or very slight three-quarter view only, same apparent scale, no person, bodice, head, or shoes. Each in two complementary plain fabrics to reveal layers. Row 1: (1) Apricot solid outer curved apron panel with a large low U-shaped edge covering the front and a continuous pale blue bell-shaped underskirt visibly protruding below; (2) dusty teal outer overskirt split into two large curved petal panels, opens symmetrically from the waist to reveal ivory gathered front panel; (3) navy overskirt with a rectangular raised central opening, nearly vertical sides showing a gold-cream front underskirt, continuous hem behind; (4) butter-yellow solid upper skirt with ONE asymmetric sharp triangular notch cut into the hem near right side, pale lavender underskirt fills the small gap. Row 2: (5) muted raspberry asymmetric diagonal envelope-style skirt crosses from high right hip to low left, shows contrasting grey-blue horizontal ruffles underneath; (6) warm slate split outer skirt with two gathered fabric side pick-ups, little side bows hold lifted fabric, visibly swaged arcs and pale cream tiered base; (7) deep mulberry high waist basque with lace-up front, skirts spreads widely, open front reveals three distinct lilac ruffled tiers, opaque cloth; (8) dusty olive and blush petal skirt, two rounded scalloped upper peplum lobes pinned separately with tiny gold clasps at center and sides, continuous double gathered cream hem. Do not duplicate layouts. Show all eight exact garment silhouette differences clearly.",
+    "items": [
+      {
+        "entry_id": "BT091",
+        "label": "BT091",
+        "name": "弧边罩片半裙"
+      },
+      {
+        "entry_id": "BT092",
+        "label": "BT092",
+        "name": "双瓣对开罩裙"
+      },
+      {
+        "entry_id": "BT093",
+        "label": "BT093",
+        "name": "方窗前开罩裙"
+      },
+      {
+        "entry_id": "BT094",
+        "label": "BT094",
+        "name": "侧缺角分层半裙"
+      },
+      {
+        "entry_id": "BT095",
+        "label": "BT095",
+        "name": "斜搭片露褶层半裙"
+      },
+      {
+        "entry_id": "BT096",
+        "label": "BT096",
+        "name": "双侧提褶叠摆半裙"
+      },
+      {
+        "entry_id": "BT097",
+        "label": "BT097",
+        "name": "束腰系带开片半裙"
+      },
+      {
+        "entry_id": "BT098",
+        "label": "BT098",
+        "name": "扣饰双扇罩片半裙"
+      }
+    ]
+  },
+  {
+    "id": "weixin-lolita-v76-dresses",
+    "category": "onepiece",
+    "dimension": "洛丽塔连衣裙版型",
+    "title": "洛丽塔裙 · 连衣裙版型对照",
+    "image": "images/sheet-op129-op136.png",
+    "width": 1672,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      418,
+      836,
+      1254,
+      1672
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创服装结构与搭配示意",
+    "prompt": "Use case: stylized-concept. Original garment construction atlas contact sheet. EXACTLY 4 columns by 2 rows, each tile same size, one object centered per tile, in perfectly aligned grid. Landscape 16:9. Each tile has plain warm ivory background, clean thin divider lines. Entire garment silhouette in its cell, generous top/sides/bottom margins and no bleed into adjacent cells. Professional Japanese-anime fashion design documentation, readable crisp linework, softly shaded fabric. All designs are new: no brand, logos, decorative page border, existing outfit, lettering, captions, labels or watermarks. Order is strictly left to right on first row, then second row. Eight distinct complete Lolita fashion dresses shown straight-on on ivory neck-to-hem tailor dummies. Dresses stay fully in frame past skirt hem, no pedestal bases, floor, person or props. Limited ornament so constructions remain visible. Row 1: (1) rust-pink sleeveless shoulder-strap jumper dress with rounded bell silhouette, smooth outer surface, uninterrupted full circular hem and controlled flare beginning immediately at waist; (2) long draping bottle-green A-line jumper dress with square neckline and flat unruffled front, skirt extends below knee, moderate flare; (3) periwinkle short puff-sleeve dress whose skirt comprises two clearly offset bell-layer shells, top layer noticeably shorter with two slim parallel binding lines below; (4) sunset coral square-neck strap dress with fabric opening beginning off center at left waist, two differently curved front overskirt pieces show contrast butter-cream base from waist to hem. Row 2: (5) midnight navy fitted sweetheart-neck opaque dress, high-short front and low-long back, rounded gradually stepped scallops mark the dark long rear hem; (6) marigold princess-seam dress with THREE outer vertical panels like long tabs, two deep symmetrically placed wedge openings show seafoam inner skirt, one center panel distinctly descends; (7) light rose A-line high-neck dress with short attached scalloped shoulder capelet, modest puff sleeves, front button line, lower white plastron and cream curved apron overlay; (8) plum short puff-sleeve dress with symmetrical dipped double arc front overlay in pale blush and two pronounced pointed swallowtail extensions visible below the front hem from the back, base skirt opaque. One single whole garment example per cell.",
+    "items": [
+      {
+        "entry_id": "OP129",
+        "label": "OP129",
+        "name": "方领圆廓背带蓬裙"
+      },
+      {
+        "entry_id": "OP130",
+        "label": "OP130",
+        "name": "垂感长 A 字背带裙"
+      },
+      {
+        "entry_id": "OP131",
+        "label": "OP131",
+        "name": "双壳叠摆泡袖连衣裙"
+      },
+      {
+        "entry_id": "OP132",
+        "label": "OP132",
+        "name": "偏腰开片拼色背带裙"
+      },
+      {
+        "entry_id": "OP133",
+        "label": "OP133",
+        "name": "波浪前短后长蓬连裙"
+      },
+      {
+        "entry_id": "OP134",
+        "label": "OP134",
+        "name": "三片开摆拼色连衣裙"
+      },
+      {
+        "entry_id": "OP135",
+        "label": "OP135",
+        "name": "短肩披围裙式洛丽塔连裙"
+      },
+      {
+        "entry_id": "OP136",
+        "label": "OP136",
+        "name": "双弧罩摆燕尾连衣裙"
+      }
+    ]
+  },
+  {
+    "id": "weixin-lolita-v76-collars",
+    "category": "construction",
+    "dimension": "洛丽塔领袖结构",
+    "title": "洛丽塔裙 · 领型与领边对照",
+    "image": "images/sheet-cs061-cs068.png",
+    "width": 1672,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      418,
+      836,
+      1254,
+      1672
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创服装结构与搭配示意",
+    "prompt": "Use case: stylized-concept. Original garment construction atlas contact sheet. EXACTLY 4 columns by 2 rows, each tile same size, one object centered per tile, in perfectly aligned grid. Landscape 16:9. Each tile has plain warm ivory background, clean thin divider lines. Entire garment silhouette in its cell, generous top/sides/bottom margins and no bleed into adjacent cells. Professional Japanese-anime fashion design documentation, readable crisp linework, softly shaded fabric. All designs are new: no brand, logos, decorative page border, existing outfit, lettering, captions, labels or watermarks. Order is strictly left to right on first row, then second row. Eight different complete styled Lolita blouses on neutral headless display forms, waist-up garment-only study. Make collar details large, legible, contrasting colors on ivory-based fabric. Include both sleeves and bottom hem. No neck jewelry or hair. Row 1: (1) two large rounded lilac Peter Pan collar leaves with a separate ivory gathered narrow frill following the outer edge; (2) blue flat broad triangular pointed collar with a deeper gathered under-frill peeking out all along two long sides, not layered ruffles elsewhere; (3) paired sage small flat scalloped petal collars with three flat lobes on each rounded edge, clean stitched binding, no frill; (4) square neckline edged by two independent dusty pink folded rectangular shoulder tabs, broad open square center and short puff sleeves, tabs angle to the outside. Row 2: (5) soft cream high-neck gathered lettuce frill rises vertically above a short cocoa stand band, tiny center fastening, long mutton sleeves narrow to cuff; (6) graduated bordeaux buttoned standing collar falls into two concentric opaque ivory ruffle rings like a short jabot, both rings distinct; (7) ivory narrow pointed collar edged in tiny evenly spaced round lilac pearl beads, sharply V-shaped collar ends and fitted pintuck bodice; (8) a high blue buttoned flaring yoke covering upper chest, one broad gathered ruffle follows the U-shaped lower edge of the yoke, plainly visible blue panel and no separate jabot. Make all eight distinct and front facing.",
+    "items": [
+      {
+        "entry_id": "CS061",
+        "label": "CS061",
+        "name": "窄褶边圆叶领"
+      },
+      {
+        "entry_id": "CS062",
+        "label": "CS062",
+        "name": "托褶大尖领"
+      },
+      {
+        "entry_id": "CS063",
+        "label": "CS063",
+        "name": "多瓣波齿平领"
+      },
+      {
+        "entry_id": "CS064",
+        "label": "CS064",
+        "name": "双肩翻片方领"
+      },
+      {
+        "entry_id": "CS065",
+        "label": "CS065",
+        "name": "扣带托竖褶立领"
+      },
+      {
+        "entry_id": "CS066",
+        "label": "CS066",
+        "name": "立领双圈垂褶领"
+      },
+      {
+        "entry_id": "CS067",
+        "label": "CS067",
+        "name": "珠点沿边尖领"
+      },
+      {
+        "entry_id": "CS068",
+        "label": "CS068",
+        "name": "扣襟胸肩片弧边褶领"
+      }
+    ]
+  },
+  {
+    "id": "weixin-lolita-v76-outfits",
+    "category": "fashion_outfits",
+    "dimension": "洛丽塔时尚穿搭",
+    "title": "洛丽塔裙 · 主题穿搭对照",
+    "image": "images/sheet-fs279-fs286.png",
+    "width": 1672,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      418,
+      836,
+      1254,
+      1672
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创服装结构与搭配示意",
+    "prompt": "Use case: stylized-concept. Original garment construction atlas contact sheet. EXACTLY 4 columns by 2 rows, each tile same size, one object centered per tile, in perfectly aligned grid. Landscape 16:9. Each tile has plain warm ivory background, clean thin divider lines. Entire garment silhouette in its cell, generous top/sides/bottom margins and no bleed into adjacent cells. Professional Japanese-anime fashion design documentation, readable crisp linework, softly shaded fabric. All designs are new: no brand, logos, decorative page border, existing outfit, lettering, captions, labels or watermarks. Order is strictly left to right on first row, then second row. Eight complete, clearly distinct original Lolita-themed game fashion outfits, on a neutral adult dress form from upper neck to below full hem, no head or bare torso, no detached objects. Delicate higher-detail cohesive fashion illustrations. Full dress each in own cell with enough negative space. Row 1: (1) pale periwinkle celestial set with star-point scalloped transparent overlay over opaque lining and small clear star charms, pearl bodice and coordinated small star headpiece perched on neck peg; (2) forest-green velvet gothic cape veil outfit with dark sage transparent shoulder veil, fitted dark velvet center, diamond antique gold clasps, green tiered bustle; (3) port-wine rose evening set with matching neck ruffle, ruffled elbow sleeves, embroidery of small unrelated tiny roses on bodice, short front ruffles lifting to long two-prong pointed back train; (4) mint-and-cocoa ribbon café dress with wide chocolate border and crossed mint sash, milk-cream blouse, small repeat diamond jacquard, no apron decoration in heart shape. Row 2: (5) orange-caramel playing-card tea-party dress with off-center scalloped cream apron, large diamond and club motifs, contrasting ink-blue waist ribbon, lace hems; (6) burgundy and charcoal pirate Lolita outfit with a prominent detached-looking but worn tilted feathered tricorn balanced atop the form neck peg, asymmetrical tailored coat panels above a ruffled knee skirt, sash and small non-weapon brass details; (7) muted strawberry and porcelain rabbit bakery outfit with two ear-shaped bow loops on the form above the neck, pale peach blouse, tiny bun motifs in the skirt border and tiered apron with pocket; (8) cobalt and golden-ochre harlequin circus Lolita set with fitted asymmetrically pieced diamond bodice, alternating two-color triangular skirt panels above ivory border, two winged lapels and geometric piping. No person, weapon, imitation of any existing pattern or design, labels or signature.",
+    "items": [
+      {
+        "entry_id": "FS279",
+        "label": "FS279",
+        "name": "星芒罩纱洛丽塔礼装"
+      },
+      {
+        "entry_id": "FS280",
+        "label": "FS280",
+        "name": "墨绿薄披丝绒洛丽塔装"
+      },
+      {
+        "entry_id": "FS281",
+        "label": "FS281",
+        "name": "酒红玫瑰双尾洛丽塔礼装"
+      },
+      {
+        "entry_id": "FS282",
+        "label": "FS282",
+        "name": "薄荷可可菱格洛丽塔装"
+      },
+      {
+        "entry_id": "FS283",
+        "label": "FS283",
+        "name": "纸牌茶会洛丽塔装"
+      },
+      {
+        "entry_id": "FS284",
+        "label": "FS284",
+        "name": "羽饰三角帽海盗洛丽塔装"
+      },
+      {
+        "entry_id": "FS285",
+        "label": "FS285",
+        "name": "兔耳面包房洛丽塔装"
+      },
+      {
+        "entry_id": "FS286",
+        "label": "FS286",
+        "name": "菱格拼摆马戏洛丽塔装"
+      }
+    ]
+  },
+  {
+    "id": "weixin-lolita-v76-skirts-wearing",
+    "category": "bottoms",
+    "dimension": "洛丽塔半裙与叠摆",
+    "role": "wearing_reference",
+    "title": "洛丽塔裙 · 半裙穿着对照",
+    "image": "images/sheet-bt091-bt098-wearing.png",
+    "width": 1671,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      417,
+      835,
+      1252,
+      1671
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创角色穿着示意",
+    "prompt": "Image 1 is this project's original garment reference sheet. Create a matching wearing-reference sheet for the same 8 numbered-by-position illustrations. EXACTLY a regular 4-column × 2-row landscape contact sheet, eight equal cells. Left-to-right, top row then bottom. Each cell uses only the garment from the corresponding source cell; retain its colors, waistline, neckline and silhouette, the position and geometry of every main overlay or opening, visible layers, trim, and integral accessories. Each cell shows exactly one fictional adult woman age 25+ actually wearing that garment, original illustrated model, attractive natural head and hands, clear anime fashion-concept illustration, plain warm off-white backdrop, calm stance, eyes not a focal point. Each character remains entirely within her own cell, with empty margin above hair and below feet or waist. Thin straight grey separating lines, strictly rectangular equal-sized grid. No labels, no signs, no extra columns, no image overlap, no separate floating garment. No original third-party design references. These are skirts, not dresses. Each waistline and every hem must be unambiguously readable. Show the wearer head to toe in each tile at consistent full figure scale, relaxed upright stance, both arms hanging naturally beside the body with enough distance to leave waist and skirt visible. For each, pair the illustrated skirt with a quiet, fitted cream or light grey opaque crewneck blouse tucked into the waistband, low neutral pumps and subtle hosiery. Retain the narrow U-shaped apron, teal symmetrical petals, navy rectangular opening, yellow side triangular notch, raspberry diagonal wrap, gray double pickup bows, burgundy lace-up waist, and olive three fasteners in exact reading order. Keep head, hands, skirt edge, and feet uncropped.",
+    "reference_image": "images/sheet-bt091-bt098.png",
+    "items": [
+      {
+        "entry_id": "BT091",
+        "label": "BT091",
+        "name": "弧边罩片半裙"
+      },
+      {
+        "entry_id": "BT092",
+        "label": "BT092",
+        "name": "双瓣对开罩裙"
+      },
+      {
+        "entry_id": "BT093",
+        "label": "BT093",
+        "name": "方窗前开罩裙"
+      },
+      {
+        "entry_id": "BT094",
+        "label": "BT094",
+        "name": "侧缺角分层半裙"
+      },
+      {
+        "entry_id": "BT095",
+        "label": "BT095",
+        "name": "斜搭片露褶层半裙"
+      },
+      {
+        "entry_id": "BT096",
+        "label": "BT096",
+        "name": "双侧提褶叠摆半裙"
+      },
+      {
+        "entry_id": "BT097",
+        "label": "BT097",
+        "name": "束腰系带开片半裙"
+      },
+      {
+        "entry_id": "BT098",
+        "label": "BT098",
+        "name": "扣饰双扇罩片半裙"
+      }
+    ]
+  },
+  {
+    "id": "weixin-lolita-v76-dresses-wearing",
+    "category": "onepiece",
+    "dimension": "洛丽塔连衣裙版型",
+    "role": "wearing_reference",
+    "title": "洛丽塔裙 · 连衣裙穿着对照",
+    "image": "images/sheet-op129-op136-wearing.png",
+    "width": 1671,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      417,
+      835,
+      1252,
+      1671
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创角色穿着示意",
+    "prompt": "Image 1 is this project's original garment reference sheet. Create a matching wearing-reference sheet for the same 8 numbered-by-position illustrations. EXACTLY a regular 4-column × 2-row landscape contact sheet, eight equal cells. Left-to-right, top row then bottom. Each cell uses only the garment from the corresponding source cell; retain its colors, waistline, neckline and silhouette, the position and geometry of every main overlay or opening, visible layers, trim, and integral accessories. Each cell shows exactly one fictional adult woman age 25+ actually wearing that garment, original illustrated model, attractive natural head and hands, clear anime fashion-concept illustration, plain warm off-white backdrop, calm stance, eyes not a focal point. Each character remains entirely within her own cell, with empty margin above hair and below feet or waist. Thin straight grey separating lines, strictly rectangular equal-sized grid. No labels, no signs, no extra columns, no image overlap, no separate floating garment. No original third-party design references. Show head to toe, standing front or slightly three-quarter, hair swept away from collar details, arms outside the dress edges. Keep original dress silhouettes and colors in order: terracotta rounded-bell square-neck wide-strap jumper; longer forest-green A-line square-neck jumper; pale lavender puff-sleeve double bell-shell with two trim lines; coral asymmetric waist-opening overlay over vanilla inner skirt; midnight-navy sweet-heart dress high in front with genuinely long scalloped back; warm gold three outer panels with two wedge openings over a green inner skirt; blush scalloped shoulder capelet over pink puff sleeves and paired ivory apron panels; plum dress with two blush front arcs and two distinctly pointed long dark back tails. Use plain matching shoes. If any styling is added, it must be restrained and must not obscure the face, hem, neckline, or shoulder shape. No changes to dress colors or construction.",
+    "reference_image": "images/sheet-op129-op136.png",
+    "items": [
+      {
+        "entry_id": "OP129",
+        "label": "OP129",
+        "name": "方领圆廓背带蓬裙"
+      },
+      {
+        "entry_id": "OP130",
+        "label": "OP130",
+        "name": "垂感长 A 字背带裙"
+      },
+      {
+        "entry_id": "OP131",
+        "label": "OP131",
+        "name": "双壳叠摆泡袖连衣裙"
+      },
+      {
+        "entry_id": "OP132",
+        "label": "OP132",
+        "name": "偏腰开片拼色背带裙"
+      },
+      {
+        "entry_id": "OP133",
+        "label": "OP133",
+        "name": "波浪前短后长蓬连裙"
+      },
+      {
+        "entry_id": "OP134",
+        "label": "OP134",
+        "name": "三片开摆拼色连衣裙"
+      },
+      {
+        "entry_id": "OP135",
+        "label": "OP135",
+        "name": "短肩披围裙式洛丽塔连裙"
+      },
+      {
+        "entry_id": "OP136",
+        "label": "OP136",
+        "name": "双弧罩摆燕尾连衣裙"
+      }
+    ]
+  },
+  {
+    "id": "weixin-lolita-v76-collars-wearing",
+    "category": "construction",
+    "dimension": "洛丽塔领袖结构",
+    "role": "wearing_reference",
+    "title": "洛丽塔裙 · 领型上身近景",
+    "image": "images/sheet-cs061-cs068-wearing.png",
+    "width": 1671,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      417,
+      835,
+      1252,
+      1671
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创角色穿着示意",
+    "prompt": "Image 1 is this project's original garment reference sheet. Create a matching wearing-reference sheet for the same 8 numbered-by-position illustrations. EXACTLY a regular 4-column × 2-row landscape contact sheet, eight equal cells. Left-to-right, top row then bottom. Each cell uses only the garment from the corresponding source cell; retain its colors, waistline, neckline and silhouette, the position and geometry of every main overlay or opening, visible layers, trim, and integral accessories. Each cell shows exactly one fictional adult woman age 25+ actually wearing that garment, original illustrated model, attractive natural head and hands, clear anime fashion-concept illustration, plain warm off-white backdrop, calm stance, eyes not a focal point. Each character remains entirely within her own cell, with empty margin above hair and below feet or waist. Thin straight grey separating lines, strictly rectangular equal-sized grid. No labels, no signs, no extra columns, no image overlap, no separate floating garment. No original third-party design references. Medium portraits, top of hair to upper hip, face and both shoulders visible, sleeves and cuffs inside cell if possible. Eight adult wearers with hair swept behind shoulders or pinned up to leave neck and upper chest unobstructed, no necklaces. The identical cream blouses have varying sleeve shape with exact original collar features in order: lilac rounded Peter Pan collar over gathered thin frill; double blue sharp-point broad collar over deeper cream under-frill; olive flat scalloped petal collar; rectangular dusty-rose folded shoulder tabs around square open neck and short puff sleeves; cocoa band with cream upright frill; burgundy stand collar with concentric two soft tiered ruffles beneath; tiny lilac bead-edged two-point collar; buttoned blue wide rounded chest yoke with one dark blue ruffled edge. Collar close-ups are more important than dress coverage; do not show excessive bare skin or any jewelry.",
+    "reference_image": "images/sheet-cs061-cs068.png",
+    "items": [
+      {
+        "entry_id": "CS061",
+        "label": "CS061",
+        "name": "窄褶边圆叶领"
+      },
+      {
+        "entry_id": "CS062",
+        "label": "CS062",
+        "name": "托褶大尖领"
+      },
+      {
+        "entry_id": "CS063",
+        "label": "CS063",
+        "name": "多瓣波齿平领"
+      },
+      {
+        "entry_id": "CS064",
+        "label": "CS064",
+        "name": "双肩翻片方领"
+      },
+      {
+        "entry_id": "CS065",
+        "label": "CS065",
+        "name": "扣带托竖褶立领"
+      },
+      {
+        "entry_id": "CS066",
+        "label": "CS066",
+        "name": "立领双圈垂褶领"
+      },
+      {
+        "entry_id": "CS067",
+        "label": "CS067",
+        "name": "珠点沿边尖领"
+      },
+      {
+        "entry_id": "CS068",
+        "label": "CS068",
+        "name": "扣襟胸肩片弧边褶领"
+      }
+    ]
+  },
+  {
+    "id": "weixin-lolita-v76-outfits-wearing",
+    "category": "fashion_outfits",
+    "dimension": "洛丽塔时尚穿搭",
+    "role": "wearing_reference",
+    "title": "洛丽塔裙 · 主题穿搭上身对照",
+    "image": "images/sheet-fs279-fs286-wearing.png",
+    "width": 1671,
+    "height": 941,
+    "columns": 4,
+    "rows": 2,
+    "column_boundaries": [
+      0,
+      417,
+      835,
+      1253,
+      1671
+    ],
+    "row_boundaries": [
+      0,
+      470,
+      941
+    ],
+    "origin": "AI 生成的原创角色穿着示意",
+    "prompt": "Image 1 is this project's original garment reference sheet. Create a matching wearing-reference sheet for the same 8 numbered-by-position illustrations. EXACTLY a regular 4-column × 2-row landscape contact sheet, eight equal cells. Left-to-right, top row then bottom. Each cell uses only the garment from the corresponding source cell; retain its colors, waistline, neckline and silhouette, the position and geometry of every main overlay or opening, visible layers, trim, and integral accessories. Each cell shows exactly one fictional adult woman age 25+ actually wearing that garment, original illustrated model, attractive natural head and hands, clear anime fashion-concept illustration, plain warm off-white backdrop, calm stance, eyes not a focal point. Each character remains entirely within her own cell, with empty margin above hair and below feet or waist. Thin straight grey separating lines, strictly rectangular equal-sized grid. No labels, no signs, no extra columns, no image overlap, no separate floating garment. No original third-party design references. Show each complete coordinated outfit from its headdress to the floor and both shoes. Give each outfit its matching hat or ribbon from the source, wearing it naturally. In order: periwinkle star-charms and tulle with small star headpiece; dark green velvet and sage sheer cape with antique gold diamond clasps; wine red rose embroidery and two long rear tails; mint-and-cocoa diamond cafe coordinate with crossed sashes and cream blouse; caramel playing-card tea-party with offset applique apron and navy ribbon; burgundy and charcoal pirate with feathered tricorn, no weapons; blush pink rabbit bakery with ear-shaped bow, opaque blouse and pocketed apron; cobalt and yellow harlequin circus with geometric pointed panels. Keep exact garment structures recognizable, especially the large headdress of each look, applique details, trim color and original type of tiered hems. Minimal posing, hands at sides and garments fully visible.",
+    "reference_image": "images/sheet-fs279-fs286.png",
+    "items": [
+      {
+        "entry_id": "FS279",
+        "label": "FS279",
+        "name": "星芒罩纱洛丽塔礼装"
+      },
+      {
+        "entry_id": "FS280",
+        "label": "FS280",
+        "name": "墨绿薄披丝绒洛丽塔装"
+      },
+      {
+        "entry_id": "FS281",
+        "label": "FS281",
+        "name": "酒红玫瑰双尾洛丽塔礼装"
+      },
+      {
+        "entry_id": "FS282",
+        "label": "FS282",
+        "name": "薄荷可可菱格洛丽塔装"
+      },
+      {
+        "entry_id": "FS283",
+        "label": "FS283",
+        "name": "纸牌茶会洛丽塔装"
+      },
+      {
+        "entry_id": "FS284",
+        "label": "FS284",
+        "name": "羽饰三角帽海盗洛丽塔装"
+      },
+      {
+        "entry_id": "FS285",
+        "label": "FS285",
+        "name": "兔耳面包房洛丽塔装"
+      },
+      {
+        "entry_id": "FS286",
+        "label": "FS286",
+        "name": "菱格拼摆马戏洛丽塔装"
+      }
+    ]
   }
 ]

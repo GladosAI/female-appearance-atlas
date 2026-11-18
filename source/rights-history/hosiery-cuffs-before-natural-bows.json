@@ -1,0 +1,74 @@
+{
+  "schema": "female-appearance-retired-rights/v1",
+  "retired_on": "2026-11-18",
+  "content_version": "78.3",
+  "reason": "Owner requested both bows to follow their individual shin directions with natural satin folds and perspective.",
+  "replacements": [
+    {
+      "board_id": "hosiery-v78-cuffs",
+      "previous_image": "images/sheet-so137-so144-v4.png",
+      "current_image": "images/sheet-so137-so144-v5.png"
+    }
+  ],
+  "assets": [
+    {
+      "path": "images/sheet-so137-so144-v4.png",
+      "kind": "ai-generated-reference",
+      "sha256": "7e36b807a295759f050a2b8800cba5a439287f7848cb2309fc3474f285afe687",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "hosiery-v78-cuffs",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-18",
+      "reviewed_at": "2026-11-18",
+      "notes": "Edited the four lower-panel foot stances to match the upper-row stance; reviewed complete sock silhouettes, cuff details, front bows and all eight panel boundaries.",
+      "evidence_ids": [
+        "E-HOSIERY-MATCHING-STANCE-20261118",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-a97c1eeeb329e30f"
+      ],
+      "provenance": {
+        "observed_sha256": "7e36b807a295759f050a2b8800cba5a439287f7848cb2309fc3474f285afe687",
+        "status": "generated-file-match",
+        "board_id": "hosiery-v78-cuffs",
+        "prompt_sources": [
+          "source/contributions/hosiery-expansion-v78.json#/boards/2/edit_history/2/prompt"
+        ],
+        "declared_inputs": [
+          {
+            "path": "images/sheet-so137-so144-v3.png",
+            "exists": true,
+            "sha256": "2f665a2a14f8a3799df5f2225e43cf83c20de2ef3da49ab2b8f53bf9f9047a52",
+            "generated_file_match": true,
+            "self_pointer": false
+          }
+        ]
+      }
+    }
+  ],
+  "boards": [
+    {
+      "path": "images/sheet-so137-so144-v4.png",
+      "board_id": "hosiery-v78-cuffs",
+      "sha256": "7e36b807a295759f050a2b8800cba5a439287f7848cb2309fc3474f285afe687",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-18",
+      "prompt_sources": [
+        "source/contributions/hosiery-expansion-v78.json#/boards/2/edit_history/2/prompt"
+      ],
+      "declared_inputs": [
+        {
+          "path": "images/sheet-so137-so144-v3.png",
+          "exists": true,
+          "sha256": "2f665a2a14f8a3799df5f2225e43cf83c20de2ef3da49ab2b8f53bf9f9047a52",
+          "generated_file_match": true,
+          "self_pointer": false
+        }
+      ],
+      "input_scope": "Only the preceding project-owned sock sheet was supplied as the edit target."
+    }
+  ]
+}

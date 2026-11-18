@@ -8984,6 +8984,712 @@
       "prompt_source": "source/material-quality-prompts-20261105-completion.json",
       "declared_inputs": [],
       "permission_basis": "Generation provenance only; distribution permission is recorded separately through the continuing owner-selected policy and asset-specific grants."
+    },
+    {
+      "id": "E-ANIME-FACES-GENERATION-20261115",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-15",
+      "title": "Original anime face construction comparisons",
+      "source": "Observed built-in image_gen output in the project maintenance conversation on 2026-11-15.",
+      "assets": [
+        {
+          "path": "images/sheet-af001-af012.png",
+          "local_sha256": "84c972c741fe70715f36765e5d5eb0fca0e4f46c90fa337771cd5a5735dbdbb4",
+          "entry_ids": [
+            "AF001",
+            "AF002",
+            "AF003",
+            "AF004",
+            "AF005",
+            "AF006",
+            "AF007",
+            "AF008",
+            "AF009",
+            "AF010",
+            "AF011",
+            "AF012"
+          ]
+        }
+      ],
+      "prompt_source": "source/contributions/anime-face-types-v75.json",
+      "declared_inputs": [],
+      "permission_basis": "Records the generation output and its input scope; the applicable project grant is separate."
+    },
+    {
+      "id": "E-NC-GRANT-02ef4b5a48062eb1",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-15",
+      "asset": "images/sheet-af001-af012.png",
+      "local_sha256": "84c972c741fe70715f36765e5d5eb0fca0e4f46c90fa337771cd5a5735dbdbb4",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original atlas material under the existing owner-selected policy, limited to rights held or licensable by the project."
+    },
+    {
+      "id": "E-NC-GRANT-f38f89bc86e0c38a",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-17",
+      "asset": "images/sheet-bt091-bt098.png",
+      "local_sha256": "a1ad8abfc1f84b3ab505f4723b3cbd24d93d0c78eb37754db6b2c1a14aee2653",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Independent atlas illustrations under the continuing project policy, limited to project-held or licensable rights. Article artwork retains its original status."
+    },
+    {
+      "id": "E-NC-GRANT-b4c9e16396398d8d",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-17",
+      "asset": "images/sheet-op129-op136.png",
+      "local_sha256": "3a8c4f8317864c91afc57320c7cb7f036c4b51c323344a06e4c186fe4c90f742",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Independent atlas illustrations under the continuing project policy, limited to project-held or licensable rights. Article artwork retains its original status."
+    },
+    {
+      "id": "E-NC-GRANT-41f28e975200068a",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-17",
+      "asset": "images/sheet-cs061-cs068.png",
+      "local_sha256": "7e752b68fe043b942b37326e4965914942e30c80f6506c18465ead30eb806ee5",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Independent atlas illustrations under the continuing project policy, limited to project-held or licensable rights. Article artwork retains its original status."
+    },
+    {
+      "id": "E-NC-GRANT-43aa7004efdf3e12",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-17",
+      "asset": "images/sheet-fs279-fs286.png",
+      "local_sha256": "b11fea57f5d2a345b64337ae3a1e1f777dc7d0b56039b8d3fef5eed3eb442ce1",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Independent atlas illustrations under the continuing project policy, limited to project-held or licensable rights. Article artwork retains its original status."
+    },
+    {
+      "id": "E-LOLITA-GENERATION-20261117",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-17",
+      "title": "Original Lolita garment construction and outfit illustrations",
+      "source": "Observed built-in image_gen output in the project maintenance conversation on 2026-11-17.",
+      "assets": [
+        {
+          "path": "images/sheet-bt091-bt098.png",
+          "local_sha256": "a1ad8abfc1f84b3ab505f4723b3cbd24d93d0c78eb37754db6b2c1a14aee2653",
+          "entry_ids": [
+            "BT091",
+            "BT092",
+            "BT093",
+            "BT094",
+            "BT095",
+            "BT096",
+            "BT097",
+            "BT098"
+          ]
+        },
+        {
+          "path": "images/sheet-op129-op136.png",
+          "local_sha256": "3a8c4f8317864c91afc57320c7cb7f036c4b51c323344a06e4c186fe4c90f742",
+          "entry_ids": [
+            "OP129",
+            "OP130",
+            "OP131",
+            "OP132",
+            "OP133",
+            "OP134",
+            "OP135",
+            "OP136"
+          ]
+        },
+        {
+          "path": "images/sheet-cs061-cs068.png",
+          "local_sha256": "7e752b68fe043b942b37326e4965914942e30c80f6506c18465ead30eb806ee5",
+          "entry_ids": [
+            "CS061",
+            "CS062",
+            "CS063",
+            "CS064",
+            "CS065",
+            "CS066",
+            "CS067",
+            "CS068"
+          ]
+        },
+        {
+          "path": "images/sheet-fs279-fs286.png",
+          "local_sha256": "b11fea57f5d2a345b64337ae3a1e1f777dc7d0b56039b8d3fef5eed3eb442ce1",
+          "entry_ids": [
+            "FS279",
+            "FS280",
+            "FS281",
+            "FS282",
+            "FS283",
+            "FS284",
+            "FS285",
+            "FS286"
+          ]
+        }
+      ],
+      "prompt_source": "source/contributions/lolita-design-v76.json",
+      "declared_inputs": [],
+      "permission_basis": "Generation provenance only; independent general design notes are distinct from article image rights."
+    },
+    {
+      "id": "E-NC-GRANT-d0e6913eea79b8df",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-17",
+      "asset": "images/sheet-bt091-bt098-wearing.png",
+      "local_sha256": "9dadef79507df6eb74b01ac58a9afa676e50dcfbe09a48522f8e6dc276439eb3",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-generated wearing illustrations covered by the continuing owner-selected policy within rights held or licensable by the project."
+    },
+    {
+      "id": "E-NC-GRANT-b06fa73172eceae8",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-17",
+      "asset": "images/sheet-op129-op136-wearing.png",
+      "local_sha256": "727baae40dd66e47b976316b86264d514ddf0aabf22afb25847065cdc94de7ab",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-generated wearing illustrations covered by the continuing owner-selected policy within rights held or licensable by the project."
+    },
+    {
+      "id": "E-NC-GRANT-bc22bf887d780660",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-17",
+      "asset": "images/sheet-cs061-cs068-wearing.png",
+      "local_sha256": "d907d4340c02891d7997aed82e10842a77a456d89a40e8e34f77ea2924bff000",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-generated wearing illustrations covered by the continuing owner-selected policy within rights held or licensable by the project."
+    },
+    {
+      "id": "E-NC-GRANT-3b7b8392296bedb5",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-17",
+      "asset": "images/sheet-fs279-fs286-wearing.png",
+      "local_sha256": "240660e4e4462a0d3174e9176e8b2d90c624af2fda09044a3fda1cd1a87e6a69",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-generated wearing illustrations covered by the continuing owner-selected policy within rights held or licensable by the project."
+    },
+    {
+      "id": "E-LOLITA-WEARING-GENERATION-20261117",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-17",
+      "title": "Original on-body illustrations for the Lolita garment references",
+      "source": "Built-in image_gen output in the project maintenance conversation on 2026-11-17.",
+      "assets": [
+        {
+          "path": "images/sheet-bt091-bt098-wearing.png",
+          "local_sha256": "9dadef79507df6eb74b01ac58a9afa676e50dcfbe09a48522f8e6dc276439eb3",
+          "entry_ids": [
+            "BT091",
+            "BT092",
+            "BT093",
+            "BT094",
+            "BT095",
+            "BT096",
+            "BT097",
+            "BT098"
+          ]
+        },
+        {
+          "path": "images/sheet-op129-op136-wearing.png",
+          "local_sha256": "727baae40dd66e47b976316b86264d514ddf0aabf22afb25847065cdc94de7ab",
+          "entry_ids": [
+            "OP129",
+            "OP130",
+            "OP131",
+            "OP132",
+            "OP133",
+            "OP134",
+            "OP135",
+            "OP136"
+          ]
+        },
+        {
+          "path": "images/sheet-cs061-cs068-wearing.png",
+          "local_sha256": "d907d4340c02891d7997aed82e10842a77a456d89a40e8e34f77ea2924bff000",
+          "entry_ids": [
+            "CS061",
+            "CS062",
+            "CS063",
+            "CS064",
+            "CS065",
+            "CS066",
+            "CS067",
+            "CS068"
+          ]
+        },
+        {
+          "path": "images/sheet-fs279-fs286-wearing.png",
+          "local_sha256": "240660e4e4462a0d3174e9176e8b2d90c624af2fda09044a3fda1cd1a87e6a69",
+          "entry_ids": [
+            "FS279",
+            "FS280",
+            "FS281",
+            "FS282",
+            "FS283",
+            "FS284",
+            "FS285",
+            "FS286"
+          ]
+        }
+      ],
+      "prompt_source": "source/contributions/lolita-design-v76.json",
+      "declared_inputs": [
+        {
+          "path": "images/sheet-bt091-bt098.png",
+          "exists": true,
+          "sha256": "a1ad8abfc1f84b3ab505f4723b3cbd24d93d0c78eb37754db6b2c1a14aee2653",
+          "generated_file_match": true,
+          "self_pointer": false
+        },
+        {
+          "path": "images/sheet-op129-op136.png",
+          "exists": true,
+          "sha256": "3a8c4f8317864c91afc57320c7cb7f036c4b51c323344a06e4c186fe4c90f742",
+          "generated_file_match": true,
+          "self_pointer": false
+        },
+        {
+          "path": "images/sheet-cs061-cs068.png",
+          "exists": true,
+          "sha256": "7e752b68fe043b942b37326e4965914942e30c80f6506c18465ead30eb806ee5",
+          "generated_file_match": true,
+          "self_pointer": false
+        },
+        {
+          "path": "images/sheet-fs279-fs286.png",
+          "exists": true,
+          "sha256": "b11fea57f5d2a345b64337ae3a1e1f777dc7d0b56039b8d3fef5eed3eb442ce1",
+          "generated_file_match": true,
+          "self_pointer": false
+        }
+      ],
+      "permission_basis": "Independent record of the generated outputs and their project-owned input sheets."
+    },
+    {
+      "id": "E-NC-GRANT-83e3d1af1b75c6d4",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-18",
+      "asset": "images/sheet-fw095-fw102.png",
+      "local_sha256": "409035893d2bda111fde2a4e356f8b7892c0625f64b98fa8c345d7b3c3668865",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original footwear illustrations within the continuing project-controlled content policy."
+    },
+    {
+      "id": "E-NC-GRANT-f58f2b711ad9ff19",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-18",
+      "asset": "images/sheet-fw103-fw110.png",
+      "local_sha256": "d122fb36d15b878b4bee71f921597792209184b4a5dea9aaeb0f2f882a4048e7",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original footwear illustrations within the continuing project-controlled content policy."
+    },
+    {
+      "id": "E-NC-GRANT-e3180a36d809281b",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-18",
+      "asset": "images/sheet-fw111-fw118.png",
+      "local_sha256": "a92bccb419e5d5e3a477be7caf28841f4fc1a606280d3b561e1ca66ddc92300e",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original footwear illustrations within the continuing project-controlled content policy."
+    },
+    {
+      "id": "E-NC-GRANT-4ba4f73df2bd94b1",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-18",
+      "asset": "images/sheet-fw119-fw126.png",
+      "local_sha256": "97f962f3836de7dc55146c224a0937af9070df339f917741b8503fcb66e5569c",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original footwear illustrations within the continuing project-controlled content policy."
+    },
+    {
+      "id": "E-NC-GRANT-86c9349f53a08608",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-18",
+      "asset": "images/sheet-fw127-fw134.png",
+      "local_sha256": "91309536b7a9bf7b1a55f2c40064b90040523a8c358b3a67e2893bcb10aa34c3",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original footwear illustrations within the continuing project-controlled content policy."
+    },
+    {
+      "id": "E-FOOTWEAR-GENERATION-20261118",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-18",
+      "title": "Original worn footwear illustrations, FW095-FW134",
+      "source": "Observed built-in image_gen output in the project maintenance conversation on 2026-11-18.",
+      "assets": [
+        {
+          "path": "images/sheet-fw095-fw102.png",
+          "local_sha256": "409035893d2bda111fde2a4e356f8b7892c0625f64b98fa8c345d7b3c3668865",
+          "entry_ids": [
+            "FW095",
+            "FW096",
+            "FW097",
+            "FW098",
+            "FW099",
+            "FW100",
+            "FW101",
+            "FW102"
+          ]
+        },
+        {
+          "path": "images/sheet-fw103-fw110.png",
+          "local_sha256": "d122fb36d15b878b4bee71f921597792209184b4a5dea9aaeb0f2f882a4048e7",
+          "entry_ids": [
+            "FW103",
+            "FW104",
+            "FW105",
+            "FW106",
+            "FW107",
+            "FW108",
+            "FW109",
+            "FW110"
+          ]
+        },
+        {
+          "path": "images/sheet-fw111-fw118.png",
+          "local_sha256": "a92bccb419e5d5e3a477be7caf28841f4fc1a606280d3b561e1ca66ddc92300e",
+          "entry_ids": [
+            "FW111",
+            "FW112",
+            "FW113",
+            "FW114",
+            "FW115",
+            "FW116",
+            "FW117",
+            "FW118"
+          ]
+        },
+        {
+          "path": "images/sheet-fw119-fw126.png",
+          "local_sha256": "97f962f3836de7dc55146c224a0937af9070df339f917741b8503fcb66e5569c",
+          "entry_ids": [
+            "FW119",
+            "FW120",
+            "FW121",
+            "FW122",
+            "FW123",
+            "FW124",
+            "FW125",
+            "FW126"
+          ]
+        },
+        {
+          "path": "images/sheet-fw127-fw134.png",
+          "local_sha256": "91309536b7a9bf7b1a55f2c40064b90040523a8c358b3a67e2893bcb10aa34c3",
+          "entry_ids": [
+            "FW127",
+            "FW128",
+            "FW129",
+            "FW130",
+            "FW131",
+            "FW132",
+            "FW133",
+            "FW134"
+          ]
+        }
+      ],
+      "prompt_source": "source/contributions/footwear-expansion-v77.json",
+      "declared_inputs": [],
+      "permission_basis": "Records the generated outputs and the absence of supplied image inputs."
+    },
+    {
+      "id": "E-NC-GRANT-f5c98639a347673a",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-18",
+      "asset": "images/sheet-so121-so128.png",
+      "local_sha256": "e57046f4b29770439943917b96c4dadbf5ebd7864894e426571638beba401070",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original hosiery illustrations within the continuing project-controlled content policy."
+    },
+    {
+      "id": "E-NC-GRANT-5f6e1ad1f4647992",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-18",
+      "asset": "images/sheet-so129-so136.png",
+      "local_sha256": "67c0afac93e09bcad135eb1371ebf5f8f50251fa3d434af78b058f8fd8c60598",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original hosiery illustrations within the continuing project-controlled content policy."
+    },
+    {
+      "id": "E-NC-GRANT-143418d282b559c2",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-18",
+      "asset": "images/sheet-so137-so144.png",
+      "local_sha256": "d74869df531522635440fad241a3c513e71d2e56ec576db28c591b1e42cff7e0",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original hosiery illustrations within the continuing project-controlled content policy."
+    },
+    {
+      "id": "E-NC-GRANT-3d2525dea9e8096d",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-18",
+      "asset": "images/sheet-so145-so152.png",
+      "local_sha256": "e2c9e871af1d80a9ab664e7f833e21c134d0cb59f560f9e5cab37f6afad78c34",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original hosiery illustrations within the continuing project-controlled content policy."
+    },
+    {
+      "id": "E-NC-GRANT-36bddc2ba51f4b66",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-18",
+      "asset": "images/sheet-so153-so160.png",
+      "local_sha256": "d68669aa88fee7cd2c90cb6499d9a3e3f17c246bb1f21b5592db5742ebcd248b",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Original hosiery illustrations within the continuing project-controlled content policy."
+    },
+    {
+      "id": "E-HOSIERY-GENERATION-20261118",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-18",
+      "title": "Original worn hosiery illustrations, SO121-SO160",
+      "source": "Observed built-in image_gen output in the project maintenance conversation on 2026-11-18.",
+      "assets": [
+        {
+          "path": "images/sheet-so121-so128.png",
+          "local_sha256": "e57046f4b29770439943917b96c4dadbf5ebd7864894e426571638beba401070",
+          "entry_ids": [
+            "SO121",
+            "SO122",
+            "SO123",
+            "SO124",
+            "SO125",
+            "SO126",
+            "SO127",
+            "SO128"
+          ]
+        },
+        {
+          "path": "images/sheet-so129-so136.png",
+          "local_sha256": "67c0afac93e09bcad135eb1371ebf5f8f50251fa3d434af78b058f8fd8c60598",
+          "entry_ids": [
+            "SO129",
+            "SO130",
+            "SO131",
+            "SO132",
+            "SO133",
+            "SO134",
+            "SO135",
+            "SO136"
+          ]
+        },
+        {
+          "path": "images/sheet-so137-so144.png",
+          "local_sha256": "d74869df531522635440fad241a3c513e71d2e56ec576db28c591b1e42cff7e0",
+          "entry_ids": [
+            "SO137",
+            "SO138",
+            "SO139",
+            "SO140",
+            "SO141",
+            "SO142",
+            "SO143",
+            "SO144"
+          ]
+        },
+        {
+          "path": "images/sheet-so145-so152.png",
+          "local_sha256": "e2c9e871af1d80a9ab664e7f833e21c134d0cb59f560f9e5cab37f6afad78c34",
+          "entry_ids": [
+            "SO145",
+            "SO146",
+            "SO147",
+            "SO148",
+            "SO149",
+            "SO150",
+            "SO151",
+            "SO152"
+          ]
+        },
+        {
+          "path": "images/sheet-so153-so160.png",
+          "local_sha256": "d68669aa88fee7cd2c90cb6499d9a3e3f17c246bb1f21b5592db5742ebcd248b",
+          "entry_ids": [
+            "SO153",
+            "SO154",
+            "SO155",
+            "SO156",
+            "SO157",
+            "SO158",
+            "SO159",
+            "SO160"
+          ]
+        }
+      ],
+      "prompt_source": "source/contributions/hosiery-expansion-v78.json",
+      "declared_inputs": [],
+      "permission_basis": "Records the generated outputs and the absence of supplied image inputs."
+    },
+    {
+      "id": "E-NC-GRANT-a7ceb305e900ff6d",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-18",
+      "asset": "images/sheet-so137-so144-v2.png",
+      "local_sha256": "70ac789a02e6b502f527b1c1ca3302fe6b5d9549d07aafb587805e67f04d22cf",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-owned hosiery image edit within the continuing project content policy."
+    },
+    {
+      "id": "E-NC-GRANT-46d77186e8136fc4",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-18",
+      "asset": "images/sheet-so137-so144-v3.png",
+      "local_sha256": "2f665a2a14f8a3799df5f2225e43cf83c20de2ef3da49ab2b8f53bf9f9047a52",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-owned hosiery image edit within the continuing project content policy."
+    },
+    {
+      "id": "E-SO143-FRONT-BOW-GENERATION-20261118",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-18",
+      "title": "SO143 bow orientation edits and final front-bow view",
+      "source": "Observed built-in image_gen outputs in the project maintenance conversation on 2026-11-18.",
+      "assets": [
+        {
+          "path": "images/sheet-so137-so144-v2.png",
+          "local_sha256": "70ac789a02e6b502f527b1c1ca3302fe6b5d9549d07aafb587805e67f04d22cf",
+          "entry_ids": [
+            "SO137",
+            "SO138",
+            "SO139",
+            "SO140",
+            "SO141",
+            "SO142",
+            "SO143",
+            "SO144"
+          ]
+        },
+        {
+          "path": "images/sheet-so137-so144-v3.png",
+          "local_sha256": "2f665a2a14f8a3799df5f2225e43cf83c20de2ef3da49ab2b8f53bf9f9047a52",
+          "entry_ids": [
+            "SO137",
+            "SO138",
+            "SO139",
+            "SO140",
+            "SO141",
+            "SO142",
+            "SO143",
+            "SO144"
+          ]
+        }
+      ],
+      "prompt_source": "source/contributions/hosiery-expansion-v78.json",
+      "declared_inputs": [
+        {
+          "path": "images/sheet-so137-so144.png",
+          "sha256": "d74869df531522635440fad241a3c513e71d2e56ec576db28c591b1e42cff7e0"
+        },
+        {
+          "path": "images/sheet-so137-so144-v2.png",
+          "sha256": "70ac789a02e6b502f527b1c1ca3302fe6b5d9549d07aafb587805e67f04d22cf"
+        }
+      ],
+      "permission_basis": "Records the actual generated edits and project-owned reference images."
+    },
+    {
+      "id": "E-NC-GRANT-a97c1eeeb329e30f",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-18",
+      "asset": "images/sheet-so137-so144-v4.png",
+      "local_sha256": "7e36b807a295759f050a2b8800cba5a439287f7848cb2309fc3474f285afe687",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-owned image edit within the continuing project content policy."
+    },
+    {
+      "id": "E-HOSIERY-MATCHING-STANCE-20261118",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-18",
+      "title": "Matching three-quarter foot stance for lower-row sock panels",
+      "source": "Observed built-in image_gen output in the project maintenance conversation on 2026-11-18.",
+      "assets": [
+        {
+          "path": "images/sheet-so137-so144-v4.png",
+          "local_sha256": "7e36b807a295759f050a2b8800cba5a439287f7848cb2309fc3474f285afe687",
+          "entry_ids": [
+            "SO137",
+            "SO138",
+            "SO139",
+            "SO140",
+            "SO141",
+            "SO142",
+            "SO143",
+            "SO144"
+          ]
+        }
+      ],
+      "prompt_source": "source/contributions/hosiery-expansion-v78.json",
+      "declared_inputs": [
+        {
+          "path": "images/sheet-so137-so144-v3.png",
+          "exists": true,
+          "sha256": "2f665a2a14f8a3799df5f2225e43cf83c20de2ef3da49ab2b8f53bf9f9047a52",
+          "generated_file_match": true,
+          "self_pointer": false
+        }
+      ],
+      "permission_basis": "Records the actual generated edit and its project-owned reference image."
+    },
+    {
+      "id": "E-NC-GRANT-9796e4d8d7eccd00",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-18",
+      "asset": "images/sheet-so137-so144-v5.png",
+      "local_sha256": "7225163d54554f7de6f35c01f9aa8111331992299efbe422fdda60c455754966",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-owned image edit within the continuing project content policy."
+    },
+    {
+      "id": "E-HOSIERY-NATURAL-BOWS-20261118",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-18",
+      "title": "Natural bow orientation and soft satin folds",
+      "source": "Observed built-in image_gen output in the project maintenance conversation on 2026-11-18.",
+      "assets": [
+        {
+          "path": "images/sheet-so137-so144-v5.png",
+          "local_sha256": "7225163d54554f7de6f35c01f9aa8111331992299efbe422fdda60c455754966",
+          "entry_ids": [
+            "SO137",
+            "SO138",
+            "SO139",
+            "SO140",
+            "SO141",
+            "SO142",
+            "SO143",
+            "SO144"
+          ]
+        }
+      ],
+      "prompt_source": "source/contributions/hosiery-expansion-v78.json",
+      "declared_inputs": [
+        {
+          "path": "images/sheet-so137-so144-v4.png",
+          "exists": true,
+          "sha256": "7e36b807a295759f050a2b8800cba5a439287f7848cb2309fc3474f285afe687",
+          "generated_file_match": true,
+          "self_pointer": false
+        }
+      ],
+      "permission_basis": "Records the actual generated edit and its project-owned reference image."
     }
   ]
 }

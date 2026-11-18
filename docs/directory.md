@@ -1,6 +1,6 @@
 # 图鉴总目录
 
-9个领域 → 56个分组 → 211个类别 → 类别内细分，共7241项配图。每个类别只有一个主要归属。
+9个领域 → 56个分组 → 212个类别 → 类别内细分，共7365项配图。每个类别只有一个主要归属。
 
 [打开图鉴目录](../index.html?view=directory) · [查找与筛选说明](find-and-browse.md)
 
@@ -39,15 +39,16 @@
 
 ## 脸部与表情
 
-脸型五官与自然唇形、眼睛肤色、眼妆唇妆，以及情绪、口部动作和面部覆盖。 共834项。 [领域全部](../index.html?section=topic_face_design)
+脸型五官与自然唇形、眼睛肤色、眼妆唇妆，以及情绪、口部动作和面部覆盖。 共846项。 [领域全部](../index.html?section=topic_face_design)
 
 ### 脸型、五官与视角
 
-[分组全部 · 117项](../index.html?section=branch_facial_structure)
+[分组全部 · 129项](../index.html?section=branch_facial_structure)
 
 | 类别 | 配图词条 | 浏览 |
 | --- | ---: | --- |
 | 脸型与轮廓 | 18 | [词条](../index.html?section=face) · [详表](atlas.md#face) |
+| 常见动漫脸型 | 12 | [词条](../index.html?section=anime_face_types) · [详表](atlas.md#anime_face_types) |
 | 五官与耳部 | 43 | [词条](../index.html?section=features) · [详表](atlas.md#features) |
 | 局部五官近景 | 24 | [词条](../index.html?section=nose_ear_teeth) · [详表](atlas.md#nose_ear_teeth) |
 | 嘴唇形态与轮廓 | 16 | [词条](../index.html?section=lips) · [详表](atlas.md#lips) |
@@ -163,26 +164,26 @@
 
 ## 服装单件与日常穿搭
 
-按单件、季节、场景与造型查找；穿搭风格作为筛选条件。 共1967项。 [领域全部](../index.html?section=topic_everyday)
+按单件、季节、场景与造型查找；穿搭风格作为筛选条件。 共2079项。 [领域全部](../index.html?section=topic_everyday)
 
 ### 上装、下装与外套
 
-[分组全部 · 427项](../index.html?section=branch_garment_pieces)
+[分组全部 · 443项](../index.html?section=branch_garment_pieces)
 
 | 类别 | 配图词条 | 浏览 |
 | --- | ---: | --- |
 | 上装 | 99 | [词条](../index.html?section=tops) · [详表](atlas.md#tops) |
-| 裙装与裤装 | 90 | [词条](../index.html?section=bottoms) · [详表](atlas.md#bottoms) |
-| 连身服装 | 128 | [词条](../index.html?section=onepiece) · [详表](atlas.md#onepiece) |
+| 裙装与裤装 | 98 | [词条](../index.html?section=bottoms) · [详表](atlas.md#bottoms) |
+| 连身服装 | 136 | [词条](../index.html?section=onepiece) · [详表](atlas.md#onepiece) |
 | 外套与披覆 | 110 | [词条](../index.html?section=outerwear) · [详表](atlas.md#outerwear) |
 
 ### 领袖、结构与衣物动态
 
-[分组全部 · 76项](../index.html?section=branch_garment_details)
+[分组全部 · 84项](../index.html?section=branch_garment_details)
 
 | 类别 | 配图词条 | 浏览 |
 | --- | ---: | --- |
-| 领袖与服装结构 | 60 | [词条](../index.html?section=construction) · [详表](atlas.md#construction) |
+| 领袖与服装结构 | 68 | [词条](../index.html?section=construction) · [详表](atlas.md#construction) |
 | 衣物褶皱与动态 | 16 | [词条](../index.html?section=garment_dynamics) · [详表](atlas.md#garment_dynamics) |
 
 ### 贴身、居家与泳装
@@ -198,12 +199,12 @@
 
 ### 鞋履、袜类与手套
 
-[分组全部 · 270项](../index.html?section=branch_shoes_hosiery)
+[分组全部 · 350项](../index.html?section=branch_shoes_hosiery)
 
 | 类别 | 配图词条 | 浏览 |
 | --- | ---: | --- |
-| 鞋履与靴型 | 82 | [词条](../index.html?section=footwear) · [详表](atlas.md#footwear) |
-| 袜类与袜裤 | 127 | [词条](../index.html?section=hosiery) · [详表](atlas.md#hosiery) |
+| 鞋履与靴型 | 122 | [词条](../index.html?section=footwear) · [详表](atlas.md#footwear) |
+| 袜类与袜裤 | 167 | [词条](../index.html?section=hosiery) · [详表](atlas.md#hosiery) |
 | 手套与手部服饰 | 61 | [词条](../index.html?section=gloves) · [详表](atlas.md#gloves) |
 
 ### 春夏秋冬整套穿搭
@@ -229,7 +230,7 @@
 
 ### 日常搭配与造型方向
 
-[分组全部 · 466项](../index.html?section=branch_fashion_ensembles)
+[分组全部 · 474项](../index.html?section=branch_fashion_ensembles)
 
 | 类别 | 配图词条 | 浏览 |
 | --- | ---: | --- |
@@ -237,7 +238,7 @@
 | 潮流穿搭 | 32 | [词条](../index.html?section=trend_outfits) · [详表](atlas.md#trend_outfits) |
 | 时尚穿搭 | 32 | [词条](../index.html?section=chic_outfits) · [详表](atlas.md#chic_outfits) |
 | 模特穿搭 | 32 | [词条](../index.html?section=model_outfits) · [详表](atlas.md#model_outfits) |
-| 风格穿搭完整方案 | 278 | [词条](../index.html?section=fashion_outfits) · [详表](atlas.md#fashion_outfits) |
+| 风格穿搭完整方案 | 286 | [词条](../index.html?section=fashion_outfits) · [详表](atlas.md#fashion_outfits) |
 | 整体造型方向示例 | 32 | [词条](../index.html?section=style) · [详表](atlas.md#style) |
 | 街头与嘻哈穿搭 | 12 | [词条](../index.html?section=street_hiphop_outfits) · [详表](atlas.md#street_hiphop_outfits) |
 

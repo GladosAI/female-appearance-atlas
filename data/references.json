@@ -1965,6 +1965,28 @@
     "checked": "2026-10-19"
   },
   {
+    "id": "R207",
+    "title": "《轻音少女！》作品与人物设计资料",
+    "publisher": "京都动画",
+    "url": "https://www.kyotoanimation.co.jp/works/k-on/",
+    "kind": "制作方作品资料",
+    "topics": "动画角色设计、日常动画、京阿尼脸",
+    "summary": "京都动画的《轻音少女！》作品页，列有角色设计与总作画监督堀口悠纪子。用于了解条目的日常动画参考语境。",
+    "rights": "仅保存官方链接与独立说明，未使用原画或角色图",
+    "checked": "2026-11-15"
+  },
+  {
+    "id": "R208",
+    "title": "《Shining Tears》角色设计 Tony 访谈",
+    "publisher": "SEGA VOICE",
+    "url": "https://www.sega.jp/fb/segavoice/041103/01.html",
+    "kind": "发行方画师访谈",
+    "topics": "Tony、游戏原画、动漫脸型",
+    "summary": "世嘉对角色设计师 Tony 的访谈，介绍其参与《Shining Tears》角色设计的经过与构思。用于了解条目的游戏插画参考语境。",
+    "rights": "仅保存官方链接与独立说明，未使用原画或角色图",
+    "checked": "2026-11-15"
+  },
+  {
     "id": "R188",
     "title": "Camera Terms, Prompts, & Examples",
     "publisher": "Runway",
@@ -2172,5 +2194,16 @@
     "topics": "游戏角色原稿与制作流程",
     "rights": "仅相关阅读；未复制其图片或原稿。",
     "checked": "2026-11-03"
+  },
+  {
+    "id": "R209",
+    "title": "《洛丽塔裙》素材",
+    "publisher": "美术课件",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzkyOTY1MjkzNQ==&mid=2247484896&idx=1&sn=b2fb5a68ecc67a50944e32a05f10a0f5",
+    "kind": "服装设计图集",
+    "topics": "洛丽塔裙摆、连衣裙版型、衬衫领型与主题搭配",
+    "summary": "该页集合多组裙装结构和主题搭配图例。新图鉴据此归纳叠摆、开片、领缘、材质及整套搭配的可见特征。",
+    "rights": "保留文章链接作延伸阅读，项目配图以文字描述独立生成，未收录原页图片",
+    "checked": "2026-11-17"
   }
 ]

@@ -1,0 +1,932 @@
+{
+  "schema": "female-appearance-contribution/v1",
+  "entries": [
+    {
+      "stable_id": "SO121",
+      "category": "hosiery",
+      "dimension": "针织材质与日常袜",
+      "name": "珍珠针圆粒中筒袜",
+      "en": "seed-stitch crew socks",
+      "description": "细小凸粒均匀铺满袜筒与脚背，罗纹袜口收束出清楚边界。",
+      "note": "让针目随小腿与脚背曲面延展，袜套下缘与足部保持清楚边界。",
+      "aliases": [
+        "圆粒针织袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO122",
+      "category": "hosiery",
+      "dimension": "针织材质与日常袜",
+      "name": "华夫格针织短袜",
+      "en": "waffle-knit ankle socks",
+      "description": "方形凹格织纹覆盖短袜鞋面，袜口、袜尖与后跟用实织区收边。",
+      "note": "让针目随小腿与脚背曲面延展，袜套下缘与足部保持清楚边界。",
+      "aliases": [
+        "华夫格短袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO123",
+      "category": "hosiery",
+      "dimension": "针织材质与日常袜",
+      "name": "镂空叶脉长袜",
+      "en": "leaf-openwork knee socks",
+      "description": "长袜筒身竖排大叶形透孔，实织袜口和趾跟延续整体轮廓。",
+      "note": "让针目随小腿与脚背曲面延展，袜套下缘与足部保持清楚边界。",
+      "aliases": [
+        "叶形透孔袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO124",
+      "category": "hosiery",
+      "dimension": "针织材质与日常袜",
+      "name": "蜂巢格针织中筒袜",
+      "en": "honeycomb-knit crew socks",
+      "description": "浮起的六边形蜂巢格相互连接，延伸过脚踝和脚背。",
+      "note": "让针目随小腿与脚背曲面延展，袜套下缘与足部保持清楚边界。",
+      "aliases": [
+        "蜂窝针织袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO125",
+      "category": "hosiery",
+      "dimension": "针织材质与日常袜",
+      "name": "双层卷边短袜",
+      "en": "double-rolled cuff ankle socks",
+      "description": "两道不同色的卷边依次叠在袜口，袜身保持平针薄织。",
+      "note": "让针目随小腿与脚背曲面延展，袜套下缘与足部保持清楚边界。",
+      "aliases": [
+        "双色卷口袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO126",
+      "category": "hosiery",
+      "dimension": "针织材质与日常袜",
+      "name": "袜口开衩针织长袜",
+      "en": "slit-cuff knit knee socks",
+      "description": "长袜罗纹口外侧留短竖衩，开衩下端由连续袜身连接。",
+      "note": "让针目随小腿与脚背曲面延展，袜套下缘与足部保持清楚边界。",
+      "aliases": [
+        "开衩袜口"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO127",
+      "category": "hosiery",
+      "dimension": "针织材质与日常袜",
+      "name": "侧排扣针织袜套",
+      "en": "side-button knit leg warmers",
+      "description": "无足针织筒身以侧排小扣闭合，下缘止于脚踝上方。",
+      "note": "让针目随小腿与脚背曲面延展，袜套下缘与足部保持清楚边界。",
+      "aliases": [
+        "侧扣袜套"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO128",
+      "category": "hosiery",
+      "dimension": "针织材质与日常袜",
+      "name": "抽绳褶筒袜套",
+      "en": "drawstring ruched leg warmers",
+      "description": "无足袜套沿两侧抽绳通道形成纵向聚褶，底部留绳结和短绳尾。",
+      "note": "让针目随小腿与脚背曲面延展，袜套下缘与足部保持清楚边界。",
+      "aliases": [
+        "抽绳堆堆袜套"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO129",
+      "category": "hosiery",
+      "dimension": "袜面图案与边口设计",
+      "name": "千鸟格长袜",
+      "en": "houndstooth knee socks",
+      "description": "黑白断角千鸟格从袜筒延伸至足部，纯色罗纹袜口压住图案上边缘。",
+      "note": "图案沿腿部体积转折，刺绣和拼片具有可见边缘，袜口与趾跟保持完整。",
+      "aliases": [
+        "千鸟纹袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO130",
+      "category": "hosiery",
+      "dimension": "袜面图案与边口设计",
+      "name": "窗格细线长袜",
+      "en": "windowpane-check knee socks",
+      "description": "深色底上用细浅色线围出大方窗格，格线随小腿和脚背弯曲。",
+      "note": "图案沿腿部体积转折，刺绣和拼片具有可见边缘，袜口与趾跟保持完整。",
+      "aliases": [
+        "窗格袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO131",
+      "category": "hosiery",
+      "dimension": "袜面图案与边口设计",
+      "name": "佩斯利印花中筒袜",
+      "en": "paisley-print crew socks",
+      "description": "水滴卷曲形佩斯利纹分散排列，袜口、袜尖和后跟保留纯色。",
+      "note": "图案沿腿部体积转折，刺绣和拼片具有可见边缘，袜口与趾跟保持完整。",
+      "aliases": [
+        "佩兹利袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO132",
+      "category": "hosiery",
+      "dimension": "袜面图案与边口设计",
+      "name": "新月星轨长袜",
+      "en": "crescent-and-orbit knee socks",
+      "description": "深蓝袜身布置浅金新月和细弧轨线，弧线在腿部连续穿行。",
+      "note": "图案沿腿部体积转折，刺绣和拼片具有可见边缘，袜口与趾跟保持完整。",
+      "aliases": [
+        "月亮轨道袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO133",
+      "category": "hosiery",
+      "dimension": "袜面图案与边口设计",
+      "name": "藤蔓刺绣长袜",
+      "en": "vine-embroidered knee socks",
+      "description": "袜筒外侧附窄条藤蔓刺绣，细枝与独立小叶沿小腿向上延伸。",
+      "note": "图案沿腿部体积转折，刺绣和拼片具有可见边缘，袜口与趾跟保持完整。",
+      "aliases": [
+        "藤叶刺绣袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO134",
+      "category": "hosiery",
+      "dimension": "袜面图案与边口设计",
+      "name": "踝侧花饰拼片长袜",
+      "en": "floral ankle-panel knee socks",
+      "description": "袜踝外侧缀花形蕾丝拼片，蓝色花朵和浅色叶片组成向上收窄的花束。",
+      "note": "图案沿腿部体积转折，刺绣和拼片具有可见边缘，袜口与趾跟保持完整。",
+      "aliases": [
+        "踝花贴片袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO135",
+      "category": "hosiery",
+      "dimension": "袜面图案与边口设计",
+      "name": "拼缝撞色中筒袜",
+      "en": "contrast-seam color-block crew socks",
+      "description": "锈红、米白和青绿布片斜向拼接，浅色锁边线把接缝明确勾出。",
+      "note": "图案沿腿部体积转折，刺绣和拼片具有可见边缘，袜口与趾跟保持完整。",
+      "aliases": [
+        "撞色拼缝袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO136",
+      "category": "hosiery",
+      "dimension": "袜面图案与边口设计",
+      "name": "波浪纵纹长袜",
+      "en": "wavy-stripe knee socks",
+      "description": "粗细稳定的深色波浪纵纹沿袜筒下落，弯曲路径延续到脚背。",
+      "note": "图案沿腿部体积转折，刺绣和拼片具有可见边缘，袜口与趾跟保持完整。",
+      "aliases": [
+        "波浪条纹袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO137",
+      "category": "hosiery",
+      "dimension": "网眼花纹与装饰袜",
+      "name": "透纱叠口短袜",
+      "en": "organza-layered cuff socks",
+      "description": "实织短袜的袜口上叠接轻薄欧根纱，透纱波边向外展开。",
+      "note": "装饰应接入实际袜面或袜口，开窗边缘连续收口，趾跟包覆关系清楚。",
+      "aliases": [
+        "欧根纱袜口"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO138",
+      "category": "hosiery",
+      "dimension": "网眼花纹与装饰袜",
+      "name": "双层蕾丝翻口短袜",
+      "en": "double-lace turn-down ankle socks",
+      "description": "两层扇贝花边向下翻叠在袜口外侧，实织袜身留出整洁背景。",
+      "note": "装饰应接入实际袜面或袜口，开窗边缘连续收口，趾跟包覆关系清楚。",
+      "aliases": [
+        "双层花边短袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO139",
+      "category": "hosiery",
+      "dimension": "网眼花纹与装饰袜",
+      "name": "珍珠链袜口短袜",
+      "en": "pearl-chain cuff socks",
+      "description": "细小珍珠串沿袜口布边固定一圈，深色实织袜身衬出珠粒。",
+      "note": "装饰应接入实际袜面或袜口，开窗边缘连续收口，趾跟包覆关系清楚。",
+      "aliases": [
+        "珍珠边短袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO140",
+      "category": "hosiery",
+      "dimension": "网眼花纹与装饰袜",
+      "name": "侧系细绳短袜",
+      "en": "side-tie drawcord ankle socks",
+      "description": "短袜外侧袜口留小开口，细绳穿过带孔并在侧边打结。",
+      "note": "装饰应接入实际袜面或袜口，开窗边缘连续收口，趾跟包覆关系清楚。",
+      "aliases": [
+        "侧系绳短袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO141",
+      "category": "hosiery",
+      "dimension": "网眼花纹与装饰袜",
+      "name": "心形开窗中筒袜",
+      "en": "heart-cutout crew socks",
+      "description": "每侧袜筒各留一枚心形开口，开口周围保留连续包边和袜面。",
+      "note": "装饰应接入实际袜面或袜口，开窗边缘连续收口，趾跟包覆关系清楚。",
+      "aliases": [
+        "心形镂空袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO142",
+      "category": "hosiery",
+      "dimension": "网眼花纹与装饰袜",
+      "name": "荷叶侧缝长袜",
+      "en": "ruffle-side-seam knee socks",
+      "description": "一条窄荷叶边沿袜筒外侧缝下垂，从袜口延伸到脚踝上方。",
+      "note": "装饰应接入实际袜面或袜口，开窗边缘连续收口，趾跟包覆关系清楚。",
+      "aliases": [
+        "侧边荷叶长袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO143",
+      "category": "hosiery",
+      "dimension": "网眼花纹与装饰袜",
+      "name": "前饰大蝴蝶结长袜",
+      "en": "front-bow knee socks",
+      "description": "长袜口前中缀同色大蝴蝶结，两条短飘尾覆在袜筒正面。",
+      "note": "一只脚朝前、另一只自然外展；两枚蝴蝶结各自贴合袜口前中，侧转一侧的环翼和飘尾随腿部产生透视缩短。",
+      "aliases": [
+        "前蝴蝶结袜",
+        "正面蝴蝶结长袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO144",
+      "category": "hosiery",
+      "dimension": "网眼花纹与装饰袜",
+      "name": "纽襻搭桥袜口短袜",
+      "en": "button-tab cuff socks",
+      "description": "袜口正中留短开口，一条布质纽襻横跨两边并以单扣固定。",
+      "note": "装饰应接入实际袜面或袜口，开窗边缘连续收口，趾跟包覆关系清楚。",
+      "aliases": [
+        "纽襻短袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO145",
+      "category": "hosiery",
+      "dimension": "图案与拼接袜裤",
+      "name": "细人字纹连裤袜",
+      "en": "fine-herringbone tights",
+      "description": "深色不透明袜裤布满细密人字折纹，纹样跨过膝部继续到包足脚尖。",
+      "note": "腰口、双腿与足部连续连接，纹样随膝踝转折，拼接线与色区边缘吻合。",
+      "aliases": [
+        "人字纹袜裤"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO146",
+      "category": "hosiery",
+      "dimension": "图案与拼接袜裤",
+      "name": "竖向麻花针织袜裤",
+      "en": "cable-knit footed tights",
+      "description": "宽麻花编织从腰口沿双腿下行，跨过膝盖并延续至脚背。",
+      "note": "腰口、双腿与足部连续连接，纹样随膝踝转折，拼接线与色区边缘吻合。",
+      "aliases": [
+        "麻花连裤袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO147",
+      "category": "hosiery",
+      "dimension": "图案与拼接袜裤",
+      "name": "大理石晕纹袜裤",
+      "en": "marbled-pattern tights",
+      "description": "蓝灰晕染带和细脉在袜裤上流动，双腿上的纹理保持同一配色关系。",
+      "note": "腰口、双腿与足部连续连接，纹样随膝踝转折，拼接线与色区边缘吻合。",
+      "aliases": [
+        "水墨大理石袜裤"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO148",
+      "category": "hosiery",
+      "dimension": "图案与拼接袜裤",
+      "name": "非对称斜切拼色袜裤",
+      "en": "asymmetrical diagonal-panel tights",
+      "description": "一侧大腿和另一侧小腿分别斜切拼色，形成高低错开的分界。",
+      "note": "腰口、双腿与足部连续连接，纹样随膝踝转折，拼接线与色区边缘吻合。",
+      "aliases": [
+        "斜切撞色袜裤"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO149",
+      "category": "hosiery",
+      "dimension": "图案与拼接袜裤",
+      "name": "簇点小花袜裤",
+      "en": "clustered-flower-dot tights",
+      "description": "数枚浅色圆点聚成小花，花簇之间保持空隙并覆盖整条袜裤。",
+      "note": "腰口、双腿与足部连续连接，纹样随膝踝转折，拼接线与色区边缘吻合。",
+      "aliases": [
+        "点簇花纹袜裤"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO150",
+      "category": "hosiery",
+      "dimension": "图案与拼接袜裤",
+      "name": "链式菱格提花袜裤",
+      "en": "chain-diamond jacquard tights",
+      "description": "连续套叠的金色菱环构成竖向提花带，沿双腿从上往下排列。",
+      "note": "腰口、双腿与足部连续连接，纹样随膝踝转折，拼接线与色区边缘吻合。",
+      "aliases": [
+        "链环菱纹袜裤"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO151",
+      "category": "hosiery",
+      "dimension": "图案与拼接袜裤",
+      "name": "踝部拼蕾丝连裤袜",
+      "en": "lace-ankle panel tights",
+      "description": "不透明深色袜裤在脚踝拼入一圈浅色花形蕾丝，足部仍完整包覆。",
+      "note": "腰口、双腿与足部连续连接，纹样随膝踝转折，拼接线与色区边缘吻合。",
+      "aliases": [
+        "蕾丝踝袜裤"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO152",
+      "category": "hosiery",
+      "dimension": "图案与拼接袜裤",
+      "name": "波齿阶梯拼接袜裤",
+      "en": "scallop-step color-block tights",
+      "description": "膝上和膝下两道宽波齿拼色线围出中段色区，上下袜身连续。",
+      "note": "腰口、双腿与足部连续连接，纹样随膝踝转折，拼接线与色区边缘吻合。",
+      "aliases": [
+        "波浪拼色袜裤"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO153",
+      "category": "hosiery",
+      "dimension": "主题装饰与幻想袜型",
+      "name": "菱形开窗绑带长袜",
+      "en": "lace-bridged diamond-cutout knee socks",
+      "description": "袜筒前方纵排菱形开窗，窄绳经两侧孔眼交叉连接，空区周围仍为实织袜身。",
+      "note": "主题饰件缝接或扣接在袜面上，保持布料软硬与穿着连接可辨。",
+      "aliases": [
+        "编绳开窗袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO154",
+      "category": "hosiery",
+      "dimension": "主题装饰与幻想袜型",
+      "name": "交叉缎带缠绕长袜",
+      "en": "crisscross-ribbon wrapped knee socks",
+      "description": "对比色缎带从脚踝向上交叉绕过实织袜筒，最终在袜口系结。",
+      "note": "主题饰件缝接或扣接在袜面上，保持布料软硬与穿着连接可辨。",
+      "aliases": [
+        "缠带长袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO155",
+      "category": "hosiery",
+      "dimension": "主题装饰与幻想袜型",
+      "name": "蝶翼袜口长袜",
+      "en": "butterfly-wing cuff knee socks",
+      "description": "袜口外侧接柔软蝶翼形布片，翼脉由缝线勾出，向两侧轻微展开。",
+      "note": "主题饰件缝接或扣接在袜面上，保持布料软硬与穿着连接可辨。",
+      "aliases": [
+        "蝴蝶翼袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO156",
+      "category": "hosiery",
+      "dimension": "主题装饰与幻想袜型",
+      "name": "星扣翻口长袜",
+      "en": "star-clasp turn-down knee socks",
+      "description": "长袜口向外翻折，一枚星形扣件固定在侧边折口处。",
+      "note": "主题饰件缝接或扣接在袜面上，保持布料软硬与穿着连接可辨。",
+      "aliases": [
+        "星星扣长袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO157",
+      "category": "hosiery",
+      "dimension": "主题装饰与幻想袜型",
+      "name": "机能分段弹力袜套",
+      "en": "multi-panel technical knit leg sleeves",
+      "description": "无足袜套以深灰与青绿色弹力织片分段拼接，横向接缝环绕小腿。",
+      "note": "主题饰件缝接或扣接在袜面上，保持布料软硬与穿着连接可辨。",
+      "aliases": [
+        "机能拼片袜套"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO158",
+      "category": "hosiery",
+      "dimension": "主题装饰与幻想袜型",
+      "name": "羽缘飘带长袜",
+      "en": "feather-trim ribbon knee socks",
+      "description": "袜口缀一圈短仿羽缘，侧面浅色小结和短飘尾与实织袜身连接。",
+      "note": "主题饰件缝接或扣接在袜面上，保持布料软硬与穿着连接可辨。",
+      "aliases": [
+        "羽毛边长袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO159",
+      "category": "hosiery",
+      "dimension": "主题装饰与幻想袜型",
+      "name": "蔓叶缠边精灵长袜",
+      "en": "leaf-vine cuff elf stockings",
+      "description": "袜口叠接柔软叶形边片，细蔓饰绕过上段袜筒，金色叶脉纹沿腿部下行。",
+      "note": "主题饰件缝接或扣接在袜面上，保持布料软硬与穿着连接可辨。",
+      "aliases": [
+        "精灵叶边袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    },
+    {
+      "stable_id": "SO160",
+      "category": "hosiery",
+      "dimension": "主题装饰与幻想袜型",
+      "name": "冰晶流苏袜口长袜",
+      "en": "crystal-tassel cuff stockings",
+      "description": "浅蓝长袜的口边挂短线穗与晶形小珠，袜筒以细浅色花纹呼应。",
+      "note": "主题饰件缝接或扣接在袜面上，保持布料软硬与穿着连接可辨。",
+      "aliases": [
+        "冰晶穗袜"
+      ],
+      "origin": "editorial",
+      "added_in": "78.0"
+    }
+  ],
+  "boards": [
+    {
+      "id": "hosiery-v78-knit",
+      "category": "hosiery",
+      "title": "特色织纹与可调节袜筒",
+      "image": "images/sheet-so121-so128.png",
+      "width": 1672,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        418,
+        836,
+        1254,
+        1672
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创袜类穿着示意",
+      "prompt": "Use case: stylized-concept. Create an original anime fashion hosiery reference atlas, landscape approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent rectangular cells with straight thin pale-grey dividers at 25%,50%,75% width and 50% height. Each cell shows ONE matching pair of socks being WORN on the TWO natural legs of ONE ADULT WOMAN. Refined crisp anime line art, soft cel shading, readable yarn, seams and fabric, plain warm ivory backdrop and floor, gentle studio daylight. Frame only the relevant part of the woman's legs, a neutral standing pose, feet slightly apart and one turned outward for construction visibility, not crossed. Keep BOTH sock toes, heels and outer soles completely inside each tile with generous bottom and side margins. Show all sock cuffs completely and leave a small strip of bare leg above them. NO shoes, full-body people, faces, text, captions, numbers, logos, watermarks, insets or decorative borders. Each cell must be a distinct construction; both legs wear the SAME design. Feet rest on the ground naturally, plausible toes concealed by ordinary footed socks unless specified as leg warmers. Read all eight designs in strict first-row left-to-right, then second-row left-to-right order. Eight knitted socks and leg warmers. Frame from just ABOVE KNEES to the floor so all cuff heights are fully in frame. Row one: (1) Soft sage calf-height CREW SOCKS with a uniform fine PEBBLY SEED-STITCH texture, individual tiny raised knitted dots, plain ribbed cuff. (2) Butter-yellow ankle socks made of visibly recessed square WAFFLE KNIT, thick closed toe and heel. (3) Ivory KNEE SOCKS with repeated LARGE VERTICAL LEAF-SHAPED OPENWORK motifs across the whole calf, solid toes and heels and opaque cuff; the openwork is part of knitting. (4) Muted blue crew socks with repeating raised interconnected HEXAGONAL HONEYCOMB KNIT cells, solid ribbed cuff. Row two: (5) Dusty pink ankle socks with exactly TWO separately ROLLED knitted edges at each cuff, one pale pink and one burgundy, plain closed foot. (6) Dark green knee socks with ONE SHORT VERTICAL SLIT at outer side of each ribbed cuff, the slit divides only top 4cm of cuff and ends in solid sock fabric below. (7) Taupe open-foot KNIT LEG WARMERS from just below knee to just above ankle, a row of real small SIDE BUTTONS fastening two overlapping edges down the outer calf; bare feet visible below, no footed sock. (8) Cream open-foot LEG WARMERS from below knee to ankle with TWO SIDE DRAWSTRING CHANNELS creating adjustable lengthwise RUCHED folds and little tied cord ends at outer bottom; bare feet. Match yarn textures and show both whole cuffs and complete feet.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "SO121",
+          "label": "SO121",
+          "name": "珍珠针圆粒中筒袜"
+        },
+        {
+          "entry_id": "SO122",
+          "label": "SO122",
+          "name": "华夫格针织短袜"
+        },
+        {
+          "entry_id": "SO123",
+          "label": "SO123",
+          "name": "镂空叶脉长袜"
+        },
+        {
+          "entry_id": "SO124",
+          "label": "SO124",
+          "name": "蜂巢格针织中筒袜"
+        },
+        {
+          "entry_id": "SO125",
+          "label": "SO125",
+          "name": "双层卷边短袜"
+        },
+        {
+          "entry_id": "SO126",
+          "label": "SO126",
+          "name": "袜口开衩针织长袜"
+        },
+        {
+          "entry_id": "SO127",
+          "label": "SO127",
+          "name": "侧排扣针织袜套"
+        },
+        {
+          "entry_id": "SO128",
+          "label": "SO128",
+          "name": "抽绳褶筒袜套"
+        }
+      ]
+    },
+    {
+      "id": "hosiery-v78-patterns",
+      "category": "hosiery",
+      "title": "图案、刺绣与拼色袜",
+      "image": "images/sheet-so129-so136.png",
+      "width": 1672,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        418,
+        836,
+        1254,
+        1672
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创袜类穿着示意",
+      "prompt": "Use case: stylized-concept. Create an original anime fashion hosiery reference atlas, landscape approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent rectangular cells with straight thin pale-grey dividers at 25%,50%,75% width and 50% height. Each cell shows ONE matching pair of socks being WORN on the TWO natural legs of ONE ADULT WOMAN. Refined crisp anime line art, soft cel shading, readable yarn, seams and fabric, plain warm ivory backdrop and floor, gentle studio daylight. Frame only the relevant part of the woman's legs, a neutral standing pose, feet slightly apart and one turned outward for construction visibility, not crossed. Keep BOTH sock toes, heels and outer soles completely inside each tile with generous bottom and side margins. Show all sock cuffs completely and leave a small strip of bare leg above them. NO shoes, full-body people, faces, text, captions, numbers, logos, watermarks, insets or decorative borders. Each cell must be a distinct construction; both legs wear the SAME design. Feet rest on the ground naturally, plausible toes concealed by ordinary footed socks unless specified as leg warmers. Read all eight designs in strict first-row left-to-right, then second-row left-to-right order. Eight patterned socks. Frame from just ABOVE KNEES to the floor with complete cuffs. Row one: (1) Black-and-ivory KNEE SOCKS with crisp traditional small broken HOUNDSTOOTH checks across shafts and feet, black cuff. (2) Navy knee socks with widely spaced fine pale-blue WINDOWPANE CHECK LINES forming large square frames, solid cuff. (3) Burgundy crew socks with a clearly repeated cream PAISLEY TEARDROP print, patterned shaft and plain toe and heel. (4) Midnight-blue knee socks with clearly visible repeated pale gold CRESCENT MOONS and fine looping ORBITAL ARCS, restrained plain toe and heel. Row two: (5) Muted plum opaque knee socks with narrow APPLIED EMBROIDERED GREEN VINES climbing the OUTER SIDE of each calf, small individually stitched leaves, solid rest of sock. (6) Cream knee socks with a distinct APPLIED FLORAL LACE PATCH at the OUTER ANKLE on each sock, patch shaped as a tapering vertical spray of three blue embroidered flowers, rest plain knitted fabric. (7) Color-block CREW SOCKS with distinct rust, cream and teal FABRIC PANELS joined by highly visible contrasting white OVERLOCK SEAMS that run at an angle across calf and instep. (8) Opaque pale lavender knee socks with bold smooth continuous NAVY WAVY VERTICAL STRIPES from cuff down foot, two main wavy lines per visible side, plain purple cuff. No text or tiny symbols that resemble lettering; make each motif readable.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "SO129",
+          "label": "SO129",
+          "name": "千鸟格长袜"
+        },
+        {
+          "entry_id": "SO130",
+          "label": "SO130",
+          "name": "窗格细线长袜"
+        },
+        {
+          "entry_id": "SO131",
+          "label": "SO131",
+          "name": "佩斯利印花中筒袜"
+        },
+        {
+          "entry_id": "SO132",
+          "label": "SO132",
+          "name": "新月星轨长袜"
+        },
+        {
+          "entry_id": "SO133",
+          "label": "SO133",
+          "name": "藤蔓刺绣长袜"
+        },
+        {
+          "entry_id": "SO134",
+          "label": "SO134",
+          "name": "踝侧花饰拼片长袜"
+        },
+        {
+          "entry_id": "SO135",
+          "label": "SO135",
+          "name": "拼缝撞色中筒袜"
+        },
+        {
+          "entry_id": "SO136",
+          "label": "SO136",
+          "name": "波浪纵纹长袜"
+        }
+      ]
+    },
+    {
+      "id": "hosiery-v78-cuffs",
+      "category": "hosiery",
+      "title": "装饰袜口与局部开窗",
+      "image": "images/sheet-so137-so144-v5.png",
+      "width": 1672,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        418,
+        836,
+        1254,
+        1672
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创袜类穿着示意",
+      "prompt": "Use case: stylized-concept. Create an original anime fashion hosiery reference atlas, landscape approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent rectangular cells with straight thin pale-grey dividers at 25%,50%,75% width and 50% height. Each cell shows ONE matching pair of socks being WORN on the TWO natural legs of ONE ADULT WOMAN. Refined crisp anime line art, soft cel shading, readable yarn, seams and fabric, plain warm ivory backdrop and floor, gentle studio daylight. Frame only the relevant part of the woman's legs, a neutral standing pose, feet slightly apart and one turned outward for construction visibility, not crossed. Keep BOTH sock toes, heels and outer soles completely inside each tile with generous bottom and side margins. Show all sock cuffs completely and leave a small strip of bare leg above them. NO shoes, full-body people, faces, text, captions, numbers, logos, watermarks, insets or decorative borders. Each cell must be a distinct construction; both legs wear the SAME design. Feet rest on the ground naturally, plausible toes concealed by ordinary footed socks unless specified as leg warmers. Read all eight designs in strict first-row left-to-right, then second-row left-to-right order. Eight socks with distinct applied trims and opening structures, all opaque footed base fabric. Frame from just ABOVE KNEES to floor, complete cuffs and toes. Row one: (1) White ankle socks with TWO SHALLOW LAYERS OF SHEER ORGANZA rising from their cuffs, floating translucent fabric ruffles are added only above the solid ribbed cuff. (2) Ivory ankle socks with TWO SCALLOPED LACE LAYERS FOLDED DOWN over each cuff, clearly visible double scallop edges, otherwise plain knitted feet. (3) Black ankle socks with a single small PEARL CHAIN attached in a neat loop to the cuff edge, sewn onto actual fabric, pearls stay at cuff, otherwise plain opaque knit. (4) Dusty-blue ankle socks with a small OUTER CUFF NOTCH closed by a THIN CORD through eyelets tied in a small side bow, closed feet. Row two: (5) Soft pink crew socks with ONE clearly HEART-SHAPED CUTOUT on the OUTER CALF of each sock, bare skin shows only through this single cutout, solid fabric all around. (6) Cream knee socks with one long narrow FABRIC RUFFLE sewn down the OUTER SIDE SEAM of each calf, from cuff to just above ankle, closed plain toe. (7) Dark wine KNEE SOCKS, one large matching satin BOW attached at BACK CENTER OF EACH CUFF, two short tails; show this ONE TILE in a rear three-quarter view so both back bows and enclosed heels and toes are visible. (8) Sage ankle socks with a short front cuff OPENING BRIDGED by one broad fabric BUTTON TAB and a single small button on its other side; the tab really closes the opening. Small trims on fabric, no loose jewelry around naked skin.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "SO137",
+          "label": "SO137",
+          "name": "透纱叠口短袜"
+        },
+        {
+          "entry_id": "SO138",
+          "label": "SO138",
+          "name": "双层蕾丝翻口短袜"
+        },
+        {
+          "entry_id": "SO139",
+          "label": "SO139",
+          "name": "珍珠链袜口短袜"
+        },
+        {
+          "entry_id": "SO140",
+          "label": "SO140",
+          "name": "侧系细绳短袜"
+        },
+        {
+          "entry_id": "SO141",
+          "label": "SO141",
+          "name": "心形开窗中筒袜"
+        },
+        {
+          "entry_id": "SO142",
+          "label": "SO142",
+          "name": "荷叶侧缝长袜"
+        },
+        {
+          "entry_id": "SO143",
+          "label": "SO143",
+          "name": "前饰大蝴蝶结长袜"
+        },
+        {
+          "entry_id": "SO144",
+          "label": "SO144",
+          "name": "纽襻搭桥袜口短袜"
+        }
+      ],
+      "reference_image": "images/sheet-so137-so144-v4.png",
+      "edit_prompt": "Use case: precise-object-edit. Edit the supplied eight-cell anime sock reference sheet. Change ONLY the TWO BURGUNDY SATIN BOWS in column 3 of the bottom row. Their current flat identical camera-facing directions are unnatural. Make each a believable SOFT THREE-DIMENSIONAL SEWN FABRIC BOW ATTACHED TO ITS OWN SOCK'S FRONT CENTER, following THAT LEG'S ORIENTATION and the ROUNDNESS OF THE CALF. The viewer-left lower leg is almost frontal: its bow may face nearly forward with subtle asymmetry, small rounded center knot, softly folded unequal satin loops, short tails falling down by gravity over the sock. The viewer-right leg and foot turn outward toward IMAGE RIGHT: the RIGHT BOW MUST ROTATE WITH THE ANTERIOR SHIN TOWARD IMAGE RIGHT, at roughly 35 to 45 degrees of yaw. Its attachment knot sits on the front surface of that turned shin, a little toward the visible right side of the calf; the far wing is visibly foreshortened, the nearer wing is fuller, the loops and knot have natural 3D volume, the short tails drape down and follow the calf surface. Show the bow attachment touching the sock and a subtle contact shadow. Both bows remain on the FRONT of the cuff, not the backs or outer side seams. They do not look like identical flat graphic stickers or rigid horizontal plates. Keep bow material, burgundy color, overall restrained size, two loops and two short tails. CRITICAL preserve the standing POSE AND FOOT DIRECTIONS of all eight panels exactly as reference, in particular the near-forward foot and other foot pointing to IMAGE RIGHT in every panel. Preserve all seven other sock designs, all cuffs and all feet. Preserve exact four equal columns and two equal rows, straight thin dividing lines at25/50/75 percent width and50 percent height, landscape proportions, plain ivory studio ground, refined anime line drawing and soft shading. No new text, insets, logo or watermark.",
+      "edit_history": [
+        {
+          "date": "2026-11-18",
+          "image": "images/sheet-so137-so144-v2.png",
+          "reference_image": "images/sheet-so137-so144.png",
+          "prompt": "Use case: precise-object-edit. Edit the supplied original eight-cell anime hosiery atlas. CRITICAL edit target is ONLY the THIRD CELL IN THE BOTTOM ROW (column 3 of 4, row 2 of 2), the dark burgundy knee socks with large bows. Correct the anatomical view of this one pair of lower legs to an UNAMBIGUOUS STRAIGHT REAR VIEW, standing naturally with parallel feet pointing FORWARD AWAY FROM THE CAMERA. We see the backs of both knees at the cell top, both calf backs, two narrow Achilles tendon shapes at rear ankles, and the rounded BACKS OF THE HEELS nearest camera at the floor. Toes extend away from the viewer and are mostly hidden behind the heels and the feet, never protruding laterally to the right or left. Each opaque burgundy sock has its satin bow SEWN TO THE CENTER BACK of its cuff, directly above the Achilles/heel on that same leg. The two bows face directly toward camera because camera is behind the woman. Both feet point in the same away-from-camera direction and both knee hollows are oriented to match, no twisted ankle, reversed foot, rotated shins or visible kneecaps. Show two complete heels and sufficient floor beneath, and whole knees-to-feet inside this cell. Preserve matching burgundy color, two bow loops and two short tails on each bow, plain soft knit sock shafts, adult anatomical proportions. Preserve ALL OTHER SEVEN CELLS, their socks, ornaments, shapes, viewpoint, colors and details. Preserve the overall exact FOUR COLUMNS by TWO ROWS layout, straight dividers at 25%,50%,75% width and 50% height, original ivory background and anime line-art/cel-shading style. Do not add text, logos, watermarks, extra inset, numbers or border. Full landscape sheet at original proportions."
+        },
+        {
+          "date": "2026-11-18",
+          "image": "images/sheet-so137-so144-v3.png",
+          "reference_image": "images/sheet-so137-so144-v2.png",
+          "prompt": "Use case: precise-object-edit. Edit the supplied eight-cell anime hosiery atlas. Change ONLY the burgundy BOW SOCKS in the THIRD COLUMN OF THE BOTTOM ROW. This pair must now be shown from the FRONT with the satin BOWS ATTACHED TO THE CENTER FRONT OF EACH SOCK CUFF. Turn BOTH LEGS and BOTH FEET to a matching natural frontal stance: visible kneecaps/fronts of knees, shins, ankles, INSTEPS and two rounded CLOSED SOCK TOE BOXES pointing directly TOWARD THE CAMERA in the foreground. The toes are nearest the viewer and the heels are behind them, hidden toward the back. Both complete foot silhouettes extend forward toward the camera naturally, no heel-facing view, no visible Achilles tendons, no rear knee hollows, no twisted ankles or backwards feet. The two burgundy satin bows are clearly visible on the FRONT of the cuffs above the SHINS, with two loops, center knot and two short tails per bow. Keep both full cuffs and both whole feet completely within this one cell. Keep opaque burgundy knee socks and natural adult proportions. This change matches the front-facing sock display used in the other atlas cells. Preserve ALL OTHER SEVEN CELLS with their exact subject designs and viewpoints, their color, trims, shapes and arrangement. Preserve the original ivory studio background, gentle shadows, refined anime line art and soft shading. Preserve landscape aspect ratio, exact FOUR EQUAL COLUMNS and TWO EQUAL ROWS, straight thin dividers at x25/50/75 percent and y50 percent. Do not add text, labels, watermark, logo or insets."
+        },
+        {
+          "date": "2026-11-18",
+          "image": "images/sheet-so137-so144-v4.png",
+          "reference_image": "images/sheet-so137-so144-v3.png",
+          "prompt": "Use case: precise-object-edit. Edit the provided original eight-cell sock atlas. The entire TOP ROW of four panels is the exact pose reference and must remain as it is. Adjust ONLY THE FOUR BOTTOM PANELS so their lower legs and sock-covered feet use THE SAME POSE AND FOOT ORIENTATIONS AS THE TOP ROW, panel by panel. In EACH bottom panel, copy the stance silhouette of the panel directly above: the viewer-left foot is closer to camera, slightly forward and roughly facing camera, with a visible broad instep; the viewer-right foot is set slightly farther back and rotated naturally outward so its LONG FOOT AND TOES POINT TO THE RIGHT EDGE OF THE IMAGE at about 45 degrees, revealing the outer side and heel profile. BOTH soles remain planted, the ankle, shin and knee orientation must turn coherently. The two feet should form the same comfortable asymmetrical three-quarter stance that already appears throughout the TOP ROW. Keep exact same leg spacing and shoe-free adult proportions as the pose examples above. Do not show both toes squarely parallel facing camera in bottom panels. All feet entirely visible with bottom/right margins. Preserve the lower sock designs: bottom-left pink opaque long socks with heart cutouts; next ivory socks with outer-side ruffles; third burgundy knee socks with large matching satin BOWS still sewn at FRONT CENTERS OF THE CUFFS, bows track their frontal shin surface and stay clearly visible in the three-quarter pose; bottom-right green ankle socks with small front button tabs. Keep all cuff heights, colors, fabric textures, hearts, bows, ruffles and buttons. Preserve the top four designs, the ivory backdrop, clean anime linework and soft shading. Canvas is the same landscape aspect and EXACT FOUR COLUMNS by TWO ROWS with straight thin dividers at x25/50/75 percent and y50 percent. No added text, numbers, logos, inset or watermark."
+        },
+        {
+          "date": "2026-11-18",
+          "image": "images/sheet-so137-so144-v5.png",
+          "reference_image": "images/sheet-so137-so144-v4.png",
+          "prompt": "Use case: precise-object-edit. Edit the supplied eight-cell anime sock reference sheet. Change ONLY the TWO BURGUNDY SATIN BOWS in column 3 of the bottom row. Their current flat identical camera-facing directions are unnatural. Make each a believable SOFT THREE-DIMENSIONAL SEWN FABRIC BOW ATTACHED TO ITS OWN SOCK'S FRONT CENTER, following THAT LEG'S ORIENTATION and the ROUNDNESS OF THE CALF. The viewer-left lower leg is almost frontal: its bow may face nearly forward with subtle asymmetry, small rounded center knot, softly folded unequal satin loops, short tails falling down by gravity over the sock. The viewer-right leg and foot turn outward toward IMAGE RIGHT: the RIGHT BOW MUST ROTATE WITH THE ANTERIOR SHIN TOWARD IMAGE RIGHT, at roughly 35 to 45 degrees of yaw. Its attachment knot sits on the front surface of that turned shin, a little toward the visible right side of the calf; the far wing is visibly foreshortened, the nearer wing is fuller, the loops and knot have natural 3D volume, the short tails drape down and follow the calf surface. Show the bow attachment touching the sock and a subtle contact shadow. Both bows remain on the FRONT of the cuff, not the backs or outer side seams. They do not look like identical flat graphic stickers or rigid horizontal plates. Keep bow material, burgundy color, overall restrained size, two loops and two short tails. CRITICAL preserve the standing POSE AND FOOT DIRECTIONS of all eight panels exactly as reference, in particular the near-forward foot and other foot pointing to IMAGE RIGHT in every panel. Preserve all seven other sock designs, all cuffs and all feet. Preserve exact four equal columns and two equal rows, straight thin dividing lines at25/50/75 percent width and50 percent height, landscape proportions, plain ivory studio ground, refined anime line drawing and soft shading. No new text, insets, logo or watermark."
+        }
+      ]
+    },
+    {
+      "id": "hosiery-v78-tights",
+      "category": "hosiery",
+      "title": "织纹、印花与拼接袜裤",
+      "image": "images/sheet-so145-so152.png",
+      "width": 1672,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        418,
+        836,
+        1254,
+        1672
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创袜类穿着示意",
+      "prompt": "Use case: stylized-concept. Original professional anime fashion TIGHTS reference atlas. Landscape 16:9, EXACT FOUR EQUAL COLUMNS by TWO EQUAL ROWS, thin straight grey panel lines at 25%,50%,75% width and50%height. Each cell shows one FULLY CLOTHED ADULT WOMAN, cropped from her natural waist to the floor, in entirely OPAQUE FOOTED TIGHTS. A plain long-sleeve sweater only enters top edge and ends at waistband, hips and whole legs remain completely covered by the opaque tights, simple neutral stance and natural proportions. Show the whole waistband, both full legs, both closed socked feet and soles entirely in the same cell with comfortable margins, no shoes, no faces. Refined anime line art, soft cel shading, neutral bright ivory studio floor and backdrop, fabric pattern sharply readable. Both legs in each cell wear a single coherent pair of tights. NO underwear outlines, translucent garment, suggestive pose, text, brand, watermark or inset. Row one left-to-right: (1) Dark charcoal tights with a dense fine visible HERRINGBONE zigzag woven pattern over both legs. (2) Cream cable-knit tights with large raised VERTICAL CABLE BRAIDS from waist over both knees to feet, ordinary ribbed waistband and solid closed toes. (3) Blue-and-grey opaque tights printed with a broad flowing MARBLED INK pattern, irregular branching veins, no uniform stripes. (4) Opaque burgundy-and-ivory ASYMMETRICAL DIAGONAL COLOR-BLOCK TIGHTS, a high diagonal two-color seam across the RIGHT thigh and a low diagonal color seam across LEFT shin, clearly unequal height but a single continuous garment. Row two left-to-right: (5) Muted mauve tights with many evenly spaced TINY CLUSTERS OF FIVE CREAM DOTS forming little flower motifs, each motif separated by clear empty fabric. (6) Forest-green tights with a GOLDEN OCHRE CHAIN OF INTERLOCKING DIAMOND LOOPS repeated as vertical jacquard columns down each leg, no small lettering. (7) Opaque black tights, each ANKLE has a wide contrasting attached IVORY FLORAL-LACE PANEL that encircles ankle above a solid black foot, lace neatly joined into opaque garment. (8) Slate-and-dusty-blue opaque tights with two wide SCALLOPED STEP-SHAPED COLOR-BLOCK SEAMS, one above knee and one below knee, broad visible rounded scallops, continuous covered legs and feet. Clearly distinguish all eight patterns, keep complete foot silhouettes.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "SO145",
+          "label": "SO145",
+          "name": "细人字纹连裤袜"
+        },
+        {
+          "entry_id": "SO146",
+          "label": "SO146",
+          "name": "竖向麻花针织袜裤"
+        },
+        {
+          "entry_id": "SO147",
+          "label": "SO147",
+          "name": "大理石晕纹袜裤"
+        },
+        {
+          "entry_id": "SO148",
+          "label": "SO148",
+          "name": "非对称斜切拼色袜裤"
+        },
+        {
+          "entry_id": "SO149",
+          "label": "SO149",
+          "name": "簇点小花袜裤"
+        },
+        {
+          "entry_id": "SO150",
+          "label": "SO150",
+          "name": "链式菱格提花袜裤"
+        },
+        {
+          "entry_id": "SO151",
+          "label": "SO151",
+          "name": "踝部拼蕾丝连裤袜"
+        },
+        {
+          "entry_id": "SO152",
+          "label": "SO152",
+          "name": "波齿阶梯拼接袜裤"
+        }
+      ]
+    },
+    {
+      "id": "hosiery-v78-fantasy",
+      "category": "hosiery",
+      "title": "主题装饰与幻想袜型",
+      "image": "images/sheet-so153-so160.png",
+      "width": 1672,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        418,
+        836,
+        1254,
+        1672
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创袜类穿着示意",
+      "prompt": "Use case: stylized-concept. Create an original anime fashion hosiery reference atlas, landscape approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent rectangular cells with straight thin pale-grey dividers at 25%,50%,75% width and 50% height. Each cell shows ONE matching pair of socks being WORN on the TWO natural legs of ONE ADULT WOMAN. Refined crisp anime line art, soft cel shading, readable yarn, seams and fabric, plain warm ivory backdrop and floor, gentle studio daylight. Frame only the relevant part of the woman's legs, a neutral standing pose, feet slightly apart and one turned outward for construction visibility, not crossed. Keep BOTH sock toes, heels and outer soles completely inside each tile with generous bottom and side margins. Show all sock cuffs completely and leave a small strip of bare leg above them. NO shoes, full-body people, faces, text, captions, numbers, logos, watermarks, insets or decorative borders. Each cell must be a distinct construction; both legs wear the SAME design. Feet rest on the ground naturally, plausible toes concealed by ordinary footed socks unless specified as leg warmers. Read all eight designs in strict first-row left-to-right, then second-row left-to-right order. Eight original themed KNEE SOCKS, frame from just above knees to floor. No borrowed character designs or emblems. All are fabric socks actually worn, opaque base fabric with fully closed feet, all cuffs visible below knees. Row one: (1) Burgundy knee socks with a row of THREE DIAMOND CUTOUTS down the FRONT of each shaft, each small opening BRIDGED by narrow black CORD LACING through its edges, continuous fabric around holes. (2) Cream knee socks with contrasting navy satin RIBBONS winding in a large CROSSCROSS PATH from ankle UP TO CUFF, ribbons attach near ankle and tie into small cuff bows, continuous solid base sock remains visible underneath. (3) Lavender knee socks with soft BUTTERFLY-WING-SHAPED FABRIC CUFF PANELS fanning slightly from outer upper calf, clear stitched wing veins, no physical animal attached, complete cuff follows leg. (4) Midnight-blue knee socks with FOLDED-DOWN CUFFS secured on outer side by a small GOLD STAR-SHAPED CLASP with actual attachment to fabric, ordinary plain foot. Row two: (5) Graphite and teal OPEN-FOOT technical-knit LEG SLEEVES from below knee to above ankle, soft distinct HORIZONTAL STRETCH FABRIC PANELS with articulated-looking seams around calf, no hard metal, no boot; bare feet. (6) White knee socks with a delicate ring of SHORT SOFT FAUX FEATHERS sewn along cuff and one small pale-pink outer side bow with short tails, sock stays soft cloth and opaque. (7) Pale-green ELF-THEMED knee socks with an embroidered golden LEAF-VEIN PATTERN and a CUFF EDGED WITH SOFT OVERLAPPING LEAF SHAPES, tiny fabric vine trim winds once round upper calf; ordinary rounded closed toe, no shoe sole. (8) Pale ice-blue knee socks with five small FACETED CRYSTAL-SHAPED BLUE BEADS hanging on short THREAD TASSELS from each cuff, firmly sewn onto cloth cuff, tiny silver pattern on shaft, plain closed toe. Trims attached to actual knitted fabric, no floating ornaments, every shoe-free foot complete.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "SO153",
+          "label": "SO153",
+          "name": "菱形开窗绑带长袜"
+        },
+        {
+          "entry_id": "SO154",
+          "label": "SO154",
+          "name": "交叉缎带缠绕长袜"
+        },
+        {
+          "entry_id": "SO155",
+          "label": "SO155",
+          "name": "蝶翼袜口长袜"
+        },
+        {
+          "entry_id": "SO156",
+          "label": "SO156",
+          "name": "星扣翻口长袜"
+        },
+        {
+          "entry_id": "SO157",
+          "label": "SO157",
+          "name": "机能分段弹力袜套"
+        },
+        {
+          "entry_id": "SO158",
+          "label": "SO158",
+          "name": "羽缘飘带长袜"
+        },
+        {
+          "entry_id": "SO159",
+          "label": "SO159",
+          "name": "蔓叶缠边精灵长袜"
+        },
+        {
+          "entry_id": "SO160",
+          "label": "SO160",
+          "name": "冰晶流苏袜口长袜"
+        }
+      ]
+    }
+  ],
+  "references": []
+}

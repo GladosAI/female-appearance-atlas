@@ -1,0 +1,240 @@
+{
+  "schema": "female-appearance-quality-review/v1",
+  "batch": "2026-11-18-so143-front-bow",
+  "catalog_version": "78.1",
+  "date": "2026-11-18",
+  "reviewer": "Codex AI-assisted visual review",
+  "scope": {
+    "entries": 8,
+    "visuals": 8,
+    "categories": [
+      "hosiery"
+    ],
+    "category_counts": {
+      "hosiery": 8
+    }
+  },
+  "method": "Reviewed the edited eight-cell sheet. SO143 now has matching frontal kneecaps, shins, insteps, closed toe boxes and front-centered cuff bows. Reviewed all other sock designs and full panel boundaries after the sheet edit.",
+  "issues": [
+    {
+      "entry_id": "SO143",
+      "problem": "Previous back-bow wording and mixed front/rear anatomical cues were ambiguous.",
+      "fix": "Owner selected a front-facing stance with bows at front cuff centers; image, name and descriptions updated together."
+    }
+  ],
+  "changed_entries": [
+    "SO143"
+  ],
+  "export_representatives": [],
+  "resource_release": "v78.1",
+  "records": [
+    {
+      "entry_id": "SO137",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "updated-image-reviewed",
+      "image": "images/sheet-so137-so144-v3.png",
+      "image_sha256": "2f665a2a14f8a3799df5f2225e43cf83c20de2ef3da49ab2b8f53bf9f9047a52",
+      "visual_at_review": {
+        "board": "hosiery-v78-cuffs",
+        "image": "images/sheet-so137-so144-v3.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO137",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO138",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "updated-image-reviewed",
+      "image": "images/sheet-so137-so144-v3.png",
+      "image_sha256": "2f665a2a14f8a3799df5f2225e43cf83c20de2ef3da49ab2b8f53bf9f9047a52",
+      "visual_at_review": {
+        "board": "hosiery-v78-cuffs",
+        "image": "images/sheet-so137-so144-v3.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO138",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 418,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO139",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "updated-image-reviewed",
+      "image": "images/sheet-so137-so144-v3.png",
+      "image_sha256": "2f665a2a14f8a3799df5f2225e43cf83c20de2ef3da49ab2b8f53bf9f9047a52",
+      "visual_at_review": {
+        "board": "hosiery-v78-cuffs",
+        "image": "images/sheet-so137-so144-v3.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO139",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 836,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO140",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "updated-image-reviewed",
+      "image": "images/sheet-so137-so144-v3.png",
+      "image_sha256": "2f665a2a14f8a3799df5f2225e43cf83c20de2ef3da49ab2b8f53bf9f9047a52",
+      "visual_at_review": {
+        "board": "hosiery-v78-cuffs",
+        "image": "images/sheet-so137-so144-v3.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO140",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 1254,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO141",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "updated-image-reviewed",
+      "image": "images/sheet-so137-so144-v3.png",
+      "image_sha256": "2f665a2a14f8a3799df5f2225e43cf83c20de2ef3da49ab2b8f53bf9f9047a52",
+      "visual_at_review": {
+        "board": "hosiery-v78-cuffs",
+        "image": "images/sheet-so137-so144-v3.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO141",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO142",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "updated-image-reviewed",
+      "image": "images/sheet-so137-so144-v3.png",
+      "image_sha256": "2f665a2a14f8a3799df5f2225e43cf83c20de2ef3da49ab2b8f53bf9f9047a52",
+      "visual_at_review": {
+        "board": "hosiery-v78-cuffs",
+        "image": "images/sheet-so137-so144-v3.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO142",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 418,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO143",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "updated-image-reviewed",
+      "image": "images/sheet-so137-so144-v3.png",
+      "image_sha256": "2f665a2a14f8a3799df5f2225e43cf83c20de2ef3da49ab2b8f53bf9f9047a52",
+      "visual_at_review": {
+        "board": "hosiery-v78-cuffs",
+        "image": "images/sheet-so137-so144-v3.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO143",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 836,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO144",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "updated-image-reviewed",
+      "image": "images/sheet-so137-so144-v3.png",
+      "image_sha256": "2f665a2a14f8a3799df5f2225e43cf83c20de2ef3da49ab2b8f53bf9f9047a52",
+      "visual_at_review": {
+        "board": "hosiery-v78-cuffs",
+        "image": "images/sheet-so137-so144-v3.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO144",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 1254,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "unique_entries": 332,
   "min_entries": 5,
   "max_entries": 8,
-  "category_count": 211,
+  "category_count": 212,
   "covered_categories": 125,
   "section_count": 56,
   "covered_sections": 47,
@@ -37,7 +37,7 @@
     {
       "id": "face_design",
       "name": "脸部与表情",
-      "category_count": 19,
+      "category_count": 20,
       "covered_categories": 12,
       "sections": [
         {
@@ -1147,7 +1147,8 @@
     "scene_scifi_survival": [],
     "scene_campus": [],
     "scene_community": [],
-    "scene_culture_visit": []
+    "scene_culture_visit": [],
+    "anime_face_types": []
   },
   "uncovered_categories": [
     "hair_cut",
@@ -1235,6 +1236,7 @@
     "scene_scifi_survival",
     "scene_campus",
     "scene_community",
-    "scene_culture_visit"
+    "scene_culture_visit",
+    "anime_face_types"
   ]
 }

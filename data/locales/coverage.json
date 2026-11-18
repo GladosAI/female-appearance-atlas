@@ -3,80 +3,80 @@
   "locales": {
     "en": {
       "locale": "en",
-      "entries": 7241,
+      "entries": 7365,
       "fields": {
         "name": {
-          "translated": 7241,
+          "translated": 7365,
           "missing": 0,
           "stale": 0,
           "untracked": 0,
-          "draft": 7241,
+          "draft": 7365,
           "reviewed": 0
         },
         "description": {
-          "translated": 7241,
+          "translated": 7365,
           "missing": 0,
           "stale": 0,
           "untracked": 0,
-          "draft": 7241,
+          "draft": 7365,
           "reviewed": 0
         },
         "design_tip": {
-          "translated": 7241,
+          "translated": 7365,
           "missing": 0,
           "stale": 0,
           "untracked": 0,
-          "draft": 7241,
+          "draft": 7365,
           "reviewed": 0
         }
       },
       "messages": {
-        "total": 9614,
-        "translated": 9614,
+        "total": 9669,
+        "translated": 9669,
         "missing": 0
       },
       "message_review": {
         "reviewed": 676,
-        "draft": 8938
+        "draft": 8993
       }
     },
     "ja": {
       "locale": "ja",
-      "entries": 7241,
+      "entries": 7365,
       "fields": {
         "name": {
-          "translated": 7241,
+          "translated": 7365,
           "missing": 0,
           "stale": 0,
           "untracked": 0,
-          "draft": 0,
+          "draft": 124,
           "reviewed": 7241
         },
         "description": {
-          "translated": 7241,
+          "translated": 7365,
           "missing": 0,
           "stale": 0,
           "untracked": 0,
-          "draft": 7236,
+          "draft": 7360,
           "reviewed": 5
         },
         "design_tip": {
-          "translated": 7241,
+          "translated": 7365,
           "missing": 0,
           "stale": 0,
           "untracked": 0,
-          "draft": 7236,
+          "draft": 7360,
           "reviewed": 5
         }
       },
       "messages": {
-        "total": 9614,
-        "translated": 9614,
+        "total": 9669,
+        "translated": 9669,
         "missing": 0
       },
       "message_review": {
         "reviewed": 676,
-        "draft": 8938
+        "draft": 8993
       }
     }
   }

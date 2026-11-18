@@ -9615,7 +9615,62 @@
     "放大{name}": "Enlarge {name}",
     "下载完整离线资源包与原图": "Download the complete offline edition and original images",
     "在线预览使用有损 WebP 压缩图片，原图可通过下方入口下载。": "The online preview uses lossy WebP images. Download the originals using the link below.",
-    "GitHub 开源项目": "GitHub repository"
+    "GitHub 开源项目": "GitHub repository",
+    "常见动漫脸型": "Common anime face shapes",
+    "用同尺度的正面头像比较额头、脸颊、下巴和眼鼻口比例。作品与画师名称是检索参考，配图为原创设计示意。": "Compare foreheads, cheeks, chins, and the proportions of the eyes, nose, and mouth in front-view portraits at the same scale. Work and artist names serve as search references. The illustrations show original designs.",
+    "角色设计参考": "Character design references",
+    "眼部与简化程度": "Eyes and level of simplification",
+    "轮廓与五官比例": "Contours and feature proportions",
+    "常见动漫脸型 · 正面对照": "Common anime face shapes · Front-view comparison",
+    "AI 生成的原创动漫脸型示意": "AI-generated illustrations of original anime face shapes",
+    "《轻音少女！》作品与人物设计资料": "K-On! · Series and character design information",
+    "京都动画": "Kyoto Animation",
+    "制作方作品资料": "Production studio series information",
+    "动画角色设计、日常动画、京阿尼脸": "Anime character design, everyday-life anime, KyoAni faces",
+    "京都动画的《轻音少女！》作品页，列有角色设计与总作画监督堀口悠纪子。用于了解条目的日常动画参考语境。": "Kyoto Animation’s K-On! series page credits Yukiko Horiguchi as character designer and chief animation director. It provides context for the entry’s everyday-life anime reference.",
+    "仅保存官方链接与独立说明，未使用原画或角色图": "Only the official link and independent commentary are included. No original artwork or character images were used.",
+    "《Shining Tears》角色设计 Tony 访谈": "Shining Tears · Interview with character designer Tony",
+    "发行方画师访谈": "Publisher interview with the illustrator",
+    "Tony、游戏原画、动漫脸型": "Tony, game character artwork, anime face shapes",
+    "世嘉对角色设计师 Tony 的访谈，介绍其参与《Shining Tears》角色设计的经过与构思。用于了解条目的游戏插画参考语境。": "SEGA interviews character designer Tony about how he joined Shining Tears and approached its character designs. It provides context for the entry’s game illustration reference.",
+    "洛丽塔半裙与叠摆": "Lolita skirts and layered hems",
+    "洛丽塔裙 · 半裙叠摆对照": "Lolita fashion · Layered skirts",
+    "洛丽塔连衣裙版型": "Lolita dress silhouettes",
+    "洛丽塔裙 · 连衣裙版型对照": "Lolita fashion · Dress silhouettes",
+    "洛丽塔领袖结构": "Lolita collar and sleeve construction",
+    "洛丽塔裙 · 领型与领边对照": "Lolita fashion · Collars and trims",
+    "洛丽塔裙 · 主题穿搭对照": "Lolita fashion · Themed coordinates",
+    "AI 生成的原创服装结构与搭配示意": "AI-generated original clothing construction and outfit illustrations",
+    "《洛丽塔裙》素材": "Lolita Skirt References",
+    "服装设计图集": "Fashion design reference gallery",
+    "洛丽塔裙摆、连衣裙版型、衬衫领型与主题搭配": "Lolita hems, dress silhouettes, blouse collars and themed outfits",
+    "该页集合多组裙装结构和主题搭配图例。新图鉴据此归纳叠摆、开片、领缘、材质及整套搭配的可见特征。": "The article collects skirt construction and themed outfit illustrations. This batch uses it to identify visible features of layered hems, openings, necklines, materials and outfit coordination.",
+    "保留文章链接作延伸阅读，项目配图以文字描述独立生成，未收录原页图片": "Article linked for further reading. Atlas images were generated independently from written design notes. No article images are included.",
+    "洛丽塔裙 · 半裙穿着对照": "Lolita fashion · Skirts on figures",
+    "洛丽塔裙 · 连衣裙穿着对照": "Lolita fashion · Dresses on figures",
+    "洛丽塔裙 · 领型上身近景": "Lolita fashion · Collar close-ups on figures",
+    "洛丽塔裙 · 主题穿搭上身对照": "Lolita fashion · Themed outfits on figures",
+    "AI 生成的原创角色穿着示意": "AI-generated original wearing illustrations",
+    "上身效果": "On-body view",
+    "服装结构": "Garment construction",
+    "上身效果＋服装结构": "On-body view + garment construction",
+    "查看上身总图": "View on-body sheet",
+    "查看结构总图": "View construction sheet",
+    "装饰平鞋与厚底扣带鞋": "Decorative flats and platform strap shoes",
+    "礼装鞋口、踝带与鞋跟": "Dress-shoe openings, ankle details and heels",
+    "凉鞋、洞洞鞋与居家软鞋": "Sandals, molded clogs and indoor shoes",
+    "新靴型与靴筒结构": "Additional boots and shaft constructions",
+    "专项运动与幻想鞋型": "Specialist sports and fantasy footwear",
+    "居家软鞋与拖鞋": "Indoor shoes and slippers",
+    "幻想与角色主题鞋": "Fantasy and character-themed footwear",
+    "AI 生成的原创人物鞋履穿着示意": "AI-generated original on-foot footwear illustrations",
+    "特色织纹与可调节袜筒": "Textured knits and adjustable sock shafts",
+    "图案、刺绣与拼色袜": "Patterns, embroidery and color-block socks",
+    "装饰袜口与局部开窗": "Decorative cuffs and cutouts",
+    "织纹、印花与拼接袜裤": "Textured, printed and paneled tights",
+    "主题装饰与幻想袜型": "Themed trims and fantasy hosiery",
+    "图案与拼接袜裤": "Patterned and paneled tights",
+    "AI 生成的原创袜类穿着示意": "AI-generated original worn hosiery illustrations"
   },
   "entries": {
     "HC001": {
@@ -45822,6 +45877,626 @@
       "name": "harbor-pier ferry-waiting scene",
       "description": "Ferry berths, bollards, luggage and a distant view of the harbor constitute the harbor pier, and female passengers check their tickets in the waiting area.",
       "design_tip": "The characters are standing in the waiting area on the landside, and the scale relationship between the port facilities and the ship is believable."
+    },
+    "AF001": {
+      "name": "soft round everyday anime face",
+      "description": "Rounded cheeks flow into a short, curved chin. The eyes are slightly oval and wider than they are tall, and the nose is drawn with minimal lines. Search “KyoAni face” to find this example.",
+      "design_tip": "Compare the continuous curve from the cheeks to the chin and how much of the face width the eyes occupy. The example isolates features from designs in everyday-life anime such as K-On! for comparison."
+    },
+    "AF002": {
+      "name": "slender almond-eye game illustration face",
+      "description": "The face is a tapered oval with elongated almond eyes, fine lash lines, and subtle shading along the nose bridge and lips. Search “Tony Taka face” to find this example.",
+      "design_tip": "Compare with the soft round everyday anime face. Look at each eye’s width and height, the outer corners, the space between the eyes and brows, and the fine line of the nose bridge. See the character design interview with illustrator Tony for further reading."
+    },
+    "AF003": {
+      "name": "retro tall sparkle-eye anime face",
+      "description": "Tall oval eyes with large highlights stand out. The nose and mouth are small, and a pointed chin is paired with crisp, hard-edged shadows.",
+      "design_tip": "Compare the height and width of the eye opening. Make the highlights large and clear while retaining the distinctions between the whites, irises, and eyelids."
+    },
+    "AF004": {
+      "name": "low-set round eyes and short lower face",
+      "description": "A tall forehead takes up a larger share of the face. The round eyes sit low, and the distance from below the eyes to the chin is short.",
+      "design_tip": "When lowering the eyes slightly, use a small, simplified nose and a short chin to keep the proportions balanced. Compare next to another broad face with narrower eyes."
+    },
+    "AF005": {
+      "name": "angular upturned-eye action-manga face",
+      "description": "The outer eye corners turn up and the brows slope inward. The outline from the sides of the cheeks to the chin has clear breaks and sharp angles.",
+      "design_tip": "Set the breaks on both sides of the jaw first, then adjust the angles of the brow tails and outer eye corners. Eye width can stay the same; direction creates the crisp impression."
+    },
+    "AF006": {
+      "name": "elongated face with level narrow eyes",
+      "description": "The midface is long and the eyes are narrow and level. The nose bridge is elongated, and the sides of the cheeks taper gently into a narrow chin.",
+      "design_tip": "Compare the distance from below the eyes to the base of the nose with the length of the chin. Level brows and a relatively fine upper lid line can lend a composed impression."
+    },
+    "AF007": {
+      "name": "broad cheeks with downturned eyes and short chin",
+      "description": "The cheeks extend outward and the outer eye corners dip slightly. There is little space between the mouth and chin, and the jaw rounds gently toward the midline.",
+      "design_tip": "Let the cheeks set the face width and leave room between the outer corners of the eyes and the outline. Preserve the contrast in proportions created by the short chin and narrow eyes."
+    },
+    "AF008": {
+      "name": "wide-eyed anime face with a narrow V jaw",
+      "description": "The face tapers sharply toward the center below the cheekbones, forming a small V-shaped chin. The eyes are fairly large, and the tip of the nose and the lips are simplified.",
+      "design_tip": "Keep the eyes at a fixed height and let the taper begin below the cheekbones. When comparing with the broad cheeks and short chin example, look first at how quickly the jaw narrows, then at eye size."
+    },
+    "AF009": {
+      "name": "high cheekbones and slim eyes anime face",
+      "description": "The outline changes direction slightly at the cheekbones. The eyes are narrow and elongated, the nose bridge and midface are long, and the lip line undulates gently.",
+      "design_tip": "Use restrained shadows below the cheekbones and a defined jaw angle to show the structure. Feature spacing and the placement of bony landmarks can create a mature impression."
+    },
+    "AF010": {
+      "name": "chibi face with oval dot eyes",
+      "description": "The head is nearly round, and the low-set eyes are simple vertical ovals. The nose and mouth are reduced to a few strokes.",
+      "design_tip": "Make head width, vertical eye placement, and chin height the main differences. At small sizes, a few clear outlines and blocks of color suffice."
+    },
+    "AF011": {
+      "name": "geometric square jaw and flat chin anime face",
+      "description": "The jaw is broad and square, with an almost straight chin edge. Thick brows and slightly rectangular eye openings emphasize the distinct turns in the outline.",
+      "design_tip": "Mark the jaw corners on both sides and the flat section between them. Use straight lid and brow lines to echo the shape of the lower face."
+    },
+    "AF012": {
+      "name": "semi-realistic anime face with modeled features",
+      "description": "The eyes are reduced to nearly natural proportions. Soft shading gives volume to the eye sockets, nostril wings, and Cupid’s bow.",
+      "design_tip": "Keep clear anime-style outlines and use subtle changes in the facial planes to convey volume. The eye area shows most clearly how the exaggeration has been reduced."
+    },
+    "BT091": {
+      "name": "curved-front overlay skirt",
+      "description": "A curved front overlay leaves a continuous band of the contrasting bell skirt visible.",
+      "design_tip": "Use one continuous curve to separate the overlay from the full hem underneath."
+    },
+    "BT092": {
+      "name": "two-petal split overskirt",
+      "description": "Two curved side panels open from the waist over a light gathered underskirt.",
+      "design_tip": "Show both petals curving away from their shared starting point."
+    },
+    "BT093": {
+      "name": "rectangular-front opening skirt",
+      "description": "A nearly rectangular opening shows the inner skirt's vertical gathers down to its hem.",
+      "design_tip": "A horizontal top edge and straight sides define the opening."
+    },
+    "BT094": {
+      "name": "side-notch layered skirt",
+      "description": "A single triangular side notch in the outer hem reveals a lilac underskirt.",
+      "design_tip": "Keep the notch local to the hem so most of the outer panel remains intact."
+    },
+    "BT095": {
+      "name": "diagonal wrap over tiered ruffles",
+      "description": "A diagonal wrap drops from one hip and exposes horizontal ruffle tiers on the other side.",
+      "design_tip": "Cross vertical gathers with the diagonal edge to show the layering order."
+    },
+    "BT096": {
+      "name": "side-pickup swag overskirt",
+      "description": "Side bows hold up two outer swags over a tiered inner skirt.",
+      "design_tip": "Let the folds hang in arcs from the points where they are held."
+    },
+    "BT097": {
+      "name": "lace-up high-waist split skirt",
+      "description": "A broad lace-up waistband sits above a dark split overlay and light ruffle tiers.",
+      "design_tip": "Show the firm waistband separately from the soft skirt fabrics."
+    },
+    "BT098": {
+      "name": "clasped double-swag skirt",
+      "description": "Clasps at the center and sides hold two swags over pink and cream tiers.",
+      "design_tip": "Place the three fastenings clearly so both swags read separately."
+    },
+    "OP129": {
+      "name": "square-neck bell-shaped Lolita JSK",
+      "description": "Wide straps frame a square neckline above a skirt that flares into a rounded hem.",
+      "design_tip": "Keep the decoration sparse so the flare is easy to compare."
+    },
+    "OP130": {
+      "name": "long draped A-line Lolita JSK",
+      "description": "A long square-neck jumper skirt has a quiet front and a gradual A-line flare.",
+      "design_tip": "Compare its narrow flare and long vertical folds with the bell silhouette."
+    },
+    "OP131": {
+      "name": "puff-sleeve dress with two bell layers",
+      "description": "Two complete bell layers sit below a square neck and puff sleeves, with twin trim lines on the upper hem.",
+      "design_tip": "Keep both outlines visible at different heights."
+    },
+    "OP132": {
+      "name": "off-center split color-block Lolita JSK",
+      "description": "Coral overlay panels split at one side of the waist, exposing a cream skirt to the hem.",
+      "design_tip": "Offset the starting point so the opening reads as asymmetric."
+    },
+    "OP133": {
+      "name": "scalloped high-low Lolita dress",
+      "description": "A raised navy front hem rolls into a long, darker scalloped back without losing its volume.",
+      "design_tip": "Contrast the two layers slightly to make the high-low cut easy to read."
+    },
+    "OP134": {
+      "name": "three-panel split-hem Lolita dress",
+      "description": "A gold center panel and two side panels separate to reveal a green inner skirt.",
+      "design_tip": "Keep the center panel long and show the underlayer through both side gaps."
+    },
+    "OP135": {
+      "name": "capelet and apron-panel Lolita dress",
+      "description": "A pink capelet tops the puff sleeves, while a white placket leads to paired apron panels.",
+      "design_tip": "Mark where the capelet, placket and apron panels each begin and end."
+    },
+    "OP136": {
+      "name": "double-arc swallowtail Lolita dress",
+      "description": "Two pink arcs cover the plum skirt, with paired rear tails visible below the hem.",
+      "design_tip": "Show the tails emerging behind the curved front overlay."
+    },
+    "CS061": {
+      "name": "round-lobed collar with a narrow frill",
+      "description": "A narrow gathered trim follows two broad round collar lobes.",
+      "design_tip": "Keep the collar leaves flat and give volume to the outer frill."
+    },
+    "CS062": {
+      "name": "wide pointed collar with an under-frill",
+      "description": "Two broad collar points extend over a wider gathered under-frill.",
+      "design_tip": "Define the straight points before drawing the flared layer beneath."
+    },
+    "CS063": {
+      "name": "flat scalloped petal collar",
+      "description": "Each flat collar leaf has rounded scallops finished with a neat stitched edge.",
+      "design_tip": "Keep the scallops crisp and the body of the collar smooth."
+    },
+    "CS064": {
+      "name": "square neck with folded shoulder tabs",
+      "description": "Two folded shoulder tabs border an open square neckline above short puff sleeves.",
+      "design_tip": "Separate the neckline's horizontal edge from the folds of the tabs."
+    },
+    "CS065": {
+      "name": "raised ruffle on a buttoned band collar",
+      "description": "A single button closes the dark band below a raised cream frill.",
+      "design_tip": "Let the frill rise while the dark band remains visible around the neck."
+    },
+    "CS066": {
+      "name": "stand collar with two ruffle rings",
+      "description": "Two ivory ruffle rings descend from a buttoned burgundy stand collar.",
+      "design_tip": "Stagger the two edges so each layer remains visible."
+    },
+    "CS067": {
+      "name": "pearl-edged pointed collar",
+      "description": "Small pale-purple beads trace two pointed collar leaves.",
+      "design_tip": "Space the beads evenly while keeping the points readable."
+    },
+    "CS068": {
+      "name": "buttoned yoke with curved ruffle edge",
+      "description": "A blue buttoned yoke runs from the neck to the shoulders and chest, with one curved ruffle around its lower edge.",
+      "design_tip": "Show the seam before drawing the continuous ruffle."
+    },
+    "FS279": {
+      "name": "celestial tulle-overlay Lolita ensemble",
+      "description": "Star charms and a headpiece echo the lavender tulle layers over an opaque skirt.",
+      "design_tip": "Distribute stars along the outer layers so the different lengths remain clear."
+    },
+    "FS280": {
+      "name": "forest velvet and sheer-cape Lolita ensemble",
+      "description": "Dark green velvet, a light sheer cape and antique-gold diamond clasps form the layered outfit.",
+      "design_tip": "Use the difference in opacity to separate velvet from the cape."
+    },
+    "FS281": {
+      "name": "wine-rose twin-train Lolita ensemble",
+      "description": "Rose embroidery and wine-red sleeves frame tiered front ruffles and two long rear tails.",
+      "design_tip": "Cluster the fine motifs on the upper dress and front so the long tails remain readable."
+    },
+    "FS282": {
+      "name": "mint-and-cocoa diamond Lolita coordinate",
+      "description": "A cream puff-sleeve blouse sits beneath a mint diamond skirt with a cocoa border and crossed sashes.",
+      "design_tip": "Use the broad crossing sashes to organize the dense diamond repeat."
+    },
+    "FS283": {
+      "name": "playing-card tea-party Lolita coordinate",
+      "description": "An offset cream apron and the caramel skirt border carry playing-card suits, tied together with a navy sash.",
+      "design_tip": "Concentrate large suit shapes on the apron and hem."
+    },
+    "FS284": {
+      "name": "feathered-tricorn pirate Lolita coordinate",
+      "description": "A feathered tricorn, long burgundy coat panels, a sash and chains surround the tiered skirt.",
+      "design_tip": "Contrast the tall feather and long coat lines with short skirt tiers."
+    },
+    "FS285": {
+      "name": "rabbit bakery Lolita coordinate",
+      "description": "A rabbit-ear bow, pocket apron and gingham skirt frame a row of bunny-bun motifs at the hem.",
+      "design_tip": "Echo shapes between the bow and prints, leaving the apron quiet."
+    },
+    "FS286": {
+      "name": "harlequin-panel circus Lolita coordinate",
+      "description": "Cobalt and gold diamonds on the bodice repeat in alternating pointed panels over a pale ruffle.",
+      "design_tip": "Repeat the geometry at two scales from the bodice to the hem."
+    },
+    "FW095": {
+      "name": "double-strap platform Mary Janes",
+      "description": "Two parallel buckled straps cross a rounded vamp above a continuous raised platform sole.",
+      "design_tip": "Keep the two straps attached independently and the platform continuous beneath the whole shoe."
+    },
+    "FW096": {
+      "name": "crisscross-ribbon ballet flats",
+      "description": "Structured ballet flats have a thin outsole and satin ribbons crossing the instep and wrapping the ankles.",
+      "design_tip": "Show a complete outsole and trace each ribbon from the shoe opening around the ankle."
+    },
+    "FW097": {
+      "name": "triple-strap round-toe flats",
+      "description": "Three narrow buckled straps run along the instep above a round toe and thin flat sole.",
+      "design_tip": "Space all three straps along the curved instep and show their buckles and attachment points."
+    },
+    "FW098": {
+      "name": "knotted-fabric pointed flats",
+      "description": "A broad fabric knot sits over the forefoot of a closed-side pointed flat.",
+      "design_tip": "Show where both fabric ends enter the knot and keep the opening fitted to the foot."
+    },
+    "FW099": {
+      "name": "lace-up cutaway flats",
+      "description": "Solid toe and heel pieces frame open side waists, with laces bridging eyelets over the instep.",
+      "design_tip": "Keep the side openings clear, thread the laces through real eyelets, and connect the sole."
+    },
+    "FW100": {
+      "name": "woven-leather loafers",
+      "description": "Interlaced leather strips cover the loafer vamp, with solid material around the heel and opening.",
+      "design_tip": "Tuck strip ends into the edge seams and keep weave width and direction consistent across the pair."
+    },
+    "FW101": {
+      "name": "square-toe foldover-vamp flats",
+      "description": "Two broad folded leather flaps overlap at the center of a square-toe low flat.",
+      "design_tip": "Clarify the flap overlap and edge thickness while keeping toe room in the square front."
+    },
+    "FW102": {
+      "name": "ring-buckle double-cutout flats",
+      "description": "Oval openings sit on both sides of a round-toe flat, closed by a slim ring-buckled ankle strap.",
+      "design_tip": "Frame each opening with solid edges and attach the ankle strap to the heel."
+    },
+    "FW103": {
+      "name": "deep-V vamp stiletto pumps",
+      "description": "A deep central V-shaped opening cuts into the vamp of a closed pointed-toe stiletto pump.",
+      "design_tip": "End the V at the vamp edge and keep sole, sidewalls, and heel coherent."
+    },
+    "FW104": {
+      "name": "lace-up high-vamp evening shoes",
+      "description": "A closed pointed toe extends into a high vamp laced up almost to the ankle, above a slim heel.",
+      "design_tip": "Raise the two eyelet panels along the instep and follow its curve with the laces."
+    },
+    "FW105": {
+      "name": "side-cutout dress pumps",
+      "description": "Closed toe and heel cups are separated by deep side cutouts and linked by a slim continuous sole.",
+      "design_tip": "Keep continuous sole support and shape the cutout edges along the foot."
+    },
+    "FW106": {
+      "name": "petal-cuff evening heels",
+      "description": "A broad petal-shaped ankle cuff rises from the heel cup of a closed-toe evening shoe.",
+      "design_tip": "Join the cuff to the heel cup and keep forefoot and heel firmly grounded."
+    },
+    "FW107": {
+      "name": "ankle-ribbon bow heels",
+      "description": "Broad satin ribbons wrap the ankles of closed-toe slim heels and tie into outer-side bows.",
+      "design_tip": "Follow the ankle surface and distinguish the central knot, two loops, and two tails."
+    },
+    "FW108": {
+      "name": "layered-ruffle heeled mules",
+      "description": "Two fabric ruffle tiers cover the rounded forefoot of an open-back mule with a low block heel.",
+      "design_tip": "Anchor both ruffle tiers to the vamp and separate the open heel from the sole."
+    },
+    "FW109": {
+      "name": "ankle-chain slingbacks",
+      "description": "A short chain joins the leather slingback strap of a pointed pump to a delicate ankle chain.",
+      "design_tip": "Give the ankle chain a complete path and attach the short link to the rear leather strap."
+    },
+    "FW110": {
+      "name": "double-platform block heels",
+      "description": "Two stepped outsole layers form a forefoot platform paired with a wide block heel and thin ankle strap.",
+      "design_tip": "Show the platform seam clearly and keep sole and heel heights consistent across the pair."
+    },
+    "FW111": {
+      "name": "toe-loop strappy sandals",
+      "description": "A leather loop surrounds the big toe while two narrow diagonal straps cross the foot over a flat sole.",
+      "design_tip": "Wrap the loop around the base of the toe and attach the straps to the sole edges."
+    },
+    "FW112": {
+      "name": "woven-rope flat sandals",
+      "description": "Interwoven rope forms the forefoot upper and heel strap above a solid flat footbed.",
+      "design_tip": "Clarify rope overlaps and keep the forefoot supported by the solid footbed."
+    },
+    "FW113": {
+      "name": "heel-strapped utility sandals",
+      "description": "Broad padded straps secure toes, instep, and heel above a textured rubber outsole.",
+      "design_tip": "Route all three straps around the foot and show the padding and hook-and-loop closures."
+    },
+    "FW114": {
+      "name": "perforated molded clogs",
+      "description": "A molded round-toe clog has ventilation holes and a pivoting heel strap.",
+      "design_tip": "Place holes along the curved shell and connect the heel strap pivots to both sides."
+    },
+    "FW115": {
+      "name": "studded wooden clogs",
+      "description": "A closed leather toe upper is studded along its edge to a thick wooden sole, leaving the heel open.",
+      "design_tip": "Keep the wood volume and grain visible and align studs with the leather-to-wood seam."
+    },
+    "FW116": {
+      "name": "quilted house slippers",
+      "description": "A padded closed forefoot has diamond quilting above a fabric-edged soft sole and open heel.",
+      "design_tip": "Indent the quilting seams slightly and fit the padding to the instep."
+    },
+    "FW117": {
+      "name": "faux-fur cross-strap slippers",
+      "description": "Two broad faux-fur bands cross over a padded footbed, leaving toes and heels open.",
+      "design_tip": "Separate the upper and lower crossing bands and follow their shapes with the fur."
+    },
+    "FW118": {
+      "name": "soft-soled closed-heel house shoes",
+      "description": "Soft cloth uppers enclose toes and heels, with an elastic gathered rim and thin padded sole.",
+      "design_tip": "Distribute small rim gathers evenly and keep a complete heel and fabric sole."
+    },
+    "FW119": {
+      "name": "suede desert ankle boots",
+      "description": "A simple suede lace-up ankle upper has a small set of eyelets above a flat crepe sole.",
+      "design_tip": "Attach the eyelets to open-lacing panels and distinguish suede from crepe textures."
+    },
+    "FW120": {
+      "name": "waterproof duck boots",
+      "description": "A ribbed rubber lower shell joins a fabric lace-up upper above a broad rounded toe.",
+      "design_tip": "Show the rubber-to-fabric seam and curve the ribs around the toe."
+    },
+    "FW121": {
+      "name": "drawcord tall winter boots",
+      "description": "Insulated quilted shafts rise below the knees and tighten with drawcords above rubber foot shells.",
+      "design_tip": "Thread the drawcord around each rim and keep room in the insulated shaft."
+    },
+    "FW122": {
+      "name": "slouchy ruched tall boots",
+      "description": "Soft leather shafts gather into deep horizontal folds along the calf above a low block heel.",
+      "design_tip": "Let folds fall with the shaft volume and retain the foot direction at the ankle."
+    },
+    "FW123": {
+      "name": "spats-covered ankle boots",
+      "description": "A separate buttoned spat covers the ankle and vamp while arching above the exposed toe.",
+      "design_tip": "Keep a visible layer boundary and fit the buttons and curved edge to the foot."
+    },
+    "FW124": {
+      "name": "side-cutout ankle boots",
+      "description": "Large side openings below the ankles are bridged by narrow straps, with continuous cuffs and heel cups.",
+      "design_tip": "Retain supporting edges around the openings and anchor the straps to the upper."
+    },
+    "FW125": {
+      "name": "knit-cuff lace-up boots",
+      "description": "A thick rolled knitted cuff folds over the top of a structured mid-calf lace-up boot.",
+      "design_tip": "Wrap the ribbed knit over the rim and separate it from the leather shaft."
+    },
+    "FW126": {
+      "name": "hook-fastened multi-strap ankle boots",
+      "description": "Three broad straps close over a solid tongue with flat metal hooks above a thick sole.",
+      "design_tip": "Give every hook a matching anchor and lay the straps along the instep."
+    },
+    "FW127": {
+      "name": "high-top basketball shoes",
+      "description": "Padded high collars support the ankles above a broad cushioned outsole and laced upper.",
+      "design_tip": "Fit the collar padding around the ankle and anchor the laces beside the tongue."
+    },
+    "FW128": {
+      "name": "cleated cycling shoes",
+      "description": "A stiff low-profile cycling shoe has dial-and-cable closure and a small forefoot cleat.",
+      "design_tip": "Trace the cable through its guides and secure the cleat under the sole."
+    },
+    "FW129": {
+      "name": "hard-shell ski boots",
+      "description": "A rigid plastic shell rises around the lower calf and closes with multiple metal buckles.",
+      "design_tip": "Bridge both shell sides with each buckle and clarify the foot-to-cuff connection."
+    },
+    "FW130": {
+      "name": "four-wheel inline skates",
+      "description": "A rigid cuff sits above a long frame with four wheels in one longitudinal line under each foot.",
+      "design_tip": "Align the wheel axles and attach the rear brake to one frame."
+    },
+    "FW131": {
+      "name": "rubber-toe climbing shoes",
+      "description": "Close-fitting low shoes have curved rubber toe wraps and two hook-and-loop instep straps.",
+      "design_tip": "Shape the rubber around the forefoot and attach both straps to the upper sides."
+    },
+    "FW132": {
+      "name": "drainable mesh water shoes",
+      "description": "Fine mesh uppers close with an elastic toggle above a thin rubber sole with drainage holes.",
+      "design_tip": "Separate mesh panels from rubber edges and route the cord through its guides."
+    },
+    "FW133": {
+      "name": "leaf-vein wrap elf shoes",
+      "description": "Soft green leaf-veined panels end in gently curled toes, with leaf-shaped ankle wraps.",
+      "design_tip": "Build the leaf panels into a wearable upper and connect the wraps to the shoe."
+    },
+    "FW134": {
+      "name": "articulated exoskeleton boots",
+      "description": "Silver articulated supports link the heel and calf along the outside of an enclosed boot.",
+      "design_tip": "Attach supports to the boot surface and align pivots with the ankle movement."
+    },
+    "SO121": {
+      "name": "seed-stitch crew socks",
+      "description": "Tiny raised seed-stitch bumps cover the shaft and instep beneath a ribbed cuff.",
+      "design_tip": "Follow calf and instep curves with the stitch pattern and keep footless sleeve edges distinct from the feet."
+    },
+    "SO122": {
+      "name": "waffle-knit ankle socks",
+      "description": "Recessed square waffle stitches cover the short sock, framed by solid cuff, toe and heel sections.",
+      "design_tip": "Follow calf and instep curves with the stitch pattern and keep footless sleeve edges distinct from the feet."
+    },
+    "SO123": {
+      "name": "leaf-openwork knee socks",
+      "description": "Large leaf-shaped openwork repeats vertically along the shafts, with solid cuffs, toes and heels.",
+      "design_tip": "Follow calf and instep curves with the stitch pattern and keep footless sleeve edges distinct from the feet."
+    },
+    "SO124": {
+      "name": "honeycomb-knit crew socks",
+      "description": "Raised linked hexagonal honeycomb stitches continue over the ankles and insteps.",
+      "design_tip": "Follow calf and instep curves with the stitch pattern and keep footless sleeve edges distinct from the feet."
+    },
+    "SO125": {
+      "name": "double-rolled cuff ankle socks",
+      "description": "Two differently colored rolled edges stack around a plain-knit ankle-sock cuff.",
+      "design_tip": "Follow calf and instep curves with the stitch pattern and keep footless sleeve edges distinct from the feet."
+    },
+    "SO126": {
+      "name": "slit-cuff knit knee socks",
+      "description": "A short outer slit divides the ribbed cuff and ends in the continuous knitted shaft.",
+      "design_tip": "Follow calf and instep curves with the stitch pattern and keep footless sleeve edges distinct from the feet."
+    },
+    "SO127": {
+      "name": "side-button knit leg warmers",
+      "description": "A side row of small buttons closes each footless knitted shaft above the ankle.",
+      "design_tip": "Follow calf and instep curves with the stitch pattern and keep footless sleeve edges distinct from the feet."
+    },
+    "SO128": {
+      "name": "drawstring ruched leg warmers",
+      "description": "Side drawcord channels gather the footless shafts into vertical ruched folds, ending in short tied cords.",
+      "design_tip": "Follow calf and instep curves with the stitch pattern and keep footless sleeve edges distinct from the feet."
+    },
+    "SO129": {
+      "name": "houndstooth knee socks",
+      "description": "Black-and-ivory broken houndstooth checks run from shaft to foot beneath a solid ribbed cuff.",
+      "design_tip": "Wrap motifs around leg volume, show the edges of embroidery and patches, and preserve complete cuffs, toes and heels."
+    },
+    "SO130": {
+      "name": "windowpane-check knee socks",
+      "description": "Fine pale lines form large windowpane squares on a dark ground, curving over calf and instep.",
+      "design_tip": "Wrap motifs around leg volume, show the edges of embroidery and patches, and preserve complete cuffs, toes and heels."
+    },
+    "SO131": {
+      "name": "paisley-print crew socks",
+      "description": "Curled paisley teardrops repeat across the shaft and instep, with solid cuffs, toes and heels.",
+      "design_tip": "Wrap motifs around leg volume, show the edges of embroidery and patches, and preserve complete cuffs, toes and heels."
+    },
+    "SO132": {
+      "name": "crescent-and-orbit knee socks",
+      "description": "Pale-gold crescent moons and fine orbital arcs cross a deep-blue sock ground.",
+      "design_tip": "Wrap motifs around leg volume, show the edges of embroidery and patches, and preserve complete cuffs, toes and heels."
+    },
+    "SO133": {
+      "name": "vine-embroidered knee socks",
+      "description": "A narrow embroidered vine with separate leaves climbs the outer calf on an otherwise plain sock.",
+      "design_tip": "Wrap motifs around leg volume, show the edges of embroidery and patches, and preserve complete cuffs, toes and heels."
+    },
+    "SO134": {
+      "name": "floral ankle-panel knee socks",
+      "description": "A floral lace patch at the outer ankle combines blue blossoms and pale leaves into a tapered spray.",
+      "design_tip": "Wrap motifs around leg volume, show the edges of embroidery and patches, and preserve complete cuffs, toes and heels."
+    },
+    "SO135": {
+      "name": "contrast-seam color-block crew socks",
+      "description": "Rust, ivory and teal panels meet along diagonal seams highlighted by pale overlock stitching.",
+      "design_tip": "Wrap motifs around leg volume, show the edges of embroidery and patches, and preserve complete cuffs, toes and heels."
+    },
+    "SO136": {
+      "name": "wavy-stripe knee socks",
+      "description": "Dark wavy vertical stripes descend along the shafts and continue across the insteps.",
+      "design_tip": "Wrap motifs around leg volume, show the edges of embroidery and patches, and preserve complete cuffs, toes and heels."
+    },
+    "SO137": {
+      "name": "organza-layered cuff socks",
+      "description": "Light organza layers rise from a solid knitted ankle cuff and flare into translucent ruffled edges.",
+      "design_tip": "Attach trims to real sock fabric, finish cutout edges continuously, and keep toe and heel coverage clear."
+    },
+    "SO138": {
+      "name": "double-lace turn-down ankle socks",
+      "description": "Two scalloped lace layers fold down outside the cuff over a plain knitted ankle sock.",
+      "design_tip": "Attach trims to real sock fabric, finish cutout edges continuously, and keep toe and heel coverage clear."
+    },
+    "SO139": {
+      "name": "pearl-chain cuff socks",
+      "description": "A strand of small pearls is attached around the fabric cuff against a dark plain-knit sock.",
+      "design_tip": "Attach trims to real sock fabric, finish cutout edges continuously, and keep toe and heel coverage clear."
+    },
+    "SO140": {
+      "name": "side-tie drawcord ankle socks",
+      "description": "A fine cord threads through eyelets to close a small outer-cuff opening with a side bow.",
+      "design_tip": "Attach trims to real sock fabric, finish cutout edges continuously, and keep toe and heel coverage clear."
+    },
+    "SO141": {
+      "name": "heart-cutout crew socks",
+      "description": "A single heart-shaped cutout on each shaft is framed by a continuous fabric edge.",
+      "design_tip": "Attach trims to real sock fabric, finish cutout edges continuously, and keep toe and heel coverage clear."
+    },
+    "SO142": {
+      "name": "ruffle-side-seam knee socks",
+      "description": "A narrow fabric ruffle runs down each outer side seam from cuff to above the ankle.",
+      "design_tip": "Attach trims to real sock fabric, finish cutout edges continuously, and keep toe and heel coverage clear."
+    },
+    "SO143": {
+      "name": "front-bow knee socks",
+      "description": "A large matching satin bow sits at the front center of each cuff, with short tails over the front shaft.",
+      "design_tip": "One foot faces forward and the other turns outward. Attach each bow to its own front cuff surface; foreshorten loops and tails according to the turned shin."
+    },
+    "SO144": {
+      "name": "button-tab cuff socks",
+      "description": "A broad fabric button tab bridges a short central cuff opening and closes with one button.",
+      "design_tip": "Attach trims to real sock fabric, finish cutout edges continuously, and keep toe and heel coverage clear."
+    },
+    "SO145": {
+      "name": "fine-herringbone tights",
+      "description": "Dense fine herringbone chevrons cover dark opaque footed tights across knees and feet.",
+      "design_tip": "Keep waistband, legs and feet connected, curve patterns over knees and ankles, and align seam and color-block edges."
+    },
+    "SO146": {
+      "name": "cable-knit footed tights",
+      "description": "Broad raised cable braids run from the waistband down both legs and across the insteps.",
+      "design_tip": "Keep waistband, legs and feet connected, curve patterns over knees and ankles, and align seam and color-block edges."
+    },
+    "SO147": {
+      "name": "marbled-pattern tights",
+      "description": "Blue-grey marbled washes and thin veins flow over both legs in a coherent palette.",
+      "design_tip": "Keep waistband, legs and feet connected, curve patterns over knees and ankles, and align seam and color-block edges."
+    },
+    "SO148": {
+      "name": "asymmetrical diagonal-panel tights",
+      "description": "Diagonal color-block seams cross one thigh and the opposite shin at unequal heights.",
+      "design_tip": "Keep waistband, legs and feet connected, curve patterns over knees and ankles, and align seam and color-block edges."
+    },
+    "SO149": {
+      "name": "clustered-flower-dot tights",
+      "description": "Small pale-dot clusters form spaced flower motifs across opaque footed tights.",
+      "design_tip": "Keep waistband, legs and feet connected, curve patterns over knees and ankles, and align seam and color-block edges."
+    },
+    "SO150": {
+      "name": "chain-diamond jacquard tights",
+      "description": "Interlocking gold diamond loops form vertical jacquard chains along both legs.",
+      "design_tip": "Keep waistband, legs and feet connected, curve patterns over knees and ankles, and align seam and color-block edges."
+    },
+    "SO151": {
+      "name": "lace-ankle panel tights",
+      "description": "Pale floral-lace panels circle the ankles of dark opaque tights above fully covered feet.",
+      "design_tip": "Keep waistband, legs and feet connected, curve patterns over knees and ankles, and align seam and color-block edges."
+    },
+    "SO152": {
+      "name": "scallop-step color-block tights",
+      "description": "Broad scalloped seams above and below the knees enclose a contrasting middle panel.",
+      "design_tip": "Keep waistband, legs and feet connected, curve patterns over knees and ankles, and align seam and color-block edges."
+    },
+    "SO153": {
+      "name": "lace-bridged diamond-cutout knee socks",
+      "description": "Diamond openings run down the front shaft, bridged by narrow cord laced through paired eyelets.",
+      "design_tip": "Sew or fasten themed trims to the sock and distinguish fabric flexibility and attachment points."
+    },
+    "SO154": {
+      "name": "crisscross-ribbon wrapped knee socks",
+      "description": "Contrasting satin ribbons crisscross over an opaque shaft from ankle to tied cuff.",
+      "design_tip": "Sew or fasten themed trims to the sock and distinguish fabric flexibility and attachment points."
+    },
+    "SO155": {
+      "name": "butterfly-wing cuff knee socks",
+      "description": "Soft butterfly-wing fabric panels flare from the outer cuffs, with stitched wing veins.",
+      "design_tip": "Sew or fasten themed trims to the sock and distinguish fabric flexibility and attachment points."
+    },
+    "SO156": {
+      "name": "star-clasp turn-down knee socks",
+      "description": "A star-shaped clasp anchors the outer side of each folded-down knee-sock cuff.",
+      "design_tip": "Sew or fasten themed trims to the sock and distinguish fabric flexibility and attachment points."
+    },
+    "SO157": {
+      "name": "multi-panel technical knit leg sleeves",
+      "description": "Footless sleeves combine graphite and teal stretch-knit panels with articulated-looking calf seams.",
+      "design_tip": "Sew or fasten themed trims to the sock and distinguish fabric flexibility and attachment points."
+    },
+    "SO158": {
+      "name": "feather-trim ribbon knee socks",
+      "description": "Short faux-feather trim circles the cuff, with a small side bow and short ribbon tails.",
+      "design_tip": "Sew or fasten themed trims to the sock and distinguish fabric flexibility and attachment points."
+    },
+    "SO159": {
+      "name": "leaf-vine cuff elf stockings",
+      "description": "Soft leaf-shaped cuff pieces and a vine trim frame golden vein patterns down the green shafts.",
+      "design_tip": "Sew or fasten themed trims to the sock and distinguish fabric flexibility and attachment points."
+    },
+    "SO160": {
+      "name": "crystal-tassel cuff stockings",
+      "description": "Short thread tassels and faceted beads hang from pale-blue cuffs above delicate matching shaft motifs.",
+      "design_tip": "Sew or fasten themed trims to the sock and distinguish fabric flexibility and attachment points."
     }
   },
   "source_hashes": {
@@ -82029,6 +82704,626 @@
       "name": "c27c5105afd2dfd56111e5e13ed9616b1b9188a3412579e281593bc67f428ffc",
       "description": "ec420b542c62d3416a92c35c371b2aa7fc2749560696ed46c82e00a8364f20bb",
       "design_tip": "15d2363c40c5a4a80c536eeca45fe259fd104059d9be06851e1b012818ca5601"
+    },
+    "AF001": {
+      "name": "0226e5a22d6e9da71a7d0e9ca7cfd1787eed1424737ee98fd1aa8acc8ceb6345",
+      "description": "837b672f0710d69ed25c856d784e1a96fce01354a67f52aa714b630376200fb1",
+      "design_tip": "23310332f1ac45610ea39f8fa4ff1145d3cf7cdf1da7356bc943f57bfa4ec8a8"
+    },
+    "AF002": {
+      "name": "ad3a1ce16d32ab5a0a23ac5eabd3b8d7c4b139d64a24f500ee38ce019b8e614d",
+      "description": "fb8204f7f6a24dc3dbae818a4840c7a05ef7dbba3d728018bfd1d5555bc35a26",
+      "design_tip": "b7d587dab49afc8075e2de1066ec0e8768797bba0ad7a208abc1a6400f360e53"
+    },
+    "AF003": {
+      "name": "7b0746d95e510909afe43ee2e52614325d5e9f5b683b481a59f5e84d097bf030",
+      "description": "d0e34a277344a657ee8ce739457183d7ea83e582d7e23c7fad342eb2e9851089",
+      "design_tip": "54b35b1352c433cd573a6abf931e1c3a4d8029b664583c5c4e2e435e555ea887"
+    },
+    "AF004": {
+      "name": "f60115e0fe8de5e6cc2b2db098c08202fea6286fcc4746f43a4074fd45f48be0",
+      "description": "59fa79bb911cf860fd779011249fa92fcf1b559e017bb1dc9bb4d15832647762",
+      "design_tip": "c6326cc37463190fcad129e9a96cf2e117589f1590034e8ba2833f0e9e9d9ab6"
+    },
+    "AF005": {
+      "name": "634189d2740315e2e7c97ec4c970a2275d872e7fea82ea5721fb1da085571996",
+      "description": "4212aea46b69fb4acc0f5c669846f78efb2bea5e3d86505e4875840bc2174eaa",
+      "design_tip": "8fc4df583640deb02b465596f9c7b2a7cb28f3e31d775dc3028131ac8dadac0d"
+    },
+    "AF006": {
+      "name": "3623edbc97a6fdd5c460b377817bf4734dc851f98550e5ff760dd3bfa9538516",
+      "description": "ec1352b86928f1879c3f32b35f378ec1980d728c6d6ce2b193b8ce7f89414c3f",
+      "design_tip": "985da4f3e112a0f283327d836af76a759aa6ed9ac1a0d1d09765266a95444d16"
+    },
+    "AF007": {
+      "name": "96bdadf2bdb0174369cab866edb60f99765342081d393c8718cd4987670ac8f8",
+      "description": "9120ee10f26aa84c3740d8bd4a62986709345dd90d514cff36b9c4c90a805c46",
+      "design_tip": "794adac257e6c87e82d003e9ef2f92e2d5e6cfec44f26fb54815509adeda9b43"
+    },
+    "AF008": {
+      "name": "6c7a7439a06b36541c2d7ce76cc69167187a50bcc848142de42e500856a62ac9",
+      "description": "26ae4eeb6dc2e02f85ada684f86f986bcf923ce5b6598b4b61636095b455d0fe",
+      "design_tip": "010d04e616c449b2c0858d2bc57e351a616da60c4d01bda4f0ef79214d071672"
+    },
+    "AF009": {
+      "name": "64822ea21a6d669a722f1ce9a7c5c720aac40050a943c989a6a006d8e7f5a96a",
+      "description": "6497b6619be3b9c949fe9da83603facb2053e0e71fbf4b885d86e000240a3308",
+      "design_tip": "131f0c6eadc136ca637aabe1be1ef85a40964ed3c6c43338493f304df6ea6997"
+    },
+    "AF010": {
+      "name": "0da3bee41d0375da8c100e1e56fd5f3ae5576adf6820f99a55df1bb7e4762145",
+      "description": "674984d0f43a3b9d2f0243fe06dbc19d599938b2e1979dbf145ec77f9507eabc",
+      "design_tip": "68401bb9145e45a2538c38cef6343b18d9f515e89552baf455fc2754d80ca65d"
+    },
+    "AF011": {
+      "name": "1055b8679d06723ea0a9676c8316a734c4961b0dcfddfdb6026c3df49b4655e7",
+      "description": "98bd147586cc6e6148657bc281a2dbef9f4ef5002b3acd493ef17c9d23e00f7b",
+      "design_tip": "c30577da968b01e799423d6e0d70c12e0040fea33b9a9e2bf8a12b0214da34d9"
+    },
+    "AF012": {
+      "name": "552dff0c74dc3f4dc941b3f64a9a3145095015b9036b2ab309fbcb563eddd33d",
+      "description": "b70f240e22dc897b53454d1783ed293eac6b10a12fb0750226fe2375851c6c20",
+      "design_tip": "805d9595f7b18dc8c2159356066b34d8ec7db6663fbee6eb05f208f1f8f48a28"
+    },
+    "BT091": {
+      "name": "91712a6ed752d06fabd64f7dfa8b368ab46833b33a65c30906a4c308cf01d88c",
+      "description": "8860fd1501187f76436efcef5aaa64d19d23e0c07c30beb834eb56756271c498",
+      "design_tip": "06ebc774206711679279e1d58d40789b33c92b473498080dc152b8815ac184ae"
+    },
+    "BT092": {
+      "name": "bccfc4f500fc0f6ce03db6eb397ae6f79ba584b597a126f21c83051ea5565c58",
+      "description": "db0a76ce1e0dcfb1215ee666a180f1e15cc9373748e4aa8e737432c232d622ac",
+      "design_tip": "358cab890369286c59a837a69f3e47fd0ac434579ccc5d9925c5c4b20ad31986"
+    },
+    "BT093": {
+      "name": "151e9261486d073a43d0a268678b31f26d9b3ed13024b5ba8f0726edab902c90",
+      "description": "af6dd815e080f76f31b036e4410b2ab90892e3e7bc4ba5edf29ff68b051cce42",
+      "design_tip": "0340887b794c267e9ac7d3791dca4faa8b66484ba88194cd8141576976965f7a"
+    },
+    "BT094": {
+      "name": "c2cca555a33bb40672458a566bbe96b0e7b04dd7c12ed956e4a0ebb5d18c3b28",
+      "description": "95b0d5739bae1fd8b6566931feef1066c1e46f3d1dc373137e7b91d3705dcc4b",
+      "design_tip": "a3433acf6f4546010c4e26234b46c159ffcd102fb500f1b82c358997b13de9d1"
+    },
+    "BT095": {
+      "name": "df03ea5e14bf8f163dc20e142c530cdd9dffdfc201efe1ebca0e675472493a01",
+      "description": "e4c69aa83ef9881ee656589a9c47af291a47f4d672d3d37700928948f8b322d4",
+      "design_tip": "c0094ac20ae0eb458b9fd235ef267f0c31a608b97d46b0af9f1779974c695d6b"
+    },
+    "BT096": {
+      "name": "36f9074ed8a695a312a950650895da11876703b04329582c6e1ec63fb2a577e0",
+      "description": "52e4d528ba17135cee67344407f0413be8e30355e03b5516e61dc78b5ea20855",
+      "design_tip": "3606752eb2c4c35908f9e131d048c039d32399f5b2fa67e0d129bfd789b35818"
+    },
+    "BT097": {
+      "name": "2200bb8dc154fbe249930e780a45502012c7afed8249391db60b2355df9ebd37",
+      "description": "aa36308ebe53e8d98dac72ae356fb9eefc9481e964e9822e20e47135a15e07e0",
+      "design_tip": "e37956c5add8c66ae3b9d2469fa3d78f08736f428ba7cdaa150a589327eb188b"
+    },
+    "BT098": {
+      "name": "986a2670f6219b676dbbc716960ffff9fa2b7d2eba00d5088ab5794b22083424",
+      "description": "ee1036cb1565786e8d02169c0a4627eac5f57c7ffb207d98b478b4d205a5c298",
+      "design_tip": "786b5c05c2ca2e5b43e5f5f9032acc0fa67aec2311298c62327e11a07d3a2417"
+    },
+    "OP129": {
+      "name": "524388744071ae8ee50bf1db6b05c780d1da667317e50ad77527a8d48251e3ca",
+      "description": "e8a0a675eea97bc48ec97ad4e460d11d8ead778d691b410d7e3e9361cab5997d",
+      "design_tip": "734b42d33b7d9d507d5d2fae150108753a5c2056a2fa2adbe91c36ab3504653c"
+    },
+    "OP130": {
+      "name": "2c8631e1191732feca31770926e41cfb17c55459987bab25cf0eab05a64a13d9",
+      "description": "1c17f12929b085743ed48b66eb8e1b657b2972bc828b37c15f0dcbd13d446aa5",
+      "design_tip": "f01e0d9bb09cb7771be47caf21c0770fa9b08929f78f3015d86e83f14107d085"
+    },
+    "OP131": {
+      "name": "a81ef8ddef8fb94bbdb05f67438204459d6f9ea1a546937fff0f4aaa4946b6f1",
+      "description": "a8718903357094ea1e7606121aee06274f68e1b453baa450a446571e31258f48",
+      "design_tip": "d102ace59e39db008b8a6f561ae7b2cdbec13366a6cb537e103fad1684e49182"
+    },
+    "OP132": {
+      "name": "f7036600a53df4f5c084563e4bce4a102825d85dd316ba7cccf73b574e89ee52",
+      "description": "69e6dc17d033968e91738c406d465634123bed90ba9cf2fda412dd439d8fadf5",
+      "design_tip": "a9e0839ec6d76450cdb2313b963653cb85d6d7334656785a073e8a4f862711b7"
+    },
+    "OP133": {
+      "name": "82b8b78e4c8bf7c84264944322798cccd74522ac173790e13ac3430cb1cc0aae",
+      "description": "64fb5e506d36a939e6d3adccdd3b6ac7fc4f560d97658383baefec88619371f3",
+      "design_tip": "9acef75091c3da969cf8a6483567b53450bc934828fa77e80f4c5a2a64b8057c"
+    },
+    "OP134": {
+      "name": "d7e46bdc98809b9167a38bab356b134daa035a3c58e8ae131d730a4081f40dd4",
+      "description": "77176f8754da87ad2e47fa15303b2a4c209ba9282b2acbbee629256044f16cf0",
+      "design_tip": "d7eff2b5b0c302e6f1116c30e8b274a99774849d43a15311a6d99328d062b2b4"
+    },
+    "OP135": {
+      "name": "e1881c9524b22b969a30482a44f840e671ee04816f641b5e8e253d9a83d85d10",
+      "description": "32ffcfb1797028baa69bd5d51539368712401509411226fc6ade97f24115b76b",
+      "design_tip": "fc776baabf9c9f8f83eb789c63b033687351ffd02613d86536739981680ca07b"
+    },
+    "OP136": {
+      "name": "b2e25d04fbefe3d03e399aa006b7ee0971fa9612aafff4fe7e97c777a4c1dd4d",
+      "description": "6c0439fa44a11397bead0dc6ad7b1f363e210b25136b604654df2a1b3a24e8f7",
+      "design_tip": "3f21bec6df95ba0ab52788f9b09d633aba1619eaf58f73d1f10d8161c63dabcf"
+    },
+    "CS061": {
+      "name": "41bc360c5bbfc27e5e01b8c58088fae01192562c78f22e320f59035d8f8a97c7",
+      "description": "76bbea1f00431cce250a846af2dd00eda5eea7c51cb3703501d4ba2210e407ba",
+      "design_tip": "f4ac12c963c1b9d86e0b7b424b62b90da55f249dc3c064ad104cd841d177edfd"
+    },
+    "CS062": {
+      "name": "7a8d6177b6ad1969656d1a1ea2e6da614d31749b2965a9b1b538cd556a74d4fd",
+      "description": "9f4222f543639c35c15c41d28290449c8e558fcdaf1f3b3cbd6541512530b062",
+      "design_tip": "1f37da7cfbe397c5d929f9e0c61bbed1292a283c10535e38e215b4fab206d46f"
+    },
+    "CS063": {
+      "name": "e3b11c31f4416b33e9f3ab5832b56629c6070f177880ea64c321a12907934f14",
+      "description": "0546621569218f5af14c4552860e87a3a27b216b2a15e48a3b962cb97fc9aa46",
+      "design_tip": "73df58d7e37246a7b4849d98e8f6e2ab0fae3cad7e939316b8e9c152c8f66987"
+    },
+    "CS064": {
+      "name": "eba60e21700d78dff07f1e40d0764e8db22e947b91ecc18aa60be6119a3bce49",
+      "description": "6901b5467554c5b90d678d39aa562fd84ff73411d1cb37127841f2ee301a5502",
+      "design_tip": "b159cde099d666e28e30f7837fa8dfa1c04538c9ccbc9cd441a41eda6f798b51"
+    },
+    "CS065": {
+      "name": "03583b07cbb4a58acee19a50a6932809508f5ec488b04a4bb67becdd603779f5",
+      "description": "995af432d70c54b1cd328cdf1ab11d8892b48c1ab6438b2077dbde79829982fa",
+      "design_tip": "3d6ff93b7171eb5da2471c44b533943638d5a318ebc6f1522fbf10df17582c8c"
+    },
+    "CS066": {
+      "name": "a40756499699a2fbf3441c26167225268e25428c0b5ecf5ded4a2dfe1386dcfd",
+      "description": "c3b617e7b80076f9ad0712582ae3ad73b3271606da1d506c6679a9d578d697ce",
+      "design_tip": "b216f9b9de18aa99dc1b95cbb00489fdabda57bba1624a023bccdf3fff03fa99"
+    },
+    "CS067": {
+      "name": "f542d49216c5d7c69a531f2c30bda377386b6a3344445324fe37bb0f9a10aa34",
+      "description": "89c7f1fca87fa906ddbb6c0a3636301bd04a61bb41ab17aa44df52a12ef1ef4d",
+      "design_tip": "58a90ac1ca5cae2a882f6feb4f46fcab6b64e9b1a003a4ca8ef9757cbbbc150d"
+    },
+    "CS068": {
+      "name": "e958d63e4b550b141eb7020506eabfff98908c0d7814db1f91367b301643823e",
+      "description": "85ac390b778cca12e0929b64eea2233731de1cb2b35e0b918d507c721f19a1b1",
+      "design_tip": "095809fc44ffcd99886f2763e378dbc4963c8d85e19b53b1d4abd3bf2513462a"
+    },
+    "FS279": {
+      "name": "b040fa8e059d5c377e004adb441f2994831e25d34937bd25136f36ff273739fc",
+      "description": "01d9dcdd4d84aea238b1cfab916b64507b493ace4001508c2046e83061d13141",
+      "design_tip": "265acc248cb035b6531e558c30b1686e1dc03163d49d680e83d34911bfa3ed23"
+    },
+    "FS280": {
+      "name": "1e3ca4134ec6a26d52e1d9829686345f676297c55a11abe71ff5d76b646bd6b0",
+      "description": "d0a33402f3f3bbf7577af1359e32dbb758374ae6aa1abec48d3de31dda79bffc",
+      "design_tip": "ea60101587ad00a6f07766418b9221c78549801f1dcd0ded9175ba562e7689f4"
+    },
+    "FS281": {
+      "name": "30285a112435dfcf5d3c09d91d04314a1df84c8d0e29fc9c6785cf2fc1ee865e",
+      "description": "4fa4ab763a5a92a0c8374b4d656c5dfdc4d968f6e9db685b105659edeec137c0",
+      "design_tip": "d6c42d81cc22adbe7de207db33de70be431c430d23d7552bc2aba6c863e40fde"
+    },
+    "FS282": {
+      "name": "96b54a6319c9c17f59b3522b307b22d36120c76fd5c9029c1f069eeb22e913b9",
+      "description": "bf81c306dc6a8c44368215b6994906de4e293a4afc1126cf7ad0761a52674959",
+      "design_tip": "33557272838c1c5856c09fee3e5f8445cd2c745d49d5f52dd505eaf6ee013224"
+    },
+    "FS283": {
+      "name": "e60ccae5d6543aa976f3ee870e6b88fad4eb6604287a435a53e5bd91e0a3505d",
+      "description": "1ee1587a1800ec5350f61013698abc198d370a4d50ce69a41b8c357c8118e837",
+      "design_tip": "df36c78dd633b603cbed5af09c52f0c6a4f0e7ca3ba37330807c3000afdcd7a2"
+    },
+    "FS284": {
+      "name": "c934fd827702f496271cd35aef3734a168721d1486d84ce1f154db5c91bc8107",
+      "description": "e93660103c1e73069fac6dfbaeb1c0dfd827e8868a874a292582b3c785f7c4b0",
+      "design_tip": "7e5ff5089d34a32971c132417227cb1dae4df18ac1d547e1c48d0f372a38bcb1"
+    },
+    "FS285": {
+      "name": "487e5b68b60794adf81609d8eb80671bf48a9ce92398bb44fd7a4126e6f92d9f",
+      "description": "ea7934740a10e1838e0faf5df9bd1e079437615a265b96f82b45cfe487d563ac",
+      "design_tip": "1f96aeafaa0dcccc96eaa90cb12e93e12db3b232a6fb8c48d781c85a7a3bc10a"
+    },
+    "FS286": {
+      "name": "0540ca923c508f8653293dd26c359b8fee9c0c5d975038aef9a4b81b7e97e29d",
+      "description": "6a20f83a4b571790df4de49a8011c020b9a2938100dadbe99d9596825d1f2da6",
+      "design_tip": "ee2a957ef0e9beeb7e2d537cce3d5c5cfcb09548f16d8083db69979b014a7af7"
+    },
+    "FW095": {
+      "name": "200db243469c03db2c62fd3f86d3d5d9300a49d6b4fcd701e5419c42a410bada",
+      "description": "161523b6d46baeb0976f9cf85b808889ccbb98cad8608743bfa8c44d2c7cb8b7",
+      "design_tip": "8d4af301ac7ed986e1e6425eaad79eb582469de204ca12f48e24b14c9875316b"
+    },
+    "FW096": {
+      "name": "55e275ba8c43a111f47d8f70f11cec75b74f193a508fa7ee1bafbb1e0d4dc563",
+      "description": "b703862ec51678ef9d4f7454065aadf7ef64b02d9af034325795539c86cfe6be",
+      "design_tip": "aafa42a7296ecbe86c23d14e5f86798f153be422d54df292b49307e24877f3f9"
+    },
+    "FW097": {
+      "name": "deaee28ff6a7f114fbf5b9ae1f698a7eb823b4f97722b35d4e6df3ac44a917bb",
+      "description": "36765d53e32ed9d47dc56ec6b3c49bdad516059742c71b1c1d06033850714e0d",
+      "design_tip": "c0b7cf55e1f01fa5b570b68fd658bdd22411b1e1cf60fac52ab45744ff11e19b"
+    },
+    "FW098": {
+      "name": "ef7ca6b5631ebe6e280a7accb1187dc1bc65d4eebac89cf0f75881480cd58008",
+      "description": "cc97f5c8fecdf8642777e36574647ce8702941e264e80df938d6fb55c42cde41",
+      "design_tip": "59e0713b1b6f2d49bb641787d12be861eb2746f1eb86a7e0caa293f8fefe3486"
+    },
+    "FW099": {
+      "name": "10616e14f89ed9cc8753b00dde972ba4f57f09c81c899ed71098d7de444116fe",
+      "description": "ba3f58b1cce557887827573a04b0bb74c115b0055316b88caf5a1692c93c5218",
+      "design_tip": "a8d8b8825f5ad830f1e5f1160bbfbaac5767abce96d1e2f526f985223b4197fb"
+    },
+    "FW100": {
+      "name": "ef382a574aca8bc7ad837f694066c2f0751a2fe44fc5d3410232320c0f225b23",
+      "description": "764500adcabb036c4d32c5e2fc6c9fffdc26ed214e4fa08a29898267e8fca6b3",
+      "design_tip": "916ac6cc2b628fe4b37ea50106cf8724ba626960e4467d6a539a86e2867d6539"
+    },
+    "FW101": {
+      "name": "6cba561b20e9721990d5964478f17c74e6d30d487c6bbdbc156b4dc832206e88",
+      "description": "12fdbe31e7de056cc8a7a7b959a9ae1d82a80011d05dfd9cf4749961bd877db8",
+      "design_tip": "5bb26e63d7b94f1aa6bd6a162d74e01c331cc0b3fdce4e8b49e8d4a8201a6162"
+    },
+    "FW102": {
+      "name": "5d7ad5abeddd06bae249426487ec4a7aaadf1894b152f0aedc0f623d8e8ae037",
+      "description": "b208c5e22990ac68f96352ea34c1106aab9d897ed528db983256ddef7f76c54a",
+      "design_tip": "b57976a13f0ac71d38f11ad488a6ade98e96e8e52505d00a2ac1dce6784bbc36"
+    },
+    "FW103": {
+      "name": "df40745cbec73ad473cf2039a33d2d8d5753d9c4445071b6e24606e34287bd68",
+      "description": "29c59c5b387c070c136f9a17b2e02863f84e30ae66526f173e1c290db993b73d",
+      "design_tip": "89b7cb73b735b10a6c177957cfcbedf39a04bd2bf53cce0f5c96cecbacf56631"
+    },
+    "FW104": {
+      "name": "b2988e849fd01d20659ecdf573d0feb1313b0b28a4e6117bbaa75c7f366d95ab",
+      "description": "26f387fa124a5f911633891c871cdad4dbfbfedfea241dac37da2b21dc079d3b",
+      "design_tip": "2978257f376b87443f1f12615c286ca1c9c17da38561aa8e0382a7cff7438cdf"
+    },
+    "FW105": {
+      "name": "472e5c4829922b2fc94304cc14402b823d441aed2a315d36b1026d05b857fb34",
+      "description": "ff501bce90ac06bce898c3a986cf89c0adf3efea0a2390ed401883a5381a4d74",
+      "design_tip": "90b83f54b6588de849adf8202e28e29d893b1c86c46fad9af04a48bd272e4583"
+    },
+    "FW106": {
+      "name": "c9218adc75403782ca431a1598384b4adcf16d667165b35221744b4943d0c688",
+      "description": "a07db5a1c914a1b4d98469dc4fedde32f3ef9a681fd626dcd5f994aa64ec0ffa",
+      "design_tip": "9eda6880fa8423b73422f993696dcfeee665602b68e41f5b6c88153e66ea91f1"
+    },
+    "FW107": {
+      "name": "f19b74acc66d5ac264bc11edf5502ae28b4f3a15ed8fa5ccde024fb5840180a3",
+      "description": "ee4e0d3719a5737b0f4f385d436e72d8a450d1e3712056bfedcaf790e4ccc3d8",
+      "design_tip": "4a20862bbf5c26cdda61433a903f40d95b73826a4f73bdf0eeb405d8013c0c8a"
+    },
+    "FW108": {
+      "name": "9da69e84fb963ccd15519971b11a9ebfd056b8e49f910155e464f8fed01bd62b",
+      "description": "ceecbcc41c901a6e557bf4014a1f63c2f779fbfb65f119419818160137e67688",
+      "design_tip": "e6937898636722b4bee8fd347ee584154827e8b4ec19b4f630dc971c1b25ad54"
+    },
+    "FW109": {
+      "name": "de24c935e02d0ac30319076855d54b31b3764852d3f37e6ee6593ca6a6e109f8",
+      "description": "0a43a2eff9ced571158ffb9be458b9c47623cd9c4fc8e526149752cc1e53d633",
+      "design_tip": "c54591ca36234334ab8712773b9d47e74cbc19263d256911811d3b2218a51426"
+    },
+    "FW110": {
+      "name": "083af96bbafe106bd648d0b60727fe2b559afe4e959282a09fda510561693bd7",
+      "description": "d17d02f1e48ce2e6d4b18bf870c94dfaa0fc214bfe90af6e6ff22385d9b2c8a6",
+      "design_tip": "10d8f5e82ff6522f21a58253b376f572fa73d2bd6efdf23304ccba5def4dbf0a"
+    },
+    "FW111": {
+      "name": "243ec873e61aa11cf7560de1f5aa33ab8f5ba991664c25f64ab988d155e8cca0",
+      "description": "4c5637d9225324294cddca590ecd52ee96974dfdf471059e6db896a65294b913",
+      "design_tip": "d6129b096b41d86fff207fa9a355bfd09b89f0485939f49ab66229efd77064bf"
+    },
+    "FW112": {
+      "name": "3bf52b8c24d84e67f720d6d6a31d4da53272018edc3caaedba0014aed47103a0",
+      "description": "d18a4837f6955b68dd62bcf05519fd7b02388e3e6ce30bd409347cb0845ca402",
+      "design_tip": "fb8fd37a2a76d3ecf6ce33ca75c1158540f78eac54d1dae427974058e4e6fe8b"
+    },
+    "FW113": {
+      "name": "3b4326be0c05c1e75e572f32af4dc657a749992c2f03d3f05805101c81d15d2d",
+      "description": "f2b6508c605a9f72fdef6c8833e4c1c86eb5a814fdb9a6728c437f17612f9fc8",
+      "design_tip": "31005912c48740bd37ff393c1494f81c1ed7c77c1254fcb51ae65cd35445de55"
+    },
+    "FW114": {
+      "name": "867377c04933973f4dc408609b88a6c078198d54dc7575c8dd7c8ed74879e4a2",
+      "description": "73f698b2d87c6c0703b7a5a0cd960422d192aa3fab63461a269d9e7d16af74e4",
+      "design_tip": "ddb17158a490d690f943b3d6729c917d41c8dd66954c724608c328bb6504a821"
+    },
+    "FW115": {
+      "name": "8fa10b2872bf2795542c76f011da0a43674768efaff0434a640c7d56c4b8e947",
+      "description": "01f21840635368c67d7ccc744e781dbb11e3e2d91fb3748f5a061f0c895dc238",
+      "design_tip": "fba5a82f0a6041fc996e293eaf83608c2c87c6ad47e4fb00d18d92a8ab27b54b"
+    },
+    "FW116": {
+      "name": "d5d6524b570cd09c07e10f6d9d2f1870d6a3251ef8435c7d04b356b2a170d676",
+      "description": "a1fd24f72b1b4a0c4f9c1515143cb6e0d63bacc4031ddb6708cc89e75526264e",
+      "design_tip": "2d70d588eaa197db2406d03ee5c150737000caee07d5edf959b18ccf35f95a40"
+    },
+    "FW117": {
+      "name": "57c073a5d02de5a82a775aaeef6ea5606451193810d8a115ddf2ed8e0a37a577",
+      "description": "b8197e1ff45afafd2b05a573e003af6a0f47875cc33e9874d86d706616f2cd18",
+      "design_tip": "f0854e86e05a905bceada703b66b5d4c78ca41a542e7ce35dd116c6e1f209cb2"
+    },
+    "FW118": {
+      "name": "fbd4ba3b4e543d510789ec20fc8babf94e56bd5568cece4daabd51d0225c9f70",
+      "description": "ec7e4f5db34a3f2865ab7eb5fa449d70eb9b33fd47655bf1dfb137eb38c20e5c",
+      "design_tip": "09e7c8da64bbb755ed76ee32a32d45aff128ee1afd75e486dbded049d93b4bb0"
+    },
+    "FW119": {
+      "name": "c7dfcabafb49de35ae105908b6f2a93dee0161d6c329199bac03fda14e29e924",
+      "description": "ec6148a1cf6c09b083256cd2a983ce2ca525862e4ba77888fc1e5aaa7c147ca4",
+      "design_tip": "f37b3de67f317384e3f974296d1ef3d47eec6c743c4eb9510c884765806f1003"
+    },
+    "FW120": {
+      "name": "6467bf30db920be142afbcce54ff5cd3629354405182d26c2dab71192385983a",
+      "description": "fbcbba6526188025cf2e4a4f00f2f3f107572717f9ee09c4c78ed7e9e6716c60",
+      "design_tip": "7ca8f54fdf5432fb40d6d2ee8bd73393c3f31ca0d932e8053a38c53add1e8753"
+    },
+    "FW121": {
+      "name": "82e0aa5f0c1d0e0fbbb1c078b4310faee6f3371ec6a786ef58f157cad9a718b3",
+      "description": "d5f6f191c0524877bb384dbe866a9eb6263703e12fd23f684f7e601b7bfd0b4d",
+      "design_tip": "f9afe54b47f4d26ed2efeb528f781134bd6bd6c1584e1d6049e90456387e6db8"
+    },
+    "FW122": {
+      "name": "7dab4fd2c45a15e33750e3b13cd4a80c438a41c551df87e9f8d0d2796f46a65f",
+      "description": "a37f73f7a7e7a2973cd667eb46b0709a8d1d3b0b2a7ca91d323571c821669749",
+      "design_tip": "0765ff1bafd4c80c9abdd107c4c7f2b41887b4d26fda77d4137b83d1538d905c"
+    },
+    "FW123": {
+      "name": "a89df7531f25f40df4ab4a80baeb8afb438fa2936a690277275f7e1cacca9c4d",
+      "description": "d40fe4943b82c49a549a022d4a72de6021d789b57878b9c37265042be8965b9b",
+      "design_tip": "4b24878f84ee739c0f7dd663ba8981d99d9f4cd2cfc7495c8ef180ca97924451"
+    },
+    "FW124": {
+      "name": "d9d05a240505944b06feeddf7313bb7ded1d0511ebd6508e5157dcdebef5ea3c",
+      "description": "c6fadca6e6382200882da74ab575d96e4b8f8f1b7ed94d8b3ce60426b2fd486b",
+      "design_tip": "dc46fbda1f352e5f9294829595d86d88bd3e4db82f31b7fc45596de32675cdfb"
+    },
+    "FW125": {
+      "name": "addc4ffa82c7c73574aadce88b1b29a8448a83881aeeaeba83ce160082f1fd5e",
+      "description": "2345a4f3244927baf394c1dedd92da2c545b95cae226371700a82ca3a0f93296",
+      "design_tip": "225c2ad35904bffe3c7bc87b7f39912855abfe569d5025b710c3499f8c9398b3"
+    },
+    "FW126": {
+      "name": "c73c4b71a11b4a8743762e681383a51e25eceecdaff22bb456d06081e2f8c85c",
+      "description": "b99a4fd6fd3d0058e58c4e1d4c4d1b811afc9815c715e314e5cede76a67e106b",
+      "design_tip": "8c1638e529175c3ac41a6e1c1864ad391c3b4c552447acdd06f2031d85f79bf1"
+    },
+    "FW127": {
+      "name": "f9c97eb13948dfa8768f9b22a787c273569980586325cd02e4be3b99c0ef4027",
+      "description": "b0db66879b7010f48058d4c4dc68d0db34b269c7eb57633be05706d4aef21d0f",
+      "design_tip": "74bc78ecdc591235db9a66361a1f724d6d9282e74a32dacf5ba150afb764c90b"
+    },
+    "FW128": {
+      "name": "5cfa043280f19847cdd669ffdb86a499428d20f63f93ba2e8bbd593dfb308847",
+      "description": "24fa46f9d72b57e73a2fa10a5ce0029c8c809857e534bc2fdad2acbf87b74a56",
+      "design_tip": "d1824e110d148eaebc1859743212db51af1ef1cf211296d750c348381eb5baac"
+    },
+    "FW129": {
+      "name": "5a2b8bd3973bc61f5e975c614ff814b89472e1318a32a3109609fca4cdfa423d",
+      "description": "c4c85218d85014effc6c77bfee388f2bb8978617734a2f329ea47deee960aa7c",
+      "design_tip": "a8e1a55d61b248634aab0a0734f3203d636d2023f0ad9170ee8166f6cf7ba71e"
+    },
+    "FW130": {
+      "name": "67c5cb4b5c0a4e1e9d50482243ae75d7436cd6c56a014d34fe611549614b2885",
+      "description": "66d26316987822ad7ebe914318598262af567cf5dd268541746552cb96f91436",
+      "design_tip": "89c16260b917e3913adbeff386bbc262d6496ba2f2d4b2e6add812adecbcbf9c"
+    },
+    "FW131": {
+      "name": "a78b42da33f57b04220ad5f219b338f102679e2692fcd0fd36ec6b264ed2132d",
+      "description": "8dee7344b5b871f40f4f8e6e77a63dc2979fe4c3cc92a86fd5b19fcb3f6325e5",
+      "design_tip": "a5dc6ebf9f6af7ee296ba55fdff3ecb92767660b97c404d468e2ea0dddcf18f7"
+    },
+    "FW132": {
+      "name": "0db86beb271f42245cba00ff16b8067d2211dada60a672862099a3029110c9ca",
+      "description": "ddfe0bc4c550df8cb4c5c124c6045ebfa87bbae02d70e8877829b83d0641468b",
+      "design_tip": "96bd7506d2b3d3292db37280d1a4fcd1ad2bf4fe6d33465d594d7ead0dc2d9ba"
+    },
+    "FW133": {
+      "name": "89b00d4d00b8e81e23d09bd2d6931ca9f36749adc51a990e16fd5d9c522ea096",
+      "description": "73859a383ecf144450e0d16f391713608ac2c9f4292e1f5be7d7dd7e044b0cc1",
+      "design_tip": "f03ea3c3d8e792a047e908a77291cd34bc4a70781179686c66a81392ed9c6da2"
+    },
+    "FW134": {
+      "name": "20ac9407398ea219ccc4574a2c8b4654e4e14e5c461b90c7e0004f4be90d7f4b",
+      "description": "9c3b04aaf41fc948f72b29dcb36d53a25a1563ea0077bd51e85ce6636ad80d25",
+      "design_tip": "32159cfe175b753b5fa592e403f2ad6c91803b9f2dad33514afc7ced095d826e"
+    },
+    "SO121": {
+      "name": "0ee16006cd3bf49f564aa213bd8bb917416e741b8e57640d49d6963745f300b3",
+      "description": "a68748fbbacfef2b46328b05844bc3ddb7379aec5c657c0b44ce685c7671cf21",
+      "design_tip": "ad1405d463c8fda7567ea663a31b23986fcb5047b9cc53baaab9702e24d13c46"
+    },
+    "SO122": {
+      "name": "32acc317ecfb0ca90dd0ab228edc1b7546077260b9506a18d05a50598833bf14",
+      "description": "07435df45051bc09a622f2177e8fac49d40ea6e30fa595281b1c8504bdfcb79d",
+      "design_tip": "ad1405d463c8fda7567ea663a31b23986fcb5047b9cc53baaab9702e24d13c46"
+    },
+    "SO123": {
+      "name": "6dc36427823a286f3e7d70f9bd89472b26c767cc01b3d3e1ec6ab24fa8573303",
+      "description": "dc294eceecb32b1f4e1db5f9c5543584a8e9e4285d17879931f7a98642de56ea",
+      "design_tip": "ad1405d463c8fda7567ea663a31b23986fcb5047b9cc53baaab9702e24d13c46"
+    },
+    "SO124": {
+      "name": "266d8e03311b83467ce3816f78200446bfb6f2b806ef3d6b21cf61014fa2d91c",
+      "description": "fa20451a65ba39b91ff7d4e8408aae817ff9d5710db131fb455139b145af743b",
+      "design_tip": "ad1405d463c8fda7567ea663a31b23986fcb5047b9cc53baaab9702e24d13c46"
+    },
+    "SO125": {
+      "name": "197d150f9904a4557dcc8b51ad5c1fd004f098d4d4a9a941b6183fb88cf2de31",
+      "description": "beb25a738147c02d561402b298912be2cab6e83326dc9b4147ed7b76f7e7e3ab",
+      "design_tip": "ad1405d463c8fda7567ea663a31b23986fcb5047b9cc53baaab9702e24d13c46"
+    },
+    "SO126": {
+      "name": "b076818da849f86979e7204ad0273dd3243ddd9b7cff2cecfee36eb4eb1ddcfa",
+      "description": "7f2264379c2c28ccea62b8f40d2d80fbb02d33c9672dca81d656c75a8c03fb18",
+      "design_tip": "ad1405d463c8fda7567ea663a31b23986fcb5047b9cc53baaab9702e24d13c46"
+    },
+    "SO127": {
+      "name": "b9d9b4f38a28ac7548d9a4f1163ff1599e5957368dcec4d454bb6953c0ac38bd",
+      "description": "bde020c6d784eaf2d05243e6979d81ff44e27aecae76b19af852acaafbc5a2ec",
+      "design_tip": "ad1405d463c8fda7567ea663a31b23986fcb5047b9cc53baaab9702e24d13c46"
+    },
+    "SO128": {
+      "name": "732435e35bbfe2bedc45f0d1cf866f17db9f707881c4b97f35f182c097bc19ed",
+      "description": "e883b1a5ef1c66fe8d0bc7dec566249d72d360f2c69151116b2446bf1b87656d",
+      "design_tip": "ad1405d463c8fda7567ea663a31b23986fcb5047b9cc53baaab9702e24d13c46"
+    },
+    "SO129": {
+      "name": "ea247b6bdde5b94191850550c808ad9314dd3e53ca6133f7955e39f1a87b1d8a",
+      "description": "381ee792c7d8a81960e6bb4d8b5c1f1e3a29e9c9715f58078e1b370a10d3feec",
+      "design_tip": "27002998a15d6f62c025a7bdd8381bf290fd6c3a0d5bd05343a170a5dfe8b444"
+    },
+    "SO130": {
+      "name": "bdbf995ab5a4ac4e044160f8f44c9eb4ee8ae6f46c38ba4bcbd106b22e90b8e5",
+      "description": "38459100a32ebf1f36654ad777cca87b12cb5d82481318784367e85287bf20ff",
+      "design_tip": "27002998a15d6f62c025a7bdd8381bf290fd6c3a0d5bd05343a170a5dfe8b444"
+    },
+    "SO131": {
+      "name": "d6a024198f3cae216ab4d6fb950387a8d62a27c356b68a0e615cf1e293db86dc",
+      "description": "d72d166d564c837d37c8fd0c5a5bbac190ab2c7a92dd47a71c86294316f51ea0",
+      "design_tip": "27002998a15d6f62c025a7bdd8381bf290fd6c3a0d5bd05343a170a5dfe8b444"
+    },
+    "SO132": {
+      "name": "e89a487934f1e65c144ccd73263e118572ae9d8015eefcf119adc9bac2220535",
+      "description": "9d65c3ce9383e10b6feaf37a31a09419eb0c8d2eb448d57855f8b1ff09fba90a",
+      "design_tip": "27002998a15d6f62c025a7bdd8381bf290fd6c3a0d5bd05343a170a5dfe8b444"
+    },
+    "SO133": {
+      "name": "ca2da1502e90f60929e5749354dcdc61a0f92a1ddc6f9ff3a9b8418a29f09fce",
+      "description": "85c3e1f30e8f4f142bc7040fa9fb23e561cea0fdf6f75020db0782ddca716ae0",
+      "design_tip": "27002998a15d6f62c025a7bdd8381bf290fd6c3a0d5bd05343a170a5dfe8b444"
+    },
+    "SO134": {
+      "name": "5831cf2289a73311e5b05d069c79a34aa3e7f5c6253fce22b7c0ea6c7ccc83fc",
+      "description": "5de8151f04bbe9b4c5bc58babbaa17851d98e061eb960df47597ff3f9631f62f",
+      "design_tip": "27002998a15d6f62c025a7bdd8381bf290fd6c3a0d5bd05343a170a5dfe8b444"
+    },
+    "SO135": {
+      "name": "1b0e2bfe4afb22274e79523ff712100d800823b9b3f0c602c3c995edca4a4fd7",
+      "description": "b35c07848a1bc02b5f906c6b10294bbceb0c6312ff21f25e1ab0a1f73cff051d",
+      "design_tip": "27002998a15d6f62c025a7bdd8381bf290fd6c3a0d5bd05343a170a5dfe8b444"
+    },
+    "SO136": {
+      "name": "528210e310e41a36c5e4d6dbd76590f7eec1e395f954f18e0d78c79e4c41e492",
+      "description": "50f90cb835a648aac977b3dbc343a0bd1313585207c32395cebd3427c3ad21ec",
+      "design_tip": "27002998a15d6f62c025a7bdd8381bf290fd6c3a0d5bd05343a170a5dfe8b444"
+    },
+    "SO137": {
+      "name": "9f8d7dc4a49dd4f91322584ee66984a207f6dee3642e240d6689e5af1246a87d",
+      "description": "da9aa010f1d2d2e285ad77cb108e8831f536398d81c173032a59d7f6916d9141",
+      "design_tip": "d23a0dc3255c0aecec2594452ddb271e449cb497109aa94dd057cebec89bce18"
+    },
+    "SO138": {
+      "name": "d0d3995550689f994ae98a9da78eb1484bf602fda3d8a3d3c588f4f57ad9da72",
+      "description": "55067daa9a56a8c8706b8ce839a7477cfd42d8d0ccb949d90c697f550899a305",
+      "design_tip": "d23a0dc3255c0aecec2594452ddb271e449cb497109aa94dd057cebec89bce18"
+    },
+    "SO139": {
+      "name": "cac840fb6e85733211df2894935eb5cd10cadf8cddfcbd99eebe46cfa912e669",
+      "description": "90df7429490b34548668eb6d416f1ba2b6bc6108c61a06363086191c55828b6e",
+      "design_tip": "d23a0dc3255c0aecec2594452ddb271e449cb497109aa94dd057cebec89bce18"
+    },
+    "SO140": {
+      "name": "e9d3f2e3c4e737796e96047031540342af521a54284d1684f36c5d44cf292d9e",
+      "description": "74ee84cdaf50a4ff2f073f19f17dd530d91b53ceed075ef26a99a521441111e8",
+      "design_tip": "d23a0dc3255c0aecec2594452ddb271e449cb497109aa94dd057cebec89bce18"
+    },
+    "SO141": {
+      "name": "89ea94cd0e50c935bb06985b62d1f9957acdf0b007403ecb092269382802cd24",
+      "description": "bcc44b81242786269a3d1649711ab9d2e173a365264e03c4c085d54107194f59",
+      "design_tip": "d23a0dc3255c0aecec2594452ddb271e449cb497109aa94dd057cebec89bce18"
+    },
+    "SO142": {
+      "name": "b215f0ef7d096d06d59e0e795a79339396daeda031510d91f9067d5d6b9d11a3",
+      "description": "f77eb4e246234a4c3de592a3b58748886920349ab75147f85afda3030ef82a7e",
+      "design_tip": "d23a0dc3255c0aecec2594452ddb271e449cb497109aa94dd057cebec89bce18"
+    },
+    "SO143": {
+      "name": "7d27f4825522409f0ece730d4b4822d0351c0119ef1a584d628075c63f80cc44",
+      "description": "fba7e6b75c558727aea1ef646754e9fcb18d945b9fb2fae883f62f9e14d0bd48",
+      "design_tip": "f5fbc9cc9eda230be17d4740d1618071e2683f429e87d16f41e7057d7eb19cc0"
+    },
+    "SO144": {
+      "name": "78d2f31e475b4d01fb045613eb8cdc1710101fb48cf7b5c726b50f522deca824",
+      "description": "6713d3fb652dd5c2f00caa32757c2735a6d0aae4debc16ff73e9600c56980d7c",
+      "design_tip": "d23a0dc3255c0aecec2594452ddb271e449cb497109aa94dd057cebec89bce18"
+    },
+    "SO145": {
+      "name": "6cdfd96aae7d7f5910353d5d7bdfa18d3fe8422bcea482f474ecfd3173085e15",
+      "description": "1ff2ca54508172f6fd44cbbe513958ed87bd08f434debaad59159a2983babf48",
+      "design_tip": "f4db07b7571e3f1fba5e815317fa471cee24d9184a82de1dc162fee0364df55e"
+    },
+    "SO146": {
+      "name": "6242c82f14d05376dea093ce3f2324da8a16797573dad927ccf4a4de35c36a5e",
+      "description": "57dfff2bb9a560eda6493fca9c2d686f35b4d308cb2a5bfc584043f393159f0c",
+      "design_tip": "f4db07b7571e3f1fba5e815317fa471cee24d9184a82de1dc162fee0364df55e"
+    },
+    "SO147": {
+      "name": "2ef82910d0f4b4ba2d617f8d5b66341e429a5c76568bca511a145722a6f89840",
+      "description": "83f1f7e17979a67e7f32ac24d2302aab2229883f3ab41c029a9b6ae01cf2e1a1",
+      "design_tip": "f4db07b7571e3f1fba5e815317fa471cee24d9184a82de1dc162fee0364df55e"
+    },
+    "SO148": {
+      "name": "ccf36d5fc4d45ec77e842e66b248e5829833e02b48d563692bdeb6488fc789d3",
+      "description": "db7ae85c8c2eb1d8b5b209bed2b94949343fdac1645b0b6520c7be64d8fcd463",
+      "design_tip": "f4db07b7571e3f1fba5e815317fa471cee24d9184a82de1dc162fee0364df55e"
+    },
+    "SO149": {
+      "name": "682aad6a3bf915550f1b84ed73c1759d68af4037d2a0027287e005f6d611019c",
+      "description": "3ad3ee134265640dc2b4eb2177a4b94d567e1f642322b7a7c68ec9d0147fb558",
+      "design_tip": "f4db07b7571e3f1fba5e815317fa471cee24d9184a82de1dc162fee0364df55e"
+    },
+    "SO150": {
+      "name": "32e0b30e90c65fe388be43aff3b8a21579bafd64acce7c7dc75dc05a7756590f",
+      "description": "76a328cdd077b655c273b9714ea605efc4ef32b82cf26f6d51cd34eed9901e3f",
+      "design_tip": "f4db07b7571e3f1fba5e815317fa471cee24d9184a82de1dc162fee0364df55e"
+    },
+    "SO151": {
+      "name": "37965608b663f8121454bc194d28ba8c82051488cf054e7fc99f36b2d2f9eb2d",
+      "description": "4c7593466de79743f39c8d7bdd66c94424140ace8987070e24d463f9245cff01",
+      "design_tip": "f4db07b7571e3f1fba5e815317fa471cee24d9184a82de1dc162fee0364df55e"
+    },
+    "SO152": {
+      "name": "2350f72387badd0ecd9d8b4cd0c8fec76c55d715db89bbdcf61301d299045917",
+      "description": "01c433e21d0cc129cdd80ca36074c5fca983fb5d54fdcb910dfeeff8666751ff",
+      "design_tip": "f4db07b7571e3f1fba5e815317fa471cee24d9184a82de1dc162fee0364df55e"
+    },
+    "SO153": {
+      "name": "3610aa6fcd0e15fb471d6f331a5d75d11a8a3840f2bfa933fcbd944cdad8347f",
+      "description": "6540a1b88becf19a14e52d6fce75bd4e65a2a6493d132a213b3e70b00067312b",
+      "design_tip": "296c2b294a22ca3cac9792c989ef91f8cc2d0b404d1d06770f04b804ae45c603"
+    },
+    "SO154": {
+      "name": "ee8acc7a1d8766b55ebfaaecb581b4ec476aad9b63281950bcaaee8637ba553a",
+      "description": "fc311b46533b6b0332972402e38ff533878cfb3e9295c5101b643de5a779e55b",
+      "design_tip": "296c2b294a22ca3cac9792c989ef91f8cc2d0b404d1d06770f04b804ae45c603"
+    },
+    "SO155": {
+      "name": "6e8aa33ae358ca98edf7ea18730fa038c517c2a5e744a66e23e8f95e4db7e03b",
+      "description": "33e3ae6a2183dfbba3f1ed86c98a748faef8880bd9dd426fedfb8e7fb5b41d38",
+      "design_tip": "296c2b294a22ca3cac9792c989ef91f8cc2d0b404d1d06770f04b804ae45c603"
+    },
+    "SO156": {
+      "name": "137ad7b8df9b7f887fab2fda98ad61573dd3841f1f5cc2272c9469969ba954ec",
+      "description": "544d532139a439d2e502f256141c66ac5e62ae587c8568ecf6d5a188ff819b09",
+      "design_tip": "296c2b294a22ca3cac9792c989ef91f8cc2d0b404d1d06770f04b804ae45c603"
+    },
+    "SO157": {
+      "name": "7705a6c881b8607cd57d6c3dbdede4b73b04bfaa8789a20b6e05c18f80626067",
+      "description": "345ba5580f78a47d9751a0f4edc14fbbd8f5bd22074227b6c9e6727d25f68092",
+      "design_tip": "296c2b294a22ca3cac9792c989ef91f8cc2d0b404d1d06770f04b804ae45c603"
+    },
+    "SO158": {
+      "name": "1ead662f2246d4da17567c5e766209f4017893d980c6407e4c915f45397600e2",
+      "description": "9c8ee85bb27fa1caf525c623cf65655d8f930cf0604687a71f143cd7ad06a091",
+      "design_tip": "296c2b294a22ca3cac9792c989ef91f8cc2d0b404d1d06770f04b804ae45c603"
+    },
+    "SO159": {
+      "name": "7770c03fe96ddff40cc8001727c36c77c78a3a9abf73f24564f6310be50f2109",
+      "description": "ff35223c1a3c3b5d28eadc72dff57c529925918c6e5147642ff59ba30d394f43",
+      "design_tip": "296c2b294a22ca3cac9792c989ef91f8cc2d0b404d1d06770f04b804ae45c603"
+    },
+    "SO160": {
+      "name": "a6e8e8d1a30bea939e6c739bfe513f9b144c534bffae4cac6248d820c04f69b2",
+      "description": "a53ad212028809f601f70094b304029625c1b9dc9cc33b486e8bea8288964b21",
+      "design_tip": "296c2b294a22ca3cac9792c989ef91f8cc2d0b404d1d06770f04b804ae45c603"
     }
   },
   "review": {
@@ -118236,6 +119531,626 @@
       "name": "draft",
       "description": "draft",
       "design_tip": "draft"
+    },
+    "AF001": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "AF002": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "AF003": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "AF004": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "AF005": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "AF006": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "AF007": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "AF008": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "AF009": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "AF010": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "AF011": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "AF012": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "BT091": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "BT092": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "BT093": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "BT094": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "BT095": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "BT096": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "BT097": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "BT098": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "OP129": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "OP130": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "OP131": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "OP132": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "OP133": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "OP134": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "OP135": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "OP136": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "CS061": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "CS062": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "CS063": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "CS064": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "CS065": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "CS066": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "CS067": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "CS068": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FS279": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FS280": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FS281": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FS282": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FS283": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FS284": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FS285": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FS286": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW095": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW096": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW097": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW098": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW099": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW100": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW101": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW102": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW103": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW104": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW105": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW106": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW107": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW108": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW109": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW110": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW111": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW112": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW113": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW114": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW115": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW116": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW117": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW118": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW119": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW120": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW121": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW122": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW123": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW124": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW125": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW126": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW127": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW128": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW129": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW130": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW131": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW132": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW133": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FW134": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO121": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO122": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO123": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO124": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO125": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO126": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO127": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO128": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO129": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO130": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO131": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO132": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO133": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO134": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO135": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO136": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO137": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO138": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO139": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO140": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO141": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO142": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO143": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO144": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO145": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO146": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO147": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO148": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO149": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO150": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO151": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO152": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO153": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO154": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO155": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO156": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO157": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO158": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO159": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "SO160": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
     }
   },
   "translation_provenance": {
@@ -118926,6 +120841,61 @@
     "放大{name}": "reviewed",
     "下载完整离线资源包与原图": "reviewed",
     "在线预览使用有损 WebP 压缩图片，原图可通过下方入口下载。": "reviewed",
-    "GitHub 开源项目": "reviewed"
+    "GitHub 开源项目": "reviewed",
+    "常见动漫脸型": "draft",
+    "用同尺度的正面头像比较额头、脸颊、下巴和眼鼻口比例。作品与画师名称是检索参考，配图为原创设计示意。": "draft",
+    "角色设计参考": "draft",
+    "眼部与简化程度": "draft",
+    "轮廓与五官比例": "draft",
+    "常见动漫脸型 · 正面对照": "draft",
+    "AI 生成的原创动漫脸型示意": "draft",
+    "《轻音少女！》作品与人物设计资料": "draft",
+    "京都动画": "draft",
+    "制作方作品资料": "draft",
+    "动画角色设计、日常动画、京阿尼脸": "draft",
+    "京都动画的《轻音少女！》作品页，列有角色设计与总作画监督堀口悠纪子。用于了解条目的日常动画参考语境。": "draft",
+    "仅保存官方链接与独立说明，未使用原画或角色图": "draft",
+    "《Shining Tears》角色设计 Tony 访谈": "draft",
+    "发行方画师访谈": "draft",
+    "Tony、游戏原画、动漫脸型": "draft",
+    "世嘉对角色设计师 Tony 的访谈，介绍其参与《Shining Tears》角色设计的经过与构思。用于了解条目的游戏插画参考语境。": "draft",
+    "洛丽塔半裙与叠摆": "draft",
+    "洛丽塔裙 · 半裙叠摆对照": "draft",
+    "洛丽塔连衣裙版型": "draft",
+    "洛丽塔裙 · 连衣裙版型对照": "draft",
+    "洛丽塔领袖结构": "draft",
+    "洛丽塔裙 · 领型与领边对照": "draft",
+    "洛丽塔裙 · 主题穿搭对照": "draft",
+    "AI 生成的原创服装结构与搭配示意": "draft",
+    "《洛丽塔裙》素材": "draft",
+    "服装设计图集": "draft",
+    "洛丽塔裙摆、连衣裙版型、衬衫领型与主题搭配": "draft",
+    "该页集合多组裙装结构和主题搭配图例。新图鉴据此归纳叠摆、开片、领缘、材质及整套搭配的可见特征。": "draft",
+    "保留文章链接作延伸阅读，项目配图以文字描述独立生成，未收录原页图片": "draft",
+    "洛丽塔裙 · 半裙穿着对照": "draft",
+    "洛丽塔裙 · 连衣裙穿着对照": "draft",
+    "洛丽塔裙 · 领型上身近景": "draft",
+    "洛丽塔裙 · 主题穿搭上身对照": "draft",
+    "AI 生成的原创角色穿着示意": "draft",
+    "上身效果": "draft",
+    "服装结构": "draft",
+    "上身效果＋服装结构": "draft",
+    "查看上身总图": "draft",
+    "查看结构总图": "draft",
+    "装饰平鞋与厚底扣带鞋": "draft",
+    "礼装鞋口、踝带与鞋跟": "draft",
+    "凉鞋、洞洞鞋与居家软鞋": "draft",
+    "新靴型与靴筒结构": "draft",
+    "专项运动与幻想鞋型": "draft",
+    "居家软鞋与拖鞋": "draft",
+    "幻想与角色主题鞋": "draft",
+    "AI 生成的原创人物鞋履穿着示意": "draft",
+    "特色织纹与可调节袜筒": "draft",
+    "图案、刺绣与拼色袜": "draft",
+    "装饰袜口与局部开窗": "draft",
+    "织纹、印花与拼接袜裤": "draft",
+    "主题装饰与幻想袜型": "draft",
+    "图案与拼接袜裤": "draft",
+    "AI 生成的原创袜类穿着示意": "draft"
   }
 }

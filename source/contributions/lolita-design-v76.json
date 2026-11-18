@@ -1,0 +1,1228 @@
+{
+  "schema": "female-appearance-contribution/v1",
+  "entries": [
+    {
+      "stable_id": "BT091",
+      "category": "bottoms",
+      "dimension": "洛丽塔半裙与叠摆",
+      "name": "弧边罩片半裙",
+      "en": "curved-front overlay skirt",
+      "description": "弧形罩片覆盖正面，下缘露出一整圈不同色的蓬裙。",
+      "note": "用连续圆弧区分罩片和底裙，保持下摆完整。",
+      "aliases": [
+        "弧边罩层裙"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "BT092",
+      "category": "bottoms",
+      "dimension": "洛丽塔半裙与叠摆",
+      "name": "双瓣对开罩裙",
+      "en": "two-petal split overskirt",
+      "description": "左右弧形外片从腰线向两侧打开，中间露出浅色抽褶底裙。",
+      "note": "观察双瓣从共同起点外翻的轮廓。",
+      "aliases": [
+        "双弧拼接蓬裙"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "BT093",
+      "category": "bottoms",
+      "dimension": "洛丽塔半裙与叠摆",
+      "name": "方窗前开罩裙",
+      "en": "rectangular-front opening skirt",
+      "description": "外裙正面形成近似矩形的开口，内裙竖褶从窗口贯通到下摆。",
+      "note": "用横向上缘和两条较直的侧边建立方窗形。",
+      "aliases": [
+        "正中开衩伞裙"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "BT094",
+      "category": "bottoms",
+      "dimension": "洛丽塔半裙与叠摆",
+      "name": "侧缺角分层半裙",
+      "en": "side-notch layered skirt",
+      "description": "外层下摆只在一侧留一个三角缺口，浅紫底层填在缺口内。",
+      "note": "把缺口限制在外层下部，保留上方的完整裙面。",
+      "aliases": [
+        "三角缺口分层裙"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "BT095",
+      "category": "bottoms",
+      "dimension": "洛丽塔半裙与叠摆",
+      "name": "斜搭片露褶层半裙",
+      "en": "diagonal wrap over tiered ruffles",
+      "description": "斜向外片从一侧腰头下垂，另一侧露出水平排列的多层褶边。",
+      "note": "让外片斜边横过竖向垂褶，读出覆盖次序。",
+      "aliases": [
+        "斜裁交叠裙"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "BT096",
+      "category": "bottoms",
+      "dimension": "洛丽塔半裙与叠摆",
+      "name": "双侧提褶叠摆半裙",
+      "en": "side-pickup swag overskirt",
+      "description": "两枚侧蝴蝶结提起外裙，形成两道弧形垂褶，中央露出多层内摆。",
+      "note": "从提褶固定点画出重力下垂的弧线。",
+      "aliases": [
+        "提帘裙"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "BT097",
+      "category": "bottoms",
+      "dimension": "洛丽塔半裙与叠摆",
+      "name": "束腰系带开片半裙",
+      "en": "lace-up high-waist split skirt",
+      "description": "宽高腰头正面交叉系带，外裙偏深，中间开片露出浅色层褶。",
+      "note": "分别表现腰头的支撑感和内外裙的柔软感。",
+      "aliases": [
+        "系带高腰洛丽塔半裙"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "BT098",
+      "category": "bottoms",
+      "dimension": "洛丽塔半裙与叠摆",
+      "name": "扣饰双扇罩片半裙",
+      "en": "clasped double-swag skirt",
+      "description": "中央和两侧的扣饰固定双扇形罩片，下方叠粉色和奶油色褶层。",
+      "note": "标清三处固定点，让两道弧形外片彼此分开。",
+      "aliases": [
+        "扣饰提褶"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "OP129",
+      "category": "onepiece",
+      "dimension": "洛丽塔连衣裙版型",
+      "name": "方领圆廓背带蓬裙",
+      "en": "square-neck bell-shaped Lolita JSK",
+      "description": "方领宽肩带接合腰线，裙摆从腰下均匀展开为圆弧。",
+      "note": "压低装饰量，先看腰线与最宽摆幅的距离。",
+      "aliases": [
+        "圆廓JSK",
+        "基础蓬裙",
+        "JSK"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "OP130",
+      "category": "onepiece",
+      "dimension": "洛丽塔连衣裙版型",
+      "name": "垂感长 A 字背带裙",
+      "en": "long draped A-line Lolita JSK",
+      "description": "方领背带裙的裙身延长，前片较平，裙边缓慢外扩。",
+      "note": "对照圆廓蓬裙，注意较窄的摆幅和纵向垂线。",
+      "aliases": [
+        "A字JSK",
+        "长款JSK",
+        "JSK"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "OP131",
+      "category": "onepiece",
+      "dimension": "洛丽塔连衣裙版型",
+      "name": "双壳叠摆泡袖连衣裙",
+      "en": "puff-sleeve dress with two bell layers",
+      "description": "泡袖方领连衣裙叠两层完整弧形裙摆，上层边缘有两道细滚边。",
+      "note": "分别勾出两层的外轮廓，保留清楚的高差。",
+      "aliases": [
+        "双层叠廓蓬裙",
+        "洛丽塔OP"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "OP132",
+      "category": "onepiece",
+      "dimension": "洛丽塔连衣裙版型",
+      "name": "偏腰开片拼色背带裙",
+      "en": "off-center split color-block Lolita JSK",
+      "description": "罩片从偏侧腰位分开，珊瑚色外片斜落，米色里裙一直露到下摆。",
+      "note": "让开口从侧腰开始，区别于正中对称开片。",
+      "aliases": [
+        "侧腰开片JSK",
+        "侧开对襟蓬裙"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "OP133",
+      "category": "onepiece",
+      "dimension": "洛丽塔连衣裙版型",
+      "name": "波浪前短后长蓬连裙",
+      "en": "scalloped high-low Lolita dress",
+      "description": "深蓝前摆抬高，连续波浪边绕向低垂后摆，裙身仍有蓬量。",
+      "note": "用内外深浅对比清楚展示前后高差。",
+      "aliases": [
+        "波浪鱼尾蓬裙",
+        "前短后长洛丽塔裙"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "OP134",
+      "category": "onepiece",
+      "dimension": "洛丽塔连衣裙版型",
+      "name": "三片开摆拼色连衣裙",
+      "en": "three-panel split-hem Lolita dress",
+      "description": "金黄色外裙分成中央长片与两侧弧片，抬开的两道间隙露出绿色里裙。",
+      "note": "保留中片的纵向重量和两侧露出的里层。",
+      "aliases": [
+        "三片裙摆",
+        "三开片连衣裙"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "OP135",
+      "category": "onepiece",
+      "dimension": "洛丽塔连衣裙版型",
+      "name": "短肩披围裙式洛丽塔连裙",
+      "en": "capelet and apron-panel Lolita dress",
+      "description": "粉色短披肩盖住泡袖上方，白色扣襟下接一对弧形围裙片。",
+      "note": "区分肩披、前扣襟和腰下罩片的起止位置。",
+      "aliases": [
+        "披肩OP",
+        "洛丽塔围裙连衣裙"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "OP136",
+      "category": "onepiece",
+      "dimension": "洛丽塔连衣裙版型",
+      "name": "双弧罩摆燕尾连衣裙",
+      "en": "double-arc swallowtail Lolita dress",
+      "description": "梅色蓬裙前覆盖两片粉色弧摆，后片的两幅尖尾低于前摆。",
+      "note": "让尖尾从后方显露，前方仍以柔和双弧为主。",
+      "aliases": [
+        "心形燕尾蓬裙",
+        "双尾裙摆"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "CS061",
+      "category": "construction",
+      "dimension": "洛丽塔领袖结构",
+      "name": "窄褶边圆叶领",
+      "en": "round-lobed collar with a narrow frill",
+      "description": "两片宽圆领叶外沿加独立窄褶边，圆弧仍清晰可见。",
+      "note": "圆领面保持平整，把立体量留给外沿褶边。",
+      "aliases": [
+        "洛丽塔圆领",
+        "荷叶边彼得潘领"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "CS062",
+      "category": "construction",
+      "dimension": "洛丽塔领袖结构",
+      "name": "托褶大尖领",
+      "en": "wide pointed collar with an under-frill",
+      "description": "两片宽尖领向胸前延长，侧边下层露出一圈较宽褶边。",
+      "note": "先定平直尖角，再画同方向展开的底层褶边。",
+      "aliases": [
+        "洛丽塔尖领"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "CS063",
+      "category": "construction",
+      "dimension": "洛丽塔领袖结构",
+      "name": "多瓣波齿平领",
+      "en": "flat scalloped petal collar",
+      "description": "每片低平领面外缘有多个圆瓣，轮廓靠包边和缝线强调。",
+      "note": "领缘画成清楚的多个波齿，领面不额外起褶。",
+      "aliases": [
+        "花瓣领",
+        "波齿领"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "CS064",
+      "category": "construction",
+      "dimension": "洛丽塔领袖结构",
+      "name": "双肩翻片方领",
+      "en": "square neck with folded shoulder tabs",
+      "description": "方领中部敞开，左右肩头有两块独立折片，外接短泡袖。",
+      "note": "保留平直方领横线与折片各自的转折。",
+      "aliases": [
+        "翻片方领",
+        "方领泡袖"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "CS065",
+      "category": "construction",
+      "dimension": "洛丽塔领袖结构",
+      "name": "扣带托竖褶立领",
+      "en": "raised ruffle on a buttoned band collar",
+      "description": "深色窄立领用一粒扣收合，上沿竖起一圈浅色抽褶。",
+      "note": "让立褶向上展开，深色领带仍环绕颈部。",
+      "aliases": [
+        "上翻荷叶立领"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "CS066",
+      "category": "construction",
+      "dimension": "洛丽塔领袖结构",
+      "name": "立领双圈垂褶领",
+      "en": "stand collar with two ruffle rings",
+      "description": "酒红扣式立领下方叠两圈象牙白褶边，向下覆到胸上方。",
+      "note": "错开两圈边缘，表现领下的分层关系。",
+      "aliases": [
+        "双层荷叶立领"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "CS067",
+      "category": "construction",
+      "dimension": "洛丽塔领袖结构",
+      "name": "珠点沿边尖领",
+      "en": "pearl-edged pointed collar",
+      "description": "两片尖领沿边排一圈浅紫小珠，内侧保留织物与明线细节。",
+      "note": "沿领缘均匀排列珠点，保持领尖轮廓。",
+      "aliases": [
+        "珍珠尖领",
+        "珠边领"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "CS068",
+      "category": "construction",
+      "dimension": "洛丽塔领袖结构",
+      "name": "扣襟胸肩片弧边褶领",
+      "en": "buttoned yoke with curved ruffle edge",
+      "description": "蓝色扣襟从立领连到肩胸片，其下缘是一条连贯弧形褶边。",
+      "note": "明确大襟片和褶边的接缝，用一圈褶边强调弧线。",
+      "aliases": [
+        "胸肩片褶领",
+        "围领褶边"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "FS279",
+      "category": "fashion_outfits",
+      "dimension": "洛丽塔时尚穿搭",
+      "name": "星芒罩纱洛丽塔礼装",
+      "en": "celestial tulle-overlay Lolita ensemble",
+      "description": "淡紫蓬裙覆盖双层星芒薄纱，星坠与头饰呼应，内裙有完整不透明底层。",
+      "note": "让星点沿罩纱边缘分布，突出两层间的高差。",
+      "aliases": [
+        "星空洛丽塔",
+        "星芒洛丽塔"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "FS280",
+      "category": "fashion_outfits",
+      "dimension": "洛丽塔时尚穿搭",
+      "name": "墨绿薄披丝绒洛丽塔装",
+      "en": "forest velvet and sheer-cape Lolita ensemble",
+      "description": "墨绿丝绒裙身、透明感肩披和旧金色菱形扣构成深色叠层。",
+      "note": "借丝绒的深色和薄披的透光差，交代两种材质。",
+      "aliases": [
+        "绿系哥特洛丽塔",
+        "薄披肩洛丽塔"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita",
+        "gothic"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "FS281",
+      "category": "fashion_outfits",
+      "dimension": "洛丽塔时尚穿搭",
+      "name": "酒红玫瑰双尾洛丽塔礼装",
+      "en": "wine-rose twin-train Lolita ensemble",
+      "description": "酒红泡袖和玫瑰刺绣搭配多层短前摆，后方垂下两幅长尖尾。",
+      "note": "玫瑰小纹集中在裙身上部和前片，让尾摆线条清楚。",
+      "aliases": [
+        "玫瑰燕尾洛丽塔",
+        "酒红长尾裙"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "FS282",
+      "category": "fashion_outfits",
+      "dimension": "洛丽塔时尚穿搭",
+      "name": "薄荷可可菱格洛丽塔装",
+      "en": "mint-and-cocoa diamond Lolita coordinate",
+      "description": "奶油泡袖衬衫叠薄荷菱格裙，可可棕宽滚边配斜交腰带。",
+      "note": "用斜交腰带压住细密菱格，拉开装饰层级。",
+      "aliases": [
+        "薄荷巧克力洛丽塔",
+        "菱格洛丽塔"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "FS283",
+      "category": "fashion_outfits",
+      "dimension": "洛丽塔时尚穿搭",
+      "name": "纸牌茶会洛丽塔装",
+      "en": "playing-card tea-party Lolita coordinate",
+      "description": "焦糖橘裙装搭深蓝腰带，侧置围裙及裙缘有明显的纸牌花色。",
+      "note": "把大符号放在围裙和裙缘，避免整身铺满印花。",
+      "aliases": [
+        "扑克牌洛丽塔",
+        "茶会洛丽塔"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "FS284",
+      "category": "fashion_outfits",
+      "dimension": "洛丽塔时尚穿搭",
+      "name": "羽饰三角帽海盗洛丽塔装",
+      "en": "feathered-tricorn pirate Lolita coordinate",
+      "description": "三角帽上有长羽饰，酒红长外片跨在层褶裙外，腰部加斜搭带和链饰。",
+      "note": "利用帽形和外套长线，与内裙的短层褶形成对照。",
+      "aliases": [
+        "海盗洛丽塔",
+        "羽饰三角帽"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "FS285",
+      "category": "fashion_outfits",
+      "dimension": "洛丽塔时尚穿搭",
+      "name": "兔耳面包房洛丽塔装",
+      "en": "rabbit bakery Lolita coordinate",
+      "description": "兔耳形蝴蝶结配红粉格裙、口袋围裙，裙缘排布圆润的兔形面包纹。",
+      "note": "让头饰与裙缘只呼应轮廓，围裙保留干净的大色块。",
+      "aliases": [
+        "兔耳洛丽塔",
+        "兔兔烘焙裙"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    },
+    {
+      "stable_id": "FS286",
+      "category": "fashion_outfits",
+      "dimension": "洛丽塔时尚穿搭",
+      "name": "菱格拼摆马戏洛丽塔装",
+      "en": "harlequin-panel circus Lolita coordinate",
+      "description": "钴蓝与金黄菱格布片拼接衣身，尖形交错裙片叠在浅色褶边上。",
+      "note": "让上身菱格与下摆尖端交替重复，保持几何节奏。",
+      "aliases": [
+        "马戏团洛丽塔",
+        "小丑菱格洛丽塔"
+      ],
+      "reference_ids": [
+        "R209"
+      ],
+      "styles": [
+        "lolita"
+      ],
+      "origin": "editorial",
+      "added_in": "76.0"
+    }
+  ],
+  "boards": [
+    {
+      "id": "weixin-lolita-v76-skirts",
+      "category": "bottoms",
+      "dimension": "洛丽塔半裙与叠摆",
+      "title": "洛丽塔裙 · 半裙叠摆对照",
+      "image": "images/sheet-bt091-bt098.png",
+      "width": 1672,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        418,
+        836,
+        1254,
+        1672
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创服装结构与搭配示意",
+      "prompt": "Use case: stylized-concept. Original garment construction atlas contact sheet. EXACTLY 4 columns by 2 rows, each tile same size, one object centered per tile, in perfectly aligned grid. Landscape 16:9. Each tile has plain warm ivory background, clean thin divider lines. Entire garment silhouette in its cell, generous top/sides/bottom margins and no bleed into adjacent cells. Professional Japanese-anime fashion design documentation, readable crisp linework, softly shaded fabric. All designs are new: no brand, logos, decorative page border, existing outfit, lettering, captions, labels or watermarks. Order is strictly left to right on first row, then second row. Eight distinct full knee-length Lolita fashion waist-to-hem standalone skirts on neutral invisible waist forms, front or very slight three-quarter view only, same apparent scale, no person, bodice, head, or shoes. Each in two complementary plain fabrics to reveal layers. Row 1: (1) Apricot solid outer curved apron panel with a large low U-shaped edge covering the front and a continuous pale blue bell-shaped underskirt visibly protruding below; (2) dusty teal outer overskirt split into two large curved petal panels, opens symmetrically from the waist to reveal ivory gathered front panel; (3) navy overskirt with a rectangular raised central opening, nearly vertical sides showing a gold-cream front underskirt, continuous hem behind; (4) butter-yellow solid upper skirt with ONE asymmetric sharp triangular notch cut into the hem near right side, pale lavender underskirt fills the small gap. Row 2: (5) muted raspberry asymmetric diagonal envelope-style skirt crosses from high right hip to low left, shows contrasting grey-blue horizontal ruffles underneath; (6) warm slate split outer skirt with two gathered fabric side pick-ups, little side bows hold lifted fabric, visibly swaged arcs and pale cream tiered base; (7) deep mulberry high waist basque with lace-up front, skirts spreads widely, open front reveals three distinct lilac ruffled tiers, opaque cloth; (8) dusty olive and blush petal skirt, two rounded scalloped upper peplum lobes pinned separately with tiny gold clasps at center and sides, continuous double gathered cream hem. Do not duplicate layouts. Show all eight exact garment silhouette differences clearly.",
+      "items": [
+        {
+          "entry_id": "BT091",
+          "label": "BT091",
+          "name": "弧边罩片半裙"
+        },
+        {
+          "entry_id": "BT092",
+          "label": "BT092",
+          "name": "双瓣对开罩裙"
+        },
+        {
+          "entry_id": "BT093",
+          "label": "BT093",
+          "name": "方窗前开罩裙"
+        },
+        {
+          "entry_id": "BT094",
+          "label": "BT094",
+          "name": "侧缺角分层半裙"
+        },
+        {
+          "entry_id": "BT095",
+          "label": "BT095",
+          "name": "斜搭片露褶层半裙"
+        },
+        {
+          "entry_id": "BT096",
+          "label": "BT096",
+          "name": "双侧提褶叠摆半裙"
+        },
+        {
+          "entry_id": "BT097",
+          "label": "BT097",
+          "name": "束腰系带开片半裙"
+        },
+        {
+          "entry_id": "BT098",
+          "label": "BT098",
+          "name": "扣饰双扇罩片半裙"
+        }
+      ]
+    },
+    {
+      "id": "weixin-lolita-v76-dresses",
+      "category": "onepiece",
+      "dimension": "洛丽塔连衣裙版型",
+      "title": "洛丽塔裙 · 连衣裙版型对照",
+      "image": "images/sheet-op129-op136.png",
+      "width": 1672,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        418,
+        836,
+        1254,
+        1672
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创服装结构与搭配示意",
+      "prompt": "Use case: stylized-concept. Original garment construction atlas contact sheet. EXACTLY 4 columns by 2 rows, each tile same size, one object centered per tile, in perfectly aligned grid. Landscape 16:9. Each tile has plain warm ivory background, clean thin divider lines. Entire garment silhouette in its cell, generous top/sides/bottom margins and no bleed into adjacent cells. Professional Japanese-anime fashion design documentation, readable crisp linework, softly shaded fabric. All designs are new: no brand, logos, decorative page border, existing outfit, lettering, captions, labels or watermarks. Order is strictly left to right on first row, then second row. Eight distinct complete Lolita fashion dresses shown straight-on on ivory neck-to-hem tailor dummies. Dresses stay fully in frame past skirt hem, no pedestal bases, floor, person or props. Limited ornament so constructions remain visible. Row 1: (1) rust-pink sleeveless shoulder-strap jumper dress with rounded bell silhouette, smooth outer surface, uninterrupted full circular hem and controlled flare beginning immediately at waist; (2) long draping bottle-green A-line jumper dress with square neckline and flat unruffled front, skirt extends below knee, moderate flare; (3) periwinkle short puff-sleeve dress whose skirt comprises two clearly offset bell-layer shells, top layer noticeably shorter with two slim parallel binding lines below; (4) sunset coral square-neck strap dress with fabric opening beginning off center at left waist, two differently curved front overskirt pieces show contrast butter-cream base from waist to hem. Row 2: (5) midnight navy fitted sweetheart-neck opaque dress, high-short front and low-long back, rounded gradually stepped scallops mark the dark long rear hem; (6) marigold princess-seam dress with THREE outer vertical panels like long tabs, two deep symmetrically placed wedge openings show seafoam inner skirt, one center panel distinctly descends; (7) light rose A-line high-neck dress with short attached scalloped shoulder capelet, modest puff sleeves, front button line, lower white plastron and cream curved apron overlay; (8) plum short puff-sleeve dress with symmetrical dipped double arc front overlay in pale blush and two pronounced pointed swallowtail extensions visible below the front hem from the back, base skirt opaque. One single whole garment example per cell.",
+      "items": [
+        {
+          "entry_id": "OP129",
+          "label": "OP129",
+          "name": "方领圆廓背带蓬裙"
+        },
+        {
+          "entry_id": "OP130",
+          "label": "OP130",
+          "name": "垂感长 A 字背带裙"
+        },
+        {
+          "entry_id": "OP131",
+          "label": "OP131",
+          "name": "双壳叠摆泡袖连衣裙"
+        },
+        {
+          "entry_id": "OP132",
+          "label": "OP132",
+          "name": "偏腰开片拼色背带裙"
+        },
+        {
+          "entry_id": "OP133",
+          "label": "OP133",
+          "name": "波浪前短后长蓬连裙"
+        },
+        {
+          "entry_id": "OP134",
+          "label": "OP134",
+          "name": "三片开摆拼色连衣裙"
+        },
+        {
+          "entry_id": "OP135",
+          "label": "OP135",
+          "name": "短肩披围裙式洛丽塔连裙"
+        },
+        {
+          "entry_id": "OP136",
+          "label": "OP136",
+          "name": "双弧罩摆燕尾连衣裙"
+        }
+      ]
+    },
+    {
+      "id": "weixin-lolita-v76-collars",
+      "category": "construction",
+      "dimension": "洛丽塔领袖结构",
+      "title": "洛丽塔裙 · 领型与领边对照",
+      "image": "images/sheet-cs061-cs068.png",
+      "width": 1672,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        418,
+        836,
+        1254,
+        1672
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创服装结构与搭配示意",
+      "prompt": "Use case: stylized-concept. Original garment construction atlas contact sheet. EXACTLY 4 columns by 2 rows, each tile same size, one object centered per tile, in perfectly aligned grid. Landscape 16:9. Each tile has plain warm ivory background, clean thin divider lines. Entire garment silhouette in its cell, generous top/sides/bottom margins and no bleed into adjacent cells. Professional Japanese-anime fashion design documentation, readable crisp linework, softly shaded fabric. All designs are new: no brand, logos, decorative page border, existing outfit, lettering, captions, labels or watermarks. Order is strictly left to right on first row, then second row. Eight different complete styled Lolita blouses on neutral headless display forms, waist-up garment-only study. Make collar details large, legible, contrasting colors on ivory-based fabric. Include both sleeves and bottom hem. No neck jewelry or hair. Row 1: (1) two large rounded lilac Peter Pan collar leaves with a separate ivory gathered narrow frill following the outer edge; (2) blue flat broad triangular pointed collar with a deeper gathered under-frill peeking out all along two long sides, not layered ruffles elsewhere; (3) paired sage small flat scalloped petal collars with three flat lobes on each rounded edge, clean stitched binding, no frill; (4) square neckline edged by two independent dusty pink folded rectangular shoulder tabs, broad open square center and short puff sleeves, tabs angle to the outside. Row 2: (5) soft cream high-neck gathered lettuce frill rises vertically above a short cocoa stand band, tiny center fastening, long mutton sleeves narrow to cuff; (6) graduated bordeaux buttoned standing collar falls into two concentric opaque ivory ruffle rings like a short jabot, both rings distinct; (7) ivory narrow pointed collar edged in tiny evenly spaced round lilac pearl beads, sharply V-shaped collar ends and fitted pintuck bodice; (8) a high blue buttoned flaring yoke covering upper chest, one broad gathered ruffle follows the U-shaped lower edge of the yoke, plainly visible blue panel and no separate jabot. Make all eight distinct and front facing.",
+      "items": [
+        {
+          "entry_id": "CS061",
+          "label": "CS061",
+          "name": "窄褶边圆叶领"
+        },
+        {
+          "entry_id": "CS062",
+          "label": "CS062",
+          "name": "托褶大尖领"
+        },
+        {
+          "entry_id": "CS063",
+          "label": "CS063",
+          "name": "多瓣波齿平领"
+        },
+        {
+          "entry_id": "CS064",
+          "label": "CS064",
+          "name": "双肩翻片方领"
+        },
+        {
+          "entry_id": "CS065",
+          "label": "CS065",
+          "name": "扣带托竖褶立领"
+        },
+        {
+          "entry_id": "CS066",
+          "label": "CS066",
+          "name": "立领双圈垂褶领"
+        },
+        {
+          "entry_id": "CS067",
+          "label": "CS067",
+          "name": "珠点沿边尖领"
+        },
+        {
+          "entry_id": "CS068",
+          "label": "CS068",
+          "name": "扣襟胸肩片弧边褶领"
+        }
+      ]
+    },
+    {
+      "id": "weixin-lolita-v76-outfits",
+      "category": "fashion_outfits",
+      "dimension": "洛丽塔时尚穿搭",
+      "title": "洛丽塔裙 · 主题穿搭对照",
+      "image": "images/sheet-fs279-fs286.png",
+      "width": 1672,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        418,
+        836,
+        1254,
+        1672
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创服装结构与搭配示意",
+      "prompt": "Use case: stylized-concept. Original garment construction atlas contact sheet. EXACTLY 4 columns by 2 rows, each tile same size, one object centered per tile, in perfectly aligned grid. Landscape 16:9. Each tile has plain warm ivory background, clean thin divider lines. Entire garment silhouette in its cell, generous top/sides/bottom margins and no bleed into adjacent cells. Professional Japanese-anime fashion design documentation, readable crisp linework, softly shaded fabric. All designs are new: no brand, logos, decorative page border, existing outfit, lettering, captions, labels or watermarks. Order is strictly left to right on first row, then second row. Eight complete, clearly distinct original Lolita-themed game fashion outfits, on a neutral adult dress form from upper neck to below full hem, no head or bare torso, no detached objects. Delicate higher-detail cohesive fashion illustrations. Full dress each in own cell with enough negative space. Row 1: (1) pale periwinkle celestial set with star-point scalloped transparent overlay over opaque lining and small clear star charms, pearl bodice and coordinated small star headpiece perched on neck peg; (2) forest-green velvet gothic cape veil outfit with dark sage transparent shoulder veil, fitted dark velvet center, diamond antique gold clasps, green tiered bustle; (3) port-wine rose evening set with matching neck ruffle, ruffled elbow sleeves, embroidery of small unrelated tiny roses on bodice, short front ruffles lifting to long two-prong pointed back train; (4) mint-and-cocoa ribbon café dress with wide chocolate border and crossed mint sash, milk-cream blouse, small repeat diamond jacquard, no apron decoration in heart shape. Row 2: (5) orange-caramel playing-card tea-party dress with off-center scalloped cream apron, large diamond and club motifs, contrasting ink-blue waist ribbon, lace hems; (6) burgundy and charcoal pirate Lolita outfit with a prominent detached-looking but worn tilted feathered tricorn balanced atop the form neck peg, asymmetrical tailored coat panels above a ruffled knee skirt, sash and small non-weapon brass details; (7) muted strawberry and porcelain rabbit bakery outfit with two ear-shaped bow loops on the form above the neck, pale peach blouse, tiny bun motifs in the skirt border and tiered apron with pocket; (8) cobalt and golden-ochre harlequin circus Lolita set with fitted asymmetrically pieced diamond bodice, alternating two-color triangular skirt panels above ivory border, two winged lapels and geometric piping. No person, weapon, imitation of any existing pattern or design, labels or signature.",
+      "items": [
+        {
+          "entry_id": "FS279",
+          "label": "FS279",
+          "name": "星芒罩纱洛丽塔礼装"
+        },
+        {
+          "entry_id": "FS280",
+          "label": "FS280",
+          "name": "墨绿薄披丝绒洛丽塔装"
+        },
+        {
+          "entry_id": "FS281",
+          "label": "FS281",
+          "name": "酒红玫瑰双尾洛丽塔礼装"
+        },
+        {
+          "entry_id": "FS282",
+          "label": "FS282",
+          "name": "薄荷可可菱格洛丽塔装"
+        },
+        {
+          "entry_id": "FS283",
+          "label": "FS283",
+          "name": "纸牌茶会洛丽塔装"
+        },
+        {
+          "entry_id": "FS284",
+          "label": "FS284",
+          "name": "羽饰三角帽海盗洛丽塔装"
+        },
+        {
+          "entry_id": "FS285",
+          "label": "FS285",
+          "name": "兔耳面包房洛丽塔装"
+        },
+        {
+          "entry_id": "FS286",
+          "label": "FS286",
+          "name": "菱格拼摆马戏洛丽塔装"
+        }
+      ]
+    },
+    {
+      "id": "weixin-lolita-v76-skirts-wearing",
+      "category": "bottoms",
+      "dimension": "洛丽塔半裙与叠摆",
+      "role": "wearing_reference",
+      "title": "洛丽塔裙 · 半裙穿着对照",
+      "image": "images/sheet-bt091-bt098-wearing.png",
+      "width": 1671,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        417,
+        835,
+        1252,
+        1671
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创角色穿着示意",
+      "prompt": "Image 1 is this project's original garment reference sheet. Create a matching wearing-reference sheet for the same 8 numbered-by-position illustrations. EXACTLY a regular 4-column × 2-row landscape contact sheet, eight equal cells. Left-to-right, top row then bottom. Each cell uses only the garment from the corresponding source cell; retain its colors, waistline, neckline and silhouette, the position and geometry of every main overlay or opening, visible layers, trim, and integral accessories. Each cell shows exactly one fictional adult woman age 25+ actually wearing that garment, original illustrated model, attractive natural head and hands, clear anime fashion-concept illustration, plain warm off-white backdrop, calm stance, eyes not a focal point. Each character remains entirely within her own cell, with empty margin above hair and below feet or waist. Thin straight grey separating lines, strictly rectangular equal-sized grid. No labels, no signs, no extra columns, no image overlap, no separate floating garment. No original third-party design references. These are skirts, not dresses. Each waistline and every hem must be unambiguously readable. Show the wearer head to toe in each tile at consistent full figure scale, relaxed upright stance, both arms hanging naturally beside the body with enough distance to leave waist and skirt visible. For each, pair the illustrated skirt with a quiet, fitted cream or light grey opaque crewneck blouse tucked into the waistband, low neutral pumps and subtle hosiery. Retain the narrow U-shaped apron, teal symmetrical petals, navy rectangular opening, yellow side triangular notch, raspberry diagonal wrap, gray double pickup bows, burgundy lace-up waist, and olive three fasteners in exact reading order. Keep head, hands, skirt edge, and feet uncropped.",
+      "reference_image": "images/sheet-bt091-bt098.png",
+      "items": [
+        {
+          "entry_id": "BT091",
+          "label": "BT091",
+          "name": "弧边罩片半裙"
+        },
+        {
+          "entry_id": "BT092",
+          "label": "BT092",
+          "name": "双瓣对开罩裙"
+        },
+        {
+          "entry_id": "BT093",
+          "label": "BT093",
+          "name": "方窗前开罩裙"
+        },
+        {
+          "entry_id": "BT094",
+          "label": "BT094",
+          "name": "侧缺角分层半裙"
+        },
+        {
+          "entry_id": "BT095",
+          "label": "BT095",
+          "name": "斜搭片露褶层半裙"
+        },
+        {
+          "entry_id": "BT096",
+          "label": "BT096",
+          "name": "双侧提褶叠摆半裙"
+        },
+        {
+          "entry_id": "BT097",
+          "label": "BT097",
+          "name": "束腰系带开片半裙"
+        },
+        {
+          "entry_id": "BT098",
+          "label": "BT098",
+          "name": "扣饰双扇罩片半裙"
+        }
+      ]
+    },
+    {
+      "id": "weixin-lolita-v76-dresses-wearing",
+      "category": "onepiece",
+      "dimension": "洛丽塔连衣裙版型",
+      "role": "wearing_reference",
+      "title": "洛丽塔裙 · 连衣裙穿着对照",
+      "image": "images/sheet-op129-op136-wearing.png",
+      "width": 1671,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        417,
+        835,
+        1252,
+        1671
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创角色穿着示意",
+      "prompt": "Image 1 is this project's original garment reference sheet. Create a matching wearing-reference sheet for the same 8 numbered-by-position illustrations. EXACTLY a regular 4-column × 2-row landscape contact sheet, eight equal cells. Left-to-right, top row then bottom. Each cell uses only the garment from the corresponding source cell; retain its colors, waistline, neckline and silhouette, the position and geometry of every main overlay or opening, visible layers, trim, and integral accessories. Each cell shows exactly one fictional adult woman age 25+ actually wearing that garment, original illustrated model, attractive natural head and hands, clear anime fashion-concept illustration, plain warm off-white backdrop, calm stance, eyes not a focal point. Each character remains entirely within her own cell, with empty margin above hair and below feet or waist. Thin straight grey separating lines, strictly rectangular equal-sized grid. No labels, no signs, no extra columns, no image overlap, no separate floating garment. No original third-party design references. Show head to toe, standing front or slightly three-quarter, hair swept away from collar details, arms outside the dress edges. Keep original dress silhouettes and colors in order: terracotta rounded-bell square-neck wide-strap jumper; longer forest-green A-line square-neck jumper; pale lavender puff-sleeve double bell-shell with two trim lines; coral asymmetric waist-opening overlay over vanilla inner skirt; midnight-navy sweet-heart dress high in front with genuinely long scalloped back; warm gold three outer panels with two wedge openings over a green inner skirt; blush scalloped shoulder capelet over pink puff sleeves and paired ivory apron panels; plum dress with two blush front arcs and two distinctly pointed long dark back tails. Use plain matching shoes. If any styling is added, it must be restrained and must not obscure the face, hem, neckline, or shoulder shape. No changes to dress colors or construction.",
+      "reference_image": "images/sheet-op129-op136.png",
+      "items": [
+        {
+          "entry_id": "OP129",
+          "label": "OP129",
+          "name": "方领圆廓背带蓬裙"
+        },
+        {
+          "entry_id": "OP130",
+          "label": "OP130",
+          "name": "垂感长 A 字背带裙"
+        },
+        {
+          "entry_id": "OP131",
+          "label": "OP131",
+          "name": "双壳叠摆泡袖连衣裙"
+        },
+        {
+          "entry_id": "OP132",
+          "label": "OP132",
+          "name": "偏腰开片拼色背带裙"
+        },
+        {
+          "entry_id": "OP133",
+          "label": "OP133",
+          "name": "波浪前短后长蓬连裙"
+        },
+        {
+          "entry_id": "OP134",
+          "label": "OP134",
+          "name": "三片开摆拼色连衣裙"
+        },
+        {
+          "entry_id": "OP135",
+          "label": "OP135",
+          "name": "短肩披围裙式洛丽塔连裙"
+        },
+        {
+          "entry_id": "OP136",
+          "label": "OP136",
+          "name": "双弧罩摆燕尾连衣裙"
+        }
+      ]
+    },
+    {
+      "id": "weixin-lolita-v76-collars-wearing",
+      "category": "construction",
+      "dimension": "洛丽塔领袖结构",
+      "role": "wearing_reference",
+      "title": "洛丽塔裙 · 领型上身近景",
+      "image": "images/sheet-cs061-cs068-wearing.png",
+      "width": 1671,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        417,
+        835,
+        1252,
+        1671
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创角色穿着示意",
+      "prompt": "Image 1 is this project's original garment reference sheet. Create a matching wearing-reference sheet for the same 8 numbered-by-position illustrations. EXACTLY a regular 4-column × 2-row landscape contact sheet, eight equal cells. Left-to-right, top row then bottom. Each cell uses only the garment from the corresponding source cell; retain its colors, waistline, neckline and silhouette, the position and geometry of every main overlay or opening, visible layers, trim, and integral accessories. Each cell shows exactly one fictional adult woman age 25+ actually wearing that garment, original illustrated model, attractive natural head and hands, clear anime fashion-concept illustration, plain warm off-white backdrop, calm stance, eyes not a focal point. Each character remains entirely within her own cell, with empty margin above hair and below feet or waist. Thin straight grey separating lines, strictly rectangular equal-sized grid. No labels, no signs, no extra columns, no image overlap, no separate floating garment. No original third-party design references. Medium portraits, top of hair to upper hip, face and both shoulders visible, sleeves and cuffs inside cell if possible. Eight adult wearers with hair swept behind shoulders or pinned up to leave neck and upper chest unobstructed, no necklaces. The identical cream blouses have varying sleeve shape with exact original collar features in order: lilac rounded Peter Pan collar over gathered thin frill; double blue sharp-point broad collar over deeper cream under-frill; olive flat scalloped petal collar; rectangular dusty-rose folded shoulder tabs around square open neck and short puff sleeves; cocoa band with cream upright frill; burgundy stand collar with concentric two soft tiered ruffles beneath; tiny lilac bead-edged two-point collar; buttoned blue wide rounded chest yoke with one dark blue ruffled edge. Collar close-ups are more important than dress coverage; do not show excessive bare skin or any jewelry.",
+      "reference_image": "images/sheet-cs061-cs068.png",
+      "items": [
+        {
+          "entry_id": "CS061",
+          "label": "CS061",
+          "name": "窄褶边圆叶领"
+        },
+        {
+          "entry_id": "CS062",
+          "label": "CS062",
+          "name": "托褶大尖领"
+        },
+        {
+          "entry_id": "CS063",
+          "label": "CS063",
+          "name": "多瓣波齿平领"
+        },
+        {
+          "entry_id": "CS064",
+          "label": "CS064",
+          "name": "双肩翻片方领"
+        },
+        {
+          "entry_id": "CS065",
+          "label": "CS065",
+          "name": "扣带托竖褶立领"
+        },
+        {
+          "entry_id": "CS066",
+          "label": "CS066",
+          "name": "立领双圈垂褶领"
+        },
+        {
+          "entry_id": "CS067",
+          "label": "CS067",
+          "name": "珠点沿边尖领"
+        },
+        {
+          "entry_id": "CS068",
+          "label": "CS068",
+          "name": "扣襟胸肩片弧边褶领"
+        }
+      ]
+    },
+    {
+      "id": "weixin-lolita-v76-outfits-wearing",
+      "category": "fashion_outfits",
+      "dimension": "洛丽塔时尚穿搭",
+      "role": "wearing_reference",
+      "title": "洛丽塔裙 · 主题穿搭上身对照",
+      "image": "images/sheet-fs279-fs286-wearing.png",
+      "width": 1671,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        417,
+        835,
+        1253,
+        1671
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创角色穿着示意",
+      "prompt": "Image 1 is this project's original garment reference sheet. Create a matching wearing-reference sheet for the same 8 numbered-by-position illustrations. EXACTLY a regular 4-column × 2-row landscape contact sheet, eight equal cells. Left-to-right, top row then bottom. Each cell uses only the garment from the corresponding source cell; retain its colors, waistline, neckline and silhouette, the position and geometry of every main overlay or opening, visible layers, trim, and integral accessories. Each cell shows exactly one fictional adult woman age 25+ actually wearing that garment, original illustrated model, attractive natural head and hands, clear anime fashion-concept illustration, plain warm off-white backdrop, calm stance, eyes not a focal point. Each character remains entirely within her own cell, with empty margin above hair and below feet or waist. Thin straight grey separating lines, strictly rectangular equal-sized grid. No labels, no signs, no extra columns, no image overlap, no separate floating garment. No original third-party design references. Show each complete coordinated outfit from its headdress to the floor and both shoes. Give each outfit its matching hat or ribbon from the source, wearing it naturally. In order: periwinkle star-charms and tulle with small star headpiece; dark green velvet and sage sheer cape with antique gold diamond clasps; wine red rose embroidery and two long rear tails; mint-and-cocoa diamond cafe coordinate with crossed sashes and cream blouse; caramel playing-card tea-party with offset applique apron and navy ribbon; burgundy and charcoal pirate with feathered tricorn, no weapons; blush pink rabbit bakery with ear-shaped bow, opaque blouse and pocketed apron; cobalt and yellow harlequin circus with geometric pointed panels. Keep exact garment structures recognizable, especially the large headdress of each look, applique details, trim color and original type of tiered hems. Minimal posing, hands at sides and garments fully visible.",
+      "reference_image": "images/sheet-fs279-fs286.png",
+      "items": [
+        {
+          "entry_id": "FS279",
+          "label": "FS279",
+          "name": "星芒罩纱洛丽塔礼装"
+        },
+        {
+          "entry_id": "FS280",
+          "label": "FS280",
+          "name": "墨绿薄披丝绒洛丽塔装"
+        },
+        {
+          "entry_id": "FS281",
+          "label": "FS281",
+          "name": "酒红玫瑰双尾洛丽塔礼装"
+        },
+        {
+          "entry_id": "FS282",
+          "label": "FS282",
+          "name": "薄荷可可菱格洛丽塔装"
+        },
+        {
+          "entry_id": "FS283",
+          "label": "FS283",
+          "name": "纸牌茶会洛丽塔装"
+        },
+        {
+          "entry_id": "FS284",
+          "label": "FS284",
+          "name": "羽饰三角帽海盗洛丽塔装"
+        },
+        {
+          "entry_id": "FS285",
+          "label": "FS285",
+          "name": "兔耳面包房洛丽塔装"
+        },
+        {
+          "entry_id": "FS286",
+          "label": "FS286",
+          "name": "菱格拼摆马戏洛丽塔装"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "R209",
+      "title": "《洛丽塔裙》素材",
+      "publisher": "美术课件",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyOTY1MjkzNQ==&mid=2247484896&idx=1&sn=b2fb5a68ecc67a50944e32a05f10a0f5",
+      "kind": "服装设计图集",
+      "topics": "洛丽塔裙摆、连衣裙版型、衬衫领型与主题搭配",
+      "summary": "该页集合多组裙装结构和主题搭配图例。新图鉴据此归纳叠摆、开片、领缘、材质及整套搭配的可见特征。",
+      "rights": "保留文章链接作延伸阅读，项目配图以文字描述独立生成，未收录原页图片",
+      "checked": "2026-11-17"
+    }
+  ]
+}

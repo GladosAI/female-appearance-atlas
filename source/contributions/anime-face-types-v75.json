@@ -1,0 +1,333 @@
+{
+  "schema": "female-appearance-contribution/v1",
+  "entries": [
+    {
+      "stable_id": "AF001",
+      "category": "anime_face_types",
+      "dimension": "角色设计参考",
+      "name": "圆润日常动画脸",
+      "en": "soft round everyday anime face",
+      "description": "脸颊圆润，下巴收成短圆弧，眼裂横向略椭圆，鼻部线条很简洁。可用「京阿尼脸」找到这个示例。",
+      "note": "观察脸颊到下巴的连续弧线，以及眼睛占脸宽的比例。此处提取的是《轻音少女！》等日常动画设计可供比较的特征。",
+      "aliases": [
+        "京阿尼脸",
+        "京阿尼风",
+        "京都动画脸",
+        "KyoAni face",
+        "Kyoto Animation face"
+      ],
+      "reference_ids": [
+        "R207"
+      ],
+      "origin": "editorial",
+      "added_in": "75.0"
+    },
+    {
+      "stable_id": "AF002",
+      "category": "anime_face_types",
+      "dimension": "角色设计参考",
+      "name": "细杏眼游戏插画脸",
+      "en": "slender almond-eye game illustration face",
+      "description": "脸呈收窄的椭圆，杏眼横向延伸，睫线较细密，鼻梁和唇部有细腻明暗。可用「Tony 脸」找到这个示例。",
+      "note": "对照圆润日常动画脸，观察眼裂的长宽、外眼角、眉眼距离和鼻梁的细线。可延伸阅读画师 Tony 的角色设计访谈。",
+      "aliases": [
+        "Tony脸",
+        "Tony 脸",
+        "画师Tony脸",
+        "Tony风格脸",
+        "Tony Taka face",
+        "Tony illustration face"
+      ],
+      "reference_ids": [
+        "R208"
+      ],
+      "origin": "editorial",
+      "added_in": "75.0"
+    },
+    {
+      "stable_id": "AF003",
+      "category": "anime_face_types",
+      "dimension": "眼部与简化程度",
+      "name": "复古纵长高光眼脸",
+      "en": "retro tall sparkle-eye anime face",
+      "description": "纵长椭圆眼和大块高光醒目，鼻和嘴缩小，尖下巴配合清楚的硬边阴影。",
+      "note": "对比眼裂高度与宽度，让高光大而清楚，同时保留眼白、虹膜和眼睑的层次。",
+      "aliases": [
+        "复古动漫脸",
+        "九十年代动画大眼",
+        "retro anime eyes"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "75.0"
+    },
+    {
+      "stable_id": "AF004",
+      "category": "anime_face_types",
+      "dimension": "眼部与简化程度",
+      "name": "低位圆眼短下脸",
+      "en": "low-set round eyes and short lower face",
+      "description": "高额头占据较多面积，圆眼位置偏低，眼睛下方到下巴的距离较短。",
+      "note": "略下移眼位时，用简化的小鼻和短下巴维持整体关系。可与同为宽脸但眼裂细窄的例子并排比较。",
+      "aliases": [
+        "大眼萌系脸",
+        "低位大眼",
+        "moe face",
+        "low-set eyes"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "75.0"
+    },
+    {
+      "stable_id": "AF005",
+      "category": "anime_face_types",
+      "dimension": "轮廓与五官比例",
+      "name": "锐角上挑眼动作漫画脸",
+      "en": "angular upturned-eye action-manga face",
+      "description": "眼尾上挑，眉线斜向收拢，侧颊至下巴形成清楚的折线和锐角。",
+      "note": "先定下颌两侧的折点，再调整眉尾和眼尾的倾角。眼宽可以保持不变，主要用方向产生利落感。",
+      "aliases": [
+        "少年漫画锐角脸",
+        "上挑眼尖脸",
+        "angular manga face"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "75.0"
+    },
+    {
+      "stable_id": "AF006",
+      "category": "anime_face_types",
+      "dimension": "轮廓与五官比例",
+      "name": "细长脸平直窄眼",
+      "en": "elongated face with level narrow eyes",
+      "description": "中面部偏长，眼裂平直而窄，鼻梁延伸，颊侧向窄下巴缓缓收拢。",
+      "note": "比较眼下到鼻底的距离与下巴长度。若需要稳重感，可以维持平眉和较薄的上睑线。",
+      "aliases": [
+        "狭长冷感脸",
+        "窄眼长脸",
+        "narrow-eyed anime face"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "75.0"
+    },
+    {
+      "stable_id": "AF007",
+      "category": "anime_face_types",
+      "dimension": "轮廓与五官比例",
+      "name": "宽颊下垂眼短下巴",
+      "en": "broad cheeks with downturned eyes and short chin",
+      "description": "面颊外扩，外眼角微垂，嘴下的距离短，下颌向中线圆缓收合。",
+      "note": "脸宽由颊部决定，留出外眼角到脸缘的空间，保持短下巴和窄眼带来的比例差。",
+      "aliases": [
+        "宽颊动漫脸",
+        "下垂眼短脸",
+        "wide-cheek anime face"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "75.0"
+    },
+    {
+      "stable_id": "AF008",
+      "category": "anime_face_types",
+      "dimension": "眼部与简化程度",
+      "name": "大眼窄 V 形动漫脸",
+      "en": "wide-eyed anime face with a narrow V jaw",
+      "description": "颧部以下较快向中线收窄，形成小 V 形下巴；眼睛较大，鼻尖与唇部简化。",
+      "note": "可固定眼位，把收窄过程放在颧部以下。和宽颊短下巴比较时先看下颌梯度，再看眼睛大小。",
+      "aliases": [
+        "大眼V脸",
+        "漫画V字脸",
+        "V-jaw anime face"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "75.0"
+    },
+    {
+      "stable_id": "AF009",
+      "category": "anime_face_types",
+      "dimension": "轮廓与五官比例",
+      "name": "高颧细眼成熟动漫脸",
+      "en": "high cheekbones and slim eyes anime face",
+      "description": "颧侧略有转折，眼裂细长，鼻梁和中面部拉长，唇线轻微起伏。",
+      "note": "用少量颧下阴影和下颌角表现结构。成熟感可来自五官距离和骨点位置。",
+      "aliases": [
+        "高颧成熟脸",
+        "御姐脸",
+        "mature anime face"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "75.0"
+    },
+    {
+      "stable_id": "AF010",
+      "category": "anime_face_types",
+      "dimension": "眼部与简化程度",
+      "name": "椭圆点眼 Q 版脸",
+      "en": "chibi face with oval dot eyes",
+      "description": "头部近圆，眼睛下移为简洁竖椭圆，鼻口缩成少量笔画。",
+      "note": "把主要差异放在头宽、眼位和下巴高度；小尺寸下只需几个明确的轮廓与色块。",
+      "aliases": [
+        "Q版脸",
+        "二头身脸部",
+        "chibi face",
+        "super-deformed face"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "75.0"
+    },
+    {
+      "stable_id": "AF011",
+      "category": "anime_face_types",
+      "dimension": "轮廓与五官比例",
+      "name": "平颏方颌几何脸",
+      "en": "geometric square jaw and flat chin anime face",
+      "description": "下颌宽而方，颏底近直线，搭配粗眉和偏矩形的眼裂，轮廓转折醒目。",
+      "note": "先分清左右下颌角和中间平段。利用眼睑与眉的平直线条呼应下半脸。",
+      "aliases": [
+        "方颌动漫脸",
+        "平下巴漫画脸",
+        "box-jaw anime face"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "75.0"
+    },
+    {
+      "stable_id": "AF012",
+      "category": "anime_face_types",
+      "dimension": "轮廓与五官比例",
+      "name": "半写实立体五官脸",
+      "en": "semi-realistic anime face with modeled features",
+      "description": "眼睛缩回接近自然的比例，眼窝、鼻翼与唇峰由柔和明暗塑形。",
+      "note": "保留动画式的清晰轮廓，用细微的面部平面转折表现体积。眼部是弱化夸张的主要观察点。",
+      "aliases": [
+        "半写实动漫脸",
+        "立体五官动漫脸",
+        "semi-realistic anime face"
+      ],
+      "reference_ids": [],
+      "origin": "editorial",
+      "added_in": "75.0"
+    }
+  ],
+  "boards": [
+    {
+      "id": "anime-faces-v75",
+      "category": "anime_face_types",
+      "title": "常见动漫脸型 · 正面对照",
+      "image": "images/sheet-af001-af012.png",
+      "width": 1448,
+      "height": 1086,
+      "columns": 4,
+      "rows": 3,
+      "column_boundaries": [
+        0,
+        362,
+        724,
+        1086,
+        1448
+      ],
+      "row_boundaries": [
+        0,
+        361,
+        724,
+        1086
+      ],
+      "origin": "AI 生成的原创动漫脸型示意",
+      "prompt": "Use case: stylized-concept. Generate an original professional anime face-construction comparison sheet for a game artist's visual atlas. Exactly 12 clearly distinct adult female head-and-shoulder portraits, in a perfectly aligned 4-column by 3-row equal-size grid with thin straight pale-grey ruled separators. Landscape, 4:3 ideally; full bleed grid, no outer title or labels or text of any kind. Each portrait contained strictly within its own cell, evenly centered at the same scale, with generous padding on all sides so the entire skull, hair outline, neck, chin never get clipped. Eye-level straight-on front view; neutral relaxed expression. Same plain ivory crew-neck top, same quiet pale warm-gray background, same neutral frontal light, simple dark chestnut hair brushed neatly away from both cheeks and brow, so judge differences by facial geometry not apparel, expression or hairstyles. All original clearly adult women 22–35. Different face constructions, no replicas of any identifiable people or existing characters, no logos. High-quality Japanese anime and manga facial draftsmanship; intentionally and distinctly vary head shapes, relative eye size and shape, features placement, nose geometry and jaw contours, not just superficial color. Professional readable comparison image, clean lines, subtitles absent.\n\nRead left to right by row. Row 1: [1] soft everyday anime face, softly rounded cheeks, short smoothly curved chin, gently rounded horizontally oval eyes, short simplified nose and soft fine cel shading. [2] elegant game illustration face: a slender oval tapering neatly into a small rounded chin, extended almond eyes with finely layered iris highlights and lashes, fine extended nose bridge, delicate gradient shading. [3] retro tall-eye face: tall oval eyes with emphatic multiple solid white highlights, compact tiny triangular nose, narrow small mouth, sharper chin, distinctly late-1990s thick black outline and two-tone cel shading. [4] low-set large round-eye face: high visible forehead, very large round eyes set noticeably lower on the face, short lower face and broad soft round jaw, clean flat anime rendering.\nRow 2: [5] angular action manga face: wedge jaw corners, pointy chin, strongly slanted upturned eyes, assertive high-contrast linework. [6] long-face slim-eye face: vertical long narrow jaw and long midface, narrow level eyes, visible extended nose bridge, low small mouth, understated look. [7] wide-cheek short-chin face: prominent wide cheeks contrasted with short rounded chin, small gently downturned eyes and broad midface. [8] youthful-looking adult triangular V chin face: taper suddenly below the cheekbones into a sharp small V, wide eyes with compact nose and mouth, cheeks distinctly cornered compared with the round face in cell 4.\nRow 3: [9] elegant mature face: small almond eyes, longer bridge, narrow lips, visible defined cheekbones and softly structured jaw. [10] adult super-deformed mini face: large nearly spherical head, compressed forehead-to-chin proportions, very simplified little nose and mouth, dot-like narrow ovoid eyes; stay recognizable as a stylized adult woman, not a child. [11] broad square chin graphic anime face: substantial square jaw ending in wide flat chin, thick level brows, slightly rectangular eyes, graphic flat shapes. [12] semi-realistic anime face: near-natural eye size, visibly modeled orbital ridge, distinct nose wings and softly modeled lips, subtle realistic painting without becoming a photo. Keep all 12 structures visually distinguished and avoid a common 'same face' template.",
+      "items": [
+        {
+          "entry_id": "AF001",
+          "label": "AF001",
+          "name": "圆润日常动画脸"
+        },
+        {
+          "entry_id": "AF002",
+          "label": "AF002",
+          "name": "细杏眼游戏插画脸"
+        },
+        {
+          "entry_id": "AF003",
+          "label": "AF003",
+          "name": "复古纵长高光眼脸"
+        },
+        {
+          "entry_id": "AF004",
+          "label": "AF004",
+          "name": "低位圆眼短下脸"
+        },
+        {
+          "entry_id": "AF005",
+          "label": "AF005",
+          "name": "锐角上挑眼动作漫画脸"
+        },
+        {
+          "entry_id": "AF006",
+          "label": "AF006",
+          "name": "细长脸平直窄眼"
+        },
+        {
+          "entry_id": "AF007",
+          "label": "AF007",
+          "name": "宽颊下垂眼短下巴"
+        },
+        {
+          "entry_id": "AF008",
+          "label": "AF008",
+          "name": "大眼窄 V 形动漫脸"
+        },
+        {
+          "entry_id": "AF009",
+          "label": "AF009",
+          "name": "高颧细眼成熟动漫脸"
+        },
+        {
+          "entry_id": "AF010",
+          "label": "AF010",
+          "name": "椭圆点眼 Q 版脸"
+        },
+        {
+          "entry_id": "AF011",
+          "label": "AF011",
+          "name": "平颏方颌几何脸"
+        },
+        {
+          "entry_id": "AF012",
+          "label": "AF012",
+          "name": "半写实立体五官脸"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "R207",
+      "title": "《轻音少女！》作品与人物设计资料",
+      "publisher": "京都动画",
+      "url": "https://www.kyotoanimation.co.jp/works/k-on/",
+      "kind": "制作方作品资料",
+      "topics": "动画角色设计、日常动画、京阿尼脸",
+      "summary": "京都动画的《轻音少女！》作品页，列有角色设计与总作画监督堀口悠纪子。用于了解条目的日常动画参考语境。",
+      "rights": "仅保存官方链接与独立说明，未使用原画或角色图",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "R208",
+      "title": "《Shining Tears》角色设计 Tony 访谈",
+      "publisher": "SEGA VOICE",
+      "url": "https://www.sega.jp/fb/segavoice/041103/01.html",
+      "kind": "发行方画师访谈",
+      "topics": "Tony、游戏原画、动漫脸型",
+      "summary": "世嘉对角色设计师 Tony 的访谈，介绍其参与《Shining Tears》角色设计的经过与构思。用于了解条目的游戏插画参考语境。",
+      "rights": "仅保存官方链接与独立说明，未使用原画或角色图",
+      "checked": "2026-11-15"
+    }
+  ]
+}

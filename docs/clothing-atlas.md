@@ -1,6 +1,6 @@
 # 女性角色服装专辑 · 第 31 版
 
-共 3365 条服装、护甲与套装参考。第36版增加48种情趣主题成衣，情趣类别现有64套。第27版增加32种职业舞台与奇幻身份各2套，共64套。服装含 64 套原创角色原型Cos服；第25版增加魔法少女与忍者装扮各32套；第24版体操、啦啦队、死神与维密风格秀场装扮共64套继续提供；保留第22版修女装扮32套；此前的浴巾裹身、破损衣物、成年遮挡视图、液体浸染、人偶与玩偶服等参考；第 20 版的128套特殊装扮继续保留，包含女扮男装、僵尸与吸血鬼、囚犯与匪徒、特种部队、情趣主题及湿水衣物；婚纱32款、婚服48套继续保留；潮流、时尚与模特穿搭96套以及四季日常穿搭原有256套继续保留，并新增32套；兽娘与福瑞等外观专题继续提供，支持 30 种风格标签。历史款按年代与地域区分。单件款式与完整套装分列；每项均有中英文名称、可见结构说明和图例。
+共 3429 条服装、护甲与套装参考。第36版增加48种情趣主题成衣，情趣类别现有64套。第27版增加32种职业舞台与奇幻身份各2套，共64套。服装含 64 套原创角色原型Cos服；第25版增加魔法少女与忍者装扮各32套；第24版体操、啦啦队、死神与维密风格秀场装扮共64套继续提供；保留第22版修女装扮32套；此前的浴巾裹身、破损衣物、成年遮挡视图、液体浸染、人偶与玩偶服等参考；第 20 版的128套特殊装扮继续保留，包含女扮男装、僵尸与吸血鬼、囚犯与匪徒、特种部队、情趣主题及湿水衣物；婚纱32款、婚服48套继续保留；潮流、时尚与模特穿搭96套以及四季日常穿搭原有256套继续保留，并新增32套；兽娘与福瑞等外观专题继续提供，支持 30 种风格标签。历史款按年代与地域区分。单件款式与完整套装分列；每项均有中英文名称、可见结构说明和图例。
 
 印花另见 [图案与排列](../index.html?section=clothing_prints)、[印花视觉风格](../index.html?section=print_styles) 和 [本版图文专辑](fashion-guide.md)；布样与首饰未计入完整服装数量。
 
@@ -9,15 +9,15 @@
 | 类别 | 词条数 | 类型 |
 | --- | ---: | --- |
 | 上装 | 99 | 单件版型 |
-| 裙装与裤装 | 90 | 单件版型 |
-| 连身服装 | 128 | 单件版型 |
+| 裙装与裤装 | 98 | 单件版型 |
+| 连身服装 | 136 | 单件版型 |
 | 外套与披覆 | 110 | 单件版型 |
 | 衣物褶皱与动态 | 16 | 单件版型 |
 | 内衣与贴身内搭 | 32 | 单件版型 |
 | 睡衣与居家夜服 | 37 | 整套方案 |
 | 泳装与海滩服装 | 38 | 单件版型 |
 | 日间居家与家务穿搭 | 8 | 单件版型 |
-| 袜类与袜裤 | 127 | 单件版型 |
+| 袜类与袜裤 | 167 | 单件版型 |
 | 手套与手部服饰 | 61 | 单件版型 |
 | 春季日常穿搭 | 74 | 整套方案 |
 | 夏季日常穿搭 | 75 | 整套方案 |
@@ -30,7 +30,7 @@
 | 潮流穿搭 | 32 | 单件版型 |
 | 时尚穿搭 | 32 | 单件版型 |
 | 模特穿搭 | 32 | 单件版型 |
-| 风格穿搭完整方案 | 278 | 整套方案 |
+| 风格穿搭完整方案 | 286 | 整套方案 |
 | 街头与嘻哈穿搭 | 12 | 单件版型 |
 | 气质与性格表演造型 | 172 | 单件版型 |
 | 露肤与服装覆盖程度 | 8 | 单件版型 |
@@ -236,6 +236,8 @@ AI 图为原创创作示意；历史、地域和专业防护样式用于角色�
 
 ![裙装与裤装 工装与复合下装](../images/sheet-bt075-bt090.png)
 
+![洛丽塔裙 · 半裙叠摆对照](../images/sheet-bt091-bt098.png)
+
 | 编号 | 款式 | English | 可见结构 |
 | --- | --- | --- | --- |
 | BT001 | A字裙 | A-line skirt | 从腰臀向下逐渐展开，轮廓接近A形。 |
@@ -328,6 +330,14 @@ AI 图为原创创作示意；历史、地域和专业防护样式用于角色�
 | BT088 | 侧褶裙式短裤 | side-pleated skort | 短裤外叠一片侧褶裙面，下方结构可辨。 |
 | BT089 | 口袋背带短裤 | utility bib shorts | 胸前大袋通过背带连接宽短裤身。 |
 | BT090 | 分离护膝裤 | trousers with separate knee guards | 普通长裤外附独立护膝，带具围腿固定。 |
+| BT091 | 弧边罩片半裙 | curved-front overlay skirt | 弧形罩片覆盖正面，下缘露出一整圈不同色的蓬裙。 |
+| BT092 | 双瓣对开罩裙 | two-petal split overskirt | 左右弧形外片从腰线向两侧打开，中间露出浅色抽褶底裙。 |
+| BT093 | 方窗前开罩裙 | rectangular-front opening skirt | 外裙正面形成近似矩形的开口，内裙竖褶从窗口贯通到下摆。 |
+| BT094 | 侧缺角分层半裙 | side-notch layered skirt | 外层下摆只在一侧留一个三角缺口，浅紫底层填在缺口内。 |
+| BT095 | 斜搭片露褶层半裙 | diagonal wrap over tiered ruffles | 斜向外片从一侧腰头下垂，另一侧露出水平排列的多层褶边。 |
+| BT096 | 双侧提褶叠摆半裙 | side-pickup swag overskirt | 两枚侧蝴蝶结提起外裙，形成两道弧形垂褶，中央露出多层内摆。 |
+| BT097 | 束腰系带开片半裙 | lace-up high-waist split skirt | 宽高腰头正面交叉系带，外裙偏深，中间开片露出浅色层褶。 |
+| BT098 | 扣饰双扇罩片半裙 | clasped double-swag skirt | 中央和两侧的扣饰固定双扇形罩片，下方叠粉色和奶油色褶层。 |
 
 ## 连身服装
 
@@ -350,6 +360,8 @@ AI 图为原创创作示意；历史、地域和专业防护样式用于角色�
 ![连身服装 露肩裙装](../images/sheet-op097-op112.png)
 
 ![连身服装 紧身服与连体训练服](../images/sheet-op113-op128.png)
+
+![洛丽塔裙 · 连衣裙版型对照](../images/sheet-op129-op136.png)
 
 | 编号 | 款式 | English | 可见结构 |
 | --- | --- | --- | --- |
@@ -481,6 +493,14 @@ AI 图为原创创作示意；历史、地域和专业防护样式用于角色�
 | OP126 | 科幻驾驶紧身服 | science-fiction pilot suit | 完整贴合长袖长裤，接口饰件与关节面片可见，原创非宇航装备。 |
 | OP127 | 分区发光紧身服 | luminous-panel fantasy bodysuit | 不透明完整衣身上有局部发光线，接缝与光线分别处理。 |
 | OP128 | 带裙片紧身连体服 | unitard with overskirt panels | 完整长裤连体衣外加短裙片，内外层腰部连接清楚。 |
+| OP129 | 方领圆廓背带蓬裙 | square-neck bell-shaped Lolita JSK | 方领宽肩带接合腰线，裙摆从腰下均匀展开为圆弧。 |
+| OP130 | 垂感长 A 字背带裙 | long draped A-line Lolita JSK | 方领背带裙的裙身延长，前片较平，裙边缓慢外扩。 |
+| OP131 | 双壳叠摆泡袖连衣裙 | puff-sleeve dress with two bell layers | 泡袖方领连衣裙叠两层完整弧形裙摆，上层边缘有两道细滚边。 |
+| OP132 | 偏腰开片拼色背带裙 | off-center split color-block Lolita JSK | 罩片从偏侧腰位分开，珊瑚色外片斜落，米色里裙一直露到下摆。 |
+| OP133 | 波浪前短后长蓬连裙 | scalloped high-low Lolita dress | 深蓝前摆抬高，连续波浪边绕向低垂后摆，裙身仍有蓬量。 |
+| OP134 | 三片开摆拼色连衣裙 | three-panel split-hem Lolita dress | 金黄色外裙分成中央长片与两侧弧片，抬开的两道间隙露出绿色里裙。 |
+| OP135 | 短肩披围裙式洛丽塔连裙 | capelet and apron-panel Lolita dress | 粉色短披肩盖住泡袖上方，白色扣襟下接一对弧形围裙片。 |
+| OP136 | 双弧罩摆燕尾连衣裙 | double-arc swallowtail Lolita dress | 梅色蓬裙前覆盖两片粉色弧摆，后片的两幅尖尾低于前摆。 |
 
 ## 外套与披覆
 
@@ -837,6 +857,16 @@ D数参考、袜长、材质、吊带与自持结构、袜裤、图案，以及�
 
 ![踩脚连裤袜 · 结构修订](../images/quality-v70-1-so075.png)
 
+![特色织纹与可调节袜筒](../images/sheet-so121-so128.png)
+
+![图案、刺绣与拼色袜](../images/sheet-so129-so136.png)
+
+![装饰袜口与局部开窗](../images/sheet-so137-so144-v5.png)
+
+![织纹、印花与拼接袜裤](../images/sheet-so145-so152.png)
+
+![主题装饰与幻想袜型](../images/sheet-so153-so160.png)
+
 | 编号 | 款式 | English | 可见结构 |
 | --- | --- | --- | --- |
 | FW021 | 短袜 | ankle socks | 袜口位于脚踝附近。 |
@@ -966,6 +996,46 @@ D数参考、袜长、材质、吊带与自持结构、袜裤、图案，以及�
 | SO118 | 后缝丝袜配后空鞋 | seamed hosiery with slingbacks | 后缝线通过脚跟转面，后绊带压在袜面上。 |
 | SO119 | 条纹长袜配厚底平鞋 | striped socks with platform shoes | 横条袜纹与厚底鞋侧壁形成轮廓对照。 |
 | SO120 | 拼色袜裤配低跟鞋 | color-block tights with low heels | 左右拼色连续延伸至鞋口，裙裤不遮挡观察区。 |
+| SO121 | 珍珠针圆粒中筒袜 | seed-stitch crew socks | 细小凸粒均匀铺满袜筒与脚背，罗纹袜口收束出清楚边界。 |
+| SO122 | 华夫格针织短袜 | waffle-knit ankle socks | 方形凹格织纹覆盖短袜鞋面，袜口、袜尖与后跟用实织区收边。 |
+| SO123 | 镂空叶脉长袜 | leaf-openwork knee socks | 长袜筒身竖排大叶形透孔，实织袜口和趾跟延续整体轮廓。 |
+| SO124 | 蜂巢格针织中筒袜 | honeycomb-knit crew socks | 浮起的六边形蜂巢格相互连接，延伸过脚踝和脚背。 |
+| SO125 | 双层卷边短袜 | double-rolled cuff ankle socks | 两道不同色的卷边依次叠在袜口，袜身保持平针薄织。 |
+| SO126 | 袜口开衩针织长袜 | slit-cuff knit knee socks | 长袜罗纹口外侧留短竖衩，开衩下端由连续袜身连接。 |
+| SO127 | 侧排扣针织袜套 | side-button knit leg warmers | 无足针织筒身以侧排小扣闭合，下缘止于脚踝上方。 |
+| SO128 | 抽绳褶筒袜套 | drawstring ruched leg warmers | 无足袜套沿两侧抽绳通道形成纵向聚褶，底部留绳结和短绳尾。 |
+| SO129 | 千鸟格长袜 | houndstooth knee socks | 黑白断角千鸟格从袜筒延伸至足部，纯色罗纹袜口压住图案上边缘。 |
+| SO130 | 窗格细线长袜 | windowpane-check knee socks | 深色底上用细浅色线围出大方窗格，格线随小腿和脚背弯曲。 |
+| SO131 | 佩斯利印花中筒袜 | paisley-print crew socks | 水滴卷曲形佩斯利纹分散排列，袜口、袜尖和后跟保留纯色。 |
+| SO132 | 新月星轨长袜 | crescent-and-orbit knee socks | 深蓝袜身布置浅金新月和细弧轨线，弧线在腿部连续穿行。 |
+| SO133 | 藤蔓刺绣长袜 | vine-embroidered knee socks | 袜筒外侧附窄条藤蔓刺绣，细枝与独立小叶沿小腿向上延伸。 |
+| SO134 | 踝侧花饰拼片长袜 | floral ankle-panel knee socks | 袜踝外侧缀花形蕾丝拼片，蓝色花朵和浅色叶片组成向上收窄的花束。 |
+| SO135 | 拼缝撞色中筒袜 | contrast-seam color-block crew socks | 锈红、米白和青绿布片斜向拼接，浅色锁边线把接缝明确勾出。 |
+| SO136 | 波浪纵纹长袜 | wavy-stripe knee socks | 粗细稳定的深色波浪纵纹沿袜筒下落，弯曲路径延续到脚背。 |
+| SO137 | 透纱叠口短袜 | organza-layered cuff socks | 实织短袜的袜口上叠接轻薄欧根纱，透纱波边向外展开。 |
+| SO138 | 双层蕾丝翻口短袜 | double-lace turn-down ankle socks | 两层扇贝花边向下翻叠在袜口外侧，实织袜身留出整洁背景。 |
+| SO139 | 珍珠链袜口短袜 | pearl-chain cuff socks | 细小珍珠串沿袜口布边固定一圈，深色实织袜身衬出珠粒。 |
+| SO140 | 侧系细绳短袜 | side-tie drawcord ankle socks | 短袜外侧袜口留小开口，细绳穿过带孔并在侧边打结。 |
+| SO141 | 心形开窗中筒袜 | heart-cutout crew socks | 每侧袜筒各留一枚心形开口，开口周围保留连续包边和袜面。 |
+| SO142 | 荷叶侧缝长袜 | ruffle-side-seam knee socks | 一条窄荷叶边沿袜筒外侧缝下垂，从袜口延伸到脚踝上方。 |
+| SO143 | 前饰大蝴蝶结长袜 | front-bow knee socks | 长袜口前中缀同色大蝴蝶结，两条短飘尾覆在袜筒正面。 |
+| SO144 | 纽襻搭桥袜口短袜 | button-tab cuff socks | 袜口正中留短开口，一条布质纽襻横跨两边并以单扣固定。 |
+| SO145 | 细人字纹连裤袜 | fine-herringbone tights | 深色不透明袜裤布满细密人字折纹，纹样跨过膝部继续到包足脚尖。 |
+| SO146 | 竖向麻花针织袜裤 | cable-knit footed tights | 宽麻花编织从腰口沿双腿下行，跨过膝盖并延续至脚背。 |
+| SO147 | 大理石晕纹袜裤 | marbled-pattern tights | 蓝灰晕染带和细脉在袜裤上流动，双腿上的纹理保持同一配色关系。 |
+| SO148 | 非对称斜切拼色袜裤 | asymmetrical diagonal-panel tights | 一侧大腿和另一侧小腿分别斜切拼色，形成高低错开的分界。 |
+| SO149 | 簇点小花袜裤 | clustered-flower-dot tights | 数枚浅色圆点聚成小花，花簇之间保持空隙并覆盖整条袜裤。 |
+| SO150 | 链式菱格提花袜裤 | chain-diamond jacquard tights | 连续套叠的金色菱环构成竖向提花带，沿双腿从上往下排列。 |
+| SO151 | 踝部拼蕾丝连裤袜 | lace-ankle panel tights | 不透明深色袜裤在脚踝拼入一圈浅色花形蕾丝，足部仍完整包覆。 |
+| SO152 | 波齿阶梯拼接袜裤 | scallop-step color-block tights | 膝上和膝下两道宽波齿拼色线围出中段色区，上下袜身连续。 |
+| SO153 | 菱形开窗绑带长袜 | lace-bridged diamond-cutout knee socks | 袜筒前方纵排菱形开窗，窄绳经两侧孔眼交叉连接，空区周围仍为实织袜身。 |
+| SO154 | 交叉缎带缠绕长袜 | crisscross-ribbon wrapped knee socks | 对比色缎带从脚踝向上交叉绕过实织袜筒，最终在袜口系结。 |
+| SO155 | 蝶翼袜口长袜 | butterfly-wing cuff knee socks | 袜口外侧接柔软蝶翼形布片，翼脉由缝线勾出，向两侧轻微展开。 |
+| SO156 | 星扣翻口长袜 | star-clasp turn-down knee socks | 长袜口向外翻折，一枚星形扣件固定在侧边折口处。 |
+| SO157 | 机能分段弹力袜套 | multi-panel technical knit leg sleeves | 无足袜套以深灰与青绿色弹力织片分段拼接，横向接缝环绕小腿。 |
+| SO158 | 羽缘飘带长袜 | feather-trim ribbon knee socks | 袜口缀一圈短仿羽缘，侧面浅色小结和短飘尾与实织袜身连接。 |
+| SO159 | 蔓叶缠边精灵长袜 | leaf-vine cuff elf stockings | 袜口叠接柔软叶形边片，细蔓饰绕过上段袜筒，金色叶脉纹沿腿部下行。 |
+| SO160 | 冰晶流苏袜口长袜 | crystal-tassel cuff stockings | 浅蓝长袜的口边挂短线穗与晶形小珠，袜筒以细浅色花纹呼应。 |
 
 ## 手套与手部服饰
 
@@ -1849,6 +1919,8 @@ D数参考、袜长、材质、吊带与自持结构、袜裤、图案，以及�
 
 ![夜宴·缎面与束腰裙装 · 组合示意](../images/sheet-costume-v64-evening.png)
 
+![洛丽塔裙 · 主题穿搭对照](../images/sheet-fs279-fs286.png)
+
 | 编号 | 款式 | English | 可见结构 |
 | --- | --- | --- | --- |
 | FS001 | 高领蕾丝哥特长裙 | high-neck lace goth ensemble | 高领包覆衬衣、暗色长裙与尖形首饰，蕾丝只在领袖边。 |
@@ -2129,6 +2201,14 @@ D数参考、袜长、材质、吊带与自持结构、袜裤、图案，以及�
 | FS276 | 系带束腰裙荷叶罩裙装 | lace up structured dress ruffle overskirt | 不透明系带束腰连衣裙配独立荷叶罩裙、手套、短靴与小礼帽。 |
 | FS277 | 缎面短礼裙碎花长袜装 | satin cocktail dress floral stockings | 象牙白不透明缎面短礼裙搭碎花过膝长袜、低跟鞋与小手包。 |
 | FS278 | 束腰短裙蕾丝短袜发箍装 | structured dress lace socks headband | 不透明短裙外叠束腰式上身，搭蕾丝边短袜、发箍与低跟短靴。 |
+| FS279 | 星芒罩纱洛丽塔礼装 | celestial tulle-overlay Lolita ensemble | 淡紫蓬裙覆盖双层星芒薄纱，星坠与头饰呼应，内裙有完整不透明底层。 |
+| FS280 | 墨绿薄披丝绒洛丽塔装 | forest velvet and sheer-cape Lolita ensemble | 墨绿丝绒裙身、透明感肩披和旧金色菱形扣构成深色叠层。 |
+| FS281 | 酒红玫瑰双尾洛丽塔礼装 | wine-rose twin-train Lolita ensemble | 酒红泡袖和玫瑰刺绣搭配多层短前摆，后方垂下两幅长尖尾。 |
+| FS282 | 薄荷可可菱格洛丽塔装 | mint-and-cocoa diamond Lolita coordinate | 奶油泡袖衬衫叠薄荷菱格裙，可可棕宽滚边配斜交腰带。 |
+| FS283 | 纸牌茶会洛丽塔装 | playing-card tea-party Lolita coordinate | 焦糖橘裙装搭深蓝腰带，侧置围裙及裙缘有明显的纸牌花色。 |
+| FS284 | 羽饰三角帽海盗洛丽塔装 | feathered-tricorn pirate Lolita coordinate | 三角帽上有长羽饰，酒红长外片跨在层褶裙外，腰部加斜搭带和链饰。 |
+| FS285 | 兔耳面包房洛丽塔装 | rabbit bakery Lolita coordinate | 兔耳形蝴蝶结配红粉格裙、口袋围裙，裙缘排布圆润的兔形面包纹。 |
+| FS286 | 菱格拼摆马戏洛丽塔装 | harlequin-panel circus Lolita coordinate | 钴蓝与金黄菱格布片拼接衣身，尖形交错裙片叠在浅色褶边上。 |
 
 ## 街头与嘻哈穿搭
 

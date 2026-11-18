@@ -116,6 +116,132 @@
           "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v74.0/female-appearance-atlas-offline-copy.zip"
         }
       ]
+    },
+    "v75.0": {
+      "content_version": "75.0",
+      "inventory_sha256": "ea4997206b30433c6e5e8a2ccfcc1786411eef4399f4b5be7e4ba440419cff0d",
+      "assets": [
+        {
+          "file": "female-appearance-atlas-images.zip",
+          "bytes": 1486536250,
+          "sha256": "a0d60a2b7dee01582fdfc6a6f3272f91e76f0c178024844bc8899abdcb25405d",
+          "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v75.0/female-appearance-atlas-images.zip"
+        },
+        {
+          "file": "female-appearance-atlas-offline-copy.zip",
+          "bytes": 1202199574,
+          "sha256": "f4c684d02a5bbafb3c0f9620ead784fa63547090e72f8174991bc3a3f8a68c5b",
+          "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v75.0/female-appearance-atlas-offline-copy.zip"
+        }
+      ]
+    },
+    "v76.0": {
+      "content_version": "76.0",
+      "inventory_sha256": "91aea53e76eb8e661213986045cd63ecd3b2ef7b7dc84f3d1b2f4ffdac1e682d",
+      "assets": [
+        {
+          "file": "female-appearance-atlas-images.zip",
+          "bytes": 1501002028,
+          "sha256": "e0735e35688d718c3f5ed96d123dec855035f7f15cd38c585e65ef671f41da2c",
+          "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v76.0/female-appearance-atlas-images.zip"
+        },
+        {
+          "file": "female-appearance-atlas-offline-copy.zip",
+          "bytes": 1217011558,
+          "sha256": "14b860ea82a348ae43aa8ad1db24dae770572e6493b837b318c92d89bdc0d37a",
+          "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v76.0/female-appearance-atlas-offline-copy.zip"
+        }
+      ]
+    },
+    "v77.0": {
+      "content_version": "77.0",
+      "inventory_sha256": "3f4044f225df76a8a68cd07afa7fee42cdb88c3e1b4efd9ea9b6e9eecfd7ef5a",
+      "assets": [
+        {
+          "file": "female-appearance-atlas-images.zip",
+          "bytes": 1510042466,
+          "sha256": "a3cd065d62d8a8cea23d047288d65077a211165f9a2fd240cde9379dda461d7d",
+          "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v77.0/female-appearance-atlas-images.zip"
+        },
+        {
+          "file": "female-appearance-atlas-offline-copy.zip",
+          "bytes": 1226311725,
+          "sha256": "2ada92570b31a4bc1b244b2a5a7088b3f02e0f9284d93085f9d92f825d8e019d",
+          "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v77.0/female-appearance-atlas-offline-copy.zip"
+        }
+      ]
+    },
+    "v78.0": {
+      "content_version": "78.0",
+      "inventory_sha256": "9a59c4e3eebab56cddd068ef2b2ddb62e919b85eb0e4dba6b3034ec08b19e708",
+      "assets": [
+        {
+          "file": "female-appearance-atlas-images.zip",
+          "bytes": 1518690388,
+          "sha256": "c0e86c5f31568b0fc9d6819eefef79f16b57a342e64dd09ebb5e868d26c4596a",
+          "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v78.0/female-appearance-atlas-images.zip"
+        },
+        {
+          "file": "female-appearance-atlas-offline-copy.zip",
+          "bytes": 1235235937,
+          "sha256": "b632203a3d980caaa3ad0a2fd375ca49a24695a355f059b768c92379d4cac1c1",
+          "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v78.0/female-appearance-atlas-offline-copy.zip"
+        }
+      ]
+    },
+    "v78.1": {
+      "content_version": "78.1",
+      "inventory_sha256": "c8c8b6c812c3a322658e13dfeda2407d956a083ed6568fe683d556664705d53a",
+      "assets": [
+        {
+          "file": "female-appearance-atlas-images.zip",
+          "bytes": 1518628014,
+          "sha256": "706f863d73ad4047fc2b5398bcc3ed2ab748cb34c10bccc8293a88d964c08573",
+          "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v78.1/female-appearance-atlas-images.zip"
+        },
+        {
+          "file": "female-appearance-atlas-offline-copy.zip",
+          "bytes": 1235183276,
+          "sha256": "9e4e60e083bb02cd1da4a0f4f9a70a9aa5bb91df950dfee67101bd935dcbf42b",
+          "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v78.1/female-appearance-atlas-offline-copy.zip"
+        }
+      ]
+    },
+    "v78.2": {
+      "content_version": "78.2",
+      "inventory_sha256": "f29504a20c8376bb5ec33b5eae79da31b98729b9dffbeed9f5f9ea361462ec9f",
+      "assets": [
+        {
+          "file": "female-appearance-atlas-images.zip",
+          "bytes": 1518658044,
+          "sha256": "babfa9911777d25c603a8b24eb59c702eb0a7a9a345fbc54cbf741744d974215",
+          "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v78.2/female-appearance-atlas-images.zip"
+        },
+        {
+          "file": "female-appearance-atlas-offline-copy.zip",
+          "bytes": 1235213524,
+          "sha256": "ee8036e699cc0b329de13c3ec66042be25550e5e467353dbf18a03e1524162a4",
+          "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v78.2/female-appearance-atlas-offline-copy.zip"
+        }
+      ]
+    },
+    "v78.3": {
+      "content_version": "78.3",
+      "inventory_sha256": "8d7d4dc4d1beb592f938f232a0fcb63f2a4f81bd551a0742267ff518d75599d6",
+      "assets": [
+        {
+          "file": "female-appearance-atlas-images.zip",
+          "bytes": 1518638769,
+          "sha256": "1e6e9bfd80d8f5f332af46105563d0ab8220277511614204ae98a6c0020324e7",
+          "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v78.3/female-appearance-atlas-images.zip"
+        },
+        {
+          "file": "female-appearance-atlas-offline-copy.zip",
+          "bytes": 1235196641,
+          "sha256": "3726da7844e5fcdd534d538d01b4d5cd142275eadaf8353ba908be467e1b2fdd",
+          "url": "https://github.com/GladosAI/female-appearance-atlas/releases/download/v78.3/female-appearance-atlas-offline-copy.zip"
+        }
+      ]
     }
   }
 }

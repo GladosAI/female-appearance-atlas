@@ -1,0 +1,918 @@
+{
+  "schema": "female-appearance-contribution/v1",
+  "entries": [
+    {
+      "stable_id": "FW095",
+      "category": "footwear",
+      "dimension": "平底鞋与经典细分",
+      "name": "双扣带厚底玛丽珍鞋",
+      "en": "double-strap platform Mary Janes",
+      "description": "圆头鞋面用两条并列扣带压住脚背，前后连续的厚底托起整只鞋。",
+      "note": "两条扣带分别接入鞋身，注意厚底前掌与鞋跟的连续轮廓。",
+      "aliases": [
+        "双带厚底玛丽珍",
+        "洛丽塔厚底鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0",
+      "styles": [
+        "lolita"
+      ]
+    },
+    {
+      "stable_id": "FW096",
+      "category": "footwear",
+      "dimension": "平底鞋与经典细分",
+      "name": "交叉缎带芭蕾平鞋",
+      "en": "crisscross-ribbon ballet flats",
+      "description": "带有成型薄外底的芭蕾平鞋，缎带从鞋口两侧交叉绕过脚背和脚踝。",
+      "note": "保留平鞋的完整鞋底，缎带应从鞋口延伸并贴着脚踝绕行。",
+      "aliases": [
+        "绑带芭蕾平底鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW097",
+      "category": "footwear",
+      "dimension": "平底鞋与经典细分",
+      "name": "三扣带圆头平鞋",
+      "en": "triple-strap round-toe flats",
+      "description": "三条窄扣带沿脚背依次排开，圆头和薄平底形成轻巧轮廓。",
+      "note": "三条带片的间距与脚背曲面协调，扣件和两端固定点清楚可见。",
+      "aliases": [
+        "三带平底鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW098",
+      "category": "footwear",
+      "dimension": "平底鞋与经典细分",
+      "name": "打结布面尖头平鞋",
+      "en": "knotted-fabric pointed flats",
+      "description": "柔软布面在前脚掌上方形成宽结，包覆侧腰与尖鞋头共同收束轮廓。",
+      "note": "结饰有两侧布片的来向，体积留在鞋面上方，鞋口仍与脚背贴合。",
+      "aliases": [
+        "结饰尖头平底鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW099",
+      "category": "footwear",
+      "dimension": "平底鞋与经典细分",
+      "name": "镂空侧腰系带平鞋",
+      "en": "lace-up cutaway flats",
+      "description": "鞋头和后跟保留皮面，两侧鞋腰挖空，鞋带跨过脚背连接两排带孔。",
+      "note": "空出的侧腰不画成透明皮革，鞋带逐孔穿接，保留底部连接。",
+      "aliases": [
+        "侧镂空绑带平鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW100",
+      "category": "footwear",
+      "dimension": "平底鞋与经典细分",
+      "name": "编织皮条乐福鞋",
+      "en": "woven-leather loafers",
+      "description": "乐福鞋的前鞋面由交错皮条编织，后跟与鞋口保持简洁实面。",
+      "note": "编条在边缘收入鞋面接缝，宽度和交叠方向在左右脚保持一致。",
+      "aliases": [
+        "编织乐福鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW101",
+      "category": "footwear",
+      "dimension": "平底鞋与经典细分",
+      "name": "方头折片平鞋",
+      "en": "square-toe foldover-vamp flats",
+      "description": "方形鞋头上覆盖两片宽折皮片，中央搭叠，低平底延续利落外形。",
+      "note": "中央搭叠应有明确上下层与边缘厚度，方鞋头留出脚趾容积。",
+      "aliases": [
+        "折叠鞋面平鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW102",
+      "category": "footwear",
+      "dimension": "平底鞋与经典细分",
+      "name": "双侧开窗环扣平鞋",
+      "en": "ring-buckle double-cutout flats",
+      "description": "圆头平鞋两侧各留椭圆开口，细踝带通过外侧环扣闭合。",
+      "note": "开窗由鞋面实边围住，踝带应接入后跟并沿足踝绕行。",
+      "aliases": [
+        "环扣镂空平底鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW103",
+      "category": "footwear",
+      "dimension": "鞋跟与礼装鞋型",
+      "name": "深V口细跟浅口鞋",
+      "en": "deep-V vamp stiletto pumps",
+      "description": "尖头包覆脚趾，鞋口在脚背正中下探成深V形，后方由细跟支撑。",
+      "note": "V口止于前鞋面上缘，保持鞋底、侧墙和后跟连贯。",
+      "aliases": [
+        "V口高跟鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW104",
+      "category": "footwear",
+      "dimension": "鞋跟与礼装鞋型",
+      "name": "高包背系带礼鞋",
+      "en": "lace-up high-vamp evening shoes",
+      "description": "封闭尖头延伸为高包背鞋面，两排带孔沿脚背向踝前上升，后跟纤细。",
+      "note": "两片带孔侧帮沿脚背成对抬高，系带的收紧方向随脚背起伏变化。",
+      "aliases": [
+        "高鞋面系带高跟鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW105",
+      "category": "footwear",
+      "dimension": "鞋跟与礼装鞋型",
+      "name": "双侧留空浅口鞋",
+      "en": "side-cutout dress pumps",
+      "description": "封闭鞋头与后跟杯之间两侧深度留空，纤细鞋底在中部连接前后。",
+      "note": "脚掌落点仍由鞋底连续承托，侧空区边缘顺着脚背弧线收口。",
+      "aliases": [
+        "侧空礼鞋",
+        "d'Orsay pumps"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW106",
+      "category": "footwear",
+      "dimension": "鞋跟与礼装鞋型",
+      "name": "花瓣护踝礼鞋",
+      "en": "petal-cuff evening heels",
+      "description": "包头礼鞋的后跟向上接花瓣形踝圈，宽瓣边缘围出柔和轮廓。",
+      "note": "护踝圈与后跟杯真实连接，花瓣围在足踝外侧，前掌和鞋跟均落地。",
+      "aliases": [
+        "花瓣踝带鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW107",
+      "category": "footwear",
+      "dimension": "鞋跟与礼装鞋型",
+      "name": "缎带绕踝蝴蝶结礼鞋",
+      "en": "ankle-ribbon bow heels",
+      "description": "包头细跟鞋用宽缎带绕踝，外侧打结并留两条短飘尾。",
+      "note": "缎带沿足踝表面转折，蝴蝶结具有中心结、两环与两尾。",
+      "aliases": [
+        "绕踝缎带礼鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW108",
+      "category": "footwear",
+      "dimension": "鞋跟与礼装鞋型",
+      "name": "叠层荷叶边穆勒鞋",
+      "en": "layered-ruffle heeled mules",
+      "description": "圆包头上方两层布质荷叶边顺次覆盖，后跟敞开，低粗跟承托脚跟。",
+      "note": "两道褶边从鞋面生出，波褶保持厚度，露跟边界与鞋底分清。",
+      "aliases": [
+        "荷叶边穆勒鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW109",
+      "category": "footwear",
+      "dimension": "鞋跟与礼装鞋型",
+      "name": "踝链连接后空鞋",
+      "en": "ankle-chain slingbacks",
+      "description": "尖头后空鞋保留皮质后束带，一段短链将束带接到环绕脚踝的细链。",
+      "note": "踝链有可追踪的闭合路径，短接链悬在侧后方，受力点与皮带相接。",
+      "aliases": [
+        "链条后空鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW110",
+      "category": "footwear",
+      "dimension": "鞋跟与礼装鞋型",
+      "name": "双层前台粗跟鞋",
+      "en": "double-platform block heels",
+      "description": "前掌厚台由两层阶状外底叠成，粗跟和细踝带形成上下轻重对比。",
+      "note": "两层厚台之间画出清楚接缝，左右脚的前台高度和鞋跟高度协调。",
+      "aliases": [
+        "双层厚台高跟鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW111",
+      "category": "footwear",
+      "dimension": "凉鞋、凉拖与透空鞋面",
+      "name": "拇趾环细带凉鞋",
+      "en": "toe-loop strappy sandals",
+      "description": "拇趾单独穿过完整皮环，两条细斜带横跨脚背，薄平底保留脚部轮廓。",
+      "note": "趾环围住拇趾根部，侧面细带落在鞋底边缘并与之连接。",
+      "aliases": [
+        "脚趾环凉鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW112",
+      "category": "footwear",
+      "dimension": "凉鞋、凉拖与透空鞋面",
+      "name": "交织绳编平底凉鞋",
+      "en": "woven-rope flat sandals",
+      "description": "柔软绳条在前掌交错成网，后束带延续绳编材质，平底轮廓完整。",
+      "note": "绳条交叠具有压覆关系，前脚掌仍贴在实体鞋床上。",
+      "aliases": [
+        "绳编凉鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW113",
+      "category": "footwear",
+      "dimension": "凉鞋、凉拖与透空鞋面",
+      "name": "后束带机能凉鞋",
+      "en": "heel-strapped utility sandals",
+      "description": "脚趾前方、脚背和后跟分别由宽软垫带固定，厚橡胶底带明显防滑纹。",
+      "note": "三处束带分别沿足部表面环绕，软垫厚度和闭合扣带需要可辨。",
+      "aliases": [
+        "机能运动凉鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW114",
+      "category": "footwear",
+      "dimension": "凉鞋、凉拖与透空鞋面",
+      "name": "一体镂孔包头洞洞鞋",
+      "en": "perforated molded clogs",
+      "description": "宽圆包头和鞋底一体成型，鞋面分布圆孔，后方活动束带围住脚跟。",
+      "note": "孔洞沿立体鞋面分布，后带转轴设在鞋身两侧，保留完整鞋头。",
+      "aliases": [
+        "洞洞鞋",
+        "molded clogs"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW115",
+      "category": "footwear",
+      "dimension": "凉鞋、凉拖与透空鞋面",
+      "name": "木底铆钉包头鞋",
+      "en": "studded wooden clogs",
+      "description": "包头皮面沿边用一排铆钉固定到厚木底上，后跟敞开。",
+      "note": "木底保留前后体积和木纹，铆钉沿皮面与木底交界连续排列。",
+      "aliases": [
+        "铆钉木底鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW116",
+      "category": "footwear",
+      "dimension": "居家软鞋与拖鞋",
+      "name": "绗缝软垫居家拖鞋",
+      "en": "quilted house slippers",
+      "description": "封闭前掌带蓬松菱格绗缝，后跟敞开，薄软底包布收边。",
+      "note": "菱格缝线压出适度凹陷，软垫体积与脚背接触一致。",
+      "aliases": [
+        "菱格家居拖鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW117",
+      "category": "footwear",
+      "dimension": "居家软鞋与拖鞋",
+      "name": "毛绒交叉带拖鞋",
+      "en": "faux-fur cross-strap slippers",
+      "description": "两条宽毛绒带在前掌交叉，露出脚趾与后跟，鞋床厚软。",
+      "note": "交叉处分清上压带和下层带，绒毛边缘服从带片的大形。",
+      "aliases": [
+        "交叉绒拖"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW118",
+      "category": "footwear",
+      "dimension": "居家软鞋与拖鞋",
+      "name": "软底包跟布鞋",
+      "en": "soft-soled closed-heel house shoes",
+      "description": "布质软鞋同时包覆脚趾和后跟，弹性收口围绕脚踝下缘，底部薄软。",
+      "note": "收口细褶均匀分布，后跟完整包住足部，保留布鞋底的厚度。",
+      "aliases": [
+        "包跟居家鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW119",
+      "category": "footwear",
+      "dimension": "靴筒、开合与靴型",
+      "name": "绒面系带沙漠短靴",
+      "en": "suede desert ankle boots",
+      "description": "简洁绒面短靴以少量带孔收口，软曲线鞋帮落在平整绉胶底上。",
+      "note": "带孔接入开放鞋襟，绒面和绉胶底用不同边缘质感区分。",
+      "aliases": [
+        "沙漠靴",
+        "desert boots"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW120",
+      "category": "footwear",
+      "dimension": "靴筒、开合与靴型",
+      "name": "防水拼接鸭嘴靴",
+      "en": "waterproof duck boots",
+      "description": "下半部为沟纹防水橡胶壳，上半部拼接系带布质靴帮，鞋头宽圆。",
+      "note": "橡胶与布面交界处留接缝，沟纹顺着鞋头曲面排列。",
+      "aliases": [
+        "鸭靴",
+        "duck boots"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW121",
+      "category": "footwear",
+      "dimension": "靴筒、开合与靴型",
+      "name": "长筒束口防雪靴",
+      "en": "drawcord tall winter boots",
+      "description": "保暖筒身升到膝下，顶端抽绳束紧，绗缝上部连接橡胶足壳。",
+      "note": "抽绳沿靴口通道收紧，保暖层保持松量，鞋筒底端连接足壳。",
+      "aliases": [
+        "抽绳长雪靴"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW122",
+      "category": "footwear",
+      "dimension": "靴筒、开合与靴型",
+      "name": "褶筒松垮长靴",
+      "en": "slouchy ruched tall boots",
+      "description": "软皮长靴的筒身在小腿处堆出连续横褶，低粗跟稳定整体轮廓。",
+      "note": "褶皱随筒身松量下垂，脚踝附近保持足部走向和完整靴底。",
+      "aliases": [
+        "堆堆长靴",
+        "slouch boots"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW123",
+      "category": "footwear",
+      "dimension": "靴筒、开合与靴型",
+      "name": "护套罩面短靴",
+      "en": "spats-covered ankle boots",
+      "description": "独立护套覆在踝靴鞋面和脚踝上，侧排小扣闭合，下缘拱起露出鞋头。",
+      "note": "护套与靴子之间保留分层边界，扣排和拱形下沿应服从脚背体积。",
+      "aliases": [
+        "护腿套短靴",
+        "spat boots"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW124",
+      "category": "footwear",
+      "dimension": "靴筒、开合与靴型",
+      "name": "侧开窗扣带踝靴",
+      "en": "side-cutout ankle boots",
+      "description": "踝骨下方的靴侧开大窗，窄皮带跨过空区，靴口与后跟仍连成一体。",
+      "note": "开窗四周保留支撑皮条，扣带两端接入鞋帮，脚踝有活动余量。",
+      "aliases": [
+        "镂空侧帮靴"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW125",
+      "category": "footwear",
+      "dimension": "靴筒、开合与靴型",
+      "name": "针织折领系带靴",
+      "en": "knit-cuff lace-up boots",
+      "description": "中筒系带靴的顶部翻出厚针织袜领，柔软浅色折边压在硬挺靴帮外侧。",
+      "note": "针织罗纹沿筒口翻折，折边体积与皮质靴帮分开描绘。",
+      "aliases": [
+        "翻领毛线口靴"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW126",
+      "category": "footwear",
+      "dimension": "靴筒、开合与靴型",
+      "name": "钩扣多带短靴",
+      "en": "hook-fastened multi-strap ankle boots",
+      "description": "三条宽带横跨实面鞋舌，以扁平金属钩扣闭合，厚底延伸到鞋跟。",
+      "note": "每个钩扣都有对应挂点，宽带平贴鞋舌并沿脚背依次排列。",
+      "aliases": [
+        "钩扣机能靴"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW127",
+      "category": "footwear",
+      "dimension": "运动、机能与休闲鞋型",
+      "name": "高帮缓震篮球鞋",
+      "en": "high-top basketball shoes",
+      "description": "厚软鞋领包住脚踝，系带鞋面接入宽厚缓震底，前掌外底较宽。",
+      "note": "鞋领衬垫和脚踝留出贴合空间，鞋带固定在鞋舌两侧。",
+      "aliases": [
+        "篮球鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW128",
+      "category": "footwear",
+      "dimension": "运动、机能与休闲鞋型",
+      "name": "锁扣骑行鞋",
+      "en": "cleated cycling shoes",
+      "description": "低帮硬底鞋以旋钮和细线束紧鞋面，前掌下方带小型锁片。",
+      "note": "沿导环追踪束线，锁片固定在鞋底下，鞋体保持贴脚。",
+      "aliases": [
+        "骑行锁鞋",
+        "自行车锁鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW129",
+      "category": "footwear",
+      "dimension": "运动、机能与休闲鞋型",
+      "name": "多卡扣硬壳滑雪靴",
+      "en": "hard-shell ski boots",
+      "description": "硬质塑料足壳向上包住小腿，多个金属扣横跨开合面，厚底完整落地。",
+      "note": "各卡扣跨接壳体两侧，足踝与小腿护壳之间有可辨连接。",
+      "aliases": [
+        "双板滑雪靴",
+        "ski boots"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW130",
+      "category": "footwear",
+      "dimension": "舞蹈、冰轮与文化灵感鞋",
+      "name": "单排四轮轮滑鞋",
+      "en": "four-wheel inline skates",
+      "description": "硬质踝帮连接下方长轮架，每只鞋四枚轮子沿前后方向排成单列。",
+      "note": "轮轴沿同一平面排列，后刹车固定在其中一只鞋的轮架尾端。",
+      "aliases": [
+        "直排轮滑鞋",
+        "inline skates"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW131",
+      "category": "footwear",
+      "dimension": "运动、机能与休闲鞋型",
+      "name": "橡胶包趾攀岩鞋",
+      "en": "rubber-toe climbing shoes",
+      "description": "低帮鞋贴合足形，厚橡胶围住弯曲前掌和鞋尖，两条搭扣固定脚背。",
+      "note": "鞋尖包胶随脚趾方向收束，脚背带从两侧固定并留可见边缘。",
+      "aliases": [
+        "攀岩鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW132",
+      "category": "footwear",
+      "dimension": "运动、机能与休闲鞋型",
+      "name": "排水网孔涉水鞋",
+      "en": "drainable mesh water shoes",
+      "description": "细网面包覆脚背，弹力绳扣收口，包头薄橡胶底带可见排水孔。",
+      "note": "网面透气区域与橡胶包边分清，束绳通过导环绕到收紧扣。",
+      "aliases": [
+        "涉水鞋",
+        "水陆鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW133",
+      "category": "footwear",
+      "dimension": "幻想与角色主题鞋",
+      "name": "叶脉缠带精灵鞋",
+      "en": "leaf-vein wrap elf shoes",
+      "description": "软绿色鞋面带叶脉分片，尖头轻微上卷，叶形细带沿脚踝缠绕。",
+      "note": "叶片构成可穿着的鞋面，踝带连接鞋身，卷尖保持小体积。",
+      "aliases": [
+        "精灵叶片鞋"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    },
+    {
+      "stable_id": "FW134",
+      "category": "footwear",
+      "dimension": "幻想与角色主题鞋",
+      "name": "分节机械支架长靴",
+      "en": "articulated exoskeleton boots",
+      "description": "封闭长靴外侧有银色支架，自后跟延伸到小腿，并以数个转轴连接。",
+      "note": "外支架附着在靴体表面，转轴位置服从足踝活动方向和接触关系。",
+      "aliases": [
+        "外骨骼靴",
+        "机械外支架靴"
+      ],
+      "origin": "editorial",
+      "added_in": "77.0"
+    }
+  ],
+  "boards": [
+    {
+      "id": "footwear-v77-flats",
+      "category": "footwear",
+      "title": "装饰平鞋与厚底扣带鞋",
+      "image": "images/sheet-fw095-fw102.png",
+      "width": 1672,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        418,
+        836,
+        1254,
+        1672
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创人物鞋履穿着示意",
+      "prompt": "Use case: stylized-concept. Create an original professional anime fashion footwear reference atlas, a landscape image at approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent portrait-shaped rectangular cells, straight thin pale-grey dividers at x=25%,50%,75%, y=50%. A single matching pair of women's shoes is being WORN on the two anatomically natural lower legs of ONE ADULT woman in each cell. Frame only from just below her knees to the ground, with knees/legs naturally entering through the top edge. In each cell both shoes, toes, heels, soles and every fastening are fully visible with generous left, right and bottom margins. Both feet rest naturally on an ivory floor, one slightly ahead and turned outward to show the side construction, no crossed legs. Clean ivory background, crisp refined line art and soft cel shading, fabric and leather readable, consistent gentle daylight, attractive slim adult female leg proportions. Large shoe details occupy most of the lower two thirds of each tile. Eight clearly DIFFERENT original designs, no brand, logos, text, captions, IDs, inset diagrams, watermark, full-body figures, floating shoes, overlapping cells or crops of shoe tips. Each boot must visibly enclose the leg, each strap wraps and connects to the corresponding shoe. The TWO FEET in a cell MUST wear the SAME shoe design and color. Order is left-to-right row one then left-to-right row two. Eight decorative flat and platform shoes. Row one: (1) Burgundy round-toe PLATFORM MARY JANES with a continuous 3cm black platform sole and exactly TWO narrow parallel buckled instep straps, white ankle socks. (2) Dusty pink structured BALLET FLATS with a thin flat outsole and satin RIBBONS visibly CROSSING over the instep then wrapping twice around the ankles, small bows on outer ankles, bare ankles. (3) Dark navy round-toe thin-soled flats with exactly THREE narrow horizontal silver-buckled instep straps running from toe area toward ankle, white ankle socks. (4) Olive soft-fabric pointed-toe flats with a LARGE FABRIC KNOT centered on the toe vamp, closed sides, bare ankles. Row two: (5) Brown pointed flats with narrow leather toe cap and heel cup, open SIDE WAISTS with laces that BRIDGE the open instep through actual eyelets, bare ankles. (6) Tan loafers with broad woven interlaced LEATHER STRIPS covering the entire vamp, solid plain heel and thin low outsole, bare ankles. (7) Cream square-toe low flats, TWO wide folded-over rectangular leather FLAPS form a visible central overlap across the toe vamp, bare ankles. (8) Black round-toe flats with TWO oval SIDE CUTOUTS each near the waist and a single silver RING-BUCKLE ankle strap, bare ankles. Ensure each listed construction is clearly visible, do not substitute generic pumps.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "FW095",
+          "label": "FW095",
+          "name": "双扣带厚底玛丽珍鞋"
+        },
+        {
+          "entry_id": "FW096",
+          "label": "FW096",
+          "name": "交叉缎带芭蕾平鞋"
+        },
+        {
+          "entry_id": "FW097",
+          "label": "FW097",
+          "name": "三扣带圆头平鞋"
+        },
+        {
+          "entry_id": "FW098",
+          "label": "FW098",
+          "name": "打结布面尖头平鞋"
+        },
+        {
+          "entry_id": "FW099",
+          "label": "FW099",
+          "name": "镂空侧腰系带平鞋"
+        },
+        {
+          "entry_id": "FW100",
+          "label": "FW100",
+          "name": "编织皮条乐福鞋"
+        },
+        {
+          "entry_id": "FW101",
+          "label": "FW101",
+          "name": "方头折片平鞋"
+        },
+        {
+          "entry_id": "FW102",
+          "label": "FW102",
+          "name": "双侧开窗环扣平鞋"
+        }
+      ]
+    },
+    {
+      "id": "footwear-v77-heels",
+      "category": "footwear",
+      "title": "礼装鞋口、踝带与鞋跟",
+      "image": "images/sheet-fw103-fw110.png",
+      "width": 1672,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        418,
+        836,
+        1254,
+        1672
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创人物鞋履穿着示意",
+      "prompt": "Use case: stylized-concept. Create an original professional anime fashion footwear reference atlas, a landscape image at approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent portrait-shaped rectangular cells, straight thin pale-grey dividers at x=25%,50%,75%, y=50%. A single matching pair of women's shoes is being WORN on the two anatomically natural lower legs of ONE ADULT woman in each cell. Frame only from just below her knees to the ground, with knees/legs naturally entering through the top edge. In each cell both shoes, toes, heels, soles and every fastening are fully visible with generous left, right and bottom margins. Both feet rest naturally on an ivory floor, one slightly ahead and turned outward to show the side construction, no crossed legs. Clean ivory background, crisp refined line art and soft cel shading, fabric and leather readable, consistent gentle daylight, attractive slim adult female leg proportions. Large shoe details occupy most of the lower two thirds of each tile. Eight clearly DIFFERENT original designs, no brand, logos, text, captions, IDs, inset diagrams, watermark, full-body figures, floating shoes, overlapping cells or crops of shoe tips. Each boot must visibly enclose the leg, each strap wraps and connects to the corresponding shoe. The TWO FEET in a cell MUST wear the SAME shoe design and color. Order is left-to-right row one then left-to-right row two. Eight dress-heel constructions, bare ankles and no socks. Row one: (1) Burgundy pointed STILETTO pumps with an unusually deep narrow V-shaped TOPLINE down the vamp, otherwise solid sidewalls and fully enclosed toe, a real continuous shoe bottom. (2) Black HIGH-VAMP evening pumps with a closed pointed toe and lace-up front extending high over the instep nearly to ankle, medium narrow heel, two lace panels and clearly connected eyelets. (3) Ivory pointed pumps with enclosed toe and heel cups connected ONLY at the sole; deep symmetric SIDE CUTOUTS leave the middle of both foot sides exposed, medium heel. (4) Plum closed-toe evening heels with a sculpted wide PETAL-SHAPED CUFF wrapping round each ankle, three large lobes on the cuff, cuff joined to closed heel cup. Row two: (5) Blush closed-toe pumps with broad satin ribbons wrapped round each ankle and a LARGE OUTER-ANKLE BOW with two short visible tails, medium heel. (6) Powder blue OPEN-HEEL MULES with two stacked fabric RUFFLES across the entire forefoot, low block heel, open back and closed rounded toe. (7) Black pointed SLINGBACK pumps with a fine GOLD CHAIN encircling ankle connected by a small vertical chain link to the leather back strap, low tapered heel. (8) Cream round-toe dress shoes with a visibly DOUBLE-STEP thick forefoot PLATFORM made of two stacked outsole layers and a wide BLOCK HEEL, a thin ankle strap. Every heel solidly supports its matching shoe, all shoes fully grounded with correct leg-to-foot anatomy.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "FW103",
+          "label": "FW103",
+          "name": "深V口细跟浅口鞋"
+        },
+        {
+          "entry_id": "FW104",
+          "label": "FW104",
+          "name": "高包背系带礼鞋"
+        },
+        {
+          "entry_id": "FW105",
+          "label": "FW105",
+          "name": "双侧留空浅口鞋"
+        },
+        {
+          "entry_id": "FW106",
+          "label": "FW106",
+          "name": "花瓣护踝礼鞋"
+        },
+        {
+          "entry_id": "FW107",
+          "label": "FW107",
+          "name": "缎带绕踝蝴蝶结礼鞋"
+        },
+        {
+          "entry_id": "FW108",
+          "label": "FW108",
+          "name": "叠层荷叶边穆勒鞋"
+        },
+        {
+          "entry_id": "FW109",
+          "label": "FW109",
+          "name": "踝链连接后空鞋"
+        },
+        {
+          "entry_id": "FW110",
+          "label": "FW110",
+          "name": "双层前台粗跟鞋"
+        }
+      ]
+    },
+    {
+      "id": "footwear-v77-sandals",
+      "category": "footwear",
+      "title": "凉鞋、洞洞鞋与居家软鞋",
+      "image": "images/sheet-fw111-fw118.png",
+      "width": 1672,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        418,
+        836,
+        1254,
+        1672
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创人物鞋履穿着示意",
+      "prompt": "Use case: stylized-concept. Create an original professional anime fashion footwear reference atlas, a landscape image at approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent portrait-shaped rectangular cells, straight thin pale-grey dividers at x=25%,50%,75%, y=50%. A single matching pair of women's shoes is being WORN on the two anatomically natural lower legs of ONE ADULT woman in each cell. Frame only from just below her knees to the ground, with knees/legs naturally entering through the top edge. In each cell both shoes, toes, heels, soles and every fastening are fully visible with generous left, right and bottom margins. Both feet rest naturally on an ivory floor, one slightly ahead and turned outward to show the side construction, no crossed legs. Clean ivory background, crisp refined line art and soft cel shading, fabric and leather readable, consistent gentle daylight, attractive slim adult female leg proportions. Large shoe details occupy most of the lower two thirds of each tile. Eight clearly DIFFERENT original designs, no brand, logos, text, captions, IDs, inset diagrams, watermark, full-body figures, floating shoes, overlapping cells or crops of shoe tips. Each boot must visibly enclose the leg, each strap wraps and connects to the corresponding shoe. The TWO FEET in a cell MUST wear the SAME shoe design and color. Order is left-to-right row one then left-to-right row two. Eight sandals and indoor shoes. Row one: (1) Light tan FLAT sandals with a closed LOOP around the BIG TOE and two fine diagonal leather straps across the middle of the foot; toe loop distinct from a thong post. (2) Muted sage natural ROPE-WOVEN flat sandals, interlaced soft rope on the forefoot and a rope heel strap, flat solid sole. (3) Grey and teal UTILITY SANDALS with two broad padded hook-and-loop straps over the toes and instep and a third broad strap round the BACK OF THE HEEL, lugged rubber sole. (4) Pale yellow one-piece molded CLOGS, broad fully closed rounded toe shell with orderly round ventilation holes, swivel strap around back of heel, same molded material for shell and sole, NO brand. Row two: (5) Warm brown leather closed-toe CLOGS with a thick natural WOODEN SOLE and a row of small metal STUDS holding the leather edge to the wood, open heel. (6) Blue quilted closed-toe HOUSE SLIPPERS, raised diamond quilting over soft padded forefoot, open heel and thin fabric-covered outsole. (7) Cream FAUX-FUR slippers with exactly TWO broad CROSSING plush straps on the forefoot, open toe and open heel, flat padded soles. (8) Mauve soft-soled entirely CLOTH indoor shoes, CLOSED TOES and CLOSED HEELS with elastic gathered rim around opening, padded fabric soles, clearly distinct from open-back slippers. In each cell two natural feet in the same shoe design. Toes only visible where the shoe is open, no extra toes and no cut-away illustration.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "FW111",
+          "label": "FW111",
+          "name": "拇趾环细带凉鞋"
+        },
+        {
+          "entry_id": "FW112",
+          "label": "FW112",
+          "name": "交织绳编平底凉鞋"
+        },
+        {
+          "entry_id": "FW113",
+          "label": "FW113",
+          "name": "后束带机能凉鞋"
+        },
+        {
+          "entry_id": "FW114",
+          "label": "FW114",
+          "name": "一体镂孔包头洞洞鞋"
+        },
+        {
+          "entry_id": "FW115",
+          "label": "FW115",
+          "name": "木底铆钉包头鞋"
+        },
+        {
+          "entry_id": "FW116",
+          "label": "FW116",
+          "name": "绗缝软垫居家拖鞋"
+        },
+        {
+          "entry_id": "FW117",
+          "label": "FW117",
+          "name": "毛绒交叉带拖鞋"
+        },
+        {
+          "entry_id": "FW118",
+          "label": "FW118",
+          "name": "软底包跟布鞋"
+        }
+      ]
+    },
+    {
+      "id": "footwear-v77-boots",
+      "category": "footwear",
+      "title": "新靴型与靴筒结构",
+      "image": "images/sheet-fw119-fw126.png",
+      "width": 1672,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        418,
+        836,
+        1254,
+        1672
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创人物鞋履穿着示意",
+      "prompt": "Use case: stylized-concept. Create an original professional anime fashion footwear reference atlas, a landscape image at approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent portrait-shaped rectangular cells, straight thin pale-grey dividers at x=25%,50%,75%, y=50%. A single matching pair of women's shoes is being WORN on the two anatomically natural lower legs of ONE ADULT woman in each cell. Frame only from just below her knees to the ground, with knees/legs naturally entering through the top edge. In each cell both shoes, toes, heels, soles and every fastening are fully visible with generous left, right and bottom margins. Both feet rest naturally on an ivory floor, one slightly ahead and turned outward to show the side construction, no crossed legs. Clean ivory background, crisp refined line art and soft cel shading, fabric and leather readable, consistent gentle daylight, attractive slim adult female leg proportions. Large shoe details occupy most of the lower two thirds of each tile. Eight clearly DIFFERENT original designs, no brand, logos, text, captions, IDs, inset diagrams, watermark, full-body figures, floating shoes, overlapping cells or crops of shoe tips. Each boot must visibly enclose the leg, each strap wraps and connects to the corresponding shoe. The TWO FEET in a cell MUST wear the SAME shoe design and color. Order is left-to-right row one then left-to-right row two. Eight boot constructions. Frame from just ABOVE THE KNEES to ground in ALL eight cells to fit tall shafts, plain skirt hem barely entering at top edge, both boots and soles complete. Row one: (1) Beige suede DESERT ANKLE BOOTS, simple softly curved two-piece upper with only TWO PAIRS OF LACE EYELETS, untextured crepe flat sole. (2) Olive DUCK BOOTS, dark waterproof molded RUBBER lower shell with horizontal ribbing around toe and cream lace-up FABRIC upper reaching above ankle, seam between rubber and cloth clearly visible. (3) Cream tall WINTER BOOTS to below knees, quilted insulated shafts ending in gathered DRAWCORD RIMS with little cord toggles, dark rounded rubber foot shell. (4) Dark brown knee-high SLOUCH BOOTS, shafts visibly form several deep horizontal soft RUCHED FOLDS along calf, ordinary low block heel, shafts stay below knee. Row two: (5) Black ankle boots covered by a separate grey SPAT GAITER with a row of small side buttons and a visibly separate lower edge arching over the vamp, gaiter leaves toe and heel exposed. (6) Tan low-heeled ankle boots with LARGE DIAMOND SIDE OPENINGS below each ankle and a narrow joining strap across each opening; upper cuff and heel cup remain connected to sole. (7) Burgundy lace-up mid-calf boots with thick rolled cream KNITTED CUFFS folded over the top, ordinary continuous lacing and sturdy soles. (8) Charcoal ankle-high utility boots secured by THREE broad HORIZONTAL STRAPS with flat METAL HOOK CLOSURES over a solid tongue, no lacing, thick black soles. Distinct complete shafts, coherent closures and real feet inside boots.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "FW119",
+          "label": "FW119",
+          "name": "绒面系带沙漠短靴"
+        },
+        {
+          "entry_id": "FW120",
+          "label": "FW120",
+          "name": "防水拼接鸭嘴靴"
+        },
+        {
+          "entry_id": "FW121",
+          "label": "FW121",
+          "name": "长筒束口防雪靴"
+        },
+        {
+          "entry_id": "FW122",
+          "label": "FW122",
+          "name": "褶筒松垮长靴"
+        },
+        {
+          "entry_id": "FW123",
+          "label": "FW123",
+          "name": "护套罩面短靴"
+        },
+        {
+          "entry_id": "FW124",
+          "label": "FW124",
+          "name": "侧开窗扣带踝靴"
+        },
+        {
+          "entry_id": "FW125",
+          "label": "FW125",
+          "name": "针织折领系带靴"
+        },
+        {
+          "entry_id": "FW126",
+          "label": "FW126",
+          "name": "钩扣多带短靴"
+        }
+      ]
+    },
+    {
+      "id": "footwear-v77-special",
+      "category": "footwear",
+      "title": "专项运动与幻想鞋型",
+      "image": "images/sheet-fw127-fw134.png",
+      "width": 1672,
+      "height": 941,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        418,
+        836,
+        1254,
+        1672
+      ],
+      "row_boundaries": [
+        0,
+        470,
+        941
+      ],
+      "origin": "AI 生成的原创人物鞋履穿着示意",
+      "prompt": "Use case: stylized-concept. Create an original professional anime fashion footwear reference atlas, a landscape image at approximately 16:9. EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight independent portrait-shaped rectangular cells, straight thin pale-grey dividers at x=25%,50%,75%, y=50%. A single matching pair of women's shoes is being WORN on the two anatomically natural lower legs of ONE ADULT woman in each cell. Frame only from just below her knees to the ground, with knees/legs naturally entering through the top edge. In each cell both shoes, toes, heels, soles and every fastening are fully visible with generous left, right and bottom margins. Both feet rest naturally on an ivory floor, one slightly ahead and turned outward to show the side construction, no crossed legs. Clean ivory background, crisp refined line art and soft cel shading, fabric and leather readable, consistent gentle daylight, attractive slim adult female leg proportions. Large shoe details occupy most of the lower two thirds of each tile. Eight clearly DIFFERENT original designs, no brand, logos, text, captions, IDs, inset diagrams, watermark, full-body figures, floating shoes, overlapping cells or crops of shoe tips. Each boot must visibly enclose the leg, each strap wraps and connects to the corresponding shoe. The TWO FEET in a cell MUST wear the SAME shoe design and color. Order is left-to-right row one then left-to-right row two. Six specialist sport shoes and two completely original fantasy footwear designs. Row one: (1) White and orange HIGH-TOP BASKETBALL shoes with padded high collars wrapping ankles, conventional laces and broad CUSHIONED SOLES, white crew socks. (2) Black low-profile CYCLING SHOES with STIFF thin soles, two small closure DIALS and fine cable fastening across the upper; small cleat visible just under the forefoot on the slightly outward-turned shoe without lifting either foot, low black socks. (3) White rigid PLASTIC SKI BOOTS with overlapping hard-shell cuffs and THREE BLUE METAL BUCKLES each, flat thick soles; no skis. (4) Dark-purple INLINE ROLLER SKATES, hard ankle cuff, heel brake on one boot, exactly FOUR WHEELS IN A SINGLE LONGITUDINAL LINE under EACH boot, no quad-wheel arrangement. Row two: (5) Yellow close-fitting CLIMBING SHOES, strongly curved black RUBBER TOE CAPS around the forefoot, two broad hook-and-loop straps, low cuff, feet resting without athletic action. (6) Grey aquatic WATER SHOES, fine DRAINAGE MESH across uppers, elastic toggle at instep, narrow perforated rubber outsoles and closed rounded toe. (7) Fantasy ELF ankle shoes, soft sage-green leaf-veined panels with a gently CURLED pointed toe on each foot, matching narrow leaf-shaped bands winding round ankles, brown thin soles, no logo or borrowed character. (8) Original science-fiction calf boots with a normal solid graphite enclosed shoe and slim external silver ARTICULATED EXOSKELETON linking heel to calf by visible hinge pivots; a pale blue panel beside calf, functional normal humanoid proportions and no weapons. Keep frames on knees-to-ground, fully visible wheels, boot bottoms and shoe tips.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "FW127",
+          "label": "FW127",
+          "name": "高帮缓震篮球鞋"
+        },
+        {
+          "entry_id": "FW128",
+          "label": "FW128",
+          "name": "锁扣骑行鞋"
+        },
+        {
+          "entry_id": "FW129",
+          "label": "FW129",
+          "name": "多卡扣硬壳滑雪靴"
+        },
+        {
+          "entry_id": "FW130",
+          "label": "FW130",
+          "name": "单排四轮轮滑鞋"
+        },
+        {
+          "entry_id": "FW131",
+          "label": "FW131",
+          "name": "橡胶包趾攀岩鞋"
+        },
+        {
+          "entry_id": "FW132",
+          "label": "FW132",
+          "name": "排水网孔涉水鞋"
+        },
+        {
+          "entry_id": "FW133",
+          "label": "FW133",
+          "name": "叶脉缠带精灵鞋"
+        },
+        {
+          "entry_id": "FW134",
+          "label": "FW134",
+          "name": "分节机械支架长靴"
+        }
+      ]
+    }
+  ],
+  "references": []
+}

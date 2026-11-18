@@ -47,7 +47,8 @@ async function exportDetailImage(button){
    showImageExportStatus(status,'图片已复制',true);
   }else{
    const blob=await entryImagePNG(e,kind),url=URL.createObjectURL(blob),a=document.createElement('a');
-   const suffix={fullbody:'全身',object:e.fullbody_visual?'近景':e.wearing_visual?'物件':'',wearing:'佩戴'}[kind]||'';
+   const clothing=isClothingWearingReference(e);
+   const suffix={fullbody:'全身',object:e.fullbody_visual?'近景':e.wearing_visual?(clothing?'结构':'物件'):'',wearing:clothing?'上身':'佩戴'}[kind]||'';
    a.href=url;a.download=(e.id+'-'+e.name+(suffix?'-'+suffix:'')).replace(/[<>:"/\\|?*\u0000-\u001f]/g,'_')+'.png';
    (button.closest('dialog')||document.body).append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);
    showImageExportStatus(status,'下载已开始',true);
