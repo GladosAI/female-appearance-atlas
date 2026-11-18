@@ -35,6 +35,8 @@
 - [Medusa in Ancient Greek Art](https://www.metmuseum.org/toah/hd/medu/hd_medu.htm) — The Metropolitan Museum of Art。美杜莎的图像有多种历史形态，蛇发是常见标志；与雅典娜护甲图像也有关联。新图选择完整蛇发人身，不描绘斩首情节。
 - [The Birth of Venus by Botticelli](https://www.uffizi.it/en/artworks/birth-of-venus) — Uffizi Galleries。维纳斯及贝壳意象的艺术阅读入口。图鉴另创完整垂袍、珠饰与贝壳扣造型，不复刻原作姿态或裸身。
 - [The old religion](https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/religion-magic-death-and-rituals/the-old-religion/) — National Museum of Denmark。北欧神祇与雷神之锤等标志物的阅读入口。图鉴奥丁、雷神是女性化原创改编，不代表传统图像或现成影视人设。
+- [《轻音少女！》作品与人物设计资料](https://www.kyotoanimation.co.jp/works/k-on/) — 京都动画。京都动画的《轻音少女！》作品页，列有角色设计与总作画监督堀口悠纪子。用于了解条目的日常动画参考语境。
+- [《Shining Tears》角色设计 Tony 访谈](https://www.sega.jp/fb/segavoice/041103/01.html) — SEGA VOICE。世嘉对角色设计师 Tony 的访谈，介绍其参与《Shining Tears》角色设计的经过与构思。用于了解条目的游戏插画参考语境。
 - [Camera Terms, Prompts, & Examples](https://help.runwayml.com/hc/en-us/articles/46749315925395-Camera-Terms-Prompts-Examples) — Runway。区分固定支点的摇镜、机位移动、变焦及其他常见镜头术语。
 - [What is a dolly zoom: How to film the Vertigo effect](https://www.adobe.com/creativecloud/video/production/cinematography/camera-shots-and-angles/dolly-zoom-shot.html) — Adobe。介绍机位移动与反向变焦配合所产生的空间观感。
 - [Cameras — Camera behaviors](https://help.apple.com/motion/mac/5.0/help/English/en/motion/usermanual/chapter_21_section_5.html) — Apple Motion User Manual。区分 Dolly、Focus、Zoom 等相机行为，可对照转焦与变焦。
@@ -54,6 +56,7 @@
 - [Girl’s Illustration Seminar 2026 — オトメイト×バンタン](https://www.vantan-game.com/gis2026/) — Vantan Game Academy / Otomate。主办方介绍由实际原画师和彩色担当讲解角色制作、彩色与图层的课程。支持乙游原稿存在多种制作环节，不表示本图鉴所有案例均取自其课程。
 - [About Material Separation](https://docs.live2d.com/en/cubism-editor-manual/divide-the-material/) — Live2D Cubism Manual。说明为动态建模准备的部件拆分与图像数据；本图鉴只画方法示意，没有交付PSD或绑定模型。
 - [Creating the many Faces of Horizon Forbidden West](https://www.guerrilla-games.com/read/creating-the-many-faces-of-horizon-forbidden-west) — Guerrilla。官方讲座介绍写实角色面部的制作流程、质量与外观开发；用于理解原稿之后的制作验证语境。
+- [《洛丽塔裙》素材](https://mp.weixin.qq.com/s?__biz=MzkyOTY1MjkzNQ==&mid=2247484896&idx=1&sn=b2fb5a68ecc67a50944e32a05f10a0f5) — 美术课件。该页集合多组裙装结构和主题搭配图例。新图鉴据此归纳叠摆、开片、领缘、材质及整套搭配的可见特征。
 
 ## 配图图集
 

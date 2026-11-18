@@ -1,0 +1,1064 @@
+{
+  "schema": "female-appearance-quality-review/v1",
+  "batch": "2026-11-18-hosiery-expansion",
+  "catalog_version": "78.0",
+  "date": "2026-11-18",
+  "reviewer": "Codex AI-assisted visual review",
+  "scope": {
+    "entries": 40,
+    "visuals": 40,
+    "categories": [
+      "hosiery"
+    ],
+    "category_counts": {
+      "hosiery": 40
+    }
+  },
+  "method": "Reviewed all five source sheets for design correspondence, worn pairs, visible cuff edges, knit and trim structures, complete enclosed feet or open leg-warmer edges, and ID-to-cell mapping. Measured four-column/two-row boundaries in original image pixels.",
+  "issues": [],
+  "changed_entries": [],
+  "export_representatives": [],
+  "resource_release": "v78.0",
+  "records": [
+    {
+      "entry_id": "SO121",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so121-so128.png",
+      "image_sha256": "e57046f4b29770439943917b96c4dadbf5ebd7864894e426571638beba401070",
+      "visual_at_review": {
+        "board": "hosiery-v78-knit",
+        "image": "images/sheet-so121-so128.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO121",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO122",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so121-so128.png",
+      "image_sha256": "e57046f4b29770439943917b96c4dadbf5ebd7864894e426571638beba401070",
+      "visual_at_review": {
+        "board": "hosiery-v78-knit",
+        "image": "images/sheet-so121-so128.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO122",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 418,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO123",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so121-so128.png",
+      "image_sha256": "e57046f4b29770439943917b96c4dadbf5ebd7864894e426571638beba401070",
+      "visual_at_review": {
+        "board": "hosiery-v78-knit",
+        "image": "images/sheet-so121-so128.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO123",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 836,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO124",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so121-so128.png",
+      "image_sha256": "e57046f4b29770439943917b96c4dadbf5ebd7864894e426571638beba401070",
+      "visual_at_review": {
+        "board": "hosiery-v78-knit",
+        "image": "images/sheet-so121-so128.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO124",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 1254,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO125",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so121-so128.png",
+      "image_sha256": "e57046f4b29770439943917b96c4dadbf5ebd7864894e426571638beba401070",
+      "visual_at_review": {
+        "board": "hosiery-v78-knit",
+        "image": "images/sheet-so121-so128.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO125",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO126",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so121-so128.png",
+      "image_sha256": "e57046f4b29770439943917b96c4dadbf5ebd7864894e426571638beba401070",
+      "visual_at_review": {
+        "board": "hosiery-v78-knit",
+        "image": "images/sheet-so121-so128.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO126",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 418,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO127",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so121-so128.png",
+      "image_sha256": "e57046f4b29770439943917b96c4dadbf5ebd7864894e426571638beba401070",
+      "visual_at_review": {
+        "board": "hosiery-v78-knit",
+        "image": "images/sheet-so121-so128.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO127",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 836,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO128",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so121-so128.png",
+      "image_sha256": "e57046f4b29770439943917b96c4dadbf5ebd7864894e426571638beba401070",
+      "visual_at_review": {
+        "board": "hosiery-v78-knit",
+        "image": "images/sheet-so121-so128.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO128",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 1254,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO129",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so129-so136.png",
+      "image_sha256": "67c0afac93e09bcad135eb1371ebf5f8f50251fa3d434af78b058f8fd8c60598",
+      "visual_at_review": {
+        "board": "hosiery-v78-patterns",
+        "image": "images/sheet-so129-so136.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO129",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO130",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so129-so136.png",
+      "image_sha256": "67c0afac93e09bcad135eb1371ebf5f8f50251fa3d434af78b058f8fd8c60598",
+      "visual_at_review": {
+        "board": "hosiery-v78-patterns",
+        "image": "images/sheet-so129-so136.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO130",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 418,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO131",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so129-so136.png",
+      "image_sha256": "67c0afac93e09bcad135eb1371ebf5f8f50251fa3d434af78b058f8fd8c60598",
+      "visual_at_review": {
+        "board": "hosiery-v78-patterns",
+        "image": "images/sheet-so129-so136.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO131",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 836,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO132",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so129-so136.png",
+      "image_sha256": "67c0afac93e09bcad135eb1371ebf5f8f50251fa3d434af78b058f8fd8c60598",
+      "visual_at_review": {
+        "board": "hosiery-v78-patterns",
+        "image": "images/sheet-so129-so136.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO132",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 1254,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO133",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so129-so136.png",
+      "image_sha256": "67c0afac93e09bcad135eb1371ebf5f8f50251fa3d434af78b058f8fd8c60598",
+      "visual_at_review": {
+        "board": "hosiery-v78-patterns",
+        "image": "images/sheet-so129-so136.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO133",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO134",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so129-so136.png",
+      "image_sha256": "67c0afac93e09bcad135eb1371ebf5f8f50251fa3d434af78b058f8fd8c60598",
+      "visual_at_review": {
+        "board": "hosiery-v78-patterns",
+        "image": "images/sheet-so129-so136.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO134",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 418,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO135",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so129-so136.png",
+      "image_sha256": "67c0afac93e09bcad135eb1371ebf5f8f50251fa3d434af78b058f8fd8c60598",
+      "visual_at_review": {
+        "board": "hosiery-v78-patterns",
+        "image": "images/sheet-so129-so136.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO135",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 836,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO136",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so129-so136.png",
+      "image_sha256": "67c0afac93e09bcad135eb1371ebf5f8f50251fa3d434af78b058f8fd8c60598",
+      "visual_at_review": {
+        "board": "hosiery-v78-patterns",
+        "image": "images/sheet-so129-so136.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO136",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 1254,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO137",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so137-so144.png",
+      "image_sha256": "d74869df531522635440fad241a3c513e71d2e56ec576db28c591b1e42cff7e0",
+      "visual_at_review": {
+        "board": "hosiery-v78-cuffs",
+        "image": "images/sheet-so137-so144.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO137",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO138",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so137-so144.png",
+      "image_sha256": "d74869df531522635440fad241a3c513e71d2e56ec576db28c591b1e42cff7e0",
+      "visual_at_review": {
+        "board": "hosiery-v78-cuffs",
+        "image": "images/sheet-so137-so144.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO138",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 418,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO139",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so137-so144.png",
+      "image_sha256": "d74869df531522635440fad241a3c513e71d2e56ec576db28c591b1e42cff7e0",
+      "visual_at_review": {
+        "board": "hosiery-v78-cuffs",
+        "image": "images/sheet-so137-so144.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO139",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 836,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO140",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so137-so144.png",
+      "image_sha256": "d74869df531522635440fad241a3c513e71d2e56ec576db28c591b1e42cff7e0",
+      "visual_at_review": {
+        "board": "hosiery-v78-cuffs",
+        "image": "images/sheet-so137-so144.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO140",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 1254,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO141",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so137-so144.png",
+      "image_sha256": "d74869df531522635440fad241a3c513e71d2e56ec576db28c591b1e42cff7e0",
+      "visual_at_review": {
+        "board": "hosiery-v78-cuffs",
+        "image": "images/sheet-so137-so144.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO141",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO142",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so137-so144.png",
+      "image_sha256": "d74869df531522635440fad241a3c513e71d2e56ec576db28c591b1e42cff7e0",
+      "visual_at_review": {
+        "board": "hosiery-v78-cuffs",
+        "image": "images/sheet-so137-so144.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO142",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 418,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO143",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so137-so144.png",
+      "image_sha256": "d74869df531522635440fad241a3c513e71d2e56ec576db28c591b1e42cff7e0",
+      "visual_at_review": {
+        "board": "hosiery-v78-cuffs",
+        "image": "images/sheet-so137-so144.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO143",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 836,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO144",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so137-so144.png",
+      "image_sha256": "d74869df531522635440fad241a3c513e71d2e56ec576db28c591b1e42cff7e0",
+      "visual_at_review": {
+        "board": "hosiery-v78-cuffs",
+        "image": "images/sheet-so137-so144.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO144",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 1254,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO145",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so145-so152.png",
+      "image_sha256": "e2c9e871af1d80a9ab664e7f833e21c134d0cb59f560f9e5cab37f6afad78c34",
+      "visual_at_review": {
+        "board": "hosiery-v78-tights",
+        "image": "images/sheet-so145-so152.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO145",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO146",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so145-so152.png",
+      "image_sha256": "e2c9e871af1d80a9ab664e7f833e21c134d0cb59f560f9e5cab37f6afad78c34",
+      "visual_at_review": {
+        "board": "hosiery-v78-tights",
+        "image": "images/sheet-so145-so152.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO146",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 418,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO147",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so145-so152.png",
+      "image_sha256": "e2c9e871af1d80a9ab664e7f833e21c134d0cb59f560f9e5cab37f6afad78c34",
+      "visual_at_review": {
+        "board": "hosiery-v78-tights",
+        "image": "images/sheet-so145-so152.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO147",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 836,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO148",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so145-so152.png",
+      "image_sha256": "e2c9e871af1d80a9ab664e7f833e21c134d0cb59f560f9e5cab37f6afad78c34",
+      "visual_at_review": {
+        "board": "hosiery-v78-tights",
+        "image": "images/sheet-so145-so152.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO148",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 1254,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO149",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so145-so152.png",
+      "image_sha256": "e2c9e871af1d80a9ab664e7f833e21c134d0cb59f560f9e5cab37f6afad78c34",
+      "visual_at_review": {
+        "board": "hosiery-v78-tights",
+        "image": "images/sheet-so145-so152.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO149",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO150",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so145-so152.png",
+      "image_sha256": "e2c9e871af1d80a9ab664e7f833e21c134d0cb59f560f9e5cab37f6afad78c34",
+      "visual_at_review": {
+        "board": "hosiery-v78-tights",
+        "image": "images/sheet-so145-so152.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO150",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 418,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO151",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so145-so152.png",
+      "image_sha256": "e2c9e871af1d80a9ab664e7f833e21c134d0cb59f560f9e5cab37f6afad78c34",
+      "visual_at_review": {
+        "board": "hosiery-v78-tights",
+        "image": "images/sheet-so145-so152.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO151",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 836,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO152",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so145-so152.png",
+      "image_sha256": "e2c9e871af1d80a9ab664e7f833e21c134d0cb59f560f9e5cab37f6afad78c34",
+      "visual_at_review": {
+        "board": "hosiery-v78-tights",
+        "image": "images/sheet-so145-so152.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO152",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 1254,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO153",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so153-so160.png",
+      "image_sha256": "d68669aa88fee7cd2c90cb6499d9a3e3f17c246bb1f21b5592db5742ebcd248b",
+      "visual_at_review": {
+        "board": "hosiery-v78-fantasy",
+        "image": "images/sheet-so153-so160.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO153",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO154",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so153-so160.png",
+      "image_sha256": "d68669aa88fee7cd2c90cb6499d9a3e3f17c246bb1f21b5592db5742ebcd248b",
+      "visual_at_review": {
+        "board": "hosiery-v78-fantasy",
+        "image": "images/sheet-so153-so160.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO154",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 418,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO155",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so153-so160.png",
+      "image_sha256": "d68669aa88fee7cd2c90cb6499d9a3e3f17c246bb1f21b5592db5742ebcd248b",
+      "visual_at_review": {
+        "board": "hosiery-v78-fantasy",
+        "image": "images/sheet-so153-so160.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO155",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 836,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO156",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so153-so160.png",
+      "image_sha256": "d68669aa88fee7cd2c90cb6499d9a3e3f17c246bb1f21b5592db5742ebcd248b",
+      "visual_at_review": {
+        "board": "hosiery-v78-fantasy",
+        "image": "images/sheet-so153-so160.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO156",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 1254,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO157",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so153-so160.png",
+      "image_sha256": "d68669aa88fee7cd2c90cb6499d9a3e3f17c246bb1f21b5592db5742ebcd248b",
+      "visual_at_review": {
+        "board": "hosiery-v78-fantasy",
+        "image": "images/sheet-so153-so160.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO157",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO158",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so153-so160.png",
+      "image_sha256": "d68669aa88fee7cd2c90cb6499d9a3e3f17c246bb1f21b5592db5742ebcd248b",
+      "visual_at_review": {
+        "board": "hosiery-v78-fantasy",
+        "image": "images/sheet-so153-so160.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO158",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 418,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO159",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so153-so160.png",
+      "image_sha256": "d68669aa88fee7cd2c90cb6499d9a3e3f17c246bb1f21b5592db5742ebcd248b",
+      "visual_at_review": {
+        "board": "hosiery-v78-fantasy",
+        "image": "images/sheet-so153-so160.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO159",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 836,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "SO160",
+      "category": "hosiery",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-so153-so160.png",
+      "image_sha256": "d68669aa88fee7cd2c90cb6499d9a3e3f17c246bb1f21b5592db5742ebcd248b",
+      "visual_at_review": {
+        "board": "hosiery-v78-fantasy",
+        "image": "images/sheet-so153-so160.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "SO160",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 1254,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    }
+  ]
+}

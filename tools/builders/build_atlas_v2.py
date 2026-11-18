@@ -291,7 +291,7 @@ def build(partial=False, package=True, image_exports=True, check_assets=True):
         e['cosplay_reference']=e['category'].startswith('cosplay_') or e['category'] in ['special_costumes','masks']
         if e['cosplay_reference']:e['keywords']=list(dict.fromkeys(e['keywords']+['Cosplay','cos','coser','角色扮演']))
     for e in entries:
-        e['facial_reference']=e['category'] in lips_expansion_v35.NEW_CATEGORIES or e['category'] in eye_makeup_expansion.NEW_CATEGORIES or e['category'] in facial_expansion.NEW_FACE_CATEGORIES or e['category'] in ['face','features','expression','face_views','eyes','anthro_heads'] or e['id'] in ['SK009','SK010','SK013'] or (e['category']=='body_art' and (int(e['id'][2:])<=16 or 25<=int(e['id'][2:])<=28)) or (e['category']=='cosplay_looks' and int(e['id'][2:])<=28)
+        e['facial_reference']=e['category'] in lips_expansion_v35.NEW_CATEGORIES or e['category'] in eye_makeup_expansion.NEW_CATEGORIES or e['category'] in facial_expansion.NEW_FACE_CATEGORIES or e['category'] in ['face','anime_face_types','features','expression','face_views','eyes','anthro_heads'] or e['id'] in ['SK009','SK010','SK013'] or (e['category']=='body_art' and (int(e['id'][2:])<=16 or 25<=int(e['id'][2:])<=28)) or (e['category']=='cosplay_looks' and int(e['id'][2:])<=28)
     for e in entries:e['hosiery_reference']=e['category']=='hosiery' or e['id'] in hosiery_expansion.LEGACY_HOSIERY_IDS
     for e in entries:
         e['anthro_reference']=e['category'] in anthro_expansion.ANTHRO_CATEGORIES or e['id'] in anthro_expansion.LEGACY_ANTHRO_IDS or bool(e.get('hybrid_reference')) or bool(e.get('quadruped_reference'))

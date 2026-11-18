@@ -4,7 +4,7 @@
 
 [中文](README.md) · **English** · [日本語](README.ja.md)
 
-A searchable visual reference library for game, anime and character design. Content edition 74.0 contains **7,241 illustrated entries, 722 reference sheets and 211 categories**. Browse hairstyles, faces and expressions, body shapes and poses, clothing, accessories, fantasy forms, materials, art styles, camera language and character scenes.
+A searchable visual reference library for game, anime and character design. Content edition 78.3 contains **7,365 illustrated entries, 741 reference sheets and 212 categories**. Browse hairstyles, faces and expressions, body shapes and poses, clothing, accessories, fantasy forms, materials, art styles, camera language and character scenes.
 
 [Browse in English](https://gladosai.github.io/female-appearance-atlas/?lang=en) · [Source](https://github.com/GladosAI/female-appearance-atlas) · [Downloads](https://github.com/GladosAI/female-appearance-atlas/releases/latest) · [Report an issue](https://github.com/GladosAI/female-appearance-atlas/issues)
 

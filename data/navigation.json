@@ -63,6 +63,7 @@
       "note": "脸型五官与自然唇形、眼睛肤色、眼妆唇妆，以及情绪、口部动作和面部覆盖。",
       "categories": [
         "face",
+        "anime_face_types",
         "features",
         "nose_ear_teeth",
         "lips",
@@ -88,14 +89,15 @@
           "name": "脸型、五官与视角",
           "categories": [
             "face",
+            "anime_face_types",
             "features",
             "nose_ear_teeth",
             "lips",
             "face_views"
           ],
           "scope": "branch_facial_structure",
-          "count": 117,
-          "category_count": 5
+          "count": 129,
+          "category_count": 6
         },
         {
           "id": "portrait_light",
@@ -176,8 +178,8 @@
         }
       ],
       "scope": "topic_face_design",
-      "count": 834,
-      "category_count": 19
+      "count": 846,
+      "category_count": 20
     },
     {
       "id": "body_design",
@@ -299,7 +301,7 @@
             "outerwear"
           ],
           "scope": "branch_garment_pieces",
-          "count": 427,
+          "count": 443,
           "category_count": 4
         },
         {
@@ -310,7 +312,7 @@
             "garment_dynamics"
           ],
           "scope": "branch_garment_details",
-          "count": 76,
+          "count": 84,
           "category_count": 2
         },
         {
@@ -335,7 +337,7 @@
             "gloves"
           ],
           "scope": "branch_shoes_hosiery",
-          "count": 270,
+          "count": 350,
           "category_count": 3
         },
         {
@@ -376,7 +378,7 @@
             "street_hiphop_outfits"
           ],
           "scope": "branch_fashion_ensembles",
-          "count": 466,
+          "count": 474,
           "category_count": 7
         },
         {
@@ -392,7 +394,7 @@
         }
       ],
       "scope": "topic_everyday",
-      "count": 1967,
+      "count": 2079,
       "category_count": 29
     },
     {
@@ -1581,8 +1583,8 @@
       "scene"
     ]
   },
-  "entry_count": 7241,
-  "category_count": 211,
+  "entry_count": 7365,
+  "category_count": 212,
   "section_count": 56,
   "category_paths": {
     "hair_cut": {
@@ -1618,6 +1620,10 @@
       "section": "branch_hair_styling"
     },
     "face": {
+      "domain": "topic_face_design",
+      "section": "branch_facial_structure"
+    },
+    "anime_face_types": {
       "domain": "topic_face_design",
       "section": "branch_facial_structure"
     },
@@ -2435,7 +2441,7 @@
       "id": "style_gothic",
       "style_id": "gothic",
       "name": "哥特",
-      "count": 45,
+      "count": 46,
       "guide": "高领、蕾丝、绒面、尖形饰件、剪裁与叠层可组合；传统、浪漫、工业与赛博方向分别观察。"
     },
     {
@@ -2449,7 +2455,7 @@
       "id": "style_lolita",
       "style_id": "lolita",
       "name": "洛丽塔时尚",
-      "count": 19,
+      "count": 52,
       "guide": "以有支撑的蓬裙、布衫、蕾丝与头饰等形成整套协调；甜系、古典、哥特与混搭款分开观察。"
     },
     {

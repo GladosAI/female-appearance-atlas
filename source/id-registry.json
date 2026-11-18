@@ -28964,6 +28964,502 @@
     {
       "id": "SNV008",
       "source_key": "scene_culture_visit|海港码头候船场景|harbor-pier ferry-waiting scene"
+    },
+    {
+      "id": "AF001",
+      "source_key": "anime_face_types|圆润日常动画脸|soft round everyday anime face"
+    },
+    {
+      "id": "AF002",
+      "source_key": "anime_face_types|细杏眼游戏插画脸|slender almond-eye game illustration face"
+    },
+    {
+      "id": "AF003",
+      "source_key": "anime_face_types|复古纵长高光眼脸|retro tall sparkle-eye anime face"
+    },
+    {
+      "id": "AF004",
+      "source_key": "anime_face_types|低位圆眼短下脸|low-set round eyes and short lower face"
+    },
+    {
+      "id": "AF005",
+      "source_key": "anime_face_types|锐角上挑眼动作漫画脸|angular upturned-eye action-manga face"
+    },
+    {
+      "id": "AF006",
+      "source_key": "anime_face_types|细长脸平直窄眼|elongated face with level narrow eyes"
+    },
+    {
+      "id": "AF007",
+      "source_key": "anime_face_types|宽颊下垂眼短下巴|broad cheeks with downturned eyes and short chin"
+    },
+    {
+      "id": "AF008",
+      "source_key": "anime_face_types|大眼窄 V 形动漫脸|wide-eyed anime face with a narrow V jaw"
+    },
+    {
+      "id": "AF009",
+      "source_key": "anime_face_types|高颧细眼成熟动漫脸|high cheekbones and slim eyes anime face"
+    },
+    {
+      "id": "AF010",
+      "source_key": "anime_face_types|椭圆点眼 Q 版脸|chibi face with oval dot eyes"
+    },
+    {
+      "id": "AF011",
+      "source_key": "anime_face_types|平颏方颌几何脸|geometric square jaw and flat chin anime face"
+    },
+    {
+      "id": "AF012",
+      "source_key": "anime_face_types|半写实立体五官脸|semi-realistic anime face with modeled features"
+    },
+    {
+      "id": "BT091",
+      "source_key": "bottoms|弧边罩片半裙|curved-front overlay skirt"
+    },
+    {
+      "id": "BT092",
+      "source_key": "bottoms|双瓣对开罩裙|two-petal split overskirt"
+    },
+    {
+      "id": "BT093",
+      "source_key": "bottoms|方窗前开罩裙|rectangular-front opening skirt"
+    },
+    {
+      "id": "BT094",
+      "source_key": "bottoms|侧缺角分层半裙|side-notch layered skirt"
+    },
+    {
+      "id": "BT095",
+      "source_key": "bottoms|斜搭片露褶层半裙|diagonal wrap over tiered ruffles"
+    },
+    {
+      "id": "BT096",
+      "source_key": "bottoms|双侧提褶叠摆半裙|side-pickup swag overskirt"
+    },
+    {
+      "id": "BT097",
+      "source_key": "bottoms|束腰系带开片半裙|lace-up high-waist split skirt"
+    },
+    {
+      "id": "BT098",
+      "source_key": "bottoms|扣饰双扇罩片半裙|clasped double-swag skirt"
+    },
+    {
+      "id": "OP129",
+      "source_key": "onepiece|方领圆廓背带蓬裙|square-neck bell-shaped Lolita JSK"
+    },
+    {
+      "id": "OP130",
+      "source_key": "onepiece|垂感长 A 字背带裙|long draped A-line Lolita JSK"
+    },
+    {
+      "id": "OP131",
+      "source_key": "onepiece|双壳叠摆泡袖连衣裙|puff-sleeve dress with two bell layers"
+    },
+    {
+      "id": "OP132",
+      "source_key": "onepiece|偏腰开片拼色背带裙|off-center split color-block Lolita JSK"
+    },
+    {
+      "id": "OP133",
+      "source_key": "onepiece|波浪前短后长蓬连裙|scalloped high-low Lolita dress"
+    },
+    {
+      "id": "OP134",
+      "source_key": "onepiece|三片开摆拼色连衣裙|three-panel split-hem Lolita dress"
+    },
+    {
+      "id": "OP135",
+      "source_key": "onepiece|短肩披围裙式洛丽塔连裙|capelet and apron-panel Lolita dress"
+    },
+    {
+      "id": "OP136",
+      "source_key": "onepiece|双弧罩摆燕尾连衣裙|double-arc swallowtail Lolita dress"
+    },
+    {
+      "id": "CS061",
+      "source_key": "construction|窄褶边圆叶领|round-lobed collar with a narrow frill"
+    },
+    {
+      "id": "CS062",
+      "source_key": "construction|托褶大尖领|wide pointed collar with an under-frill"
+    },
+    {
+      "id": "CS063",
+      "source_key": "construction|多瓣波齿平领|flat scalloped petal collar"
+    },
+    {
+      "id": "CS064",
+      "source_key": "construction|双肩翻片方领|square neck with folded shoulder tabs"
+    },
+    {
+      "id": "CS065",
+      "source_key": "construction|扣带托竖褶立领|raised ruffle on a buttoned band collar"
+    },
+    {
+      "id": "CS066",
+      "source_key": "construction|立领双圈垂褶领|stand collar with two ruffle rings"
+    },
+    {
+      "id": "CS067",
+      "source_key": "construction|珠点沿边尖领|pearl-edged pointed collar"
+    },
+    {
+      "id": "CS068",
+      "source_key": "construction|扣襟胸肩片弧边褶领|buttoned yoke with curved ruffle edge"
+    },
+    {
+      "id": "FS279",
+      "source_key": "fashion_outfits|星芒罩纱洛丽塔礼装|celestial tulle-overlay Lolita ensemble"
+    },
+    {
+      "id": "FS280",
+      "source_key": "fashion_outfits|墨绿薄披丝绒洛丽塔装|forest velvet and sheer-cape Lolita ensemble"
+    },
+    {
+      "id": "FS281",
+      "source_key": "fashion_outfits|酒红玫瑰双尾洛丽塔礼装|wine-rose twin-train Lolita ensemble"
+    },
+    {
+      "id": "FS282",
+      "source_key": "fashion_outfits|薄荷可可菱格洛丽塔装|mint-and-cocoa diamond Lolita coordinate"
+    },
+    {
+      "id": "FS283",
+      "source_key": "fashion_outfits|纸牌茶会洛丽塔装|playing-card tea-party Lolita coordinate"
+    },
+    {
+      "id": "FS284",
+      "source_key": "fashion_outfits|羽饰三角帽海盗洛丽塔装|feathered-tricorn pirate Lolita coordinate"
+    },
+    {
+      "id": "FS285",
+      "source_key": "fashion_outfits|兔耳面包房洛丽塔装|rabbit bakery Lolita coordinate"
+    },
+    {
+      "id": "FS286",
+      "source_key": "fashion_outfits|菱格拼摆马戏洛丽塔装|harlequin-panel circus Lolita coordinate"
+    },
+    {
+      "id": "FW095",
+      "source_key": "footwear|双扣带厚底玛丽珍鞋|double-strap platform Mary Janes"
+    },
+    {
+      "id": "FW096",
+      "source_key": "footwear|交叉缎带芭蕾平鞋|crisscross-ribbon ballet flats"
+    },
+    {
+      "id": "FW097",
+      "source_key": "footwear|三扣带圆头平鞋|triple-strap round-toe flats"
+    },
+    {
+      "id": "FW098",
+      "source_key": "footwear|打结布面尖头平鞋|knotted-fabric pointed flats"
+    },
+    {
+      "id": "FW099",
+      "source_key": "footwear|镂空侧腰系带平鞋|lace-up cutaway flats"
+    },
+    {
+      "id": "FW100",
+      "source_key": "footwear|编织皮条乐福鞋|woven-leather loafers"
+    },
+    {
+      "id": "FW101",
+      "source_key": "footwear|方头折片平鞋|square-toe foldover-vamp flats"
+    },
+    {
+      "id": "FW102",
+      "source_key": "footwear|双侧开窗环扣平鞋|ring-buckle double-cutout flats"
+    },
+    {
+      "id": "FW103",
+      "source_key": "footwear|深V口细跟浅口鞋|deep-V vamp stiletto pumps"
+    },
+    {
+      "id": "FW104",
+      "source_key": "footwear|高包背系带礼鞋|lace-up high-vamp evening shoes"
+    },
+    {
+      "id": "FW105",
+      "source_key": "footwear|双侧留空浅口鞋|side-cutout dress pumps"
+    },
+    {
+      "id": "FW106",
+      "source_key": "footwear|花瓣护踝礼鞋|petal-cuff evening heels"
+    },
+    {
+      "id": "FW107",
+      "source_key": "footwear|缎带绕踝蝴蝶结礼鞋|ankle-ribbon bow heels"
+    },
+    {
+      "id": "FW108",
+      "source_key": "footwear|叠层荷叶边穆勒鞋|layered-ruffle heeled mules"
+    },
+    {
+      "id": "FW109",
+      "source_key": "footwear|踝链连接后空鞋|ankle-chain slingbacks"
+    },
+    {
+      "id": "FW110",
+      "source_key": "footwear|双层前台粗跟鞋|double-platform block heels"
+    },
+    {
+      "id": "FW111",
+      "source_key": "footwear|拇趾环细带凉鞋|toe-loop strappy sandals"
+    },
+    {
+      "id": "FW112",
+      "source_key": "footwear|交织绳编平底凉鞋|woven-rope flat sandals"
+    },
+    {
+      "id": "FW113",
+      "source_key": "footwear|后束带机能凉鞋|heel-strapped utility sandals"
+    },
+    {
+      "id": "FW114",
+      "source_key": "footwear|一体镂孔包头洞洞鞋|perforated molded clogs"
+    },
+    {
+      "id": "FW115",
+      "source_key": "footwear|木底铆钉包头鞋|studded wooden clogs"
+    },
+    {
+      "id": "FW116",
+      "source_key": "footwear|绗缝软垫居家拖鞋|quilted house slippers"
+    },
+    {
+      "id": "FW117",
+      "source_key": "footwear|毛绒交叉带拖鞋|faux-fur cross-strap slippers"
+    },
+    {
+      "id": "FW118",
+      "source_key": "footwear|软底包跟布鞋|soft-soled closed-heel house shoes"
+    },
+    {
+      "id": "FW119",
+      "source_key": "footwear|绒面系带沙漠短靴|suede desert ankle boots"
+    },
+    {
+      "id": "FW120",
+      "source_key": "footwear|防水拼接鸭嘴靴|waterproof duck boots"
+    },
+    {
+      "id": "FW121",
+      "source_key": "footwear|长筒束口防雪靴|drawcord tall winter boots"
+    },
+    {
+      "id": "FW122",
+      "source_key": "footwear|褶筒松垮长靴|slouchy ruched tall boots"
+    },
+    {
+      "id": "FW123",
+      "source_key": "footwear|护套罩面短靴|spats-covered ankle boots"
+    },
+    {
+      "id": "FW124",
+      "source_key": "footwear|侧开窗扣带踝靴|side-cutout ankle boots"
+    },
+    {
+      "id": "FW125",
+      "source_key": "footwear|针织折领系带靴|knit-cuff lace-up boots"
+    },
+    {
+      "id": "FW126",
+      "source_key": "footwear|钩扣多带短靴|hook-fastened multi-strap ankle boots"
+    },
+    {
+      "id": "FW127",
+      "source_key": "footwear|高帮缓震篮球鞋|high-top basketball shoes"
+    },
+    {
+      "id": "FW128",
+      "source_key": "footwear|锁扣骑行鞋|cleated cycling shoes"
+    },
+    {
+      "id": "FW129",
+      "source_key": "footwear|多卡扣硬壳滑雪靴|hard-shell ski boots"
+    },
+    {
+      "id": "FW130",
+      "source_key": "footwear|单排四轮轮滑鞋|four-wheel inline skates"
+    },
+    {
+      "id": "FW131",
+      "source_key": "footwear|橡胶包趾攀岩鞋|rubber-toe climbing shoes"
+    },
+    {
+      "id": "FW132",
+      "source_key": "footwear|排水网孔涉水鞋|drainable mesh water shoes"
+    },
+    {
+      "id": "FW133",
+      "source_key": "footwear|叶脉缠带精灵鞋|leaf-vein wrap elf shoes"
+    },
+    {
+      "id": "FW134",
+      "source_key": "footwear|分节机械支架长靴|articulated exoskeleton boots"
+    },
+    {
+      "id": "SO121",
+      "source_key": "hosiery|珍珠针圆粒中筒袜|seed-stitch crew socks"
+    },
+    {
+      "id": "SO122",
+      "source_key": "hosiery|华夫格针织短袜|waffle-knit ankle socks"
+    },
+    {
+      "id": "SO123",
+      "source_key": "hosiery|镂空叶脉长袜|leaf-openwork knee socks"
+    },
+    {
+      "id": "SO124",
+      "source_key": "hosiery|蜂巢格针织中筒袜|honeycomb-knit crew socks"
+    },
+    {
+      "id": "SO125",
+      "source_key": "hosiery|双层卷边短袜|double-rolled cuff ankle socks"
+    },
+    {
+      "id": "SO126",
+      "source_key": "hosiery|袜口开衩针织长袜|slit-cuff knit knee socks"
+    },
+    {
+      "id": "SO127",
+      "source_key": "hosiery|侧排扣针织袜套|side-button knit leg warmers"
+    },
+    {
+      "id": "SO128",
+      "source_key": "hosiery|抽绳褶筒袜套|drawstring ruched leg warmers"
+    },
+    {
+      "id": "SO129",
+      "source_key": "hosiery|千鸟格长袜|houndstooth knee socks"
+    },
+    {
+      "id": "SO130",
+      "source_key": "hosiery|窗格细线长袜|windowpane-check knee socks"
+    },
+    {
+      "id": "SO131",
+      "source_key": "hosiery|佩斯利印花中筒袜|paisley-print crew socks"
+    },
+    {
+      "id": "SO132",
+      "source_key": "hosiery|新月星轨长袜|crescent-and-orbit knee socks"
+    },
+    {
+      "id": "SO133",
+      "source_key": "hosiery|藤蔓刺绣长袜|vine-embroidered knee socks"
+    },
+    {
+      "id": "SO134",
+      "source_key": "hosiery|踝侧花饰拼片长袜|floral ankle-panel knee socks"
+    },
+    {
+      "id": "SO135",
+      "source_key": "hosiery|拼缝撞色中筒袜|contrast-seam color-block crew socks"
+    },
+    {
+      "id": "SO136",
+      "source_key": "hosiery|波浪纵纹长袜|wavy-stripe knee socks"
+    },
+    {
+      "id": "SO137",
+      "source_key": "hosiery|透纱叠口短袜|organza-layered cuff socks"
+    },
+    {
+      "id": "SO138",
+      "source_key": "hosiery|双层蕾丝翻口短袜|double-lace turn-down ankle socks"
+    },
+    {
+      "id": "SO139",
+      "source_key": "hosiery|珍珠链袜口短袜|pearl-chain cuff socks"
+    },
+    {
+      "id": "SO140",
+      "source_key": "hosiery|侧系细绳短袜|side-tie drawcord ankle socks"
+    },
+    {
+      "id": "SO141",
+      "source_key": "hosiery|心形开窗中筒袜|heart-cutout crew socks"
+    },
+    {
+      "id": "SO142",
+      "source_key": "hosiery|荷叶侧缝长袜|ruffle-side-seam knee socks"
+    },
+    {
+      "id": "SO143",
+      "source_key": "hosiery|前饰大蝴蝶结长袜|front-bow knee socks"
+    },
+    {
+      "id": "SO144",
+      "source_key": "hosiery|纽襻搭桥袜口短袜|button-tab cuff socks"
+    },
+    {
+      "id": "SO145",
+      "source_key": "hosiery|细人字纹连裤袜|fine-herringbone tights"
+    },
+    {
+      "id": "SO146",
+      "source_key": "hosiery|竖向麻花针织袜裤|cable-knit footed tights"
+    },
+    {
+      "id": "SO147",
+      "source_key": "hosiery|大理石晕纹袜裤|marbled-pattern tights"
+    },
+    {
+      "id": "SO148",
+      "source_key": "hosiery|非对称斜切拼色袜裤|asymmetrical diagonal-panel tights"
+    },
+    {
+      "id": "SO149",
+      "source_key": "hosiery|簇点小花袜裤|clustered-flower-dot tights"
+    },
+    {
+      "id": "SO150",
+      "source_key": "hosiery|链式菱格提花袜裤|chain-diamond jacquard tights"
+    },
+    {
+      "id": "SO151",
+      "source_key": "hosiery|踝部拼蕾丝连裤袜|lace-ankle panel tights"
+    },
+    {
+      "id": "SO152",
+      "source_key": "hosiery|波齿阶梯拼接袜裤|scallop-step color-block tights"
+    },
+    {
+      "id": "SO153",
+      "source_key": "hosiery|菱形开窗绑带长袜|lace-bridged diamond-cutout knee socks"
+    },
+    {
+      "id": "SO154",
+      "source_key": "hosiery|交叉缎带缠绕长袜|crisscross-ribbon wrapped knee socks"
+    },
+    {
+      "id": "SO155",
+      "source_key": "hosiery|蝶翼袜口长袜|butterfly-wing cuff knee socks"
+    },
+    {
+      "id": "SO156",
+      "source_key": "hosiery|星扣翻口长袜|star-clasp turn-down knee socks"
+    },
+    {
+      "id": "SO157",
+      "source_key": "hosiery|机能分段弹力袜套|multi-panel technical knit leg sleeves"
+    },
+    {
+      "id": "SO158",
+      "source_key": "hosiery|羽缘飘带长袜|feather-trim ribbon knee socks"
+    },
+    {
+      "id": "SO159",
+      "source_key": "hosiery|蔓叶缠边精灵长袜|leaf-vine cuff elf stockings"
+    },
+    {
+      "id": "SO160",
+      "source_key": "hosiery|冰晶流苏袜口长袜|crystal-tassel cuff stockings"
     }
   ]
 }

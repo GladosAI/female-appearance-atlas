@@ -1,6 +1,7 @@
 """Build the current edition index independently of persistent topic documents."""
 import sys,json
 from pathlib import Path
+from urllib.parse import quote
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import _bootstrap
 from pathlib import Path
@@ -58,13 +59,15 @@ def write_latest_docs(root,data):
     text+='## 新增索引\n\n| 细分 | 数量 | 类别入口 |\n| --- | ---: | --- |\n'
     for dimension in dict.fromkeys(e['dimension'] for e in entries):
         group=[e for e in entries if e['dimension']==dimension]
-        text+=f"| {dimension} | {len(group)} | [查看](index.html?section={group[0]['category']}) |\n"
+        text+=f"| {dimension} | {len(group)} | [查看](index.html?section={group[0]['category']}&dimension={quote(dimension)}) |\n"
     text+='\n配图由内置image_gen制作，每个编号对应一格。人物年龄、着装与剧情状态以词条说明为准；图像用于角色创作。\n\n'
     for dimension in dict.fromkeys(e['dimension'] for e in entries):
         group=[e for e in entries if e['dimension']==dimension];text+=f"## {dimension}\n\n"
-        used={e['visual']['board'] for e in group}
-        for board in boards:
-            if board['id'] in used:text+=f"![{board['title']}]({board['image']})\n\n"
+        structure_ids={e['visual']['board'] for e in group}
+        wearing_ids={e['wearing_visual']['board'] for e in group if e.get('wearing_visual')}
+        for used in (wearing_ids, structure_ids):
+            for board in boards:
+                if board['id'] in used:text+=f"![{board['title']}]({board['image']})\n\n"
         text+='| 编号 | 名称 | English | 可见特征 |\n| --- | --- | --- | --- |\n'
         for e in group:text+=f"| {e['id']} | {e['name']} | {e['en']} | {e['description']} |\n"
         text+='\n'
@@ -73,5 +76,13 @@ def write_latest_docs(root,data):
     refs={r['id']:r for r in data['references']}
     for key in keys:
         r=refs[key];text+=f"- [{r['title']}]({r['url']})：{r['summary']}\n"
-    text+=f"\n[目录与检索说明](find-and-browse.md) · [全图鉴](atlas.md) · [来源说明](sources.md)\n" if edition=='32' else f"\n[第{edition}版图页提示词](image-prompts-v{edition}.json) · [全图鉴](atlas.md) · [来源说明](sources.md)\n"
+    if edition == '32':
+        details = '[目录与检索说明](find-and-browse.md)'
+    else:
+        prompts = root / 'prompts' / f'image-prompts-v{edition}.json'
+        if prompts.is_file():
+            details = f'[第{edition}版图页提示词](../prompts/{prompts.name})'
+        else:
+            details = '[图页与提示词记录](../data/illustrations.json)'
+    text += f'\n{details} · [全图鉴](atlas.md) · [来源说明](sources.md)\n'
     (root/'docs/fashion-guide.md').write_text(text,encoding='utf-8')

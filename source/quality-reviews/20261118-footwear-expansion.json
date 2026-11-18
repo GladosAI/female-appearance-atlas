@@ -1,0 +1,1064 @@
+{
+  "schema": "female-appearance-quality-review/v1",
+  "batch": "2026-11-18-footwear-expansion",
+  "catalog_version": "77.0",
+  "date": "2026-11-18",
+  "reviewer": "Codex AI-assisted visual review",
+  "scope": {
+    "entries": 40,
+    "visuals": 40,
+    "categories": [
+      "footwear"
+    ],
+    "category_counts": {
+      "footwear": 40
+    }
+  },
+  "method": "Reviewed all five source sheets for footwear design correspondence, natural worn pairs, complete shoe and boot outlines, fastenings, panel boundaries and ID-to-cell mapping. Measured the four-column/two-row dividers in the original image pixels.",
+  "issues": [],
+  "changed_entries": [],
+  "export_representatives": [],
+  "resource_release": "v77.0",
+  "records": [
+    {
+      "entry_id": "FW095",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw095-fw102.png",
+      "image_sha256": "409035893d2bda111fde2a4e356f8b7892c0625f64b98fa8c345d7b3c3668865",
+      "visual_at_review": {
+        "board": "footwear-v77-flats",
+        "image": "images/sheet-fw095-fw102.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW095",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW096",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw095-fw102.png",
+      "image_sha256": "409035893d2bda111fde2a4e356f8b7892c0625f64b98fa8c345d7b3c3668865",
+      "visual_at_review": {
+        "board": "footwear-v77-flats",
+        "image": "images/sheet-fw095-fw102.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW096",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 418,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW097",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw095-fw102.png",
+      "image_sha256": "409035893d2bda111fde2a4e356f8b7892c0625f64b98fa8c345d7b3c3668865",
+      "visual_at_review": {
+        "board": "footwear-v77-flats",
+        "image": "images/sheet-fw095-fw102.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW097",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 836,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW098",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw095-fw102.png",
+      "image_sha256": "409035893d2bda111fde2a4e356f8b7892c0625f64b98fa8c345d7b3c3668865",
+      "visual_at_review": {
+        "board": "footwear-v77-flats",
+        "image": "images/sheet-fw095-fw102.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW098",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 1254,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW099",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw095-fw102.png",
+      "image_sha256": "409035893d2bda111fde2a4e356f8b7892c0625f64b98fa8c345d7b3c3668865",
+      "visual_at_review": {
+        "board": "footwear-v77-flats",
+        "image": "images/sheet-fw095-fw102.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW099",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW100",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw095-fw102.png",
+      "image_sha256": "409035893d2bda111fde2a4e356f8b7892c0625f64b98fa8c345d7b3c3668865",
+      "visual_at_review": {
+        "board": "footwear-v77-flats",
+        "image": "images/sheet-fw095-fw102.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW100",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 418,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW101",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw095-fw102.png",
+      "image_sha256": "409035893d2bda111fde2a4e356f8b7892c0625f64b98fa8c345d7b3c3668865",
+      "visual_at_review": {
+        "board": "footwear-v77-flats",
+        "image": "images/sheet-fw095-fw102.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW101",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 836,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW102",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw095-fw102.png",
+      "image_sha256": "409035893d2bda111fde2a4e356f8b7892c0625f64b98fa8c345d7b3c3668865",
+      "visual_at_review": {
+        "board": "footwear-v77-flats",
+        "image": "images/sheet-fw095-fw102.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW102",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 1254,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW103",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw103-fw110.png",
+      "image_sha256": "d122fb36d15b878b4bee71f921597792209184b4a5dea9aaeb0f2f882a4048e7",
+      "visual_at_review": {
+        "board": "footwear-v77-heels",
+        "image": "images/sheet-fw103-fw110.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW103",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW104",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw103-fw110.png",
+      "image_sha256": "d122fb36d15b878b4bee71f921597792209184b4a5dea9aaeb0f2f882a4048e7",
+      "visual_at_review": {
+        "board": "footwear-v77-heels",
+        "image": "images/sheet-fw103-fw110.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW104",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 418,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW105",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw103-fw110.png",
+      "image_sha256": "d122fb36d15b878b4bee71f921597792209184b4a5dea9aaeb0f2f882a4048e7",
+      "visual_at_review": {
+        "board": "footwear-v77-heels",
+        "image": "images/sheet-fw103-fw110.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW105",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 836,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW106",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw103-fw110.png",
+      "image_sha256": "d122fb36d15b878b4bee71f921597792209184b4a5dea9aaeb0f2f882a4048e7",
+      "visual_at_review": {
+        "board": "footwear-v77-heels",
+        "image": "images/sheet-fw103-fw110.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW106",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 1254,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW107",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw103-fw110.png",
+      "image_sha256": "d122fb36d15b878b4bee71f921597792209184b4a5dea9aaeb0f2f882a4048e7",
+      "visual_at_review": {
+        "board": "footwear-v77-heels",
+        "image": "images/sheet-fw103-fw110.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW107",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW108",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw103-fw110.png",
+      "image_sha256": "d122fb36d15b878b4bee71f921597792209184b4a5dea9aaeb0f2f882a4048e7",
+      "visual_at_review": {
+        "board": "footwear-v77-heels",
+        "image": "images/sheet-fw103-fw110.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW108",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 418,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW109",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw103-fw110.png",
+      "image_sha256": "d122fb36d15b878b4bee71f921597792209184b4a5dea9aaeb0f2f882a4048e7",
+      "visual_at_review": {
+        "board": "footwear-v77-heels",
+        "image": "images/sheet-fw103-fw110.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW109",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 836,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW110",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw103-fw110.png",
+      "image_sha256": "d122fb36d15b878b4bee71f921597792209184b4a5dea9aaeb0f2f882a4048e7",
+      "visual_at_review": {
+        "board": "footwear-v77-heels",
+        "image": "images/sheet-fw103-fw110.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW110",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 1254,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW111",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw111-fw118.png",
+      "image_sha256": "a92bccb419e5d5e3a477be7caf28841f4fc1a606280d3b561e1ca66ddc92300e",
+      "visual_at_review": {
+        "board": "footwear-v77-sandals",
+        "image": "images/sheet-fw111-fw118.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW111",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW112",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw111-fw118.png",
+      "image_sha256": "a92bccb419e5d5e3a477be7caf28841f4fc1a606280d3b561e1ca66ddc92300e",
+      "visual_at_review": {
+        "board": "footwear-v77-sandals",
+        "image": "images/sheet-fw111-fw118.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW112",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 418,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW113",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw111-fw118.png",
+      "image_sha256": "a92bccb419e5d5e3a477be7caf28841f4fc1a606280d3b561e1ca66ddc92300e",
+      "visual_at_review": {
+        "board": "footwear-v77-sandals",
+        "image": "images/sheet-fw111-fw118.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW113",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 836,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW114",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw111-fw118.png",
+      "image_sha256": "a92bccb419e5d5e3a477be7caf28841f4fc1a606280d3b561e1ca66ddc92300e",
+      "visual_at_review": {
+        "board": "footwear-v77-sandals",
+        "image": "images/sheet-fw111-fw118.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW114",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 1254,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW115",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw111-fw118.png",
+      "image_sha256": "a92bccb419e5d5e3a477be7caf28841f4fc1a606280d3b561e1ca66ddc92300e",
+      "visual_at_review": {
+        "board": "footwear-v77-sandals",
+        "image": "images/sheet-fw111-fw118.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW115",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW116",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw111-fw118.png",
+      "image_sha256": "a92bccb419e5d5e3a477be7caf28841f4fc1a606280d3b561e1ca66ddc92300e",
+      "visual_at_review": {
+        "board": "footwear-v77-sandals",
+        "image": "images/sheet-fw111-fw118.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW116",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 418,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW117",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw111-fw118.png",
+      "image_sha256": "a92bccb419e5d5e3a477be7caf28841f4fc1a606280d3b561e1ca66ddc92300e",
+      "visual_at_review": {
+        "board": "footwear-v77-sandals",
+        "image": "images/sheet-fw111-fw118.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW117",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 836,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW118",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw111-fw118.png",
+      "image_sha256": "a92bccb419e5d5e3a477be7caf28841f4fc1a606280d3b561e1ca66ddc92300e",
+      "visual_at_review": {
+        "board": "footwear-v77-sandals",
+        "image": "images/sheet-fw111-fw118.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW118",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 1254,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW119",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw119-fw126.png",
+      "image_sha256": "97f962f3836de7dc55146c224a0937af9070df339f917741b8503fcb66e5569c",
+      "visual_at_review": {
+        "board": "footwear-v77-boots",
+        "image": "images/sheet-fw119-fw126.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW119",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW120",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw119-fw126.png",
+      "image_sha256": "97f962f3836de7dc55146c224a0937af9070df339f917741b8503fcb66e5569c",
+      "visual_at_review": {
+        "board": "footwear-v77-boots",
+        "image": "images/sheet-fw119-fw126.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW120",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 418,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW121",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw119-fw126.png",
+      "image_sha256": "97f962f3836de7dc55146c224a0937af9070df339f917741b8503fcb66e5569c",
+      "visual_at_review": {
+        "board": "footwear-v77-boots",
+        "image": "images/sheet-fw119-fw126.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW121",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 836,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW122",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw119-fw126.png",
+      "image_sha256": "97f962f3836de7dc55146c224a0937af9070df339f917741b8503fcb66e5569c",
+      "visual_at_review": {
+        "board": "footwear-v77-boots",
+        "image": "images/sheet-fw119-fw126.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW122",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 1254,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW123",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw119-fw126.png",
+      "image_sha256": "97f962f3836de7dc55146c224a0937af9070df339f917741b8503fcb66e5569c",
+      "visual_at_review": {
+        "board": "footwear-v77-boots",
+        "image": "images/sheet-fw119-fw126.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW123",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW124",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw119-fw126.png",
+      "image_sha256": "97f962f3836de7dc55146c224a0937af9070df339f917741b8503fcb66e5569c",
+      "visual_at_review": {
+        "board": "footwear-v77-boots",
+        "image": "images/sheet-fw119-fw126.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW124",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 418,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW125",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw119-fw126.png",
+      "image_sha256": "97f962f3836de7dc55146c224a0937af9070df339f917741b8503fcb66e5569c",
+      "visual_at_review": {
+        "board": "footwear-v77-boots",
+        "image": "images/sheet-fw119-fw126.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW125",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 836,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW126",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw119-fw126.png",
+      "image_sha256": "97f962f3836de7dc55146c224a0937af9070df339f917741b8503fcb66e5569c",
+      "visual_at_review": {
+        "board": "footwear-v77-boots",
+        "image": "images/sheet-fw119-fw126.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW126",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 1254,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW127",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw127-fw134.png",
+      "image_sha256": "91309536b7a9bf7b1a55f2c40064b90040523a8c358b3a67e2893bcb10aa34c3",
+      "visual_at_review": {
+        "board": "footwear-v77-special",
+        "image": "images/sheet-fw127-fw134.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW127",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW128",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw127-fw134.png",
+      "image_sha256": "91309536b7a9bf7b1a55f2c40064b90040523a8c358b3a67e2893bcb10aa34c3",
+      "visual_at_review": {
+        "board": "footwear-v77-special",
+        "image": "images/sheet-fw127-fw134.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW128",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 418,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW129",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw127-fw134.png",
+      "image_sha256": "91309536b7a9bf7b1a55f2c40064b90040523a8c358b3a67e2893bcb10aa34c3",
+      "visual_at_review": {
+        "board": "footwear-v77-special",
+        "image": "images/sheet-fw127-fw134.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW129",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 836,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW130",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw127-fw134.png",
+      "image_sha256": "91309536b7a9bf7b1a55f2c40064b90040523a8c358b3a67e2893bcb10aa34c3",
+      "visual_at_review": {
+        "board": "footwear-v77-special",
+        "image": "images/sheet-fw127-fw134.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW130",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 1254,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW131",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw127-fw134.png",
+      "image_sha256": "91309536b7a9bf7b1a55f2c40064b90040523a8c358b3a67e2893bcb10aa34c3",
+      "visual_at_review": {
+        "board": "footwear-v77-special",
+        "image": "images/sheet-fw127-fw134.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW131",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW132",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw127-fw134.png",
+      "image_sha256": "91309536b7a9bf7b1a55f2c40064b90040523a8c358b3a67e2893bcb10aa34c3",
+      "visual_at_review": {
+        "board": "footwear-v77-special",
+        "image": "images/sheet-fw127-fw134.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW132",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 418,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW133",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw127-fw134.png",
+      "image_sha256": "91309536b7a9bf7b1a55f2c40064b90040523a8c358b3a67e2893bcb10aa34c3",
+      "visual_at_review": {
+        "board": "footwear-v77-special",
+        "image": "images/sheet-fw127-fw134.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW133",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 836,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FW134",
+      "category": "footwear",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fw127-fw134.png",
+      "image_sha256": "91309536b7a9bf7b1a55f2c40064b90040523a8c358b3a67e2893bcb10aa34c3",
+      "visual_at_review": {
+        "board": "footwear-v77-special",
+        "image": "images/sheet-fw127-fw134.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FW134",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 1254,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    }
+  ]
+}

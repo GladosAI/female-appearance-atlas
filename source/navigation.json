@@ -51,6 +51,7 @@
       "note": "脸型五官与自然唇形、眼睛肤色、眼妆唇妆，以及情绪、口部动作和面部覆盖。",
       "categories": [
         "face",
+        "anime_face_types",
         "features",
         "nose_ear_teeth",
         "lips",
@@ -76,6 +77,7 @@
           "name": "脸型、五官与视角",
           "categories": [
             "face",
+            "anime_face_types",
             "features",
             "nose_ear_teeth",
             "lips",

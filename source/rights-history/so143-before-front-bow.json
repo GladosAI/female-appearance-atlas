@@ -1,0 +1,115 @@
+{
+  "schema": "female-appearance-retired-rights/v1",
+  "retired_on": "2026-11-18",
+  "content_version": "78.1",
+  "reason": "The owner selected a front-facing sock view with front cuff bows. Original sheet and rear-view draft remain historical inputs.",
+  "replacements": [
+    {
+      "board_id": "hosiery-v78-cuffs",
+      "previous_image": "images/sheet-so137-so144.png",
+      "current_image": "images/sheet-so137-so144-v3.png"
+    }
+  ],
+  "assets": [
+    {
+      "path": "images/sheet-so137-so144.png",
+      "kind": "ai-generated-reference",
+      "sha256": "d74869df531522635440fad241a3c513e71d2e56ec576db28c591b1e42cff7e0",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "hosiery-v78-cuffs",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-18",
+      "reviewed_at": "2026-11-18",
+      "notes": "Original text-conditioned hosiery illustrations. Reviewed all eight worn pairs on each sheet for design correspondence, complete hosiery silhouettes and grid boundaries.",
+      "evidence_ids": [
+        "E-HOSIERY-GENERATION-20261118",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-143418d282b559c2"
+      ],
+      "provenance": {
+        "observed_sha256": "d74869df531522635440fad241a3c513e71d2e56ec576db28c591b1e42cff7e0",
+        "status": "generated-file-match",
+        "board_id": "hosiery-v78-cuffs",
+        "prompt_sources": [
+          "source/contributions/hosiery-expansion-v78.json#/boards/2/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-so137-so144-v2.png",
+      "kind": "ai-generated-reference",
+      "sha256": "70ac789a02e6b502f527b1c1ca3302fe6b5d9549d07aafb587805e67f04d22cf",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "hosiery-v78-cuffs",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-18",
+      "reviewed_at": "2026-11-18",
+      "notes": "Project-owned image edit; the final image follows the owner-requested front-facing feet and front cuff bows.",
+      "evidence_ids": [
+        "E-SO143-FRONT-BOW-GENERATION-20261118",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-a7ceb305e900ff6d"
+      ],
+      "provenance": {
+        "observed_sha256": "70ac789a02e6b502f527b1c1ca3302fe6b5d9549d07aafb587805e67f04d22cf",
+        "status": "generated-file-match",
+        "board_id": "hosiery-v78-cuffs",
+        "prompt_sources": [
+          "source/contributions/hosiery-expansion-v78.json#/boards/2/edit_history/0/prompt"
+        ],
+        "declared_inputs": [
+          {
+            "path": "images/sheet-so137-so144.png",
+            "exists": true,
+            "sha256": "d74869df531522635440fad241a3c513e71d2e56ec576db28c591b1e42cff7e0",
+            "generated_file_match": true,
+            "self_pointer": false
+          }
+        ]
+      }
+    }
+  ],
+  "boards": [
+    {
+      "path": "images/sheet-so137-so144.png",
+      "board_id": "hosiery-v78-cuffs",
+      "sha256": "d74869df531522635440fad241a3c513e71d2e56ec576db28c591b1e42cff7e0",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-18",
+      "prompt_sources": [
+        "source/contributions/hosiery-expansion-v78.json#/boards/2/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "Original text-conditioned illustration. No image input was supplied."
+    },
+    {
+      "path": "images/sheet-so137-so144-v2.png",
+      "board_id": "hosiery-v78-cuffs",
+      "sha256": "70ac789a02e6b502f527b1c1ca3302fe6b5d9549d07aafb587805e67f04d22cf",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-18",
+      "prompt_sources": [
+        "source/contributions/hosiery-expansion-v78.json#/boards/2/edit_history/0/prompt"
+      ],
+      "declared_inputs": [
+        {
+          "path": "images/sheet-so137-so144.png",
+          "exists": true,
+          "sha256": "d74869df531522635440fad241a3c513e71d2e56ec576db28c591b1e42cff7e0",
+          "generated_file_match": true,
+          "self_pointer": false
+        }
+      ],
+      "input_scope": "Only the preceding project-owned sheet was supplied. Historical input identities are retained in the rights history."
+    }
+  ]
+}

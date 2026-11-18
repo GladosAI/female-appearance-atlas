@@ -23519,6 +23519,559 @@
         ],
         "declared_inputs": []
       }
+    },
+    {
+      "path": "images/sheet-af001-af012.png",
+      "kind": "ai-generated-reference",
+      "sha256": "84c972c741fe70715f36765e5d5eb0fca0e4f46c90fa337771cd5a5735dbdbb4",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "anime-faces-v75",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-15",
+      "reviewed_at": "2026-11-15",
+      "notes": "Original twelve-panel illustration, generated without external images. Official artist and production links are reading references only. Face structures and cell boundaries visually reviewed.",
+      "evidence_ids": [
+        "E-ANIME-FACES-GENERATION-20261115",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-02ef4b5a48062eb1"
+      ],
+      "provenance": {
+        "observed_sha256": "84c972c741fe70715f36765e5d5eb0fca0e4f46c90fa337771cd5a5735dbdbb4",
+        "status": "generated-file-match",
+        "board_id": "anime-faces-v75",
+        "prompt_sources": [
+          "source/contributions/anime-face-types-v75.json#/boards/0/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-bt091-bt098.png",
+      "kind": "ai-generated-reference",
+      "sha256": "a1ad8abfc1f84b3ab505f4723b3cbd24d93d0c78eb37754db6b2c1a14aee2653",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "weixin-lolita-v76-skirts",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-17",
+      "reviewed_at": "2026-11-17",
+      "notes": "Original 4-by-2 fashion illustrations, generated from text without external image inputs. Article linked as reading. Compared all cells with their edited notes and checked crop boundaries.",
+      "evidence_ids": [
+        "E-LOLITA-GENERATION-20261117",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-f38f89bc86e0c38a"
+      ],
+      "provenance": {
+        "observed_sha256": "a1ad8abfc1f84b3ab505f4723b3cbd24d93d0c78eb37754db6b2c1a14aee2653",
+        "status": "generated-file-match",
+        "board_id": "weixin-lolita-v76-skirts",
+        "prompt_sources": [
+          "source/contributions/lolita-design-v76.json#/boards/0/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-op129-op136.png",
+      "kind": "ai-generated-reference",
+      "sha256": "3a8c4f8317864c91afc57320c7cb7f036c4b51c323344a06e4c186fe4c90f742",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "weixin-lolita-v76-dresses",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-17",
+      "reviewed_at": "2026-11-17",
+      "notes": "Original 4-by-2 fashion illustrations, generated from text without external image inputs. Article linked as reading. Compared all cells with their edited notes and checked crop boundaries.",
+      "evidence_ids": [
+        "E-LOLITA-GENERATION-20261117",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-b4c9e16396398d8d"
+      ],
+      "provenance": {
+        "observed_sha256": "3a8c4f8317864c91afc57320c7cb7f036c4b51c323344a06e4c186fe4c90f742",
+        "status": "generated-file-match",
+        "board_id": "weixin-lolita-v76-dresses",
+        "prompt_sources": [
+          "source/contributions/lolita-design-v76.json#/boards/1/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-cs061-cs068.png",
+      "kind": "ai-generated-reference",
+      "sha256": "7e752b68fe043b942b37326e4965914942e30c80f6506c18465ead30eb806ee5",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "weixin-lolita-v76-collars",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-17",
+      "reviewed_at": "2026-11-17",
+      "notes": "Original 4-by-2 fashion illustrations, generated from text without external image inputs. Article linked as reading. Compared all cells with their edited notes and checked crop boundaries.",
+      "evidence_ids": [
+        "E-LOLITA-GENERATION-20261117",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-41f28e975200068a"
+      ],
+      "provenance": {
+        "observed_sha256": "7e752b68fe043b942b37326e4965914942e30c80f6506c18465ead30eb806ee5",
+        "status": "generated-file-match",
+        "board_id": "weixin-lolita-v76-collars",
+        "prompt_sources": [
+          "source/contributions/lolita-design-v76.json#/boards/2/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-fs279-fs286.png",
+      "kind": "ai-generated-reference",
+      "sha256": "b11fea57f5d2a345b64337ae3a1e1f777dc7d0b56039b8d3fef5eed3eb442ce1",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "weixin-lolita-v76-outfits",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-17",
+      "reviewed_at": "2026-11-17",
+      "notes": "Original 4-by-2 fashion illustrations, generated from text without external image inputs. Article linked as reading. Compared all cells with their edited notes and checked crop boundaries.",
+      "evidence_ids": [
+        "E-LOLITA-GENERATION-20261117",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-43aa7004efdf3e12"
+      ],
+      "provenance": {
+        "observed_sha256": "b11fea57f5d2a345b64337ae3a1e1f777dc7d0b56039b8d3fef5eed3eb442ce1",
+        "status": "generated-file-match",
+        "board_id": "weixin-lolita-v76-outfits",
+        "prompt_sources": [
+          "source/contributions/lolita-design-v76.json#/boards/3/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-bt091-bt098-wearing.png",
+      "kind": "ai-generated-reference",
+      "sha256": "9dadef79507df6eb74b01ac58a9afa676e50dcfbe09a48522f8e6dc276439eb3",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "weixin-lolita-v76-skirts-wearing",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-17",
+      "reviewed_at": "2026-11-17",
+      "notes": "Paired wearing illustration generated with the project-owned construction sheet as the only image input. Checked garment matching, framing and grid boundaries.",
+      "evidence_ids": [
+        "E-LOLITA-WEARING-GENERATION-20261117",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-d0e6913eea79b8df"
+      ],
+      "provenance": {
+        "observed_sha256": "9dadef79507df6eb74b01ac58a9afa676e50dcfbe09a48522f8e6dc276439eb3",
+        "status": "generated-file-match",
+        "board_id": "weixin-lolita-v76-skirts-wearing",
+        "prompt_sources": [
+          "source/contributions/lolita-design-v76.json#/boards/4/prompt"
+        ],
+        "declared_inputs": [
+          {
+            "path": "images/sheet-bt091-bt098.png",
+            "exists": true,
+            "sha256": "a1ad8abfc1f84b3ab505f4723b3cbd24d93d0c78eb37754db6b2c1a14aee2653",
+            "generated_file_match": true,
+            "self_pointer": false
+          }
+        ]
+      }
+    },
+    {
+      "path": "images/sheet-op129-op136-wearing.png",
+      "kind": "ai-generated-reference",
+      "sha256": "727baae40dd66e47b976316b86264d514ddf0aabf22afb25847065cdc94de7ab",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "weixin-lolita-v76-dresses-wearing",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-17",
+      "reviewed_at": "2026-11-17",
+      "notes": "Paired wearing illustration generated with the project-owned construction sheet as the only image input. Checked garment matching, framing and grid boundaries.",
+      "evidence_ids": [
+        "E-LOLITA-WEARING-GENERATION-20261117",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-b06fa73172eceae8"
+      ],
+      "provenance": {
+        "observed_sha256": "727baae40dd66e47b976316b86264d514ddf0aabf22afb25847065cdc94de7ab",
+        "status": "generated-file-match",
+        "board_id": "weixin-lolita-v76-dresses-wearing",
+        "prompt_sources": [
+          "source/contributions/lolita-design-v76.json#/boards/5/prompt"
+        ],
+        "declared_inputs": [
+          {
+            "path": "images/sheet-op129-op136.png",
+            "exists": true,
+            "sha256": "3a8c4f8317864c91afc57320c7cb7f036c4b51c323344a06e4c186fe4c90f742",
+            "generated_file_match": true,
+            "self_pointer": false
+          }
+        ]
+      }
+    },
+    {
+      "path": "images/sheet-cs061-cs068-wearing.png",
+      "kind": "ai-generated-reference",
+      "sha256": "d907d4340c02891d7997aed82e10842a77a456d89a40e8e34f77ea2924bff000",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "weixin-lolita-v76-collars-wearing",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-17",
+      "reviewed_at": "2026-11-17",
+      "notes": "Paired wearing illustration generated with the project-owned construction sheet as the only image input. Checked garment matching, framing and grid boundaries.",
+      "evidence_ids": [
+        "E-LOLITA-WEARING-GENERATION-20261117",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-bc22bf887d780660"
+      ],
+      "provenance": {
+        "observed_sha256": "d907d4340c02891d7997aed82e10842a77a456d89a40e8e34f77ea2924bff000",
+        "status": "generated-file-match",
+        "board_id": "weixin-lolita-v76-collars-wearing",
+        "prompt_sources": [
+          "source/contributions/lolita-design-v76.json#/boards/6/prompt"
+        ],
+        "declared_inputs": [
+          {
+            "path": "images/sheet-cs061-cs068.png",
+            "exists": true,
+            "sha256": "7e752b68fe043b942b37326e4965914942e30c80f6506c18465ead30eb806ee5",
+            "generated_file_match": true,
+            "self_pointer": false
+          }
+        ]
+      }
+    },
+    {
+      "path": "images/sheet-fs279-fs286-wearing.png",
+      "kind": "ai-generated-reference",
+      "sha256": "240660e4e4462a0d3174e9176e8b2d90c624af2fda09044a3fda1cd1a87e6a69",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "weixin-lolita-v76-outfits-wearing",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-17",
+      "reviewed_at": "2026-11-17",
+      "notes": "Paired wearing illustration generated with the project-owned construction sheet as the only image input. Checked garment matching, framing and grid boundaries.",
+      "evidence_ids": [
+        "E-LOLITA-WEARING-GENERATION-20261117",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-3b7b8392296bedb5"
+      ],
+      "provenance": {
+        "observed_sha256": "240660e4e4462a0d3174e9176e8b2d90c624af2fda09044a3fda1cd1a87e6a69",
+        "status": "generated-file-match",
+        "board_id": "weixin-lolita-v76-outfits-wearing",
+        "prompt_sources": [
+          "source/contributions/lolita-design-v76.json#/boards/7/prompt"
+        ],
+        "declared_inputs": [
+          {
+            "path": "images/sheet-fs279-fs286.png",
+            "exists": true,
+            "sha256": "b11fea57f5d2a345b64337ae3a1e1f777dc7d0b56039b8d3fef5eed3eb442ce1",
+            "generated_file_match": true,
+            "self_pointer": false
+          }
+        ]
+      }
+    },
+    {
+      "path": "images/sheet-fw095-fw102.png",
+      "kind": "ai-generated-reference",
+      "sha256": "409035893d2bda111fde2a4e356f8b7892c0625f64b98fa8c345d7b3c3668865",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "footwear-v77-flats",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-18",
+      "reviewed_at": "2026-11-18",
+      "notes": "Original text-conditioned footwear illustrations. Reviewed all eight worn pairs on each sheet for design correspondence, complete footwear silhouettes and grid boundaries.",
+      "evidence_ids": [
+        "E-FOOTWEAR-GENERATION-20261118",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-83e3d1af1b75c6d4"
+      ],
+      "provenance": {
+        "observed_sha256": "409035893d2bda111fde2a4e356f8b7892c0625f64b98fa8c345d7b3c3668865",
+        "status": "generated-file-match",
+        "board_id": "footwear-v77-flats",
+        "prompt_sources": [
+          "source/contributions/footwear-expansion-v77.json#/boards/0/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-fw103-fw110.png",
+      "kind": "ai-generated-reference",
+      "sha256": "d122fb36d15b878b4bee71f921597792209184b4a5dea9aaeb0f2f882a4048e7",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "footwear-v77-heels",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-18",
+      "reviewed_at": "2026-11-18",
+      "notes": "Original text-conditioned footwear illustrations. Reviewed all eight worn pairs on each sheet for design correspondence, complete footwear silhouettes and grid boundaries.",
+      "evidence_ids": [
+        "E-FOOTWEAR-GENERATION-20261118",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-f58f2b711ad9ff19"
+      ],
+      "provenance": {
+        "observed_sha256": "d122fb36d15b878b4bee71f921597792209184b4a5dea9aaeb0f2f882a4048e7",
+        "status": "generated-file-match",
+        "board_id": "footwear-v77-heels",
+        "prompt_sources": [
+          "source/contributions/footwear-expansion-v77.json#/boards/1/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-fw111-fw118.png",
+      "kind": "ai-generated-reference",
+      "sha256": "a92bccb419e5d5e3a477be7caf28841f4fc1a606280d3b561e1ca66ddc92300e",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "footwear-v77-sandals",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-18",
+      "reviewed_at": "2026-11-18",
+      "notes": "Original text-conditioned footwear illustrations. Reviewed all eight worn pairs on each sheet for design correspondence, complete footwear silhouettes and grid boundaries.",
+      "evidence_ids": [
+        "E-FOOTWEAR-GENERATION-20261118",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-e3180a36d809281b"
+      ],
+      "provenance": {
+        "observed_sha256": "a92bccb419e5d5e3a477be7caf28841f4fc1a606280d3b561e1ca66ddc92300e",
+        "status": "generated-file-match",
+        "board_id": "footwear-v77-sandals",
+        "prompt_sources": [
+          "source/contributions/footwear-expansion-v77.json#/boards/2/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-fw119-fw126.png",
+      "kind": "ai-generated-reference",
+      "sha256": "97f962f3836de7dc55146c224a0937af9070df339f917741b8503fcb66e5569c",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "footwear-v77-boots",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-18",
+      "reviewed_at": "2026-11-18",
+      "notes": "Original text-conditioned footwear illustrations. Reviewed all eight worn pairs on each sheet for design correspondence, complete footwear silhouettes and grid boundaries.",
+      "evidence_ids": [
+        "E-FOOTWEAR-GENERATION-20261118",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-4ba4f73df2bd94b1"
+      ],
+      "provenance": {
+        "observed_sha256": "97f962f3836de7dc55146c224a0937af9070df339f917741b8503fcb66e5569c",
+        "status": "generated-file-match",
+        "board_id": "footwear-v77-boots",
+        "prompt_sources": [
+          "source/contributions/footwear-expansion-v77.json#/boards/3/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-fw127-fw134.png",
+      "kind": "ai-generated-reference",
+      "sha256": "91309536b7a9bf7b1a55f2c40064b90040523a8c358b3a67e2893bcb10aa34c3",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "footwear-v77-special",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-18",
+      "reviewed_at": "2026-11-18",
+      "notes": "Original text-conditioned footwear illustrations. Reviewed all eight worn pairs on each sheet for design correspondence, complete footwear silhouettes and grid boundaries.",
+      "evidence_ids": [
+        "E-FOOTWEAR-GENERATION-20261118",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-86c9349f53a08608"
+      ],
+      "provenance": {
+        "observed_sha256": "91309536b7a9bf7b1a55f2c40064b90040523a8c358b3a67e2893bcb10aa34c3",
+        "status": "generated-file-match",
+        "board_id": "footwear-v77-special",
+        "prompt_sources": [
+          "source/contributions/footwear-expansion-v77.json#/boards/4/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-so121-so128.png",
+      "kind": "ai-generated-reference",
+      "sha256": "e57046f4b29770439943917b96c4dadbf5ebd7864894e426571638beba401070",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "hosiery-v78-knit",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-18",
+      "reviewed_at": "2026-11-18",
+      "notes": "Original text-conditioned hosiery illustrations. Reviewed all eight worn pairs on each sheet for design correspondence, complete hosiery silhouettes and grid boundaries.",
+      "evidence_ids": [
+        "E-HOSIERY-GENERATION-20261118",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-f5c98639a347673a"
+      ],
+      "provenance": {
+        "observed_sha256": "e57046f4b29770439943917b96c4dadbf5ebd7864894e426571638beba401070",
+        "status": "generated-file-match",
+        "board_id": "hosiery-v78-knit",
+        "prompt_sources": [
+          "source/contributions/hosiery-expansion-v78.json#/boards/0/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-so129-so136.png",
+      "kind": "ai-generated-reference",
+      "sha256": "67c0afac93e09bcad135eb1371ebf5f8f50251fa3d434af78b058f8fd8c60598",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "hosiery-v78-patterns",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-18",
+      "reviewed_at": "2026-11-18",
+      "notes": "Original text-conditioned hosiery illustrations. Reviewed all eight worn pairs on each sheet for design correspondence, complete hosiery silhouettes and grid boundaries.",
+      "evidence_ids": [
+        "E-HOSIERY-GENERATION-20261118",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-5f6e1ad1f4647992"
+      ],
+      "provenance": {
+        "observed_sha256": "67c0afac93e09bcad135eb1371ebf5f8f50251fa3d434af78b058f8fd8c60598",
+        "status": "generated-file-match",
+        "board_id": "hosiery-v78-patterns",
+        "prompt_sources": [
+          "source/contributions/hosiery-expansion-v78.json#/boards/1/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-so145-so152.png",
+      "kind": "ai-generated-reference",
+      "sha256": "e2c9e871af1d80a9ab664e7f833e21c134d0cb59f560f9e5cab37f6afad78c34",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "hosiery-v78-tights",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-18",
+      "reviewed_at": "2026-11-18",
+      "notes": "Original text-conditioned hosiery illustrations. Reviewed all eight worn pairs on each sheet for design correspondence, complete hosiery silhouettes and grid boundaries.",
+      "evidence_ids": [
+        "E-HOSIERY-GENERATION-20261118",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-3d2525dea9e8096d"
+      ],
+      "provenance": {
+        "observed_sha256": "e2c9e871af1d80a9ab664e7f833e21c134d0cb59f560f9e5cab37f6afad78c34",
+        "status": "generated-file-match",
+        "board_id": "hosiery-v78-tights",
+        "prompt_sources": [
+          "source/contributions/hosiery-expansion-v78.json#/boards/3/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-so153-so160.png",
+      "kind": "ai-generated-reference",
+      "sha256": "d68669aa88fee7cd2c90cb6499d9a3e3f17c246bb1f21b5592db5742ebcd248b",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "hosiery-v78-fantasy",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-18",
+      "reviewed_at": "2026-11-18",
+      "notes": "Original text-conditioned hosiery illustrations. Reviewed all eight worn pairs on each sheet for design correspondence, complete hosiery silhouettes and grid boundaries.",
+      "evidence_ids": [
+        "E-HOSIERY-GENERATION-20261118",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-36bddc2ba51f4b66"
+      ],
+      "provenance": {
+        "observed_sha256": "d68669aa88fee7cd2c90cb6499d9a3e3f17c246bb1f21b5592db5742ebcd248b",
+        "status": "generated-file-match",
+        "board_id": "hosiery-v78-fantasy",
+        "prompt_sources": [
+          "source/contributions/hosiery-expansion-v78.json#/boards/4/prompt"
+        ],
+        "declared_inputs": []
+      }
+    },
+    {
+      "path": "images/sheet-so137-so144-v5.png",
+      "kind": "ai-generated-reference",
+      "sha256": "7225163d54554f7de6f35c01f9aa8111331992299efbe422fdda60c455754966",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "hosiery-v78-cuffs",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-18",
+      "reviewed_at": "2026-11-18",
+      "notes": "Adjusted the front cuff bows to follow individual shin rotations and calf surfaces; reviewed all eight panels, complete feet and preserved three-quarter stances.",
+      "evidence_ids": [
+        "E-HOSIERY-NATURAL-BOWS-20261118",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-9796e4d8d7eccd00"
+      ],
+      "provenance": {
+        "observed_sha256": "7225163d54554f7de6f35c01f9aa8111331992299efbe422fdda60c455754966",
+        "status": "generated-file-match",
+        "board_id": "hosiery-v78-cuffs",
+        "prompt_sources": [
+          "source/contributions/hosiery-expansion-v78.json#/boards/2/edit_prompt"
+        ],
+        "declared_inputs": [
+          {
+            "path": "images/sheet-so137-so144-v4.png",
+            "exists": true,
+            "sha256": "7e36b807a295759f050a2b8800cba5a439287f7848cb2309fc3474f285afe687",
+            "generated_file_match": true,
+            "self_pointer": false
+          }
+        ]
+      }
     }
   ],
   "audit": {

@@ -1,0 +1,74 @@
+{
+  "schema": "female-appearance-retired-rights/v1",
+  "retired_on": "2026-11-18",
+  "content_version": "78.2",
+  "reason": "Owner requested the four lower panels to match the outward-facing three-quarter foot stance of the top row.",
+  "replacements": [
+    {
+      "board_id": "hosiery-v78-cuffs",
+      "previous_image": "images/sheet-so137-so144-v3.png",
+      "current_image": "images/sheet-so137-so144-v4.png"
+    }
+  ],
+  "assets": [
+    {
+      "path": "images/sheet-so137-so144-v3.png",
+      "kind": "ai-generated-reference",
+      "sha256": "2f665a2a14f8a3799df5f2225e43cf83c20de2ef3da49ab2b8f53bf9f9047a52",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "hosiery-v78-cuffs",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-18",
+      "reviewed_at": "2026-11-18",
+      "notes": "Project-owned image edit; the final image follows the owner-requested front-facing feet and front cuff bows.",
+      "evidence_ids": [
+        "E-SO143-FRONT-BOW-GENERATION-20261118",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-46d77186e8136fc4"
+      ],
+      "provenance": {
+        "observed_sha256": "2f665a2a14f8a3799df5f2225e43cf83c20de2ef3da49ab2b8f53bf9f9047a52",
+        "status": "generated-file-match",
+        "board_id": "hosiery-v78-cuffs",
+        "prompt_sources": [
+          "source/contributions/hosiery-expansion-v78.json#/boards/2/edit_history/1/prompt"
+        ],
+        "declared_inputs": [
+          {
+            "path": "images/sheet-so137-so144-v2.png",
+            "exists": true,
+            "sha256": "70ac789a02e6b502f527b1c1ca3302fe6b5d9549d07aafb587805e67f04d22cf",
+            "generated_file_match": true,
+            "self_pointer": false
+          }
+        ]
+      }
+    }
+  ],
+  "boards": [
+    {
+      "path": "images/sheet-so137-so144-v3.png",
+      "board_id": "hosiery-v78-cuffs",
+      "sha256": "2f665a2a14f8a3799df5f2225e43cf83c20de2ef3da49ab2b8f53bf9f9047a52",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-18",
+      "prompt_sources": [
+        "source/contributions/hosiery-expansion-v78.json#/boards/2/edit_history/1/prompt"
+      ],
+      "declared_inputs": [
+        {
+          "path": "images/sheet-so137-so144-v2.png",
+          "exists": true,
+          "sha256": "70ac789a02e6b502f527b1c1ca3302fe6b5d9549d07aafb587805e67f04d22cf",
+          "generated_file_match": true,
+          "self_pointer": false
+        }
+      ],
+      "input_scope": "Only the preceding project-owned sheet was supplied. Historical input identities are retained in the rights history."
+    }
+  ]
+}

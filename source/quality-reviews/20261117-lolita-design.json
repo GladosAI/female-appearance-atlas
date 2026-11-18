@@ -1,0 +1,1694 @@
+{
+  "schema": "female-appearance-quality-review/v1",
+  "batch": "2026-11-17-lolita-design",
+  "catalog_version": "76.0",
+  "date": "2026-11-17",
+  "reviewer": "Codex AI-assisted visual review",
+  "scope": {
+    "entries": 32,
+    "visuals": 64,
+    "categories": [
+      "bottoms",
+      "construction",
+      "fashion_outfits",
+      "onepiece"
+    ],
+    "category_counts": {
+      "bottoms": 8,
+      "construction": 8,
+      "fashion_outfits": 8,
+      "onepiece": 8
+    }
+  },
+  "method": "Reviewed four construction sheets and four paired on-body sheets for garment correspondence, label-to-cell mapping, panel boundaries, and visibility of hem, layering, or neckline details.",
+  "issues": [],
+  "changed_entries": [],
+  "export_representatives": [],
+  "resource_release": "v76.0",
+  "records": [
+    {
+      "entry_id": "BT091",
+      "category": "bottoms",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-bt091-bt098.png",
+      "image_sha256": "a1ad8abfc1f84b3ab505f4723b3cbd24d93d0c78eb37754db6b2c1a14aee2653",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-skirts",
+        "image": "images/sheet-bt091-bt098.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "BT091",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "BT092",
+      "category": "bottoms",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-bt091-bt098.png",
+      "image_sha256": "a1ad8abfc1f84b3ab505f4723b3cbd24d93d0c78eb37754db6b2c1a14aee2653",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-skirts",
+        "image": "images/sheet-bt091-bt098.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "BT092",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 418,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "BT093",
+      "category": "bottoms",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-bt091-bt098.png",
+      "image_sha256": "a1ad8abfc1f84b3ab505f4723b3cbd24d93d0c78eb37754db6b2c1a14aee2653",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-skirts",
+        "image": "images/sheet-bt091-bt098.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "BT093",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 836,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "BT094",
+      "category": "bottoms",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-bt091-bt098.png",
+      "image_sha256": "a1ad8abfc1f84b3ab505f4723b3cbd24d93d0c78eb37754db6b2c1a14aee2653",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-skirts",
+        "image": "images/sheet-bt091-bt098.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "BT094",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 1254,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "BT095",
+      "category": "bottoms",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-bt091-bt098.png",
+      "image_sha256": "a1ad8abfc1f84b3ab505f4723b3cbd24d93d0c78eb37754db6b2c1a14aee2653",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-skirts",
+        "image": "images/sheet-bt091-bt098.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "BT095",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "BT096",
+      "category": "bottoms",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-bt091-bt098.png",
+      "image_sha256": "a1ad8abfc1f84b3ab505f4723b3cbd24d93d0c78eb37754db6b2c1a14aee2653",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-skirts",
+        "image": "images/sheet-bt091-bt098.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "BT096",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 418,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "BT097",
+      "category": "bottoms",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-bt091-bt098.png",
+      "image_sha256": "a1ad8abfc1f84b3ab505f4723b3cbd24d93d0c78eb37754db6b2c1a14aee2653",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-skirts",
+        "image": "images/sheet-bt091-bt098.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "BT097",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 836,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "BT098",
+      "category": "bottoms",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-bt091-bt098.png",
+      "image_sha256": "a1ad8abfc1f84b3ab505f4723b3cbd24d93d0c78eb37754db6b2c1a14aee2653",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-skirts",
+        "image": "images/sheet-bt091-bt098.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "BT098",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 1254,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "OP129",
+      "category": "onepiece",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-op129-op136.png",
+      "image_sha256": "3a8c4f8317864c91afc57320c7cb7f036c4b51c323344a06e4c186fe4c90f742",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-dresses",
+        "image": "images/sheet-op129-op136.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "OP129",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "OP130",
+      "category": "onepiece",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-op129-op136.png",
+      "image_sha256": "3a8c4f8317864c91afc57320c7cb7f036c4b51c323344a06e4c186fe4c90f742",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-dresses",
+        "image": "images/sheet-op129-op136.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "OP130",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 418,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "OP131",
+      "category": "onepiece",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-op129-op136.png",
+      "image_sha256": "3a8c4f8317864c91afc57320c7cb7f036c4b51c323344a06e4c186fe4c90f742",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-dresses",
+        "image": "images/sheet-op129-op136.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "OP131",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 836,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "OP132",
+      "category": "onepiece",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-op129-op136.png",
+      "image_sha256": "3a8c4f8317864c91afc57320c7cb7f036c4b51c323344a06e4c186fe4c90f742",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-dresses",
+        "image": "images/sheet-op129-op136.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "OP132",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 1254,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "OP133",
+      "category": "onepiece",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-op129-op136.png",
+      "image_sha256": "3a8c4f8317864c91afc57320c7cb7f036c4b51c323344a06e4c186fe4c90f742",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-dresses",
+        "image": "images/sheet-op129-op136.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "OP133",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "OP134",
+      "category": "onepiece",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-op129-op136.png",
+      "image_sha256": "3a8c4f8317864c91afc57320c7cb7f036c4b51c323344a06e4c186fe4c90f742",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-dresses",
+        "image": "images/sheet-op129-op136.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "OP134",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 418,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "OP135",
+      "category": "onepiece",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-op129-op136.png",
+      "image_sha256": "3a8c4f8317864c91afc57320c7cb7f036c4b51c323344a06e4c186fe4c90f742",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-dresses",
+        "image": "images/sheet-op129-op136.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "OP135",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 836,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "OP136",
+      "category": "onepiece",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-op129-op136.png",
+      "image_sha256": "3a8c4f8317864c91afc57320c7cb7f036c4b51c323344a06e4c186fe4c90f742",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-dresses",
+        "image": "images/sheet-op129-op136.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "OP136",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 1254,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "CS061",
+      "category": "construction",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-cs061-cs068.png",
+      "image_sha256": "7e752b68fe043b942b37326e4965914942e30c80f6506c18465ead30eb806ee5",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-collars",
+        "image": "images/sheet-cs061-cs068.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "CS061",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "CS062",
+      "category": "construction",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-cs061-cs068.png",
+      "image_sha256": "7e752b68fe043b942b37326e4965914942e30c80f6506c18465ead30eb806ee5",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-collars",
+        "image": "images/sheet-cs061-cs068.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "CS062",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 418,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "CS063",
+      "category": "construction",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-cs061-cs068.png",
+      "image_sha256": "7e752b68fe043b942b37326e4965914942e30c80f6506c18465ead30eb806ee5",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-collars",
+        "image": "images/sheet-cs061-cs068.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "CS063",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 836,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "CS064",
+      "category": "construction",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-cs061-cs068.png",
+      "image_sha256": "7e752b68fe043b942b37326e4965914942e30c80f6506c18465ead30eb806ee5",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-collars",
+        "image": "images/sheet-cs061-cs068.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "CS064",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 1254,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "CS065",
+      "category": "construction",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-cs061-cs068.png",
+      "image_sha256": "7e752b68fe043b942b37326e4965914942e30c80f6506c18465ead30eb806ee5",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-collars",
+        "image": "images/sheet-cs061-cs068.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "CS065",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "CS066",
+      "category": "construction",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-cs061-cs068.png",
+      "image_sha256": "7e752b68fe043b942b37326e4965914942e30c80f6506c18465ead30eb806ee5",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-collars",
+        "image": "images/sheet-cs061-cs068.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "CS066",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 418,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "CS067",
+      "category": "construction",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-cs061-cs068.png",
+      "image_sha256": "7e752b68fe043b942b37326e4965914942e30c80f6506c18465ead30eb806ee5",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-collars",
+        "image": "images/sheet-cs061-cs068.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "CS067",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 836,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "CS068",
+      "category": "construction",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-cs061-cs068.png",
+      "image_sha256": "7e752b68fe043b942b37326e4965914942e30c80f6506c18465ead30eb806ee5",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-collars",
+        "image": "images/sheet-cs061-cs068.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "CS068",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 1254,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FS279",
+      "category": "fashion_outfits",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fs279-fs286.png",
+      "image_sha256": "b11fea57f5d2a345b64337ae3a1e1f777dc7d0b56039b8d3fef5eed3eb442ce1",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-outfits",
+        "image": "images/sheet-fs279-fs286.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FS279",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FS280",
+      "category": "fashion_outfits",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fs279-fs286.png",
+      "image_sha256": "b11fea57f5d2a345b64337ae3a1e1f777dc7d0b56039b8d3fef5eed3eb442ce1",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-outfits",
+        "image": "images/sheet-fs279-fs286.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FS280",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 418,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FS281",
+      "category": "fashion_outfits",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fs279-fs286.png",
+      "image_sha256": "b11fea57f5d2a345b64337ae3a1e1f777dc7d0b56039b8d3fef5eed3eb442ce1",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-outfits",
+        "image": "images/sheet-fs279-fs286.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FS281",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 836,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FS282",
+      "category": "fashion_outfits",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fs279-fs286.png",
+      "image_sha256": "b11fea57f5d2a345b64337ae3a1e1f777dc7d0b56039b8d3fef5eed3eb442ce1",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-outfits",
+        "image": "images/sheet-fs279-fs286.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FS282",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 1254,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FS283",
+      "category": "fashion_outfits",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fs279-fs286.png",
+      "image_sha256": "b11fea57f5d2a345b64337ae3a1e1f777dc7d0b56039b8d3fef5eed3eb442ce1",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-outfits",
+        "image": "images/sheet-fs279-fs286.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FS283",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FS284",
+      "category": "fashion_outfits",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fs279-fs286.png",
+      "image_sha256": "b11fea57f5d2a345b64337ae3a1e1f777dc7d0b56039b8d3fef5eed3eb442ce1",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-outfits",
+        "image": "images/sheet-fs279-fs286.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FS284",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 418,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FS285",
+      "category": "fashion_outfits",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fs279-fs286.png",
+      "image_sha256": "b11fea57f5d2a345b64337ae3a1e1f777dc7d0b56039b8d3fef5eed3eb442ce1",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-outfits",
+        "image": "images/sheet-fs279-fs286.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FS285",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 836,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FS286",
+      "category": "fashion_outfits",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fs279-fs286.png",
+      "image_sha256": "b11fea57f5d2a345b64337ae3a1e1f777dc7d0b56039b8d3fef5eed3eb442ce1",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-outfits",
+        "image": "images/sheet-fs279-fs286.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FS286",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 1254,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1672,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "BT091",
+      "category": "bottoms",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-bt091-bt098-wearing.png",
+      "image_sha256": "9dadef79507df6eb74b01ac58a9afa676e50dcfbe09a48522f8e6dc276439eb3",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-skirts-wearing",
+        "image": "images/sheet-bt091-bt098-wearing.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "BT091",
+        "aspect": 0.8872340425531915,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 417,
+          "height": 470,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "BT092",
+      "category": "bottoms",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-bt091-bt098-wearing.png",
+      "image_sha256": "9dadef79507df6eb74b01ac58a9afa676e50dcfbe09a48522f8e6dc276439eb3",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-skirts-wearing",
+        "image": "images/sheet-bt091-bt098-wearing.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "BT092",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 417,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "BT093",
+      "category": "bottoms",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-bt091-bt098-wearing.png",
+      "image_sha256": "9dadef79507df6eb74b01ac58a9afa676e50dcfbe09a48522f8e6dc276439eb3",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-skirts-wearing",
+        "image": "images/sheet-bt091-bt098-wearing.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "BT093",
+        "aspect": 0.8872340425531915,
+        "crop": {
+          "x": 835,
+          "y": 0,
+          "width": 417,
+          "height": 470,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "BT094",
+      "category": "bottoms",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-bt091-bt098-wearing.png",
+      "image_sha256": "9dadef79507df6eb74b01ac58a9afa676e50dcfbe09a48522f8e6dc276439eb3",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-skirts-wearing",
+        "image": "images/sheet-bt091-bt098-wearing.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "BT094",
+        "aspect": 0.8914893617021277,
+        "crop": {
+          "x": 1252,
+          "y": 0,
+          "width": 419,
+          "height": 470,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "BT095",
+      "category": "bottoms",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-bt091-bt098-wearing.png",
+      "image_sha256": "9dadef79507df6eb74b01ac58a9afa676e50dcfbe09a48522f8e6dc276439eb3",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-skirts-wearing",
+        "image": "images/sheet-bt091-bt098-wearing.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "BT095",
+        "aspect": 0.8853503184713376,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 417,
+          "height": 471,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "BT096",
+      "category": "bottoms",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-bt091-bt098-wearing.png",
+      "image_sha256": "9dadef79507df6eb74b01ac58a9afa676e50dcfbe09a48522f8e6dc276439eb3",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-skirts-wearing",
+        "image": "images/sheet-bt091-bt098-wearing.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "BT096",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 417,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "BT097",
+      "category": "bottoms",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-bt091-bt098-wearing.png",
+      "image_sha256": "9dadef79507df6eb74b01ac58a9afa676e50dcfbe09a48522f8e6dc276439eb3",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-skirts-wearing",
+        "image": "images/sheet-bt091-bt098-wearing.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "BT097",
+        "aspect": 0.8853503184713376,
+        "crop": {
+          "x": 835,
+          "y": 470,
+          "width": 417,
+          "height": 471,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "BT098",
+      "category": "bottoms",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-bt091-bt098-wearing.png",
+      "image_sha256": "9dadef79507df6eb74b01ac58a9afa676e50dcfbe09a48522f8e6dc276439eb3",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-skirts-wearing",
+        "image": "images/sheet-bt091-bt098-wearing.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "BT098",
+        "aspect": 0.8895966029723992,
+        "crop": {
+          "x": 1252,
+          "y": 470,
+          "width": 419,
+          "height": 471,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "OP129",
+      "category": "onepiece",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-op129-op136-wearing.png",
+      "image_sha256": "727baae40dd66e47b976316b86264d514ddf0aabf22afb25847065cdc94de7ab",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-dresses-wearing",
+        "image": "images/sheet-op129-op136-wearing.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "OP129",
+        "aspect": 0.8872340425531915,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 417,
+          "height": 470,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "OP130",
+      "category": "onepiece",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-op129-op136-wearing.png",
+      "image_sha256": "727baae40dd66e47b976316b86264d514ddf0aabf22afb25847065cdc94de7ab",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-dresses-wearing",
+        "image": "images/sheet-op129-op136-wearing.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "OP130",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 417,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "OP131",
+      "category": "onepiece",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-op129-op136-wearing.png",
+      "image_sha256": "727baae40dd66e47b976316b86264d514ddf0aabf22afb25847065cdc94de7ab",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-dresses-wearing",
+        "image": "images/sheet-op129-op136-wearing.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "OP131",
+        "aspect": 0.8872340425531915,
+        "crop": {
+          "x": 835,
+          "y": 0,
+          "width": 417,
+          "height": 470,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "OP132",
+      "category": "onepiece",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-op129-op136-wearing.png",
+      "image_sha256": "727baae40dd66e47b976316b86264d514ddf0aabf22afb25847065cdc94de7ab",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-dresses-wearing",
+        "image": "images/sheet-op129-op136-wearing.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "OP132",
+        "aspect": 0.8914893617021277,
+        "crop": {
+          "x": 1252,
+          "y": 0,
+          "width": 419,
+          "height": 470,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "OP133",
+      "category": "onepiece",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-op129-op136-wearing.png",
+      "image_sha256": "727baae40dd66e47b976316b86264d514ddf0aabf22afb25847065cdc94de7ab",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-dresses-wearing",
+        "image": "images/sheet-op129-op136-wearing.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "OP133",
+        "aspect": 0.8853503184713376,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 417,
+          "height": 471,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "OP134",
+      "category": "onepiece",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-op129-op136-wearing.png",
+      "image_sha256": "727baae40dd66e47b976316b86264d514ddf0aabf22afb25847065cdc94de7ab",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-dresses-wearing",
+        "image": "images/sheet-op129-op136-wearing.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "OP134",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 417,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "OP135",
+      "category": "onepiece",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-op129-op136-wearing.png",
+      "image_sha256": "727baae40dd66e47b976316b86264d514ddf0aabf22afb25847065cdc94de7ab",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-dresses-wearing",
+        "image": "images/sheet-op129-op136-wearing.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "OP135",
+        "aspect": 0.8853503184713376,
+        "crop": {
+          "x": 835,
+          "y": 470,
+          "width": 417,
+          "height": 471,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "OP136",
+      "category": "onepiece",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-op129-op136-wearing.png",
+      "image_sha256": "727baae40dd66e47b976316b86264d514ddf0aabf22afb25847065cdc94de7ab",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-dresses-wearing",
+        "image": "images/sheet-op129-op136-wearing.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "OP136",
+        "aspect": 0.8895966029723992,
+        "crop": {
+          "x": 1252,
+          "y": 470,
+          "width": 419,
+          "height": 471,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "CS061",
+      "category": "construction",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-cs061-cs068-wearing.png",
+      "image_sha256": "d907d4340c02891d7997aed82e10842a77a456d89a40e8e34f77ea2924bff000",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-collars-wearing",
+        "image": "images/sheet-cs061-cs068-wearing.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "CS061",
+        "aspect": 0.8872340425531915,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 417,
+          "height": 470,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "CS062",
+      "category": "construction",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-cs061-cs068-wearing.png",
+      "image_sha256": "d907d4340c02891d7997aed82e10842a77a456d89a40e8e34f77ea2924bff000",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-collars-wearing",
+        "image": "images/sheet-cs061-cs068-wearing.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "CS062",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 417,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "CS063",
+      "category": "construction",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-cs061-cs068-wearing.png",
+      "image_sha256": "d907d4340c02891d7997aed82e10842a77a456d89a40e8e34f77ea2924bff000",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-collars-wearing",
+        "image": "images/sheet-cs061-cs068-wearing.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "CS063",
+        "aspect": 0.8872340425531915,
+        "crop": {
+          "x": 835,
+          "y": 0,
+          "width": 417,
+          "height": 470,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "CS064",
+      "category": "construction",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-cs061-cs068-wearing.png",
+      "image_sha256": "d907d4340c02891d7997aed82e10842a77a456d89a40e8e34f77ea2924bff000",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-collars-wearing",
+        "image": "images/sheet-cs061-cs068-wearing.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "CS064",
+        "aspect": 0.8914893617021277,
+        "crop": {
+          "x": 1252,
+          "y": 0,
+          "width": 419,
+          "height": 470,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "CS065",
+      "category": "construction",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-cs061-cs068-wearing.png",
+      "image_sha256": "d907d4340c02891d7997aed82e10842a77a456d89a40e8e34f77ea2924bff000",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-collars-wearing",
+        "image": "images/sheet-cs061-cs068-wearing.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "CS065",
+        "aspect": 0.8853503184713376,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 417,
+          "height": 471,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "CS066",
+      "category": "construction",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-cs061-cs068-wearing.png",
+      "image_sha256": "d907d4340c02891d7997aed82e10842a77a456d89a40e8e34f77ea2924bff000",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-collars-wearing",
+        "image": "images/sheet-cs061-cs068-wearing.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "CS066",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 417,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "CS067",
+      "category": "construction",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-cs061-cs068-wearing.png",
+      "image_sha256": "d907d4340c02891d7997aed82e10842a77a456d89a40e8e34f77ea2924bff000",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-collars-wearing",
+        "image": "images/sheet-cs061-cs068-wearing.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "CS067",
+        "aspect": 0.8853503184713376,
+        "crop": {
+          "x": 835,
+          "y": 470,
+          "width": 417,
+          "height": 471,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "CS068",
+      "category": "construction",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-cs061-cs068-wearing.png",
+      "image_sha256": "d907d4340c02891d7997aed82e10842a77a456d89a40e8e34f77ea2924bff000",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-collars-wearing",
+        "image": "images/sheet-cs061-cs068-wearing.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "CS068",
+        "aspect": 0.8895966029723992,
+        "crop": {
+          "x": 1252,
+          "y": 470,
+          "width": 419,
+          "height": 471,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FS279",
+      "category": "fashion_outfits",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fs279-fs286-wearing.png",
+      "image_sha256": "240660e4e4462a0d3174e9176e8b2d90c624af2fda09044a3fda1cd1a87e6a69",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-outfits-wearing",
+        "image": "images/sheet-fs279-fs286-wearing.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FS279",
+        "aspect": 0.8872340425531915,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 417,
+          "height": 470,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FS280",
+      "category": "fashion_outfits",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fs279-fs286-wearing.png",
+      "image_sha256": "240660e4e4462a0d3174e9176e8b2d90c624af2fda09044a3fda1cd1a87e6a69",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-outfits-wearing",
+        "image": "images/sheet-fs279-fs286-wearing.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FS280",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 417,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FS281",
+      "category": "fashion_outfits",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fs279-fs286-wearing.png",
+      "image_sha256": "240660e4e4462a0d3174e9176e8b2d90c624af2fda09044a3fda1cd1a87e6a69",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-outfits-wearing",
+        "image": "images/sheet-fs279-fs286-wearing.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FS281",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 835,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FS282",
+      "category": "fashion_outfits",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fs279-fs286-wearing.png",
+      "image_sha256": "240660e4e4462a0d3174e9176e8b2d90c624af2fda09044a3fda1cd1a87e6a69",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-outfits-wearing",
+        "image": "images/sheet-fs279-fs286-wearing.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "FS282",
+        "aspect": 0.8893617021276595,
+        "crop": {
+          "x": 1253,
+          "y": 0,
+          "width": 418,
+          "height": 470,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FS283",
+      "category": "fashion_outfits",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fs279-fs286-wearing.png",
+      "image_sha256": "240660e4e4462a0d3174e9176e8b2d90c624af2fda09044a3fda1cd1a87e6a69",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-outfits-wearing",
+        "image": "images/sheet-fs279-fs286-wearing.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FS283",
+        "aspect": 0.8853503184713376,
+        "crop": {
+          "x": 0,
+          "y": 470,
+          "width": 417,
+          "height": 471,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FS284",
+      "category": "fashion_outfits",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fs279-fs286-wearing.png",
+      "image_sha256": "240660e4e4462a0d3174e9176e8b2d90c624af2fda09044a3fda1cd1a87e6a69",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-outfits-wearing",
+        "image": "images/sheet-fs279-fs286-wearing.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FS284",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 417,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FS285",
+      "category": "fashion_outfits",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fs279-fs286-wearing.png",
+      "image_sha256": "240660e4e4462a0d3174e9176e8b2d90c624af2fda09044a3fda1cd1a87e6a69",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-outfits-wearing",
+        "image": "images/sheet-fs279-fs286-wearing.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FS285",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 835,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    },
+    {
+      "entry_id": "FS286",
+      "category": "fashion_outfits",
+      "field": "wearing_visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-fs279-fs286-wearing.png",
+      "image_sha256": "240660e4e4462a0d3174e9176e8b2d90c624af2fda09044a3fda1cd1a87e6a69",
+      "visual_at_review": {
+        "board": "weixin-lolita-v76-outfits-wearing",
+        "image": "images/sheet-fs279-fs286-wearing.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "FS286",
+        "aspect": 0.8874734607218684,
+        "crop": {
+          "x": 1253,
+          "y": 470,
+          "width": 418,
+          "height": 471,
+          "sheet_width": 1671,
+          "sheet_height": 941
+        }
+      }
+    }
+  ]
+}
