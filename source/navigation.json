@@ -145,9 +145,10 @@
     {
       "id": "body_design",
       "name": "身体与动作",
-      "note": "体型年龄对照、动作与持物、局部形态和机械义肢。",
+      "note": "体型、腿型与年龄对照，动作与持物、局部形态和机械义肢。",
       "categories": [
         "body",
+        "leg_shapes",
         "female_life_stages",
         "age",
         "pose",
@@ -167,6 +168,7 @@
           "name": "体型、比例与年龄",
           "categories": [
             "body",
+            "leg_shapes",
             "female_life_stages",
             "age"
           ]

@@ -1,0 +1,130 @@
+{
+  "schema": "female-appearance-quality-review/v1",
+  "batch": "2026-11-19-standing-foot-directions",
+  "date": "2026-11-19",
+  "catalog_version": "79.0",
+  "reviewer": "Codex AI-assisted visual review",
+  "scope": {
+    "entries": 4,
+    "visuals": 4,
+    "categories": [
+      "leg_shapes"
+    ],
+    "category_counts": {
+      "leg_shapes": 4
+    }
+  },
+  "method": "Compared the heel-to-toe axis of each foot in the four cells from the same high-front angle. Verified parallel, inward, outward and one-sided directions, whole foot silhouettes, panel labels, and measured gutters.",
+  "issues": [],
+  "changed_entries": [],
+  "export_representatives": [
+    "LGT018",
+    "LGT019"
+  ],
+  "records": [
+    {
+      "entry_id": "LGT017",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt017-lgt020.png",
+      "image_sha256": "74447fa07b694c36d1bfd608557595ab2a3f1d824c0aedf67f8dd8e3eba909f7",
+      "visual_at_review": {
+        "board": "standing-foot-directions",
+        "image": "images/sheet-lgt017-lgt020.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "LGT017",
+        "aspect": 1.0,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 627,
+          "height": 627,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
+      }
+    },
+    {
+      "entry_id": "LGT018",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt017-lgt020.png",
+      "image_sha256": "74447fa07b694c36d1bfd608557595ab2a3f1d824c0aedf67f8dd8e3eba909f7",
+      "visual_at_review": {
+        "board": "standing-foot-directions",
+        "image": "images/sheet-lgt017-lgt020.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "LGT018",
+        "aspect": 1.0,
+        "crop": {
+          "x": 627,
+          "y": 0,
+          "width": 627,
+          "height": 627,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
+      }
+    },
+    {
+      "entry_id": "LGT019",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt017-lgt020.png",
+      "image_sha256": "74447fa07b694c36d1bfd608557595ab2a3f1d824c0aedf67f8dd8e3eba909f7",
+      "visual_at_review": {
+        "board": "standing-foot-directions",
+        "image": "images/sheet-lgt017-lgt020.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "LGT019",
+        "aspect": 1.0,
+        "crop": {
+          "x": 0,
+          "y": 627,
+          "width": 627,
+          "height": 627,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
+      }
+    },
+    {
+      "entry_id": "LGT020",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt017-lgt020.png",
+      "image_sha256": "74447fa07b694c36d1bfd608557595ab2a3f1d824c0aedf67f8dd8e3eba909f7",
+      "visual_at_review": {
+        "board": "standing-foot-directions",
+        "image": "images/sheet-lgt017-lgt020.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "LGT020",
+        "aspect": 1.0,
+        "crop": {
+          "x": 627,
+          "y": 627,
+          "width": 627,
+          "height": 627,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
+      }
+    }
+  ]
+}

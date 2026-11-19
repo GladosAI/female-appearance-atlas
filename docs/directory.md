@@ -1,6 +1,6 @@
 # 图鉴总目录
 
-9个领域 → 56个分组 → 212个类别 → 类别内细分，共7365项配图。每个类别只有一个主要归属。
+9个领域 → 56个分组 → 213个类别 → 类别内细分，共7385项配图。每个类别只有一个主要归属。
 
 [打开图鉴目录](../index.html?view=directory) · [查找与筛选说明](find-and-browse.md)
 
@@ -119,15 +119,16 @@
 
 ## 身体与动作
 
-体型年龄对照、动作与持物、局部形态和机械义肢。 共734项。 [领域全部](../index.html?section=topic_body_design)
+体型、腿型与年龄对照，动作与持物、局部形态和机械义肢。 共754项。 [领域全部](../index.html?section=topic_body_design)
 
 ### 体型、比例与年龄
 
-[分组全部 · 198项](../index.html?section=branch_body_age)
+[分组全部 · 218项](../index.html?section=branch_body_age)
 
 | 类别 | 配图词条 | 浏览 |
 | --- | ---: | --- |
 | 体型与比例 | 90 | [词条](../index.html?section=body) · [详表](atlas.md#body) |
+| 腿型与下肢比例 | 20 | [词条](../index.html?section=leg_shapes) · [详表](atlas.md#leg_shapes) |
 | 年龄阶段与正侧面对照 | 96 | [词条](../index.html?section=female_life_stages) · [详表](atlas.md#female_life_stages) |
 | 成年年龄外观 | 12 | [词条](../index.html?section=age) · [详表](atlas.md#age) |
 

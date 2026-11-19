@@ -1,0 +1,73 @@
+{
+  "schema": "female-appearance-retired-rights/v1",
+  "retired_on": "2026-11-19",
+  "content_version": "79.0",
+  "reason": "The unshipped first draft used a pronounced curve; the project owner requested a subtler comparison.",
+  "replacements": [
+    {
+      "board_id": "leg-alignment-and-length",
+      "previous_image": "images/sheet-lgt001-lgt008.png",
+      "current_image": "images/sheet-lgt001-lgt008-v2.png"
+    }
+  ],
+  "assets": [
+    {
+      "path": "images/sheet-lgt001-lgt008.png",
+      "kind": "ai-generated-reference",
+      "sha256": "ff559e57ae0f41aaaad8bd8f4e51a6548aab9df4a43dad46c8db39f3879aa724",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "leg-alignment-and-length",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-19",
+      "reviewed_at": "2026-11-19",
+      "evidence_ids": [
+        "E-LEG-SHAPES-20261119",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-f1c46cf496c638ef"
+      ],
+      "notes": "Reviewed cell IDs, leg-type correspondence, full feet, and measured crop boundaries. Four leg proportion panels include the whole figure.",
+      "provenance": {
+        "observed_sha256": "ff559e57ae0f41aaaad8bd8f4e51a6548aab9df4a43dad46c8db39f3879aa724",
+        "status": "generated-file-match",
+        "board_id": "leg-alignment-and-length",
+        "prompt_sources": [
+          "source/contributions/leg-shapes-v79.json#/boards/0/prompt",
+          "source/contributions/leg-shapes-v79.json#/boards/0/edit_prompt"
+        ],
+        "declared_inputs": [],
+        "generated_draft_inputs": [
+          {
+            "label": "Own unreleased draft before ID correction",
+            "sha256": "143a7eafcbdec91362afad9a4757ef509e25353bff9e72e6551fe529a384e167"
+          }
+        ],
+        "input_scope": "Only original AI-generated drafts from this batch were supplied as image inputs. Board 1 started from text; board 2 used board 1’s original draft for styling. Each final board used its own draft for ID correction. No third-party images were provided."
+      }
+    }
+  ],
+  "boards": [
+    {
+      "path": "images/sheet-lgt001-lgt008.png",
+      "board_id": "leg-alignment-and-length",
+      "sha256": "ff559e57ae0f41aaaad8bd8f4e51a6548aab9df4a43dad46c8db39f3879aa724",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-19",
+      "prompt_sources": [
+        "source/contributions/leg-shapes-v79.json#/boards/0/prompt",
+        "source/contributions/leg-shapes-v79.json#/boards/0/edit_prompt"
+      ],
+      "declared_inputs": [],
+      "generated_draft_inputs": [
+        {
+          "label": "Own unreleased draft before ID correction",
+          "sha256": "143a7eafcbdec91362afad9a4757ef509e25353bff9e72e6551fe529a384e167"
+        }
+      ],
+      "input_scope": "Only original AI-generated drafts from this batch were supplied as image inputs. Board 1 started from text; board 2 used board 1’s original draft for styling. Each final board used its own draft for ID correction. No third-party images were provided."
+    }
+  ]
+}

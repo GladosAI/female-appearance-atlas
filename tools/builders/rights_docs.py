@@ -47,6 +47,8 @@ def write_rights_docs(root):
     result = summary(review)
     ai_assets = [asset for asset in review['assets'] if asset['kind'] in {'ai-catalog-declaration','ai-generated-reference'}]
     ai_matched = sum(asset.get('provenance',{}).get('status')=='generated-file-match' for asset in ai_assets)
+    ai_composited = sum(asset.get('provenance',{}).get('status')=='generated-crop-composited' for asset in ai_assets)
+    ai_composited_note = f'；{ai_composited}张使用了有记录的生成图局部替换' if ai_composited else ''
     photos = [asset for asset in review['assets'] if asset['kind'] == 'third-party-museum-photo']
     brands = [asset for asset in review['assets'] if asset['kind'] == 'project-brand-asset']
     dated_ai = sum(bool(asset.get('generated_at')) for asset in ai_assets)
@@ -62,7 +64,7 @@ def write_rights_docs(root):
 
 | 项目 | 结果 |
 | --- | --- |
-| 现用AI图页 | 清单共{len(ai_assets)}张，{ai_matched}张与本会话生成目录中的文件SHA-256相符；模型名称未知时保留null |
+| 现用AI图页 | 清单共{len(ai_assets)}张，{ai_matched}张与本会话生成目录中的文件SHA-256相符{ai_composited_note}；模型名称未知时保留null |
 | 最初五张总图 | 初始提示词已在prompts/image-prompts.json找回；不伪造生成日期或输入记录 |
 | 馆藏照片 | {len(photos)}张；核对官方API的isPublicDomain、作品页、官方图像与本地缩放/重编码图的对应关系 |
 | 项目Logo与图标 | {len(brands)}个文件；其中{active_brands}个是现用标志及导出文件，{historical_brands}个是未采用的旧Logo草案及导出文件 |
@@ -88,7 +90,7 @@ def write_rights_docs(root):
 
 它指之前制作图页时保存的生成记录，不是另一批来源不明的旧图片。记录分散在`source/image-jobs.json`、`prompts/image-prompts.json`和图页维护源中，核对结果汇总于`source/rights-provenance.json`。
 
-- 现用{len(ai_assets)}张图页均已匹配到本会话生成文件，提示词位置也已登记。
+- 现用AI图页中，{ai_matched}张已匹配到本会话生成文件{ai_composited_note}；相应的提示词位置已登记。
 - 其中{len(ai_assets)-dated_ai}张的准确生成日期未被结构化记录；{dated_ai}张有日期记录。未记录的具体模型名称保持`null`，不根据文件修改时间倒推。
 - 历史对话中没有序列化保存的输入方式不作补写。这里是记录完整性的边界，不能据此判定已经使用未经授权的原图。
 - 旧表述“账号合同”指生成时账号适用的服务条款版本，并非认定有合同缺失或必须为每张图补交一份合同。当前公开条款作为通用参考，不冒充已核实的历史账号合同。

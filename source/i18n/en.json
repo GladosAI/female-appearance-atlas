@@ -9670,7 +9670,20 @@
     "织纹、印花与拼接袜裤": "Textured, printed and paneled tights",
     "主题装饰与幻想袜型": "Themed trims and fantasy hosiery",
     "图案与拼接袜裤": "Patterned and paneled tights",
-    "AI 生成的原创袜类穿着示意": "AI-generated original worn hosiery illustrations"
+    "AI 生成的原创袜类穿着示意": "AI-generated original worn hosiery illustrations",
+    "体型、腿型与年龄对照，动作与持物、局部形态和机械义肢。": "Body types, leg shapes and ages, movement and object handling, local details and prosthetics.",
+    "腿型与下肢比例": "Leg Shapes and Proportions",
+    "膝踝对位": "Knee and ankle alignment",
+    "腿长与分段比例": "Leg length and segment proportions",
+    "大腿与小腿轮廓": "Thigh and calf contours",
+    "膝部与脚踝轮廓": "Knee and ankle contours",
+    "膝踝对位与腿长比例对照": "Leg alignment and length comparison",
+    "腿部轮廓与膝踝细节对照": "Leg silhouettes and knee and ankle landmarks",
+    "AI 生成的原创腿型对照图": "AI-generated original leg studies",
+    "足尖朝向": "Standing toe direction",
+    "站立足尖朝向对照": "Standing toe direction comparison",
+    "AI 生成的原创站立足向对照图": "AI-generated original standing foot direction study",
+    "对照腿线、腿长比例、局部轮廓与足尖朝向。足尖朝向与膝踝对位分开，可按角色需要搭配。图例用于角色设计。": "Compare leg alignment, proportions, contours and toe direction. Toe direction is a separate choice from knee and ankle alignment. These illustrations are for character design."
   },
   "entries": {
     "HC001": {
@@ -46497,6 +46510,106 @@
       "name": "crystal-tassel cuff stockings",
       "description": "Short thread tassels and faceted beads hang from pale-blue cuffs above delicate matching shaft motifs.",
       "design_tip": "Sew or fasten themed trims to the sock and distinguish fabric flexibility and attachment points."
+    },
+    "LGT001": {
+      "name": "straight leg alignment",
+      "description": "From the front, the knee-to-ankle lines are nearly vertical, with a fairly even gap between the lower legs.",
+      "design_tip": "Mark the centers of the knee and ankle before drawing each calf curve."
+    },
+    "LGT002": {
+      "name": "bow-legged alignment",
+      "description": "In a relaxed front-facing stance, the ankles are close together, while the knees bow slightly outward and leave a wider gap.",
+      "design_tip": "Point the toes forward and let the space between the legs narrow gradually from the knees to the ankles, preserving natural calf contours."
+    },
+    "LGT003": {
+      "name": "knock-kneed alignment",
+      "description": "In a relaxed front-facing stance, the knees are close together and the ankles sit a little farther apart, with the shins gently slanting outward.",
+      "design_tip": "Use the widening space below the knees to place the ankles. Keep the toes facing naturally forward and avoid pressing the knees together."
+    },
+    "LGT004": {
+      "name": "mixed X/O leg silhouette",
+      "description": "The knees and ankles both sit close together, but a more visible gap remains midway down the calves.",
+      "design_tip": "Place the knees, ankles and inner calf contours separately. X/O describes the drawn silhouette."
+    },
+    "LGT005": {
+      "name": "balanced thigh and shin lengths",
+      "description": "In the full-body front view, the knee placement gives the thigh and shin a balanced appearance.",
+      "design_tip": "Compare hip, knee and ankle landmarks, treating the foot as a separate segment."
+    },
+    "LGT006": {
+      "name": "relatively long thighs",
+      "description": "Compared with the balanced study, a slightly lower knee gives the thigh more of the total leg length.",
+      "design_tip": "Keep both hip and floor heights comparable. Lower the knee slightly, then adjust the contours."
+    },
+    "LGT007": {
+      "name": "relatively long shins",
+      "description": "Compared with the balanced study, the knees sit higher and the knee-to-ankle span takes up more of the leg.",
+      "design_tip": "After raising the knee, reposition the fullest point of the calf. The foot need not grow longer."
+    },
+    "LGT008": {
+      "name": "shorter legs relative to torso",
+      "description": "At a comparable overall height, the hips sit lower and the legs occupy a smaller share of the full figure.",
+      "design_tip": "Compare crown, hip and floor heights, then place the knees within the shorter leg span."
+    },
+    "LGT009": {
+      "name": "fuller thighs",
+      "description": "The upper thigh has a fuller outward curve that narrows toward the knee.",
+      "design_tip": "Let the wider upper contour taper toward the knee. Calf volume is a separate choice."
+    },
+    "LGT010": {
+      "name": "gradually tapered thighs",
+      "description": "The outline narrows steadily from the hips to the knees, following a long, shallow slope.",
+      "design_tip": "Join the outer hip and knee with a long, smooth line rather than an abrupt break mid-thigh."
+    },
+    "LGT011": {
+      "name": "slim calves",
+      "description": "The calf swell is shallow, with a gradual width change from its fullest point to the ankle.",
+      "design_tip": "Keep the outer swell subtle while distinguishing the inner and outer contours."
+    },
+    "LGT012": {
+      "name": "full muscular calves",
+      "description": "Fuller calf muscles in the upper to middle shin create a stronger taper toward the ankle.",
+      "design_tip": "Place the swell below the knee first, then draw both contours tapering toward the ankle."
+    },
+    "LGT013": {
+      "name": "defined knee landmarks",
+      "description": "In a slight three-quarter view, the kneecap and the transition into the shin read as distinct landmarks.",
+      "design_tip": "Suggest the landmarks with a few clear changes in plane rather than outlining the whole joint."
+    },
+    "LGT014": {
+      "name": "soft rounded knee contours",
+      "description": "Broader shading and a gentler outline connect the knee to the neighboring leg segments.",
+      "design_tip": "Keep the knee center legible, using broad, shallow shifts in value to connect thigh and shin."
+    },
+    "LGT015": {
+      "name": "slim defined ankles",
+      "description": "A narrower taper above the ankle makes the transition between the ankle landmarks and the instep easier to read.",
+      "design_tip": "Use the narrow point and the ankle landmarks as cues without shrinking the foot."
+    },
+    "LGT016": {
+      "name": "gradually tapered ankles",
+      "description": "The lower leg narrows gently above the ankle, creating a more continuous width into the foot.",
+      "design_tip": "Carry a long transition into the instep while keeping the ankle landmarks visible."
+    },
+    "LGT017": {
+      "name": "parallel forward-facing feet",
+      "description": "Both feet are roughly parallel, with the toes facing forward. This is the baseline for the inward and outward examples.",
+      "design_tip": "Use the line from each heel to its forefoot as a guide and allow for natural differences between the feet."
+    },
+    "LGT018": {
+      "name": "pigeon-toed stance",
+      "description": "Both feet angle inward toward the body’s midline, bringing the forefeet closer together than the heels.",
+      "design_tip": "Compare the long axes from a slightly elevated view, keeping the angles restrained and leaving some room between the toes."
+    },
+    "LGT019": {
+      "name": "out-toed stance",
+      "description": "Both feet angle outward. The forefeet are farther apart than the heels.",
+      "design_tip": "Set the foot axes outward from the heels. Keep the angle moderate and both soles resting naturally on the floor."
+    },
+    "LGT020": {
+      "name": "one foot turned out",
+      "description": "One foot faces forward and the other turns a little outward, creating an asymmetric stance.",
+      "design_tip": "Set each foot axis independently. Either foot can turn out, provided the other still faces forward."
     }
   },
   "source_hashes": {
@@ -83324,6 +83437,106 @@
       "name": "a6e8e8d1a30bea939e6c739bfe513f9b144c534bffae4cac6248d820c04f69b2",
       "description": "a53ad212028809f601f70094b304029625c1b9dc9cc33b486e8bea8288964b21",
       "design_tip": "296c2b294a22ca3cac9792c989ef91f8cc2d0b404d1d06770f04b804ae45c603"
+    },
+    "LGT001": {
+      "name": "27d38484444ac4e82890d0a38825ccddf3671a72d844f9381efcbb156d974f62",
+      "description": "5a5668200911b2554e4eb2ba9eb339df36a9b02a7820fb28efc688441445da15",
+      "design_tip": "8c68d5408e8e122d7dc3060caf168c468b316d5d2a065d8ce2bf58802cc87a21"
+    },
+    "LGT002": {
+      "name": "4ab70072e7cf1216962658ec7f377508d1937491a712ce7dfe732e312452cce2",
+      "description": "6f4de724110380171d6da8b4e1bff41d65f60d1b3e1be915193fbf314d7357c3",
+      "design_tip": "f01e4f83f0c9a62437df2ed93996200339ec9b6d4a1308c69cf680e7d4c9f8d5"
+    },
+    "LGT003": {
+      "name": "bce007ce4d81277140accf3ee13774c5523dd97c63edcd5759e23f310aff23bb",
+      "description": "43072bf819c25fbb7b683cf43e43aab5cdf50fb794602842e49232f45d2c03c1",
+      "design_tip": "7841cf1f3ada79df589b2f4205369e2025503162f9941abc8a238557803971ae"
+    },
+    "LGT004": {
+      "name": "714ceb59a169d37b60bb7459b497ea0667e495dcaa747cac2aff536f04e08002",
+      "description": "dabf31e03d0924cff416b6743c2f0c02716d409729dbc76774292fafe7d0a8aa",
+      "design_tip": "a8b0500aca6f9511c2baf50ef726843da2449ecc91f8c51a902b84f3ffcf06dc"
+    },
+    "LGT005": {
+      "name": "6364c689b38837c71784a27e27994bde48af2acf8d52f81f25a4aec338317271",
+      "description": "f47a042960ca570c9a33bb114d1525f8a14b295e0a6e9b8aa510eeac4ec4136d",
+      "design_tip": "c0e66c1c6826f365029b79793a1c840fa246ccc3313fdcaeb64353169a3c7ef0"
+    },
+    "LGT006": {
+      "name": "153556a2a0409d97fc39c57826008f79920bc3604ec1c6888dd9cf08fdc9bcf7",
+      "description": "fb91abbd01ec93a9526716aa3ad789132f26197866b075e22d2229087b8e8d2a",
+      "design_tip": "58bd31363a8dbc8ba0a034fadd509f390a25362b1be542a9e22ff7f946c6a3f1"
+    },
+    "LGT007": {
+      "name": "4777a0f845bb3310fe9217478ac5ad5d76b93ed39e4d71b26592658e795592ad",
+      "description": "9fde15120193e6ce53200731a10a929a9101e21ecb8cd115bdd84bd8ef8d110b",
+      "design_tip": "76e1fe7e2f87ada1420950b3bc00f950478b8ca142623fec1872b94fa2e41648"
+    },
+    "LGT008": {
+      "name": "ab8bdb5d2e73c088b02af7e465f683da7adb8ef1a2f119b2fca2f997e7ce1639",
+      "description": "d22dc238e7f4f036de3251953f010ab9da3fe807ac384622cf2f6cf643219267",
+      "design_tip": "3ca9e366c7c5d9c2b2f8933b90d1a3168b303bc8714c8b726777e0ece6223cc1"
+    },
+    "LGT009": {
+      "name": "4291d9c4358d70ae3aa193abb5ea1371852bec15945eb4b50573459b777b0166",
+      "description": "3b4ddade935651417ac36889b1c70bd6283e7710cc9091c27ff7b1b22608c788",
+      "design_tip": "a34f24e463b906ac57d5bef5b8f726f390a952eefeb9833cb983ec85275c4abf"
+    },
+    "LGT010": {
+      "name": "368d1510a6184390dbfe5de83d948c79277555165de76f13c5825dbfc8cdb309",
+      "description": "858b249f11f86172181b352d18c123b162035bb46d0b53a9ab6ec9b8f45600b3",
+      "design_tip": "fe29fb48e26ee5269c681d150c26996ee789e4c1496cbbb95c32ffb4eea7c5b6"
+    },
+    "LGT011": {
+      "name": "b371859a5e3979a846d38af295590dd14b2e7802b916d89c700714d3a2b9d41a",
+      "description": "69ac60a15600fbcae4a728d8fccd55e612db9a5ca21b6d6ca16d1bca4d6d00a2",
+      "design_tip": "b0b153ff70966a332a12580654f225dbf862d4f42b6c7cb713d91494e93ffeae"
+    },
+    "LGT012": {
+      "name": "9211d31a1ef38c8f7141e3488ced35ffb1062814b599289580b21d27bd4e690a",
+      "description": "87ca195cd135a3a83efca70cbbeccfb4e8124c95b13a82ad72c9d50e4f388354",
+      "design_tip": "e9f36034a75bc53131d3d6da4480396f0664c245e8a65b90a0fc5b6336f26ae2"
+    },
+    "LGT013": {
+      "name": "01a39b8c36b20e4c30b62d96c2f6c8cada443a58341b6f45a48cc02b03e7e012",
+      "description": "14b9e1bcc6bab07e52ac5b0962c9d1c27bdc7ce4a744c8cf99f37600806aa8e8",
+      "design_tip": "ee2bfd1676c26716cac4f61778db3eee59278bed4578a410f86080555f826e7d"
+    },
+    "LGT014": {
+      "name": "3f9d7f79e718403057d1ffe0347111d4389f40604fa31f7a973148e5a5a6e4d7",
+      "description": "7b905e98faf1e40a9bd890c49cc951bf4d64e3a9afaaa03e645a2e19c7f34107",
+      "design_tip": "a9a234c66bed354da75c6dd88467da0d160c9dfd1bfb187235a0b10b0e6324ed"
+    },
+    "LGT015": {
+      "name": "4e195dd3360cdf7cb0d8aee8724fb3968d7e3112d3d4de880be65612cd368887",
+      "description": "20bc45fc2fb91096bb3ea6b74c80fbbd9be8a3fd463916940bb398b2f129ded9",
+      "design_tip": "54964335669ea5f2e76aa9936d1c81762592913e384e507554b815053e550c37"
+    },
+    "LGT016": {
+      "name": "f78973270f4ea468f8dee4c0e2f947dc7d55b3a3c0e51692202cc55d659a4f8b",
+      "description": "29f84638efc8913e88a70a1137183e1c248d770adba6f796a3d419e622120687",
+      "design_tip": "3021b6099810e3460aec59e25cc75bba9890dfda49324a7e6b2775a62e957693"
+    },
+    "LGT017": {
+      "name": "ab6983c2fbaea1a1471c7799c7d92c22f9199478be9c58339258925bbe6cb6e9",
+      "description": "85e29039cffb9f1c0052238246cbbf8d0b4190fd16d30507edfbe9f28a016386",
+      "design_tip": "e760b17bacbaa2329f71df9b960bbffb82a77488e573768e48ca4b89afbfdbbf"
+    },
+    "LGT018": {
+      "name": "ac1a36885164f2d71caa587bc78a2973164c7504bb4b43dac80f70bb63ee85ca",
+      "description": "7d06839c56f56f3fd527eeb107fa0b68d092bb59f16daf6f583b250aa915cb9f",
+      "design_tip": "7af7e4c18a16cd77f1235b267102f0388015358edd1bfe06cd0d57a74fbedbc5"
+    },
+    "LGT019": {
+      "name": "9443cd6999f541d8b0597592e991491f8bcd5dc7e411c5e51b734679dba7f594",
+      "description": "ee73c472509681e20ca64242d6609f479eae07c76a978c07d952339cfc4ebc2c",
+      "design_tip": "6dc29589ed393caa916573eaa63185a7e97d9e3bff47f5ee69148086b60326f6"
+    },
+    "LGT020": {
+      "name": "225a05285219ab2e7ec6bc70032a2e2588dec9d0c6d1987c8cd74424280f7413",
+      "description": "3aa5d6d54fa0bd41c983fb50ed204886d5bb3ba47e7345b70bd45925f0671f54",
+      "design_tip": "a4812a11a42b06434edb47d117c566dfd2e4eca7fa7410bc33761e25637d073f"
     }
   },
   "review": {
@@ -120151,6 +120364,106 @@
       "name": "draft",
       "description": "draft",
       "design_tip": "draft"
+    },
+    "LGT001": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT002": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT003": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT004": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT005": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT006": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT007": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT008": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT009": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT010": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT011": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT012": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT013": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT014": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT015": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT016": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT017": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT018": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT019": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "LGT020": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
     }
   },
   "translation_provenance": {
@@ -120896,6 +121209,19 @@
     "织纹、印花与拼接袜裤": "draft",
     "主题装饰与幻想袜型": "draft",
     "图案与拼接袜裤": "draft",
-    "AI 生成的原创袜类穿着示意": "draft"
+    "AI 生成的原创袜类穿着示意": "draft",
+    "体型、腿型与年龄对照，动作与持物、局部形态和机械义肢。": "draft",
+    "腿型与下肢比例": "draft",
+    "膝踝对位": "draft",
+    "腿长与分段比例": "draft",
+    "大腿与小腿轮廓": "draft",
+    "膝部与脚踝轮廓": "draft",
+    "膝踝对位与腿长比例对照": "draft",
+    "腿部轮廓与膝踝细节对照": "draft",
+    "AI 生成的原创腿型对照图": "draft",
+    "足尖朝向": "draft",
+    "站立足尖朝向对照": "draft",
+    "AI 生成的原创站立足向对照图": "draft",
+    "对照腿线、腿长比例、局部轮廓与足尖朝向。足尖朝向与膝踝对位分开，可按角色需要搭配。图例用于角色设计。": "draft"
   }
 }

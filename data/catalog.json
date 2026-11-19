@@ -2,10 +2,10 @@
   "meta": {
     "title": "女性之美",
     "subtitle": "女性角色外观图鉴",
-    "date": "2026-11-18",
-    "version": "78.3",
-    "entry_count": 7365,
-    "category_count": 212,
+    "date": "2026-11-19",
+    "version": "79.0",
+    "entry_count": 7385,
+    "category_count": 213,
     "clothing_count": 3429,
     "clothing_categories": [
       "tops",
@@ -94,8 +94,8 @@
       "nordic_looks",
       "mythic_personifications"
     ],
-    "illustrated_count": 7365,
-    "board_count": 741,
+    "illustrated_count": 7385,
+    "board_count": 744,
     "reference_count": 209,
     "museum_image_count": 6,
     "combination_count": 71,
@@ -103,8 +103,8 @@
     "scope": "覆盖常见外貌、服饰、职业与幻想创作部件；视角、成年年龄表现与配色为独立创作参考分类；青少年服装按校园、日常和活动另列。",
     "provenance": "词条独立编排；动漫图为 AI 生成的创作示意，六张实物照片另有原始馆藏记录。相关阅读是延伸入口，不代表每项均为文献引用。",
     "layout_version": "32.0",
-    "last_content_version": "78.3",
-    "new_count": 0,
+    "last_content_version": "79.0",
+    "new_count": 20,
     "style_family_count": 30,
     "shoulder_count": 73,
     "hair_count": 531,
@@ -3163,6 +3163,14 @@
       "guide": "用同尺度的正面头像比较额头、脸颊、下巴和眼鼻口比例。作品与画师名称是检索参考，配图为原创设计示意。",
       "source_ids": [],
       "count": 12,
+      "group": "appearance"
+    },
+    {
+      "id": "leg_shapes",
+      "name": "腿型与下肢比例",
+      "guide": "对照腿线、腿长比例、局部轮廓与足尖朝向。足尖朝向与膝踝对位分开，可按角色需要搭配。图例用于角色设计。",
+      "source_ids": [],
+      "count": 20,
       "group": "appearance"
     }
   ],
@@ -422507,6 +422515,852 @@
       }
     },
     {
+      "category": "leg_shapes",
+      "dimension": "膝踝对位",
+      "name": "直线腿型",
+      "en": "straight leg alignment",
+      "description": "正面站立时，膝心到踝心的方向接近纵直，两侧小腿之间的空隙宽度变化较小。",
+      "aliases": [
+        "直腿",
+        "直腿腿型",
+        "straight legs",
+        "ストレートな脚"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT001",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "直线腿型",
+        "straight leg alignment",
+        "膝踝对位",
+        "直腿",
+        "直腿腿型",
+        "straight legs",
+        "ストレートな脚"
+      ],
+      "related_reading": [],
+      "design_tip": "先找出膝心和踝心，再沿两条轴分别处理膝下收束和小腿弧度。",
+      "search_query": "straight leg alignment character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "leg-alignment-and-length",
+        "image": "images/sheet-lgt001-lgt008-v4.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT001",
+        "aspect": 0.8275862068965517,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 384,
+          "height": 464,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "膝踝对位",
+      "name": "O 型腿",
+      "en": "bow-legged alignment",
+      "description": "正面自然站立时，双踝靠近，双膝略向外分开，膝间留白比踝间宽。",
+      "aliases": [
+        "O型腿",
+        "O形腿",
+        "罗圈腿",
+        "bowlegs",
+        "bow legs",
+        "O脚"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT002",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "O 型腿",
+        "bow-legged alignment",
+        "膝踝对位",
+        "O型腿",
+        "O形腿",
+        "罗圈腿",
+        "bowlegs",
+        "bow legs",
+        "O脚"
+      ],
+      "related_reading": [],
+      "design_tip": "让脚尖自然朝前，从膝部到踝部逐渐收拢，保留小腿本身的轮廓。",
+      "search_query": "bow-legged alignment character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "leg-alignment-and-length",
+        "image": "images/sheet-lgt001-lgt008-v4.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT002",
+        "aspect": 0.8275862068965517,
+        "crop": {
+          "x": 384,
+          "y": 0,
+          "width": 384,
+          "height": 464,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "膝踝对位",
+      "name": "X 型腿",
+      "en": "knock-kneed alignment",
+      "description": "正面自然站立时，双膝靠近，双踝略向两侧分开，膝下腿线向外缓缓展开。",
+      "aliases": [
+        "X型腿",
+        "X形腿",
+        "knock knees",
+        "knock-kneed",
+        "X脚"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT003",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "X 型腿",
+        "knock-kneed alignment",
+        "膝踝对位",
+        "X型腿",
+        "X形腿",
+        "knock knees",
+        "knock-kneed",
+        "X脚"
+      ],
+      "related_reading": [],
+      "design_tip": "用膝下逐渐变宽的留白定位双踝，保持脚尖自然朝前，避免把膝盖硬挤在一起。",
+      "search_query": "knock-kneed alignment character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "leg-alignment-and-length",
+        "image": "images/sheet-lgt001-lgt008-v4.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT003",
+        "aspect": 0.8275862068965517,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 384,
+          "height": 464,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "膝踝对位",
+      "name": "XO 型腿线",
+      "en": "mixed X/O leg silhouette",
+      "description": "图例中双膝与双踝都较接近，小腿内侧中段仍留有较明显的空隙，正面呈混合曲线。",
+      "aliases": [
+        "XO型腿",
+        "XO腿",
+        "XO形腿线",
+        "XO legs",
+        "XO脚"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT004",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "XO 型腿线",
+        "mixed X/O leg silhouette",
+        "膝踝对位",
+        "XO型腿",
+        "XO腿",
+        "XO形腿线",
+        "XO legs",
+        "XO脚"
+      ],
+      "related_reading": [],
+      "design_tip": "分别定位膝、踝与小腿内缘；这里的 XO 只描述画面中的轮廓。",
+      "search_query": "mixed X/O leg silhouette character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "leg-alignment-and-length",
+        "image": "images/sheet-lgt001-lgt008-v4.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT004",
+        "aspect": 0.8275862068965517,
+        "crop": {
+          "x": 1152,
+          "y": 0,
+          "width": 384,
+          "height": 464,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "腿长与分段比例",
+      "name": "大腿与小腿比例均衡",
+      "en": "balanced thigh and shin lengths",
+      "description": "全身正面中，膝的位置让大腿段和小腿段看起来较均衡。",
+      "aliases": [
+        "股胫均衡",
+        "上下腿均衡",
+        "均衡腿长",
+        "balanced leg segments"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT005",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "大腿与小腿比例均衡",
+        "balanced thigh and shin lengths",
+        "腿长与分段比例",
+        "股胫均衡",
+        "上下腿均衡",
+        "均衡腿长",
+        "balanced leg segments"
+      ],
+      "related_reading": [],
+      "design_tip": "用胯部、膝部和踝部三个标记对照，脚掌高度单独处理。",
+      "search_query": "balanced thigh and shin lengths character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "leg-alignment-and-length",
+        "image": "images/sheet-lgt001-lgt008-v4.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT005",
+        "aspect": 0.6857142857142857,
+        "crop": {
+          "x": 0,
+          "y": 464,
+          "width": 384,
+          "height": 560,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "腿长与分段比例",
+      "name": "大腿段相对长",
+      "en": "relatively long thighs",
+      "description": "和均衡示例相比，膝部略低，大腿段在整条腿中占比略高。",
+      "aliases": [
+        "大腿长",
+        "长股段",
+        "长大腿短小腿",
+        "long thigh short shin"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT006",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "大腿段相对长",
+        "relatively long thighs",
+        "腿长与分段比例",
+        "大腿长",
+        "长股段",
+        "长大腿短小腿",
+        "long thigh short shin"
+      ],
+      "related_reading": [],
+      "design_tip": "保持胯部和脚底高度接近，只把膝部稍向下移动，再调整肌肉轮廓。",
+      "search_query": "relatively long thighs character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "leg-alignment-and-length",
+        "image": "images/sheet-lgt001-lgt008-v4.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT006",
+        "aspect": 0.6857142857142857,
+        "crop": {
+          "x": 384,
+          "y": 464,
+          "width": 384,
+          "height": 560,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "腿长与分段比例",
+      "name": "小腿段相对长",
+      "en": "relatively long shins",
+      "description": "和均衡示例相比，膝部更高，膝到踝在整条腿中占比更大。",
+      "aliases": [
+        "小腿长",
+        "长胫段",
+        "长小腿短大腿",
+        "long shin short thigh"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT007",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "小腿段相对长",
+        "relatively long shins",
+        "腿长与分段比例",
+        "小腿长",
+        "长胫段",
+        "长小腿短大腿",
+        "long shin short thigh"
+      ],
+      "related_reading": [],
+      "design_tip": "抬高膝部后连同小腿最宽处一起重新定位；脚掌大小不必随小腿增长。",
+      "search_query": "relatively long shins character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "leg-alignment-and-length",
+        "image": "images/sheet-lgt001-lgt008-v4.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT007",
+        "aspect": 0.6857142857142857,
+        "crop": {
+          "x": 768,
+          "y": 464,
+          "width": 384,
+          "height": 560,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "腿长与分段比例",
+      "name": "紧凑腿身比例",
+      "en": "shorter legs relative to torso",
+      "description": "在身高接近的全身对照中，胯部位置偏低，腿部在全身中占比较小。",
+      "aliases": [
+        "短腿比例",
+        "短腿长躯干",
+        "腿身比偏短",
+        "short legs long torso"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT008",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "紧凑腿身比例",
+        "shorter legs relative to torso",
+        "腿长与分段比例",
+        "短腿比例",
+        "短腿长躯干",
+        "腿身比偏短",
+        "short legs long torso"
+      ],
+      "related_reading": [],
+      "design_tip": "比较头顶、胯部与脚底三处高度；膝位要按较短的腿部重新分配。",
+      "search_query": "shorter legs relative to torso character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "leg-alignment-and-length",
+        "image": "images/sheet-lgt001-lgt008-v4.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT008",
+        "aspect": 0.6857142857142857,
+        "crop": {
+          "x": 1152,
+          "y": 464,
+          "width": 384,
+          "height": 560,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "大腿与小腿轮廓",
+      "name": "饱满大腿轮廓",
+      "en": "fuller thighs",
+      "description": "大腿上段的外轮廓向外形成较明显的圆弧，靠近膝部时再收窄。",
+      "aliases": [
+        "宽大腿",
+        "圆润大腿",
+        "饱满腿围",
+        "full upper thighs"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT009",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "饱满大腿轮廓",
+        "fuller thighs",
+        "大腿与小腿轮廓",
+        "宽大腿",
+        "圆润大腿",
+        "饱满腿围",
+        "full upper thighs"
+      ],
+      "related_reading": [],
+      "design_tip": "先画上段较宽的弧线，到膝部自然收束；小腿体量可以另行选择。",
+      "search_query": "fuller thighs character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "leg-contours-and-landmarks",
+        "image": "images/sheet-lgt009-lgt016.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT009",
+        "aspect": 0.7741935483870968,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 384,
+          "height": 496,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "大腿与小腿轮廓",
+      "name": "渐收大腿轮廓",
+      "en": "gradually tapered thighs",
+      "description": "从髋侧到膝部渐次收窄，大腿外缘呈连续、较平缓的斜线。",
+      "aliases": [
+        "细长大腿",
+        "大腿渐细",
+        "slim tapered thighs"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT010",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "渐收大腿轮廓",
+        "gradually tapered thighs",
+        "大腿与小腿轮廓",
+        "细长大腿",
+        "大腿渐细",
+        "slim tapered thighs"
+      ],
+      "related_reading": [],
+      "design_tip": "用长缓线连接髋侧和膝外侧，不在中段突然压出转折。",
+      "search_query": "gradually tapered thighs character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "leg-contours-and-landmarks",
+        "image": "images/sheet-lgt009-lgt016.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT010",
+        "aspect": 0.7741935483870968,
+        "crop": {
+          "x": 384,
+          "y": 0,
+          "width": 384,
+          "height": 496,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "大腿与小腿轮廓",
+      "name": "纤细小腿轮廓",
+      "en": "slim calves",
+      "description": "小腿肚的横向弧度较小，从最宽处到脚踝的宽度变化比较平缓。",
+      "aliases": [
+        "细小腿",
+        "纤细腿肚",
+        "slender calves"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT011",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "纤细小腿轮廓",
+        "slim calves",
+        "大腿与小腿轮廓",
+        "细小腿",
+        "纤细腿肚",
+        "slender calves"
+      ],
+      "related_reading": [],
+      "design_tip": "控制小腿外弧的外扩幅度，仍留出内外侧不同的曲线。",
+      "search_query": "slim calves character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "leg-contours-and-landmarks",
+        "image": "images/sheet-lgt009-lgt016.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT011",
+        "aspect": 0.7741935483870968,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 384,
+          "height": 496,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "大腿与小腿轮廓",
+      "name": "饱满肌肉型小腿",
+      "en": "full muscular calves",
+      "description": "小腿上中段的肌腹较饱满，进入脚踝前收束得更明显。",
+      "aliases": [
+        "肌肉小腿",
+        "发达小腿",
+        "运动型小腿",
+        "athletic calves"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT012",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "饱满肌肉型小腿",
+        "full muscular calves",
+        "大腿与小腿轮廓",
+        "肌肉小腿",
+        "发达小腿",
+        "运动型小腿",
+        "athletic calves"
+      ],
+      "related_reading": [],
+      "design_tip": "先画膝下鼓起的位置，再用两侧渐收的长曲线连接脚踝。",
+      "search_query": "full muscular calves character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "leg-contours-and-landmarks",
+        "image": "images/sheet-lgt009-lgt016.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT012",
+        "aspect": 0.7741935483870968,
+        "crop": {
+          "x": 1152,
+          "y": 0,
+          "width": 384,
+          "height": 496,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "膝部与脚踝轮廓",
+      "name": "骨点清晰的膝部",
+      "en": "defined knee landmarks",
+      "description": "微侧站姿中，髌骨附近的明暗和轮廓转折较清楚，膝下有可辨认的结构线。",
+      "aliases": [
+        "膝骨点",
+        "轮廓分明的膝盖",
+        "angular knee contour"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT013",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "骨点清晰的膝部",
+        "defined knee landmarks",
+        "膝部与脚踝轮廓",
+        "膝骨点",
+        "轮廓分明的膝盖",
+        "angular knee contour"
+      ],
+      "related_reading": [],
+      "design_tip": "挑少量关键转折表现骨点，避免为关节画一圈封闭硬边。",
+      "search_query": "defined knee landmarks character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "leg-contours-and-landmarks",
+        "image": "images/sheet-lgt009-lgt016.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT013",
+        "aspect": 0.7272727272727273,
+        "crop": {
+          "x": 0,
+          "y": 496,
+          "width": 384,
+          "height": 528,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "膝部与脚踝轮廓",
+      "name": "圆缓膝部轮廓",
+      "en": "soft rounded knee contours",
+      "description": "膝部与邻近腿段用较宽的明暗过渡相连，轮廓转折更平缓。",
+      "aliases": [
+        "圆润膝盖",
+        "柔和膝线",
+        "rounded knees"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT014",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "圆缓膝部轮廓",
+        "soft rounded knee contours",
+        "膝部与脚踝轮廓",
+        "圆润膝盖",
+        "柔和膝线",
+        "rounded knees"
+      ],
+      "related_reading": [],
+      "design_tip": "保留膝心位置，用宽而浅的明暗变化连接大腿与小腿。",
+      "search_query": "soft rounded knee contours character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "leg-contours-and-landmarks",
+        "image": "images/sheet-lgt009-lgt016.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT014",
+        "aspect": 0.7272727272727273,
+        "crop": {
+          "x": 384,
+          "y": 496,
+          "width": 384,
+          "height": 528,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "膝部与脚踝轮廓",
+      "name": "细窄踝线",
+      "en": "slim defined ankles",
+      "description": "踝上收束较明显，踝骨与脚背之间的转折容易辨认。",
+      "aliases": [
+        "细脚踝",
+        "细踝",
+        "纤细脚踝",
+        "narrow ankles"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT015",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "细窄踝线",
+        "slim defined ankles",
+        "膝部与脚踝轮廓",
+        "细脚踝",
+        "细踝",
+        "纤细脚踝",
+        "narrow ankles"
+      ],
+      "related_reading": [],
+      "design_tip": "用踝上最窄处和两侧踝骨提示结构，保持脚掌的自然比例。",
+      "search_query": "slim defined ankles character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "leg-contours-and-landmarks",
+        "image": "images/sheet-lgt009-lgt016.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT015",
+        "aspect": 0.7272727272727273,
+        "crop": {
+          "x": 768,
+          "y": 496,
+          "width": 384,
+          "height": 528,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "膝部与脚踝轮廓",
+      "name": "平缓过渡踝线",
+      "en": "gradually tapered ankles",
+      "description": "小腿下段至踝上仅缓慢变窄，踝部的视觉宽度较为连贯。",
+      "aliases": [
+        "宽踝线",
+        "平缓脚踝",
+        "smooth ankle transition"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT016",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "平缓过渡踝线",
+        "gradually tapered ankles",
+        "膝部与脚踝轮廓",
+        "宽踝线",
+        "平缓脚踝",
+        "smooth ankle transition"
+      ],
+      "related_reading": [],
+      "design_tip": "让小腿、踝部和脚背顺着长弧过渡，仍保留踝骨的位置。",
+      "search_query": "gradually tapered ankles character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "leg-contours-and-landmarks",
+        "image": "images/sheet-lgt009-lgt016.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT016",
+        "aspect": 0.7272727272727273,
+        "crop": {
+          "x": 1152,
+          "y": 496,
+          "width": 384,
+          "height": 528,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
       "category": "bottoms",
       "dimension": "洛丽塔半裙与叠摆",
       "name": "弧边罩片半裙",
@@ -431225,6 +432079,248 @@
           "height": 512,
           "sheet_width": 1536,
           "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "足尖朝向",
+      "name": "足尖朝前",
+      "en": "parallel forward-facing feet",
+      "description": "站立时两脚掌大致平行，脚尖自然指向正前方，可作为比较内八字和外八字的基准。",
+      "aliases": [
+        "脚尖朝前",
+        "双脚平行",
+        "平行站脚",
+        "足尖正前",
+        "parallel feet",
+        "toes forward"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT017",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "足尖朝前",
+        "parallel forward-facing feet",
+        "足尖朝向",
+        "脚尖朝前",
+        "双脚平行",
+        "平行站脚",
+        "足尖正前",
+        "parallel feet",
+        "toes forward"
+      ],
+      "related_reading": [],
+      "design_tip": "用脚跟到前脚掌的长轴确认方向；两脚的趾形可以保留自然差异。",
+      "search_query": "parallel forward-facing feet character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "standing-foot-directions",
+        "image": "images/sheet-lgt017-lgt020.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "LGT017",
+        "aspect": 1.0,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 627,
+          "height": 627,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "足尖朝向",
+      "name": "内八字",
+      "en": "pigeon-toed stance",
+      "description": "两脚的脚尖分别朝向身体中线，前脚掌比双脚跟更靠近。",
+      "aliases": [
+        "内八",
+        "内八字站姿",
+        "脚尖内扣",
+        "足尖内收",
+        "足尖内转",
+        "双脚内转",
+        "pigeon-toed",
+        "in-toeing stance",
+        "toes inward",
+        "内股"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT018",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "内八字",
+        "pigeon-toed stance",
+        "足尖朝向",
+        "内八",
+        "内八字站姿",
+        "脚尖内扣",
+        "足尖内收",
+        "足尖内转",
+        "双脚内转",
+        "pigeon-toed",
+        "in-toeing stance",
+        "toes inward",
+        "内股"
+      ],
+      "related_reading": [],
+      "design_tip": "从略高的视角比较两只脚的长轴，保留适度夹角和足尖间距。",
+      "search_query": "pigeon-toed stance character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "standing-foot-directions",
+        "image": "images/sheet-lgt017-lgt020.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 2,
+        "label": "LGT018",
+        "aspect": 1.0,
+        "crop": {
+          "x": 627,
+          "y": 0,
+          "width": 627,
+          "height": 627,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "足尖朝向",
+      "name": "外八字",
+      "en": "out-toed stance",
+      "description": "两脚的脚尖分别朝向外侧，前脚掌之间的距离大于双脚跟之间的距离。",
+      "aliases": [
+        "外八",
+        "外八字站姿",
+        "脚尖外撇",
+        "足尖外展",
+        "足尖外转",
+        "双脚外转",
+        "out-toeing stance",
+        "toes outward",
+        "がに股の足先"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT019",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "外八字",
+        "out-toed stance",
+        "足尖朝向",
+        "外八",
+        "外八字站姿",
+        "脚尖外撇",
+        "足尖外展",
+        "足尖外转",
+        "双脚外转",
+        "out-toeing stance",
+        "toes outward",
+        "がに股の足先"
+      ],
+      "related_reading": [],
+      "design_tip": "由脚跟向外确定脚掌长轴，两侧脚尖适度展开，保持足底自然贴地。",
+      "search_query": "out-toed stance character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "standing-foot-directions",
+        "image": "images/sheet-lgt017-lgt020.png",
+        "column": 0,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "LGT019",
+        "aspect": 1.0,
+        "crop": {
+          "x": 0,
+          "y": 627,
+          "width": 627,
+          "height": 627,
+          "sheet_width": 1254,
+          "sheet_height": 1254
+        }
+      }
+    },
+    {
+      "category": "leg_shapes",
+      "dimension": "足尖朝向",
+      "name": "单脚外转",
+      "en": "one foot turned out",
+      "description": "一只脚的脚尖朝前，另一只脚略向外侧，站立时两脚的朝向不对称。",
+      "aliases": [
+        "单脚外撇",
+        "一脚外八",
+        "双脚朝向不对称",
+        "单侧足尖外转",
+        "asymmetric foot direction",
+        "one foot out"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0",
+      "id": "LGT020",
+      "category_name": "腿型与下肢比例",
+      "keywords": [
+        "单脚外转",
+        "one foot turned out",
+        "足尖朝向",
+        "单脚外撇",
+        "一脚外八",
+        "双脚朝向不对称",
+        "单侧足尖外转",
+        "asymmetric foot direction",
+        "one foot out"
+      ],
+      "related_reading": [],
+      "design_tip": "分别定两只脚的长轴；换边时也要保留一前一外的差别。",
+      "search_query": "one foot turned out character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "standing-foot-directions",
+        "image": "images/sheet-lgt017-lgt020.png",
+        "column": 1,
+        "row": 1,
+        "columns": 2,
+        "rows": 2,
+        "label": "LGT020",
+        "aspect": 1.0,
+        "crop": {
+          "x": 627,
+          "y": 627,
+          "width": 627,
+          "height": 627,
+          "sheet_width": 1254,
+          "sheet_height": 1254
         }
       }
     }
@@ -488594,6 +489690,175 @@
       ]
     },
     {
+      "id": "leg-alignment-and-length",
+      "category": "leg_shapes",
+      "title": "膝踝对位与腿长比例对照",
+      "image": "images/sheet-lgt001-lgt008-v4.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        384,
+        768,
+        1152,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        464,
+        1024
+      ],
+      "origin": "AI 生成的原创腿型对照图",
+      "prompt": "Prompt brief: A 4 × 2 strictly divided adult female anatomy reference in a subdued semi-realistic anime style, with eight individually identified cells. Same adult with modest sage athletic shirt, opaque charcoal mid-thigh athletic shorts, barefoot on a level floor; straight-on camera. Top row, waist to floor, use subtle alignment guides and compare straight, outward-bowed with close ankles, inward knee alignment with ankles apart, and mixed X/O silhouette. Bottom row, full figure at comparable scale: balanced segments, relatively longer thighs, relatively longer shins, and shorter legs relative to the torso. Keep all toes and all four full-body heads clear of crop boundaries.",
+      "edit_prompt": "Minimal prepress text correction on this supplied existing contact sheet. All eight IDs are missing a T. Add the letter T after LG in each upper left ID, leaving the digits the same. Exact final text, row 1 left to right: LGT001, LGT002, LGT003, LGT004. Row 2 left to right: LGT005, LGT006, LGT007, LGT008. These are the only changes. Preserve the precise grid, aspect ratio, model, anatomical design, position/silhouette of every leg and foot, all body proportions and existing guide lines, and off-white paper. Do not add any other text. The visible characters must read L G T 0 0 1 etc with the T clearly legible.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "LGT001",
+          "label": "LGT001",
+          "name": "直线腿型"
+        },
+        {
+          "entry_id": "LGT002",
+          "label": "LGT002",
+          "name": "O 型腿"
+        },
+        {
+          "entry_id": "LGT003",
+          "label": "LGT003",
+          "name": "X 型腿"
+        },
+        {
+          "entry_id": "LGT004",
+          "label": "LGT004",
+          "name": "XO 型腿线"
+        },
+        {
+          "entry_id": "LGT005",
+          "label": "LGT005",
+          "name": "大腿与小腿比例均衡"
+        },
+        {
+          "entry_id": "LGT006",
+          "label": "LGT006",
+          "name": "大腿段相对长"
+        },
+        {
+          "entry_id": "LGT007",
+          "label": "LGT007",
+          "name": "小腿段相对长"
+        },
+        {
+          "entry_id": "LGT008",
+          "label": "LGT008",
+          "name": "紧凑腿身比例"
+        }
+      ],
+      "edit_history": [
+        {
+          "date": "2026-11-19",
+          "image": "images/sheet-lgt001-lgt008-v2.png",
+          "reference_image": "images/sheet-lgt001-lgt008.png",
+          "entry_ids": [
+            "LGT002"
+          ],
+          "prompt": "Use case: precise-object-edit. Edit ONLY image 1, the single existing LGT002 female figure drawing; image 2 (LGT001) is solely a reference for the neutral straight leg shape and matching art direction. Produce a single portrait panel. Change the pronounced O-legged stance of LGT002 into a very mild, everyday bow-legged stance. Reduce the visible gap between the inner sides of the knees by roughly two thirds (around 15–18 px on the supplied 384 px wide panel). Keep both feet flat and facing straight ahead, parallel and bearing equal weight; inner ankles near one another without the feet visibly pressed together. Keep just a small, narrow lens of negative space near knee level which tapers gently toward the ankles. For each leg the knee only deviates a little outward from the hip-to-ankle axis; the shins are close to vertical with natural calf contours, not strongly curved. Keep the knees at the original height and avoid a wide upper-leg stance or anything that looks twisted, deformed, posed or tense. Preserve the original adult figure's sage top, opaque charcoal athletic shorts, both hands, body proportions, same warm off-white background, straight-on waist-to-floor framing, antique serif ID in exactly the same upper-left spot reading 'LGT002' (L G T 0 0 2). Keep comparable thin subtle sage alignment lines as in the original, following the corrected geometry. Frame both complete feet with a small margin below. Match the original quiet semirealistic illustration. Full bleed panel, no extra labels.",
+          "assembly": "Resize the edited panel to 384 × 464, preserve the original panel border, and replace only (x384, y0, w384, h464). All pixels outside the panel match the previous sheet."
+        },
+        {
+          "date": "2026-11-19",
+          "image": "images/sheet-lgt001-lgt008-v3.png",
+          "reference_image": "images/sheet-lgt001-lgt008-v2.png",
+          "entry_ids": [
+            "LGT002"
+          ],
+          "prompt": "Use case: precise-object-edit. Edit Image 1 (the current single panel marked LGT002). Image 2 is the superseded original, showing the maximum bow to avoid. The target is an exact VISUAL MIDPOINT BETWEEN THESE TWO STANCES, about 50% of the original outward curvature: clearly more O-shaped than Image 1, and still visibly gentler than Image 2. Keep the hip and feet anchored to exactly the Image 1 positions. In the 384-pixel-wide source, roughly at y225, shift each whole knee about 9–10 pixels outward from Image 1, giving a clear inner-knee gap about 27–30 pixels wide, rather than Image 1's very narrow gap or Image 2's big gap. Blend the shift smoothly over the lower thighs and upper shins. The lower shins return smoothly toward the unchanged close-set ankles, making a slender but legible oval of space in the upper-middle, without exaggerated knee or calf contours. Both barefoot feet stay relaxed, lightly separated, flat on the floor and pointing directly forward as in Image 1. Preserve the exact existing straight-on framing, full foot silhouettes, hand position, adult proportions, muted sage shirt, charcoal shorts, subtle thin guide lines (move with the legs), warm ivory paper, panel border, and the exact label 'LGT002' at upper left. Edit only the shape and alignment of the two legs. Same one portrait panel; no extra diagrams, labels or artwork.",
+          "assembly": "Resize to 384 × 464, blend preserving the original panel border, and replace only (x384, y0, w384, h464). Outside the panel, all seven neighbors remain pixel-identical."
+        },
+        {
+          "date": "2026-11-19",
+          "image": "images/sheet-lgt001-lgt008-v4.png",
+          "reference_image": "images/sheet-lgt001-lgt008-v3.png",
+          "entry_ids": [
+            "LGT003"
+          ],
+          "prompt": "Use case: precise-object-edit. Edit Image 1, the single LGT003 illustration of an adult woman standing front-on. Image 2 is the straight-leg control LGT001, for comparison only; do not copy its alignment or label. Soften the knock-kneed X alignment a little: keep the two knees close together at the same height and in their existing positions, and bring the left and right foot and ankle each inward by about 10–13 pixels on the original 384x464 canvas (about 30–38 pixels each if generating at three times that resolution). The ankles should remain noticeably farther apart than the knees, with a gentle narrow triangle below the knees; retain about three quarters of the original ankle spacing. Make the two shins run down with a modest outward slant and smooth calf contours. The knees stay soft, not bent, crossed or forced together. Both feet flat at the same baseline, toes naturally and clearly facing camera, no forced turnout or inward rotation. Retain the exact framing from waist to floor, complete feet with floor margin, identical silhouette above the knees, hands, muted sage shirt, opaque charcoal shorts, soft off-white background, thin border, and label 'LGT003' (L G T 0 0 3) in the same top-left position. Keep the subtle thin green guide lines following the thighs and shins. Change only the lower legs and the position of the feet. Same single full-bleed portrait panel; no new text.",
+          "refinement_prompt": "Use case: precise-object-edit. Return a single portrait atlas panel with the exact identifier 'LGT003'. Image 1 is the original which is a bit too pronounced; image 2 is the first edit which moved the ankles too close. Draw the midpoint in stance between them, using Image 1's framing and comparable ANKLE SEPARATION. ATTENTION: retain broad placement of feet, but slightly narrower than Image 1. At ankle height, the clear ivory gap between the INNER EDGES of the ankles should be about 64 pixels scaled to 384 px image width, approximately one sixth of the whole canvas, or about 190 pixels on 1141 px wide output. This is moderately wide, visibly broader than Image 2's approximately 45 scaled pixels and just slightly narrower than Image 1's about 83. Left ankle center around 144/384 canvas width, right ankle center around 244/384. Both feet point toward the viewer, toes visible and at same original y height. Keep the knees centered close together around the original y223 and the thighs/shorts as-is. Adjust only the outward slant of the two lower legs so there is a clear X, with less exaggerated angles than Image 1. Use Image 1's original sage shirt, shorts, hand position, thin moss guide lines that follow the leg shape, neutral paper, panel border, adult figure, lighting and framing. Keep ID LGT003 (L G T 0 0 3) at upper left and fully visible feet. Same portrait proportions; no new text.",
+          "assembly": "Resize to 384 × 464 and blend into the original LGT003 rectangle (x768, y0, w384, h464), preserving borders. All neighboring tiles including approved LGT002 are pixel-identical."
+        }
+      ]
+    },
+    {
+      "id": "leg-contours-and-landmarks",
+      "category": "leg_shapes",
+      "title": "腿部轮廓与膝踝细节对照",
+      "image": "images/sheet-lgt009-lgt016.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        384,
+        768,
+        1152,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        496,
+        1024
+      ],
+      "origin": "AI 生成的原创腿型对照图",
+      "prompt": "Prompt brief: Companion 4 × 2 original study; use the initial alignment sheet only for graphic style, clothing, lighting and model continuity. Each crop includes both entire feet. Frontal first row: fuller thighs, gradually tapering thighs, slim calves and fuller athletic calves. Slight front three-quarter second row: defined knee landmarks, rounded knees, narrow defined ankles and a gradual ankle transition. Exaggerate differences enough to compare in thumbnails, but maintain the character and neutral standing stance.",
+      "edit_prompt": "Minimal prepress text correction on this supplied existing contact sheet. All eight IDs are missing a T. Add the letter T after LG in each upper left ID, leaving the digits the same. Exact final text, row 1 left to right: LGT009, LGT010, LGT011, LGT012. Row 2 left to right: LGT013, LGT014, LGT015, LGT016. These are the only changes. Preserve the precise grid, aspect ratio, model, anatomy, pose and two feet of every figure, including every difference in the thighs, calves, knees and ankles, and off-white paper. Do not add any other text. The visible characters must read L G T 0 0 9 etc with the T clearly legible.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "LGT009",
+          "label": "LGT009",
+          "name": "饱满大腿轮廓"
+        },
+        {
+          "entry_id": "LGT010",
+          "label": "LGT010",
+          "name": "渐收大腿轮廓"
+        },
+        {
+          "entry_id": "LGT011",
+          "label": "LGT011",
+          "name": "纤细小腿轮廓"
+        },
+        {
+          "entry_id": "LGT012",
+          "label": "LGT012",
+          "name": "饱满肌肉型小腿"
+        },
+        {
+          "entry_id": "LGT013",
+          "label": "LGT013",
+          "name": "骨点清晰的膝部"
+        },
+        {
+          "entry_id": "LGT014",
+          "label": "LGT014",
+          "name": "圆缓膝部轮廓"
+        },
+        {
+          "entry_id": "LGT015",
+          "label": "LGT015",
+          "name": "细窄踝线"
+        },
+        {
+          "entry_id": "LGT016",
+          "label": "LGT016",
+          "name": "平缓过渡踝线"
+        }
+      ]
+    },
+    {
       "id": "weixin-lolita-v76-skirts",
       "category": "bottoms",
       "dimension": "洛丽塔半裙与叠摆",
@@ -489134,6 +490399,51 @@
           "entry_id": "FS286",
           "label": "FS286",
           "name": "菱格拼摆马戏洛丽塔装"
+        }
+      ]
+    },
+    {
+      "id": "standing-foot-directions",
+      "category": "leg_shapes",
+      "title": "站立足尖朝向对照",
+      "image": "images/sheet-lgt017-lgt020.png",
+      "width": 1254,
+      "height": 1254,
+      "columns": 2,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        627,
+        1254
+      ],
+      "row_boundaries": [
+        0,
+        627,
+        1254
+      ],
+      "origin": "AI 生成的原创站立足向对照图",
+      "prompt": "Use case: stylized-concept. Create a new 2×2 character-design atlas contact sheet for FOOT DIRECTION, using the attached LGT001 only as the rendering, skin tone and warm paper reference. Square canvas. Four separate equal SQUARE cells with straight subtle gray dividers at exactly x=50%, y=50%; no outside page margin, no headings. Each cell repeats the same high-front view looking down about 55 degrees at both lower shins and both bare feet of the same standing adult woman, cropped from mid-calf to floor, with visible flat dorsum, ankle attachment, and all toes. In every cell the body is facing the bottom edge of the page and the feet are naturally weighted on a flat warm off-white floor, heels at approximately the same hip-width spacing on a common horizontal baseline; only the direction of the foot long axes changes. The toe direction must be unambiguous from the silhouettes. TOP LEFT, label 'LGT017': both feet parallel, toes straight down toward bottom edge (↓ ↓). TOP RIGHT, label 'LGT018': BOTH feet slightly inward (about 20 degrees), image-left foot's toes point down-right toward the midline, image-right foot's toes point down-left toward the midline (↘ ↙), toe ends are closer together than heels, no overlap. BOTTOM LEFT, label 'LGT019': BOTH feet slightly outward (about 25 degrees), image-left foot points down-left, image-right foot down-right (↙ ↘), toe ends are farther apart than heels. BOTTOM RIGHT, label 'LGT020': only image-right foot turns down-right, image-left foot stays pointing straight down (↓ ↘), clearly asymmetric. Adapt the two ankles and lower shins coherently to the respective foot angles; no warped joints, twisted toes, crossed legs, raised heels, posed knee bends or duplicated/extra toes. In each foot the big toe is on the anatomical inner side. Keep all toe tips and both ankle silhouettes well inside each cell, with space below and around every foot. Same scale and perspective in all four cells, natural everyday angles rather than ballet turnout. Subdued semirealistic anime rendering on soft ivory like the reference. Small clear dark serif in each cell's upper-left corner, exactly LGT017, LGT018, LGT019, LGT020 respectively. No text or arrows except the four exact IDs.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "LGT017",
+          "label": "LGT017",
+          "name": "足尖朝前"
+        },
+        {
+          "entry_id": "LGT018",
+          "label": "LGT018",
+          "name": "内八字"
+        },
+        {
+          "entry_id": "LGT019",
+          "label": "LGT019",
+          "name": "外八字"
+        },
+        {
+          "entry_id": "LGT020",
+          "label": "LGT020",
+          "name": "单脚外转"
         }
       ]
     }
@@ -497070,6 +498380,9 @@
     "images/sheet-lf065-lf080.png": "images/export-data/3a6218401198-e461cc132b9d.js",
     "images/sheet-lf081-lf096.png": "images/export-data/7924e15de8a2-2292b4e3a7ff.js",
     "images/sheet-lg001-lg016-v2.png": "images/export-data/a97692ac7de5-aad4f67cd457.js",
+    "images/sheet-lgt001-lgt008-v4.png": "images/export-data/a1240209236d-34fe2771e5dd.js",
+    "images/sheet-lgt009-lgt016.png": "images/export-data/11e395b7e6f3-31bd313c5bc2.js",
+    "images/sheet-lgt017-lgt020.png": "images/export-data/a7b0abf98748-74447fa07b69.js",
     "images/sheet-lh001-lh004.png": "images/export-data/7afbe1d8fed4-896a3d99f3ff.js",
     "images/sheet-lh005-lh008.png": "images/export-data/ef203c4f73de-1827e77557c3.js",
     "images/sheet-lm001-lm016.png": "images/export-data/160cfb5d57ca-ad6e897a711a.js",
@@ -497412,7 +498725,7 @@
     "unique_entries": 332,
     "min_entries": 5,
     "max_entries": 8,
-    "category_count": 212,
+    "category_count": 213,
     "covered_categories": 125,
     "section_count": 56,
     "covered_sections": 47,
@@ -497493,7 +498806,7 @@
       {
         "id": "body_design",
         "name": "身体与动作",
-        "category_count": 13,
+        "category_count": 14,
         "covered_categories": 10,
         "sections": [
           {
@@ -498556,7 +499869,8 @@
       "scene_campus": [],
       "scene_community": [],
       "scene_culture_visit": [],
-      "anime_face_types": []
+      "anime_face_types": [],
+      "leg_shapes": []
     },
     "uncovered_categories": [
       "hair_cut",
@@ -498645,7 +499959,8 @@
       "scene_campus",
       "scene_community",
       "scene_culture_visit",
-      "anime_face_types"
+      "anime_face_types",
+      "leg_shapes"
     ]
   }
 }

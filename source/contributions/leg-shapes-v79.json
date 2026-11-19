@@ -1,0 +1,448 @@
+{
+  "schema": "female-appearance-contribution/v1",
+  "entries": [
+    {
+      "stable_id": "LGT001",
+      "category": "leg_shapes",
+      "dimension": "膝踝对位",
+      "name": "直线腿型",
+      "en": "straight leg alignment",
+      "description": "正面站立时，膝心到踝心的方向接近纵直，两侧小腿之间的空隙宽度变化较小。",
+      "note": "先找出膝心和踝心，再沿两条轴分别处理膝下收束和小腿弧度。",
+      "aliases": [
+        "直腿",
+        "直腿腿型",
+        "straight legs",
+        "ストレートな脚"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0"
+    },
+    {
+      "stable_id": "LGT002",
+      "category": "leg_shapes",
+      "dimension": "膝踝对位",
+      "name": "O 型腿",
+      "en": "bow-legged alignment",
+      "description": "正面自然站立时，双踝靠近，双膝略向外分开，膝间留白比踝间宽。",
+      "note": "让脚尖自然朝前，从膝部到踝部逐渐收拢，保留小腿本身的轮廓。",
+      "aliases": [
+        "O型腿",
+        "O形腿",
+        "罗圈腿",
+        "bowlegs",
+        "bow legs",
+        "O脚"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0"
+    },
+    {
+      "stable_id": "LGT003",
+      "category": "leg_shapes",
+      "dimension": "膝踝对位",
+      "name": "X 型腿",
+      "en": "knock-kneed alignment",
+      "description": "正面自然站立时，双膝靠近，双踝略向两侧分开，膝下腿线向外缓缓展开。",
+      "note": "用膝下逐渐变宽的留白定位双踝，保持脚尖自然朝前，避免把膝盖硬挤在一起。",
+      "aliases": [
+        "X型腿",
+        "X形腿",
+        "knock knees",
+        "knock-kneed",
+        "X脚"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0"
+    },
+    {
+      "stable_id": "LGT004",
+      "category": "leg_shapes",
+      "dimension": "膝踝对位",
+      "name": "XO 型腿线",
+      "en": "mixed X/O leg silhouette",
+      "description": "图例中双膝与双踝都较接近，小腿内侧中段仍留有较明显的空隙，正面呈混合曲线。",
+      "note": "分别定位膝、踝与小腿内缘；这里的 XO 只描述画面中的轮廓。",
+      "aliases": [
+        "XO型腿",
+        "XO腿",
+        "XO形腿线",
+        "XO legs",
+        "XO脚"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0"
+    },
+    {
+      "stable_id": "LGT005",
+      "category": "leg_shapes",
+      "dimension": "腿长与分段比例",
+      "name": "大腿与小腿比例均衡",
+      "en": "balanced thigh and shin lengths",
+      "description": "全身正面中，膝的位置让大腿段和小腿段看起来较均衡。",
+      "note": "用胯部、膝部和踝部三个标记对照，脚掌高度单独处理。",
+      "aliases": [
+        "股胫均衡",
+        "上下腿均衡",
+        "均衡腿长",
+        "balanced leg segments"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0"
+    },
+    {
+      "stable_id": "LGT006",
+      "category": "leg_shapes",
+      "dimension": "腿长与分段比例",
+      "name": "大腿段相对长",
+      "en": "relatively long thighs",
+      "description": "和均衡示例相比，膝部略低，大腿段在整条腿中占比略高。",
+      "note": "保持胯部和脚底高度接近，只把膝部稍向下移动，再调整肌肉轮廓。",
+      "aliases": [
+        "大腿长",
+        "长股段",
+        "长大腿短小腿",
+        "long thigh short shin"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0"
+    },
+    {
+      "stable_id": "LGT007",
+      "category": "leg_shapes",
+      "dimension": "腿长与分段比例",
+      "name": "小腿段相对长",
+      "en": "relatively long shins",
+      "description": "和均衡示例相比，膝部更高，膝到踝在整条腿中占比更大。",
+      "note": "抬高膝部后连同小腿最宽处一起重新定位；脚掌大小不必随小腿增长。",
+      "aliases": [
+        "小腿长",
+        "长胫段",
+        "长小腿短大腿",
+        "long shin short thigh"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0"
+    },
+    {
+      "stable_id": "LGT008",
+      "category": "leg_shapes",
+      "dimension": "腿长与分段比例",
+      "name": "紧凑腿身比例",
+      "en": "shorter legs relative to torso",
+      "description": "在身高接近的全身对照中，胯部位置偏低，腿部在全身中占比较小。",
+      "note": "比较头顶、胯部与脚底三处高度；膝位要按较短的腿部重新分配。",
+      "aliases": [
+        "短腿比例",
+        "短腿长躯干",
+        "腿身比偏短",
+        "short legs long torso"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0"
+    },
+    {
+      "stable_id": "LGT009",
+      "category": "leg_shapes",
+      "dimension": "大腿与小腿轮廓",
+      "name": "饱满大腿轮廓",
+      "en": "fuller thighs",
+      "description": "大腿上段的外轮廓向外形成较明显的圆弧，靠近膝部时再收窄。",
+      "note": "先画上段较宽的弧线，到膝部自然收束；小腿体量可以另行选择。",
+      "aliases": [
+        "宽大腿",
+        "圆润大腿",
+        "饱满腿围",
+        "full upper thighs"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0"
+    },
+    {
+      "stable_id": "LGT010",
+      "category": "leg_shapes",
+      "dimension": "大腿与小腿轮廓",
+      "name": "渐收大腿轮廓",
+      "en": "gradually tapered thighs",
+      "description": "从髋侧到膝部渐次收窄，大腿外缘呈连续、较平缓的斜线。",
+      "note": "用长缓线连接髋侧和膝外侧，不在中段突然压出转折。",
+      "aliases": [
+        "细长大腿",
+        "大腿渐细",
+        "slim tapered thighs"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0"
+    },
+    {
+      "stable_id": "LGT011",
+      "category": "leg_shapes",
+      "dimension": "大腿与小腿轮廓",
+      "name": "纤细小腿轮廓",
+      "en": "slim calves",
+      "description": "小腿肚的横向弧度较小，从最宽处到脚踝的宽度变化比较平缓。",
+      "note": "控制小腿外弧的外扩幅度，仍留出内外侧不同的曲线。",
+      "aliases": [
+        "细小腿",
+        "纤细腿肚",
+        "slender calves"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0"
+    },
+    {
+      "stable_id": "LGT012",
+      "category": "leg_shapes",
+      "dimension": "大腿与小腿轮廓",
+      "name": "饱满肌肉型小腿",
+      "en": "full muscular calves",
+      "description": "小腿上中段的肌腹较饱满，进入脚踝前收束得更明显。",
+      "note": "先画膝下鼓起的位置，再用两侧渐收的长曲线连接脚踝。",
+      "aliases": [
+        "肌肉小腿",
+        "发达小腿",
+        "运动型小腿",
+        "athletic calves"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0"
+    },
+    {
+      "stable_id": "LGT013",
+      "category": "leg_shapes",
+      "dimension": "膝部与脚踝轮廓",
+      "name": "骨点清晰的膝部",
+      "en": "defined knee landmarks",
+      "description": "微侧站姿中，髌骨附近的明暗和轮廓转折较清楚，膝下有可辨认的结构线。",
+      "note": "挑少量关键转折表现骨点，避免为关节画一圈封闭硬边。",
+      "aliases": [
+        "膝骨点",
+        "轮廓分明的膝盖",
+        "angular knee contour"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0"
+    },
+    {
+      "stable_id": "LGT014",
+      "category": "leg_shapes",
+      "dimension": "膝部与脚踝轮廓",
+      "name": "圆缓膝部轮廓",
+      "en": "soft rounded knee contours",
+      "description": "膝部与邻近腿段用较宽的明暗过渡相连，轮廓转折更平缓。",
+      "note": "保留膝心位置，用宽而浅的明暗变化连接大腿与小腿。",
+      "aliases": [
+        "圆润膝盖",
+        "柔和膝线",
+        "rounded knees"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0"
+    },
+    {
+      "stable_id": "LGT015",
+      "category": "leg_shapes",
+      "dimension": "膝部与脚踝轮廓",
+      "name": "细窄踝线",
+      "en": "slim defined ankles",
+      "description": "踝上收束较明显，踝骨与脚背之间的转折容易辨认。",
+      "note": "用踝上最窄处和两侧踝骨提示结构，保持脚掌的自然比例。",
+      "aliases": [
+        "细脚踝",
+        "细踝",
+        "纤细脚踝",
+        "narrow ankles"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0"
+    },
+    {
+      "stable_id": "LGT016",
+      "category": "leg_shapes",
+      "dimension": "膝部与脚踝轮廓",
+      "name": "平缓过渡踝线",
+      "en": "gradually tapered ankles",
+      "description": "小腿下段至踝上仅缓慢变窄，踝部的视觉宽度较为连贯。",
+      "note": "让小腿、踝部和脚背顺着长弧过渡，仍保留踝骨的位置。",
+      "aliases": [
+        "宽踝线",
+        "平缓脚踝",
+        "smooth ankle transition"
+      ],
+      "origin": "editorial",
+      "added_in": "79.0"
+    }
+  ],
+  "boards": [
+    {
+      "id": "leg-alignment-and-length",
+      "category": "leg_shapes",
+      "title": "膝踝对位与腿长比例对照",
+      "image": "images/sheet-lgt001-lgt008-v4.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        384,
+        768,
+        1152,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        464,
+        1024
+      ],
+      "origin": "AI 生成的原创腿型对照图",
+      "prompt": "Prompt brief: A 4 × 2 strictly divided adult female anatomy reference in a subdued semi-realistic anime style, with eight individually identified cells. Same adult with modest sage athletic shirt, opaque charcoal mid-thigh athletic shorts, barefoot on a level floor; straight-on camera. Top row, waist to floor, use subtle alignment guides and compare straight, outward-bowed with close ankles, inward knee alignment with ankles apart, and mixed X/O silhouette. Bottom row, full figure at comparable scale: balanced segments, relatively longer thighs, relatively longer shins, and shorter legs relative to the torso. Keep all toes and all four full-body heads clear of crop boundaries.",
+      "edit_prompt": "Minimal prepress text correction on this supplied existing contact sheet. All eight IDs are missing a T. Add the letter T after LG in each upper left ID, leaving the digits the same. Exact final text, row 1 left to right: LGT001, LGT002, LGT003, LGT004. Row 2 left to right: LGT005, LGT006, LGT007, LGT008. These are the only changes. Preserve the precise grid, aspect ratio, model, anatomical design, position/silhouette of every leg and foot, all body proportions and existing guide lines, and off-white paper. Do not add any other text. The visible characters must read L G T 0 0 1 etc with the T clearly legible.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "LGT001",
+          "label": "LGT001",
+          "name": "直线腿型"
+        },
+        {
+          "entry_id": "LGT002",
+          "label": "LGT002",
+          "name": "O 型腿"
+        },
+        {
+          "entry_id": "LGT003",
+          "label": "LGT003",
+          "name": "X 型腿"
+        },
+        {
+          "entry_id": "LGT004",
+          "label": "LGT004",
+          "name": "XO 型腿线"
+        },
+        {
+          "entry_id": "LGT005",
+          "label": "LGT005",
+          "name": "大腿与小腿比例均衡"
+        },
+        {
+          "entry_id": "LGT006",
+          "label": "LGT006",
+          "name": "大腿段相对长"
+        },
+        {
+          "entry_id": "LGT007",
+          "label": "LGT007",
+          "name": "小腿段相对长"
+        },
+        {
+          "entry_id": "LGT008",
+          "label": "LGT008",
+          "name": "紧凑腿身比例"
+        }
+      ],
+      "edit_history": [
+        {
+          "date": "2026-11-19",
+          "image": "images/sheet-lgt001-lgt008-v2.png",
+          "reference_image": "images/sheet-lgt001-lgt008.png",
+          "entry_ids": [
+            "LGT002"
+          ],
+          "prompt": "Use case: precise-object-edit. Edit ONLY image 1, the single existing LGT002 female figure drawing; image 2 (LGT001) is solely a reference for the neutral straight leg shape and matching art direction. Produce a single portrait panel. Change the pronounced O-legged stance of LGT002 into a very mild, everyday bow-legged stance. Reduce the visible gap between the inner sides of the knees by roughly two thirds (around 15–18 px on the supplied 384 px wide panel). Keep both feet flat and facing straight ahead, parallel and bearing equal weight; inner ankles near one another without the feet visibly pressed together. Keep just a small, narrow lens of negative space near knee level which tapers gently toward the ankles. For each leg the knee only deviates a little outward from the hip-to-ankle axis; the shins are close to vertical with natural calf contours, not strongly curved. Keep the knees at the original height and avoid a wide upper-leg stance or anything that looks twisted, deformed, posed or tense. Preserve the original adult figure's sage top, opaque charcoal athletic shorts, both hands, body proportions, same warm off-white background, straight-on waist-to-floor framing, antique serif ID in exactly the same upper-left spot reading 'LGT002' (L G T 0 0 2). Keep comparable thin subtle sage alignment lines as in the original, following the corrected geometry. Frame both complete feet with a small margin below. Match the original quiet semirealistic illustration. Full bleed panel, no extra labels.",
+          "assembly": "Resize the edited panel to 384 × 464, preserve the original panel border, and replace only (x384, y0, w384, h464). All pixels outside the panel match the previous sheet."
+        },
+        {
+          "date": "2026-11-19",
+          "image": "images/sheet-lgt001-lgt008-v3.png",
+          "reference_image": "images/sheet-lgt001-lgt008-v2.png",
+          "entry_ids": [
+            "LGT002"
+          ],
+          "prompt": "Use case: precise-object-edit. Edit Image 1 (the current single panel marked LGT002). Image 2 is the superseded original, showing the maximum bow to avoid. The target is an exact VISUAL MIDPOINT BETWEEN THESE TWO STANCES, about 50% of the original outward curvature: clearly more O-shaped than Image 1, and still visibly gentler than Image 2. Keep the hip and feet anchored to exactly the Image 1 positions. In the 384-pixel-wide source, roughly at y225, shift each whole knee about 9–10 pixels outward from Image 1, giving a clear inner-knee gap about 27–30 pixels wide, rather than Image 1's very narrow gap or Image 2's big gap. Blend the shift smoothly over the lower thighs and upper shins. The lower shins return smoothly toward the unchanged close-set ankles, making a slender but legible oval of space in the upper-middle, without exaggerated knee or calf contours. Both barefoot feet stay relaxed, lightly separated, flat on the floor and pointing directly forward as in Image 1. Preserve the exact existing straight-on framing, full foot silhouettes, hand position, adult proportions, muted sage shirt, charcoal shorts, subtle thin guide lines (move with the legs), warm ivory paper, panel border, and the exact label 'LGT002' at upper left. Edit only the shape and alignment of the two legs. Same one portrait panel; no extra diagrams, labels or artwork.",
+          "assembly": "Resize to 384 × 464, blend preserving the original panel border, and replace only (x384, y0, w384, h464). Outside the panel, all seven neighbors remain pixel-identical."
+        },
+        {
+          "date": "2026-11-19",
+          "image": "images/sheet-lgt001-lgt008-v4.png",
+          "reference_image": "images/sheet-lgt001-lgt008-v3.png",
+          "entry_ids": [
+            "LGT003"
+          ],
+          "prompt": "Use case: precise-object-edit. Edit Image 1, the single LGT003 illustration of an adult woman standing front-on. Image 2 is the straight-leg control LGT001, for comparison only; do not copy its alignment or label. Soften the knock-kneed X alignment a little: keep the two knees close together at the same height and in their existing positions, and bring the left and right foot and ankle each inward by about 10–13 pixels on the original 384x464 canvas (about 30–38 pixels each if generating at three times that resolution). The ankles should remain noticeably farther apart than the knees, with a gentle narrow triangle below the knees; retain about three quarters of the original ankle spacing. Make the two shins run down with a modest outward slant and smooth calf contours. The knees stay soft, not bent, crossed or forced together. Both feet flat at the same baseline, toes naturally and clearly facing camera, no forced turnout or inward rotation. Retain the exact framing from waist to floor, complete feet with floor margin, identical silhouette above the knees, hands, muted sage shirt, opaque charcoal shorts, soft off-white background, thin border, and label 'LGT003' (L G T 0 0 3) in the same top-left position. Keep the subtle thin green guide lines following the thighs and shins. Change only the lower legs and the position of the feet. Same single full-bleed portrait panel; no new text.",
+          "refinement_prompt": "Use case: precise-object-edit. Return a single portrait atlas panel with the exact identifier 'LGT003'. Image 1 is the original which is a bit too pronounced; image 2 is the first edit which moved the ankles too close. Draw the midpoint in stance between them, using Image 1's framing and comparable ANKLE SEPARATION. ATTENTION: retain broad placement of feet, but slightly narrower than Image 1. At ankle height, the clear ivory gap between the INNER EDGES of the ankles should be about 64 pixels scaled to 384 px image width, approximately one sixth of the whole canvas, or about 190 pixels on 1141 px wide output. This is moderately wide, visibly broader than Image 2's approximately 45 scaled pixels and just slightly narrower than Image 1's about 83. Left ankle center around 144/384 canvas width, right ankle center around 244/384. Both feet point toward the viewer, toes visible and at same original y height. Keep the knees centered close together around the original y223 and the thighs/shorts as-is. Adjust only the outward slant of the two lower legs so there is a clear X, with less exaggerated angles than Image 1. Use Image 1's original sage shirt, shorts, hand position, thin moss guide lines that follow the leg shape, neutral paper, panel border, adult figure, lighting and framing. Keep ID LGT003 (L G T 0 0 3) at upper left and fully visible feet. Same portrait proportions; no new text.",
+          "assembly": "Resize to 384 × 464 and blend into the original LGT003 rectangle (x768, y0, w384, h464), preserving borders. All neighboring tiles including approved LGT002 are pixel-identical."
+        }
+      ]
+    },
+    {
+      "id": "leg-contours-and-landmarks",
+      "category": "leg_shapes",
+      "title": "腿部轮廓与膝踝细节对照",
+      "image": "images/sheet-lgt009-lgt016.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 4,
+      "rows": 2,
+      "column_boundaries": [
+        0,
+        384,
+        768,
+        1152,
+        1536
+      ],
+      "row_boundaries": [
+        0,
+        496,
+        1024
+      ],
+      "origin": "AI 生成的原创腿型对照图",
+      "prompt": "Prompt brief: Companion 4 × 2 original study; use the initial alignment sheet only for graphic style, clothing, lighting and model continuity. Each crop includes both entire feet. Frontal first row: fuller thighs, gradually tapering thighs, slim calves and fuller athletic calves. Slight front three-quarter second row: defined knee landmarks, rounded knees, narrow defined ankles and a gradual ankle transition. Exaggerate differences enough to compare in thumbnails, but maintain the character and neutral standing stance.",
+      "edit_prompt": "Minimal prepress text correction on this supplied existing contact sheet. All eight IDs are missing a T. Add the letter T after LG in each upper left ID, leaving the digits the same. Exact final text, row 1 left to right: LGT009, LGT010, LGT011, LGT012. Row 2 left to right: LGT013, LGT014, LGT015, LGT016. These are the only changes. Preserve the precise grid, aspect ratio, model, anatomy, pose and two feet of every figure, including every difference in the thighs, calves, knees and ankles, and off-white paper. Do not add any other text. The visible characters must read L G T 0 0 9 etc with the T clearly legible.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "LGT009",
+          "label": "LGT009",
+          "name": "饱满大腿轮廓"
+        },
+        {
+          "entry_id": "LGT010",
+          "label": "LGT010",
+          "name": "渐收大腿轮廓"
+        },
+        {
+          "entry_id": "LGT011",
+          "label": "LGT011",
+          "name": "纤细小腿轮廓"
+        },
+        {
+          "entry_id": "LGT012",
+          "label": "LGT012",
+          "name": "饱满肌肉型小腿"
+        },
+        {
+          "entry_id": "LGT013",
+          "label": "LGT013",
+          "name": "骨点清晰的膝部"
+        },
+        {
+          "entry_id": "LGT014",
+          "label": "LGT014",
+          "name": "圆缓膝部轮廓"
+        },
+        {
+          "entry_id": "LGT015",
+          "label": "LGT015",
+          "name": "细窄踝线"
+        },
+        {
+          "entry_id": "LGT016",
+          "label": "LGT016",
+          "name": "平缓过渡踝线"
+        }
+      ]
+    }
+  ],
+  "references": []
+}

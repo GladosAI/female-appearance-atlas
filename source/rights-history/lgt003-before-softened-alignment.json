@@ -1,0 +1,123 @@
+{
+  "schema": "female-appearance-retired-rights/v1",
+  "retired_on": "2026-11-19",
+  "content_version": "79.0",
+  "reason": "The owner requested a slightly closer ankle stance for X-shaped leg alignment (LGT003).",
+  "replacements": [
+    {
+      "board_id": "leg-alignment-and-length",
+      "previous_image": "images/sheet-lgt001-lgt008-v3.png",
+      "current_image": "images/sheet-lgt001-lgt008-v4.png"
+    }
+  ],
+  "assets": [
+    {
+      "path": "images/sheet-lgt001-lgt008-v3.png",
+      "kind": "ai-generated-reference",
+      "sha256": "7e08e1b2a3836940e08f63d08900cfdfc050ed0c00ff76383e4fa66fe9299196",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "leg-alignment-and-length",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-19",
+      "reviewed_at": "2026-11-19",
+      "evidence_ids": [
+        "E-LGT002-MODERATE-CURVE-20261119",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-fd2796be81ab583b"
+      ],
+      "notes": "Knee gap sits between the two earlier versions. Reviewed forward-facing feet, crop and unchanged pixels in every neighboring illustration.",
+      "provenance": {
+        "observed_sha256": "7e08e1b2a3836940e08f63d08900cfdfc050ed0c00ff76383e4fa66fe9299196",
+        "status": "generated-crop-composited",
+        "board_id": "leg-alignment-and-length",
+        "prompt_sources": [
+          "source/contributions/leg-shapes-v79.json#/boards/0/prompt",
+          "source/contributions/leg-shapes-v79.json#/boards/0/edit_prompt",
+          "source/contributions/leg-shapes-v79.json#/boards/0/edit_history/0/prompt",
+          "source/contributions/leg-shapes-v79.json#/boards/0/edit_history/1/prompt"
+        ],
+        "declared_inputs": [
+          {
+            "path": "images/sheet-lgt001-lgt008-v2.png",
+            "exists": true,
+            "sha256": "1de305f8db67cdd1e58a2a5108f773d7c5674b079e7e315abbc486b62b9ec1ff",
+            "generated_file_match": false,
+            "self_pointer": false
+          },
+          {
+            "path": "images/sheet-lgt001-lgt008.png",
+            "exists": true,
+            "sha256": "ff559e57ae0f41aaaad8bd8f4e51a6548aab9df4a43dad46c8db39f3879aa724",
+            "generated_file_match": true,
+            "self_pointer": false
+          }
+        ],
+        "generated_draft_inputs": [
+          {
+            "label": "Moderate-curve edit target: current mild LGT002 panel",
+            "sha256": "fe1ddd06f7b81578ec39350312914ce316ccb8215627fc0e44192a183e25993d"
+          },
+          {
+            "label": "Original pronounced LGT002 panel as upper-bound reference",
+            "sha256": "1f67354e629a98aef3257475a1a2b83ad9a851c96f6ef4db82fb418f7bdff182"
+          },
+          {
+            "label": "Unresized built-in image_gen edit of LGT002",
+            "sha256": "27c0eb8384eba5055d45e1d8de38ba926226491e3b745b691d56b56d7c0c7dd6"
+          }
+        ],
+        "input_scope": "Only two existing project-owned LGT002 crops were supplied to image_gen: the mild version to edit and the original for comparison. The selected output replaced one cell in the prior board; pixels outside LGT002 were verified identical."
+      }
+    }
+  ],
+  "boards": [
+    {
+      "path": "images/sheet-lgt001-lgt008-v3.png",
+      "board_id": "leg-alignment-and-length",
+      "sha256": "7e08e1b2a3836940e08f63d08900cfdfc050ed0c00ff76383e4fa66fe9299196",
+      "generated_file_match": false,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-19",
+      "prompt_sources": [
+        "source/contributions/leg-shapes-v79.json#/boards/0/prompt",
+        "source/contributions/leg-shapes-v79.json#/boards/0/edit_prompt",
+        "source/contributions/leg-shapes-v79.json#/boards/0/edit_history/0/prompt",
+        "source/contributions/leg-shapes-v79.json#/boards/0/edit_history/1/prompt"
+      ],
+      "declared_inputs": [
+        {
+          "path": "images/sheet-lgt001-lgt008-v2.png",
+          "exists": true,
+          "sha256": "1de305f8db67cdd1e58a2a5108f773d7c5674b079e7e315abbc486b62b9ec1ff",
+          "generated_file_match": false,
+          "self_pointer": false
+        },
+        {
+          "path": "images/sheet-lgt001-lgt008.png",
+          "exists": true,
+          "sha256": "ff559e57ae0f41aaaad8bd8f4e51a6548aab9df4a43dad46c8db39f3879aa724",
+          "generated_file_match": true,
+          "self_pointer": false
+        }
+      ],
+      "generated_draft_inputs": [
+        {
+          "label": "Moderate-curve edit target: current mild LGT002 panel",
+          "sha256": "fe1ddd06f7b81578ec39350312914ce316ccb8215627fc0e44192a183e25993d"
+        },
+        {
+          "label": "Original pronounced LGT002 panel as upper-bound reference",
+          "sha256": "1f67354e629a98aef3257475a1a2b83ad9a851c96f6ef4db82fb418f7bdff182"
+        },
+        {
+          "label": "Unresized built-in image_gen edit of LGT002",
+          "sha256": "27c0eb8384eba5055d45e1d8de38ba926226491e3b745b691d56b56d7c0c7dd6"
+        }
+      ],
+      "input_scope": "Only two existing project-owned LGT002 crops were supplied to image_gen: the mild version to edit and the original for comparison. The selected output replaced one cell in the prior board; pixels outside LGT002 were verified identical."
+    }
+  ]
+}

@@ -29460,6 +29460,86 @@
     {
       "id": "SO160",
       "source_key": "hosiery|冰晶流苏袜口长袜|crystal-tassel cuff stockings"
+    },
+    {
+      "id": "LGT001",
+      "source_key": "leg_shapes|直线腿型|straight leg alignment"
+    },
+    {
+      "id": "LGT002",
+      "source_key": "leg_shapes|O 型腿|bow-legged alignment"
+    },
+    {
+      "id": "LGT003",
+      "source_key": "leg_shapes|X 型腿|knock-kneed alignment"
+    },
+    {
+      "id": "LGT004",
+      "source_key": "leg_shapes|XO 型腿线|mixed X/O leg silhouette"
+    },
+    {
+      "id": "LGT005",
+      "source_key": "leg_shapes|大腿与小腿比例均衡|balanced thigh and shin lengths"
+    },
+    {
+      "id": "LGT006",
+      "source_key": "leg_shapes|大腿段相对长|relatively long thighs"
+    },
+    {
+      "id": "LGT007",
+      "source_key": "leg_shapes|小腿段相对长|relatively long shins"
+    },
+    {
+      "id": "LGT008",
+      "source_key": "leg_shapes|紧凑腿身比例|shorter legs relative to torso"
+    },
+    {
+      "id": "LGT009",
+      "source_key": "leg_shapes|饱满大腿轮廓|fuller thighs"
+    },
+    {
+      "id": "LGT010",
+      "source_key": "leg_shapes|渐收大腿轮廓|gradually tapered thighs"
+    },
+    {
+      "id": "LGT011",
+      "source_key": "leg_shapes|纤细小腿轮廓|slim calves"
+    },
+    {
+      "id": "LGT012",
+      "source_key": "leg_shapes|饱满肌肉型小腿|full muscular calves"
+    },
+    {
+      "id": "LGT013",
+      "source_key": "leg_shapes|骨点清晰的膝部|defined knee landmarks"
+    },
+    {
+      "id": "LGT014",
+      "source_key": "leg_shapes|圆缓膝部轮廓|soft rounded knee contours"
+    },
+    {
+      "id": "LGT015",
+      "source_key": "leg_shapes|细窄踝线|slim defined ankles"
+    },
+    {
+      "id": "LGT016",
+      "source_key": "leg_shapes|平缓过渡踝线|gradually tapered ankles"
+    },
+    {
+      "id": "LGT017",
+      "source_key": "leg_shapes|足尖朝前|parallel forward-facing feet"
+    },
+    {
+      "id": "LGT018",
+      "source_key": "leg_shapes|内八字|pigeon-toed stance"
+    },
+    {
+      "id": "LGT019",
+      "source_key": "leg_shapes|外八字|out-toed stance"
+    },
+    {
+      "id": "LGT020",
+      "source_key": "leg_shapes|单脚外转|one foot turned out"
     }
   ]
 }
