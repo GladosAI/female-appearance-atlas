@@ -4,7 +4,7 @@
 
 [中文](README.md) · [English](README.en.md) · **日本語**
 
-ゲーム・アニメ・キャラクターデザインに使える、検索可能なビジュアル資料集です。コンテンツ版78.3には **7,365件の図解付き項目、741枚の一覧画像、212カテゴリ** を収録しています。髪型、顔・表情、体型・ポーズ、服装、装飾品、幻想的な身体形態、素材、画風、カメラ表現、人物のいるシーンを調べられます。
+ゲーム・アニメ・キャラクターデザインに使える、検索可能なビジュアル資料集です。コンテンツ版79.0には **7,385件の図解付き項目、744枚の一覧画像、213カテゴリ** を収録しています。髪型、顔・表情、体型・ポーズ、服装、装飾品、幻想的な身体形態、素材、画風、カメラ表現、人物のいるシーンを調べられます。
 
 [日本語で閲覧](https://gladosai.github.io/female-appearance-atlas/?lang=ja) · [ソースコード](https://github.com/GladosAI/female-appearance-atlas) · [ダウンロード](https://github.com/GladosAI/female-appearance-atlas/releases/latest) · [不具合報告](https://github.com/GladosAI/female-appearance-atlas/issues)
 

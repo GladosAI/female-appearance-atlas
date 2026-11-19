@@ -9690,6 +9690,269 @@
         }
       ],
       "permission_basis": "Records the actual generated edit and its project-owned reference image."
+    },
+    {
+      "id": "E-NC-GRANT-f1c46cf496c638ef",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-19",
+      "asset": "images/sheet-lgt001-lgt008.png",
+      "local_sha256": "ff559e57ae0f41aaaad8bd8f4e51a6548aab9df4a43dad46c8db39f3879aa724",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-created illustrations covered by the continuing project content policy."
+    },
+    {
+      "id": "E-NC-GRANT-11e395b7e6f3f7cf",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-19",
+      "asset": "images/sheet-lgt009-lgt016.png",
+      "local_sha256": "31bd313c5bc2d6be568fa0216940a545fcdb2470d017004c2b7fbf35c5fb9e6e",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-created illustrations covered by the continuing project content policy."
+    },
+    {
+      "id": "E-LEG-SHAPES-20261119",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-19",
+      "title": "Original leg shape illustrations, LGT001–LGT016",
+      "source": "Observed built-in image_gen drafts and ID-corrected outputs in the project maintenance conversation on 2026-11-19.",
+      "assets": [
+        {
+          "path": "images/sheet-lgt001-lgt008.png",
+          "local_sha256": "ff559e57ae0f41aaaad8bd8f4e51a6548aab9df4a43dad46c8db39f3879aa724",
+          "entry_ids": [
+            "LGT001",
+            "LGT002",
+            "LGT003",
+            "LGT004",
+            "LGT005",
+            "LGT006",
+            "LGT007",
+            "LGT008"
+          ],
+          "generated_draft_inputs": [
+            {
+              "label": "Own unreleased draft before ID correction",
+              "sha256": "143a7eafcbdec91362afad9a4757ef509e25353bff9e72e6551fe529a384e167"
+            }
+          ]
+        },
+        {
+          "path": "images/sheet-lgt009-lgt016.png",
+          "local_sha256": "31bd313c5bc2d6be568fa0216940a545fcdb2470d017004c2b7fbf35c5fb9e6e",
+          "entry_ids": [
+            "LGT009",
+            "LGT010",
+            "LGT011",
+            "LGT012",
+            "LGT013",
+            "LGT014",
+            "LGT015",
+            "LGT016"
+          ],
+          "generated_draft_inputs": [
+            {
+              "label": "Own unreleased draft before ID correction",
+              "sha256": "1805b22830e464f174dde0edd437db29b277cb43e1157c99454f2b73ed0a8fef"
+            },
+            {
+              "label": "Own unreleased first-board draft used for visual continuity",
+              "sha256": "143a7eafcbdec91362afad9a4757ef509e25353bff9e72e6551fe529a384e167"
+            }
+          ]
+        }
+      ],
+      "prompt_source": "source/contributions/leg-shapes-v79.json",
+      "permission_basis": "Records the generated outputs and the hashes of original unpublished drafts used as inputs."
+    },
+    {
+      "id": "E-LGT002-MILD-CURVE-20261119",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-19",
+      "title": "LGT002 mild alignment redraw",
+      "source": "Only LGT002 and LGT001 crops from the original project-owned board were supplied to image_gen. The resulting LGT002 crop was resized and placed in the original sheet; pixels in the seven other panels were verified identical.",
+      "assets": [
+        {
+          "path": "images/sheet-lgt001-lgt008-v2.png",
+          "local_sha256": "1de305f8db67cdd1e58a2a5108f773d7c5674b079e7e315abbc486b62b9ec1ff",
+          "entry_ids": [
+            "LGT001",
+            "LGT002",
+            "LGT003",
+            "LGT004",
+            "LGT005",
+            "LGT006",
+            "LGT007",
+            "LGT008"
+          ],
+          "generated_draft_inputs": [
+            {
+              "label": "Source board crop, LGT002 edit target",
+              "sha256": "1f67354e629a98aef3257475a1a2b83ad9a851c96f6ef4db82fb418f7bdff182"
+            },
+            {
+              "label": "Source board crop, LGT001 alignment and style reference",
+              "sha256": "8191d6926445314c7ecc7febad5fcc7c54d49f9eb16395e9fe7d329ea1a03f08"
+            },
+            {
+              "label": "Unresized built-in image_gen edit of LGT002",
+              "sha256": "ef612ccb69fd81ec3e99e6ca07168f34b484da371d2c9eafd27f03f0f2a6f34b"
+            }
+          ]
+        }
+      ],
+      "prompt_source": "source/contributions/leg-shapes-v79.json#/boards/0/edit_history/0/prompt",
+      "permission_basis": "Edited project-owned generated artwork and verified the composed sheet against the original."
+    },
+    {
+      "id": "E-NC-GRANT-5c16a60075826cc4",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-19",
+      "asset": "images/sheet-lgt001-lgt008-v2.png",
+      "local_sha256": "1de305f8db67cdd1e58a2a5108f773d7c5674b079e7e315abbc486b62b9ec1ff",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-created illustrations covered by the continuing project content policy."
+    },
+    {
+      "id": "E-LGT002-MODERATE-CURVE-20261119",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-19",
+      "title": "LGT002 moderate alignment redraw",
+      "source": "Only two existing project-owned LGT002 crops were supplied to image_gen: the mild version to edit and the original for comparison. The selected output replaced one cell in the prior board; pixels outside LGT002 were verified identical.",
+      "assets": [
+        {
+          "path": "images/sheet-lgt001-lgt008-v3.png",
+          "local_sha256": "7e08e1b2a3836940e08f63d08900cfdfc050ed0c00ff76383e4fa66fe9299196",
+          "entry_ids": [
+            "LGT001",
+            "LGT002",
+            "LGT003",
+            "LGT004",
+            "LGT005",
+            "LGT006",
+            "LGT007",
+            "LGT008"
+          ],
+          "generated_draft_inputs": [
+            {
+              "label": "Moderate-curve edit target: current mild LGT002 panel",
+              "sha256": "fe1ddd06f7b81578ec39350312914ce316ccb8215627fc0e44192a183e25993d"
+            },
+            {
+              "label": "Original pronounced LGT002 panel as upper-bound reference",
+              "sha256": "1f67354e629a98aef3257475a1a2b83ad9a851c96f6ef4db82fb418f7bdff182"
+            },
+            {
+              "label": "Unresized built-in image_gen edit of LGT002",
+              "sha256": "27c0eb8384eba5055d45e1d8de38ba926226491e3b745b691d56b56d7c0c7dd6"
+            }
+          ]
+        }
+      ],
+      "prompt_source": "source/contributions/leg-shapes-v79.json#/boards/0/edit_history/1/prompt",
+      "permission_basis": "Edited project-owned generated artwork and verified the composed sheet against its prior version."
+    },
+    {
+      "id": "E-NC-GRANT-fd2796be81ab583b",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-19",
+      "asset": "images/sheet-lgt001-lgt008-v3.png",
+      "local_sha256": "7e08e1b2a3836940e08f63d08900cfdfc050ed0c00ff76383e4fa66fe9299196",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-created illustrations covered by the continuing project content policy."
+    },
+    {
+      "id": "E-LGT003-SOFTENED-ALIGNMENT-20261119",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-19",
+      "title": "LGT003 softened X alignment redraw",
+      "source": "Only project-owned atlas crops (LGT003, LGT001) were supplied to image_gen at first; the second pass used the original LGT003 and the first LGT003 draft. The selected edit replaced only the LGT003 cell. Pixels outside the edited cell, including approved LGT002, are identical.",
+      "assets": [
+        {
+          "path": "images/sheet-lgt001-lgt008-v4.png",
+          "local_sha256": "34fe2771e5ddee364075d8ab2a5e02556c21a5a26950e88da2534508e37f10ed",
+          "entry_ids": [
+            "LGT001",
+            "LGT002",
+            "LGT003",
+            "LGT004",
+            "LGT005",
+            "LGT006",
+            "LGT007",
+            "LGT008"
+          ],
+          "generated_draft_inputs": [
+            {
+              "label": "Source-board edit target: initial LGT003 panel",
+              "sha256": "2f885949d902a066cbb8a392a75ea5ef8ef73eacc33ed89e2286aa8a2283b586"
+            },
+            {
+              "label": "Source-board control reference: straight-leg LGT001 panel",
+              "sha256": "8191d6926445314c7ecc7febad5fcc7c54d49f9eb16395e9fe7d329ea1a03f08"
+            },
+            {
+              "label": "First LGT003 draft, used as near-ankle comparison on the second pass",
+              "sha256": "c9e07d03417b56023b7f826f78e47c0756afb3fcf5804234857588d381d54532"
+            },
+            {
+              "label": "Unresized built-in image_gen revision of LGT003",
+              "sha256": "780551b80df3fe161e3c547612c91d3d09975b8989f27ebab939fc772fc7f801"
+            }
+          ]
+        }
+      ],
+      "prompt_source": "source/contributions/leg-shapes-v79.json#/boards/0/edit_history/2/prompt",
+      "permission_basis": "Edited project-owned generated artwork and verified the composed sheet against its prior version."
+    },
+    {
+      "id": "E-NC-GRANT-a1240209236de476",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-19",
+      "asset": "images/sheet-lgt001-lgt008-v4.png",
+      "local_sha256": "34fe2771e5ddee364075d8ab2a5e02556c21a5a26950e88da2534508e37f10ed",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-created illustrations covered by the continuing project content policy."
+    },
+    {
+      "id": "E-FOOT-DIRECTIONS-20261119",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-19",
+      "title": "Original standing foot direction studies LGT017–LGT020",
+      "source": "The current project-owned LGT001 crop was supplied only for visual continuity. The new illustration is not a crop of that source asset.",
+      "assets": [
+        {
+          "path": "images/sheet-lgt017-lgt020.png",
+          "local_sha256": "74447fa07b694c36d1bfd608557595ab2a3f1d824c0aedf67f8dd8e3eba909f7",
+          "entry_ids": [
+            "LGT017",
+            "LGT018",
+            "LGT019",
+            "LGT020"
+          ],
+          "generated_draft_inputs": [
+            {
+              "label": "Original atlas LGT001 crop, rendering reference only",
+              "sha256": "8191d6926445314c7ecc7febad5fcc7c54d49f9eb16395e9fe7d329ea1a03f08"
+            }
+          ]
+        }
+      ],
+      "prompt_source": "source/contributions/standing-foot-directions-v79.json",
+      "permission_basis": "Records the generated sheet and the original project material used as its visual input."
+    },
+    {
+      "id": "E-NC-GRANT-a7b0abf98748ee9b",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-19",
+      "asset": "images/sheet-lgt017-lgt020.png",
+      "local_sha256": "74447fa07b694c36d1bfd608557595ab2a3f1d824c0aedf67f8dd8e3eba909f7",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-created illustrations covered by the continuing project content policy."
     }
   ]
 }

@@ -184,9 +184,10 @@
     {
       "id": "body_design",
       "name": "身体与动作",
-      "note": "体型年龄对照、动作与持物、局部形态和机械义肢。",
+      "note": "体型、腿型与年龄对照，动作与持物、局部形态和机械义肢。",
       "categories": [
         "body",
+        "leg_shapes",
         "female_life_stages",
         "age",
         "pose",
@@ -206,12 +207,13 @@
           "name": "体型、比例与年龄",
           "categories": [
             "body",
+            "leg_shapes",
             "female_life_stages",
             "age"
           ],
           "scope": "branch_body_age",
-          "count": 198,
-          "category_count": 3
+          "count": 218,
+          "category_count": 4
         },
         {
           "id": "body_movement",
@@ -252,8 +254,8 @@
         }
       ],
       "scope": "topic_body_design",
-      "count": 734,
-      "category_count": 13
+      "count": 754,
+      "category_count": 14
     },
     {
       "id": "everyday",
@@ -1583,8 +1585,8 @@
       "scene"
     ]
   },
-  "entry_count": 7365,
-  "category_count": 212,
+  "entry_count": 7385,
+  "category_count": 213,
   "section_count": 56,
   "category_paths": {
     "hair_cut": {
@@ -1700,6 +1702,10 @@
       "section": "branch_face_technology"
     },
     "body": {
+      "domain": "topic_body_design",
+      "section": "branch_body_age"
+    },
+    "leg_shapes": {
       "domain": "topic_body_design",
       "section": "branch_body_age"
     },

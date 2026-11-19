@@ -24072,6 +24072,146 @@
           }
         ]
       }
+    },
+    {
+      "path": "images/sheet-lgt001-lgt008-v4.png",
+      "kind": "ai-generated-reference",
+      "sha256": "34fe2771e5ddee364075d8ab2a5e02556c21a5a26950e88da2534508e37f10ed",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "leg-alignment-and-length",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-19",
+      "reviewed_at": "2026-11-19",
+      "evidence_ids": [
+        "E-LGT003-SOFTENED-ALIGNMENT-20261119",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-a1240209236de476"
+      ],
+      "notes": "Reviewed the reduced ankle gap and gently sloping shins in LGT003. Pixel comparison confirmed the approved LGT002 and all other tiles are unchanged.",
+      "provenance": {
+        "observed_sha256": "34fe2771e5ddee364075d8ab2a5e02556c21a5a26950e88da2534508e37f10ed",
+        "status": "generated-crop-composited",
+        "board_id": "leg-alignment-and-length",
+        "prompt_sources": [
+          "source/contributions/leg-shapes-v79.json#/boards/0/prompt",
+          "source/contributions/leg-shapes-v79.json#/boards/0/edit_prompt",
+          "source/contributions/leg-shapes-v79.json#/boards/0/edit_history/0/prompt",
+          "source/contributions/leg-shapes-v79.json#/boards/0/edit_history/1/prompt",
+          "source/contributions/leg-shapes-v79.json#/boards/0/edit_history/2/prompt",
+          "source/contributions/leg-shapes-v79.json#/boards/0/edit_history/2/refinement_prompt"
+        ],
+        "declared_inputs": [
+          {
+            "path": "images/sheet-lgt001-lgt008-v3.png",
+            "exists": true,
+            "sha256": "7e08e1b2a3836940e08f63d08900cfdfc050ed0c00ff76383e4fa66fe9299196",
+            "generated_file_match": false,
+            "self_pointer": false
+          }
+        ],
+        "generated_draft_inputs": [
+          {
+            "label": "Source-board edit target: initial LGT003 panel",
+            "sha256": "2f885949d902a066cbb8a392a75ea5ef8ef73eacc33ed89e2286aa8a2283b586"
+          },
+          {
+            "label": "Source-board control reference: straight-leg LGT001 panel",
+            "sha256": "8191d6926445314c7ecc7febad5fcc7c54d49f9eb16395e9fe7d329ea1a03f08"
+          },
+          {
+            "label": "First LGT003 draft, used as near-ankle comparison on the second pass",
+            "sha256": "c9e07d03417b56023b7f826f78e47c0756afb3fcf5804234857588d381d54532"
+          },
+          {
+            "label": "Unresized built-in image_gen revision of LGT003",
+            "sha256": "780551b80df3fe161e3c547612c91d3d09975b8989f27ebab939fc772fc7f801"
+          }
+        ],
+        "input_scope": "Only project-owned atlas crops (LGT003, LGT001) were supplied to image_gen at first; the second pass used the original LGT003 and the first LGT003 draft. The selected edit replaced only the LGT003 cell. Pixels outside the edited cell, including approved LGT002, are identical."
+      }
+    },
+    {
+      "path": "images/sheet-lgt009-lgt016.png",
+      "kind": "ai-generated-reference",
+      "sha256": "31bd313c5bc2d6be568fa0216940a545fcdb2470d017004c2b7fbf35c5fb9e6e",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "leg-contours-and-landmarks",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-19",
+      "reviewed_at": "2026-11-19",
+      "evidence_ids": [
+        "E-LEG-SHAPES-20261119",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-11e395b7e6f3f7cf"
+      ],
+      "notes": "Reviewed cell IDs, leg-type correspondence, full feet, and measured crop boundaries. Four leg proportion panels include the whole figure.",
+      "provenance": {
+        "observed_sha256": "31bd313c5bc2d6be568fa0216940a545fcdb2470d017004c2b7fbf35c5fb9e6e",
+        "status": "generated-file-match",
+        "board_id": "leg-contours-and-landmarks",
+        "prompt_sources": [
+          "source/contributions/leg-shapes-v79.json#/boards/1/prompt",
+          "source/contributions/leg-shapes-v79.json#/boards/1/edit_prompt"
+        ],
+        "declared_inputs": [],
+        "generated_draft_inputs": [
+          {
+            "label": "Own unreleased draft before ID correction",
+            "sha256": "1805b22830e464f174dde0edd437db29b277cb43e1157c99454f2b73ed0a8fef"
+          },
+          {
+            "label": "Own unreleased first-board draft used for visual continuity",
+            "sha256": "143a7eafcbdec91362afad9a4757ef509e25353bff9e72e6551fe529a384e167"
+          }
+        ],
+        "input_scope": "Only original AI-generated drafts from this batch were supplied as image inputs. Board 1 started from text; board 2 used board 1’s original draft for styling. Each final board used its own draft for ID correction. No third-party images were provided."
+      }
+    },
+    {
+      "path": "images/sheet-lgt017-lgt020.png",
+      "kind": "ai-generated-reference",
+      "sha256": "74447fa07b694c36d1bfd608557595ab2a3f1d824c0aedf67f8dd8e3eba909f7",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "standing-foot-directions",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-19",
+      "reviewed_at": "2026-11-19",
+      "evidence_ids": [
+        "E-FOOT-DIRECTIONS-20261119",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-a7b0abf98748ee9b"
+      ],
+      "notes": "Visually checked four distinct directions, complete feet, correct IDs and actual panel boundaries.",
+      "provenance": {
+        "observed_sha256": "74447fa07b694c36d1bfd608557595ab2a3f1d824c0aedf67f8dd8e3eba909f7",
+        "status": "generated-file-match",
+        "board_id": "standing-foot-directions",
+        "prompt_sources": [
+          "source/contributions/standing-foot-directions-v79.json#/boards/0/prompt"
+        ],
+        "declared_inputs": [
+          {
+            "path": "images/sheet-lgt001-lgt008-v4.png",
+            "exists": true,
+            "sha256": "34fe2771e5ddee364075d8ab2a5e02556c21a5a26950e88da2534508e37f10ed",
+            "generated_file_match": false,
+            "self_pointer": false
+          }
+        ],
+        "generated_draft_inputs": [
+          {
+            "label": "Original atlas LGT001 crop, rendering reference only",
+            "sha256": "8191d6926445314c7ecc7febad5fcc7c54d49f9eb16395e9fe7d329ea1a03f08"
+          }
+        ],
+        "input_scope": "The current project-owned LGT001 crop was supplied only for visual continuity. The new illustration is not a crop of that source asset."
+      }
     }
   ],
   "audit": {

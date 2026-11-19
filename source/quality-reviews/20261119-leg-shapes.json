@@ -1,0 +1,458 @@
+{
+  "schema": "female-appearance-quality-review/v1",
+  "batch": "2026-11-19-leg-shapes",
+  "catalog_version": "79.0",
+  "date": "2026-11-19",
+  "reviewer": "Codex AI-assisted visual review",
+  "scope": {
+    "entries": 16,
+    "visuals": 16,
+    "categories": [
+      "leg_shapes"
+    ],
+    "category_counts": {
+      "leg_shapes": 16
+    }
+  },
+  "method": "Compared all sixteen final crops with their descriptions and in-image IDs, and measured both 1536 × 1024 sheets. Compared LGT002 with both earlier versions. For LGT003, checked that the ankle gap decreased while the X-shaped silhouette remains clear. Checked feet and verified by pixel comparison that the seven panels neighboring each targeted edit were unchanged.",
+  "issues": [
+    {
+      "entry_id": "LGT002",
+      "problem": "The first rendering exaggerated the bow; the first revision was too subtle.",
+      "fix": "Replaced only LGT002 with a moderate example between the two earlier versions, matching all three locale descriptions."
+    },
+    {
+      "entry_id": "LGT003",
+      "problem": "The original ankles were spread farther apart than desired, exaggerating the X.",
+      "fix": "Brought the ankles closer with a gentler outward slope below the knees. Preserved the approved LGT002 and all other tiles."
+    }
+  ],
+  "changed_entries": [
+    "LGT002",
+    "LGT003"
+  ],
+  "export_representatives": [
+    "LGT002",
+    "LGT003",
+    "LGT007",
+    "LGT014"
+  ],
+  "records": [
+    {
+      "entry_id": "LGT001",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt001-lgt008-v4.png",
+      "image_sha256": "34fe2771e5ddee364075d8ab2a5e02556c21a5a26950e88da2534508e37f10ed",
+      "visual_at_review": {
+        "board": "leg-alignment-and-length",
+        "image": "images/sheet-lgt001-lgt008-v4.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT001",
+        "aspect": 0.8275862068965517,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 384,
+          "height": 464,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "entry_id": "LGT002",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "updated-image-reviewed",
+      "image": "images/sheet-lgt001-lgt008-v4.png",
+      "image_sha256": "34fe2771e5ddee364075d8ab2a5e02556c21a5a26950e88da2534508e37f10ed",
+      "visual_at_review": {
+        "board": "leg-alignment-and-length",
+        "image": "images/sheet-lgt001-lgt008-v4.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT002",
+        "aspect": 0.8275862068965517,
+        "crop": {
+          "x": 384,
+          "y": 0,
+          "width": 384,
+          "height": 464,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "entry_id": "LGT003",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "updated-image-reviewed",
+      "image": "images/sheet-lgt001-lgt008-v4.png",
+      "image_sha256": "34fe2771e5ddee364075d8ab2a5e02556c21a5a26950e88da2534508e37f10ed",
+      "visual_at_review": {
+        "board": "leg-alignment-and-length",
+        "image": "images/sheet-lgt001-lgt008-v4.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT003",
+        "aspect": 0.8275862068965517,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 384,
+          "height": 464,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "entry_id": "LGT004",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt001-lgt008-v4.png",
+      "image_sha256": "34fe2771e5ddee364075d8ab2a5e02556c21a5a26950e88da2534508e37f10ed",
+      "visual_at_review": {
+        "board": "leg-alignment-and-length",
+        "image": "images/sheet-lgt001-lgt008-v4.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT004",
+        "aspect": 0.8275862068965517,
+        "crop": {
+          "x": 1152,
+          "y": 0,
+          "width": 384,
+          "height": 464,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "entry_id": "LGT005",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt001-lgt008-v4.png",
+      "image_sha256": "34fe2771e5ddee364075d8ab2a5e02556c21a5a26950e88da2534508e37f10ed",
+      "visual_at_review": {
+        "board": "leg-alignment-and-length",
+        "image": "images/sheet-lgt001-lgt008-v4.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT005",
+        "aspect": 0.6857142857142857,
+        "crop": {
+          "x": 0,
+          "y": 464,
+          "width": 384,
+          "height": 560,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "entry_id": "LGT006",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt001-lgt008-v4.png",
+      "image_sha256": "34fe2771e5ddee364075d8ab2a5e02556c21a5a26950e88da2534508e37f10ed",
+      "visual_at_review": {
+        "board": "leg-alignment-and-length",
+        "image": "images/sheet-lgt001-lgt008-v4.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT006",
+        "aspect": 0.6857142857142857,
+        "crop": {
+          "x": 384,
+          "y": 464,
+          "width": 384,
+          "height": 560,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "entry_id": "LGT007",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt001-lgt008-v4.png",
+      "image_sha256": "34fe2771e5ddee364075d8ab2a5e02556c21a5a26950e88da2534508e37f10ed",
+      "visual_at_review": {
+        "board": "leg-alignment-and-length",
+        "image": "images/sheet-lgt001-lgt008-v4.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT007",
+        "aspect": 0.6857142857142857,
+        "crop": {
+          "x": 768,
+          "y": 464,
+          "width": 384,
+          "height": 560,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "entry_id": "LGT008",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt001-lgt008-v4.png",
+      "image_sha256": "34fe2771e5ddee364075d8ab2a5e02556c21a5a26950e88da2534508e37f10ed",
+      "visual_at_review": {
+        "board": "leg-alignment-and-length",
+        "image": "images/sheet-lgt001-lgt008-v4.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT008",
+        "aspect": 0.6857142857142857,
+        "crop": {
+          "x": 1152,
+          "y": 464,
+          "width": 384,
+          "height": 560,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "entry_id": "LGT009",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt009-lgt016.png",
+      "image_sha256": "31bd313c5bc2d6be568fa0216940a545fcdb2470d017004c2b7fbf35c5fb9e6e",
+      "visual_at_review": {
+        "board": "leg-contours-and-landmarks",
+        "image": "images/sheet-lgt009-lgt016.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT009",
+        "aspect": 0.7741935483870968,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 384,
+          "height": 496,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "entry_id": "LGT010",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt009-lgt016.png",
+      "image_sha256": "31bd313c5bc2d6be568fa0216940a545fcdb2470d017004c2b7fbf35c5fb9e6e",
+      "visual_at_review": {
+        "board": "leg-contours-and-landmarks",
+        "image": "images/sheet-lgt009-lgt016.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT010",
+        "aspect": 0.7741935483870968,
+        "crop": {
+          "x": 384,
+          "y": 0,
+          "width": 384,
+          "height": 496,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "entry_id": "LGT011",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt009-lgt016.png",
+      "image_sha256": "31bd313c5bc2d6be568fa0216940a545fcdb2470d017004c2b7fbf35c5fb9e6e",
+      "visual_at_review": {
+        "board": "leg-contours-and-landmarks",
+        "image": "images/sheet-lgt009-lgt016.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT011",
+        "aspect": 0.7741935483870968,
+        "crop": {
+          "x": 768,
+          "y": 0,
+          "width": 384,
+          "height": 496,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "entry_id": "LGT012",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt009-lgt016.png",
+      "image_sha256": "31bd313c5bc2d6be568fa0216940a545fcdb2470d017004c2b7fbf35c5fb9e6e",
+      "visual_at_review": {
+        "board": "leg-contours-and-landmarks",
+        "image": "images/sheet-lgt009-lgt016.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT012",
+        "aspect": 0.7741935483870968,
+        "crop": {
+          "x": 1152,
+          "y": 0,
+          "width": 384,
+          "height": 496,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "entry_id": "LGT013",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt009-lgt016.png",
+      "image_sha256": "31bd313c5bc2d6be568fa0216940a545fcdb2470d017004c2b7fbf35c5fb9e6e",
+      "visual_at_review": {
+        "board": "leg-contours-and-landmarks",
+        "image": "images/sheet-lgt009-lgt016.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT013",
+        "aspect": 0.7272727272727273,
+        "crop": {
+          "x": 0,
+          "y": 496,
+          "width": 384,
+          "height": 528,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "entry_id": "LGT014",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt009-lgt016.png",
+      "image_sha256": "31bd313c5bc2d6be568fa0216940a545fcdb2470d017004c2b7fbf35c5fb9e6e",
+      "visual_at_review": {
+        "board": "leg-contours-and-landmarks",
+        "image": "images/sheet-lgt009-lgt016.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT014",
+        "aspect": 0.7272727272727273,
+        "crop": {
+          "x": 384,
+          "y": 496,
+          "width": 384,
+          "height": 528,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "entry_id": "LGT015",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt009-lgt016.png",
+      "image_sha256": "31bd313c5bc2d6be568fa0216940a545fcdb2470d017004c2b7fbf35c5fb9e6e",
+      "visual_at_review": {
+        "board": "leg-contours-and-landmarks",
+        "image": "images/sheet-lgt009-lgt016.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT015",
+        "aspect": 0.7272727272727273,
+        "crop": {
+          "x": 768,
+          "y": 496,
+          "width": 384,
+          "height": 528,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    },
+    {
+      "entry_id": "LGT016",
+      "category": "leg_shapes",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-lgt009-lgt016.png",
+      "image_sha256": "31bd313c5bc2d6be568fa0216940a545fcdb2470d017004c2b7fbf35c5fb9e6e",
+      "visual_at_review": {
+        "board": "leg-contours-and-landmarks",
+        "image": "images/sheet-lgt009-lgt016.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 2,
+        "label": "LGT016",
+        "aspect": 0.7272727272727273,
+        "crop": {
+          "x": 1152,
+          "y": 496,
+          "width": 384,
+          "height": 528,
+          "sheet_width": 1536,
+          "sheet_height": 1024
+        }
+      }
+    }
+  ]
+}

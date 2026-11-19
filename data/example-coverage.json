@@ -4,7 +4,7 @@
   "unique_entries": 332,
   "min_entries": 5,
   "max_entries": 8,
-  "category_count": 212,
+  "category_count": 213,
   "covered_categories": 125,
   "section_count": 56,
   "covered_sections": 47,
@@ -85,7 +85,7 @@
     {
       "id": "body_design",
       "name": "身体与动作",
-      "category_count": 13,
+      "category_count": 14,
       "covered_categories": 10,
       "sections": [
         {
@@ -1148,7 +1148,8 @@
     "scene_campus": [],
     "scene_community": [],
     "scene_culture_visit": [],
-    "anime_face_types": []
+    "anime_face_types": [],
+    "leg_shapes": []
   },
   "uncovered_categories": [
     "hair_cut",
@@ -1237,6 +1238,7 @@
     "scene_campus",
     "scene_community",
     "scene_culture_visit",
-    "anime_face_types"
+    "anime_face_types",
+    "leg_shapes"
   ]
 }

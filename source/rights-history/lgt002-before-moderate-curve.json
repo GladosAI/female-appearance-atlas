@@ -1,0 +1,107 @@
+{
+  "schema": "female-appearance-retired-rights/v1",
+  "retired_on": "2026-11-19",
+  "content_version": "79.0",
+  "reason": "The owner requested an alignment between the original pronounced example and the first mild redraw.",
+  "replacements": [
+    {
+      "board_id": "leg-alignment-and-length",
+      "previous_image": "images/sheet-lgt001-lgt008-v2.png",
+      "current_image": "images/sheet-lgt001-lgt008-v3.png"
+    }
+  ],
+  "assets": [
+    {
+      "path": "images/sheet-lgt001-lgt008-v2.png",
+      "kind": "ai-generated-reference",
+      "sha256": "1de305f8db67cdd1e58a2a5108f773d7c5674b079e7e315abbc486b62b9ec1ff",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "leg-alignment-and-length",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-19",
+      "reviewed_at": "2026-11-19",
+      "evidence_ids": [
+        "E-LGT002-MILD-CURVE-20261119",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-5c16a60075826cc4"
+      ],
+      "notes": "Reviewed the milder knee gap, relaxed forward-facing feet and the unchanged pixels of every other illustration.",
+      "provenance": {
+        "observed_sha256": "1de305f8db67cdd1e58a2a5108f773d7c5674b079e7e315abbc486b62b9ec1ff",
+        "status": "generated-crop-composited",
+        "board_id": "leg-alignment-and-length",
+        "prompt_sources": [
+          "source/contributions/leg-shapes-v79.json#/boards/0/prompt",
+          "source/contributions/leg-shapes-v79.json#/boards/0/edit_prompt",
+          "source/contributions/leg-shapes-v79.json#/boards/0/edit_history/0/prompt"
+        ],
+        "declared_inputs": [
+          {
+            "path": "images/sheet-lgt001-lgt008.png",
+            "exists": true,
+            "sha256": "ff559e57ae0f41aaaad8bd8f4e51a6548aab9df4a43dad46c8db39f3879aa724",
+            "generated_file_match": true,
+            "self_pointer": false
+          }
+        ],
+        "generated_draft_inputs": [
+          {
+            "label": "Source board crop, LGT002 edit target",
+            "sha256": "1f67354e629a98aef3257475a1a2b83ad9a851c96f6ef4db82fb418f7bdff182"
+          },
+          {
+            "label": "Source board crop, LGT001 alignment and style reference",
+            "sha256": "8191d6926445314c7ecc7febad5fcc7c54d49f9eb16395e9fe7d329ea1a03f08"
+          },
+          {
+            "label": "Unresized built-in image_gen edit of LGT002",
+            "sha256": "ef612ccb69fd81ec3e99e6ca07168f34b484da371d2c9eafd27f03f0f2a6f34b"
+          }
+        ],
+        "input_scope": "Only LGT002 and LGT001 crops from the original project-owned board were supplied to image_gen. The resulting LGT002 crop was resized and placed in the original sheet; pixels in the seven other panels were verified identical."
+      }
+    }
+  ],
+  "boards": [
+    {
+      "path": "images/sheet-lgt001-lgt008-v2.png",
+      "board_id": "leg-alignment-and-length",
+      "sha256": "1de305f8db67cdd1e58a2a5108f773d7c5674b079e7e315abbc486b62b9ec1ff",
+      "generated_file_match": false,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-19",
+      "prompt_sources": [
+        "source/contributions/leg-shapes-v79.json#/boards/0/prompt",
+        "source/contributions/leg-shapes-v79.json#/boards/0/edit_prompt",
+        "source/contributions/leg-shapes-v79.json#/boards/0/edit_history/0/prompt"
+      ],
+      "declared_inputs": [
+        {
+          "path": "images/sheet-lgt001-lgt008.png",
+          "exists": true,
+          "sha256": "ff559e57ae0f41aaaad8bd8f4e51a6548aab9df4a43dad46c8db39f3879aa724",
+          "generated_file_match": true,
+          "self_pointer": false
+        }
+      ],
+      "generated_draft_inputs": [
+        {
+          "label": "Source board crop, LGT002 edit target",
+          "sha256": "1f67354e629a98aef3257475a1a2b83ad9a851c96f6ef4db82fb418f7bdff182"
+        },
+        {
+          "label": "Source board crop, LGT001 alignment and style reference",
+          "sha256": "8191d6926445314c7ecc7febad5fcc7c54d49f9eb16395e9fe7d329ea1a03f08"
+        },
+        {
+          "label": "Unresized built-in image_gen edit of LGT002",
+          "sha256": "ef612ccb69fd81ec3e99e6ca07168f34b484da371d2c9eafd27f03f0f2a6f34b"
+        }
+      ],
+      "input_scope": "Only LGT002 and LGT001 crops from the original project-owned board were supplied to image_gen. The resulting LGT002 crop was resized and placed in the original sheet; pixels in the seven other panels were verified identical."
+    }
+  ]
+}

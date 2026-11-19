@@ -2024,6 +2024,21 @@
     "mime": "image/webp",
     "file": "images/export-data/a97692ac7de5-aad4f67cd457.js"
   },
+  "images/sheet-lgt001-lgt008-v4.png": {
+    "source_sha256": "34fe2771e5ddee364075d8ab2a5e02556c21a5a26950e88da2534508e37f10ed",
+    "mime": "image/png",
+    "file": "images/export-data/a1240209236d-34fe2771e5dd.js"
+  },
+  "images/sheet-lgt009-lgt016.png": {
+    "source_sha256": "31bd313c5bc2d6be568fa0216940a545fcdb2470d017004c2b7fbf35c5fb9e6e",
+    "mime": "image/png",
+    "file": "images/export-data/11e395b7e6f3-31bd313c5bc2.js"
+  },
+  "images/sheet-lgt017-lgt020.png": {
+    "source_sha256": "74447fa07b694c36d1bfd608557595ab2a3f1d824c0aedf67f8dd8e3eba909f7",
+    "mime": "image/png",
+    "file": "images/export-data/a7b0abf98748-74447fa07b69.js"
+  },
   "images/sheet-lh001-lh004.png": {
     "source_sha256": "896a3d99f3fffbc19f513db94c53a96b48a3d80d0e6512c2a44bd522fd440221",
     "mime": "image/webp",
