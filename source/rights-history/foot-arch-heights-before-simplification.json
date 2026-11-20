@@ -1,0 +1,127 @@
+{
+  "schema": "female-appearance-retired-rights/v1",
+  "retired_on": "2026-11-19",
+  "content_version": "80.0",
+  "reason": "The first foot arch comparison was simplified to the two selected panels before publication.",
+  "generation_prompt": "Use case: scientific-educational. Create an original square 2 by 2 character-design reference sheet showing only the MEDIAL (big-toe-side) profile of the human foot under normal weight-bearing, for four visible longitudinal arch heights. Attached original atlas detail is for style and side-view framing only. Exactly two equal columns, two equal rows, straight fine gray dividers at x=50%, y=50%; warm ivory paper. In EVERY panel use the same adult female foot proportions, skin, scale, lighting, heel-and-ball baseline and lateral position, cropped shin to full foot. Toes point to the LEFT, heel to RIGHT, low front ball and heel in physical contact with the same thin horizontal gray floor line in each cell. Show the arch as the ivory gap between the floor line and the inner underside of the foot, around the CENTER BETWEEN heel and forefoot; shadows must not fill the gap. Do not vary toe length, ankle angle, foot length, stance, toe direction, heel lift or dorsum height as a substitute for arch. The toes rest naturally; the silhouette is a true medial side view rather than an overhead view. TOP LEFT 'FT052': flat foot silhouette, middle underside nearly flush with the floor, only a tiny curvature, no arch-shaped opening. TOP RIGHT 'FT012': low arch, a shallow but visible small air gap under the medial midfoot, clearly larger than top left. BOTTOM LEFT 'FT053': middle arch, a moderate curved air gap, clearly more than top right, less than high. BOTTOM RIGHT 'FT011': high arch, clearly taller and wider smoothly curved hollow underneath the inner midfoot, still heel and ball and toes planted, not exaggerated and no bent or clawed toes. Specify approximate arch openings only for the drawing guide: flat about 0–0.5%, low 2–3%, medium 5–6%, high 9–11% of drawn foot length; do not print numbers or dimensions. Panel composition should hold all toe tips and heel completely with at least 7% margins (horizontally), lower shin can leave image at upper edge. Render as calm, non-clinical, clear fine-line and soft warm cel shading, like the existing atlas. Print ONLY the exact small upper-left IDs FT052, FT012, FT053, FT011 (top-to-bottom reading order). No headings, no labels, arrows, logos, watermark, diagnosis, deformity or props.",
+  "replacements": [
+    {
+      "board_id": "medial-foot-arch-heights",
+      "previous_image": "images/sheet-ft-arch-heights.png",
+      "current_image": "images/sheet-ft-flat-and-low-arches.png"
+    }
+  ],
+  "assets": [
+    {
+      "path": "images/sheet-ft-arch-heights.png",
+      "kind": "ai-generated-reference",
+      "sha256": "14c82a82dd94f44d1fb623c86f1aa38dc0403b9108326cd548ca0ae67f43c755",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "medial-foot-arch-heights",
+      "generation_tool": "built-in image_gen",
+      "model": null,
+      "generated_at": "2026-11-19",
+      "reviewed_at": "2026-11-19",
+      "evidence_ids": [
+        "E-FOOT-ARCH-HEIGHTS-20261119",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-e478ff33aa5923d9"
+      ],
+      "notes": "Compared all four silhouettes from one viewpoint and verified heel and forefoot ground contact, measured panel boundaries and distinct arch heights.",
+      "provenance": {
+        "observed_sha256": "14c82a82dd94f44d1fb623c86f1aa38dc0403b9108326cd548ca0ae67f43c755",
+        "status": "generated-file-match",
+        "board_id": "medial-foot-arch-heights",
+        "declared_inputs": [
+          {
+            "path": "images/sheet-ft001-ft016.png",
+            "exists": true,
+            "sha256": "78561decd9667b51721a34cc21c76b5c37ebf9f34b3551e544e22980ba4fca8d",
+            "generated_file_match": true,
+            "self_pointer": false
+          }
+        ],
+        "prompt_sources": [
+          "source/rights-history/foot-arch-heights-before-simplification.json#/generation_prompt"
+        ],
+        "generated_draft_inputs": [
+          {
+            "label": "Existing project-owned foot arch sketch crop, for visual continuity only",
+            "sha256": "efc38a55b25cb381a461b15be5ee03fea9f400ff7448539e684a458c13c0a4f3"
+          }
+        ],
+        "input_scope": "Original project-owned FT011–FT012 crop supplied for side-view and visual continuity. No third-party reference images were given to the generator."
+      }
+    }
+  ],
+  "boards": [
+    {
+      "path": "images/sheet-ft-arch-heights.png",
+      "board_id": "medial-foot-arch-heights",
+      "sha256": "14c82a82dd94f44d1fb623c86f1aa38dc0403b9108326cd548ca0ae67f43c755",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": "2026-11-19",
+      "prompt_sources": [
+        "source/rights-history/foot-arch-heights-before-simplification.json#/generation_prompt"
+      ],
+      "declared_inputs": [
+        {
+          "path": "images/sheet-ft001-ft016.png",
+          "exists": true,
+          "sha256": "78561decd9667b51721a34cc21c76b5c37ebf9f34b3551e544e22980ba4fca8d",
+          "generated_file_match": true,
+          "self_pointer": false
+        }
+      ],
+      "generated_draft_inputs": [
+        {
+          "label": "Existing project-owned foot arch sketch crop, for visual continuity only",
+          "sha256": "efc38a55b25cb381a461b15be5ee03fea9f400ff7448539e684a458c13c0a4f3"
+        }
+      ],
+      "input_scope": "Original project-owned FT011–FT012 crop supplied for side-view and visual continuity. No third-party reference images were given to the generator."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-FOOT-ARCH-HEIGHTS-20261119",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-19",
+      "title": "Medial comparison of four standing foot arch heights",
+      "source": "Original project-owned FT011–FT012 crop supplied for side-view and visual continuity. No third-party reference images were given to the generator.",
+      "assets": [
+        {
+          "path": "images/sheet-ft-arch-heights.png",
+          "local_sha256": "14c82a82dd94f44d1fb623c86f1aa38dc0403b9108326cd548ca0ae67f43c755",
+          "entry_ids": [
+            "FT052",
+            "FT012",
+            "FT053",
+            "FT011"
+          ],
+          "generated_draft_inputs": [
+            {
+              "label": "Existing project-owned foot arch sketch crop, for visual continuity only",
+              "sha256": "efc38a55b25cb381a461b15be5ee03fea9f400ff7448539e684a458c13c0a4f3"
+            }
+          ]
+        }
+      ],
+      "prompt_source": "source/rights-history/foot-arch-heights-before-simplification.json#/generation_prompt",
+      "permission_basis": "Records the generated output and the hashes of project-created reference material."
+    },
+    {
+      "id": "E-NC-GRANT-e478ff33aa5923d9",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-19",
+      "asset": "images/sheet-ft-arch-heights.png",
+      "local_sha256": "14c82a82dd94f44d1fb623c86f1aa38dc0403b9108326cd548ca0ae67f43c755",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-created reference illustrations covered by the continuing project content policy."
+    }
+  ]
+}

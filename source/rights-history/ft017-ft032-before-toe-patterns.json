@@ -1,0 +1,60 @@
+{
+  "schema": "female-appearance-retired-rights/v1",
+  "retired_on": "2026-11-19",
+  "content_version": "80.0",
+  "reason": "Revised and relabeled the four toe-length illustrations. The other twelve artwork panels were preserved.",
+  "replacements": [
+    {
+      "board_id": "sheet-ft017-ft032",
+      "previous_image": "images/sheet-ft017-ft032.png",
+      "current_image": "images/sheet-ft017-ft032-v2.png"
+    }
+  ],
+  "assets": [
+    {
+      "path": "images/sheet-ft017-ft032.png",
+      "kind": "ai-catalog-declaration",
+      "sha256": "3c78ba1c7c98be713f49bd491ed6d0a507f2d503f1e770c479c78fab80fc909f",
+      "status": "cleared",
+      "license": "CC-BY-NC-4.0",
+      "generation_job": "sheet-ft017-ft032",
+      "model": null,
+      "generated_at": null,
+      "notes": "Project-controlled material licensed for noncommercial sharing and adaptation under CC BY-NC 4.0, within rights held or licensable by the project. Existing source evidence is preserved; no commercial exception or ShareAlike condition is added.",
+      "reviewed_at": "2026-11-03",
+      "evidence_ids": [
+        "E-GENERATED-FILES-20261103",
+        "E-OPENAI-INDIVIDUAL-2026",
+        "E-OPENAI-BUSINESS-2026",
+        "E-OWNER-NONCOMMERCIAL-20261103",
+        "E-NC-GRANT-bb9488b566d8369e"
+      ],
+      "provenance": {
+        "observed_sha256": "3c78ba1c7c98be713f49bd491ed6d0a507f2d503f1e770c479c78fab80fc909f",
+        "status": "generated-file-match",
+        "board_id": "sheet-ft017-ft032",
+        "prompt_sources": [
+          "source/image-jobs.json#/213/prompt"
+        ],
+        "declared_inputs": []
+      },
+      "generation_tool": "built-in image_gen"
+    }
+  ],
+  "boards": [
+    {
+      "path": "images/sheet-ft017-ft032.png",
+      "board_id": "sheet-ft017-ft032",
+      "sha256": "3c78ba1c7c98be713f49bd491ed6d0a507f2d503f1e770c479c78fab80fc909f",
+      "generated_file_match": true,
+      "tool": "built-in image_gen",
+      "model": null,
+      "declared_generation_date": null,
+      "prompt_sources": [
+        "source/image-jobs.json#/213/prompt"
+      ],
+      "declared_inputs": [],
+      "input_scope": "Recorded local image references checked; omitted/unrecorded historical context is not reconstructed."
+    }
+  ]
+}

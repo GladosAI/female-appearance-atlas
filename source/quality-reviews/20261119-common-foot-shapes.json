@@ -1,0 +1,532 @@
+{
+  "schema": "female-appearance-quality-review/v1",
+  "batch": "2026-11-19-common-foot-shapes",
+  "date": "2026-11-19",
+  "catalog_version": "80.0",
+  "reviewer": "Codex AI-assisted visual review",
+  "scope": {
+    "entries": 19,
+    "visuals": 19,
+    "categories": [
+      "feet"
+    ],
+    "category_counts": {
+      "feet": 19
+    }
+  },
+  "method": "Reviewed five toe tips and the four length patterns; the unchanged twelve panels were checked pixel-for-pixel. Measured borders and verified widths narrow–medium–wide at a comparable drawn length.",
+  "issues": [
+    {
+      "entry_id": "FT017",
+      "problem": "The old illustration showed the second toe protruding instead of the big toe.",
+      "fix": "Replaced it with a five-toe illustration where the big toe is longest and the other tips progressively recede."
+    }
+  ],
+  "changed_entries": [
+    "FT017",
+    "FT018",
+    "FT019",
+    "FT020"
+  ],
+  "export_representatives": [
+    "FT017",
+    "FT019",
+    "FT051"
+  ],
+  "records": [
+    {
+      "entry_id": "FT017",
+      "category": "feet",
+      "field": "visual",
+      "result": "updated-image-reviewed",
+      "image": "images/sheet-ft017-ft032-v2.png",
+      "image_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+      "visual_at_review": {
+        "board": "sheet-ft017-ft032",
+        "image": "images/sheet-ft017-ft032-v2.png",
+        "column": 0,
+        "row": 0,
+        "columns": 4,
+        "rows": 4,
+        "label": "FT017",
+        "aspect": 0.9683544303797469,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 306,
+          "height": 316,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
+      }
+    },
+    {
+      "entry_id": "FT018",
+      "category": "feet",
+      "field": "visual",
+      "result": "updated-image-reviewed",
+      "image": "images/sheet-ft017-ft032-v2.png",
+      "image_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+      "visual_at_review": {
+        "board": "sheet-ft017-ft032",
+        "image": "images/sheet-ft017-ft032-v2.png",
+        "column": 1,
+        "row": 0,
+        "columns": 4,
+        "rows": 4,
+        "label": "FT018",
+        "aspect": 0.9651898734177216,
+        "crop": {
+          "x": 306,
+          "y": 0,
+          "width": 305,
+          "height": 316,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
+      }
+    },
+    {
+      "entry_id": "FT019",
+      "category": "feet",
+      "field": "visual",
+      "result": "updated-image-reviewed",
+      "image": "images/sheet-ft017-ft032-v2.png",
+      "image_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+      "visual_at_review": {
+        "board": "sheet-ft017-ft032",
+        "image": "images/sheet-ft017-ft032-v2.png",
+        "column": 2,
+        "row": 0,
+        "columns": 4,
+        "rows": 4,
+        "label": "FT019",
+        "aspect": 0.9651898734177216,
+        "crop": {
+          "x": 611,
+          "y": 0,
+          "width": 305,
+          "height": 316,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
+      }
+    },
+    {
+      "entry_id": "FT020",
+      "category": "feet",
+      "field": "visual",
+      "result": "updated-image-reviewed",
+      "image": "images/sheet-ft017-ft032-v2.png",
+      "image_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+      "visual_at_review": {
+        "board": "sheet-ft017-ft032",
+        "image": "images/sheet-ft017-ft032-v2.png",
+        "column": 3,
+        "row": 0,
+        "columns": 4,
+        "rows": 4,
+        "label": "FT020",
+        "aspect": 0.9715189873417721,
+        "crop": {
+          "x": 916,
+          "y": 0,
+          "width": 307,
+          "height": 316,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
+      }
+    },
+    {
+      "entry_id": "FT021",
+      "category": "feet",
+      "field": "visual",
+      "result": "unchanged-neighbor-verified",
+      "image": "images/sheet-ft017-ft032-v2.png",
+      "image_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+      "visual_at_review": {
+        "board": "sheet-ft017-ft032",
+        "image": "images/sheet-ft017-ft032-v2.png",
+        "column": 0,
+        "row": 1,
+        "columns": 4,
+        "rows": 4,
+        "label": "FT021",
+        "aspect": 0.9683544303797469,
+        "crop": {
+          "x": 0,
+          "y": 316,
+          "width": 306,
+          "height": 316,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
+      }
+    },
+    {
+      "entry_id": "FT022",
+      "category": "feet",
+      "field": "visual",
+      "result": "unchanged-neighbor-verified",
+      "image": "images/sheet-ft017-ft032-v2.png",
+      "image_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+      "visual_at_review": {
+        "board": "sheet-ft017-ft032",
+        "image": "images/sheet-ft017-ft032-v2.png",
+        "column": 1,
+        "row": 1,
+        "columns": 4,
+        "rows": 4,
+        "label": "FT022",
+        "aspect": 0.9651898734177216,
+        "crop": {
+          "x": 306,
+          "y": 316,
+          "width": 305,
+          "height": 316,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
+      }
+    },
+    {
+      "entry_id": "FT023",
+      "category": "feet",
+      "field": "visual",
+      "result": "unchanged-neighbor-verified",
+      "image": "images/sheet-ft017-ft032-v2.png",
+      "image_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+      "visual_at_review": {
+        "board": "sheet-ft017-ft032",
+        "image": "images/sheet-ft017-ft032-v2.png",
+        "column": 2,
+        "row": 1,
+        "columns": 4,
+        "rows": 4,
+        "label": "FT023",
+        "aspect": 0.9651898734177216,
+        "crop": {
+          "x": 611,
+          "y": 316,
+          "width": 305,
+          "height": 316,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
+      }
+    },
+    {
+      "entry_id": "FT024",
+      "category": "feet",
+      "field": "visual",
+      "result": "unchanged-neighbor-verified",
+      "image": "images/sheet-ft017-ft032-v2.png",
+      "image_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+      "visual_at_review": {
+        "board": "sheet-ft017-ft032",
+        "image": "images/sheet-ft017-ft032-v2.png",
+        "column": 3,
+        "row": 1,
+        "columns": 4,
+        "rows": 4,
+        "label": "FT024",
+        "aspect": 0.9715189873417721,
+        "crop": {
+          "x": 916,
+          "y": 316,
+          "width": 307,
+          "height": 316,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
+      }
+    },
+    {
+      "entry_id": "FT025",
+      "category": "feet",
+      "field": "visual",
+      "result": "unchanged-neighbor-verified",
+      "image": "images/sheet-ft017-ft032-v2.png",
+      "image_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+      "visual_at_review": {
+        "board": "sheet-ft017-ft032",
+        "image": "images/sheet-ft017-ft032-v2.png",
+        "column": 0,
+        "row": 2,
+        "columns": 4,
+        "rows": 4,
+        "label": "FT025",
+        "aspect": 0.9839228295819936,
+        "crop": {
+          "x": 0,
+          "y": 632,
+          "width": 306,
+          "height": 311,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
+      }
+    },
+    {
+      "entry_id": "FT026",
+      "category": "feet",
+      "field": "visual",
+      "result": "unchanged-neighbor-verified",
+      "image": "images/sheet-ft017-ft032-v2.png",
+      "image_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+      "visual_at_review": {
+        "board": "sheet-ft017-ft032",
+        "image": "images/sheet-ft017-ft032-v2.png",
+        "column": 1,
+        "row": 2,
+        "columns": 4,
+        "rows": 4,
+        "label": "FT026",
+        "aspect": 0.9807073954983923,
+        "crop": {
+          "x": 306,
+          "y": 632,
+          "width": 305,
+          "height": 311,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
+      }
+    },
+    {
+      "entry_id": "FT027",
+      "category": "feet",
+      "field": "visual",
+      "result": "unchanged-neighbor-verified",
+      "image": "images/sheet-ft017-ft032-v2.png",
+      "image_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+      "visual_at_review": {
+        "board": "sheet-ft017-ft032",
+        "image": "images/sheet-ft017-ft032-v2.png",
+        "column": 2,
+        "row": 2,
+        "columns": 4,
+        "rows": 4,
+        "label": "FT027",
+        "aspect": 0.9807073954983923,
+        "crop": {
+          "x": 611,
+          "y": 632,
+          "width": 305,
+          "height": 311,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
+      }
+    },
+    {
+      "entry_id": "FT028",
+      "category": "feet",
+      "field": "visual",
+      "result": "unchanged-neighbor-verified",
+      "image": "images/sheet-ft017-ft032-v2.png",
+      "image_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+      "visual_at_review": {
+        "board": "sheet-ft017-ft032",
+        "image": "images/sheet-ft017-ft032-v2.png",
+        "column": 3,
+        "row": 2,
+        "columns": 4,
+        "rows": 4,
+        "label": "FT028",
+        "aspect": 0.9871382636655949,
+        "crop": {
+          "x": 916,
+          "y": 632,
+          "width": 307,
+          "height": 311,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
+      }
+    },
+    {
+      "entry_id": "FT029",
+      "category": "feet",
+      "field": "visual",
+      "result": "unchanged-neighbor-verified",
+      "image": "images/sheet-ft017-ft032-v2.png",
+      "image_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+      "visual_at_review": {
+        "board": "sheet-ft017-ft032",
+        "image": "images/sheet-ft017-ft032-v2.png",
+        "column": 0,
+        "row": 3,
+        "columns": 4,
+        "rows": 4,
+        "label": "FT029",
+        "aspect": 0.892128279883382,
+        "crop": {
+          "x": 0,
+          "y": 943,
+          "width": 306,
+          "height": 343,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
+      }
+    },
+    {
+      "entry_id": "FT030",
+      "category": "feet",
+      "field": "visual",
+      "result": "unchanged-neighbor-verified",
+      "image": "images/sheet-ft017-ft032-v2.png",
+      "image_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+      "visual_at_review": {
+        "board": "sheet-ft017-ft032",
+        "image": "images/sheet-ft017-ft032-v2.png",
+        "column": 1,
+        "row": 3,
+        "columns": 4,
+        "rows": 4,
+        "label": "FT030",
+        "aspect": 0.8892128279883382,
+        "crop": {
+          "x": 306,
+          "y": 943,
+          "width": 305,
+          "height": 343,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
+      }
+    },
+    {
+      "entry_id": "FT031",
+      "category": "feet",
+      "field": "visual",
+      "result": "unchanged-neighbor-verified",
+      "image": "images/sheet-ft017-ft032-v2.png",
+      "image_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+      "visual_at_review": {
+        "board": "sheet-ft017-ft032",
+        "image": "images/sheet-ft017-ft032-v2.png",
+        "column": 2,
+        "row": 3,
+        "columns": 4,
+        "rows": 4,
+        "label": "FT031",
+        "aspect": 0.8892128279883382,
+        "crop": {
+          "x": 611,
+          "y": 943,
+          "width": 305,
+          "height": 343,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
+      }
+    },
+    {
+      "entry_id": "FT032",
+      "category": "feet",
+      "field": "visual",
+      "result": "unchanged-neighbor-verified",
+      "image": "images/sheet-ft017-ft032-v2.png",
+      "image_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+      "visual_at_review": {
+        "board": "sheet-ft017-ft032",
+        "image": "images/sheet-ft017-ft032-v2.png",
+        "column": 3,
+        "row": 3,
+        "columns": 4,
+        "rows": 4,
+        "label": "FT032",
+        "aspect": 0.8950437317784257,
+        "crop": {
+          "x": 916,
+          "y": 943,
+          "width": 307,
+          "height": 343,
+          "sheet_width": 1223,
+          "sheet_height": 1286
+        }
+      }
+    },
+    {
+      "entry_id": "FT049",
+      "category": "feet",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-ft049-ft051.png",
+      "image_sha256": "7eb7b2839118cec930d83e08271d5d191264939e1cee4d312fbaf4175daf2ee6",
+      "visual_at_review": {
+        "board": "forefoot-width-comparison",
+        "image": "images/sheet-ft049-ft051.png",
+        "column": 0,
+        "row": 0,
+        "columns": 3,
+        "rows": 1,
+        "label": "FT049",
+        "aspect": 0.9986206896551724,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 724,
+          "height": 725,
+          "sheet_width": 2170,
+          "sheet_height": 725
+        }
+      }
+    },
+    {
+      "entry_id": "FT050",
+      "category": "feet",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-ft049-ft051.png",
+      "image_sha256": "7eb7b2839118cec930d83e08271d5d191264939e1cee4d312fbaf4175daf2ee6",
+      "visual_at_review": {
+        "board": "forefoot-width-comparison",
+        "image": "images/sheet-ft049-ft051.png",
+        "column": 1,
+        "row": 0,
+        "columns": 3,
+        "rows": 1,
+        "label": "FT050",
+        "aspect": 0.9958620689655172,
+        "crop": {
+          "x": 724,
+          "y": 0,
+          "width": 722,
+          "height": 725,
+          "sheet_width": 2170,
+          "sheet_height": 725
+        }
+      }
+    },
+    {
+      "entry_id": "FT051",
+      "category": "feet",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-ft049-ft051.png",
+      "image_sha256": "7eb7b2839118cec930d83e08271d5d191264939e1cee4d312fbaf4175daf2ee6",
+      "visual_at_review": {
+        "board": "forefoot-width-comparison",
+        "image": "images/sheet-ft049-ft051.png",
+        "column": 2,
+        "row": 0,
+        "columns": 3,
+        "rows": 1,
+        "label": "FT051",
+        "aspect": 0.9986206896551724,
+        "crop": {
+          "x": 1446,
+          "y": 0,
+          "width": 724,
+          "height": 725,
+          "sheet_width": 2170,
+          "sheet_height": 725
+        }
+      }
+    }
+  ]
+}

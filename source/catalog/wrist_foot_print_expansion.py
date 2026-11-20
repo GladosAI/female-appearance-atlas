@@ -189,6 +189,19 @@ block('feet','整体轮廓与局部结构','''
 软轮廓踝足连接|soft ankle-to-foot contour|踝足交界较平滑柔和，脚踝到后跟与足背的转折清楚。
 ''',('女性足部','足形','脚型','足部','adult foot drawing'))
 
+# Keep the published FT012 ID when moving the shallow arch to the comparison sheet.
+arch_shapes = {
+    '内侧足弓平缓侧影': ('FT012', '低足弓', 'low foot arch', '自然站立的内侧视图中，中足底缘接近地面，仍留一段浅弧，与前掌和后跟的着地点分开。', '把中足下方的留白压低并放缓过渡，保留一小段可见弧线。', ('浅足弓', '足弓偏低', '低足弓侧面', 'low arch', 'low-arched foot', '低い土踏まず')),
+}
+for entry in CATALOG[-16:]:
+    previous_name = entry['name']
+    if previous_name not in arch_shapes:
+        continue
+    identifier, name, english, description, note, aliases = arch_shapes[previous_name]
+    entry.update(stable_id=identifier, name=name, en=english, description=description, note=note,
+                 dimension='足弓高度', reference_ids=['R211'],
+                 aliases=list(dict.fromkeys([previous_name, entry['en'], '足弓', '脚型', *aliases])))
+
 block('feet','趾端与趾甲形状','''
 大趾较长递降趾列|big-toe-longest sequence|成人单足俯视，大趾最长，第二至第五趾依次渐短，五趾自然。
 第二趾较长趾列|second-toe-longest sequence|成人俯视第二趾略长于大趾，其余趾逐次变短，五趾完整。
@@ -207,6 +220,22 @@ block('feet','趾端与趾甲形状','''
 细边双色趾甲|thin-edge two-tone toenails|短甲底色与极细前缘异色，五趾甲面完整，成人装饰参考。
 单点小图案趾甲|single-dot toenail motif|短甲上原创单点或小圆形装饰，五趾自然排列，不堆叠复杂饰物。
 ''',('女性足部','脚趾','足趾','趾甲','toe','toenail'))
+
+# Keep the published FT IDs and search terms when separating foot shapes from toenail studies.
+toe_shapes = {
+    '大趾较长递降趾列': ('FT017', '埃及脚', 'Egyptian foot shape', '大脚趾最长，其余四趾朝小脚趾方向逐渐缩短，趾尖排出一条斜线。', '先标出大脚趾的最远点，再沿斜线逐趾收短；保留每个脚趾自己的宽度。', ('埃及型脚', '埃及足', '埃及型足', 'エジプト型', 'big-toe-longest')),
+    '第二趾较长趾列': ('FT018', '希腊脚', 'Greek foot shape', '第二趾比大脚趾略长，从俯视轮廓看，第二趾是趾列最突出的点。', '先定第二趾的趾尖，再让大脚趾略退、外侧三个脚趾依次收短。', ('希腊型脚', '希腊足', '希腊型足', 'ギリシャ型', 'second-toe-longest')),
+    '前三趾近齐趾列': ('FT019', '罗马脚', 'Roman foot shape', '前三个脚趾的趾尖大致齐平，第四、第五趾较短，外侧有明显收束。', '对齐前三个趾尖的大致位置，再用更短的第四、第五趾表现外侧折线。', ('罗马型脚', '罗马足', '罗马型足', 'ローマ型', 'near-even first-three toes')),
+    '前二趾近齐趾列': ('FT020', '前两趾近齐', 'near-even first two toes', '大脚趾与第二趾的趾尖相近，第三趾已明显收短，其余继续向外缩短。', '对齐最前面两趾，特意留出第二趾和第三趾之间的长度差。', ('前二趾齐平', '双趾近齐', '親指と第2趾がほぼ同じ長さ')),
+}
+for entry in CATALOG[-16:]:
+    previous_name = entry['name']
+    if previous_name not in toe_shapes:
+        continue
+    identifier, name, english, description, note, aliases = toe_shapes[previous_name]
+    entry.update(stable_id=identifier, name=name, en=english, description=description, note=note,
+                 dimension='脚趾长度排列', reference_ids=['R210', 'R211'],
+                 aliases=list(dict.fromkeys([previous_name, entry['en'], '脚型', '足形', '趾列', *aliases])))
 
 block('feet','视角与自然动作','''
 足部正俯视参考|top-down foot view|成人单足正上方看，脚踝末端、足背和五趾完整，投影清楚。

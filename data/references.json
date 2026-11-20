@@ -2141,6 +2141,28 @@
     "checked": "2026-11-03"
   },
   {
+    "id": "R210",
+    "title": "Difference in Shape and Dimensions between Adult and Children Feet Based on 40.000 3D Scans",
+    "publisher": "3D Body Scanning Technologies",
+    "url": "https://proc.3dbody.tech/papers/2013/13231_47omrec.pdf",
+    "kind": "研究论文",
+    "topics": "埃及脚、希腊脚、罗马脚；趾列与前掌宽度",
+    "summary": "介绍按趾尖轮廓区分三类脚型的做法，并分别记录足长和前掌宽。",
+    "rights": "论文阅读链接；未复制图表或扫描图。",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "R211",
+    "title": "Three-dimensional quantitative analysis of healthy foot shape: a proof of concept study",
+    "publisher": "Journal of Foot and Ankle Research",
+    "url": "https://link.springer.com/article/10.1186/s13047-018-0251-8",
+    "kind": "研究论文",
+    "topics": "前掌宽度、足宽与趾列的独立变化",
+    "summary": "三维形态分析分别展示足宽、前掌和趾列的变化，可为图鉴中分开观察这些特征提供参考。",
+    "rights": "论文阅读链接；未复制图表或扫描图。",
+    "checked": "2026-11-19"
+  },
+  {
     "id": "R200",
     "title": "Champion Insights: Seraphine",
     "publisher": "Riot Games",

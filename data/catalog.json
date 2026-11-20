@@ -2,9 +2,9 @@
   "meta": {
     "title": "女性之美",
     "subtitle": "女性角色外观图鉴",
-    "date": "2026-11-19",
-    "version": "79.0",
-    "entry_count": 7385,
+    "date": "2026-11-20",
+    "version": "80.0",
+    "entry_count": 7389,
     "category_count": 213,
     "clothing_count": 3429,
     "clothing_categories": [
@@ -94,17 +94,17 @@
       "nordic_looks",
       "mythic_personifications"
     ],
-    "illustrated_count": 7385,
-    "board_count": 744,
-    "reference_count": 209,
+    "illustrated_count": 7389,
+    "board_count": 746,
+    "reference_count": 211,
     "museum_image_count": 6,
     "combination_count": 71,
     "missing_image_count": 0,
     "scope": "覆盖常见外貌、服饰、职业与幻想创作部件；视角、成年年龄表现与配色为独立创作参考分类；青少年服装按校园、日常和活动另列。",
     "provenance": "词条独立编排；动漫图为 AI 生成的创作示意，六张实物照片另有原始馆藏记录。相关阅读是延伸入口，不代表每项均为文献引用。",
     "layout_version": "32.0",
-    "last_content_version": "79.0",
-    "new_count": 20,
+    "last_content_version": "80.0",
+    "new_count": 4,
     "style_family_count": 30,
     "shoulder_count": 73,
     "hair_count": 531,
@@ -1668,7 +1668,7 @@
       "name": "足部形态与绘画",
       "guide": "成年女性足部的轮廓、趾端、趾甲、观察角度和动作参考；形态连续变化，名称描述画面，不作健康或测量标准。",
       "source_ids": [],
-      "count": 48,
+      "count": 52,
       "group": "appearance"
     },
     {
@@ -146328,34 +146328,46 @@
     },
     {
       "category": "feet",
-      "dimension": "整体轮廓与局部结构",
-      "name": "内侧足弓平缓侧影",
-      "en": "gentle medial arch silhouette",
-      "description": "内侧面底部弧线较平缓，后跟与前掌平放，不作诊断。",
+      "dimension": "足弓高度",
+      "name": "低足弓",
+      "en": "low foot arch",
+      "description": "自然站立的内侧视图中，中足底缘接近地面，仍留一段浅弧，与前掌和后跟的着地点分开。",
       "origin": "editorial",
       "aliases": [
-        "女性足部",
-        "足形",
+        "内侧足弓平缓侧影",
+        "gentle medial arch silhouette",
+        "足弓",
         "脚型",
-        "足部",
-        "adult foot drawing"
+        "浅足弓",
+        "足弓偏低",
+        "低足弓侧面",
+        "low arch",
+        "low-arched foot",
+        "低い土踏まず"
       ],
       "age_context": "成年女性足部绘画参考",
       "id": "FT012",
       "category_name": "足部形态与绘画",
       "keywords": [
+        "低足弓",
+        "low foot arch",
+        "足弓高度",
         "内侧足弓平缓侧影",
         "gentle medial arch silhouette",
-        "整体轮廓与局部结构",
-        "女性足部",
-        "足形",
+        "足弓",
         "脚型",
-        "足部",
-        "adult foot drawing"
+        "浅足弓",
+        "足弓偏低",
+        "低足弓侧面",
+        "low arch",
+        "low-arched foot",
+        "低い土踏まず"
       ],
-      "related_reading": [],
-      "design_tip": "成年女性足部的轮廓、趾端、趾甲、观察角度和动作参考；形态连续变化，名称描述画面，不作健康或测量标准。",
-      "search_query": "gentle medial arch silhouette character design reference",
+      "related_reading": [
+        "R211"
+      ],
+      "design_tip": "把中足下方的留白压低并放缓过渡，保留一小段可见弧线。",
+      "search_query": "low foot arch character design reference",
       "styles": [],
       "shoulder_type": null,
       "added_in": "10.0",
@@ -146364,21 +146376,21 @@
       "hosiery_reference": false,
       "anthro_reference": false,
       "visual": {
-        "board": "sheet-ft001-ft016",
-        "image": "images/sheet-ft001-ft016.png",
-        "column": 3,
-        "row": 2,
-        "columns": 4,
-        "rows": 4,
+        "board": "medial-foot-arch-heights",
+        "image": "images/sheet-ft-flat-and-low-arches.png",
+        "column": 1,
+        "row": 0,
+        "columns": 2,
+        "rows": 1,
         "label": "FT012",
-        "aspect": 1.150375939849624,
+        "aspect": 1.0,
         "crop": {
-          "x": 916,
-          "y": 641,
-          "width": 306,
-          "height": 266,
-          "sheet_width": 1222,
-          "sheet_height": 1287
+          "x": 627,
+          "y": 0,
+          "width": 627,
+          "height": 627,
+          "sheet_width": 1254,
+          "sheet_height": 627
         }
       }
     },
@@ -146608,36 +146620,47 @@
     },
     {
       "category": "feet",
-      "dimension": "趾端与趾甲形状",
-      "name": "大趾较长递降趾列",
-      "en": "big-toe-longest sequence",
-      "description": "成人单足俯视，大趾最长，第二至第五趾依次渐短，五趾自然。",
+      "dimension": "脚趾长度排列",
+      "name": "埃及脚",
+      "en": "Egyptian foot shape",
+      "description": "大脚趾最长，其余四趾朝小脚趾方向逐渐缩短，趾尖排出一条斜线。",
       "origin": "editorial",
       "aliases": [
-        "女性足部",
-        "脚趾",
-        "足趾",
-        "趾甲",
-        "toe",
-        "toenail"
+        "大趾较长递降趾列",
+        "big-toe-longest sequence",
+        "脚型",
+        "足形",
+        "趾列",
+        "埃及型脚",
+        "埃及足",
+        "埃及型足",
+        "エジプト型",
+        "big-toe-longest"
       ],
       "age_context": "成年女性足部绘画参考",
       "id": "FT017",
       "category_name": "足部形态与绘画",
       "keywords": [
+        "埃及脚",
+        "Egyptian foot shape",
+        "脚趾长度排列",
         "大趾较长递降趾列",
         "big-toe-longest sequence",
-        "趾端与趾甲形状",
-        "女性足部",
-        "脚趾",
-        "足趾",
-        "趾甲",
-        "toe",
-        "toenail"
+        "脚型",
+        "足形",
+        "趾列",
+        "埃及型脚",
+        "埃及足",
+        "埃及型足",
+        "エジプト型",
+        "big-toe-longest"
       ],
-      "related_reading": [],
-      "design_tip": "成年女性足部的轮廓、趾端、趾甲、观察角度和动作参考；形态连续变化，名称描述画面，不作健康或测量标准。",
-      "search_query": "big-toe-longest sequence character design reference",
+      "related_reading": [
+        "R210",
+        "R211"
+      ],
+      "design_tip": "先标出大脚趾的最远点，再沿斜线逐趾收短；保留每个脚趾自己的宽度。",
+      "search_query": "Egyptian foot shape character design reference",
       "styles": [],
       "shoulder_type": null,
       "added_in": "10.0",
@@ -146647,7 +146670,7 @@
       "anthro_reference": false,
       "visual": {
         "board": "sheet-ft017-ft032",
-        "image": "images/sheet-ft017-ft032.png",
+        "image": "images/sheet-ft017-ft032-v2.png",
         "column": 0,
         "row": 0,
         "columns": 4,
@@ -146666,36 +146689,47 @@
     },
     {
       "category": "feet",
-      "dimension": "趾端与趾甲形状",
-      "name": "第二趾较长趾列",
-      "en": "second-toe-longest sequence",
-      "description": "成人俯视第二趾略长于大趾，其余趾逐次变短，五趾完整。",
+      "dimension": "脚趾长度排列",
+      "name": "希腊脚",
+      "en": "Greek foot shape",
+      "description": "第二趾比大脚趾略长，从俯视轮廓看，第二趾是趾列最突出的点。",
       "origin": "editorial",
       "aliases": [
-        "女性足部",
-        "脚趾",
-        "足趾",
-        "趾甲",
-        "toe",
-        "toenail"
+        "第二趾较长趾列",
+        "second-toe-longest sequence",
+        "脚型",
+        "足形",
+        "趾列",
+        "希腊型脚",
+        "希腊足",
+        "希腊型足",
+        "ギリシャ型",
+        "second-toe-longest"
       ],
       "age_context": "成年女性足部绘画参考",
       "id": "FT018",
       "category_name": "足部形态与绘画",
       "keywords": [
+        "希腊脚",
+        "Greek foot shape",
+        "脚趾长度排列",
         "第二趾较长趾列",
         "second-toe-longest sequence",
-        "趾端与趾甲形状",
-        "女性足部",
-        "脚趾",
-        "足趾",
-        "趾甲",
-        "toe",
-        "toenail"
+        "脚型",
+        "足形",
+        "趾列",
+        "希腊型脚",
+        "希腊足",
+        "希腊型足",
+        "ギリシャ型",
+        "second-toe-longest"
       ],
-      "related_reading": [],
-      "design_tip": "成年女性足部的轮廓、趾端、趾甲、观察角度和动作参考；形态连续变化，名称描述画面，不作健康或测量标准。",
-      "search_query": "second-toe-longest sequence character design reference",
+      "related_reading": [
+        "R210",
+        "R211"
+      ],
+      "design_tip": "先定第二趾的趾尖，再让大脚趾略退、外侧三个脚趾依次收短。",
+      "search_query": "Greek foot shape character design reference",
       "styles": [],
       "shoulder_type": null,
       "added_in": "10.0",
@@ -146705,7 +146739,7 @@
       "anthro_reference": false,
       "visual": {
         "board": "sheet-ft017-ft032",
-        "image": "images/sheet-ft017-ft032.png",
+        "image": "images/sheet-ft017-ft032-v2.png",
         "column": 1,
         "row": 0,
         "columns": 4,
@@ -146724,36 +146758,45 @@
     },
     {
       "category": "feet",
-      "dimension": "趾端与趾甲形状",
-      "name": "前三趾近齐趾列",
-      "en": "near-even first-three toes",
-      "description": "俯视大趾、二趾、三趾长度相近，四五趾略短。",
+      "dimension": "脚趾长度排列",
+      "name": "罗马脚",
+      "en": "Roman foot shape",
+      "description": "前三个脚趾的趾尖大致齐平，第四、第五趾较短，外侧有明显收束。",
       "origin": "editorial",
       "aliases": [
-        "女性足部",
-        "脚趾",
-        "足趾",
-        "趾甲",
-        "toe",
-        "toenail"
+        "前三趾近齐趾列",
+        "near-even first-three toes",
+        "脚型",
+        "足形",
+        "趾列",
+        "罗马型脚",
+        "罗马足",
+        "罗马型足",
+        "ローマ型"
       ],
       "age_context": "成年女性足部绘画参考",
       "id": "FT019",
       "category_name": "足部形态与绘画",
       "keywords": [
+        "罗马脚",
+        "Roman foot shape",
+        "脚趾长度排列",
         "前三趾近齐趾列",
         "near-even first-three toes",
-        "趾端与趾甲形状",
-        "女性足部",
-        "脚趾",
-        "足趾",
-        "趾甲",
-        "toe",
-        "toenail"
+        "脚型",
+        "足形",
+        "趾列",
+        "罗马型脚",
+        "罗马足",
+        "罗马型足",
+        "ローマ型"
       ],
-      "related_reading": [],
-      "design_tip": "成年女性足部的轮廓、趾端、趾甲、观察角度和动作参考；形态连续变化，名称描述画面，不作健康或测量标准。",
-      "search_query": "near-even first-three toes character design reference",
+      "related_reading": [
+        "R210",
+        "R211"
+      ],
+      "design_tip": "对齐前三个趾尖的大致位置，再用更短的第四、第五趾表现外侧折线。",
+      "search_query": "Roman foot shape character design reference",
       "styles": [],
       "shoulder_type": null,
       "added_in": "10.0",
@@ -146763,7 +146806,7 @@
       "anthro_reference": false,
       "visual": {
         "board": "sheet-ft017-ft032",
-        "image": "images/sheet-ft017-ft032.png",
+        "image": "images/sheet-ft017-ft032-v2.png",
         "column": 2,
         "row": 0,
         "columns": 4,
@@ -146782,36 +146825,43 @@
     },
     {
       "category": "feet",
-      "dimension": "趾端与趾甲形状",
-      "name": "前二趾近齐趾列",
-      "en": "near-even first-two toes",
-      "description": "俯视前两趾长度相近，后三趾形成下降弧线。",
+      "dimension": "脚趾长度排列",
+      "name": "前两趾近齐",
+      "en": "near-even first two toes",
+      "description": "大脚趾与第二趾的趾尖相近，第三趾已明显收短，其余继续向外缩短。",
       "origin": "editorial",
       "aliases": [
-        "女性足部",
-        "脚趾",
-        "足趾",
-        "趾甲",
-        "toe",
-        "toenail"
+        "前二趾近齐趾列",
+        "near-even first-two toes",
+        "脚型",
+        "足形",
+        "趾列",
+        "前二趾齐平",
+        "双趾近齐",
+        "親指と第2趾がほぼ同じ長さ"
       ],
       "age_context": "成年女性足部绘画参考",
       "id": "FT020",
       "category_name": "足部形态与绘画",
       "keywords": [
+        "前两趾近齐",
+        "near-even first two toes",
+        "脚趾长度排列",
         "前二趾近齐趾列",
         "near-even first-two toes",
-        "趾端与趾甲形状",
-        "女性足部",
-        "脚趾",
-        "足趾",
-        "趾甲",
-        "toe",
-        "toenail"
+        "脚型",
+        "足形",
+        "趾列",
+        "前二趾齐平",
+        "双趾近齐",
+        "親指と第2趾がほぼ同じ長さ"
       ],
-      "related_reading": [],
-      "design_tip": "成年女性足部的轮廓、趾端、趾甲、观察角度和动作参考；形态连续变化，名称描述画面，不作健康或测量标准。",
-      "search_query": "near-even first-two toes character design reference",
+      "related_reading": [
+        "R210",
+        "R211"
+      ],
+      "design_tip": "对齐最前面两趾，特意留出第二趾和第三趾之间的长度差。",
+      "search_query": "near-even first two toes character design reference",
       "styles": [],
       "shoulder_type": null,
       "added_in": "10.0",
@@ -146821,7 +146871,7 @@
       "anthro_reference": false,
       "visual": {
         "board": "sheet-ft017-ft032",
-        "image": "images/sheet-ft017-ft032.png",
+        "image": "images/sheet-ft017-ft032-v2.png",
         "column": 3,
         "row": 0,
         "columns": 4,
@@ -146879,7 +146929,7 @@
       "anthro_reference": false,
       "visual": {
         "board": "sheet-ft017-ft032",
-        "image": "images/sheet-ft017-ft032.png",
+        "image": "images/sheet-ft017-ft032-v2.png",
         "column": 0,
         "row": 1,
         "columns": 4,
@@ -146937,7 +146987,7 @@
       "anthro_reference": false,
       "visual": {
         "board": "sheet-ft017-ft032",
-        "image": "images/sheet-ft017-ft032.png",
+        "image": "images/sheet-ft017-ft032-v2.png",
         "column": 1,
         "row": 1,
         "columns": 4,
@@ -146995,7 +147045,7 @@
       "anthro_reference": false,
       "visual": {
         "board": "sheet-ft017-ft032",
-        "image": "images/sheet-ft017-ft032.png",
+        "image": "images/sheet-ft017-ft032-v2.png",
         "column": 2,
         "row": 1,
         "columns": 4,
@@ -147053,7 +147103,7 @@
       "anthro_reference": false,
       "visual": {
         "board": "sheet-ft017-ft032",
-        "image": "images/sheet-ft017-ft032.png",
+        "image": "images/sheet-ft017-ft032-v2.png",
         "column": 3,
         "row": 1,
         "columns": 4,
@@ -147111,7 +147161,7 @@
       "anthro_reference": false,
       "visual": {
         "board": "sheet-ft017-ft032",
-        "image": "images/sheet-ft017-ft032.png",
+        "image": "images/sheet-ft017-ft032-v2.png",
         "column": 0,
         "row": 2,
         "columns": 4,
@@ -147169,7 +147219,7 @@
       "anthro_reference": false,
       "visual": {
         "board": "sheet-ft017-ft032",
-        "image": "images/sheet-ft017-ft032.png",
+        "image": "images/sheet-ft017-ft032-v2.png",
         "column": 1,
         "row": 2,
         "columns": 4,
@@ -147227,7 +147277,7 @@
       "anthro_reference": false,
       "visual": {
         "board": "sheet-ft017-ft032",
-        "image": "images/sheet-ft017-ft032.png",
+        "image": "images/sheet-ft017-ft032-v2.png",
         "column": 2,
         "row": 2,
         "columns": 4,
@@ -147285,7 +147335,7 @@
       "anthro_reference": false,
       "visual": {
         "board": "sheet-ft017-ft032",
-        "image": "images/sheet-ft017-ft032.png",
+        "image": "images/sheet-ft017-ft032-v2.png",
         "column": 3,
         "row": 2,
         "columns": 4,
@@ -147343,7 +147393,7 @@
       "anthro_reference": false,
       "visual": {
         "board": "sheet-ft017-ft032",
-        "image": "images/sheet-ft017-ft032.png",
+        "image": "images/sheet-ft017-ft032-v2.png",
         "column": 0,
         "row": 3,
         "columns": 4,
@@ -147401,7 +147451,7 @@
       "anthro_reference": false,
       "visual": {
         "board": "sheet-ft017-ft032",
-        "image": "images/sheet-ft017-ft032.png",
+        "image": "images/sheet-ft017-ft032-v2.png",
         "column": 1,
         "row": 3,
         "columns": 4,
@@ -147459,7 +147509,7 @@
       "anthro_reference": false,
       "visual": {
         "board": "sheet-ft017-ft032",
-        "image": "images/sheet-ft017-ft032.png",
+        "image": "images/sheet-ft017-ft032-v2.png",
         "column": 2,
         "row": 3,
         "columns": 4,
@@ -147517,7 +147567,7 @@
       "anthro_reference": false,
       "visual": {
         "board": "sheet-ft017-ft032",
-        "image": "images/sheet-ft017-ft032.png",
+        "image": "images/sheet-ft017-ft032-v2.png",
         "column": 3,
         "row": 3,
         "columns": 4,
@@ -416649,6 +416699,249 @@
       }
     },
     {
+      "category": "feet",
+      "dimension": "前掌宽度",
+      "name": "窄脚",
+      "en": "narrow foot",
+      "description": "用相同尺度对照时，足长相近，但趾根一带和前脚掌的横向轮廓更窄。",
+      "aliases": [
+        "窄前掌",
+        "窄足",
+        "窄脚型",
+        "偏窄脚掌",
+        "narrow forefoot",
+        "細幅の足"
+      ],
+      "origin": "editorial",
+      "added_in": "80.0",
+      "age_context": "成年女性足部绘画参考",
+      "id": "FT049",
+      "category_name": "足部形态与绘画",
+      "keywords": [
+        "窄脚",
+        "narrow foot",
+        "前掌宽度",
+        "窄前掌",
+        "窄足",
+        "窄脚型",
+        "偏窄脚掌",
+        "narrow forefoot",
+        "細幅の足"
+      ],
+      "related_reading": [
+        "R211"
+      ],
+      "design_tip": "先对齐脚长，再向中线适度收窄前掌；保留五趾和后跟的自然比例。",
+      "search_query": "narrow foot character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "forefoot-width-comparison",
+        "image": "images/sheet-ft049-ft051.png",
+        "column": 0,
+        "row": 0,
+        "columns": 3,
+        "rows": 1,
+        "label": "FT049",
+        "aspect": 0.9986206896551724,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 724,
+          "height": 725,
+          "sheet_width": 2170,
+          "sheet_height": 725
+        }
+      }
+    },
+    {
+      "category": "feet",
+      "dimension": "前掌宽度",
+      "name": "中等脚宽",
+      "en": "medium-width foot",
+      "description": "相同视角下，前掌宽度介于窄脚与宽脚两种示例之间，趾列与它们相近。",
+      "aliases": [
+        "中等前掌",
+        "中宽脚",
+        "中等脚掌宽度",
+        "medium forefoot width",
+        "average width foot"
+      ],
+      "origin": "editorial",
+      "added_in": "80.0",
+      "age_context": "成年女性足部绘画参考",
+      "id": "FT050",
+      "category_name": "足部形态与绘画",
+      "keywords": [
+        "中等脚宽",
+        "medium-width foot",
+        "前掌宽度",
+        "中等前掌",
+        "中宽脚",
+        "中等脚掌宽度",
+        "medium forefoot width",
+        "average width foot"
+      ],
+      "related_reading": [
+        "R211"
+      ],
+      "design_tip": "对照时先确定最长趾位置和脚长，再独立调整前掌横宽。",
+      "search_query": "medium-width foot character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "forefoot-width-comparison",
+        "image": "images/sheet-ft049-ft051.png",
+        "column": 1,
+        "row": 0,
+        "columns": 3,
+        "rows": 1,
+        "label": "FT050",
+        "aspect": 0.9958620689655172,
+        "crop": {
+          "x": 724,
+          "y": 0,
+          "width": 722,
+          "height": 725,
+          "sheet_width": 2170,
+          "sheet_height": 725
+        }
+      }
+    },
+    {
+      "category": "feet",
+      "dimension": "前掌宽度",
+      "name": "宽脚",
+      "en": "wide foot",
+      "description": "脚长与另外两项相近，前掌和趾根两侧向外展开更明显。",
+      "aliases": [
+        "宽前掌",
+        "宽足",
+        "宽脚型",
+        "宽脚掌",
+        "broad foot",
+        "wide forefoot",
+        "幅広の足"
+      ],
+      "origin": "editorial",
+      "added_in": "80.0",
+      "age_context": "成年女性足部绘画参考",
+      "id": "FT051",
+      "category_name": "足部形态与绘画",
+      "keywords": [
+        "宽脚",
+        "wide foot",
+        "前掌宽度",
+        "宽前掌",
+        "宽足",
+        "宽脚型",
+        "宽脚掌",
+        "broad foot",
+        "wide forefoot",
+        "幅広の足"
+      ],
+      "related_reading": [
+        "R211"
+      ],
+      "design_tip": "主要加宽跖骨头一带，再平顺连接足中段；脚趾不必刻意张开。",
+      "search_query": "wide foot character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "forefoot-width-comparison",
+        "image": "images/sheet-ft049-ft051.png",
+        "column": 2,
+        "row": 0,
+        "columns": 3,
+        "rows": 1,
+        "label": "FT051",
+        "aspect": 0.9986206896551724,
+        "crop": {
+          "x": 1446,
+          "y": 0,
+          "width": 724,
+          "height": 725,
+          "sheet_width": 2170,
+          "sheet_height": 725
+        }
+      }
+    },
+    {
+      "category": "feet",
+      "dimension": "足弓高度",
+      "name": "扁平足",
+      "en": "flat foot silhouette",
+      "description": "站立内侧视图中，中足内缘几乎沿着地面，足弓下方很少见到留白。",
+      "aliases": [
+        "平足",
+        "平脚板",
+        "扁平足侧面",
+        "flat foot",
+        "flat feet",
+        "flatfoot",
+        "pes planus silhouette",
+        "扁平足"
+      ],
+      "origin": "editorial",
+      "added_in": "80.0",
+      "age_context": "成年女性足部绘画参考",
+      "id": "FT052",
+      "category_name": "足部形态与绘画",
+      "keywords": [
+        "扁平足",
+        "flat foot silhouette",
+        "足弓高度",
+        "平足",
+        "平脚板",
+        "扁平足侧面",
+        "flat foot",
+        "flat feet",
+        "flatfoot",
+        "pes planus silhouette"
+      ],
+      "related_reading": [
+        "R211"
+      ],
+      "design_tip": "让后跟、中足和前掌贴近同一地面线，同时保留各部位的轮廓变化。",
+      "search_query": "flat foot silhouette character design reference",
+      "styles": [],
+      "shoulder_type": null,
+      "cosplay_reference": false,
+      "facial_reference": false,
+      "hosiery_reference": false,
+      "anthro_reference": false,
+      "visual": {
+        "board": "medial-foot-arch-heights",
+        "image": "images/sheet-ft-flat-and-low-arches.png",
+        "column": 0,
+        "row": 0,
+        "columns": 2,
+        "rows": 1,
+        "label": "FT052",
+        "aspect": 1.0,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 627,
+          "height": 627,
+          "sheet_width": 1254,
+          "sheet_height": 627
+        }
+      }
+    },
+    {
       "category": "footwear",
       "dimension": "平底鞋与经典细分",
       "name": "双扣带厚底玛丽珍鞋",
@@ -451914,7 +452207,7 @@
         {
           "label": "FT012",
           "entry_id": "FT012",
-          "name": "内侧足弓平缓侧影"
+          "name": "低足弓"
         },
         {
           "label": "FT013",
@@ -451959,7 +452252,7 @@
       "category": "feet",
       "dimension": "趾端与趾甲形状",
       "title": "足部形态与绘画 趾端与趾甲形状",
-      "image": "images/sheet-ft017-ft032.png",
+      "image": "images/sheet-ft017-ft032-v2.png",
       "columns": 4,
       "rows": 4,
       "prompt": "Use case: scientific-educational.\nAsset type: specific illustrated catalog contact sheet for original female anime/game character designs.\nPrimary request: illustrate every listed feature faithfully, each as a DISTINCT reference example.\nLayout: EXACTLY 4 equal columns and 4 equal rows in a regular rectangular grid. Cells read left to right then top to bottom. 16 illustrated cells; any remaining trailing cells must be completely blank. Each cell is self-contained with generous gutters. Exact cell ID in small crisp dark sans-serif type at the top left. No other text, no title, no watermark, no logos.\nStyle: polished professional anime production reference drawings; fine clean outlines, restrained flat colors with minimal cel shadows, light warm ivory background. Detailed enough to identify the named feature. Consistent drawing quality; Adult women aged 25+ where a person is needed; product objects and adult neutral forms where specified, with diverse natural skin tones where relevant. Clothes and bodies fully visible within their specified framing, no overlapping cells, no cropped feet, no generic placeholder symbols.\nSubject direction: Neutral ART DRAWING reference studies of ADULT female feet aged 25+, realistic restrained anatomical line drawing with simple cel shadows, clinical classroom composition. Frame just lower shin through complete foot/feet, correct five toes per foot where visible, normal natural joints, no excessive toe length or missing toes, correct hidden-toe occlusion for side views. Top-view shape and toe group use consistent scale and camera so actual differences read clearly. Show specified side/rear view or natural action precisely; two-foot poses include ground contact and natural support. Nail examples are ordinary SHORT toenails. No jewelry, hosiery, shoes or makeup unless short nail color explicitly stated; no erotic, glamour or fetish framing, licking, touching by other people, injury, anatomical cutaway or medical diagnosis. These are adult artistic variations and view studies, not health classifications.\nSpecific ordered cells:\nCell 1, label FT017: big-toe-longest sequence / 大趾较长递降趾列. Visible feature: 成人单足俯视，大趾最长，第二至第五趾依次渐短，五趾自然。\nCell 2, label FT018: second-toe-longest sequence / 第二趾较长趾列. Visible feature: 成人俯视第二趾略长于大趾，其余趾逐次变短，五趾完整。\nCell 3, label FT019: near-even first-three toes / 前三趾近齐趾列. Visible feature: 俯视大趾、二趾、三趾长度相近，四五趾略短。\nCell 4, label FT020: near-even first-two toes / 前二趾近齐趾列. Visible feature: 俯视前两趾长度相近，后三趾形成下降弧线。\nCell 5, label FT021: rounded toe-tip contour / 圆钝趾端轮廓. Visible feature: 五趾前端偏圆钝，趾缝和正常趾甲可见，成人局部绘画。\nCell 6, label FT022: slightly square toe-tip contour / 略方趾端轮廓. Visible feature: 五趾端线偏平缓方圆，边角柔和，非变形或病理。\nCell 7, label FT023: slender toe proportion study / 细长趾节比例. Visible feature: 趾节示例较细长，关节线自然，五趾从前掌连续生长。\nCell 8, label FT024: short rounded toe proportion study / 短圆趾节比例. Visible feature: 趾节示例较短圆，前掌与五趾端保持自然连接。\nCell 9, label FT025: short rounded natural toenails / 短圆自然趾甲. Visible feature: 成人五趾俯视局部，趾甲短圆，甲面与皮肤边缘清楚。\nCell 10, label FT026: short squoval toenails / 方圆短趾甲. Visible feature: 五趾短甲前端平直、角部圆润，长宽比例自然。\nCell 11, label FT027: short oval toenails / 短椭圆趾甲. Visible feature: 五趾短甲轮廓近椭圆，甲面无过长尖端。\nCell 12, label FT028: narrow nail-plate proportion / 窄长甲面比例. Visible feature: 成人趾部绘画，甲面纵向略长、横向窄，仍为短甲。\nCell 13, label FT029: wide short nail-plate proportion / 宽短甲面比例. Visible feature: 成人趾部绘画，甲面横向较宽、纵向短，正常简化形态。\nCell 14, label FT030: solid-color short toenails / 纯色短甲表面. Visible feature: 五趾短甲涂单一低饱和色，甲面边缘与趾端清楚。\nCell 15, label FT031: thin-edge two-tone toenails / 细边双色趾甲. Visible feature: 短甲底色与极细前缘异色，五趾甲面完整，成人装饰参考。\nCell 16, label FT032: single-dot toenail motif / 单点小图案趾甲. Visible feature: 短甲上原创单点或小圆形装饰，五趾自然排列，不堆叠复杂饰物。\nCritical constraints: Do not substitute a generic example. The named feature must actually be observable. Read the Chinese feature description if the English phrase is ambiguous. Keep visible structural differences. No character brands or franchise resemblance.",
@@ -451971,22 +452264,22 @@
         {
           "label": "FT017",
           "entry_id": "FT017",
-          "name": "大趾较长递降趾列"
+          "name": "埃及脚"
         },
         {
           "label": "FT018",
           "entry_id": "FT018",
-          "name": "第二趾较长趾列"
+          "name": "希腊脚"
         },
         {
           "label": "FT019",
           "entry_id": "FT019",
-          "name": "前三趾近齐趾列"
+          "name": "罗马脚"
         },
         {
           "label": "FT020",
           "entry_id": "FT020",
-          "name": "前二趾近齐趾列"
+          "name": "前两趾近齐"
         },
         {
           "label": "FT021",
@@ -452049,8 +452342,8 @@
           "name": "单点小图案趾甲"
         }
       ],
-      "qa_date": "2026-10-14",
-      "qa_notes": "五趾、趾端及短趾甲均完整，前趾长度和甲形可辨。",
+      "qa_date": "2026-11-19",
+      "qa_notes": "重新绘制 FT017–FT020，核对五趾及趾尖序列；行列边界与原图一致，其余12格像素保持原样。",
       "column_boundaries": [
         0,
         306,
@@ -452064,6 +452357,23 @@
         632,
         943,
         1286
+      ],
+      "edit_history": [
+        {
+          "date": "2026-11-19",
+          "image": "images/sheet-ft017-ft032-v2.png",
+          "reference_image": "images/sheet-ft017-ft032.png",
+          "entry_ids": [
+            "FT017",
+            "FT018",
+            "FT019",
+            "FT020"
+          ],
+          "prompt": "Use case: scientific-educational. Generate a NEW neutral character design reference sheet in square 2 by 2 contact-sheet layout, using the attached four-panel strip only as a STYLE and crop reference. Two equal-width columns and two equal-height rows, thin rule exactly at x=50% y=50%, warm ivory background. Each cell is a dorsally viewed single adult female RIGHT foot of the same scale, big toe on IMAGE LEFT, heel and ankle toward the TOP and five toe tips toward the BOTTOM. All five toes must look naturally attached, with exactly five natural short nails, no extra toes, no flexing or perspective foreshortening of individual toes. Use the GENERATION SPEC below and DO NOT copy the source strip's mismatched toe lengths. In this downward-pointing foot silhouette, 'longer' means the tip reaches LOWER on the canvas. TOP LEFT FT017 Egyptian type: the big toe ends LOWEST; the second tip ends clearly 5–8% foot length ABOVE the big-toe tip; third, fourth, fifth tips STEP PROGRESSIVELY UP. Five distinct tips follow a smooth diagonal rising toward image right. TOP RIGHT FT018 Greek type: the SECOND TOE next to the big toe ends clearly LOWEST (about 4–5% foot length below big-toe tip); big toe next longest, then third, fourth, fifth. BOTTOM LEFT FT019 Roman type: tips of the big toe, second toe AND third toe end on nearly the SAME horizontal line; fourth and fifth are clearly shorter. BOTTOM RIGHT FT020 even first-two: ONLY big toe and second toe end at nearly the same lower level, with the third visibly 5–7% foot length above that level, then fourth and fifth step higher. Match creamy ground, calm anatomical illustration, fine outlines, unobtrusive dark upper-left typography, and adult proportions of the reference. Render the toe length relationships unmistakable but human and natural. Center each foot in its own cell with the entire foot's five tips fully visible and generous space below. Exact upper-left codes only: 'FT017', 'FT018', 'FT019', 'FT020'. No other text, rulers, arrows, decoration or watermark.",
+          "egyptian_refinement_prompt": "Use case: precise-object-edit. This source image contains a normal RIGHT foot drawing with exactly five existing toes and five nails. Make a minimal edit. Replace ONLY the label FT050 with 'FT017' and change the first toe (the large leftmost toe, with the biggest nail) to be slightly longer: lengthen the end of that single existing big toe downwards 20 pixels in this framing, moving its nail down a little. Do not redraw, add, delete, reposition, or split any of the four remaining existing toes. The original four slender nails to the right are unchanged. Final row of nails must stay exactly five. Image geometry, camera, ankle, skin tone, paper, borders, scale and normal anatomy all stay identical. Target is a plain textbook illustration of the Egyptian toe pattern, where the tip of the existing big toe extends farther than the existing second toe, then the next four tips progressively shorten. Only one big toe and four smaller toes. Keep full toes visible, no text except 'FT017'.",
+          "greek_refinement_prompt": "Use case: precise-object-edit. Make a strictly localized correction to this existing five-toed adult right-foot atlas drawing. Keep the same NO EXTRA TOE anatomy: one broad big toe at far left plus the same four narrow toes to its right. Replace the code FT050 with 'FT018'. Illustrate the Greek pattern by lengthening ONLY toe #2, the slender toe immediately to the right of the large leftmost toe, approximately 25 pixels down the page in this framing; move its small nail down to stay near its tip. The SECOND toe must become the lowest tip in the image, with a modest but clearly visible lead over the existing big toe. After this, the next three toes toward the right stay as in the reference; do not draw more than one nail on any toe. There are five toes and exactly five nails total. All other toe lengths, contours, background, controlled foot framing, camera, anatomy, lighting and position remain as supplied. Only one cropped foot, one exact ID 'FT018', no further text, no decoration.",
+          "assembly": "Replace only cells 1–4 in row 1 with newly illustrated tiles at the existing measured boundaries. Rows 2–4 remain pixel-identical."
+        }
       ]
     },
     {
@@ -488992,6 +489302,81 @@
       ]
     },
     {
+      "id": "forefoot-width-comparison",
+      "category": "feet",
+      "title": "等长脚型的前掌宽度对照",
+      "image": "images/sheet-ft049-ft051.png",
+      "width": 2170,
+      "height": 725,
+      "columns": 3,
+      "rows": 1,
+      "column_boundaries": [
+        0,
+        724,
+        1446,
+        2170
+      ],
+      "row_boundaries": [
+        0,
+        725
+      ],
+      "origin": "AI 生成的原创脚宽对照图",
+      "prompt": "Use case: scientific-educational. Make a new atlas contact sheet titled by IDs only: exactly THREE EQUAL VERTICAL COLUMNS, 3 cells across, 1 row; wide landscape canvas. Fine gray vertical cell rules at one-third and two-thirds, warm ivory ground, no header. Subject in each cell: one adult human female RIGHT foot in strict overhead dorsal view with toes pointing toward the BOTTOM and big toe at image-left. Same neutral natural skin shade and controlled illustrative style in all three (the supplied FT sheet row is visual style only). All three feet must have identical scale and LENGTH: set heel level and longest toe tip at the same vertical frame locations in all THREE cells, keeping the same moderate toe-length pattern (big toe subtly longest), a heel of about the same width and natural non-fanned toes. Only alter width across the metatarsal heads and forefoot. Column 1 'FT049' narrow forefoot, with a slender outline and modest toe-box width (about 33% of drawn foot's length). Column 2 'FT050' medium-width forefoot (about 38%). Column 3 'FT051' wide forefoot, with a noticeably broader ball and toe box (about 44%) smoothly blending toward the heel; keep toes relaxed and the same length, no deformity or forced splay. Render exactly five distinct naturally attached toes in each foot, each with one short nail and all toe tips fully inside the panel; relaxed neutral pose, no tilted side view, same lighting and subject axis. Show complete toes through the rear-foot/heel area with generous margins around both sides and below. Place EXACTLY 'FT049', 'FT050', 'FT051' at upper left of their respective cells. No other text, arrows, numbers, frames within the panels, rulers, tattoos, socks or shoes. Understated professional human anatomy illustration, fine clean line, soft cel colors like the reference, non-clinical and non-glamour.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "FT049",
+          "label": "FT049",
+          "name": "窄脚"
+        },
+        {
+          "entry_id": "FT050",
+          "label": "FT050",
+          "name": "中等脚宽"
+        },
+        {
+          "entry_id": "FT051",
+          "label": "FT051",
+          "name": "宽脚"
+        }
+      ]
+    },
+    {
+      "id": "medial-foot-arch-heights",
+      "category": "feet",
+      "dimension": "足弓高度",
+      "title": "足弓高度侧面对照",
+      "image": "images/sheet-ft-flat-and-low-arches.png",
+      "width": 1254,
+      "height": 627,
+      "columns": 2,
+      "rows": 1,
+      "column_boundaries": [
+        0,
+        627,
+        1254
+      ],
+      "row_boundaries": [
+        0,
+        627
+      ],
+      "origin": "AI 生成的原创足弓高度对照图",
+      "prompt": "Kept the full top row, x=0, y=0, width=1254, height=627, from the original project-owned generated sheet. The flat and low arch panels remain pixel-identical; the bottom row is omitted.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "FT052",
+          "label": "FT052",
+          "name": "扁平足"
+        },
+        {
+          "entry_id": "FT012",
+          "label": "FT012",
+          "name": "低足弓"
+        }
+      ]
+    },
+    {
       "id": "footwear-v77-flats",
       "category": "footwear",
       "title": "装饰平鞋与厚底扣带鞋",
@@ -492589,6 +492974,28 @@
       "summary": "说明给图像设置边缘效果与边框厚度的方法；可辅助理解人物轮廓白边的制作。",
       "rights": "仅相关阅读，未使用其图片。",
       "checked": "2026-11-03"
+    },
+    {
+      "id": "R210",
+      "title": "Difference in Shape and Dimensions between Adult and Children Feet Based on 40.000 3D Scans",
+      "publisher": "3D Body Scanning Technologies",
+      "url": "https://proc.3dbody.tech/papers/2013/13231_47omrec.pdf",
+      "kind": "研究论文",
+      "topics": "埃及脚、希腊脚、罗马脚；趾列与前掌宽度",
+      "summary": "介绍按趾尖轮廓区分三类脚型的做法，并分别记录足长和前掌宽。",
+      "rights": "论文阅读链接；未复制图表或扫描图。",
+      "checked": "2026-11-19"
+    },
+    {
+      "id": "R211",
+      "title": "Three-dimensional quantitative analysis of healthy foot shape: a proof of concept study",
+      "publisher": "Journal of Foot and Ankle Research",
+      "url": "https://link.springer.com/article/10.1186/s13047-018-0251-8",
+      "kind": "研究论文",
+      "topics": "前掌宽度、足宽与趾列的独立变化",
+      "summary": "三维形态分析分别展示足宽、前掌和趾列的变化，可为图鉴中分开观察这些特征提供参考。",
+      "rights": "论文阅读链接；未复制图表或扫描图。",
+      "checked": "2026-11-19"
     },
     {
       "id": "R200",
@@ -498237,9 +498644,11 @@
     "images/sheet-fs265-fs268.png": "images/export-data/8111a0e3c412-29c80a79efc6.js",
     "images/sheet-fs279-fs286-wearing.png": "images/export-data/8ee66b6bae3d-240660e4e446.js",
     "images/sheet-fs279-fs286.png": "images/export-data/ae07a9768628-b11fea57f5d2.js",
+    "images/sheet-ft-flat-and-low-arches.png": "images/export-data/5a69a04a6e99-e74064f4ff03.js",
     "images/sheet-ft001-ft016.png": "images/export-data/00cbae364709-78561decd966.js",
-    "images/sheet-ft017-ft032.png": "images/export-data/bb9488b566d8-3c78ba1c7c98.js",
+    "images/sheet-ft017-ft032-v2.png": "images/export-data/bd6b025a4798-7319070da801.js",
     "images/sheet-ft033-ft048.png": "images/export-data/d6349440ce3f-246755e0b7ae.js",
+    "images/sheet-ft049-ft051.png": "images/export-data/66b82c0816f9-7eb7b2839118.js",
     "images/sheet-fw001-fw018.png": "images/export-data/ddd5b2f7c640-57ff577a15e8.js",
     "images/sheet-fw019-fw020.png": "images/export-data/5bd6f9ab88eb-500f4cb88ae6.js",
     "images/sheet-fw021-fw032.png": "images/export-data/0be0082415e1-13926a01952b.js",

@@ -9953,6 +9953,134 @@
       "license": "CC-BY-NC-4.0",
       "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
       "permission_basis": "Project-created illustrations covered by the continuing project content policy."
+    },
+    {
+      "id": "E-NC-GRANT-bd6b025a479843de",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-19",
+      "asset": "images/sheet-ft017-ft032-v2.png",
+      "local_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-created reference illustrations covered by the continuing project content policy."
+    },
+    {
+      "id": "E-NC-GRANT-66b82c0816f986f7",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-19",
+      "asset": "images/sheet-ft049-ft051.png",
+      "local_sha256": "7eb7b2839118cec930d83e08271d5d191264939e1cee4d312fbaf4175daf2ee6",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-created reference illustrations covered by the continuing project content policy."
+    },
+    {
+      "id": "E-FOOT-SHAPES-20261119",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-19",
+      "title": "Original foot-shape illustrations and the FT017–FT020 redraw",
+      "source": "Checked the built-in image_gen outputs and the finished reassembled comparison sheet against both project-owned source boards.",
+      "assets": [
+        {
+          "path": "images/sheet-ft017-ft032-v2.png",
+          "local_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+          "entry_ids": [
+            "FT017",
+            "FT018",
+            "FT019",
+            "FT020",
+            "FT021",
+            "FT022",
+            "FT023",
+            "FT024",
+            "FT025",
+            "FT026",
+            "FT027",
+            "FT028",
+            "FT029",
+            "FT030",
+            "FT031",
+            "FT032"
+          ],
+          "generated_draft_inputs": [
+            {
+              "label": "Project-owned old crop, style and scale reference",
+              "sha256": "39d0b814ae2e02bd8b48f7b9732d4fdb9f4a1e3613403b017474d8d32a415a21"
+            },
+            {
+              "label": "AI-generated four-panel toe length draft",
+              "sha256": "371a817df0431cec581a444d7a5e170dc40d9820a5c18853b0b6ceb3cd0ffb35"
+            },
+            {
+              "label": "Project-owned five-toe crop derived from the source width comparison",
+              "sha256": "d449bfa95cfc8714a2781ea860046019324e6f9759b140a8fd97e7d754ebc5b9"
+            },
+            {
+              "label": "AI-generated corrected FT017 panel",
+              "sha256": "ae3f8bf24ac4b7dbc47ee7558ce14f39b2ab72d3f1d741f04de1f8f64cb3f1ac"
+            },
+            {
+              "label": "AI-generated corrected FT018 panel",
+              "sha256": "2f5fc9a08f29c880c650f207c9e393918d37770618bcad9b74f21e93c2423cd7"
+            }
+          ]
+        },
+        {
+          "path": "images/sheet-ft049-ft051.png",
+          "local_sha256": "7eb7b2839118cec930d83e08271d5d191264939e1cee4d312fbaf4175daf2ee6",
+          "entry_ids": [
+            "FT049",
+            "FT050",
+            "FT051"
+          ],
+          "generated_draft_inputs": [
+            {
+              "label": "Existing project-owned foot illustration crop, style reference only",
+              "sha256": "e0bbd9a139c1257b2e13ffa48903fe6e5872950df31d2de265fa0214fc7334e0"
+            }
+          ]
+        }
+      ],
+      "permission_basis": "Records final file hashes and the prior atlas material and generated drafts used as inputs."
+    },
+    {
+      "id": "E-FOOT-ARCH-HEIGHTS-20261119",
+      "kind": "generated-output-receipt",
+      "checked": "2026-11-19",
+      "title": "Retained flat-foot and low-arch illustration panels",
+      "source": "Kept the full top row, x=0, y=0, width=1254, height=627, from the original project-owned generated sheet. The flat and low arch panels remain pixel-identical; the bottom row is omitted.",
+      "assets": [
+        {
+          "path": "images/sheet-ft-flat-and-low-arches.png",
+          "local_sha256": "e74064f4ff036c9f2fea89e90c9502b65d2ea46d24849258995f873e26e676d2",
+          "entry_ids": [
+            "FT052",
+            "FT012"
+          ],
+          "generated_draft_inputs": [
+            {
+              "label": "Existing project-owned foot arch sketch crop, for visual continuity only",
+              "sha256": "efc38a55b25cb381a461b15be5ee03fea9f400ff7448539e684a458c13c0a4f3"
+            },
+            {
+              "label": "Unpublished source sheet, before the retained two panels were extracted",
+              "sha256": "14c82a82dd94f44d1fb623c86f1aa38dc0403b9108326cd548ca0ae67f43c755"
+            }
+          ]
+        }
+      ],
+      "prompt_source": "source/contributions/foot-arch-heights-v80.json#/boards/0/prompt",
+      "permission_basis": "Records the generated output and the hashes of project-created reference material."
+    },
+    {
+      "id": "E-NC-GRANT-5a69a04a6e990622",
+      "kind": "owner-asset-license-grant",
+      "checked": "2026-11-19",
+      "asset": "images/sheet-ft-flat-and-low-arches.png",
+      "local_sha256": "e74064f4ff036c9f2fea89e90c9502b65d2ea46d24849258995f873e26e676d2",
+      "license": "CC-BY-NC-4.0",
+      "authorization": "E-OWNER-NONCOMMERCIAL-20261103",
+      "permission_basis": "Project-created reference illustrations covered by the continuing project content policy."
     }
   ]
 }

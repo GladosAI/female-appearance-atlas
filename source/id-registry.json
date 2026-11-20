@@ -11939,7 +11939,7 @@
     },
     {
       "id": "FT012",
-      "source_key": "feet|内侧足弓平缓侧影|gentle medial arch silhouette"
+      "source_key": "feet|低足弓|low foot arch"
     },
     {
       "id": "FT013",
@@ -11959,19 +11959,19 @@
     },
     {
       "id": "FT017",
-      "source_key": "feet|大趾较长递降趾列|big-toe-longest sequence"
+      "source_key": "feet|埃及脚|Egyptian foot shape"
     },
     {
       "id": "FT018",
-      "source_key": "feet|第二趾较长趾列|second-toe-longest sequence"
+      "source_key": "feet|希腊脚|Greek foot shape"
     },
     {
       "id": "FT019",
-      "source_key": "feet|前三趾近齐趾列|near-even first-three toes"
+      "source_key": "feet|罗马脚|Roman foot shape"
     },
     {
       "id": "FT020",
-      "source_key": "feet|前二趾近齐趾列|near-even first-two toes"
+      "source_key": "feet|前两趾近齐|near-even first two toes"
     },
     {
       "id": "FT021",
@@ -29540,6 +29540,26 @@
     {
       "id": "LGT020",
       "source_key": "leg_shapes|单脚外转|one foot turned out"
+    },
+    {
+      "id": "FT049",
+      "source_key": "feet|窄脚|narrow foot"
+    },
+    {
+      "id": "FT050",
+      "source_key": "feet|中等脚宽|medium-width foot"
+    },
+    {
+      "id": "FT051",
+      "source_key": "feet|宽脚|wide foot"
+    },
+    {
+      "id": "FT052",
+      "source_key": "feet|扁平足|flat foot silhouette"
+    },
+    {
+      "id": "FT053",
+      "source_key": "feet|中等足弓|medium foot arch"
     }
   ]
 }

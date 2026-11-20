@@ -1,0 +1,68 @@
+{
+  "schema": "female-appearance-contribution/v1",
+  "entries": [
+    {
+      "stable_id": "FT052",
+      "category": "feet",
+      "dimension": "足弓高度",
+      "name": "扁平足",
+      "en": "flat foot silhouette",
+      "description": "站立内侧视图中，中足内缘几乎沿着地面，足弓下方很少见到留白。",
+      "note": "让后跟、中足和前掌贴近同一地面线，同时保留各部位的轮廓变化。",
+      "aliases": [
+        "平足",
+        "平脚板",
+        "扁平足侧面",
+        "flat foot",
+        "flat feet",
+        "flatfoot",
+        "pes planus silhouette",
+        "扁平足"
+      ],
+      "reference_ids": [
+        "R211"
+      ],
+      "origin": "editorial",
+      "added_in": "80.0",
+      "age_context": "成年女性足部绘画参考"
+    }
+  ],
+  "boards": [
+    {
+      "id": "medial-foot-arch-heights",
+      "category": "feet",
+      "dimension": "足弓高度",
+      "title": "足弓高度侧面对照",
+      "image": "images/sheet-ft-flat-and-low-arches.png",
+      "width": 1254,
+      "height": 627,
+      "columns": 2,
+      "rows": 1,
+      "column_boundaries": [
+        0,
+        627,
+        1254
+      ],
+      "row_boundaries": [
+        0,
+        627
+      ],
+      "origin": "AI 生成的原创足弓高度对照图",
+      "prompt": "Kept the full top row, x=0, y=0, width=1254, height=627, from the original project-owned generated sheet. The flat and low arch panels remain pixel-identical; the bottom row is omitted.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "FT052",
+          "label": "FT052",
+          "name": "扁平足"
+        },
+        {
+          "entry_id": "FT012",
+          "label": "FT012",
+          "name": "低足弓"
+        }
+      ]
+    }
+  ],
+  "references": []
+}

@@ -1,6 +1,6 @@
 # 女性之美 · 来源与图片说明
 
-内容版 79.0，共7385个词条。以下阅读链接与照片保留各自核对日期，不代表全部资料在本次构建时重新核验。配图生成与图片权利是不同记录，许可状态见 [素材说明](../NOTICE.md) 和 [许可提案](licensing-proposal.md)，待审清单见 source/rights-review.json。
+内容版 80.0，共7389个词条。以下阅读链接与照片保留各自核对日期，不代表全部资料在本次构建时重新核验。配图生成与图片权利是不同记录，许可状态见 [素材说明](../NOTICE.md) 和 [许可提案](licensing-proposal.md)，待审清单见 source/rights-review.json。
 
 ## R01 How to Draw Hair: 3 Tips for Beginners
 
@@ -1661,6 +1661,22 @@ V&A 的表演收藏涵盖舞蹈、戏剧、杂艺、木偶与服装设计等门�
 说明给图像设置边缘效果与边框厚度的方法；可辅助理解人物轮廓白边的制作。
 
 图片处理：仅相关阅读，未使用其图片。。
+
+## R210 Difference in Shape and Dimensions between Adult and Children Feet Based on 40.000 3D Scans
+
+[3D Body Scanning Technologies](https://proc.3dbody.tech/papers/2013/13231_47omrec.pdf) · 研究论文
+
+介绍按趾尖轮廓区分三类脚型的做法，并分别记录足长和前掌宽。
+
+图片处理：论文阅读链接；未复制图表或扫描图。。
+
+## R211 Three-dimensional quantitative analysis of healthy foot shape: a proof of concept study
+
+[Journal of Foot and Ankle Research](https://link.springer.com/article/10.1186/s13047-018-0251-8) · 研究论文
+
+三维形态分析分别展示足宽、前掌和趾列的变化，可为图鉴中分开观察这些特征提供参考。
+
+图片处理：论文阅读链接；未复制图表或扫描图。。
 
 ## R200 Champion Insights: Seraphine
 

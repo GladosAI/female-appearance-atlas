@@ -47,8 +47,8 @@ def write_rights_docs(root):
     result = summary(review)
     ai_assets = [asset for asset in review['assets'] if asset['kind'] in {'ai-catalog-declaration','ai-generated-reference'}]
     ai_matched = sum(asset.get('provenance',{}).get('status')=='generated-file-match' for asset in ai_assets)
-    ai_composited = sum(asset.get('provenance',{}).get('status')=='generated-crop-composited' for asset in ai_assets)
-    ai_composited_note = f'；{ai_composited}张使用了有记录的生成图局部替换' if ai_composited else ''
+    ai_composited = sum(asset.get('provenance',{}).get('status') in {'generated-crop','generated-crop-composited'} for asset in ai_assets)
+    ai_composited_note = f'；{ai_composited}张使用了有记录的生成图裁剪或局部替换' if ai_composited else ''
     photos = [asset for asset in review['assets'] if asset['kind'] == 'third-party-museum-photo']
     brands = [asset for asset in review['assets'] if asset['kind'] == 'project-brand-asset']
     dated_ai = sum(bool(asset.get('generated_at')) for asset in ai_assets)

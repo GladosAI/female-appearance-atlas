@@ -9683,7 +9683,14 @@
     "足尖朝向": "立ち姿のつま先の向き",
     "站立足尖朝向对照": "立ち姿のつま先の向きの比較",
     "AI 生成的原创站立足向对照图": "AI生成のオリジナル立ち姿の足向き比較図",
-    "对照腿线、腿长比例、局部轮廓与足尖朝向。足尖朝向与膝踝对位分开，可按角色需要搭配。图例用于角色设计。": "脚のライン・比率・輪郭とつま先の向きを見比べる。つま先の向きは膝と足首の並びと分けて選べる。キャラクターデザイン用の作例。"
+    "对照腿线、腿长比例、局部轮廓与足尖朝向。足尖朝向与膝踝对位分开，可按角色需要搭配。图例用于角色设计。": "脚のライン・比率・輪郭とつま先の向きを見比べる。つま先の向きは膝と足首の並びと分けて選べる。キャラクターデザイン用の作例。",
+    "脚趾长度排列": "足指の長さの並び",
+    "前掌宽度": "前足部の幅",
+    "等长脚型的前掌宽度对照": "足の長さをそろえた前足部の幅の比較",
+    "AI 生成的原创脚宽对照图": "AI生成のオリジナル前足部幅比較図",
+    "足弓高度": "足のアーチの高さ",
+    "足弓高度侧面对照": "足のアーチの高さ・内側面比較",
+    "AI 生成的原创足弓高度对照图": "AI生成のオリジナル足部アーチ比較図"
   },
   "entries": {
     "HC001": {
@@ -24607,9 +24614,9 @@
       "description": "内側面から底の弧状のくぼみ線を明確に見せ、かかとと前足部を平らにつける。"
     },
     "FT012": {
-      "name": "土踏まずが緩やかな側面",
-      "design_tip": "成人女性の足の輪郭、足指の先、爪、観察角度、動作の参考。形は連続的に変わり、名前は画面の説明であって健康や計測の基準ではない。",
-      "description": "内側面の底の弧を緩やかにし、かかとと前足部を平らにつける。診断には用いない。"
+      "name": "低い土踏まず",
+      "description": "自然に立った内側面では、足の中央の底が床に近いが、かかとと前足部の間に浅い弧が残る。",
+      "design_tip": "足の中央の下の隙間を低くし、線の移り変わりを緩やかにする。小さな弧は残す。"
     },
     "FT013": {
       "name": "丸く厚みのあるかかと",
@@ -24632,24 +24639,24 @@
       "description": "足首と足の境を滑らかで柔らかくし、足首からかかと・甲への折れを明確にする。"
     },
     "FT017": {
-      "name": "親指が最も長く順に短くなる足指",
-      "design_tip": "成人女性の足の輪郭、足指の先、爪、観察角度、動作の参考。形は連続的に変わり、名前は画面の説明であって健康や計測の基準ではない。",
-      "description": "成人の片足を上から見て母趾を最長、第二から第五趾を順に短くし、五趾を自然にする。"
+      "name": "エジプト型の足",
+      "description": "親指が最も長く、小指に向かって残りの4本が順に短くなる。指先は斜めに並ぶ。",
+      "design_tip": "まず親指の先を決め、斜めの線に沿って順に短くする。指ごとの幅は保つ。"
     },
     "FT018": {
-      "name": "人差し指が最も長い足指",
-      "design_tip": "成人女性の足の輪郭、足指の先、爪、観察角度、動作の参考。形は連続的に変わり、名前は画面の説明であって健康や計測の基準ではない。",
-      "description": "成人の足を上から見て第二趾を母趾より少し長く、残りを順に短くし、五趾を完全にする。"
+      "name": "ギリシャ型の足",
+      "description": "第2趾は親指より少し長く、上から見ると指先の並びで最も前に出る。",
+      "design_tip": "第2趾の先を決めてから、親指を少し後ろにし、外側の3本を順に短くする。"
     },
     "FT019": {
-      "name": "最初の三本がほぼ同じ長さの足指",
-      "design_tip": "成人女性の足の輪郭、足指の先、爪、観察角度、動作の参考。形は連続的に変わり、名前は画面の説明であって健康や計測の基準ではない。",
-      "description": "俯瞰で母趾・第二趾・第三趾をほぼ同長、第四・第五趾を少し短くする。"
+      "name": "ローマ型の足",
+      "description": "親指から第3趾までの先がほぼそろい、第4・第5趾は短くなる。",
+      "design_tip": "最初の3本の指先をおおむねそろえ、短い第4・第5趾で外側の輪郭を作る。"
     },
     "FT020": {
-      "name": "最初の二本がほぼ同じ長さの足指",
-      "design_tip": "成人女性の足の輪郭、足指の先、爪、観察角度、動作の参考。形は連続的に変わり、名前は画面の説明であって健康や計測の基準ではない。",
-      "description": "俯瞰で前二趾をほぼ同長にし、後三趾を下がる弧状にする。"
+      "name": "親指と第2趾がほぼ同じ長さ",
+      "description": "親指と第2趾の先はほぼ同じ位置にあり、第3趾以降は順に短い。",
+      "design_tip": "最初の2本をそろえ、第2趾と第3趾の差が分かるように描く。"
     },
     "FT021": {
       "name": "丸く鈍い足指の先",
@@ -46777,6 +46784,26 @@
       "name": "片足だけ外に向けた立ち方",
       "description": "片方の足は正面を向き、もう片方の足先だけが少し外を向く。",
       "design_tip": "それぞれの足の軸を別々に決める。左右を入れ替えても、正面と外向きの違いを保つ。"
+    },
+    "FT049": {
+      "name": "前足部が細い足",
+      "description": "長さをそろえて見ると、足指の付け根付近と前足部の横幅が狭い。",
+      "design_tip": "足の長さをそろえてから前足部の両側を絞る。指と、かかとの自然な比率は保つ。"
+    },
+    "FT050": {
+      "name": "前足部の幅が中程度の足",
+      "description": "同じ角度で見たとき、前足部の幅は細い例と広い例の中間で、足指の並びはほぼ同じ。",
+      "design_tip": "最も長い足指の位置と足の長さを先に決め、前足部の横幅を別に調整する。"
+    },
+    "FT051": {
+      "name": "前足部が広い足",
+      "description": "足の長さは他の例とほぼ同じだが、前足部と指の付け根は左右に広い。",
+      "design_tip": "中足骨頭のあたりを広げ、足の中央へなだらかにつなぐ。指は無理に開かない。"
+    },
+    "FT052": {
+      "name": "扁平足のシルエット",
+      "description": "立った足を内側から見ると、足の中央の内側が床にほぼ沿い、その下の隙間はほとんど見えない。",
+      "design_tip": "かかと、足の中央、前足部を同じ床線に沿わせ、輪郭の自然な変化を残す。"
     }
   },
   "source_hashes": {
@@ -61701,9 +61728,9 @@
       "description": "d5ffe23bf23fa6990909507632b27037e74086a5f859585175ede0624abed5dc"
     },
     "FT012": {
-      "name": "0e60a7d5ec76b4b362aaff53256adc299d137ae41ee02e135a201840c737c2ae",
-      "design_tip": "c99ca1011b3565853150d5affe1e6833f307dcbcbb752fb829b327eb0b024795",
-      "description": "4e7c968b471864426d9ce72516e3c5223dd1adf3cacc92163ed47dfc81774abf"
+      "name": "c7cca5742554c1efed7b6a3211e2cec95a4b6bdea268c9ac1ec5aebef9e063f4",
+      "description": "13167f202f81657b88a98168867f18d902f6ac3da3c9d2302abd27bc487a7f4f",
+      "design_tip": "6ad48386330c9f69fd26a897b4e996b9c9246b9c566d5fd709fe7f4df31af8e8"
     },
     "FT013": {
       "name": "c8e18ca214723e5729067f8a455bf64c9cf7269e4d0266a760eb9e1c63d12e6e",
@@ -61726,24 +61753,24 @@
       "description": "75fd964dd4fba11091dd9251eddb7b0598be5120410de1394f7ae86c4bb3f8d8"
     },
     "FT017": {
-      "name": "d6f7438109d3e2424d6d9cea979910ff951d782f787bbe25a0b88b0dc90f15dc",
-      "design_tip": "c99ca1011b3565853150d5affe1e6833f307dcbcbb752fb829b327eb0b024795",
-      "description": "99bc52d111e755fd73dacc2081b70475087e677658d658837bd843a5d507eed8"
+      "name": "49beef3e39f208c0806840307595726b9711cba20247b0889931574a5579843d",
+      "description": "3446a101509a1fd7cb7b00fe202fe65a7a75e5eabd9e2e539255cbe88d1ade95",
+      "design_tip": "060f0304aadaa7934153eceb838d0662fc4b5bdecb26056279cac4b62a337031"
     },
     "FT018": {
-      "name": "ac393fd39c707d9b7ba986b4f4b6e58bc1a8c09dea7db9ad18d7c4759384b913",
-      "design_tip": "c99ca1011b3565853150d5affe1e6833f307dcbcbb752fb829b327eb0b024795",
-      "description": "6c7339b9c660399a343d68fc703f6e8355634961de39a2ce2d8cf739f7462156"
+      "name": "c0898c9539f0c650aca34e780f8d39bf059418cc6ac88bdea0cd6558cc77cf12",
+      "description": "218674d9c58ff298bbdc2756d6cf96b3e164f17714769f788c69a84b96a0c445",
+      "design_tip": "f4d43272e59a4e3b3b8df0511c2b78550b5eba6736ea281d953c859b2eeadb1c"
     },
     "FT019": {
-      "name": "5d292468c1382e452e68b5a7ea8a53181ece409fff9438a8da738f2af915531d",
-      "design_tip": "c99ca1011b3565853150d5affe1e6833f307dcbcbb752fb829b327eb0b024795",
-      "description": "0fff7c410a8ddab93e0d2fbe27b203753fafec2343884302c0e199f8374d488c"
+      "name": "42b6d15f0c1cfd8aabf9dcac17f4dec849778e4e4b7b9407356b061125378868",
+      "description": "36d3a4c7164175a12df37c809ee6c63f58101181ca535c61274a7f41f90360bd",
+      "design_tip": "da24ac0293c5479634d075210b927fcd12a2258cc4601c54723e933b54fefc0e"
     },
     "FT020": {
-      "name": "fbb946ed60344a29d21542e5595ab0315d1efbc4140461d7b76f6cef5c64c553",
-      "design_tip": "c99ca1011b3565853150d5affe1e6833f307dcbcbb752fb829b327eb0b024795",
-      "description": "9025baac175eec6fcd35a9aa85ce0d6642b5889b795e7f608ded3fa516cb3c0f"
+      "name": "5d893061c17c6aab6a07ce11c5250c69f626ed1111973fdc45481c8fef285c9c",
+      "description": "65e95248d6ca676147dce73b1d2221141b3499a0da77db642708b04a15522fa7",
+      "design_tip": "4abd697986daf02bd97ec900b8ebf95dde256b5ea7187c7ef4775b609bb3c029"
     },
     "FT021": {
       "name": "3762a8e399359db972fb957af4457581ba2371be93f121755f30a94c9347beb1",
@@ -83716,6 +83743,26 @@
       "name": "225a05285219ab2e7ec6bc70032a2e2588dec9d0c6d1987c8cd74424280f7413",
       "description": "3aa5d6d54fa0bd41c983fb50ed204886d5bb3ba47e7345b70bd45925f0671f54",
       "design_tip": "a4812a11a42b06434edb47d117c566dfd2e4eca7fa7410bc33761e25637d073f"
+    },
+    "FT049": {
+      "name": "07ca877b73b67622c28004f3bb7f216f812ea9b7d5da9bbb0e898fb0e27aa47b",
+      "description": "780a859cf777be3914f832e21a1ca4b6647d2b41c053e7efe3f2cd5aa5a18a55",
+      "design_tip": "120abacc6b5c16e753d805d1eec113e6f6d765a5a14bd02118a31c129dc1f74c"
+    },
+    "FT050": {
+      "name": "f86797e0f86b3fc0cdeb020e40ae4d19da73f41578ef8399b4e88de46f319a84",
+      "description": "ff312ac70e77a53e04f85ebd752d9a5ff19fb06b62c5a88b5b0c896aec3b71e4",
+      "design_tip": "f6d3f2460789eb34d864663e0337261093d5c7a69b17f8c72f10eecf45d0673c"
+    },
+    "FT051": {
+      "name": "d5cffc30272be9791ba14efdc94e7b3933f18b396426d2235a577c1f89a2d3ba",
+      "description": "0f4d5914c993ccd6f02e7cccf6422e5995373eee993aa2608b98331155b4cf67",
+      "design_tip": "67a69108e900eae213e1370657012db57873aaeae7b7938b59bb44f1c874f72a"
+    },
+    "FT052": {
+      "name": "143444ec9ef2e3086d23311653b3f2332b22e6e18c41884e6050ead4dd6bb311",
+      "description": "bece8ddd68c144d3451a067e38690e25c34030882e17abd0da2501a6ab939a0d",
+      "design_tip": "b321bd7ff232c6d1792a6fc8ae2c4d9ab2f3d01c8561e3919b813c8fa76dee5f"
     }
   },
   "review": {
@@ -98640,9 +98687,9 @@
       "description": "draft"
     },
     "FT012": {
-      "name": "reviewed",
-      "design_tip": "draft",
-      "description": "draft"
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
     },
     "FT013": {
       "name": "reviewed",
@@ -98665,24 +98712,24 @@
       "description": "draft"
     },
     "FT017": {
-      "name": "reviewed",
-      "design_tip": "draft",
-      "description": "draft"
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
     },
     "FT018": {
-      "name": "reviewed",
-      "design_tip": "draft",
-      "description": "draft"
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
     },
     "FT019": {
-      "name": "reviewed",
-      "design_tip": "draft",
-      "description": "draft"
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
     },
     "FT020": {
-      "name": "reviewed",
-      "design_tip": "draft",
-      "description": "draft"
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
     },
     "FT021": {
       "name": "reviewed",
@@ -120655,6 +120702,26 @@
       "name": "draft",
       "description": "draft",
       "design_tip": "draft"
+    },
+    "FT049": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FT050": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FT051": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FT052": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
     }
   },
   "translation_provenance": {
@@ -121413,6 +121480,13 @@
     "足尖朝向": "draft",
     "站立足尖朝向对照": "draft",
     "AI 生成的原创站立足向对照图": "draft",
-    "对照腿线、腿长比例、局部轮廓与足尖朝向。足尖朝向与膝踝对位分开，可按角色需要搭配。图例用于角色设计。": "draft"
+    "对照腿线、腿长比例、局部轮廓与足尖朝向。足尖朝向与膝踝对位分开，可按角色需要搭配。图例用于角色设计。": "draft",
+    "脚趾长度排列": "draft",
+    "前掌宽度": "draft",
+    "等长脚型的前掌宽度对照": "draft",
+    "AI 生成的原创脚宽对照图": "draft",
+    "足弓高度": "draft",
+    "足弓高度侧面对照": "draft",
+    "AI 生成的原创足弓高度对照图": "draft"
   }
 }

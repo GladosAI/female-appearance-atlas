@@ -1,0 +1,80 @@
+{
+  "schema": "female-appearance-quality-review/v1",
+  "batch": "2026-11-19-foot-arch-heights",
+  "date": "2026-11-19",
+  "catalog_version": "80.0",
+  "reviewer": "Codex AI-assisted visual review",
+  "scope": {
+    "entries": 2,
+    "visuals": 2,
+    "categories": [
+      "feet"
+    ],
+    "category_counts": {
+      "feet": 2
+    }
+  },
+  "method": "Verified the two retained foot panels match the original upper row pixel-for-pixel. Checked the foot contours, IDs, contact surface, and recalculated crop coordinates.",
+  "issues": [],
+  "changed_entries": [
+    "FT012"
+  ],
+  "export_representatives": [
+    "FT012",
+    "FT052"
+  ],
+  "records": [
+    {
+      "entry_id": "FT052",
+      "category": "feet",
+      "field": "visual",
+      "result": "new-image-reviewed",
+      "image": "images/sheet-ft-flat-and-low-arches.png",
+      "image_sha256": "e74064f4ff036c9f2fea89e90c9502b65d2ea46d24849258995f873e26e676d2",
+      "visual_at_review": {
+        "board": "medial-foot-arch-heights",
+        "image": "images/sheet-ft-flat-and-low-arches.png",
+        "row": 0,
+        "column": 0,
+        "rows": 1,
+        "columns": 2,
+        "label": "FT052",
+        "aspect": 1.0,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 627,
+          "height": 627,
+          "sheet_width": 1254,
+          "sheet_height": 627
+        }
+      }
+    },
+    {
+      "entry_id": "FT012",
+      "category": "feet",
+      "field": "visual",
+      "result": "updated-image-reviewed",
+      "image": "images/sheet-ft-flat-and-low-arches.png",
+      "image_sha256": "e74064f4ff036c9f2fea89e90c9502b65d2ea46d24849258995f873e26e676d2",
+      "visual_at_review": {
+        "board": "medial-foot-arch-heights",
+        "image": "images/sheet-ft-flat-and-low-arches.png",
+        "row": 0,
+        "column": 1,
+        "rows": 1,
+        "columns": 2,
+        "label": "FT012",
+        "aspect": 1.0,
+        "crop": {
+          "x": 627,
+          "y": 0,
+          "width": 627,
+          "height": 627,
+          "sheet_width": 1254,
+          "sheet_height": 627
+        }
+      }
+    }
+  ]
+}
