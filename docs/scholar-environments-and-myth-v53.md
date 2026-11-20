@@ -51,6 +51,8 @@
 - [Story — Filmmaking Process](https://www.disneyanimation.com/process/story/) — Walt Disney Animation Studios。介绍从脚本缩略草图、提炼草稿到清晰分镜与明暗处理的故事可视化过程。
 - [The perfect brush for every style](https://www.clipstudio.net/en/functions/materials/) — CLIP STUDIO PAINT。介绍水彩、印度墨水等不同笔刷与可调整的笔触。作为笔触媒介的相关阅读，不是本图鉴漫画构图或情绪符号的命名来源。
 - [How do I add borders to images and text?](https://support.clip-studio.com/en-us/faq/articles/20200008) — CLIP STUDIO Official Support。说明给图像设置边缘效果与边框厚度的方法；可辅助理解人物轮廓白边的制作。
+- [Difference in Shape and Dimensions between Adult and Children Feet Based on 40.000 3D Scans](https://proc.3dbody.tech/papers/2013/13231_47omrec.pdf) — 3D Body Scanning Technologies。介绍按趾尖轮廓区分三类脚型的做法，并分别记录足长和前掌宽。
+- [Three-dimensional quantitative analysis of healthy foot shape: a proof of concept study](https://link.springer.com/article/10.1186/s13047-018-0251-8) — Journal of Foot and Ankle Research。三维形态分析分别展示足宽、前掌和趾列的变化，可为图鉴中分开观察这些特征提供参考。
 - [Champion Insights: Seraphine](https://www.leagueoflegends.com/en-us/news/dev/champion-insights-seraphine/) — Riot Games。开发团队介绍角色主题与世界观、轮廓辨识、功能和表演方式如何相互影响；作为概念探索的流程背景。
 - [The creation of Horizon Zero Dawn’s Aloy, as told by Guerrilla Games](https://blog.playstation.com/archive/2017/02/13/the-creation-of-horizon-zero-dawns-aloy-as-told-by-guerrilla-games/) — PlayStation Blog / Guerrilla。介绍主角设计与游戏世界、身份和玩法支柱之间的联系；不作为本项目图例的角色或图片来源。
 - [Girl’s Illustration Seminar 2026 — オトメイト×バンタン](https://www.vantan-game.com/gis2026/) — Vantan Game Academy / Otomate。主办方介绍由实际原画师和彩色担当讲解角色制作、彩色与图层的课程。支持乙游原稿存在多种制作环节，不表示本图鉴所有案例均取自其课程。

@@ -1,6 +1,6 @@
 # 图鉴总目录
 
-9个领域 → 56个分组 → 213个类别 → 类别内细分，共7385项配图。每个类别只有一个主要归属。
+9个领域 → 56个分组 → 213个类别 → 类别内细分，共7389项配图。每个类别只有一个主要归属。
 
 [打开图鉴目录](../index.html?view=directory) · [查找与筛选说明](find-and-browse.md)
 
@@ -119,7 +119,7 @@
 
 ## 身体与动作
 
-体型、腿型与年龄对照，动作与持物、局部形态和机械义肢。 共754项。 [领域全部](../index.html?section=topic_body_design)
+体型、腿型与年龄对照，动作与持物、局部形态和机械义肢。 共758项。 [领域全部](../index.html?section=topic_body_design)
 
 ### 体型、比例与年龄
 
@@ -145,12 +145,12 @@
 
 ### 手足、甲面与皮肤细节
 
-[分组全部 · 132项](../index.html?section=branch_body_details)
+[分组全部 · 136项](../index.html?section=branch_body_details)
 
 | 类别 | 配图词条 | 浏览 |
 | --- | ---: | --- |
 | 手部形态与握持 | 16 | [词条](../index.html?section=hands) · [详表](atlas.md#hands) |
-| 足部形态与绘画 | 48 | [词条](../index.html?section=feet) · [详表](atlas.md#feet) |
+| 足部形态与绘画 | 52 | [词条](../index.html?section=feet) · [详表](atlas.md#feet) |
 | 指甲形状与甲面造型 | 20 | [词条](../index.html?section=nails) · [详表](atlas.md#nails) |
 | 皮肤局部纹理与痕迹 | 16 | [词条](../index.html?section=skin_details) · [详表](atlas.md#skin_details) |
 | 皮肤装饰与妆面图案 | 32 | [词条](../index.html?section=body_art) · [详表](atlas.md#body_art) |

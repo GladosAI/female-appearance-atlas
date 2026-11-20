@@ -239,7 +239,7 @@
             "body_art"
           ],
           "scope": "branch_body_details",
-          "count": 132,
+          "count": 136,
           "category_count": 5
         },
         {
@@ -254,7 +254,7 @@
         }
       ],
       "scope": "topic_body_design",
-      "count": 754,
+      "count": 758,
       "category_count": 14
     },
     {
@@ -1585,7 +1585,7 @@
       "scene"
     ]
   },
-  "entry_count": 7385,
+  "entry_count": 7389,
   "category_count": 213,
   "section_count": 56,
   "category_paths": {

@@ -1,0 +1,140 @@
+{
+  "schema": "female-appearance-contribution/v1",
+  "entries": [
+    {
+      "stable_id": "FT049",
+      "category": "feet",
+      "dimension": "前掌宽度",
+      "name": "窄脚",
+      "en": "narrow foot",
+      "description": "用相同尺度对照时，足长相近，但趾根一带和前脚掌的横向轮廓更窄。",
+      "note": "先对齐脚长，再向中线适度收窄前掌；保留五趾和后跟的自然比例。",
+      "aliases": [
+        "窄前掌",
+        "窄足",
+        "窄脚型",
+        "偏窄脚掌",
+        "narrow forefoot",
+        "細幅の足"
+      ],
+      "reference_ids": [
+        "R211"
+      ],
+      "origin": "editorial",
+      "added_in": "80.0",
+      "age_context": "成年女性足部绘画参考"
+    },
+    {
+      "stable_id": "FT050",
+      "category": "feet",
+      "dimension": "前掌宽度",
+      "name": "中等脚宽",
+      "en": "medium-width foot",
+      "description": "相同视角下，前掌宽度介于窄脚与宽脚两种示例之间，趾列与它们相近。",
+      "note": "对照时先确定最长趾位置和脚长，再独立调整前掌横宽。",
+      "aliases": [
+        "中等前掌",
+        "中宽脚",
+        "中等脚掌宽度",
+        "medium forefoot width",
+        "average width foot"
+      ],
+      "reference_ids": [
+        "R211"
+      ],
+      "origin": "editorial",
+      "added_in": "80.0",
+      "age_context": "成年女性足部绘画参考"
+    },
+    {
+      "stable_id": "FT051",
+      "category": "feet",
+      "dimension": "前掌宽度",
+      "name": "宽脚",
+      "en": "wide foot",
+      "description": "脚长与另外两项相近，前掌和趾根两侧向外展开更明显。",
+      "note": "主要加宽跖骨头一带，再平顺连接足中段；脚趾不必刻意张开。",
+      "aliases": [
+        "宽前掌",
+        "宽足",
+        "宽脚型",
+        "宽脚掌",
+        "broad foot",
+        "wide forefoot",
+        "幅広の足"
+      ],
+      "reference_ids": [
+        "R211"
+      ],
+      "origin": "editorial",
+      "added_in": "80.0",
+      "age_context": "成年女性足部绘画参考"
+    }
+  ],
+  "boards": [
+    {
+      "id": "forefoot-width-comparison",
+      "category": "feet",
+      "title": "等长脚型的前掌宽度对照",
+      "image": "images/sheet-ft049-ft051.png",
+      "width": 2170,
+      "height": 725,
+      "columns": 3,
+      "rows": 1,
+      "column_boundaries": [
+        0,
+        724,
+        1446,
+        2170
+      ],
+      "row_boundaries": [
+        0,
+        725
+      ],
+      "origin": "AI 生成的原创脚宽对照图",
+      "prompt": "Use case: scientific-educational. Make a new atlas contact sheet titled by IDs only: exactly THREE EQUAL VERTICAL COLUMNS, 3 cells across, 1 row; wide landscape canvas. Fine gray vertical cell rules at one-third and two-thirds, warm ivory ground, no header. Subject in each cell: one adult human female RIGHT foot in strict overhead dorsal view with toes pointing toward the BOTTOM and big toe at image-left. Same neutral natural skin shade and controlled illustrative style in all three (the supplied FT sheet row is visual style only). All three feet must have identical scale and LENGTH: set heel level and longest toe tip at the same vertical frame locations in all THREE cells, keeping the same moderate toe-length pattern (big toe subtly longest), a heel of about the same width and natural non-fanned toes. Only alter width across the metatarsal heads and forefoot. Column 1 'FT049' narrow forefoot, with a slender outline and modest toe-box width (about 33% of drawn foot's length). Column 2 'FT050' medium-width forefoot (about 38%). Column 3 'FT051' wide forefoot, with a noticeably broader ball and toe box (about 44%) smoothly blending toward the heel; keep toes relaxed and the same length, no deformity or forced splay. Render exactly five distinct naturally attached toes in each foot, each with one short nail and all toe tips fully inside the panel; relaxed neutral pose, no tilted side view, same lighting and subject axis. Show complete toes through the rear-foot/heel area with generous margins around both sides and below. Place EXACTLY 'FT049', 'FT050', 'FT051' at upper left of their respective cells. No other text, arrows, numbers, frames within the panels, rulers, tattoos, socks or shoes. Understated professional human anatomy illustration, fine clean line, soft cel colors like the reference, non-clinical and non-glamour.",
+      "qa_status": "visually_reviewed",
+      "items": [
+        {
+          "entry_id": "FT049",
+          "label": "FT049",
+          "name": "窄脚"
+        },
+        {
+          "entry_id": "FT050",
+          "label": "FT050",
+          "name": "中等脚宽"
+        },
+        {
+          "entry_id": "FT051",
+          "label": "FT051",
+          "name": "宽脚"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "R210",
+      "title": "Difference in Shape and Dimensions between Adult and Children Feet Based on 40.000 3D Scans",
+      "publisher": "3D Body Scanning Technologies",
+      "url": "https://proc.3dbody.tech/papers/2013/13231_47omrec.pdf",
+      "kind": "研究论文",
+      "topics": "埃及脚、希腊脚、罗马脚；趾列与前掌宽度",
+      "summary": "介绍按趾尖轮廓区分三类脚型的做法，并分别记录足长和前掌宽。",
+      "rights": "论文阅读链接；未复制图表或扫描图。",
+      "checked": "2026-11-19"
+    },
+    {
+      "id": "R211",
+      "title": "Three-dimensional quantitative analysis of healthy foot shape: a proof of concept study",
+      "publisher": "Journal of Foot and Ankle Research",
+      "url": "https://link.springer.com/article/10.1186/s13047-018-0251-8",
+      "kind": "研究论文",
+      "topics": "前掌宽度、足宽与趾列的独立变化",
+      "summary": "三维形态分析分别展示足宽、前掌和趾列的变化，可为图鉴中分开观察这些特征提供参考。",
+      "rights": "论文阅读链接；未复制图表或扫描图。",
+      "checked": "2026-11-19"
+    }
+  ]
+}

@@ -9683,7 +9683,14 @@
     "足尖朝向": "Standing toe direction",
     "站立足尖朝向对照": "Standing toe direction comparison",
     "AI 生成的原创站立足向对照图": "AI-generated original standing foot direction study",
-    "对照腿线、腿长比例、局部轮廓与足尖朝向。足尖朝向与膝踝对位分开，可按角色需要搭配。图例用于角色设计。": "Compare leg alignment, proportions, contours and toe direction. Toe direction is a separate choice from knee and ankle alignment. These illustrations are for character design."
+    "对照腿线、腿长比例、局部轮廓与足尖朝向。足尖朝向与膝踝对位分开，可按角色需要搭配。图例用于角色设计。": "Compare leg alignment, proportions, contours and toe direction. Toe direction is a separate choice from knee and ankle alignment. These illustrations are for character design.",
+    "脚趾长度排列": "Toe length patterns",
+    "前掌宽度": "Forefoot width",
+    "等长脚型的前掌宽度对照": "Forefoot widths at the same foot length",
+    "AI 生成的原创脚宽对照图": "AI-generated original foot width studies",
+    "足弓高度": "Foot arch height",
+    "足弓高度侧面对照": "Medial side view comparison of foot arch heights",
+    "AI 生成的原创足弓高度对照图": "AI-generated original foot arch height comparison"
   },
   "entries": {
     "HC001": {
@@ -24607,9 +24614,9 @@
       "design_tip": "The outline, toe tips, toenails, observation angles and movement reference of an adult female foot; the shape changes continuously, the name describes the picture, and does not serve as a health or measurement standard."
     },
     "FT012": {
-      "name": "gentle medial arch silhouette",
-      "description": "The arc at the bottom of the medial surface is relatively gentle, and the heel and forefoot are flat, so no diagnosis is made.",
-      "design_tip": "The outline, toe tips, toenails, observation angles and movement reference of an adult female foot; the shape changes continuously, the name describes the picture, and does not serve as a health or measurement standard."
+      "name": "low foot arch",
+      "description": "In a relaxed standing medial view, the underside of the midfoot is close to the floor but still forms a shallow curve between heel and forefoot.",
+      "design_tip": "Lower and soften the space under the middle of the foot while retaining a small visible curve."
     },
     "FT013": {
       "name": "rounded fuller heel contour",
@@ -24632,24 +24639,24 @@
       "description": "A smooth, soft ankle-to-foot junction retains clear transitions toward the heel and instep."
     },
     "FT017": {
-      "name": "big-toe-longest sequence",
-      "description": "Looking down on one foot of an adult, the big toe is the longest, the second to fifth toes are gradually shorter, and the fifth toe is natural.",
-      "design_tip": "The outline, toe tips, toenails, observation angles and movement reference of an adult female foot; the shape changes continuously, the name describes the picture, and does not serve as a health or measurement standard."
+      "name": "Egyptian foot shape",
+      "description": "The big toe is longest. Each of the other four toes ends progressively farther back, forming a diagonal across the tips.",
+      "design_tip": "Set the big toe tip first, then shorten each subsequent toe along the diagonal while retaining its individual width."
     },
     "FT018": {
-      "name": "second-toe-longest sequence",
-      "description": "In adults, the second toe is slightly longer than the big toe when viewed from above, the remaining toes become shorter successively, and the fifth toe is intact.",
-      "design_tip": "The outline, toe tips, toenails, observation angles and movement reference of an adult female foot; the shape changes continuously, the name describes the picture, and does not serve as a health or measurement standard."
+      "name": "Greek foot shape",
+      "description": "The second toe is slightly longer than the big toe and extends farthest in a top view.",
+      "design_tip": "Place the tip of the second toe first. Set the big toe back slightly and shorten the three outer toes in sequence."
     },
     "FT019": {
-      "name": "near-even first-three toes",
-      "description": "Looking down, the big toe, second toe, and third toe are similar in length, while the fourth and fifth toes are slightly shorter.",
-      "design_tip": "The outline, toe tips, toenails, observation angles and movement reference of an adult female foot; the shape changes continuously, the name describes the picture, and does not serve as a health or measurement standard."
+      "name": "Roman foot shape",
+      "description": "The first three toe tips are roughly level. The fourth and fifth toes are shorter, giving the outer edge a clear taper.",
+      "design_tip": "Align the first three tips loosely and use the shorter outer toes to shape the change in contour."
     },
     "FT020": {
-      "name": "near-even first-two toes",
-      "description": "When viewed from above, the front two toes are similar in length, and the last three toes form a descending arc.",
-      "design_tip": "The outline, toe tips, toenails, observation angles and movement reference of an adult female foot; the shape changes continuously, the name describes the picture, and does not serve as a health or measurement standard."
+      "name": "near-even first two toes",
+      "description": "The first two tips are nearly level, while the third is visibly shorter and the two outer toes shorten further.",
+      "design_tip": "Place the first two toe tips at a similar level and show a clear step from the second to the third."
     },
     "FT021": {
       "name": "rounded toe-tip contour",
@@ -46610,6 +46617,26 @@
       "name": "one foot turned out",
       "description": "One foot faces forward and the other turns a little outward, creating an asymmetric stance.",
       "design_tip": "Set each foot axis independently. Either foot can turn out, provided the other still faces forward."
+    },
+    "FT049": {
+      "name": "narrow foot",
+      "description": "At a comparable foot length, the forefoot and the area at the base of the toes have a narrower outline.",
+      "design_tip": "Match foot length first, then bring the sides of the forefoot inward. Keep the toes and heel in natural proportion."
+    },
+    "FT050": {
+      "name": "medium-width foot",
+      "description": "From the same view, this forefoot is between the narrow and wide examples, with a similar toe pattern.",
+      "design_tip": "Place the longest toe and fix the foot length before adjusting forefoot width separately."
+    },
+    "FT051": {
+      "name": "wide foot",
+      "description": "At a similar foot length, the ball of the foot and the base of the toes extend noticeably farther to the sides.",
+      "design_tip": "Broaden the forefoot across the metatarsal heads and taper smoothly into the midfoot. The toes can stay relaxed."
+    },
+    "FT052": {
+      "name": "flat foot silhouette",
+      "description": "In this standing side view, the inner underside of the midfoot is nearly level with the floor, with little visible gap.",
+      "design_tip": "Draw the heel, midfoot and forefoot along a shared floor line, keeping their natural contour changes."
     }
   },
   "source_hashes": {
@@ -61534,9 +61561,9 @@
       "design_tip": "c99ca1011b3565853150d5affe1e6833f307dcbcbb752fb829b327eb0b024795"
     },
     "FT012": {
-      "name": "0e60a7d5ec76b4b362aaff53256adc299d137ae41ee02e135a201840c737c2ae",
-      "description": "4e7c968b471864426d9ce72516e3c5223dd1adf3cacc92163ed47dfc81774abf",
-      "design_tip": "c99ca1011b3565853150d5affe1e6833f307dcbcbb752fb829b327eb0b024795"
+      "name": "c7cca5742554c1efed7b6a3211e2cec95a4b6bdea268c9ac1ec5aebef9e063f4",
+      "description": "13167f202f81657b88a98168867f18d902f6ac3da3c9d2302abd27bc487a7f4f",
+      "design_tip": "6ad48386330c9f69fd26a897b4e996b9c9246b9c566d5fd709fe7f4df31af8e8"
     },
     "FT013": {
       "name": "c8e18ca214723e5729067f8a455bf64c9cf7269e4d0266a760eb9e1c63d12e6e",
@@ -61559,24 +61586,24 @@
       "description": "75fd964dd4fba11091dd9251eddb7b0598be5120410de1394f7ae86c4bb3f8d8"
     },
     "FT017": {
-      "name": "d6f7438109d3e2424d6d9cea979910ff951d782f787bbe25a0b88b0dc90f15dc",
-      "description": "99bc52d111e755fd73dacc2081b70475087e677658d658837bd843a5d507eed8",
-      "design_tip": "c99ca1011b3565853150d5affe1e6833f307dcbcbb752fb829b327eb0b024795"
+      "name": "49beef3e39f208c0806840307595726b9711cba20247b0889931574a5579843d",
+      "description": "3446a101509a1fd7cb7b00fe202fe65a7a75e5eabd9e2e539255cbe88d1ade95",
+      "design_tip": "060f0304aadaa7934153eceb838d0662fc4b5bdecb26056279cac4b62a337031"
     },
     "FT018": {
-      "name": "ac393fd39c707d9b7ba986b4f4b6e58bc1a8c09dea7db9ad18d7c4759384b913",
-      "description": "6c7339b9c660399a343d68fc703f6e8355634961de39a2ce2d8cf739f7462156",
-      "design_tip": "c99ca1011b3565853150d5affe1e6833f307dcbcbb752fb829b327eb0b024795"
+      "name": "c0898c9539f0c650aca34e780f8d39bf059418cc6ac88bdea0cd6558cc77cf12",
+      "description": "218674d9c58ff298bbdc2756d6cf96b3e164f17714769f788c69a84b96a0c445",
+      "design_tip": "f4d43272e59a4e3b3b8df0511c2b78550b5eba6736ea281d953c859b2eeadb1c"
     },
     "FT019": {
-      "name": "5d292468c1382e452e68b5a7ea8a53181ece409fff9438a8da738f2af915531d",
-      "description": "0fff7c410a8ddab93e0d2fbe27b203753fafec2343884302c0e199f8374d488c",
-      "design_tip": "c99ca1011b3565853150d5affe1e6833f307dcbcbb752fb829b327eb0b024795"
+      "name": "42b6d15f0c1cfd8aabf9dcac17f4dec849778e4e4b7b9407356b061125378868",
+      "description": "36d3a4c7164175a12df37c809ee6c63f58101181ca535c61274a7f41f90360bd",
+      "design_tip": "da24ac0293c5479634d075210b927fcd12a2258cc4601c54723e933b54fefc0e"
     },
     "FT020": {
-      "name": "fbb946ed60344a29d21542e5595ab0315d1efbc4140461d7b76f6cef5c64c553",
-      "description": "9025baac175eec6fcd35a9aa85ce0d6642b5889b795e7f608ded3fa516cb3c0f",
-      "design_tip": "c99ca1011b3565853150d5affe1e6833f307dcbcbb752fb829b327eb0b024795"
+      "name": "5d893061c17c6aab6a07ce11c5250c69f626ed1111973fdc45481c8fef285c9c",
+      "description": "65e95248d6ca676147dce73b1d2221141b3499a0da77db642708b04a15522fa7",
+      "design_tip": "4abd697986daf02bd97ec900b8ebf95dde256b5ea7187c7ef4775b609bb3c029"
     },
     "FT021": {
       "name": "3762a8e399359db972fb957af4457581ba2371be93f121755f30a94c9347beb1",
@@ -83537,6 +83564,26 @@
       "name": "225a05285219ab2e7ec6bc70032a2e2588dec9d0c6d1987c8cd74424280f7413",
       "description": "3aa5d6d54fa0bd41c983fb50ed204886d5bb3ba47e7345b70bd45925f0671f54",
       "design_tip": "a4812a11a42b06434edb47d117c566dfd2e4eca7fa7410bc33761e25637d073f"
+    },
+    "FT049": {
+      "name": "07ca877b73b67622c28004f3bb7f216f812ea9b7d5da9bbb0e898fb0e27aa47b",
+      "description": "780a859cf777be3914f832e21a1ca4b6647d2b41c053e7efe3f2cd5aa5a18a55",
+      "design_tip": "120abacc6b5c16e753d805d1eec113e6f6d765a5a14bd02118a31c129dc1f74c"
+    },
+    "FT050": {
+      "name": "f86797e0f86b3fc0cdeb020e40ae4d19da73f41578ef8399b4e88de46f319a84",
+      "description": "ff312ac70e77a53e04f85ebd752d9a5ff19fb06b62c5a88b5b0c896aec3b71e4",
+      "design_tip": "f6d3f2460789eb34d864663e0337261093d5c7a69b17f8c72f10eecf45d0673c"
+    },
+    "FT051": {
+      "name": "d5cffc30272be9791ba14efdc94e7b3933f18b396426d2235a577c1f89a2d3ba",
+      "description": "0f4d5914c993ccd6f02e7cccf6422e5995373eee993aa2608b98331155b4cf67",
+      "design_tip": "67a69108e900eae213e1370657012db57873aaeae7b7938b59bb44f1c874f72a"
+    },
+    "FT052": {
+      "name": "143444ec9ef2e3086d23311653b3f2332b22e6e18c41884e6050ead4dd6bb311",
+      "description": "bece8ddd68c144d3451a067e38690e25c34030882e17abd0da2501a6ab939a0d",
+      "design_tip": "b321bd7ff232c6d1792a6fc8ae2c4d9ab2f3d01c8561e3919b813c8fa76dee5f"
     }
   },
   "review": {
@@ -120464,6 +120511,26 @@
       "name": "draft",
       "description": "draft",
       "design_tip": "draft"
+    },
+    "FT049": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FT050": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FT051": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
+    },
+    "FT052": {
+      "name": "draft",
+      "description": "draft",
+      "design_tip": "draft"
     }
   },
   "translation_provenance": {
@@ -121222,6 +121289,13 @@
     "足尖朝向": "draft",
     "站立足尖朝向对照": "draft",
     "AI 生成的原创站立足向对照图": "draft",
-    "对照腿线、腿长比例、局部轮廓与足尖朝向。足尖朝向与膝踝对位分开，可按角色需要搭配。图例用于角色设计。": "draft"
+    "对照腿线、腿长比例、局部轮廓与足尖朝向。足尖朝向与膝踝对位分开，可按角色需要搭配。图例用于角色设计。": "draft",
+    "脚趾长度排列": "draft",
+    "前掌宽度": "draft",
+    "等长脚型的前掌宽度对照": "draft",
+    "AI 生成的原创脚宽对照图": "draft",
+    "足弓高度": "draft",
+    "足弓高度侧面对照": "draft",
+    "AI 生成的原创足弓高度对照图": "draft"
   }
 }

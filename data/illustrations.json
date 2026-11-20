@@ -19587,7 +19587,7 @@
       {
         "label": "FT012",
         "entry_id": "FT012",
-        "name": "内侧足弓平缓侧影"
+        "name": "低足弓"
       },
       {
         "label": "FT013",
@@ -19632,7 +19632,7 @@
     "category": "feet",
     "dimension": "趾端与趾甲形状",
     "title": "足部形态与绘画 趾端与趾甲形状",
-    "image": "images/sheet-ft017-ft032.png",
+    "image": "images/sheet-ft017-ft032-v2.png",
     "columns": 4,
     "rows": 4,
     "prompt": "Use case: scientific-educational.\nAsset type: specific illustrated catalog contact sheet for original female anime/game character designs.\nPrimary request: illustrate every listed feature faithfully, each as a DISTINCT reference example.\nLayout: EXACTLY 4 equal columns and 4 equal rows in a regular rectangular grid. Cells read left to right then top to bottom. 16 illustrated cells; any remaining trailing cells must be completely blank. Each cell is self-contained with generous gutters. Exact cell ID in small crisp dark sans-serif type at the top left. No other text, no title, no watermark, no logos.\nStyle: polished professional anime production reference drawings; fine clean outlines, restrained flat colors with minimal cel shadows, light warm ivory background. Detailed enough to identify the named feature. Consistent drawing quality; Adult women aged 25+ where a person is needed; product objects and adult neutral forms where specified, with diverse natural skin tones where relevant. Clothes and bodies fully visible within their specified framing, no overlapping cells, no cropped feet, no generic placeholder symbols.\nSubject direction: Neutral ART DRAWING reference studies of ADULT female feet aged 25+, realistic restrained anatomical line drawing with simple cel shadows, clinical classroom composition. Frame just lower shin through complete foot/feet, correct five toes per foot where visible, normal natural joints, no excessive toe length or missing toes, correct hidden-toe occlusion for side views. Top-view shape and toe group use consistent scale and camera so actual differences read clearly. Show specified side/rear view or natural action precisely; two-foot poses include ground contact and natural support. Nail examples are ordinary SHORT toenails. No jewelry, hosiery, shoes or makeup unless short nail color explicitly stated; no erotic, glamour or fetish framing, licking, touching by other people, injury, anatomical cutaway or medical diagnosis. These are adult artistic variations and view studies, not health classifications.\nSpecific ordered cells:\nCell 1, label FT017: big-toe-longest sequence / 大趾较长递降趾列. Visible feature: 成人单足俯视，大趾最长，第二至第五趾依次渐短，五趾自然。\nCell 2, label FT018: second-toe-longest sequence / 第二趾较长趾列. Visible feature: 成人俯视第二趾略长于大趾，其余趾逐次变短，五趾完整。\nCell 3, label FT019: near-even first-three toes / 前三趾近齐趾列. Visible feature: 俯视大趾、二趾、三趾长度相近，四五趾略短。\nCell 4, label FT020: near-even first-two toes / 前二趾近齐趾列. Visible feature: 俯视前两趾长度相近，后三趾形成下降弧线。\nCell 5, label FT021: rounded toe-tip contour / 圆钝趾端轮廓. Visible feature: 五趾前端偏圆钝，趾缝和正常趾甲可见，成人局部绘画。\nCell 6, label FT022: slightly square toe-tip contour / 略方趾端轮廓. Visible feature: 五趾端线偏平缓方圆，边角柔和，非变形或病理。\nCell 7, label FT023: slender toe proportion study / 细长趾节比例. Visible feature: 趾节示例较细长，关节线自然，五趾从前掌连续生长。\nCell 8, label FT024: short rounded toe proportion study / 短圆趾节比例. Visible feature: 趾节示例较短圆，前掌与五趾端保持自然连接。\nCell 9, label FT025: short rounded natural toenails / 短圆自然趾甲. Visible feature: 成人五趾俯视局部，趾甲短圆，甲面与皮肤边缘清楚。\nCell 10, label FT026: short squoval toenails / 方圆短趾甲. Visible feature: 五趾短甲前端平直、角部圆润，长宽比例自然。\nCell 11, label FT027: short oval toenails / 短椭圆趾甲. Visible feature: 五趾短甲轮廓近椭圆，甲面无过长尖端。\nCell 12, label FT028: narrow nail-plate proportion / 窄长甲面比例. Visible feature: 成人趾部绘画，甲面纵向略长、横向窄，仍为短甲。\nCell 13, label FT029: wide short nail-plate proportion / 宽短甲面比例. Visible feature: 成人趾部绘画，甲面横向较宽、纵向短，正常简化形态。\nCell 14, label FT030: solid-color short toenails / 纯色短甲表面. Visible feature: 五趾短甲涂单一低饱和色，甲面边缘与趾端清楚。\nCell 15, label FT031: thin-edge two-tone toenails / 细边双色趾甲. Visible feature: 短甲底色与极细前缘异色，五趾甲面完整，成人装饰参考。\nCell 16, label FT032: single-dot toenail motif / 单点小图案趾甲. Visible feature: 短甲上原创单点或小圆形装饰，五趾自然排列，不堆叠复杂饰物。\nCritical constraints: Do not substitute a generic example. The named feature must actually be observable. Read the Chinese feature description if the English phrase is ambiguous. Keep visible structural differences. No character brands or franchise resemblance.",
@@ -19644,22 +19644,22 @@
       {
         "label": "FT017",
         "entry_id": "FT017",
-        "name": "大趾较长递降趾列"
+        "name": "埃及脚"
       },
       {
         "label": "FT018",
         "entry_id": "FT018",
-        "name": "第二趾较长趾列"
+        "name": "希腊脚"
       },
       {
         "label": "FT019",
         "entry_id": "FT019",
-        "name": "前三趾近齐趾列"
+        "name": "罗马脚"
       },
       {
         "label": "FT020",
         "entry_id": "FT020",
-        "name": "前二趾近齐趾列"
+        "name": "前两趾近齐"
       },
       {
         "label": "FT021",
@@ -19722,8 +19722,8 @@
         "name": "单点小图案趾甲"
       }
     ],
-    "qa_date": "2026-10-14",
-    "qa_notes": "五趾、趾端及短趾甲均完整，前趾长度和甲形可辨。",
+    "qa_date": "2026-11-19",
+    "qa_notes": "重新绘制 FT017–FT020，核对五趾及趾尖序列；行列边界与原图一致，其余12格像素保持原样。",
     "column_boundaries": [
       0,
       306,
@@ -19737,6 +19737,23 @@
       632,
       943,
       1286
+    ],
+    "edit_history": [
+      {
+        "date": "2026-11-19",
+        "image": "images/sheet-ft017-ft032-v2.png",
+        "reference_image": "images/sheet-ft017-ft032.png",
+        "entry_ids": [
+          "FT017",
+          "FT018",
+          "FT019",
+          "FT020"
+        ],
+        "prompt": "Use case: scientific-educational. Generate a NEW neutral character design reference sheet in square 2 by 2 contact-sheet layout, using the attached four-panel strip only as a STYLE and crop reference. Two equal-width columns and two equal-height rows, thin rule exactly at x=50% y=50%, warm ivory background. Each cell is a dorsally viewed single adult female RIGHT foot of the same scale, big toe on IMAGE LEFT, heel and ankle toward the TOP and five toe tips toward the BOTTOM. All five toes must look naturally attached, with exactly five natural short nails, no extra toes, no flexing or perspective foreshortening of individual toes. Use the GENERATION SPEC below and DO NOT copy the source strip's mismatched toe lengths. In this downward-pointing foot silhouette, 'longer' means the tip reaches LOWER on the canvas. TOP LEFT FT017 Egyptian type: the big toe ends LOWEST; the second tip ends clearly 5–8% foot length ABOVE the big-toe tip; third, fourth, fifth tips STEP PROGRESSIVELY UP. Five distinct tips follow a smooth diagonal rising toward image right. TOP RIGHT FT018 Greek type: the SECOND TOE next to the big toe ends clearly LOWEST (about 4–5% foot length below big-toe tip); big toe next longest, then third, fourth, fifth. BOTTOM LEFT FT019 Roman type: tips of the big toe, second toe AND third toe end on nearly the SAME horizontal line; fourth and fifth are clearly shorter. BOTTOM RIGHT FT020 even first-two: ONLY big toe and second toe end at nearly the same lower level, with the third visibly 5–7% foot length above that level, then fourth and fifth step higher. Match creamy ground, calm anatomical illustration, fine outlines, unobtrusive dark upper-left typography, and adult proportions of the reference. Render the toe length relationships unmistakable but human and natural. Center each foot in its own cell with the entire foot's five tips fully visible and generous space below. Exact upper-left codes only: 'FT017', 'FT018', 'FT019', 'FT020'. No other text, rulers, arrows, decoration or watermark.",
+        "egyptian_refinement_prompt": "Use case: precise-object-edit. This source image contains a normal RIGHT foot drawing with exactly five existing toes and five nails. Make a minimal edit. Replace ONLY the label FT050 with 'FT017' and change the first toe (the large leftmost toe, with the biggest nail) to be slightly longer: lengthen the end of that single existing big toe downwards 20 pixels in this framing, moving its nail down a little. Do not redraw, add, delete, reposition, or split any of the four remaining existing toes. The original four slender nails to the right are unchanged. Final row of nails must stay exactly five. Image geometry, camera, ankle, skin tone, paper, borders, scale and normal anatomy all stay identical. Target is a plain textbook illustration of the Egyptian toe pattern, where the tip of the existing big toe extends farther than the existing second toe, then the next four tips progressively shorten. Only one big toe and four smaller toes. Keep full toes visible, no text except 'FT017'.",
+        "greek_refinement_prompt": "Use case: precise-object-edit. Make a strictly localized correction to this existing five-toed adult right-foot atlas drawing. Keep the same NO EXTRA TOE anatomy: one broad big toe at far left plus the same four narrow toes to its right. Replace the code FT050 with 'FT018'. Illustrate the Greek pattern by lengthening ONLY toe #2, the slender toe immediately to the right of the large leftmost toe, approximately 25 pixels down the page in this framing; move its small nail down to stay near its tip. The SECOND toe must become the lowest tip in the image, with a modest but clearly visible lead over the existing big toe. After this, the next three toes toward the right stay as in the reference; do not draw more than one nail on any toe. There are five toes and exactly five nails total. All other toe lengths, contours, background, controlled foot framing, camera, anatomy, lighting and position remain as supplied. Only one cropped foot, one exact ID 'FT018', no further text, no decoration.",
+        "assembly": "Replace only cells 1–4 in row 1 with newly illustrated tiles at the existing measured boundaries. Rows 2–4 remain pixel-identical."
+      }
     ]
   },
   {
@@ -56661,6 +56678,81 @@
         "entry_id": "AF012",
         "label": "AF012",
         "name": "半写实立体五官脸"
+      }
+    ]
+  },
+  {
+    "id": "forefoot-width-comparison",
+    "category": "feet",
+    "title": "等长脚型的前掌宽度对照",
+    "image": "images/sheet-ft049-ft051.png",
+    "width": 2170,
+    "height": 725,
+    "columns": 3,
+    "rows": 1,
+    "column_boundaries": [
+      0,
+      724,
+      1446,
+      2170
+    ],
+    "row_boundaries": [
+      0,
+      725
+    ],
+    "origin": "AI 生成的原创脚宽对照图",
+    "prompt": "Use case: scientific-educational. Make a new atlas contact sheet titled by IDs only: exactly THREE EQUAL VERTICAL COLUMNS, 3 cells across, 1 row; wide landscape canvas. Fine gray vertical cell rules at one-third and two-thirds, warm ivory ground, no header. Subject in each cell: one adult human female RIGHT foot in strict overhead dorsal view with toes pointing toward the BOTTOM and big toe at image-left. Same neutral natural skin shade and controlled illustrative style in all three (the supplied FT sheet row is visual style only). All three feet must have identical scale and LENGTH: set heel level and longest toe tip at the same vertical frame locations in all THREE cells, keeping the same moderate toe-length pattern (big toe subtly longest), a heel of about the same width and natural non-fanned toes. Only alter width across the metatarsal heads and forefoot. Column 1 'FT049' narrow forefoot, with a slender outline and modest toe-box width (about 33% of drawn foot's length). Column 2 'FT050' medium-width forefoot (about 38%). Column 3 'FT051' wide forefoot, with a noticeably broader ball and toe box (about 44%) smoothly blending toward the heel; keep toes relaxed and the same length, no deformity or forced splay. Render exactly five distinct naturally attached toes in each foot, each with one short nail and all toe tips fully inside the panel; relaxed neutral pose, no tilted side view, same lighting and subject axis. Show complete toes through the rear-foot/heel area with generous margins around both sides and below. Place EXACTLY 'FT049', 'FT050', 'FT051' at upper left of their respective cells. No other text, arrows, numbers, frames within the panels, rulers, tattoos, socks or shoes. Understated professional human anatomy illustration, fine clean line, soft cel colors like the reference, non-clinical and non-glamour.",
+    "qa_status": "visually_reviewed",
+    "items": [
+      {
+        "entry_id": "FT049",
+        "label": "FT049",
+        "name": "窄脚"
+      },
+      {
+        "entry_id": "FT050",
+        "label": "FT050",
+        "name": "中等脚宽"
+      },
+      {
+        "entry_id": "FT051",
+        "label": "FT051",
+        "name": "宽脚"
+      }
+    ]
+  },
+  {
+    "id": "medial-foot-arch-heights",
+    "category": "feet",
+    "dimension": "足弓高度",
+    "title": "足弓高度侧面对照",
+    "image": "images/sheet-ft-flat-and-low-arches.png",
+    "width": 1254,
+    "height": 627,
+    "columns": 2,
+    "rows": 1,
+    "column_boundaries": [
+      0,
+      627,
+      1254
+    ],
+    "row_boundaries": [
+      0,
+      627
+    ],
+    "origin": "AI 生成的原创足弓高度对照图",
+    "prompt": "Kept the full top row, x=0, y=0, width=1254, height=627, from the original project-owned generated sheet. The flat and low arch panels remain pixel-identical; the bottom row is omitted.",
+    "qa_status": "visually_reviewed",
+    "items": [
+      {
+        "entry_id": "FT052",
+        "label": "FT052",
+        "name": "扁平足"
+      },
+      {
+        "entry_id": "FT012",
+        "label": "FT012",
+        "name": "低足弓"
       }
     ]
   },

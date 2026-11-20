@@ -1309,20 +1309,30 @@
     "mime": "image/png",
     "file": "images/export-data/ae07a9768628-b11fea57f5d2.js"
   },
+  "images/sheet-ft-flat-and-low-arches.png": {
+    "source_sha256": "e74064f4ff036c9f2fea89e90c9502b65d2ea46d24849258995f873e26e676d2",
+    "mime": "image/png",
+    "file": "images/export-data/5a69a04a6e99-e74064f4ff03.js"
+  },
   "images/sheet-ft001-ft016.png": {
     "source_sha256": "78561decd9667b51721a34cc21c76b5c37ebf9f34b3551e544e22980ba4fca8d",
     "mime": "image/webp",
     "file": "images/export-data/00cbae364709-78561decd966.js"
   },
-  "images/sheet-ft017-ft032.png": {
-    "source_sha256": "3c78ba1c7c98be713f49bd491ed6d0a507f2d503f1e770c479c78fab80fc909f",
-    "mime": "image/webp",
-    "file": "images/export-data/bb9488b566d8-3c78ba1c7c98.js"
+  "images/sheet-ft017-ft032-v2.png": {
+    "source_sha256": "7319070da801d1f788abc8b2618b5b5beb6b408e71b33339c1e46bbc22f09e3f",
+    "mime": "image/png",
+    "file": "images/export-data/bd6b025a4798-7319070da801.js"
   },
   "images/sheet-ft033-ft048.png": {
     "source_sha256": "246755e0b7ae45d981501c9a708473fc72bca46a32916992a72851fadea78a3c",
     "mime": "image/webp",
     "file": "images/export-data/d6349440ce3f-246755e0b7ae.js"
+  },
+  "images/sheet-ft049-ft051.png": {
+    "source_sha256": "7eb7b2839118cec930d83e08271d5d191264939e1cee4d312fbaf4175daf2ee6",
+    "mime": "image/png",
+    "file": "images/export-data/66b82c0816f9-7eb7b2839118.js"
   },
   "images/sheet-fw001-fw018.png": {
     "source_sha256": "57ff577a15e8c3e3a1cff71dd5d0d9c44668033c6f0a144d83442c62159ed3c9",
